@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorMetricAlertCriteriaList) validateGetParameters(index *
 	return nil
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorMetricAlertCriteriaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_MonitorMetricAlertCriteriaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorMetricAlertCriteriaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewMonitorMetricAlertCriteriaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorMetricAlertCriteriaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package dnszone
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dnszone/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dnszone/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DnsZoneSoaRecordOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -60,9 +60,9 @@ type DnsZoneSoaRecordOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Ttl() *float64
 	SetTtl(val *float64)
 	TtlInput() *float64
@@ -71,7 +71,7 @@ type DnsZoneSoaRecordOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,9 +87,9 @@ type DnsZoneSoaRecordOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExpireTime()
 	ResetMinimumTtl()
 	ResetRefreshTime()
@@ -99,7 +99,7 @@ type DnsZoneSoaRecordOutputReference interface {
 	ResetTtl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -109,7 +109,7 @@ type DnsZoneSoaRecordOutputReference interface {
 
 // The jsii proxy struct for DnsZoneSoaRecordOutputReference
 type jsiiProxy_DnsZoneSoaRecordOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DnsZoneSoaRecordOutputReference) ComplexObjectIndex() interface{} {
@@ -332,8 +332,8 @@ func (j *jsiiProxy_DnsZoneSoaRecordOutputReference) TerraformAttribute() *string
 	return returns
 }
 
-func (j *jsiiProxy_DnsZoneSoaRecordOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DnsZoneSoaRecordOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -363,7 +363,7 @@ func (j *jsiiProxy_DnsZoneSoaRecordOutputReference) TtlInput() *float64 {
 }
 
 
-func NewDnsZoneSoaRecordOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DnsZoneSoaRecordOutputReference {
+func NewDnsZoneSoaRecordOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DnsZoneSoaRecordOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDnsZoneSoaRecordOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -380,7 +380,7 @@ func NewDnsZoneSoaRecordOutputReference(terraformResource cdktf.IInterpolatingPa
 	return &j
 }
 
-func NewDnsZoneSoaRecordOutputReference_Override(d DnsZoneSoaRecordOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDnsZoneSoaRecordOutputReference_Override(d DnsZoneSoaRecordOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -511,7 +511,7 @@ func (j *jsiiProxy_DnsZoneSoaRecordOutputReference)SetTerraformAttribute(val *st
 	)
 }
 
-func (j *jsiiProxy_DnsZoneSoaRecordOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DnsZoneSoaRecordOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -562,11 +562,11 @@ func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -690,8 +690,8 @@ func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) GetStringMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -703,11 +703,11 @@ func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) InterpolationAsList() cdktf.
 	return returns
 }
 
-func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -775,7 +775,7 @@ func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) ResetTtl() {
 	)
 }
 
-func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DnsZoneSoaRecordOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

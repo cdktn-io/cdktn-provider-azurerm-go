@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisAccessPolicyAssignment) validateSetIdP
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedisAccessPolicyAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermManagedRedisAccessPolicyAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

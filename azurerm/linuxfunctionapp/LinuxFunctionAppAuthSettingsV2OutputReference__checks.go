@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -131,7 +131,7 @@ func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validatePutCus
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*LinuxFunctionAppAuthSettingsV2CustomOidcV2:
 		value := value.(*[]*LinuxFunctionAppAuthSettingsV2CustomOidcV2)
@@ -150,7 +150,7 @@ func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validatePutCus
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*LinuxFunctionAppAuthSettingsV2CustomOidcV2; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*LinuxFunctionAppAuthSettingsV2CustomOidcV2; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -223,7 +223,7 @@ func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validatePutTwi
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -240,11 +240,11 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateSetAut
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -389,11 +389,11 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateSetReq
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -409,11 +409,11 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateSetReq
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -436,7 +436,7 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -452,7 +452,7 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2OutputReference) validateSetUna
 	return nil
 }
 
-func validateNewLinuxFunctionAppAuthSettingsV2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxFunctionAppAuthSettingsV2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

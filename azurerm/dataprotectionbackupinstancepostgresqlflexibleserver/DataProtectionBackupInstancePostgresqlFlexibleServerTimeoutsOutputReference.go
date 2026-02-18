@@ -5,14 +5,14 @@ package dataprotectionbackupinstancepostgresqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataprotectionbackupinstancepostgresqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataprotectionbackupinstancepostgresqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference
 
 // The jsii proxy struct for DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference
 type jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 }
 
 
-func NewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference {
+func NewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputRefere
 	return &j
 }
 
-func NewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference_Override(d DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference_Override(d DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	)
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	)
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

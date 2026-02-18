@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleStreamDeclarationColumnLi
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleStreamDeclarationColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleStreamDeclarationColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleStreamDeclarationColumnLi
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleStreamDeclarationColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleStreamDeclarationColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleStreamDeclarationColumnLi
 	return nil
 }
 
-func validateNewDataAzurermMonitorDataCollectionRuleStreamDeclarationColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMonitorDataCollectionRuleStreamDeclarationColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

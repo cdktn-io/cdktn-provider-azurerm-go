@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItemsInv
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItemsInventoryItemsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItemsInventoryItemsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItemsInv
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItemsInventoryItemsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItemsInventoryItemsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItemsInv
 	return nil
 }
 
-func validateNewDataAzurermSystemCenterVirtualMachineManagerInventoryItemsInventoryItemsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSystemCenterVirtualMachineManagerInventoryItemsInventoryItemsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package cdnfrontdoorsecuritypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorsecuritypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnfrontdoorsecuritypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReferenc
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,13 +66,13 @@ type CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReferenc
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDomain(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReferenc
 
 // The jsii proxy struct for CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference
 type jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociation
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociation
 }
 
 
-func NewCdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference {
+func NewCdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewCdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputRefer
 	return &j
 }
 
-func NewCdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference_Override(c CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference_Override(c CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociation
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -318,11 +318,11 @@ func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociation
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -446,8 +446,8 @@ func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociation
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -459,11 +459,11 @@ func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociation
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -486,7 +486,7 @@ func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociation
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesFirewallAssociationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

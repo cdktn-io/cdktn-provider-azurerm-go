@@ -47,7 +47,7 @@ func (l *jsiiProxy_LighthouseAssignmentTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (l *jsiiProxy_LighthouseAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LighthouseAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_LighthouseAssignmentTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_LighthouseAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LighthouseAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLighthouseAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLighthouseAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

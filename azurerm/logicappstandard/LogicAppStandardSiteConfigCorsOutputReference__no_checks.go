@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogicAppStandardSiteConfigCorsOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppStandardSiteConfigCorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppStandardSiteConfigCorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigCorsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppStandardSiteConfigCorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppStandardSiteConfigCorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLogicAppStandardSiteConfigCorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogicAppStandardSiteConfigCorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_ContainerAppCustomDomain) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppCustomDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerAppCustomDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

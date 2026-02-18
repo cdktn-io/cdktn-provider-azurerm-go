@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDevCenterCatalogCatalogAdogitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDevCenterCatalogCatalogAdogitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubEnrichmentOutputReference) validateInterpolationForAttr
 	return nil
 }
 
-func (i *jsiiProxy_IothubEnrichmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubEnrichmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IothubEnrichmentOutputReference) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_IothubEnrichmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubEnrichmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IothubEnrichmentOutputReference) validateSetValueParameters(v
 	return nil
 }
 
-func validateNewIothubEnrichmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIothubEnrichmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

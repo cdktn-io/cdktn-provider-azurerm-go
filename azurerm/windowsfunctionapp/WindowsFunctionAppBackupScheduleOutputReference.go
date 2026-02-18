@@ -5,14 +5,14 @@ package windowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsFunctionAppBackupScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -53,15 +53,15 @@ type WindowsFunctionAppBackupScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,15 +77,15 @@ type WindowsFunctionAppBackupScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKeepAtLeastOneBackup()
 	ResetRetentionPeriodDays()
 	ResetStartTime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type WindowsFunctionAppBackupScheduleOutputReference interface {
 
 // The jsii proxy struct for WindowsFunctionAppBackupScheduleOutputReference
 type jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -268,8 +268,8 @@ func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -279,7 +279,7 @@ func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) TerraformRes
 }
 
 
-func NewWindowsFunctionAppBackupScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsFunctionAppBackupScheduleOutputReference {
+func NewWindowsFunctionAppBackupScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsFunctionAppBackupScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsFunctionAppBackupScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -296,7 +296,7 @@ func NewWindowsFunctionAppBackupScheduleOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewWindowsFunctionAppBackupScheduleOutputReference_Override(w WindowsFunctionAppBackupScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsFunctionAppBackupScheduleOutputReference_Override(w WindowsFunctionAppBackupScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -405,7 +405,7 @@ func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -445,11 +445,11 @@ func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -573,8 +573,8 @@ func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) GetStringMap
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -586,11 +586,11 @@ func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) Interpolatio
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -626,7 +626,7 @@ func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) ResetStartTi
 	)
 }
 
-func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightSparkClusterDiskEncryptionOutputReference) validateI
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterDiskEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightSparkClusterDiskEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_HdinsightSparkClusterDiskEncryptionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterDiskEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightSparkClusterDiskEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightSparkClusterDiskEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHdinsightSparkClusterDiskEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

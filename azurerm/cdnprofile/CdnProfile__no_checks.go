@@ -107,7 +107,7 @@ func (j *jsiiProxy_CdnProfile) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_CdnProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CdnProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

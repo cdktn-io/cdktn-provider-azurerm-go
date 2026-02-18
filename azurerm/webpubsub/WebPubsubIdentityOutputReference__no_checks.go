@@ -47,7 +47,7 @@ func (w *jsiiProxy_WebPubsubIdentityOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WebPubsubIdentityOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WebPubsubIdentityOutputReference) validateSetTypeParameters(v
 	return nil
 }
 
-func validateNewWebPubsubIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWebPubsubIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

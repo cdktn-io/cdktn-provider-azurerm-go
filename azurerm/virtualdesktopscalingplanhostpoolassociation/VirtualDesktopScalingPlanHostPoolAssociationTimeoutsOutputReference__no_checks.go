@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputRef
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputRef
 	return nil
 }
 
-func validateNewVirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualDesktopScalingPlanHostPoolAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

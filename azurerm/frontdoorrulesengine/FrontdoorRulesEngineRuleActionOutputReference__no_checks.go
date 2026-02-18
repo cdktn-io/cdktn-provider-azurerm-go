@@ -55,7 +55,7 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleActionOutputReference) validatePutRes
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorRulesEngineRuleActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorRulesEngineRuleActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorRulesEngineRuleActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFrontdoorRulesEngineRuleActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFrontdoorRulesEngineRuleActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConf
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConf
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationGatewayRewriteRuleSetRewriteRuleResponseHeaderConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package machinelearningcomputeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearningcomputeinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/machinelearningcomputeinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MachineLearningComputeInstanceIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type MachineLearningComputeInstanceIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -53,7 +53,7 @@ type MachineLearningComputeInstanceIdentityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,13 +69,13 @@ type MachineLearningComputeInstanceIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIdentityIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type MachineLearningComputeInstanceIdentityOutputReference interface {
 
 // The jsii proxy struct for MachineLearningComputeInstanceIdentityOutputReference
 type jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) ComplexObjectIndex() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) TypeIn
 }
 
 
-func NewMachineLearningComputeInstanceIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MachineLearningComputeInstanceIdentityOutputReference {
+func NewMachineLearningComputeInstanceIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MachineLearningComputeInstanceIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMachineLearningComputeInstanceIdentityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewMachineLearningComputeInstanceIdentityOutputReference(terraformResource 
 	return &j
 }
 
-func NewMachineLearningComputeInstanceIdentityOutputReference_Override(m MachineLearningComputeInstanceIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMachineLearningComputeInstanceIdentityOutputReference_Override(m MachineLearningComputeInstanceIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -301,7 +301,7 @@ func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -352,11 +352,11 @@ func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) GetAny
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -480,8 +480,8 @@ func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) GetStr
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -493,11 +493,11 @@ func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) Interp
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -517,7 +517,7 @@ func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) ResetI
 	)
 }
 
-func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MachineLearningComputeInstanceIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

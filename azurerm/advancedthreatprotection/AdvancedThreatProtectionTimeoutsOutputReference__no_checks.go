@@ -47,7 +47,7 @@ func (a *jsiiProxy_AdvancedThreatProtectionTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_AdvancedThreatProtectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AdvancedThreatProtectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AdvancedThreatProtectionTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_AdvancedThreatProtectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AdvancedThreatProtectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AdvancedThreatProtectionTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewAdvancedThreatProtectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAdvancedThreatProtectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

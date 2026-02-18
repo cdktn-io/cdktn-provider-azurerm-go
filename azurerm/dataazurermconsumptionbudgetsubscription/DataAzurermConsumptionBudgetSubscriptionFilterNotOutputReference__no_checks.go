@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionFilterNotOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionFilterNotOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionFilterNotOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionFilterNotOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionFilterNotOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionFilterNotOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermConsumptionBudgetSubscriptionFilterNotOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermConsumptionBudgetSubscriptionFilterNotOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

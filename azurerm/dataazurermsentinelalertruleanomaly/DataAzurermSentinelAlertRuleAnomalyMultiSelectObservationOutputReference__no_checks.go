@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutp
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutp
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermSentinelAlertRuleAnomalyMultiSelectObservationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

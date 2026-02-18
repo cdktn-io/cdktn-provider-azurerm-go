@@ -5,18 +5,18 @@ package dataazurermpublicmaintenanceconfigurations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermpublicmaintenanceconfigurations/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermpublicmaintenanceconfigurations/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations}.
 type DataAzurermPublicMaintenanceConfigurations interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Configs() DataAzurermPublicMaintenanceConfigurationsConfigsList
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -29,9 +29,9 @@ type DataAzurermPublicMaintenanceConfigurations interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -40,18 +40,18 @@ type DataAzurermPublicMaintenanceConfigurations interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	RecurEvery() *string
@@ -61,7 +61,7 @@ type DataAzurermPublicMaintenanceConfigurations interface {
 	SetScope(val *string)
 	ScopeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -73,7 +73,7 @@ type DataAzurermPublicMaintenanceConfigurations interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -89,7 +89,7 @@ type DataAzurermPublicMaintenanceConfigurations interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -118,11 +118,11 @@ type DataAzurermPublicMaintenanceConfigurations interface {
 
 // The jsii proxy struct for DataAzurermPublicMaintenanceConfigurations
 type jsiiProxy_DataAzurermPublicMaintenanceConfigurations struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -171,8 +171,8 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) DependsOn() *[]*s
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -221,8 +221,8 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) IdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -261,8 +261,8 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) Node() constructs
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -321,8 +321,8 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) ScopeInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -420,7 +420,7 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetDependsOn(val *
 	)
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -439,7 +439,7 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetId(val *string)
 	)
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -461,7 +461,7 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetLocation(val *s
 	)
 }
 
-func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -491,14 +491,14 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations)SetScope(val *stri
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermPublicMaintenanceConfigurations resource upon running "cdktf plan <stack-name>".
-func DataAzurermPublicMaintenanceConfigurations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermPublicMaintenanceConfigurations resource upon running "cdktn plan <stack-name>".
+func DataAzurermPublicMaintenanceConfigurations_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermPublicMaintenanceConfigurations_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermPublicMaintenanceConfigurations.DataAzurermPublicMaintenanceConfigurations",
@@ -621,11 +621,11 @@ func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) GetAnyMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -749,11 +749,11 @@ func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) GetStringMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

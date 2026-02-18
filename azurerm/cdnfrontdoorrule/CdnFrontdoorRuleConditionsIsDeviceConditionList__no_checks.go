@@ -15,7 +15,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsIsDeviceConditionList) validateGetP
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsIsDeviceConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsIsDeviceConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsIsDeviceConditionList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsIsDeviceConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsIsDeviceConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsIsDeviceConditionList) validateSetW
 	return nil
 }
 
-func validateNewCdnFrontdoorRuleConditionsIsDeviceConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCdnFrontdoorRuleConditionsIsDeviceConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupInstanceDiskTimeoutsOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstanceDiskTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupInstanceDiskTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceDiskTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceDiskTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupInstanceDiskTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceDiskTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewDataProtectionBackupInstanceDiskTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupInstanceDiskTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

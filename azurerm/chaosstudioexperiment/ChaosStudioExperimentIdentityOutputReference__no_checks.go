@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChaosStudioExperimentIdentityOutputReference) validateInterpo
 	return nil
 }
 
-func (c *jsiiProxy_ChaosStudioExperimentIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChaosStudioExperimentIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ChaosStudioExperimentIdentityOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ChaosStudioExperimentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChaosStudioExperimentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ChaosStudioExperimentIdentityOutputReference) validateSetType
 	return nil
 }
 
-func validateNewChaosStudioExperimentIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChaosStudioExperimentIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

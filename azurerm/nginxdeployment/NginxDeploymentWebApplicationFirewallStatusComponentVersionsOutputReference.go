@@ -5,14 +5,14 @@ package nginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/nginxdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WafEngineVersion() *string
 	WafNginxVersion() *string
 	// Experimental.
@@ -47,7 +47,7 @@ type NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference
 
 // The jsii proxy struct for NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference
 type jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) ComplexObjectIndex() interface{} {
@@ -141,8 +141,8 @@ func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	return returns
 }
 
-func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 }
 
 
-func NewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference {
+func NewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputRefere
 	return &j
 }
 
-func NewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference_Override(n NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference_Override(n NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	)
 }
 
-func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -411,8 +411,8 @@ func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -424,11 +424,11 @@ func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -440,7 +440,7 @@ func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

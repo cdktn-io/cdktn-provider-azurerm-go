@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNetappVolumeGroupOracleTimeoutsOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetappVolumeGroupOracleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetappVolumeGroupOracleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracleTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNetappVolumeGroupOracleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermNetappVolumeGroupOracleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

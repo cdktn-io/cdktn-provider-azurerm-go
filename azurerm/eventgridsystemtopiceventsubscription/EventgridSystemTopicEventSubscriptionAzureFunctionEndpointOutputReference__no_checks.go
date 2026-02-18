@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridSystemTopicEventSubscriptionAzureFunctionEndpointOut
 	return nil
 }
 
-func (e *jsiiProxy_EventgridSystemTopicEventSubscriptionAzureFunctionEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridSystemTopicEventSubscriptionAzureFunctionEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscriptionAzureFunctionEndpointOut
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscriptionAzureFunctionEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscriptionAzureFunctionEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventgridSystemTopicEventSubscriptionAzureFunctionEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridSystemTopicEventSubscriptionAzureFunctionEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

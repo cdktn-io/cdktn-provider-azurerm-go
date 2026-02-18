@@ -5,14 +5,14 @@ package mongoclusteruser
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mongoclusteruser/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mongoclusteruser/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MongoClusterUserRoleList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type MongoClusterUserRoleList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type MongoClusterUserRoleList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) MongoClusterUserRoleOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type MongoClusterUserRoleList interface {
 
 // The jsii proxy struct for MongoClusterUserRoleList
 type jsiiProxy_MongoClusterUserRoleList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_MongoClusterUserRoleList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_MongoClusterUserRoleList) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MongoClusterUserRoleList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MongoClusterUserRoleList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_MongoClusterUserRoleList) WrapsSet() *bool {
 }
 
 
-func NewMongoClusterUserRoleList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MongoClusterUserRoleList {
+func NewMongoClusterUserRoleList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MongoClusterUserRoleList {
 	_init_.Initialize()
 
 	if err := validateNewMongoClusterUserRoleListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewMongoClusterUserRoleList(terraformResource cdktf.IInterpolatingParent, t
 	return &j
 }
 
-func NewMongoClusterUserRoleList_Override(m MongoClusterUserRoleList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewMongoClusterUserRoleList_Override(m MongoClusterUserRoleList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_MongoClusterUserRoleList)SetTerraformAttribute(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MongoClusterUserRoleList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MongoClusterUserRoleList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_MongoClusterUserRoleList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (m *jsiiProxy_MongoClusterUserRoleList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_MongoClusterUserRoleList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_MongoClusterUserRoleList) Get(index *float64) MongoClusterUse
 	return returns
 }
 
-func (m *jsiiProxy_MongoClusterUserRoleList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MongoClusterUserRoleList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

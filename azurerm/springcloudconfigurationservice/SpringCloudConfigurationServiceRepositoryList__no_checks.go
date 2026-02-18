@@ -15,7 +15,7 @@ func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryList) validateGetPar
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryList) validateSetWra
 	return nil
 }
 
-func validateNewSpringCloudConfigurationServiceRepositoryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSpringCloudConfigurationServiceRepositoryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

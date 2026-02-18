@@ -47,7 +47,7 @@ func (n *jsiiProxy_NewRelicMonitorUserOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (n *jsiiProxy_NewRelicMonitorUserOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NewRelicMonitorUserOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_NewRelicMonitorUserOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_NewRelicMonitorUserOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NewRelicMonitorUserOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNewRelicMonitorUserOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNewRelicMonitorUserOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

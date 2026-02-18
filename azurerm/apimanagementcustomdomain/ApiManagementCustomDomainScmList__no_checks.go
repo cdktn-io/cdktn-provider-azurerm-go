@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiManagementCustomDomainScmList) validateGetParameters(index
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementCustomDomainScmList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementCustomDomainScmList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiManagementCustomDomainScmList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainScmList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementCustomDomainScmList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiManagementCustomDomainScmList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewApiManagementCustomDomainScmListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiManagementCustomDomainScmListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package datafactoryintegrationruntimeazuressis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactoryintegrationruntimeazuressis/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactoryintegrationruntimeazuressis/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeToLive() *float64
 	SetTimeToLive(val *float64)
 	TimeToLiveInput() *float64
@@ -54,7 +54,7 @@ type DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputRef
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetNumberOfExternalNodes()
 	ResetNumberOfPipelineNodes()
 	ResetTimeToLive()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputRef
 
 // The jsii proxy struct for DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference
 type jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalCompute
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalCompute
 }
 
 
-func NewDataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference {
+func NewDataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewDataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutput
 	return &j
 }
 
-func NewDataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference_Override(d DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference_Override(d DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalCompute
 	)
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalCompute
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -494,8 +494,8 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalCompute
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -507,11 +507,11 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalCompute
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -547,7 +547,7 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalCompute
 	)
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisPipelineExternalComputeScaleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

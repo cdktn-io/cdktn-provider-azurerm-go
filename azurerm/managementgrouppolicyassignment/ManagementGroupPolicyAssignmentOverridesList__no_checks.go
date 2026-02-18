@@ -15,7 +15,7 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentOverridesList) validateGetPara
 	return nil
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesList) validateSetWrap
 	return nil
 }
 
-func validateNewManagementGroupPolicyAssignmentOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewManagementGroupPolicyAssignmentOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

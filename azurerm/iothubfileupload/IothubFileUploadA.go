@@ -5,21 +5,21 @@ package iothubfileupload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iothubfileupload/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/iothubfileupload/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload}.
 type IothubFileUploadA interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthenticationType() *string
 	SetAuthenticationType(val *string)
 	AuthenticationTypeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type IothubFileUploadA interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type IothubFileUploadA interface {
 	SetIothubId(val *string)
 	IothubIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LockDuration() *string
 	SetLockDuration(val *string)
 	LockDurationInput() *string
@@ -76,9 +76,9 @@ type IothubFileUploadA interface {
 	SetNotificationsEnabled(val interface{})
 	NotificationsEnabledInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type IothubFileUploadA interface {
 	SetSasTtl(val *string)
 	SasTtlInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type IothubFileUploadA interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type IothubFileUploadA interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -167,7 +167,7 @@ type IothubFileUploadA interface {
 
 // The jsii proxy struct for IothubFileUploadA
 type jsiiProxy_IothubFileUploadA struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_IothubFileUploadA) AuthenticationType() *string {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_IothubFileUploadA) AuthenticationTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IothubFileUploadA) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_IothubFileUploadA) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_IothubFileUploadA) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_IothubFileUploadA) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_IothubFileUploadA) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -390,8 +390,8 @@ func (j *jsiiProxy_IothubFileUploadA) IothubIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IothubFileUploadA) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_IothubFileUploadA) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -470,8 +470,8 @@ func (j *jsiiProxy_IothubFileUploadA) NotificationsEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_IothubFileUploadA) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_IothubFileUploadA) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -520,8 +520,8 @@ func (j *jsiiProxy_IothubFileUploadA) SasTtlInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_IothubFileUploadA) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_IothubFileUploadA) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -674,7 +674,7 @@ func (j *jsiiProxy_IothubFileUploadA)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_IothubFileUploadA)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_IothubFileUploadA)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -715,7 +715,7 @@ func (j *jsiiProxy_IothubFileUploadA)SetIothubId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_IothubFileUploadA)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_IothubFileUploadA)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -759,7 +759,7 @@ func (j *jsiiProxy_IothubFileUploadA)SetNotificationsEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_IothubFileUploadA)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_IothubFileUploadA)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -789,14 +789,14 @@ func (j *jsiiProxy_IothubFileUploadA)SetSasTtl(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a IothubFileUploadA resource upon running "cdktf plan <stack-name>".
-func IothubFileUploadA_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a IothubFileUploadA resource upon running "cdktn plan <stack-name>".
+func IothubFileUploadA_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateIothubFileUploadA_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.iothubFileUpload.IothubFileUploadA",
@@ -930,11 +930,11 @@ func (i *jsiiProxy_IothubFileUploadA) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (i *jsiiProxy_IothubFileUploadA) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IothubFileUploadA) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -1071,7 +1071,7 @@ func (i *jsiiProxy_IothubFileUploadA) HasResourceMove() interface{} {
 	return returns
 }
 
-func (i *jsiiProxy_IothubFileUploadA) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_IothubFileUploadA) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1082,11 +1082,11 @@ func (i *jsiiProxy_IothubFileUploadA) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (i *jsiiProxy_IothubFileUploadA) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IothubFileUploadA) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

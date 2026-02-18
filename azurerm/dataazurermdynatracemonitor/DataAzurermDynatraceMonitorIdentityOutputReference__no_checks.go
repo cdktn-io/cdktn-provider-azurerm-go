@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDynatraceMonitorIdentityOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDynatraceMonitorIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDynatraceMonitorIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDynatraceMonitorIdentityOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDynatraceMonitorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDynatraceMonitorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDynatraceMonitorIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDynatraceMonitorIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

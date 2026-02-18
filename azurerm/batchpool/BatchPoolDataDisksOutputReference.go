@@ -5,14 +5,14 @@ package batchpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/batchpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/batchpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BatchPoolDataDisksOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Caching() *string
 	SetCaching(val *string)
 	CachingInput() *string
@@ -49,15 +49,15 @@ type BatchPoolDataDisksOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type BatchPoolDataDisksOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCaching()
 	ResetStorageAccountType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type BatchPoolDataDisksOutputReference interface {
 
 // The jsii proxy struct for BatchPoolDataDisksOutputReference
 type jsiiProxy_BatchPoolDataDisksOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BatchPoolDataDisksOutputReference) Caching() *string {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_BatchPoolDataDisksOutputReference) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_BatchPoolDataDisksOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BatchPoolDataDisksOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_BatchPoolDataDisksOutputReference) TerraformResource() cdktf.
 }
 
 
-func NewBatchPoolDataDisksOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BatchPoolDataDisksOutputReference {
+func NewBatchPoolDataDisksOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BatchPoolDataDisksOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBatchPoolDataDisksOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -261,7 +261,7 @@ func NewBatchPoolDataDisksOutputReference(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewBatchPoolDataDisksOutputReference_Override(b BatchPoolDataDisksOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBatchPoolDataDisksOutputReference_Override(b BatchPoolDataDisksOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -359,7 +359,7 @@ func (j *jsiiProxy_BatchPoolDataDisksOutputReference)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_BatchPoolDataDisksOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BatchPoolDataDisksOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (b *jsiiProxy_BatchPoolDataDisksOutputReference) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolDataDisksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchPoolDataDisksOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -527,8 +527,8 @@ func (b *jsiiProxy_BatchPoolDataDisksOutputReference) GetStringMapAttribute(terr
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolDataDisksOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BatchPoolDataDisksOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -540,11 +540,11 @@ func (b *jsiiProxy_BatchPoolDataDisksOutputReference) InterpolationAsList() cdkt
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolDataDisksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchPoolDataDisksOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -572,7 +572,7 @@ func (b *jsiiProxy_BatchPoolDataDisksOutputReference) ResetStorageAccountType() 
 	)
 }
 
-func (b *jsiiProxy_BatchPoolDataDisksOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BatchPoolDataDisksOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,16 +5,16 @@ package provider
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/provider/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/provider/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs azurerm}.
 type AzurermProvider interface {
-	cdktf.TerraformProvider
+	cdktn.TerraformProvider
 	AdoPipelineServiceConnectionId() *string
 	SetAdoPipelineServiceConnectionId(val *string)
 	AdoPipelineServiceConnectionIdInput() *string
@@ -25,7 +25,7 @@ type AzurermProvider interface {
 	SetAuxiliaryTenantIds(val *[]*string)
 	AuxiliaryTenantIdsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientCertificate() *string
 	SetClientCertificate(val *string)
 	ClientCertificateInput() *string
@@ -114,7 +114,7 @@ type AzurermProvider interface {
 	SetTenantId(val *string)
 	TenantIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformProviderSource() *string
 	// Experimental.
@@ -186,7 +186,7 @@ type AzurermProvider interface {
 
 // The jsii proxy struct for AzurermProvider
 type jsiiProxy_AzurermProvider struct {
-	internal.Type__cdktfTerraformProvider
+	internal.Type__cdktnTerraformProvider
 }
 
 func (j *jsiiProxy_AzurermProvider) AdoPipelineServiceConnectionId() *string {
@@ -249,8 +249,8 @@ func (j *jsiiProxy_AzurermProvider) AuxiliaryTenantIdsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AzurermProvider) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AzurermProvider) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -819,8 +819,8 @@ func (j *jsiiProxy_AzurermProvider) TenantIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AzurermProvider) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AzurermProvider) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1242,14 +1242,14 @@ func (j *jsiiProxy_AzurermProvider)SetUseOidc(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a AzurermProvider resource upon running "cdktf plan <stack-name>".
-func AzurermProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AzurermProvider resource upon running "cdktn plan <stack-name>".
+func AzurermProvider_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAzurermProvider_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.provider.AzurermProvider",

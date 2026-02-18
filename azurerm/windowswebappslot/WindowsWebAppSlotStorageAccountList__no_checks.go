@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsWebAppSlotStorageAccountList) validateGetParameters(in
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotStorageAccountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotStorageAccountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsWebAppSlotStorageAccountList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotStorageAccountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotStorageAccountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsWebAppSlotStorageAccountList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewWindowsWebAppSlotStorageAccountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsWebAppSlotStorageAccountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

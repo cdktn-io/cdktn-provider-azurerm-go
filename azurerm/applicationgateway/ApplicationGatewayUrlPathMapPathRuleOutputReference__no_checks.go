@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewayUrlPathMapPathRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationGatewayUrlPathMapPathRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

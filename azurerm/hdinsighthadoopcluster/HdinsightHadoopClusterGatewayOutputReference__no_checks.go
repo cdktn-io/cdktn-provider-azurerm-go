@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterGatewayOutputReference) validateInterpo
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterGatewayOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterGatewayOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterGatewayOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterGatewayOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterGatewayOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterGatewayOutputReference) validateSetUser
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterGatewayOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterGatewayOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

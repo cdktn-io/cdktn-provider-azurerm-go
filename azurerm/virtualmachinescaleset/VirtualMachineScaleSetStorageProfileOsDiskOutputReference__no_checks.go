@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetStorageProfileOsDiskOutputReference) va
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetStorageProfileOsDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetStorageProfileOsDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileOsDiskOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileOsDiskOutputReference) va
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetStorageProfileOsDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineScaleSetStorageProfileOsDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

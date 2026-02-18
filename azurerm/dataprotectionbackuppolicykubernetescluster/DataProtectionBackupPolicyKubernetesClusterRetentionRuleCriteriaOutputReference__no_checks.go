@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

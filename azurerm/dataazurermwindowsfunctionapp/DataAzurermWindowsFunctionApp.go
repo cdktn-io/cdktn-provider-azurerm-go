@@ -5,30 +5,30 @@ package dataazurermwindowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwindowsfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwindowsfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/windows_function_app azurerm_windows_function_app}.
 type DataAzurermWindowsFunctionApp interface {
-	cdktf.TerraformDataSource
-	AppSettings() cdktf.StringMap
+	cdktn.TerraformDataSource
+	AppSettings() cdktn.StringMap
 	AuthSettings() DataAzurermWindowsFunctionAppAuthSettingsList
 	AuthSettingsV2() DataAzurermWindowsFunctionAppAuthSettingsV2List
 	Backup() DataAzurermWindowsFunctionAppBackupList
-	BuiltinLoggingEnabled() cdktf.IResolvable
+	BuiltinLoggingEnabled() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
-	ClientCertificateEnabled() cdktf.IResolvable
+	CdktfStack() cdktn.TerraformStack
+	ClientCertificateEnabled() cdktn.IResolvable
 	ClientCertificateExclusionPaths() *string
 	ClientCertificateMode() *string
 	ConnectionString() DataAzurermWindowsFunctionAppConnectionStringList
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
-	ContentShareForceDisabled() cdktf.IResolvable
+	ContentShareForceDisabled() cdktn.IResolvable
 	// Experimental.
 	Count() interface{}
 	// Experimental.
@@ -40,28 +40,28 @@ type DataAzurermWindowsFunctionApp interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	Enabled() cdktf.IResolvable
+	Enabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	FtpPublishBasicAuthenticationEnabled() cdktf.IResolvable
+	FtpPublishBasicAuthenticationEnabled() cdktn.IResolvable
 	FunctionsExtensionVersion() *string
 	HostingEnvironmentId() *string
-	HttpsOnly() cdktf.IResolvable
+	HttpsOnly() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
 	Identity() DataAzurermWindowsFunctionAppIdentityList
 	IdInput() *string
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -73,10 +73,10 @@ type DataAzurermWindowsFunctionApp interface {
 	PossibleOutboundIpAddresses() *string
 	PossibleOutboundIpAddressList() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	PublicNetworkAccessEnabled() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	PublicNetworkAccessEnabled() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -89,25 +89,25 @@ type DataAzurermWindowsFunctionApp interface {
 	StorageAccountAccessKey() *string
 	StorageAccountName() *string
 	StorageKeyVaultSecretId() *string
-	StorageUsesManagedIdentity() cdktf.IResolvable
-	Tags() cdktf.StringMap
+	StorageUsesManagedIdentity() cdktn.IResolvable
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermWindowsFunctionAppTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	VirtualNetworkBackupRestoreEnabled() cdktf.IResolvable
+	VirtualNetworkBackupRestoreEnabled() cdktn.IResolvable
 	VirtualNetworkSubnetId() *string
-	WebdeployPublishBasicAuthenticationEnabled() cdktf.IResolvable
+	WebdeployPublishBasicAuthenticationEnabled() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -123,7 +123,7 @@ type DataAzurermWindowsFunctionApp interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -149,11 +149,11 @@ type DataAzurermWindowsFunctionApp interface {
 
 // The jsii proxy struct for DataAzurermWindowsFunctionApp
 type jsiiProxy_DataAzurermWindowsFunctionApp struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) AppSettings() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) AppSettings() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"appSettings",
@@ -192,8 +192,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Backup() DataAzurermWindowsFun
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) BuiltinLoggingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) BuiltinLoggingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"builtinLoggingEnabled",
@@ -202,8 +202,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) BuiltinLoggingEnabled() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -212,8 +212,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) CdktfStack() cdktf.TerraformSt
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) ClientCertificateEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) ClientCertificateEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"clientCertificateEnabled",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) ConstructNodeMetadata() *map[s
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) ContentShareForceDisabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) ContentShareForceDisabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"contentShareForceDisabled",
@@ -322,8 +322,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabled",
@@ -332,8 +332,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Enabled() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) FtpPublishBasicAuthenticationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) FtpPublishBasicAuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ftpPublishBasicAuthenticationEnabled",
@@ -392,8 +392,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) HostingEnvironmentId() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) HttpsOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) HttpsOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"httpsOnly",
@@ -442,8 +442,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -532,8 +532,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) PossibleOutboundIpAddressList(
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -542,8 +542,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Provider() cdktf.TerraformProv
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) PublicNetworkAccessEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) PublicNetworkAccessEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publicNetworkAccessEnabled",
@@ -652,8 +652,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) StorageKeyVaultSecretId() *str
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) StorageUsesManagedIdentity() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) StorageUsesManagedIdentity() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"storageUsesManagedIdentity",
@@ -662,8 +662,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) StorageUsesManagedIdentity() c
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -672,8 +672,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -722,8 +722,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) VirtualNetworkBackupRestoreEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) VirtualNetworkBackupRestoreEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"virtualNetworkBackupRestoreEnabled",
@@ -742,8 +742,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) VirtualNetworkSubnetId() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp) WebdeployPublishBasicAuthenticationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp) WebdeployPublishBasicAuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"webdeployPublishBasicAuthenticationEnabled",
@@ -801,7 +801,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -820,7 +820,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -842,7 +842,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -861,14 +861,14 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp)SetResourceGroupName(val *strin
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermWindowsFunctionApp resource upon running "cdktf plan <stack-name>".
-func DataAzurermWindowsFunctionApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermWindowsFunctionApp resource upon running "cdktn plan <stack-name>".
+func DataAzurermWindowsFunctionApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermWindowsFunctionApp_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermWindowsFunctionApp.DataAzurermWindowsFunctionApp",
@@ -991,11 +991,11 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionApp) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionApp) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsFunctionApp) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1119,11 +1119,11 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionApp) GetStringMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionApp) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsFunctionApp) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

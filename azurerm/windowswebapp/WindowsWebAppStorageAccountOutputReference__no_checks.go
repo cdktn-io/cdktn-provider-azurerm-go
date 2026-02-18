@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppStorageAccountOutputReference) validateInterpola
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppStorageAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppStorageAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WindowsWebAppStorageAccountOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_WindowsWebAppStorageAccountOutputReference) validateSetTypePa
 	return nil
 }
 
-func validateNewWindowsWebAppStorageAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsWebAppStorageAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

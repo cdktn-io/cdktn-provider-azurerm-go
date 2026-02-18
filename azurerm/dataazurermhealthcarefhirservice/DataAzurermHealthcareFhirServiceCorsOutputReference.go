@@ -5,14 +5,14 @@ package dataazurermhealthcarefhirservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermhealthcarefhirservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermhealthcarefhirservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermHealthcareFhirServiceCorsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedHeaders() *[]*string
 	AllowedMethods() *[]*string
 	AllowedOrigins() *[]*string
@@ -31,7 +31,7 @@ type DataAzurermHealthcareFhirServiceCorsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	CredentialsAllowed() cdktf.IResolvable
+	CredentialsAllowed() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermHealthcareFhirServiceCors
@@ -42,15 +42,15 @@ type DataAzurermHealthcareFhirServiceCorsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataAzurermHealthcareFhirServiceCorsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataAzurermHealthcareFhirServiceCorsOutputReference interface {
 
 // The jsii proxy struct for DataAzurermHealthcareFhirServiceCorsOutputReference
 type jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) AllowedHeaders() *[]*string {
@@ -144,8 +144,8 @@ func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) Creation
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) CredentialsAllowed() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) CredentialsAllowed() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"credentialsAllowed",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) Terrafor
 }
 
 
-func NewDataAzurermHealthcareFhirServiceCorsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermHealthcareFhirServiceCorsOutputReference {
+func NewDataAzurermHealthcareFhirServiceCorsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermHealthcareFhirServiceCorsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermHealthcareFhirServiceCorsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataAzurermHealthcareFhirServiceCorsOutputReference(terraformResource cd
 	return &j
 }
 
-func NewDataAzurermHealthcareFhirServiceCorsOutputReference_Override(d DataAzurermHealthcareFhirServiceCorsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermHealthcareFhirServiceCorsOutputReference_Override(d DataAzurermHealthcareFhirServiceCorsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) GetAnyMa
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) GetStrin
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermHealthcareFhirServiceCorsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

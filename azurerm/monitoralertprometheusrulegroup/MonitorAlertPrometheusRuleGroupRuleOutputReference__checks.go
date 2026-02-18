@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorAlertPrometheusRuleGroupRuleAction:
 		value := value.(*[]*MonitorAlertPrometheusRuleGroupRuleAction)
@@ -117,7 +117,7 @@ func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorAlertPrometheusRuleGroupRuleAction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorAlertPrometheusRuleGroupRuleAction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -135,7 +135,7 @@ func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateP
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -233,11 +233,11 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateS
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -262,7 +262,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateS
 
 func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *MonitorAlertPrometheusRuleGroupRule:
 		val := val.(*MonitorAlertPrometheusRuleGroupRule)
@@ -277,7 +277,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *MonitorAlertPrometheusRuleGroupRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *MonitorAlertPrometheusRuleGroupRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -316,7 +316,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -324,7 +324,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleOutputReference) validateS
 	return nil
 }
 
-func validateNewMonitorAlertPrometheusRuleGroupRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorAlertPrometheusRuleGroupRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

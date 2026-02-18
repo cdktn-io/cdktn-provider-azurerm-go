@@ -5,21 +5,21 @@ package iotcentralapplicationnetworkruleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iotcentralapplicationnetworkruleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/iotcentralapplicationnetworkruleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/iotcentral_application_network_rule_set azurerm_iotcentral_application_network_rule_set}.
 type IotcentralApplicationNetworkRuleSet interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplyToDevice() interface{}
 	SetApplyToDevice(val interface{})
 	ApplyToDeviceInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type IotcentralApplicationNetworkRuleSet interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,15 +54,15 @@ type IotcentralApplicationNetworkRuleSet interface {
 	IpRule() IotcentralApplicationNetworkRuleSetIpRuleList
 	IpRuleInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type IotcentralApplicationNetworkRuleSet interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type IotcentralApplicationNetworkRuleSet interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -103,9 +103,9 @@ type IotcentralApplicationNetworkRuleSet interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -145,7 +145,7 @@ type IotcentralApplicationNetworkRuleSet interface {
 
 // The jsii proxy struct for IotcentralApplicationNetworkRuleSet
 type jsiiProxy_IotcentralApplicationNetworkRuleSet struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) ApplyToDevice() interface{} {
@@ -168,8 +168,8 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) ApplyToDeviceInput() int
 	return returns
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) IpRuleInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -378,8 +378,8 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) RawOverrides() interface
 	return returns
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -510,7 +510,7 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -540,7 +540,7 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetIotcentralApplicationI
 	)
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -551,7 +551,7 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetLifecycle(val *cdktf.T
 	)
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -570,14 +570,14 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet)SetProvisioners(val *[]in
 	)
 }
 
-// Generates CDKTF code for importing a IotcentralApplicationNetworkRuleSet resource upon running "cdktf plan <stack-name>".
-func IotcentralApplicationNetworkRuleSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a IotcentralApplicationNetworkRuleSet resource upon running "cdktn plan <stack-name>".
+func IotcentralApplicationNetworkRuleSet_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateIotcentralApplicationNetworkRuleSet_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.iotcentralApplicationNetworkRuleSet.IotcentralApplicationNetworkRuleSet",
@@ -711,11 +711,11 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -852,7 +852,7 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) HasResourceMove() interf
 	return returns
 }
 
-func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := i.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -863,11 +863,11 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) ImportFrom(id *string, p
 	)
 }
 
-func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,

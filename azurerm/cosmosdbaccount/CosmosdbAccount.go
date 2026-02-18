@@ -5,16 +5,16 @@ package cosmosdbaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/cosmosdb_account azurerm_cosmosdb_account}.
 type CosmosdbAccount interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessKeyMetadataWritesEnabled() interface{}
 	SetAccessKeyMetadataWritesEnabled(val interface{})
 	AccessKeyMetadataWritesEnabledInput() interface{}
@@ -36,7 +36,7 @@ type CosmosdbAccount interface {
 	Capacity() CosmosdbAccountCapacityOutputReference
 	CapacityInput() *CosmosdbAccountCapacity
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -63,9 +63,9 @@ type CosmosdbAccount interface {
 	SetDependsOn(val *[]*string)
 	Endpoint() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	FreeTierEnabled() interface{}
@@ -93,9 +93,9 @@ type CosmosdbAccount interface {
 	SetKind(val *string)
 	KindInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LocalAuthenticationDisabled() interface{}
 	SetLocalAuthenticationDisabled(val interface{})
 	LocalAuthenticationDisabledInput() interface{}
@@ -138,9 +138,9 @@ type CosmosdbAccount interface {
 	PrimaryReadonlySqlConnectionString() *string
 	PrimarySqlConnectionString() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -166,7 +166,7 @@ type CosmosdbAccount interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -184,7 +184,7 @@ type CosmosdbAccount interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -202,9 +202,9 @@ type CosmosdbAccount interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -279,7 +279,7 @@ type CosmosdbAccount interface {
 
 // The jsii proxy struct for CosmosdbAccount
 type jsiiProxy_CosmosdbAccount struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CosmosdbAccount) AccessKeyMetadataWritesEnabled() interface{} {
@@ -442,8 +442,8 @@ func (j *jsiiProxy_CosmosdbAccount) CapacityInput() *CosmosdbAccountCapacity {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbAccount) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CosmosdbAccount) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -582,8 +582,8 @@ func (j *jsiiProxy_CosmosdbAccount) Endpoint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbAccount) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CosmosdbAccount) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -772,8 +772,8 @@ func (j *jsiiProxy_CosmosdbAccount) KindInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbAccount) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CosmosdbAccount) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1072,8 +1072,8 @@ func (j *jsiiProxy_CosmosdbAccount) PrimarySqlConnectionString() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbAccount) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CosmosdbAccount) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1252,8 +1252,8 @@ func (j *jsiiProxy_CosmosdbAccount) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbAccount) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CosmosdbAccount) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1458,7 +1458,7 @@ func (j *jsiiProxy_CosmosdbAccount)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_CosmosdbAccount)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CosmosdbAccount)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1532,7 +1532,7 @@ func (j *jsiiProxy_CosmosdbAccount)SetKind(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CosmosdbAccount)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CosmosdbAccount)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1664,7 +1664,7 @@ func (j *jsiiProxy_CosmosdbAccount)SetPartitionMergeEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_CosmosdbAccount)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CosmosdbAccount)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1716,14 +1716,14 @@ func (j *jsiiProxy_CosmosdbAccount)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a CosmosdbAccount resource upon running "cdktf plan <stack-name>".
-func CosmosdbAccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CosmosdbAccount resource upon running "cdktn plan <stack-name>".
+func CosmosdbAccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCosmosdbAccount_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.cosmosdbAccount.CosmosdbAccount",
@@ -1857,11 +1857,11 @@ func (c *jsiiProxy_CosmosdbAccount) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbAccount) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbAccount) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1998,7 +1998,7 @@ func (c *jsiiProxy_CosmosdbAccount) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbAccount) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CosmosdbAccount) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -2009,11 +2009,11 @@ func (c *jsiiProxy_CosmosdbAccount) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (c *jsiiProxy_CosmosdbAccount) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbAccount) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxVirtualMachineSourceImageReferenceOutputReference) valid
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineSourceImageReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineSourceImageReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LinuxVirtualMachineSourceImageReferenceOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineSourceImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineSourceImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LinuxVirtualMachineSourceImageReferenceOutputReference) valid
 	return nil
 }
 
-func validateNewLinuxVirtualMachineSourceImageReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxVirtualMachineSourceImageReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

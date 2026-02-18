@@ -51,7 +51,7 @@ func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorSecurityPolicySecurityPoliciesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnFrontdoorSecurityPolicySecurityPoliciesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorSecurityPolicySecurityPoliciesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

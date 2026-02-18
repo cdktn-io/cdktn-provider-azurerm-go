@@ -5,14 +5,14 @@ package policysetdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/policysetdefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/policysetdefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PolicySetDefinitionPolicyDefinitionReferenceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type PolicySetDefinitionPolicyDefinitionReferenceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Version() *string
 	SetVersion(val *string)
 	VersionInput() *string
@@ -60,7 +60,7 @@ type PolicySetDefinitionPolicyDefinitionReferenceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,16 +76,16 @@ type PolicySetDefinitionPolicyDefinitionReferenceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetParameterValues()
 	ResetPolicyGroupNames()
 	ResetReferenceId()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type PolicySetDefinitionPolicyDefinitionReferenceOutputReference interface {
 
 // The jsii proxy struct for PolicySetDefinitionPolicyDefinitionReferenceOutputReference
 type jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) ComplexObjectIndex() interface{} {
@@ -238,8 +238,8 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 }
 
 
-func NewPolicySetDefinitionPolicyDefinitionReferenceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PolicySetDefinitionPolicyDefinitionReferenceOutputReference {
+func NewPolicySetDefinitionPolicyDefinitionReferenceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) PolicySetDefinitionPolicyDefinitionReferenceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPolicySetDefinitionPolicyDefinitionReferenceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -286,7 +286,7 @@ func NewPolicySetDefinitionPolicyDefinitionReferenceOutputReference(terraformRes
 	return &j
 }
 
-func NewPolicySetDefinitionPolicyDefinitionReferenceOutputReference_Override(p PolicySetDefinitionPolicyDefinitionReferenceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewPolicySetDefinitionPolicyDefinitionReferenceOutputReference_Override(p PolicySetDefinitionPolicyDefinitionReferenceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -384,7 +384,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	return returns
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -563,8 +563,8 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	return returns
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -576,11 +576,11 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	return returns
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -624,7 +624,7 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	)
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

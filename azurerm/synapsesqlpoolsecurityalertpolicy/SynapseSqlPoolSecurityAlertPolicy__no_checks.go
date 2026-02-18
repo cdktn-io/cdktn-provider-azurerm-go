@@ -119,7 +119,7 @@ func (j *jsiiProxy_SynapseSqlPoolSecurityAlertPolicy) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_SynapseSqlPoolSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SynapseSqlPoolSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

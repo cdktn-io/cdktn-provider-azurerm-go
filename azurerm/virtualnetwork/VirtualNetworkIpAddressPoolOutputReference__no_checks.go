@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkIpAddressPoolOutputReference) validateInterpola
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkIpAddressPoolOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkIpAddressPoolOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualNetworkIpAddressPoolOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkIpAddressPoolOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkIpAddressPoolOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualNetworkIpAddressPoolOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualNetworkIpAddressPoolOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

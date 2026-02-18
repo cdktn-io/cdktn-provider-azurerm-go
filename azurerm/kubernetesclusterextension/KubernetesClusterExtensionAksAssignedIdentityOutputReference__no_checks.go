@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityOutputReference)
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterExtensionAksAssignedIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesClusterExtensionAksAssignedIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

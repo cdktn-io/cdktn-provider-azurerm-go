@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyPostgresqlRetentionRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataProtectionBackupPolicyPostgresqlRetentionRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

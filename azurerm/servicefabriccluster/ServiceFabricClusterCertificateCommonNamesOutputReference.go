@@ -5,14 +5,14 @@ package servicefabriccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicefabriccluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicefabriccluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceFabricClusterCertificateCommonNamesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CommonNames() ServiceFabricClusterCertificateCommonNamesCommonNamesList
 	CommonNamesInput() interface{}
 	// the index of the complex object in a list.
@@ -39,9 +39,9 @@ type ServiceFabricClusterCertificateCommonNamesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	X509StoreName() *string
 	SetX509StoreName(val *string)
 	X509StoreNameInput() *string
@@ -50,7 +50,7 @@ type ServiceFabricClusterCertificateCommonNamesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,13 +66,13 @@ type ServiceFabricClusterCertificateCommonNamesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCommonNames(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type ServiceFabricClusterCertificateCommonNamesOutputReference interface {
 
 // The jsii proxy struct for ServiceFabricClusterCertificateCommonNamesOutputReference
 type jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) CommonNames() ServiceFabricClusterCertificateCommonNamesCommonNamesList {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) X5
 }
 
 
-func NewServiceFabricClusterCertificateCommonNamesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceFabricClusterCertificateCommonNamesOutputReference {
+func NewServiceFabricClusterCertificateCommonNamesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceFabricClusterCertificateCommonNamesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceFabricClusterCertificateCommonNamesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewServiceFabricClusterCertificateCommonNamesOutputReference(terraformResou
 	return &j
 }
 
-func NewServiceFabricClusterCertificateCommonNamesOutputReference_Override(s ServiceFabricClusterCertificateCommonNamesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceFabricClusterCertificateCommonNamesOutputReference_Override(s ServiceFabricClusterCertificateCommonNamesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -267,7 +267,7 @@ func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -318,11 +318,11 @@ func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) Ge
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -446,8 +446,8 @@ func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) Ge
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -459,11 +459,11 @@ func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) In
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) Pu
 	)
 }
 
-func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceFabricClusterCertificateCommonNamesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

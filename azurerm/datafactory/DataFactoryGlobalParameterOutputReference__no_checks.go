@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryGlobalParameterOutputReference) validateInterpolat
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryGlobalParameterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryGlobalParameterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataFactoryGlobalParameterOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryGlobalParameterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryGlobalParameterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataFactoryGlobalParameterOutputReference) validateSetValuePa
 	return nil
 }
 
-func validateNewDataFactoryGlobalParameterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataFactoryGlobalParameterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

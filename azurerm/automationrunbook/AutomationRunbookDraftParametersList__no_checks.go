@@ -15,7 +15,7 @@ func (a *jsiiProxy_AutomationRunbookDraftParametersList) validateGetParameters(i
 	return nil
 }
 
-func (a *jsiiProxy_AutomationRunbookDraftParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationRunbookDraftParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AutomationRunbookDraftParametersList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_AutomationRunbookDraftParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationRunbookDraftParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AutomationRunbookDraftParametersList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewAutomationRunbookDraftParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAutomationRunbookDraftParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package linuxfunctionappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxfunctionappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxfunctionappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
@@ -57,9 +57,9 @@ type LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualNetworkSubnetId() *string
 	SetVirtualNetworkSubnetId(val *string)
 	VirtualNetworkSubnetIdInput() *string
@@ -68,7 +68,7 @@ type LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,9 +84,9 @@ type LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeaders(value interface{})
 	ResetAction()
 	ResetDescription()
@@ -98,7 +98,7 @@ type LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference interface {
 	ResetVirtualNetworkSubnetId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -108,7 +108,7 @@ type LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference interface {
 
 // The jsii proxy struct for LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 type jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) Action() *string {
@@ -311,8 +311,8 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -342,7 +342,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 }
 
 
-func NewLinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference {
+func NewLinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -359,7 +359,7 @@ func NewLinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference(terraformR
 	return &j
 }
 
-func NewLinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference_Override(l LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference_Override(l LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -479,7 +479,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 	)
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -530,11 +530,11 @@ func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 	return returns
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -658,8 +658,8 @@ func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 	return returns
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -671,11 +671,11 @@ func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 	return returns
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -762,7 +762,7 @@ func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference
 	)
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

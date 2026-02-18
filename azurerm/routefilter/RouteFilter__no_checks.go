@@ -111,7 +111,7 @@ func (j *jsiiProxy_RouteFilter) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_RouteFilter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RouteFilter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

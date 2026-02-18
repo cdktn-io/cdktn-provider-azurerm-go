@@ -55,7 +55,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyBlobStorageRetentionRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataProtectionBackupPolicyBlobStorageRetentionRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

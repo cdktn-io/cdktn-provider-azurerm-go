@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorMetricAlertApplicationInsightsWebTestLocationAvailabil
 	return nil
 }
 
-func (m *jsiiProxy_MonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteriaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteriaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorMetricAlertApplicationInsightsWebTestLocationAvailabil
 	return nil
 }
 
-func (j *jsiiProxy_MonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorMetricAlertApplicationInsightsWebTestLocationAvailabil
 	return nil
 }
 
-func validateNewMonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteriaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorMetricAlertApplicationInsightsWebTestLocationAvailabilityCriteriaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

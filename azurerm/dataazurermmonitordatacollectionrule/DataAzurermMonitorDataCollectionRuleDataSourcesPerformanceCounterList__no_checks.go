@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCou
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCounterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCounterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCou
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCounterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCounterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCou
 	return nil
 }
 
-func validateNewDataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCounterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMonitorDataCollectionRuleDataSourcesPerformanceCounterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

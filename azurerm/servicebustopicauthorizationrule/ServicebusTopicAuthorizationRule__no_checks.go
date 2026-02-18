@@ -107,7 +107,7 @@ func (j *jsiiProxy_ServicebusTopicAuthorizationRule) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusTopicAuthorizationRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicebusTopicAuthorizationRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

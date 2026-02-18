@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogicAppIntegrationAccountPartnerTimeoutsOutputReference) val
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountPartnerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppIntegrationAccountPartnerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountPartnerTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountPartnerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppIntegrationAccountPartnerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountPartnerTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewLogicAppIntegrationAccountPartnerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogicAppIntegrationAccountPartnerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

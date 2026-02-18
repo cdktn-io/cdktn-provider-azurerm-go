@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerRegistryTaskRegistryCredentialSourceOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskRegistryCredentialSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryTaskRegistryCredentialSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ContainerRegistryTaskRegistryCredentialSourceOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskRegistryCredentialSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryTaskRegistryCredentialSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerRegistryTaskRegistryCredentialSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerRegistryTaskRegistryCredentialSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

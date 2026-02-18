@@ -115,7 +115,7 @@ func (j *jsiiProxy_KustoCosmosdbDataConnection) validateSetKustoDatabaseIdParame
 	return nil
 }
 
-func (j *jsiiProxy_KustoCosmosdbDataConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KustoCosmosdbDataConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

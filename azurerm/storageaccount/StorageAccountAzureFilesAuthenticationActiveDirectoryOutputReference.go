@@ -5,14 +5,14 @@ package storageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storageaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -55,15 +55,15 @@ type StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,16 +79,16 @@ type StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDomainSid()
 	ResetForestName()
 	ResetNetbiosDomainName()
 	ResetStorageSid()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference interf
 
 // The jsii proxy struct for StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference
 type jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) ComplexObjectIndex() interface{} {
@@ -281,8 +281,8 @@ func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -292,7 +292,7 @@ func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputRe
 }
 
 
-func NewStorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference {
+func NewStorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStorageAccountAzureFilesAuthenticationActiveDirectoryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -309,7 +309,7 @@ func NewStorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference(ter
 	return &j
 }
 
-func NewStorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference_Override(s StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference_Override(s StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -429,7 +429,7 @@ func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputRe
 	)
 }
 
-func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -469,11 +469,11 @@ func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputRe
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -597,8 +597,8 @@ func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputRe
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -610,11 +610,11 @@ func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputRe
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -658,7 +658,7 @@ func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputRe
 	)
 }
 
-func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationActiveDirectoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

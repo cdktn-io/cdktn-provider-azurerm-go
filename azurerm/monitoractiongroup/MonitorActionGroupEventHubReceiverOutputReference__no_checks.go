@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorActionGroupEventHubReceiverOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActionGroupEventHubReceiverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActionGroupEventHubReceiverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MonitorActionGroupEventHubReceiverOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActionGroupEventHubReceiverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActionGroupEventHubReceiverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_MonitorActionGroupEventHubReceiverOutputReference) validateSe
 	return nil
 }
 
-func validateNewMonitorActionGroupEventHubReceiverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorActionGroupEventHubReceiverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

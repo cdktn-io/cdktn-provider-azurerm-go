@@ -5,21 +5,21 @@ package containerconnectedregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerconnectedregistry/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerconnectedregistry/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/container_connected_registry azurerm_container_connected_registry}.
 type ContainerConnectedRegistry interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuditLogEnabled() interface{}
 	SetAuditLogEnabled(val interface{})
 	AuditLogEnabledInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientTokenIds() *[]*string
 	SetClientTokenIds(val *[]*string)
 	ClientTokenIdsInput() *[]*string
@@ -41,9 +41,9 @@ type ContainerConnectedRegistry interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type ContainerConnectedRegistry interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogLevel() *string
 	SetLogLevel(val *string)
 	LogLevelInput() *string
@@ -72,9 +72,9 @@ type ContainerConnectedRegistry interface {
 	SetParentRegistryId(val *string)
 	ParentRegistryIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type ContainerConnectedRegistry interface {
 	SetSyncWindow(val *string)
 	SyncWindowInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -109,7 +109,7 @@ type ContainerConnectedRegistry interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -127,9 +127,9 @@ type ContainerConnectedRegistry interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -175,7 +175,7 @@ type ContainerConnectedRegistry interface {
 
 // The jsii proxy struct for ContainerConnectedRegistry
 type jsiiProxy_ContainerConnectedRegistry struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ContainerConnectedRegistry) AuditLogEnabled() interface{} {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_ContainerConnectedRegistry) AuditLogEnabledInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ContainerConnectedRegistry) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_ContainerConnectedRegistry) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ContainerConnectedRegistry) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_ContainerConnectedRegistry) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ContainerConnectedRegistry) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -458,8 +458,8 @@ func (j *jsiiProxy_ContainerConnectedRegistry) ParentRegistryIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ContainerConnectedRegistry) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -568,8 +568,8 @@ func (j *jsiiProxy_ContainerConnectedRegistry) SyncWindowInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ContainerConnectedRegistry) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -711,7 +711,7 @@ func (j *jsiiProxy_ContainerConnectedRegistry)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ContainerConnectedRegistry)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -730,7 +730,7 @@ func (j *jsiiProxy_ContainerConnectedRegistry)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ContainerConnectedRegistry)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -785,7 +785,7 @@ func (j *jsiiProxy_ContainerConnectedRegistry)SetParentRegistryId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistry)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ContainerConnectedRegistry)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -848,14 +848,14 @@ func (j *jsiiProxy_ContainerConnectedRegistry)SetSyncWindow(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ContainerConnectedRegistry resource upon running "cdktf plan <stack-name>".
-func ContainerConnectedRegistry_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ContainerConnectedRegistry resource upon running "cdktn plan <stack-name>".
+func ContainerConnectedRegistry_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateContainerConnectedRegistry_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.containerConnectedRegistry.ContainerConnectedRegistry",
@@ -989,11 +989,11 @@ func (c *jsiiProxy_ContainerConnectedRegistry) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (c *jsiiProxy_ContainerConnectedRegistry) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerConnectedRegistry) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1130,7 +1130,7 @@ func (c *jsiiProxy_ContainerConnectedRegistry) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_ContainerConnectedRegistry) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ContainerConnectedRegistry) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1141,11 +1141,11 @@ func (c *jsiiProxy_ContainerConnectedRegistry) ImportFrom(id *string, provider c
 	)
 }
 
-func (c *jsiiProxy_ContainerConnectedRegistry) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerConnectedRegistry) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

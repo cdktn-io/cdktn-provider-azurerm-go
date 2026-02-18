@@ -5,14 +5,14 @@ package dataazurermwindowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwindowsfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwindowsfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedApplications() *[]*string
 	AllowedAudiences() *[]*string
 	AllowedGroups() *[]*string
@@ -41,23 +41,23 @@ type DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference
 	SetInternalValue(val *DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2)
 	JwtAllowedClientApplications() *[]*string
 	JwtAllowedGroups() *[]*string
-	LoginParameters() cdktf.StringMap
+	LoginParameters() cdktn.StringMap
 	TenantAuthEndpoint() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	WwwAuthenticationDisabled() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	WwwAuthenticationDisabled() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,12 +73,12 @@ type DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference
 
 // The jsii proxy struct for DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference
 type jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) AllowedApplications() *[]*string {
@@ -231,8 +231,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) LoginParameters() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) LoginParameters() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"loginParameters",
@@ -261,8 +261,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) WwwAuthenticationDisabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) WwwAuthenticationDisabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"wwwAuthenticationDisabled",
@@ -282,7 +282,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 }
 
 
-func NewDataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference {
+func NewDataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -299,7 +299,7 @@ func NewDataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputRefere
 	return &j
 }
 
-func NewDataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference_Override(d DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference_Override(d DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -353,7 +353,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -393,11 +393,11 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -521,8 +521,8 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -534,11 +534,11 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -550,7 +550,7 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2O
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsV2ActiveDirectoryV2OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

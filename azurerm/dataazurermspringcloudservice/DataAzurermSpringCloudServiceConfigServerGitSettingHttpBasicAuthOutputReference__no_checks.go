@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicA
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicA
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

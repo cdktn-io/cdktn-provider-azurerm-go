@@ -167,7 +167,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumption) validateSetInstanceMemoryInMbPara
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumption) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FunctionAppFlexConsumption) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

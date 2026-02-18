@@ -5,18 +5,18 @@ package dataazurermmanagedredis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmanagedredis/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmanagedredis/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/managed_redis azurerm_managed_redis}.
 type DataAzurermManagedRedis interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,23 +30,23 @@ type DataAzurermManagedRedis interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	HighAvailabilityEnabled() cdktf.IResolvable
+	HighAvailabilityEnabled() cdktn.IResolvable
 	Hostname() *string
 	Id() *string
 	SetId(val *string)
 	Identity() DataAzurermManagedRedisIdentityList
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -54,9 +54,9 @@ type DataAzurermManagedRedis interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PublicNetworkAccess() *string
 	// Experimental.
 	RawOverrides() interface{}
@@ -64,9 +64,9 @@ type DataAzurermManagedRedis interface {
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	SkuName() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type DataAzurermManagedRedis interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,7 +94,7 @@ type DataAzurermManagedRedis interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -120,11 +120,11 @@ type DataAzurermManagedRedis interface {
 
 // The jsii proxy struct for DataAzurermManagedRedis
 type jsiiProxy_DataAzurermManagedRedis struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermManagedRedis) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermManagedRedis) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermManagedRedis) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -213,8 +213,8 @@ func (j *jsiiProxy_DataAzurermManagedRedis) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis) HighAvailabilityEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermManagedRedis) HighAvailabilityEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"highAvailabilityEnabled",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_DataAzurermManagedRedis) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermManagedRedis) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -313,8 +313,8 @@ func (j *jsiiProxy_DataAzurermManagedRedis) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermManagedRedis) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_DataAzurermManagedRedis) SkuName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermManagedRedis) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_DataAzurermManagedRedis) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermManagedRedis) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -482,7 +482,7 @@ func (j *jsiiProxy_DataAzurermManagedRedis)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermManagedRedis)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -501,7 +501,7 @@ func (j *jsiiProxy_DataAzurermManagedRedis)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermManagedRedis)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -523,7 +523,7 @@ func (j *jsiiProxy_DataAzurermManagedRedis)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedis)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermManagedRedis)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -542,14 +542,14 @@ func (j *jsiiProxy_DataAzurermManagedRedis)SetResourceGroupName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermManagedRedis resource upon running "cdktf plan <stack-name>".
-func DataAzurermManagedRedis_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermManagedRedis resource upon running "cdktn plan <stack-name>".
+func DataAzurermManagedRedis_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermManagedRedis_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermManagedRedis.DataAzurermManagedRedis",
@@ -672,11 +672,11 @@ func (d *jsiiProxy_DataAzurermManagedRedis) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermManagedRedis) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermManagedRedis) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -800,11 +800,11 @@ func (d *jsiiProxy_DataAzurermManagedRedis) GetStringMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermManagedRedis) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermManagedRedis) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

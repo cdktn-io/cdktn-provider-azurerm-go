@@ -15,7 +15,7 @@ func (f *jsiiProxy_FrontdoorExplicitResourceOrderList) validateGetParameters(ind
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorExplicitResourceOrderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorExplicitResourceOrderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewFrontdoorExplicitResourceOrderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorExplicitResourceOrderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

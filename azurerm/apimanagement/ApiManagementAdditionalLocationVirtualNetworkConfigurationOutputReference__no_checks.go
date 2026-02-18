@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementAdditionalLocationVirtualNetworkConfigurationOut
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementAdditionalLocationVirtualNetworkConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementAdditionalLocationVirtualNetworkConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ApiManagementAdditionalLocationVirtualNetworkConfigurationOut
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementAdditionalLocationVirtualNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementAdditionalLocationVirtualNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementAdditionalLocationVirtualNetworkConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementAdditionalLocationVirtualNetworkConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

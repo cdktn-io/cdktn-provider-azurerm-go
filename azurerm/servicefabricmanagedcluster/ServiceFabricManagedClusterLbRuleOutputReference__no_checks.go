@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterLbRuleOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterLbRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterLbRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ServiceFabricManagedClusterLbRuleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterLbRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterLbRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterLbRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewServiceFabricManagedClusterLbRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

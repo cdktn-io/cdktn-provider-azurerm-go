@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputR
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputR
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelAlertRuleAnomalyDuplicateRequiredDataConnectorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

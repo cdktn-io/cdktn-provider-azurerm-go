@@ -5,18 +5,18 @@ package vpngatewaynatrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpngatewaynatrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vpngatewaynatrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/vpn_gateway_nat_rule azurerm_vpn_gateway_nat_rule}.
 type VpnGatewayNatRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type VpnGatewayNatRule interface {
 	ExternalMapping() VpnGatewayNatRuleExternalMappingList
 	ExternalMappingInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -50,9 +50,9 @@ type VpnGatewayNatRule interface {
 	SetIpConfigurationId(val *string)
 	IpConfigurationIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Mode() *string
 	SetMode(val *string)
 	ModeInput() *string
@@ -62,9 +62,9 @@ type VpnGatewayNatRule interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type VpnGatewayNatRule interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type VpnGatewayNatRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type VpnGatewayNatRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -156,11 +156,11 @@ type VpnGatewayNatRule interface {
 
 // The jsii proxy struct for VpnGatewayNatRule
 type jsiiProxy_VpnGatewayNatRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VpnGatewayNatRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_VpnGatewayNatRule) ExternalMappingInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VpnGatewayNatRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_VpnGatewayNatRule) IpConfigurationIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VpnGatewayNatRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -379,8 +379,8 @@ func (j *jsiiProxy_VpnGatewayNatRule) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VpnGatewayNatRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -409,8 +409,8 @@ func (j *jsiiProxy_VpnGatewayNatRule) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VpnGatewayNatRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -559,7 +559,7 @@ func (j *jsiiProxy_VpnGatewayNatRule)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VpnGatewayNatRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -589,7 +589,7 @@ func (j *jsiiProxy_VpnGatewayNatRule)SetIpConfigurationId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VpnGatewayNatRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -622,7 +622,7 @@ func (j *jsiiProxy_VpnGatewayNatRule)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VpnGatewayNatRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VpnGatewayNatRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -663,14 +663,14 @@ func (j *jsiiProxy_VpnGatewayNatRule)SetVpnGatewayId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a VpnGatewayNatRule resource upon running "cdktf plan <stack-name>".
-func VpnGatewayNatRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VpnGatewayNatRule resource upon running "cdktn plan <stack-name>".
+func VpnGatewayNatRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVpnGatewayNatRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.vpnGatewayNatRule.VpnGatewayNatRule",
@@ -804,11 +804,11 @@ func (v *jsiiProxy_VpnGatewayNatRule) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (v *jsiiProxy_VpnGatewayNatRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnGatewayNatRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -945,7 +945,7 @@ func (v *jsiiProxy_VpnGatewayNatRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VpnGatewayNatRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VpnGatewayNatRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -956,11 +956,11 @@ func (v *jsiiProxy_VpnGatewayNatRule) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (v *jsiiProxy_VpnGatewayNatRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnGatewayNatRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

@@ -5,14 +5,14 @@ package apimanagementlogger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementlogger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementlogger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementLoggerEventhubOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type ApiManagementLoggerEventhubOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserAssignedIdentityClientId() *string
 	SetUserAssignedIdentityClientId(val *string)
 	UserAssignedIdentityClientIdInput() *string
@@ -57,7 +57,7 @@ type ApiManagementLoggerEventhubOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type ApiManagementLoggerEventhubOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetConnectionString()
 	ResetEndpointUri()
 	ResetUserAssignedIdentityClientId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type ApiManagementLoggerEventhubOutputReference interface {
 
 // The jsii proxy struct for ApiManagementLoggerEventhubOutputReference
 type jsiiProxy_ApiManagementLoggerEventhubOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) ComplexObjectIndex() interface{} {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) UserAssignedIdent
 }
 
 
-func NewApiManagementLoggerEventhubOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApiManagementLoggerEventhubOutputReference {
+func NewApiManagementLoggerEventhubOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApiManagementLoggerEventhubOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementLoggerEventhubOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewApiManagementLoggerEventhubOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewApiManagementLoggerEventhubOutputReference_Override(a ApiManagementLoggerEventhubOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApiManagementLoggerEventhubOutputReference_Override(a ApiManagementLoggerEventhubOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -349,7 +349,7 @@ func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -528,8 +528,8 @@ func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -541,11 +541,11 @@ func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -581,7 +581,7 @@ func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) ResetUserAssigned
 	)
 }
 
-func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

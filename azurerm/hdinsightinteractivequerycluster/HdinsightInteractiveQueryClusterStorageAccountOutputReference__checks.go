@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (h *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference
 
 func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *HdinsightInteractiveQueryClusterStorageAccount:
 		val := val.(*HdinsightInteractiveQueryClusterStorageAccount)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *HdinsightInteractiveQueryClusterStorageAccount; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *HdinsightInteractiveQueryClusterStorageAccount; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -199,11 +199,11 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -242,7 +242,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -250,7 +250,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterStorageAccountOutputReference
 	return nil
 }
 
-func validateNewHdinsightInteractiveQueryClusterStorageAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHdinsightInteractiveQueryClusterStorageAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

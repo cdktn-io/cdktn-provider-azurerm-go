@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppBackupScheduleOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppBackupScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermWindowsWebAppBackupScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppBackupScheduleOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermWindowsWebAppBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermWindowsWebAppBackupScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermWindowsWebAppBackupScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

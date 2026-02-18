@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermVpnServerConfigurationIpsecPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVpnServerConfigurationIpsecPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

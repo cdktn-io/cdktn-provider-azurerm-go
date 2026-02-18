@@ -151,7 +151,7 @@ func (j *jsiiProxy_SentinelAlertRuleScheduled) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleScheduled) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelAlertRuleScheduled) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

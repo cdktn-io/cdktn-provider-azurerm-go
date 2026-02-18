@@ -15,7 +15,7 @@ func (s *jsiiProxy_SpringCloudBuilderBuildPackGroupList) validateGetParameters(i
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudBuilderBuildPackGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudBuilderBuildPackGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SpringCloudBuilderBuildPackGroupList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudBuilderBuildPackGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudBuilderBuildPackGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SpringCloudBuilderBuildPackGroupList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewSpringCloudBuilderBuildPackGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSpringCloudBuilderBuildPackGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterNodeTypeVmSecretsList) validateGet
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterNodeTypeVmSecretsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterNodeTypeVmSecretsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeVmSecretsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeVmSecretsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeVmSecretsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeVmSecretsList) validateSet
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterNodeTypeVmSecretsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewServiceFabricManagedClusterNodeTypeVmSecretsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

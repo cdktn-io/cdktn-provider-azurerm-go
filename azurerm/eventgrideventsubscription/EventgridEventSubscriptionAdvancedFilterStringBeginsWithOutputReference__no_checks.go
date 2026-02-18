@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterStringBeginsWithOutpu
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterStringBeginsWithOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterStringBeginsWithOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterStringBeginsWithOutpu
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterStringBeginsWithOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterStringBeginsWithOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterStringBeginsWithOutpu
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionAdvancedFilterStringBeginsWithOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventgridEventSubscriptionAdvancedFilterStringBeginsWithOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

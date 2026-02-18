@@ -5,14 +5,14 @@ package automanageconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automanageconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automanageconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDuration
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDuration
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCount()
 	ResetDurationType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDuration
 
 // The jsii proxy struct for AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference
 type jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRet
 	return returns
 }
 
-func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRet
 }
 
 
-func NewAutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference {
+func NewAutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewAutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurat
 	return &j
 }
 
-func NewAutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference_Override(a AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference_Override(a AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRet
 	)
 }
 
-func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRet
 	return returns
 }
 
-func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -459,8 +459,8 @@ func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRet
 	return returns
 }
 
-func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -472,11 +472,11 @@ func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRet
 	return returns
 }
 
-func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,7 +504,7 @@ func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRet
 	)
 }
 
-func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyWeeklyScheduleRetentionDurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

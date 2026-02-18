@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermHealthcareService) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermHealthcareService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

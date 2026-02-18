@@ -51,7 +51,7 @@ func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchPoolNetworkConfigurationEndpointConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchPoolNetworkConfigurationEndpointConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

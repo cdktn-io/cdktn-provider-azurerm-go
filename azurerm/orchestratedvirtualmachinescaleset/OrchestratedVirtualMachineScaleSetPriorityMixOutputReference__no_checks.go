@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	return nil
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrchestratedVirtualMachineScaleSetPriorityMixOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrchestratedVirtualMachineScaleSetPriorityMixOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

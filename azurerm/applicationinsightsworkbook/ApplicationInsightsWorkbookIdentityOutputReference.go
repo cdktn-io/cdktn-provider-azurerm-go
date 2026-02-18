@@ -5,14 +5,14 @@ package applicationinsightsworkbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationinsightsworkbook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationinsightsworkbook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationInsightsWorkbookIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type ApplicationInsightsWorkbookIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -53,7 +53,7 @@ type ApplicationInsightsWorkbookIdentityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,13 +69,13 @@ type ApplicationInsightsWorkbookIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIdentityIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type ApplicationInsightsWorkbookIdentityOutputReference interface {
 
 // The jsii proxy struct for ApplicationInsightsWorkbookIdentityOutputReference
 type jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) ComplexObjectIndex() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) TypeInput
 }
 
 
-func NewApplicationInsightsWorkbookIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApplicationInsightsWorkbookIdentityOutputReference {
+func NewApplicationInsightsWorkbookIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApplicationInsightsWorkbookIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApplicationInsightsWorkbookIdentityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewApplicationInsightsWorkbookIdentityOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewApplicationInsightsWorkbookIdentityOutputReference_Override(a ApplicationInsightsWorkbookIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApplicationInsightsWorkbookIdentityOutputReference_Override(a ApplicationInsightsWorkbookIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -301,7 +301,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -352,11 +352,11 @@ func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -480,8 +480,8 @@ func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -493,11 +493,11 @@ func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -517,7 +517,7 @@ func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) ResetIden
 	)
 }
 
-func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationInsightsWorkbookIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

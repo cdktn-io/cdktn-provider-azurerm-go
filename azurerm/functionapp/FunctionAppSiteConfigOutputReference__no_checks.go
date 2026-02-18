@@ -59,7 +59,7 @@ func (f *jsiiProxy_FunctionAppSiteConfigOutputReference) validatePutScmIpRestric
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppSiteConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppSiteConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -139,7 +139,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -155,7 +155,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigOutputReference) validateSetWebsocketsEn
 	return nil
 }
 
-func validateNewFunctionAppSiteConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppSiteConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

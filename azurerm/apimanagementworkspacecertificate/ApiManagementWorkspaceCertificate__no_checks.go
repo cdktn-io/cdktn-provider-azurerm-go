@@ -119,7 +119,7 @@ func (j *jsiiProxy_ApiManagementWorkspaceCertificate) validateSetKeyVaultSecretI
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementWorkspaceCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementWorkspaceCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

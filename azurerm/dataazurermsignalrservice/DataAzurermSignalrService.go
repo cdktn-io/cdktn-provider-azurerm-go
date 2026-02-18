@@ -5,19 +5,19 @@ package dataazurermsignalrservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsignalrservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsignalrservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/signalr_service azurerm_signalr_service}.
 type DataAzurermSignalrService interface {
-	cdktf.TerraformDataSource
-	AadAuthEnabled() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AadAuthEnabled() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,9 +29,9 @@ type DataAzurermSignalrService interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,10 +42,10 @@ type DataAzurermSignalrService interface {
 	IdInput() *string
 	IpAddress() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
-	LocalAuthEnabled() cdktf.IResolvable
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	LocalAuthEnabled() cdktn.IResolvable
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -55,10 +55,10 @@ type DataAzurermSignalrService interface {
 	PrimaryAccessKey() *string
 	PrimaryConnectionString() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	PublicNetworkAccessEnabled() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	PublicNetworkAccessEnabled() cdktn.IResolvable
 	PublicPort() *float64
 	// Experimental.
 	RawOverrides() interface{}
@@ -69,22 +69,22 @@ type DataAzurermSignalrService interface {
 	SecondaryConnectionString() *string
 	ServerlessConnectionTimeoutInSeconds() *float64
 	ServerPort() *float64
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermSignalrServiceTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	TlsClientCertEnabled() cdktf.IResolvable
+	TlsClientCertEnabled() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,7 +100,7 @@ type DataAzurermSignalrService interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -126,11 +126,11 @@ type DataAzurermSignalrService interface {
 
 // The jsii proxy struct for DataAzurermSignalrService
 type jsiiProxy_DataAzurermSignalrService struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) AadAuthEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSignalrService) AadAuthEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"aadAuthEnabled",
@@ -139,8 +139,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) AadAuthEnabled() cdktf.IResolvable
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermSignalrService) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -179,8 +179,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermSignalrService) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) IpAddress() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermSignalrService) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) Lifecycle() *cdktf.TerraformResour
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) LocalAuthEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSignalrService) LocalAuthEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"localAuthEnabled",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) PrimaryConnectionString() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermSignalrService) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -339,8 +339,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) Provider() cdktf.TerraformProvider
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) PublicNetworkAccessEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSignalrService) PublicNetworkAccessEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publicNetworkAccessEnabled",
@@ -429,8 +429,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) ServerPort() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermSignalrService) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -439,8 +439,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermSignalrService) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -489,8 +489,8 @@ func (j *jsiiProxy_DataAzurermSignalrService) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService) TlsClientCertEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSignalrService) TlsClientCertEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"tlsClientCertEnabled",
@@ -548,7 +548,7 @@ func (j *jsiiProxy_DataAzurermSignalrService)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermSignalrService)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DataAzurermSignalrService)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermSignalrService)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -589,7 +589,7 @@ func (j *jsiiProxy_DataAzurermSignalrService)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSignalrService)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermSignalrService)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -608,14 +608,14 @@ func (j *jsiiProxy_DataAzurermSignalrService)SetResourceGroupName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermSignalrService resource upon running "cdktf plan <stack-name>".
-func DataAzurermSignalrService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermSignalrService resource upon running "cdktn plan <stack-name>".
+func DataAzurermSignalrService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermSignalrService_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermSignalrService.DataAzurermSignalrService",
@@ -738,11 +738,11 @@ func (d *jsiiProxy_DataAzurermSignalrService) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSignalrService) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSignalrService) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -866,11 +866,11 @@ func (d *jsiiProxy_DataAzurermSignalrService) GetStringMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSignalrService) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSignalrService) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

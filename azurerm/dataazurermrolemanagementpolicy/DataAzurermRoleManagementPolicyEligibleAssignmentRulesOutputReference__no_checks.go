@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermRoleManagementPolicyEligibleAssignmentRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

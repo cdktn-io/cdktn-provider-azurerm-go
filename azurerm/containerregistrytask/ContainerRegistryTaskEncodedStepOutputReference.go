@@ -5,14 +5,14 @@ package containerregistrytask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerregistrytask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerregistrytask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerRegistryTaskEncodedStepOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type ContainerRegistryTaskEncodedStepOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ValueContent() *string
 	SetValueContent(val *string)
 	ValueContentInput() *string
@@ -63,7 +63,7 @@ type ContainerRegistryTaskEncodedStepOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type ContainerRegistryTaskEncodedStepOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetContextAccessToken()
 	ResetContextPath()
 	ResetSecretValues()
@@ -89,7 +89,7 @@ type ContainerRegistryTaskEncodedStepOutputReference interface {
 	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type ContainerRegistryTaskEncodedStepOutputReference interface {
 
 // The jsii proxy struct for ContainerRegistryTaskEncodedStepOutputReference
 type jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) ComplexObjectIndex() interface{} {
@@ -242,8 +242,8 @@ func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) ValuesInput(
 }
 
 
-func NewContainerRegistryTaskEncodedStepOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ContainerRegistryTaskEncodedStepOutputReference {
+func NewContainerRegistryTaskEncodedStepOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ContainerRegistryTaskEncodedStepOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerRegistryTaskEncodedStepOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -310,7 +310,7 @@ func NewContainerRegistryTaskEncodedStepOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewContainerRegistryTaskEncodedStepOutputReference_Override(c ContainerRegistryTaskEncodedStepOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewContainerRegistryTaskEncodedStepOutputReference_Override(c ContainerRegistryTaskEncodedStepOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -408,7 +408,7 @@ func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -598,8 +598,8 @@ func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) GetStringMap
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -611,11 +611,11 @@ func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) Interpolatio
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -667,7 +667,7 @@ func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) ResetValues(
 	)
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerRegistryTaskEncodedStepOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

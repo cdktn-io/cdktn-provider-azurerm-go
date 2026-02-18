@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReference) 
 	return nil
 }
 
-func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_WorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewWorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkloadsSapThreeTierVirtualInstanceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

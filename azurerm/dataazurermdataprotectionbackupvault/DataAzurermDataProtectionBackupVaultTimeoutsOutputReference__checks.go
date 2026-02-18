@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) 
 
 func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAzurermDataProtectionBackupVaultTimeouts:
 		val := val.(*DataAzurermDataProtectionBackupVaultTimeouts)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) 
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAzurermDataProtectionBackupVaultTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAzurermDataProtectionBackupVaultTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewDataAzurermDataProtectionBackupVaultTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermDataProtectionBackupVaultTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewDataFactoryTriggerTumblingWindowTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryTriggerTumblingWindowTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

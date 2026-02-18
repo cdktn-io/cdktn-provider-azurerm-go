@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGoogleOutputReference) validateI
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGoogleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGoogleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGoogleOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGoogleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGoogleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsWebAppSlotAuthSettingsGoogleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppSlotAuthSettingsGoogleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

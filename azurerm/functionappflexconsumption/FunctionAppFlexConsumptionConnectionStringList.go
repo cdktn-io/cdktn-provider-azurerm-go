@@ -5,14 +5,14 @@ package functionappflexconsumption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappflexconsumption/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/functionappflexconsumption/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FunctionAppFlexConsumptionConnectionStringList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type FunctionAppFlexConsumptionConnectionStringList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type FunctionAppFlexConsumptionConnectionStringList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) FunctionAppFlexConsumptionConnectionStringOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type FunctionAppFlexConsumptionConnectionStringList interface {
 
 // The jsii proxy struct for FunctionAppFlexConsumptionConnectionStringList
 type jsiiProxy_FunctionAppFlexConsumptionConnectionStringList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) WrapsSet() *b
 }
 
 
-func NewFunctionAppFlexConsumptionConnectionStringList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FunctionAppFlexConsumptionConnectionStringList {
+func NewFunctionAppFlexConsumptionConnectionStringList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FunctionAppFlexConsumptionConnectionStringList {
 	_init_.Initialize()
 
 	if err := validateNewFunctionAppFlexConsumptionConnectionStringListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewFunctionAppFlexConsumptionConnectionStringList(terraformResource cdktf.I
 	return &j
 }
 
-func NewFunctionAppFlexConsumptionConnectionStringList_Override(f FunctionAppFlexConsumptionConnectionStringList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewFunctionAppFlexConsumptionConnectionStringList_Override(f FunctionAppFlexConsumptionConnectionStringList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList)SetWrapsSet(va
 	)
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := f.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		f,
@@ -231,7 +231,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) Get(index *fl
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

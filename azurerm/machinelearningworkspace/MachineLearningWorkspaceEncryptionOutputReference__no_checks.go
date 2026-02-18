@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningWorkspaceEncryptionOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningWorkspaceEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningWorkspaceEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MachineLearningWorkspaceEncryptionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningWorkspaceEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningWorkspaceEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MachineLearningWorkspaceEncryptionOutputReference) validateSe
 	return nil
 }
 
-func validateNewMachineLearningWorkspaceEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningWorkspaceEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

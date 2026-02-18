@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutp
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutp
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutp
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorAutoscaleSettingProfileRuleMetricTriggerDimensionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

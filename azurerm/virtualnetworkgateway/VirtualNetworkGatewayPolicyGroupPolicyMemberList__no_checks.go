@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupPolicyMemberList) validateGet
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupPolicyMemberList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupPolicyMemberList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupPolicyMemberList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupPolicyMemberList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupPolicyMemberList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupPolicyMemberList) validateSet
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayPolicyGroupPolicyMemberListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualNetworkGatewayPolicyGroupPolicyMemberListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

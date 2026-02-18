@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermPlatformImageTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPlatformImageTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPlatformImageTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermPlatformImageTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPlatformImageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPlatformImageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermPlatformImageTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermPlatformImageTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

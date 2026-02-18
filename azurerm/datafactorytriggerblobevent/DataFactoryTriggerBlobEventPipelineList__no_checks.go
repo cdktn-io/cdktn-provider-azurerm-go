@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryTriggerBlobEventPipelineList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryTriggerBlobEventPipelineList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryTriggerBlobEventPipelineList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryTriggerBlobEventPipelineList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerBlobEventPipelineList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryTriggerBlobEventPipelineList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryTriggerBlobEventPipelineList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataFactoryTriggerBlobEventPipelineListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryTriggerBlobEventPipelineListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

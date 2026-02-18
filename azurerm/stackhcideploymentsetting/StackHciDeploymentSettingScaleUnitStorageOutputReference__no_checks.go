@@ -47,7 +47,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitStorageOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitStorageOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStackHciDeploymentSettingScaleUnitStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStackHciDeploymentSettingScaleUnitStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

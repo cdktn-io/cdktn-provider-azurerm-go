@@ -47,7 +47,7 @@ func (e *jsiiProxy_ExpressRouteCircuitPeeringTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitPeeringTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ExpressRouteCircuitPeeringTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ExpressRouteCircuitPeeringTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteCircuitPeeringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ExpressRouteCircuitPeeringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ExpressRouteCircuitPeeringTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewExpressRouteCircuitPeeringTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewExpressRouteCircuitPeeringTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

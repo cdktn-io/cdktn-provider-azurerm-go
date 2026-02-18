@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricClusterCertificateOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricClusterCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricClusterCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ServiceFabricClusterCertificateOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricClusterCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricClusterCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ServiceFabricClusterCertificateOutputReference) validateSetX5
 	return nil
 }
 
-func validateNewServiceFabricClusterCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricClusterCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

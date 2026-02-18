@@ -5,22 +5,22 @@ package dataazurermcosmosdbsqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermcosmosdbsqldatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermcosmosdbsqldatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/cosmosdb_sql_database azurerm_cosmosdb_sql_database}.
 type DataAzurermCosmosdbSqlDatabase interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccountName() *string
 	SetAccountName(val *string)
 	AccountNameInput() *string
 	AutoscaleSettings() DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type DataAzurermCosmosdbSqlDatabase interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,25 +43,25 @@ type DataAzurermCosmosdbSqlDatabase interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type DataAzurermCosmosdbSqlDatabase interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -90,7 +90,7 @@ type DataAzurermCosmosdbSqlDatabase interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -116,7 +116,7 @@ type DataAzurermCosmosdbSqlDatabase interface {
 
 // The jsii proxy struct for DataAzurermCosmosdbSqlDatabase
 type jsiiProxy_DataAzurermCosmosdbSqlDatabase struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) AccountName() *string {
@@ -149,8 +149,8 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) AutoscaleSettings() DataAzure
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -279,8 +279,8 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) ResourceGroupNameInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -439,7 +439,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -458,7 +458,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -480,7 +480,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -499,14 +499,14 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabase)SetResourceGroupName(val *stri
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermCosmosdbSqlDatabase resource upon running "cdktf plan <stack-name>".
-func DataAzurermCosmosdbSqlDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermCosmosdbSqlDatabase resource upon running "cdktn plan <stack-name>".
+func DataAzurermCosmosdbSqlDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermCosmosdbSqlDatabase_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermCosmosdbSqlDatabase.DataAzurermCosmosdbSqlDatabase",
@@ -629,11 +629,11 @@ func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabase) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabase) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabase) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -757,11 +757,11 @@ func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabase) GetStringMapAttribute(terrafo
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabase) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabase) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

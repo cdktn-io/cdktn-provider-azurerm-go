@@ -5,14 +5,14 @@ package firewallnatrulecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/firewallnatrulecollection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/firewallnatrulecollection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FirewallNatRuleCollectionRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -58,9 +58,9 @@ type FirewallNatRuleCollectionRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TranslatedAddress() *string
 	SetTranslatedAddress(val *string)
 	TranslatedAddressInput() *string
@@ -72,7 +72,7 @@ type FirewallNatRuleCollectionRuleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,15 +88,15 @@ type FirewallNatRuleCollectionRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	ResetSourceAddresses()
 	ResetSourceIpGroups()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -106,7 +106,7 @@ type FirewallNatRuleCollectionRuleOutputReference interface {
 
 // The jsii proxy struct for FirewallNatRuleCollectionRuleOutputReference
 type jsiiProxy_FirewallNatRuleCollectionRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -309,8 +309,8 @@ func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -360,7 +360,7 @@ func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) TranslatedPortI
 }
 
 
-func NewFirewallNatRuleCollectionRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FirewallNatRuleCollectionRuleOutputReference {
+func NewFirewallNatRuleCollectionRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FirewallNatRuleCollectionRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFirewallNatRuleCollectionRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -377,7 +377,7 @@ func NewFirewallNatRuleCollectionRuleOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewFirewallNatRuleCollectionRuleOutputReference_Override(f FirewallNatRuleCollectionRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFirewallNatRuleCollectionRuleOutputReference_Override(f FirewallNatRuleCollectionRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -508,7 +508,7 @@ func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -570,11 +570,11 @@ func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -698,8 +698,8 @@ func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -711,11 +711,11 @@ func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) InterpolationAs
 	return returns
 }
 
-func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -751,7 +751,7 @@ func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) ResetSourceIpGr
 	)
 }
 
-func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FirewallNatRuleCollectionRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

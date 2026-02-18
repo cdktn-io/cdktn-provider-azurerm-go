@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReferen
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualNetworkGatewayBgpSettingsPeeringAddressesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

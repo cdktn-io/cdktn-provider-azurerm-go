@@ -211,7 +211,7 @@ func (j *jsiiProxy_StorageAccount) validateSetLargeFileShareEnabledParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

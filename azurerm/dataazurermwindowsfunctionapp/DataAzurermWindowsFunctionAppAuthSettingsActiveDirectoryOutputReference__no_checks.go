@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermWindowsFunctionAppAuthSettingsActiveDirectoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

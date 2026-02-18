@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMaintenanceConfigurationInstallPatchesWindowsList)
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMaintenanceConfigurationInstallPatchesWindowsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMaintenanceConfigurationInstallPatchesWindowsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMaintenanceConfigurationInstallPatchesWindowsList)
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMaintenanceConfigurationInstallPatchesWindowsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMaintenanceConfigurationInstallPatchesWindowsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMaintenanceConfigurationInstallPatchesWindowsList)
 	return nil
 }
 
-func validateNewDataAzurermMaintenanceConfigurationInstallPatchesWindowsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMaintenanceConfigurationInstallPatchesWindowsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateSetKeyVaultKey
 	return nil
 }
 
-func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

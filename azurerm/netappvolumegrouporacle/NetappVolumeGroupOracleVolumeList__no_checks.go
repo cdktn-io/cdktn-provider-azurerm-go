@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetappVolumeGroupOracleVolumeList) validateGetParameters(inde
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupOracleVolumeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupOracleVolumeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupOracleVolumeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupOracleVolumeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewNetappVolumeGroupOracleVolumeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetappVolumeGroupOracleVolumeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

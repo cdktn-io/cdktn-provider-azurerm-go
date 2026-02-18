@@ -159,7 +159,7 @@ func (j *jsiiProxy_VirtualNetworkGateway) validateSetIpSecReplayProtectionEnable
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualNetworkGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

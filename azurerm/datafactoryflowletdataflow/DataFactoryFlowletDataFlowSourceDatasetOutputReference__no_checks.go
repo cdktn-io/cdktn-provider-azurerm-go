@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceDatasetOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceDatasetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceDatasetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceDatasetOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceDatasetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceDatasetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryFlowletDataFlowSourceDatasetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryFlowletDataFlowSourceDatasetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

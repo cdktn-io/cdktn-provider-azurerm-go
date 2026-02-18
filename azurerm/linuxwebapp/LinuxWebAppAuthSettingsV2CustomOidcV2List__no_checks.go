@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsV2CustomOidcV2List) validateGetParamet
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsV2CustomOidcV2List) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsV2CustomOidcV2List) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsV2CustomOidcV2List) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppAuthSettingsV2CustomOidcV2List) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppAuthSettingsV2CustomOidcV2List) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsV2CustomOidcV2List) validateSetWrapsSe
 	return nil
 }
 
-func validateNewLinuxWebAppAuthSettingsV2CustomOidcV2ListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxWebAppAuthSettingsV2CustomOidcV2ListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupPolicyFileShareBackupHourlyOutputReference) validateInt
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyFileShareBackupHourlyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyFileShareBackupHourlyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BackupPolicyFileShareBackupHourlyOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyFileShareBackupHourlyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyFileShareBackupHourlyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BackupPolicyFileShareBackupHourlyOutputReference) validateSet
 	return nil
 }
 
-func validateNewBackupPolicyFileShareBackupHourlyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPolicyFileShareBackupHourlyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

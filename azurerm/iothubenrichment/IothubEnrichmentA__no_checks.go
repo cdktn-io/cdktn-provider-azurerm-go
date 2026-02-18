@@ -119,7 +119,7 @@ func (j *jsiiProxy_IothubEnrichmentA) validateSetKeyParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_IothubEnrichmentA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IothubEnrichmentA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

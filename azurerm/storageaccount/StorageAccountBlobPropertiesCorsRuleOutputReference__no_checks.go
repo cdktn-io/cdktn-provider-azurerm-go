@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountBlobPropertiesCorsRuleOutputReference) validate
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountBlobPropertiesCorsRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountBlobPropertiesCorsRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_StorageAccountBlobPropertiesCorsRuleOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountBlobPropertiesCorsRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountBlobPropertiesCorsRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageAccountBlobPropertiesCorsRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageAccountBlobPropertiesCorsRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

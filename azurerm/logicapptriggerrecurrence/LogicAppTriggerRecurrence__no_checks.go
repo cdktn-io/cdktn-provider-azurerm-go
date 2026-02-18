@@ -119,7 +119,7 @@ func (j *jsiiProxy_LogicAppTriggerRecurrence) validateSetIntervalParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppTriggerRecurrence) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogicAppTriggerRecurrence) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlDatabaseIdentityOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (m *jsiiProxy_MssqlDatabaseIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlDatabaseIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MssqlDatabaseIdentityOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_MssqlDatabaseIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlDatabaseIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlDatabaseIdentityOutputReference) validateSetTypeParamete
 	return nil
 }
 
-func validateNewMssqlDatabaseIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlDatabaseIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

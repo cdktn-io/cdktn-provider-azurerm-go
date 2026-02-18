@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermCognitiveAccountNetworkAclsOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCognitiveAccountNetworkAclsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCognitiveAccountNetworkAclsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermCognitiveAccountNetworkAclsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCognitiveAccountNetworkAclsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCognitiveAccountNetworkAclsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermCognitiveAccountNetworkAclsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermCognitiveAccountNetworkAclsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsVirtualMachineSecretCertificateOutputReference) valida
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineSecretCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineSecretCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateOutputReference) valida
 	return nil
 }
 
-func validateNewWindowsVirtualMachineSecretCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsVirtualMachineSecretCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

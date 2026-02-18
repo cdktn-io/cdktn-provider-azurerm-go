@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionNotificationList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionNotificationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionNotificationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionNotificationList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionNotificationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionNotificationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetSubscriptionNotificationList) val
 	return nil
 }
 
-func validateNewDataAzurermConsumptionBudgetSubscriptionNotificationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermConsumptionBudgetSubscriptionNotificationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

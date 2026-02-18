@@ -47,7 +47,7 @@ func (p *jsiiProxy_PointToSiteVpnGatewayTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (p *jsiiProxy_PointToSiteVpnGatewayTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PointToSiteVpnGatewayTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PointToSiteVpnGatewayTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_PointToSiteVpnGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PointToSiteVpnGatewayTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PointToSiteVpnGatewayTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewPointToSiteVpnGatewayTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPointToSiteVpnGatewayTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

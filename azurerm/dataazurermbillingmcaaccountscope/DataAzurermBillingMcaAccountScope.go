@@ -5,16 +5,16 @@ package dataazurermbillingmcaaccountscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermbillingmcaaccountscope/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermbillingmcaaccountscope/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/billing_mca_account_scope azurerm_billing_mca_account_scope}.
 type DataAzurermBillingMcaAccountScope interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	BillingAccountName() *string
 	SetBillingAccountName(val *string)
 	BillingAccountNameInput() *string
@@ -22,7 +22,7 @@ type DataAzurermBillingMcaAccountScope interface {
 	SetBillingProfileName(val *string)
 	BillingProfileNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type DataAzurermBillingMcaAccountScope interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,19 +48,19 @@ type DataAzurermBillingMcaAccountScope interface {
 	SetInvoiceSectionName(val *string)
 	InvoiceSectionNameInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type DataAzurermBillingMcaAccountScope interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,7 +88,7 @@ type DataAzurermBillingMcaAccountScope interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -114,7 +114,7 @@ type DataAzurermBillingMcaAccountScope interface {
 
 // The jsii proxy struct for DataAzurermBillingMcaAccountScope
 type jsiiProxy_DataAzurermBillingMcaAccountScope struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) BillingAccountName() *string {
@@ -157,8 +157,8 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) BillingProfileNameInput() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) InvoiceSectionNameInput() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -287,8 +287,8 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -428,7 +428,7 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetDependsOn(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -458,7 +458,7 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetInvoiceSectionName(val *
 	)
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -469,7 +469,7 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetLifecycle(val *cdktf.Ter
 	)
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -477,14 +477,14 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScope)SetProvider(val cdktf.Terra
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermBillingMcaAccountScope resource upon running "cdktf plan <stack-name>".
-func DataAzurermBillingMcaAccountScope_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermBillingMcaAccountScope resource upon running "cdktn plan <stack-name>".
+func DataAzurermBillingMcaAccountScope_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermBillingMcaAccountScope_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermBillingMcaAccountScope.DataAzurermBillingMcaAccountScope",
@@ -607,11 +607,11 @@ func (d *jsiiProxy_DataAzurermBillingMcaAccountScope) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermBillingMcaAccountScope) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermBillingMcaAccountScope) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -735,11 +735,11 @@ func (d *jsiiProxy_DataAzurermBillingMcaAccountScope) GetStringMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermBillingMcaAccountScope) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermBillingMcaAccountScope) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

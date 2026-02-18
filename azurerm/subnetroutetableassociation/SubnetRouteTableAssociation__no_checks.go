@@ -107,7 +107,7 @@ func (j *jsiiProxy_SubnetRouteTableAssociation) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_SubnetRouteTableAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SubnetRouteTableAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

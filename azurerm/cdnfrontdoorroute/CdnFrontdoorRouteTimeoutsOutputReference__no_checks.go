@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnFrontdoorRouteTimeoutsOutputReference) validateInterpolati
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRouteTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorRouteTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CdnFrontdoorRouteTimeoutsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRouteTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorRouteTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CdnFrontdoorRouteTimeoutsOutputReference) validateSetUpdatePa
 	return nil
 }
 
-func validateNewCdnFrontdoorRouteTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorRouteTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetStorageProfileImageReferenceOutputRefer
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetStorageProfileImageReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetStorageProfileImageReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileImageReferenceOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStorageProfileImageReferenceOutputRefer
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetStorageProfileImageReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineScaleSetStorageProfileImageReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

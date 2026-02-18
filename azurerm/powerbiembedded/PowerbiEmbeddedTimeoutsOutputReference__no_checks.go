@@ -47,7 +47,7 @@ func (p *jsiiProxy_PowerbiEmbeddedTimeoutsOutputReference) validateInterpolation
 	return nil
 }
 
-func (p *jsiiProxy_PowerbiEmbeddedTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PowerbiEmbeddedTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PowerbiEmbeddedTimeoutsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_PowerbiEmbeddedTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PowerbiEmbeddedTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PowerbiEmbeddedTimeoutsOutputReference) validateSetUpdatePara
 	return nil
 }
 
-func validateNewPowerbiEmbeddedTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPowerbiEmbeddedTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

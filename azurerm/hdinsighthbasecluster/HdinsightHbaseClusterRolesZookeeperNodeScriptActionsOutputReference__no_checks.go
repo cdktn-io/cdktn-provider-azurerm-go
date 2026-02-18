@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputRef
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputRef
 	return nil
 }
 
-func validateNewHdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHdinsightHbaseClusterRolesZookeeperNodeScriptActionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

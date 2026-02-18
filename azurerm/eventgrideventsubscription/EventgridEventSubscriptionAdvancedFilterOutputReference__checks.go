@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterBoolEquals:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterBoolEquals)
@@ -117,7 +117,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterBoolEquals; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterBoolEquals; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterIsNotNull:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterIsNotNull)
@@ -148,7 +148,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterIsNotNull; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterIsNotNull; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterIsNullOrUndefined:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterIsNullOrUndefined)
@@ -179,7 +179,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterIsNullOrUndefined; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterIsNullOrUndefined; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThan:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThan)
@@ -210,7 +210,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThan; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThan; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOrEquals:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOrEquals)
@@ -241,7 +241,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOrEquals; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOrEquals; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberIn:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberIn)
@@ -272,7 +272,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberIn; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberIn; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberInRange:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberInRange)
@@ -303,7 +303,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberInRange; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberInRange; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberLessThan:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberLessThan)
@@ -334,7 +334,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberLessThan; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberLessThan; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -346,7 +346,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberLessThanOrEquals:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberLessThanOrEquals)
@@ -365,7 +365,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberLessThanOrEquals; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberLessThanOrEquals; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -377,7 +377,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberNotIn:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberNotIn)
@@ -396,7 +396,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberNotIn; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberNotIn; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -408,7 +408,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterNumberNotInRange:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterNumberNotInRange)
@@ -427,7 +427,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberNotInRange; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterNumberNotInRange; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -439,7 +439,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringBeginsWith:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringBeginsWith)
@@ -458,7 +458,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringBeginsWith; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringBeginsWith; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -470,7 +470,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringContains:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringContains)
@@ -489,7 +489,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringContains; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringContains; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -501,7 +501,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringEndsWith:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringEndsWith)
@@ -520,7 +520,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringEndsWith; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringEndsWith; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -532,7 +532,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringIn:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringIn)
@@ -551,7 +551,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringIn; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringIn; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -563,7 +563,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringNotBeginsWith:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringNotBeginsWith)
@@ -582,7 +582,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotBeginsWith; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotBeginsWith; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -594,7 +594,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringNotContains:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringNotContains)
@@ -613,7 +613,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotContains; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotContains; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -625,7 +625,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringNotEndsWith:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringNotEndsWith)
@@ -644,7 +644,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotEndsWith; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotEndsWith; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -656,7 +656,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionAdvancedFilterStringNotIn:
 		value := value.(*[]*EventgridEventSubscriptionAdvancedFilterStringNotIn)
@@ -675,14 +675,14 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotIn; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionAdvancedFilterStringNotIn; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -771,7 +771,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -779,7 +779,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterOutputReference) vali
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionAdvancedFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridEventSubscriptionAdvancedFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

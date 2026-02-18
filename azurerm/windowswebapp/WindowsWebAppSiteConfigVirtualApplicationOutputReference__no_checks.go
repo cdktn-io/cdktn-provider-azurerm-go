@@ -51,7 +51,7 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationOutputReference) val
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationOutputReference) val
 	return nil
 }
 
-func validateNewWindowsWebAppSiteConfigVirtualApplicationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsWebAppSiteConfigVirtualApplicationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

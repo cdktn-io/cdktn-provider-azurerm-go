@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (m *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReferenc
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReferenc
 
 func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *MssqlManagedInstanceSecurityAlertPolicyTimeouts:
 		val := val.(*MssqlManagedInstanceSecurityAlertPolicyTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReferenc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *MssqlManagedInstanceSecurityAlertPolicyTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *MssqlManagedInstanceSecurityAlertPolicyTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewMssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlManagedInstanceSecurityAlertPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

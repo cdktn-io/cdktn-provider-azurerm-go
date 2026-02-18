@@ -5,24 +5,24 @@ package dataazurermwindowswebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwindowswebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwindowswebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/windows_web_app azurerm_windows_web_app}.
 type DataAzurermWindowsWebApp interface {
-	cdktf.TerraformDataSource
-	AppSettings() cdktf.StringMap
+	cdktn.TerraformDataSource
+	AppSettings() cdktn.StringMap
 	AuthSettings() DataAzurermWindowsWebAppAuthSettingsList
 	AuthSettingsV2() DataAzurermWindowsWebAppAuthSettingsV2List
 	Backup() DataAzurermWindowsWebAppBackupList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
-	ClientAffinityEnabled() cdktf.IResolvable
-	ClientCertificateEnabled() cdktf.IResolvable
+	CdktfStack() cdktn.TerraformStack
+	ClientAffinityEnabled() cdktn.IResolvable
+	ClientCertificateEnabled() cdktn.IResolvable
 	ClientCertificateExclusionPaths() *string
 	ClientCertificateMode() *string
 	ConnectionString() DataAzurermWindowsWebAppConnectionStringList
@@ -38,27 +38,27 @@ type DataAzurermWindowsWebApp interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	Enabled() cdktf.IResolvable
+	Enabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	FtpPublishBasicAuthenticationEnabled() cdktf.IResolvable
+	FtpPublishBasicAuthenticationEnabled() cdktn.IResolvable
 	HostingEnvironmentId() *string
-	HttpsOnly() cdktf.IResolvable
+	HttpsOnly() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
 	Identity() DataAzurermWindowsWebAppIdentityList
 	IdInput() *string
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Logs() DataAzurermWindowsWebAppLogsList
 	Name() *string
@@ -71,10 +71,10 @@ type DataAzurermWindowsWebApp interface {
 	PossibleOutboundIpAddresses() *string
 	PossibleOutboundIpAddressList() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	PublicNetworkAccessEnabled() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	PublicNetworkAccessEnabled() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -85,24 +85,24 @@ type DataAzurermWindowsWebApp interface {
 	SiteCredential() DataAzurermWindowsWebAppSiteCredentialList
 	StickySettings() DataAzurermWindowsWebAppStickySettingsList
 	StorageAccount() DataAzurermWindowsWebAppStorageAccountList
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermWindowsWebAppTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	VirtualNetworkBackupRestoreEnabled() cdktf.IResolvable
+	VirtualNetworkBackupRestoreEnabled() cdktn.IResolvable
 	VirtualNetworkSubnetId() *string
-	WebdeployPublishBasicAuthenticationEnabled() cdktf.IResolvable
+	WebdeployPublishBasicAuthenticationEnabled() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,7 +118,7 @@ type DataAzurermWindowsWebApp interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -144,11 +144,11 @@ type DataAzurermWindowsWebApp interface {
 
 // The jsii proxy struct for DataAzurermWindowsWebApp
 type jsiiProxy_DataAzurermWindowsWebApp struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) AppSettings() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermWindowsWebApp) AppSettings() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"appSettings",
@@ -187,8 +187,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) Backup() DataAzurermWindowsWebAppBa
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermWindowsWebApp) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) CdktfStack() cdktf.TerraformStack {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) ClientAffinityEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) ClientAffinityEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"clientAffinityEnabled",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) ClientAffinityEnabled() cdktf.IReso
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) ClientCertificateEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) ClientCertificateEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"clientCertificateEnabled",
@@ -297,8 +297,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabled",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) Enabled() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermWindowsWebApp) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) FtpPublishBasicAuthenticationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) FtpPublishBasicAuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ftpPublishBasicAuthenticationEnabled",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) HostingEnvironmentId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) HttpsOnly() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) HttpsOnly() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"httpsOnly",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermWindowsWebApp) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -507,8 +507,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) PossibleOutboundIpAddressList() *[]
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermWindowsWebApp) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -517,8 +517,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) Provider() cdktf.TerraformProvider 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) PublicNetworkAccessEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) PublicNetworkAccessEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publicNetworkAccessEnabled",
@@ -607,8 +607,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) StorageAccount() DataAzurermWindows
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermWindowsWebApp) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -617,8 +617,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermWindowsWebApp) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -667,8 +667,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) VirtualNetworkBackupRestoreEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) VirtualNetworkBackupRestoreEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"virtualNetworkBackupRestoreEnabled",
@@ -687,8 +687,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp) VirtualNetworkSubnetId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp) WebdeployPublishBasicAuthenticationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsWebApp) WebdeployPublishBasicAuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"webdeployPublishBasicAuthenticationEnabled",
@@ -746,7 +746,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermWindowsWebApp)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -765,7 +765,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermWindowsWebApp)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -787,7 +787,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebApp)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermWindowsWebApp)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -806,14 +806,14 @@ func (j *jsiiProxy_DataAzurermWindowsWebApp)SetResourceGroupName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermWindowsWebApp resource upon running "cdktf plan <stack-name>".
-func DataAzurermWindowsWebApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermWindowsWebApp resource upon running "cdktn plan <stack-name>".
+func DataAzurermWindowsWebApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermWindowsWebApp_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermWindowsWebApp.DataAzurermWindowsWebApp",
@@ -936,11 +936,11 @@ func (d *jsiiProxy_DataAzurermWindowsWebApp) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebApp) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsWebApp) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1064,11 +1064,11 @@ func (d *jsiiProxy_DataAzurermWindowsWebApp) GetStringMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebApp) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsWebApp) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

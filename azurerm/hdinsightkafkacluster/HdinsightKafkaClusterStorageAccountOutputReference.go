@@ -5,14 +5,14 @@ package hdinsightkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsightkafkacluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsightkafkacluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightKafkaClusterStorageAccountOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type HdinsightKafkaClusterStorageAccountOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,13 +73,13 @@ type HdinsightKafkaClusterStorageAccountOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetStorageResourceId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type HdinsightKafkaClusterStorageAccountOutputReference interface {
 
 // The jsii proxy struct for HdinsightKafkaClusterStorageAccountOutputReference
 type jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) ComplexObjectIndex() interface{} {
@@ -232,8 +232,8 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) Terraform
 }
 
 
-func NewHdinsightKafkaClusterStorageAccountOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) HdinsightKafkaClusterStorageAccountOutputReference {
+func NewHdinsightKafkaClusterStorageAccountOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) HdinsightKafkaClusterStorageAccountOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightKafkaClusterStorageAccountOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -260,7 +260,7 @@ func NewHdinsightKafkaClusterStorageAccountOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewHdinsightKafkaClusterStorageAccountOutputReference_Override(h HdinsightKafkaClusterStorageAccountOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewHdinsightKafkaClusterStorageAccountOutputReference_Override(h HdinsightKafkaClusterStorageAccountOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -358,7 +358,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -398,11 +398,11 @@ func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) GetAnyMap
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -526,8 +526,8 @@ func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) GetString
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -539,11 +539,11 @@ func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) Interpola
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -563,7 +563,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) ResetStor
 	)
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightKafkaClusterStorageAccountOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

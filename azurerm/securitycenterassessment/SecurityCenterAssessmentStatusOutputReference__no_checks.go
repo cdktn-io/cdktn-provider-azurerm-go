@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityCenterAssessmentStatusOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterAssessmentStatusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterAssessmentStatusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SecurityCenterAssessmentStatusOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterAssessmentStatusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterAssessmentStatusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSecurityCenterAssessmentStatusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityCenterAssessmentStatusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

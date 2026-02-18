@@ -119,7 +119,7 @@ func (j *jsiiProxy_CustomIpPrefix) validateSetInternetAdvertisingDisabledParamet
 	return nil
 }
 
-func (j *jsiiProxy_CustomIpPrefix) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CustomIpPrefix) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSnowflakeTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSnowflakeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedServiceSnowflakeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSnowflakeTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSnowflakeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceSnowflakeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSnowflakeTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewDataFactoryLinkedServiceSnowflakeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryLinkedServiceSnowflakeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package healthcaredicomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcaredicomservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/healthcaredicomservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HealthcareDicomServiceAuthenticationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Audience() *[]*string
 	Authority() *string
 	// the index of the complex object in a list.
@@ -39,15 +39,15 @@ type HealthcareDicomServiceAuthenticationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type HealthcareDicomServiceAuthenticationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type HealthcareDicomServiceAuthenticationOutputReference interface {
 
 // The jsii proxy struct for HealthcareDicomServiceAuthenticationOutputReference
 type jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) Audience() *[]*string {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) Terrafor
 }
 
 
-func NewHealthcareDicomServiceAuthenticationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) HealthcareDicomServiceAuthenticationOutputReference {
+func NewHealthcareDicomServiceAuthenticationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) HealthcareDicomServiceAuthenticationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHealthcareDicomServiceAuthenticationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewHealthcareDicomServiceAuthenticationOutputReference(terraformResource cd
 	return &j
 }
 
-func NewHealthcareDicomServiceAuthenticationOutputReference_Override(h HealthcareDicomServiceAuthenticationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewHealthcareDicomServiceAuthenticationOutputReference_Override(h HealthcareDicomServiceAuthenticationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) GetAnyMa
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -411,8 +411,8 @@ func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) GetStrin
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -424,11 +424,11 @@ func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) Interpol
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -440,7 +440,7 @@ func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) Interpol
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HealthcareDicomServiceAuthenticationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

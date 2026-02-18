@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDestinationsStorageTableD
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDestinationsStorageTableDirectList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDestinationsStorageTableDirectList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDestinationsStorageTableD
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDestinationsStorageTableDirectList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDestinationsStorageTableDirectList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDestinationsStorageTableD
 	return nil
 }
 
-func validateNewDataAzurermMonitorDataCollectionRuleDestinationsStorageTableDirectListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMonitorDataCollectionRuleDestinationsStorageTableDirectListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

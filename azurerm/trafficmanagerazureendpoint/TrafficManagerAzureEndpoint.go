@@ -5,21 +5,21 @@ package trafficmanagerazureendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/trafficmanagerazureendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/trafficmanagerazureendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/traffic_manager_azure_endpoint azurerm_traffic_manager_azure_endpoint}.
 type TrafficManagerAzureEndpoint interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AlwaysServeEnabled() interface{}
 	SetAlwaysServeEnabled(val interface{})
 	AlwaysServeEnabledInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type TrafficManagerAzureEndpoint interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,9 +54,9 @@ type TrafficManagerAzureEndpoint interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -69,9 +69,9 @@ type TrafficManagerAzureEndpoint interface {
 	SetProfileId(val *string)
 	ProfileIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type TrafficManagerAzureEndpoint interface {
 	SetTargetResourceId(val *string)
 	TargetResourceIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type TrafficManagerAzureEndpoint interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type TrafficManagerAzureEndpoint interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -167,7 +167,7 @@ type TrafficManagerAzureEndpoint interface {
 
 // The jsii proxy struct for TrafficManagerAzureEndpoint
 type jsiiProxy_TrafficManagerAzureEndpoint struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_TrafficManagerAzureEndpoint) AlwaysServeEnabled() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint) AlwaysServeEnabledInput() interf
 	return returns
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_TrafficManagerAzureEndpoint) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -280,8 +280,8 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_TrafficManagerAzureEndpoint) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -350,8 +350,8 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_TrafficManagerAzureEndpoint) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -430,8 +430,8 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint) ProfileIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_TrafficManagerAzureEndpoint) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -500,8 +500,8 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint) TargetResourceIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_TrafficManagerAzureEndpoint) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -652,7 +652,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -682,7 +682,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -726,7 +726,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetProfileId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -767,14 +767,14 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint)SetWeight(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a TrafficManagerAzureEndpoint resource upon running "cdktf plan <stack-name>".
-func TrafficManagerAzureEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a TrafficManagerAzureEndpoint resource upon running "cdktn plan <stack-name>".
+func TrafficManagerAzureEndpoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateTrafficManagerAzureEndpoint_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.trafficManagerAzureEndpoint.TrafficManagerAzureEndpoint",
@@ -908,11 +908,11 @@ func (t *jsiiProxy_TrafficManagerAzureEndpoint) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TrafficManagerAzureEndpoint) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -1049,7 +1049,7 @@ func (t *jsiiProxy_TrafficManagerAzureEndpoint) HasResourceMove() interface{} {
 	return returns
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpoint) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (t *jsiiProxy_TrafficManagerAzureEndpoint) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := t.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1060,11 +1060,11 @@ func (t *jsiiProxy_TrafficManagerAzureEndpoint) ImportFrom(id *string, provider 
 	)
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TrafficManagerAzureEndpoint) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,

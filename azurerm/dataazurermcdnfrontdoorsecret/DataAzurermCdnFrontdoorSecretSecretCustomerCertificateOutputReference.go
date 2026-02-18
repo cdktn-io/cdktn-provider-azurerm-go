@@ -5,14 +5,14 @@ package dataazurermcdnfrontdoorsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermcdnfrontdoorsecret/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermcdnfrontdoorsecret/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference inter
 
 // The jsii proxy struct for DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference
 type jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) ComplexObjectIndex() interface{} {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 }
 
 
-func NewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference {
+func NewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference(te
 	return &j
 }
 
-func NewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference_Override(d DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference_Override(d DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	)
 }
 
-func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

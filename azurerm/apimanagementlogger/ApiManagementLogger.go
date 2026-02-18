@@ -5,16 +5,16 @@ package apimanagementlogger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementlogger/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementlogger/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/api_management_logger azurerm_api_management_logger}.
 type ApiManagementLogger interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApiManagementName() *string
 	SetApiManagementName(val *string)
 	ApiManagementNameInput() *string
@@ -24,7 +24,7 @@ type ApiManagementLogger interface {
 	SetBuffered(val interface{})
 	BufferedInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -45,9 +45,9 @@ type ApiManagementLogger interface {
 	Eventhub() ApiManagementLoggerEventhubOutputReference
 	EventhubInput() *ApiManagementLoggerEventhub
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,18 +56,18 @@ type ApiManagementLogger interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type ApiManagementLogger interface {
 	SetResourceId(val *string)
 	ResourceIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -96,7 +96,7 @@ type ApiManagementLogger interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -114,9 +114,9 @@ type ApiManagementLogger interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,7 +159,7 @@ type ApiManagementLogger interface {
 
 // The jsii proxy struct for ApiManagementLogger
 type jsiiProxy_ApiManagementLogger struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApiManagementLogger) ApiManagementName() *string {
@@ -222,8 +222,8 @@ func (j *jsiiProxy_ApiManagementLogger) BufferedInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementLogger) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApiManagementLogger) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_ApiManagementLogger) EventhubInput() *ApiManagementLoggerEven
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementLogger) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApiManagementLogger) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_ApiManagementLogger) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementLogger) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApiManagementLogger) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -402,8 +402,8 @@ func (j *jsiiProxy_ApiManagementLogger) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementLogger) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApiManagementLogger) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -472,8 +472,8 @@ func (j *jsiiProxy_ApiManagementLogger) ResourceIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementLogger) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApiManagementLogger) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -615,7 +615,7 @@ func (j *jsiiProxy_ApiManagementLogger)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementLogger)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApiManagementLogger)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -634,7 +634,7 @@ func (j *jsiiProxy_ApiManagementLogger)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementLogger)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApiManagementLogger)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -656,7 +656,7 @@ func (j *jsiiProxy_ApiManagementLogger)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementLogger)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApiManagementLogger)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -697,14 +697,14 @@ func (j *jsiiProxy_ApiManagementLogger)SetResourceId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ApiManagementLogger resource upon running "cdktf plan <stack-name>".
-func ApiManagementLogger_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApiManagementLogger resource upon running "cdktn plan <stack-name>".
+func ApiManagementLogger_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApiManagementLogger_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.apiManagementLogger.ApiManagementLogger",
@@ -838,11 +838,11 @@ func (a *jsiiProxy_ApiManagementLogger) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementLogger) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementLogger) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -979,7 +979,7 @@ func (a *jsiiProxy_ApiManagementLogger) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementLogger) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApiManagementLogger) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -990,11 +990,11 @@ func (a *jsiiProxy_ApiManagementLogger) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (a *jsiiProxy_ApiManagementLogger) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementLogger) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

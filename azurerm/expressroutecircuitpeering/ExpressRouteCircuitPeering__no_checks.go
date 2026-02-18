@@ -123,7 +123,7 @@ func (j *jsiiProxy_ExpressRouteCircuitPeering) validateSetIpv4EnabledParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteCircuitPeering) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ExpressRouteCircuitPeering) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

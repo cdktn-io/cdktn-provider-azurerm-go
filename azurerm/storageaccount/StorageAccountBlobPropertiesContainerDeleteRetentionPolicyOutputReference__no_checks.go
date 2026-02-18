@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOut
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOut
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountBlobPropertiesContainerDeleteRetentionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

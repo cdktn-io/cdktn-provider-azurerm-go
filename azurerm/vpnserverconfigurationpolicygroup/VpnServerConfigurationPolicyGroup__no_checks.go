@@ -115,7 +115,7 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) validateSetIsDefaultParame
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

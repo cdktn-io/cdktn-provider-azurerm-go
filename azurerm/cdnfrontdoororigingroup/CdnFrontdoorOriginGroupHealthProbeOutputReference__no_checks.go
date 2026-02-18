@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnFrontdoorOriginGroupHealthProbeOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorOriginGroupHealthProbeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorOriginGroupHealthProbeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_CdnFrontdoorOriginGroupHealthProbeOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorOriginGroupHealthProbeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorOriginGroupHealthProbeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnFrontdoorOriginGroupHealthProbeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorOriginGroupHealthProbeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

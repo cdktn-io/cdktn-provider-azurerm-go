@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterGatewayOutputReference) validateInterpol
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterGatewayOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightKafkaClusterGatewayOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterGatewayOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterGatewayOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightKafkaClusterGatewayOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterGatewayOutputReference) validateSetUsern
 	return nil
 }
 
-func validateNewHdinsightKafkaClusterGatewayOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightKafkaClusterGatewayOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

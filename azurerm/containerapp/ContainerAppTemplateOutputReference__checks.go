@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ContainerAppTemplateOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutAzureQueueSca
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateAzureQueueScaleRule:
 		value := value.(*[]*ContainerAppTemplateAzureQueueScaleRule)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutAzureQueueSca
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateAzureQueueScaleRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateAzureQueueScaleRule; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutContainerPara
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateContainer:
 		value := value.(*[]*ContainerAppTemplateContainer)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutContainerPara
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateContainer; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateContainer; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutCustomScaleRu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateCustomScaleRule:
 		value := value.(*[]*ContainerAppTemplateCustomScaleRule)
@@ -179,7 +179,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutCustomScaleRu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateCustomScaleRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateCustomScaleRule; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutHttpScaleRule
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateHttpScaleRule:
 		value := value.(*[]*ContainerAppTemplateHttpScaleRule)
@@ -210,7 +210,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutHttpScaleRule
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateHttpScaleRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateHttpScaleRule; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutInitContainer
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateInitContainer:
 		value := value.(*[]*ContainerAppTemplateInitContainer)
@@ -241,7 +241,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutInitContainer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateInitContainer; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateInitContainer; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutTcpScaleRuleP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateTcpScaleRule:
 		value := value.(*[]*ContainerAppTemplateTcpScaleRule)
@@ -272,7 +272,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutTcpScaleRuleP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateTcpScaleRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateTcpScaleRule; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutVolumeParamet
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateVolume:
 		value := value.(*[]*ContainerAppTemplateVolume)
@@ -303,14 +303,14 @@ func (c *jsiiProxy_ContainerAppTemplateOutputReference) validatePutVolumeParamet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateVolume; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateVolume; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ContainerAppTemplateOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -455,7 +455,7 @@ func (j *jsiiProxy_ContainerAppTemplateOutputReference) validateSetTerraformReso
 	return nil
 }
 
-func validateNewContainerAppTemplateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAppTemplateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

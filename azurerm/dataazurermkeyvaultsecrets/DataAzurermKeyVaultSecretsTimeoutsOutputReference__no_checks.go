@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermKeyVaultSecretsTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKeyVaultSecretsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKeyVaultSecretsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermKeyVaultSecretsTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKeyVaultSecretsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKeyVaultSecretsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermKeyVaultSecretsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermKeyVaultSecretsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

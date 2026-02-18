@@ -5,14 +5,14 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationGatewayGatewayIpConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -44,15 +44,15 @@ type ApplicationGatewayGatewayIpConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type ApplicationGatewayGatewayIpConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ApplicationGatewayGatewayIpConfigurationOutputReference interface {
 
 // The jsii proxy struct for ApplicationGatewayGatewayIpConfigurationOutputReference
 type jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -196,8 +196,8 @@ func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -207,7 +207,7 @@ func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) Terr
 }
 
 
-func NewApplicationGatewayGatewayIpConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApplicationGatewayGatewayIpConfigurationOutputReference {
+func NewApplicationGatewayGatewayIpConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApplicationGatewayGatewayIpConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApplicationGatewayGatewayIpConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -224,7 +224,7 @@ func NewApplicationGatewayGatewayIpConfigurationOutputReference(terraformResourc
 	return &j
 }
 
-func NewApplicationGatewayGatewayIpConfigurationOutputReference_Override(a ApplicationGatewayGatewayIpConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApplicationGatewayGatewayIpConfigurationOutputReference_Override(a ApplicationGatewayGatewayIpConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -300,7 +300,7 @@ func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -340,11 +340,11 @@ func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) GetA
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -468,8 +468,8 @@ func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) GetS
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -481,11 +481,11 @@ func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) Inte
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -497,7 +497,7 @@ func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) Inte
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationGatewayGatewayIpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

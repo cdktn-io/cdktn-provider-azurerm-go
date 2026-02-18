@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithP
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithP
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithP
 	return nil
 }
 
-func validateNewWindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

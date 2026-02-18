@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleExadataInfrastructureDefinedFileSystemConfig
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleExadataInfrastructureDefinedFileSystemConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleExadataInfrastructureDefinedFileSystemConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructureDefinedFileSystemConfig
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructureDefinedFileSystemConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructureDefinedFileSystemConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleExadataInfrastructureDefinedFileSystemConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermOracleExadataInfrastructureDefinedFileSystemConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

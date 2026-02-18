@@ -5,18 +5,18 @@ package dataazurermmssqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmssqldatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmssqldatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/mssql_database azurerm_mssql_database}.
 type DataAzurermMssqlDatabase interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Collation() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -31,9 +31,9 @@ type DataAzurermMssqlDatabase interface {
 	ElasticPoolId() *string
 	EnclaveType() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,9 +44,9 @@ type DataAzurermMssqlDatabase interface {
 	IdInput() *string
 	LicenseType() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxSizeGb() *float64
 	Name() *string
 	SetName(val *string)
@@ -54,37 +54,37 @@ type DataAzurermMssqlDatabase interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ReadReplicaCount() *float64
-	ReadScale() cdktf.IResolvable
+	ReadScale() cdktn.IResolvable
 	ServerId() *string
 	SetServerId(val *string)
 	ServerIdInput() *string
 	SkuName() *string
 	StorageAccountType() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermMssqlDatabaseTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	TransparentDataEncryptionEnabled() cdktf.IResolvable
-	TransparentDataEncryptionKeyAutomaticRotationEnabled() cdktf.IResolvable
+	TransparentDataEncryptionEnabled() cdktn.IResolvable
+	TransparentDataEncryptionKeyAutomaticRotationEnabled() cdktn.IResolvable
 	TransparentDataEncryptionKeyVaultKeyId() *string
-	ZoneRedundant() cdktf.IResolvable
+	ZoneRedundant() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,7 +100,7 @@ type DataAzurermMssqlDatabase interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -126,11 +126,11 @@ type DataAzurermMssqlDatabase interface {
 
 // The jsii proxy struct for DataAzurermMssqlDatabase
 type jsiiProxy_DataAzurermMssqlDatabase struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermMssqlDatabase) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) EnclaveType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermMssqlDatabase) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -269,8 +269,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) LicenseType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermMssqlDatabase) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermMssqlDatabase) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) ReadReplicaCount() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) ReadScale() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermMssqlDatabase) ReadScale() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"readScale",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) StorageAccountType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermMssqlDatabase) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -409,8 +409,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermMssqlDatabase) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -459,8 +459,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) TransparentDataEncryptionEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermMssqlDatabase) TransparentDataEncryptionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"transparentDataEncryptionEnabled",
@@ -469,8 +469,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) TransparentDataEncryptionEnabled() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) TransparentDataEncryptionKeyAutomaticRotationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermMssqlDatabase) TransparentDataEncryptionKeyAutomaticRotationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"transparentDataEncryptionKeyAutomaticRotationEnabled",
@@ -489,8 +489,8 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase) TransparentDataEncryptionKeyVaultKe
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase) ZoneRedundant() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermMssqlDatabase) ZoneRedundant() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"zoneRedundant",
@@ -548,7 +548,7 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermMssqlDatabase)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermMssqlDatabase)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -589,7 +589,7 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermMssqlDatabase)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermMssqlDatabase)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -608,14 +608,14 @@ func (j *jsiiProxy_DataAzurermMssqlDatabase)SetServerId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermMssqlDatabase resource upon running "cdktf plan <stack-name>".
-func DataAzurermMssqlDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermMssqlDatabase resource upon running "cdktn plan <stack-name>".
+func DataAzurermMssqlDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermMssqlDatabase_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermMssqlDatabase.DataAzurermMssqlDatabase",
@@ -738,11 +738,11 @@ func (d *jsiiProxy_DataAzurermMssqlDatabase) GetAnyMapAttribute(terraformAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMssqlDatabase) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermMssqlDatabase) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -866,11 +866,11 @@ func (d *jsiiProxy_DataAzurermMssqlDatabase) GetStringMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMssqlDatabase) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermMssqlDatabase) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

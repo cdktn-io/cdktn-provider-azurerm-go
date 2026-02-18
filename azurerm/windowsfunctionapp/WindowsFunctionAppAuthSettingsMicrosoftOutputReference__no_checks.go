@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppAuthSettingsMicrosoftOutputReference) valid
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_WindowsFunctionAppAuthSettingsMicrosoftOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsFunctionAppAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

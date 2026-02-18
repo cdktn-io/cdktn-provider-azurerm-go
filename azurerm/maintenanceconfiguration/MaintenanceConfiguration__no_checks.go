@@ -119,7 +119,7 @@ func (j *jsiiProxy_MaintenanceConfiguration) validateSetInGuestUserPatchModePara
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MaintenanceConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

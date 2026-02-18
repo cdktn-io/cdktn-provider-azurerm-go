@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusAttackS
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusAttackS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusAttackS
 	return nil
 }
 
-func validateNewDataAzurermNginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermNginxDeploymentWebApplicationFirewallStatusAttackSignaturesPackageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

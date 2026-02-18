@@ -5,14 +5,14 @@ package pimactiveroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/pimactiveroleassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/pimactiveroleassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PimActiveRoleAssignmentTicketOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type PimActiveRoleAssignmentTicketOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type PimActiveRoleAssignmentTicketOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetNumber()
 	ResetSystemAttribute()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type PimActiveRoleAssignmentTicketOutputReference interface {
 
 // The jsii proxy struct for PimActiveRoleAssignmentTicketOutputReference
 type jsiiProxy_PimActiveRoleAssignmentTicketOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) TerraformResour
 }
 
 
-func NewPimActiveRoleAssignmentTicketOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PimActiveRoleAssignmentTicketOutputReference {
+func NewPimActiveRoleAssignmentTicketOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PimActiveRoleAssignmentTicketOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPimActiveRoleAssignmentTicketOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewPimActiveRoleAssignmentTicketOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewPimActiveRoleAssignmentTicketOutputReference_Override(p PimActiveRoleAssignmentTicketOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPimActiveRoleAssignmentTicketOutputReference_Override(p PimActiveRoleAssignmentTicketOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -459,8 +459,8 @@ func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -472,11 +472,11 @@ func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) InterpolationAs
 	return returns
 }
 
-func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -504,7 +504,7 @@ func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) ResetSystemAttr
 	)
 }
 
-func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PimActiveRoleAssignmentTicketOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

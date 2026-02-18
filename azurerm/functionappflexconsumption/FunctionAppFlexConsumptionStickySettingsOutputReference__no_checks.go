@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) vali
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionStickySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppFlexConsumptionStickySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

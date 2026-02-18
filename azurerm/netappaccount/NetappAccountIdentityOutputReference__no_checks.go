@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappAccountIdentityOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (n *jsiiProxy_NetappAccountIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappAccountIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NetappAccountIdentityOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_NetappAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetappAccountIdentityOutputReference) validateSetTypeParamete
 	return nil
 }
 
-func validateNewNetappAccountIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappAccountIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

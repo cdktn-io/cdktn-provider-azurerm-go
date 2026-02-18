@@ -51,7 +51,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetOsProfileSecretsOutputReference) valida
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetOsProfileSecretsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetOsProfileSecretsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileSecretsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetOsProfileSecretsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetOsProfileSecretsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetOsProfileSecretsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualMachineScaleSetOsProfileSecretsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

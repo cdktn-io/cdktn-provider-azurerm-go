@@ -15,7 +15,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateGetPa
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetWr
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionDeliveryPropertyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventgridEventSubscriptionDeliveryPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

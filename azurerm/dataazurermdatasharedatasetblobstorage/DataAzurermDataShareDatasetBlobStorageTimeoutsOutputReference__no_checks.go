@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDataShareDatasetBlobStorageTimeoutsOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDataShareDatasetBlobStorageTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDataShareDatasetBlobStorageTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermDataShareDatasetBlobStorageTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataShareDatasetBlobStorageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDataShareDatasetBlobStorageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDataShareDatasetBlobStorageTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermDataShareDatasetBlobStorageTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

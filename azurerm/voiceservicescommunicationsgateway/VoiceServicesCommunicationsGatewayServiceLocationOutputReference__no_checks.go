@@ -47,7 +47,7 @@ func (v *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationOutputRefere
 	return nil
 }
 
-func (v *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVoiceServicesCommunicationsGatewayServiceLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVoiceServicesCommunicationsGatewayServiceLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

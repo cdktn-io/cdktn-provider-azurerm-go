@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticSanVolumeGroupNetworkRuleOutputReference) validateInte
 	return nil
 }
 
-func (e *jsiiProxy_ElasticSanVolumeGroupNetworkRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticSanVolumeGroupNetworkRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ElasticSanVolumeGroupNetworkRuleOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ElasticSanVolumeGroupNetworkRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticSanVolumeGroupNetworkRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticSanVolumeGroupNetworkRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewElasticSanVolumeGroupNetworkRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

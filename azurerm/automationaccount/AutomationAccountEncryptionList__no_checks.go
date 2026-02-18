@@ -15,7 +15,7 @@ func (a *jsiiProxy_AutomationAccountEncryptionList) validateGetParameters(index 
 	return nil
 }
 
-func (a *jsiiProxy_AutomationAccountEncryptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationAccountEncryptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AutomationAccountEncryptionList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_AutomationAccountEncryptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationAccountEncryptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AutomationAccountEncryptionList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewAutomationAccountEncryptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAutomationAccountEncryptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -151,7 +151,7 @@ func (j *jsiiProxy_LogicAppStandard) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppStandard) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogicAppStandard) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

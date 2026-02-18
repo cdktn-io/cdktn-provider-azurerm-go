@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermCosmosdbSqlRoleDefinitionPermissionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

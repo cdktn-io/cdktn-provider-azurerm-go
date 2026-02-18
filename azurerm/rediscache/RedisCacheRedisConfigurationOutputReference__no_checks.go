@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) validateInterpol
 	return nil
 }
 
-func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -131,11 +131,11 @@ func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisCacheRedisConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedisCacheRedisConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbPostgresqlClusterServersOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbPostgresqlClusterServersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbPostgresqlClusterServersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_CosmosdbPostgresqlClusterServersOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbPostgresqlClusterServersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbPostgresqlClusterServersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbPostgresqlClusterServersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbPostgresqlClusterServersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

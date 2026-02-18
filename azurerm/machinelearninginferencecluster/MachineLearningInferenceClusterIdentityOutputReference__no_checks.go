@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningInferenceClusterIdentityOutputReference) valid
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningInferenceClusterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningInferenceClusterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MachineLearningInferenceClusterIdentityOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningInferenceClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningInferenceClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MachineLearningInferenceClusterIdentityOutputReference) valid
 	return nil
 }
 
-func validateNewMachineLearningInferenceClusterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningInferenceClusterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

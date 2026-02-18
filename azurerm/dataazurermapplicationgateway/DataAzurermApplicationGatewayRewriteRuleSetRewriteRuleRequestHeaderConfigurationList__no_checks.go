@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequest
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequest
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequest
 	return nil
 }
 
-func validateNewDataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApplicationGatewayRewriteRuleSetRewriteRuleRequestHeaderConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

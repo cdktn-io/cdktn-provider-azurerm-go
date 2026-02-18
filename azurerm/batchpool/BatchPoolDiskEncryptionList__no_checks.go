@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchPoolDiskEncryptionList) validateGetParameters(index *flo
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolDiskEncryptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolDiskEncryptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchPoolDiskEncryptionList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolDiskEncryptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolDiskEncryptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchPoolDiskEncryptionList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewBatchPoolDiskEncryptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchPoolDiskEncryptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

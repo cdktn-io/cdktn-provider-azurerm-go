@@ -115,7 +115,7 @@ func (j *jsiiProxy_MssqlJob) validateSetJobAgentIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_MssqlJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MssqlJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

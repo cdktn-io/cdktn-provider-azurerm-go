@@ -47,7 +47,7 @@ func (a *jsiiProxy_AnalysisServicesServerIpv4FirewallRuleOutputReference) valida
 	return nil
 }
 
-func (a *jsiiProxy_AnalysisServicesServerIpv4FirewallRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AnalysisServicesServerIpv4FirewallRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AnalysisServicesServerIpv4FirewallRuleOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_AnalysisServicesServerIpv4FirewallRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AnalysisServicesServerIpv4FirewallRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAnalysisServicesServerIpv4FirewallRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAnalysisServicesServerIpv4FirewallRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

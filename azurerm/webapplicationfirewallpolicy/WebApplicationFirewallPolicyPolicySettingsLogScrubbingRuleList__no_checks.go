@@ -15,7 +15,7 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleLis
 	return nil
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleLis
 	return nil
 }
 
-func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleLis
 	return nil
 }
 
-func validateNewWebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWebApplicationFirewallPolicyPolicySettingsLogScrubbingRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

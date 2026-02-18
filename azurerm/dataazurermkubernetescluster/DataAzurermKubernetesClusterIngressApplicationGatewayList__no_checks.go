@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterIngressApplicationGatewayList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterIngressApplicationGatewayList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterIngressApplicationGatewayList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterIngressApplicationGatewayList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterIngressApplicationGatewayList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterIngressApplicationGatewayList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterIngressApplicationGatewayList) va
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterIngressApplicationGatewayListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterIngressApplicationGatewayListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

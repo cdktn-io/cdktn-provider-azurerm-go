@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppAuthSettingsMicrosoftList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppAuthSettingsMicrosoftList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLinuxWebAppAuthSettingsMicrosoftList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppAuthSettingsMicrosoftList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppAuthSettingsMicrosoftList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLinuxWebAppAuthSettingsMicrosoftList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppAuthSettingsMicrosoftList) validateSetW
 	return nil
 }
 
-func validateNewDataAzurermLinuxWebAppAuthSettingsMicrosoftListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermLinuxWebAppAuthSettingsMicrosoftListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

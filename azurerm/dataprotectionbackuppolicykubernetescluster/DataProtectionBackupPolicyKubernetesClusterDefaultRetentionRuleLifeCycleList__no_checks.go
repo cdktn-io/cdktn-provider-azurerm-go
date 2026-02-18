@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterDefaultRetentionRu
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterDefaultRetentionRuleLifeCycleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterDefaultRetentionRuleLifeCycleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterDefaultRetentionRu
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterDefaultRetentionRuleLifeCycleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterDefaultRetentionRuleLifeCycleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterDefaultRetentionRu
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyKubernetesClusterDefaultRetentionRuleLifeCycleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataProtectionBackupPolicyKubernetesClusterDefaultRetentionRuleLifeCycleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

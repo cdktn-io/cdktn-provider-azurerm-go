@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) validat
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) validat
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) validat
 	return nil
 }
 
-func validateNewCosmosdbSqlContainerIndexingPolicyCompositeIndexListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbSqlContainerIndexingPolicyCompositeIndexListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

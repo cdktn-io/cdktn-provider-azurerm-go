@@ -5,14 +5,14 @@ package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxWebAppSiteConfigAutoHealSettingActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActionType() *string
 	SetActionType(val *string)
 	ActionTypeInput() *string
@@ -43,15 +43,15 @@ type LinuxWebAppSiteConfigAutoHealSettingActionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type LinuxWebAppSiteConfigAutoHealSettingActionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMinimumProcessExecutionTime()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type LinuxWebAppSiteConfigAutoHealSettingActionOutputReference interface {
 
 // The jsii proxy struct for LinuxWebAppSiteConfigAutoHealSettingActionOutputReference
 type jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) ActionType() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) Te
 }
 
 
-func NewLinuxWebAppSiteConfigAutoHealSettingActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxWebAppSiteConfigAutoHealSettingActionOutputReference {
+func NewLinuxWebAppSiteConfigAutoHealSettingActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxWebAppSiteConfigAutoHealSettingActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxWebAppSiteConfigAutoHealSettingActionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewLinuxWebAppSiteConfigAutoHealSettingActionOutputReference(terraformResou
 	return &j
 }
 
-func NewLinuxWebAppSiteConfigAutoHealSettingActionOutputReference_Override(l LinuxWebAppSiteConfigAutoHealSettingActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxWebAppSiteConfigAutoHealSettingActionOutputReference_Override(l LinuxWebAppSiteConfigAutoHealSettingActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) Ge
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -458,8 +458,8 @@ func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) Ge
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -471,11 +471,11 @@ func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) In
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -495,7 +495,7 @@ func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) Re
 	)
 }
 
-func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

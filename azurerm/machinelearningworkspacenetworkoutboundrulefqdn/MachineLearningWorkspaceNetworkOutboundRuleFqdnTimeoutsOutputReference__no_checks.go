@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutput
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutput
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutput
 	return nil
 }
 
-func validateNewMachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningWorkspaceNetworkOutboundRuleFqdnTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

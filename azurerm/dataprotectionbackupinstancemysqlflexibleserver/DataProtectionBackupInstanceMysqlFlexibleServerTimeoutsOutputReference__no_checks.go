@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	return nil
 }
 
-func validateNewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

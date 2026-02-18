@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxWebAppStorageAccountList) validateGetParameters(index *f
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppStorageAccountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppStorageAccountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxWebAppStorageAccountList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppStorageAccountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppStorageAccountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxWebAppStorageAccountList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewLinuxWebAppStorageAccountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxWebAppStorageAccountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

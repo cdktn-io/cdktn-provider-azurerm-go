@@ -47,7 +47,7 @@ func (s *jsiiProxy_StreamAnalyticsOutputCosmosdbTimeoutsOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_StreamAnalyticsOutputCosmosdbTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StreamAnalyticsOutputCosmosdbTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputCosmosdbTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputCosmosdbTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StreamAnalyticsOutputCosmosdbTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputCosmosdbTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewStreamAnalyticsOutputCosmosdbTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStreamAnalyticsOutputCosmosdbTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

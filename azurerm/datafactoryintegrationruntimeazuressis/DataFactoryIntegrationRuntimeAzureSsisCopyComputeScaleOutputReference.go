@@ -5,14 +5,14 @@ package datafactoryintegrationruntimeazuressis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactoryintegrationruntimeazuressis/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactoryintegrationruntimeazuressis/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeToLive() *float64
 	SetTimeToLive(val *float64)
 	TimeToLiveInput() *float64
@@ -51,7 +51,7 @@ type DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference inter
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDataIntegrationUnit()
 	ResetTimeToLive()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference inter
 
 // The jsii proxy struct for DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference
 type jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 }
 
 
-func NewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference {
+func NewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference(te
 	return &j
 }
 
-func NewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference_Override(d DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference_Override(d DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	)
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	)
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

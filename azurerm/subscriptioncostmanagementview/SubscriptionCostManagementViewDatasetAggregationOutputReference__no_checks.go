@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetAggregationOutputReferen
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewDatasetAggregationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionCostManagementViewDatasetAggregationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SubscriptionCostManagementViewDatasetAggregationOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementViewDatasetAggregationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionCostManagementViewDatasetAggregationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSubscriptionCostManagementViewDatasetAggregationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSubscriptionCostManagementViewDatasetAggregationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

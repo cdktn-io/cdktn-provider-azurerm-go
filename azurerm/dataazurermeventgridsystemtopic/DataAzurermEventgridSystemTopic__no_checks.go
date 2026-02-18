@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopic) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermEventgridSystemTopic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermEventgridSystemTopic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

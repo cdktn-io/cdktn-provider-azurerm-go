@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkManagerRoutingRuleCollection) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerRoutingRuleCollection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkManagerRoutingRuleCollection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

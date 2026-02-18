@@ -47,7 +47,7 @@ func (s *jsiiProxy_StackHciVirtualHardDiskTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_StackHciVirtualHardDiskTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciVirtualHardDiskTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StackHciVirtualHardDiskTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_StackHciVirtualHardDiskTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciVirtualHardDiskTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StackHciVirtualHardDiskTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewStackHciVirtualHardDiskTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStackHciVirtualHardDiskTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingOutputReference) validateInte
 	return nil
 }
 
-func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnGatewayNatRuleExternalMappingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpnGatewayNatRuleExternalMappingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

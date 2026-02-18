@@ -111,7 +111,7 @@ func (j *jsiiProxy_StaticSiteCustomDomain) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_StaticSiteCustomDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StaticSiteCustomDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

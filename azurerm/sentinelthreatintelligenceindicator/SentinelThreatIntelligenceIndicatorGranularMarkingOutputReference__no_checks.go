@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelThreatIntelligenceIndicatorGranularMarkingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelThreatIntelligenceIndicatorGranularMarkingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

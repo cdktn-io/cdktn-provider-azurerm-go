@@ -47,7 +47,7 @@ func (e *jsiiProxy_ExpressRoutePortLink1OutputReference) validateInterpolationFo
 	return nil
 }
 
-func (e *jsiiProxy_ExpressRoutePortLink1OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ExpressRoutePortLink1OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ExpressRoutePortLink1OutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRoutePortLink1OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ExpressRoutePortLink1OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewExpressRoutePortLink1OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewExpressRoutePortLink1OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

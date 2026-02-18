@@ -47,7 +47,7 @@ func (s *jsiiProxy_StackHciLogicalNetworkSubnetRouteOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_StackHciLogicalNetworkSubnetRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciLogicalNetworkSubnetRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_StackHciLogicalNetworkSubnetRouteOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_StackHciLogicalNetworkSubnetRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciLogicalNetworkSubnetRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStackHciLogicalNetworkSubnetRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStackHciLogicalNetworkSubnetRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

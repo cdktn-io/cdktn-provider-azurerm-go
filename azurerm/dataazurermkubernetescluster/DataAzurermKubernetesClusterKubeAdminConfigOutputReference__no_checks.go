@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterKubeAdminConfigOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterKubeAdminConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterKubeAdminConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterKubeAdminConfigOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterKubeAdminConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterKubeAdminConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterKubeAdminConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermKubernetesClusterKubeAdminConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package signalrservicenetworkacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/signalrservicenetworkacl/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/signalrservicenetworkacl/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SignalrServiceNetworkAclPublicNetworkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedRequestTypes() *[]*string
 	SetAllowedRequestTypes(val *[]*string)
 	AllowedRequestTypesInput() *[]*string
@@ -43,15 +43,15 @@ type SignalrServiceNetworkAclPublicNetworkOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type SignalrServiceNetworkAclPublicNetworkOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowedRequestTypes()
 	ResetDeniedRequestTypes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type SignalrServiceNetworkAclPublicNetworkOutputReference interface {
 
 // The jsii proxy struct for SignalrServiceNetworkAclPublicNetworkOutputReference
 type jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) AllowedRequestTypes() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) Terrafo
 }
 
 
-func NewSignalrServiceNetworkAclPublicNetworkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SignalrServiceNetworkAclPublicNetworkOutputReference {
+func NewSignalrServiceNetworkAclPublicNetworkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SignalrServiceNetworkAclPublicNetworkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSignalrServiceNetworkAclPublicNetworkOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewSignalrServiceNetworkAclPublicNetworkOutputReference(terraformResource c
 	return &j
 }
 
-func NewSignalrServiceNetworkAclPublicNetworkOutputReference_Override(s SignalrServiceNetworkAclPublicNetworkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSignalrServiceNetworkAclPublicNetworkOutputReference_Override(s SignalrServiceNetworkAclPublicNetworkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) GetAnyM
 	return returns
 }
 
-func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -459,8 +459,8 @@ func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) GetStri
 	return returns
 }
 
-func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -472,11 +472,11 @@ func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) Interpo
 	return returns
 }
 
-func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) ResetDe
 	)
 }
 
-func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SignalrServiceNetworkAclPublicNetworkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputRefer
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermOracleAutonomousDatabaseBackupsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

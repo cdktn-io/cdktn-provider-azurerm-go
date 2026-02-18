@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubnetIpAddressPoolOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (s *jsiiProxy_SubnetIpAddressPoolOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubnetIpAddressPoolOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SubnetIpAddressPoolOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_SubnetIpAddressPoolOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubnetIpAddressPoolOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSubnetIpAddressPoolOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSubnetIpAddressPoolOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

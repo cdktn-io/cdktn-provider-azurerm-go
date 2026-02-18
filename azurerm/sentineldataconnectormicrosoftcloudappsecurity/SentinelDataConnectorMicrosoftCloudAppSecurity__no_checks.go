@@ -115,7 +115,7 @@ func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateSetId
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

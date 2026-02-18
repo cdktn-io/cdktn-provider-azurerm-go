@@ -5,14 +5,14 @@ package privateendpointapplicationsecuritygroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privateendpointapplicationsecuritygroupassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/privateendpointapplicationsecuritygroupassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference i
 
 // The jsii proxy struct for PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference
 type jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	return returns
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 }
 
 
-func NewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference {
+func NewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReferenc
 	return &j
 }
 
-func NewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference_Override(p PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference_Override(p PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	)
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	return returns
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -494,8 +494,8 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	return returns
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -507,11 +507,11 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	return returns
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -547,7 +547,7 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	)
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

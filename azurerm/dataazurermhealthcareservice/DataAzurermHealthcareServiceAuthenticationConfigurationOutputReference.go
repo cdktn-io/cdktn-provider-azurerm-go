@@ -5,14 +5,14 @@ package dataazurermhealthcareservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermhealthcareservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermhealthcareservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Audience() *string
 	Authority() *string
 	// the index of the complex object in a list.
@@ -34,21 +34,21 @@ type DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference inte
 	Fqn() *string
 	InternalValue() *DataAzurermHealthcareServiceAuthenticationConfiguration
 	SetInternalValue(val *DataAzurermHealthcareServiceAuthenticationConfiguration)
-	SmartProxyEnabled() cdktf.IResolvable
+	SmartProxyEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference inte
 
 // The jsii proxy struct for DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference
 type jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) Audience() *string {
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) SmartProxyEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) SmartProxyEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"smartProxyEnabled",
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 }
 
 
-func NewDataAzurermHealthcareServiceAuthenticationConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference {
+func NewDataAzurermHealthcareServiceAuthenticationConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermHealthcareServiceAuthenticationConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataAzurermHealthcareServiceAuthenticationConfigurationOutputReference(t
 	return &j
 }
 
-func NewDataAzurermHealthcareServiceAuthenticationConfigurationOutputReference_Override(d DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermHealthcareServiceAuthenticationConfigurationOutputReference_Override(d DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 	)
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermHealthcareServiceAuthenticationConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

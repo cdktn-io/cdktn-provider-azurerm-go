@@ -15,7 +15,7 @@ func (c *jsiiProxy_ConfidentialLedgerAzureadBasedServicePrincipalList) validateG
 	return nil
 }
 
-func (c *jsiiProxy_ConfidentialLedgerAzureadBasedServicePrincipalList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfidentialLedgerAzureadBasedServicePrincipalList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ConfidentialLedgerAzureadBasedServicePrincipalList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ConfidentialLedgerAzureadBasedServicePrincipalList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfidentialLedgerAzureadBasedServicePrincipalList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ConfidentialLedgerAzureadBasedServicePrincipalList) validateS
 	return nil
 }
 
-func validateNewConfidentialLedgerAzureadBasedServicePrincipalListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewConfidentialLedgerAzureadBasedServicePrincipalListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

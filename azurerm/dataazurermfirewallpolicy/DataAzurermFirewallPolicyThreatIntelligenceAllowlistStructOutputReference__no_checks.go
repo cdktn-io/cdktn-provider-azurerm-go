@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOut
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOut
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermFirewallPolicyThreatIntelligenceAllowlistStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

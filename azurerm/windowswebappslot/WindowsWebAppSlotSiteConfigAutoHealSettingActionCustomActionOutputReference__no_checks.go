@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionO
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionO
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppSlotSiteConfigAutoHealSettingActionCustomActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

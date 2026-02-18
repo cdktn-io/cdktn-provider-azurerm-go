@@ -47,7 +47,7 @@ func (s *jsiiProxy_StaticSiteCustomDomainTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_StaticSiteCustomDomainTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StaticSiteCustomDomainTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_StaticSiteCustomDomainTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_StaticSiteCustomDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StaticSiteCustomDomainTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStaticSiteCustomDomainTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStaticSiteCustomDomainTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -8,7 +8,7 @@ package mssqlmanagedinstancefailovergroup
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateG
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateS
 	return nil
 }
 
-func validateNewMssqlManagedInstanceFailoverGroupPartnerRegionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMssqlManagedInstanceFailoverGroupPartnerRegionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

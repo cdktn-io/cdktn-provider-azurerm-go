@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlDatabaseThreatDetectionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlDatabaseThreatDetectionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

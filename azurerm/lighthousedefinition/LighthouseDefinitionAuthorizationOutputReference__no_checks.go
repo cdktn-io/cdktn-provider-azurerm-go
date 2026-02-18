@@ -47,7 +47,7 @@ func (l *jsiiProxy_LighthouseDefinitionAuthorizationOutputReference) validateInt
 	return nil
 }
 
-func (l *jsiiProxy_LighthouseDefinitionAuthorizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LighthouseDefinitionAuthorizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_LighthouseDefinitionAuthorizationOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_LighthouseDefinitionAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LighthouseDefinitionAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLighthouseDefinitionAuthorizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLighthouseDefinitionAuthorizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

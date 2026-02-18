@@ -131,7 +131,7 @@ func (j *jsiiProxy_DataFactoryLinkedServicePostgresql) validateSetIntegrationRun
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServicePostgresql) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServicePostgresql) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

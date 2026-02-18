@@ -115,7 +115,7 @@ func (j *jsiiProxy_VirtualMachineRestorePoint) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualMachineRestorePoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

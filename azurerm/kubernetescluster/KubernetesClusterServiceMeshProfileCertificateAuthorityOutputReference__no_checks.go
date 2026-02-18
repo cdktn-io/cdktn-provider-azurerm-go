@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

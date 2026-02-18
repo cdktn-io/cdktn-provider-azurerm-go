@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaloAltoLocalRulestackCertificateTimeoutsOutputReference) val
 	return nil
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackCertificateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaloAltoLocalRulestackCertificateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificateTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificateTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewPaloAltoLocalRulestackCertificateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaloAltoLocalRulestackCertificateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

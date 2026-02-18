@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPlatformTeleme
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPlatformTelemetryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPlatformTelemetryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPlatformTeleme
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPlatformTelemetryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesPlatformTelemetryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermMonitorDataCollectionRuleDataSourcesPlatformTelemetryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermMonitorDataCollectionRuleDataSourcesPlatformTelemetryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

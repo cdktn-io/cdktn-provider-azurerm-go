@@ -55,7 +55,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingProfileRuleOutputReference) validatePu
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingProfileRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingProfileRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileRuleOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingProfileRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingProfileRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingProfileRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorAutoscaleSettingProfileRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

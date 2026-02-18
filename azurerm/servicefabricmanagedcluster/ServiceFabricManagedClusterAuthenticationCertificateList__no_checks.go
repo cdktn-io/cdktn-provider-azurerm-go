@@ -15,7 +15,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateList) val
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateList) val
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateList) val
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterAuthenticationCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewServiceFabricManagedClusterAuthenticationCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

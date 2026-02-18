@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateInter
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementCustomDomainPortalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementCustomDomainPortalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiManagementCustomDomainPortalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

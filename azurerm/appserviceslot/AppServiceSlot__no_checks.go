@@ -159,7 +159,7 @@ func (j *jsiiProxy_AppServiceSlot) validateSetKeyVaultReferenceIdentityIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppServiceSlot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

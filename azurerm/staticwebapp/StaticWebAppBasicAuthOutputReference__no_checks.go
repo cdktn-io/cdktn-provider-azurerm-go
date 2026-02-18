@@ -47,7 +47,7 @@ func (s *jsiiProxy_StaticWebAppBasicAuthOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (s *jsiiProxy_StaticWebAppBasicAuthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StaticWebAppBasicAuthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_StaticWebAppBasicAuthOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_StaticWebAppBasicAuthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StaticWebAppBasicAuthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStaticWebAppBasicAuthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStaticWebAppBasicAuthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

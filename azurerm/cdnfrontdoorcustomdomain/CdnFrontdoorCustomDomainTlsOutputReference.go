@@ -5,14 +5,14 @@ package cdnfrontdoorcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorcustomdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnfrontdoorcustomdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CdnFrontdoorCustomDomainTlsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CdnFrontdoorSecretId() *string
 	SetCdnFrontdoorSecretId(val *string)
 	CdnFrontdoorSecretIdInput() *string
@@ -46,15 +46,15 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCdnFrontdoorSecretId()
 	ResetCertificateType()
 	ResetMinimumTlsVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 
 // The jsii proxy struct for CdnFrontdoorCustomDomainTlsOutputReference
 type jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) CdnFrontdoorSecretId() *string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) TerraformResource
 }
 
 
-func NewCdnFrontdoorCustomDomainTlsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorCustomDomainTlsOutputReference {
+func NewCdnFrontdoorCustomDomainTlsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorCustomDomainTlsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCdnFrontdoorCustomDomainTlsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewCdnFrontdoorCustomDomainTlsOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewCdnFrontdoorCustomDomainTlsOutputReference_Override(c CdnFrontdoorCustomDomainTlsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCdnFrontdoorCustomDomainTlsOutputReference_Override(c CdnFrontdoorCustomDomainTlsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -494,8 +494,8 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -507,11 +507,11 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -547,7 +547,7 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetMinimumTlsVe
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

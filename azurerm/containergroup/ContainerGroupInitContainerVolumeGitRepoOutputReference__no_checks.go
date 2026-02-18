@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerGroupInitContainerVolumeGitRepoOutputReference) vali
 	return nil
 }
 
-func (c *jsiiProxy_ContainerGroupInitContainerVolumeGitRepoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerGroupInitContainerVolumeGitRepoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerGroupInitContainerVolumeGitRepoOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroupInitContainerVolumeGitRepoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerGroupInitContainerVolumeGitRepoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerGroupInitContainerVolumeGitRepoOutputReference) vali
 	return nil
 }
 
-func validateNewContainerGroupInitContainerVolumeGitRepoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerGroupInitContainerVolumeGitRepoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

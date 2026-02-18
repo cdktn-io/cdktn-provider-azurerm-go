@@ -111,7 +111,7 @@ func (j *jsiiProxy_UserAssignedIdentity) validateSetIsolationScopeParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_UserAssignedIdentity) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_UserAssignedIdentity) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

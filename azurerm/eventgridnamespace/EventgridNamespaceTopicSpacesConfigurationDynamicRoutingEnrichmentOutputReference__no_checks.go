@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnric
 	return nil
 }
 
-func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnric
 	return nil
 }
 
-func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnric
 	return nil
 }
 
-func validateNewEventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventgridNamespaceTopicSpacesConfigurationDynamicRoutingEnrichmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

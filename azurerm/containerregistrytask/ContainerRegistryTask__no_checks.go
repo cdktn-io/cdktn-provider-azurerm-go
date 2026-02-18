@@ -163,7 +163,7 @@ func (j *jsiiProxy_ContainerRegistryTask) validateSetIsSystemTaskParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryTask) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerRegistryTask) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

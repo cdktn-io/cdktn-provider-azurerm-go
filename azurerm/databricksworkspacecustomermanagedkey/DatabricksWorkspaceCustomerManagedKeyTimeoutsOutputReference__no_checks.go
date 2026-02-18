@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReference)
 	return nil
 }
 
-func validateNewDatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabricksWorkspaceCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

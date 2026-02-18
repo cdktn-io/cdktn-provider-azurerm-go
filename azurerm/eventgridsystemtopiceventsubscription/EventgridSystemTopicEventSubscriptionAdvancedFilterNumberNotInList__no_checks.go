@@ -15,7 +15,7 @@ func (e *jsiiProxy_EventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotI
 	return nil
 }
 
-func (e *jsiiProxy_EventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotInList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotInList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotI
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotInList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotInList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotI
 	return nil
 }
 
-func validateNewEventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotInListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventgridSystemTopicEventSubscriptionAdvancedFilterNumberNotInListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

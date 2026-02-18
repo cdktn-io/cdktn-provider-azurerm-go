@@ -51,7 +51,7 @@ func (s *jsiiProxy_SentinelAlertRuleFusionSourceOutputReference) validatePutSubT
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleFusionSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleFusionSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SentinelAlertRuleFusionSourceOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleFusionSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleFusionSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelAlertRuleFusionSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelAlertRuleFusionSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

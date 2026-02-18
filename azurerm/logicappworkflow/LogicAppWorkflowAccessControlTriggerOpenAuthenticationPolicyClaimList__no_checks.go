@@ -15,7 +15,7 @@ func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyC
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyC
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyC
 	return nil
 }
 
-func validateNewLogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyClaimListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

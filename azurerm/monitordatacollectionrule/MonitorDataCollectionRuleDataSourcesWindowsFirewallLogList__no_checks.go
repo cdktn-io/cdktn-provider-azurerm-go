@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsFirewallLogList) v
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsFirewallLogList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsFirewallLogList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsFirewallLogList) v
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsFirewallLogList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsFirewallLogList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsFirewallLogList) v
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleDataSourcesWindowsFirewallLogListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorDataCollectionRuleDataSourcesWindowsFirewallLogListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package sharedimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sharedimage/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/sharedimage/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SharedImagePurchasePlanOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type SharedImagePurchasePlanOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type SharedImagePurchasePlanOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetProduct()
 	ResetPublisher()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type SharedImagePurchasePlanOutputReference interface {
 
 // The jsii proxy struct for SharedImagePurchasePlanOutputReference
 type jsiiProxy_SharedImagePurchasePlanOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) TerraformResource() c
 }
 
 
-func NewSharedImagePurchasePlanOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SharedImagePurchasePlanOutputReference {
+func NewSharedImagePurchasePlanOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SharedImagePurchasePlanOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSharedImagePurchasePlanOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewSharedImagePurchasePlanOutputReference(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewSharedImagePurchasePlanOutputReference_Override(s SharedImagePurchasePlanOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSharedImagePurchasePlanOutputReference_Override(s SharedImagePurchasePlanOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_SharedImagePurchasePlanOutputReference)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_SharedImagePurchasePlanOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SharedImagePurchasePlanOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) GetAnyMapAttribute(te
 	return returns
 }
 
-func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -493,8 +493,8 @@ func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) GetStringMapAttribute
 	return returns
 }
 
-func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -506,11 +506,11 @@ func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) InterpolationAsList()
 	return returns
 }
 
-func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -538,7 +538,7 @@ func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) ResetPublisher() {
 	)
 }
 
-func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

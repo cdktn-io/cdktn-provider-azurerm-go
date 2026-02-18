@@ -5,14 +5,14 @@ package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientId() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -39,16 +39,16 @@ type KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserAssignedIdentityId() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference inter
 
 // The jsii proxy struct for KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference
 type jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) ClientId() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 }
 
 
-func NewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference {
+func NewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference(te
 	return &j
 }
 
-func NewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference_Override(k KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference_Override(k KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -422,8 +422,8 @@ func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -435,11 +435,11 @@ func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -451,7 +451,7 @@ func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

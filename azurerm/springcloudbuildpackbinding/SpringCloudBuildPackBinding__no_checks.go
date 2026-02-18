@@ -115,7 +115,7 @@ func (j *jsiiProxy_SpringCloudBuildPackBinding) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudBuildPackBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudBuildPackBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

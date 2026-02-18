@@ -51,7 +51,7 @@ func (c *jsiiProxy_CognitiveAccountNetworkAclsOutputReference) validatePutVirtua
 	return nil
 }
 
-func (c *jsiiProxy_CognitiveAccountNetworkAclsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitiveAccountNetworkAclsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_CognitiveAccountNetworkAclsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountNetworkAclsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitiveAccountNetworkAclsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitiveAccountNetworkAclsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitiveAccountNetworkAclsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

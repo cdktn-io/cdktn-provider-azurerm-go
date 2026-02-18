@@ -5,22 +5,22 @@ package dataazurermsharedimage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsharedimage/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsharedimage/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/shared_image azurerm_shared_image}.
 type DataAzurermSharedImage interface {
-	cdktf.TerraformDataSource
-	AcceleratedNetworkSupportEnabled() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AcceleratedNetworkSupportEnabled() cdktn.IResolvable
 	Architecture() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
-	ConfidentialVmEnabled() cdktf.IResolvable
-	ConfidentialVmSupported() cdktf.IResolvable
+	CdktfStack() cdktn.TerraformStack
+	ConfidentialVmEnabled() cdktn.IResolvable
+	ConfidentialVmSupported() cdktn.IResolvable
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type DataAzurermSharedImage interface {
 	Description() *string
 	Eula() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,16 +44,16 @@ type DataAzurermSharedImage interface {
 	GalleryName() *string
 	SetGalleryName(val *string)
 	GalleryNameInput() *string
-	HibernationEnabled() cdktf.IResolvable
+	HibernationEnabled() cdktn.IResolvable
 	HyperVGeneration() *string
 	Id() *string
 	SetId(val *string)
 	Identifier() DataAzurermSharedImageIdentifierList
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -63,9 +63,9 @@ type DataAzurermSharedImage interface {
 	OsType() *string
 	PrivacyStatementUri() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	PurchasePlan() DataAzurermSharedImagePurchasePlanList
 	// Experimental.
 	RawOverrides() interface{}
@@ -73,24 +73,24 @@ type DataAzurermSharedImage interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
-	Specialized() cdktf.IResolvable
-	Tags() cdktf.StringMap
+	Specialized() cdktn.IResolvable
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermSharedImageTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	TrustedLaunchEnabled() cdktf.IResolvable
-	TrustedLaunchSupported() cdktf.IResolvable
+	TrustedLaunchEnabled() cdktn.IResolvable
+	TrustedLaunchSupported() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,7 +106,7 @@ type DataAzurermSharedImage interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -132,11 +132,11 @@ type DataAzurermSharedImage interface {
 
 // The jsii proxy struct for DataAzurermSharedImage
 type jsiiProxy_DataAzurermSharedImage struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) AcceleratedNetworkSupportEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSharedImage) AcceleratedNetworkSupportEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"acceleratedNetworkSupportEnabled",
@@ -155,8 +155,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) Architecture() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermSharedImage) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -165,8 +165,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) CdktfStack() cdktf.TerraformStack {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) ConfidentialVmEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSharedImage) ConfidentialVmEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"confidentialVmEnabled",
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) ConfidentialVmEnabled() cdktf.IResolv
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) ConfidentialVmSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSharedImage) ConfidentialVmSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"confidentialVmSupported",
@@ -235,8 +235,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) Eula() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermSharedImage) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) GalleryNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) HibernationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSharedImage) HibernationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hibernationEnabled",
@@ -335,8 +335,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermSharedImage) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -405,8 +405,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) PrivacyStatementUri() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermSharedImage) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -465,8 +465,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) ResourceGroupNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) Specialized() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSharedImage) Specialized() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"specialized",
@@ -475,8 +475,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) Specialized() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermSharedImage) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -485,8 +485,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermSharedImage) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -535,8 +535,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) TrustedLaunchEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSharedImage) TrustedLaunchEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"trustedLaunchEnabled",
@@ -545,8 +545,8 @@ func (j *jsiiProxy_DataAzurermSharedImage) TrustedLaunchEnabled() cdktf.IResolva
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage) TrustedLaunchSupported() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSharedImage) TrustedLaunchSupported() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"trustedLaunchSupported",
@@ -604,7 +604,7 @@ func (j *jsiiProxy_DataAzurermSharedImage)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermSharedImage)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -634,7 +634,7 @@ func (j *jsiiProxy_DataAzurermSharedImage)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermSharedImage)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -656,7 +656,7 @@ func (j *jsiiProxy_DataAzurermSharedImage)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSharedImage)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermSharedImage)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -675,14 +675,14 @@ func (j *jsiiProxy_DataAzurermSharedImage)SetResourceGroupName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermSharedImage resource upon running "cdktf plan <stack-name>".
-func DataAzurermSharedImage_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermSharedImage resource upon running "cdktn plan <stack-name>".
+func DataAzurermSharedImage_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermSharedImage_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermSharedImage.DataAzurermSharedImage",
@@ -805,11 +805,11 @@ func (d *jsiiProxy_DataAzurermSharedImage) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSharedImage) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSharedImage) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -933,11 +933,11 @@ func (d *jsiiProxy_DataAzurermSharedImage) GetStringMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSharedImage) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSharedImage) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

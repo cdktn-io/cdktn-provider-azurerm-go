@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesList) validat
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesList) validat
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayBgpSettingsPeeringAddressesList) validat
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayBgpSettingsPeeringAddressesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualNetworkGatewayBgpSettingsPeeringAddressesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

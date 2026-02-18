@@ -5,14 +5,14 @@ package dataazurermvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuxiliaryMode() *string
 	AuxiliarySku() *string
 	// the index of the complex object in a list.
@@ -31,8 +31,8 @@ type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface 
 	// Experimental.
 	CreationStack() *[]*string
 	DnsServers() *[]*string
-	EnableAcceleratedNetworking() cdktf.IResolvable
-	EnableIpForwarding() cdktf.IResolvable
+	EnableAcceleratedNetworking() cdktn.IResolvable
+	EnableIpForwarding() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermVirtualMachineScaleSetNetworkInterface
@@ -40,21 +40,21 @@ type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface 
 	IpConfiguration() DataAzurermVirtualMachineScaleSetNetworkInterfaceIpConfigurationList
 	Name() *string
 	NetworkSecurityGroupId() *string
-	Primary() cdktf.IResolvable
+	Primary() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference interface 
 
 // The jsii proxy struct for DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference
 type jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) AuxiliaryMode() *string {
@@ -148,8 +148,8 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableAcceleratedNetworking() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableAcceleratedNetworking() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableAcceleratedNetworking",
@@ -158,8 +158,8 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableIpForwarding() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) EnableIpForwarding() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableIpForwarding",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) Primary() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) Primary() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"primary",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -249,7 +249,7 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 }
 
 
-func NewDataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference {
+func NewDataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -266,7 +266,7 @@ func NewDataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference(terrafo
 	return &j
 }
 
-func NewDataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference_Override(d DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference_Override(d DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -320,7 +320,7 @@ func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	)
 }
 
-func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -360,11 +360,11 @@ func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -488,8 +488,8 @@ func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -501,11 +501,11 @@ func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -517,7 +517,7 @@ func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermVirtualMachineScaleSetNetworkInterfaceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package dataazurermlinuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlinuxwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermlinuxwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermLinuxWebAppLogsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApplicationLogs() DataAzurermLinuxWebAppLogsApplicationLogsList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -29,8 +29,8 @@ type DataAzurermLinuxWebAppLogsOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DetailedErrorMessages() cdktf.IResolvable
-	FailedRequestTracing() cdktf.IResolvable
+	DetailedErrorMessages() cdktn.IResolvable
+	FailedRequestTracing() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	HttpLogs() DataAzurermLinuxWebAppLogsHttpLogsList
@@ -41,15 +41,15 @@ type DataAzurermLinuxWebAppLogsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermLinuxWebAppLogsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermLinuxWebAppLogsOutputReference interface {
 
 // The jsii proxy struct for DataAzurermLinuxWebAppLogsOutputReference
 type jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) ApplicationLogs() DataAzurermLinuxWebAppLogsApplicationLogsList {
@@ -123,8 +123,8 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) CreationStack() *[
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) DetailedErrorMessages() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) DetailedErrorMessages() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"detailedErrorMessages",
@@ -133,8 +133,8 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) DetailedErrorMessa
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) FailedRequestTracing() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) FailedRequestTracing() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"failedRequestTracing",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) TerraformResource(
 }
 
 
-func NewDataAzurermLinuxWebAppLogsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxWebAppLogsOutputReference {
+func NewDataAzurermLinuxWebAppLogsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxWebAppLogsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermLinuxWebAppLogsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermLinuxWebAppLogsOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewDataAzurermLinuxWebAppLogsOutputReference_Override(d DataAzurermLinuxWebAppLogsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermLinuxWebAppLogsOutputReference_Override(d DataAzurermLinuxWebAppLogsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) InterpolationForAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermLinuxWebAppLogsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

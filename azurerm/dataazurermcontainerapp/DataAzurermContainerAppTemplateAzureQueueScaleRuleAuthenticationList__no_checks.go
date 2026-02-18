@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticat
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticat
 	return nil
 }
 
-func validateNewDataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermContainerAppTemplateAzureQueueScaleRuleAuthenticationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

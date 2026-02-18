@@ -5,14 +5,14 @@ package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetObservabilityEnabled()
 	ResetSecurityEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference interface 
 
 // The jsii proxy struct for KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference
 type jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 }
 
 
-func NewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference {
+func NewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReference(terrafo
 	return &j
 }
 
-func NewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReference_Override(k KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReference_Override(k KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -459,8 +459,8 @@ func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -472,11 +472,11 @@ func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -504,7 +504,7 @@ func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	)
 }
 
-func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

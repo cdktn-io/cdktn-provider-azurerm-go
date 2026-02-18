@@ -51,7 +51,7 @@ func (l *jsiiProxy_LoadTestEncryptionOutputReference) validatePutIdentityParamet
 	return nil
 }
 
-func (l *jsiiProxy_LoadTestEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoadTestEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LoadTestEncryptionOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_LoadTestEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoadTestEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLoadTestEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLoadTestEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

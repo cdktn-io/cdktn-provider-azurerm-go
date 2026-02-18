@@ -5,14 +5,14 @@ package mssqlelasticpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlelasticpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqlelasticpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MssqlElasticpoolSkuOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Capacity() *float64
 	SetCapacity(val *float64)
 	CapacityInput() *float64
@@ -46,9 +46,9 @@ type MssqlElasticpoolSkuOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Tier() *string
 	SetTier(val *string)
 	TierInput() *string
@@ -57,7 +57,7 @@ type MssqlElasticpoolSkuOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,13 +73,13 @@ type MssqlElasticpoolSkuOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFamily()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type MssqlElasticpoolSkuOutputReference interface {
 
 // The jsii proxy struct for MssqlElasticpoolSkuOutputReference
 type jsiiProxy_MssqlElasticpoolSkuOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) Capacity() *float64 {
@@ -212,8 +212,8 @@ func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) TierInput() *string {
 }
 
 
-func NewMssqlElasticpoolSkuOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MssqlElasticpoolSkuOutputReference {
+func NewMssqlElasticpoolSkuOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MssqlElasticpoolSkuOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMssqlElasticpoolSkuOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -260,7 +260,7 @@ func NewMssqlElasticpoolSkuOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewMssqlElasticpoolSkuOutputReference_Override(m MssqlElasticpoolSkuOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMssqlElasticpoolSkuOutputReference_Override(m MssqlElasticpoolSkuOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -347,7 +347,7 @@ func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -398,11 +398,11 @@ func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -526,8 +526,8 @@ func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -539,11 +539,11 @@ func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -563,7 +563,7 @@ func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) ResetFamily() {
 	)
 }
 
-func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (k *jsiiProxy_KeyVaultCertificateIssuerAdminList) validateGetParameters(ind
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateIssuerAdminList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateIssuerAdminList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KeyVaultCertificateIssuerAdminList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateIssuerAdminList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateIssuerAdminList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KeyVaultCertificateIssuerAdminList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewKeyVaultCertificateIssuerAdminListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKeyVaultCertificateIssuerAdminListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

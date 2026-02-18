@@ -107,7 +107,7 @@ func (j *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

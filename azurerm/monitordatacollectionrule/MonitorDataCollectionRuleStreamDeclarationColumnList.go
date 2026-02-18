@@ -5,14 +5,14 @@ package monitordatacollectionrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitordatacollectionrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitordatacollectionrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorDataCollectionRuleStreamDeclarationColumnList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type MonitorDataCollectionRuleStreamDeclarationColumnList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type MonitorDataCollectionRuleStreamDeclarationColumnList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) MonitorDataCollectionRuleStreamDeclarationColumnOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type MonitorDataCollectionRuleStreamDeclarationColumnList interface {
 
 // The jsii proxy struct for MonitorDataCollectionRuleStreamDeclarationColumnList
 type jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) WrapsSe
 }
 
 
-func NewMonitorDataCollectionRuleStreamDeclarationColumnList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitorDataCollectionRuleStreamDeclarationColumnList {
+func NewMonitorDataCollectionRuleStreamDeclarationColumnList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitorDataCollectionRuleStreamDeclarationColumnList {
 	_init_.Initialize()
 
 	if err := validateNewMonitorDataCollectionRuleStreamDeclarationColumnListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewMonitorDataCollectionRuleStreamDeclarationColumnList(terraformResource c
 	return &j
 }
 
-func NewMonitorDataCollectionRuleStreamDeclarationColumnList_Override(m MonitorDataCollectionRuleStreamDeclarationColumnList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewMonitorDataCollectionRuleStreamDeclarationColumnList_Override(m MonitorDataCollectionRuleStreamDeclarationColumnList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList)SetTerra
 	)
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList)SetWraps
 	)
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) Get(ind
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationColumnList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

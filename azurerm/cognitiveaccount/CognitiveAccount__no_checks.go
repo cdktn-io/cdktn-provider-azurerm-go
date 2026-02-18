@@ -151,7 +151,7 @@ func (j *jsiiProxy_CognitiveAccount) validateSetKindParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitiveAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

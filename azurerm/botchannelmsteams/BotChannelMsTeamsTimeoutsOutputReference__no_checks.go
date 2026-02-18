@@ -47,7 +47,7 @@ func (b *jsiiProxy_BotChannelMsTeamsTimeoutsOutputReference) validateInterpolati
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelMsTeamsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelMsTeamsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BotChannelMsTeamsTimeoutsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelMsTeamsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelMsTeamsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BotChannelMsTeamsTimeoutsOutputReference) validateSetUpdatePa
 	return nil
 }
 
-func validateNewBotChannelMsTeamsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBotChannelMsTeamsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

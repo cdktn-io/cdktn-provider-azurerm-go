@@ -47,7 +47,7 @@ func (w *jsiiProxy_WebAppActiveSlotTimeoutsOutputReference) validateInterpolatio
 	return nil
 }
 
-func (w *jsiiProxy_WebAppActiveSlotTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebAppActiveSlotTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WebAppActiveSlotTimeoutsOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_WebAppActiveSlotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebAppActiveSlotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WebAppActiveSlotTimeoutsOutputReference) validateSetUpdatePar
 	return nil
 }
 
-func validateNewWebAppActiveSlotTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWebAppActiveSlotTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

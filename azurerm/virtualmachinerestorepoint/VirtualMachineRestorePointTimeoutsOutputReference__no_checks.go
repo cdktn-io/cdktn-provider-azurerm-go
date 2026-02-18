@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineRestorePointTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineRestorePointTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineRestorePointTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VirtualMachineRestorePointTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineRestorePointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineRestorePointTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineRestorePointTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

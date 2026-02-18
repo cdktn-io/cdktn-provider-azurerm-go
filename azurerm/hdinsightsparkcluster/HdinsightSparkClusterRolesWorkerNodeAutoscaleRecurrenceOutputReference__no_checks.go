@@ -51,7 +51,7 @@ func (h *jsiiProxy_HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutput
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutput
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutput
 	return nil
 }
 
-func validateNewHdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightSparkClusterRolesWorkerNodeAutoscaleRecurrenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

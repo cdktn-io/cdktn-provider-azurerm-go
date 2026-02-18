@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsMicrosoftOutputReference) validate
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsMicrosoftOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxWebAppSlotAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppSlotAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

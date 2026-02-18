@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (b *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateInterpolation
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateSetComplexObj
 
 func (j *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BatchPoolMountCifsMount:
 		val := val.(*BatchPoolMountCifsMount)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateSetInternalVa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BatchPoolMountCifsMount; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BatchPoolMountCifsMount; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -230,7 +230,7 @@ func (j *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -246,7 +246,7 @@ func (j *jsiiProxy_BatchPoolMountCifsMountOutputReference) validateSetUserNamePa
 	return nil
 }
 
-func validateNewBatchPoolMountCifsMountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchPoolMountCifsMountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

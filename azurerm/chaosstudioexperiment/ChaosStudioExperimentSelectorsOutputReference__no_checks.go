@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChaosStudioExperimentSelectorsOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_ChaosStudioExperimentSelectorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChaosStudioExperimentSelectorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ChaosStudioExperimentSelectorsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ChaosStudioExperimentSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChaosStudioExperimentSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChaosStudioExperimentSelectorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewChaosStudioExperimentSelectorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

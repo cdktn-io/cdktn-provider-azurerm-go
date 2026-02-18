@@ -5,14 +5,14 @@ package dataazurermapimanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermapimanagement/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermapimanagement/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermApiManagementHostnameConfigurationProxyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,7 +28,7 @@ type DataAzurermApiManagementHostnameConfigurationProxyOutputReference interface
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DefaultSslBinding() cdktf.IResolvable
+	DefaultSslBinding() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	HostName() *string
@@ -36,21 +36,21 @@ type DataAzurermApiManagementHostnameConfigurationProxyOutputReference interface
 	SetInternalValue(val *DataAzurermApiManagementHostnameConfigurationProxy)
 	KeyVaultCertificateId() *string
 	KeyVaultId() *string
-	NegotiateClientCertificate() cdktf.IResolvable
+	NegotiateClientCertificate() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataAzurermApiManagementHostnameConfigurationProxyOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataAzurermApiManagementHostnameConfigurationProxyOutputReference interface
 
 // The jsii proxy struct for DataAzurermApiManagementHostnameConfigurationProxyOutputReference
 type jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) ComplexObjectIndex() interface{} {
@@ -114,8 +114,8 @@ func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) DefaultSslBinding() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) DefaultSslBinding() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"defaultSslBinding",
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) NegotiateClientCertificate() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) NegotiateClientCertificate() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"negotiateClientCertificate",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 }
 
 
-func NewDataAzurermApiManagementHostnameConfigurationProxyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermApiManagementHostnameConfigurationProxyOutputReference {
+func NewDataAzurermApiManagementHostnameConfigurationProxyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermApiManagementHostnameConfigurationProxyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermApiManagementHostnameConfigurationProxyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataAzurermApiManagementHostnameConfigurationProxyOutputReference(terraf
 	return &j
 }
 
-func NewDataAzurermApiManagementHostnameConfigurationProxyOutputReference_Override(d DataAzurermApiManagementHostnameConfigurationProxyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermApiManagementHostnameConfigurationProxyOutputReference_Override(d DataAzurermApiManagementHostnameConfigurationProxyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputRefer
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermApiManagementHostnameConfigurationProxyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

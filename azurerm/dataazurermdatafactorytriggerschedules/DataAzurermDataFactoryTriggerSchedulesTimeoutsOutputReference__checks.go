@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference
 
 func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAzurermDataFactoryTriggerSchedulesTimeouts:
 		val := val.(*DataAzurermDataFactoryTriggerSchedulesTimeouts)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAzurermDataFactoryTriggerSchedulesTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAzurermDataFactoryTriggerSchedulesTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReference
 	return nil
 }
 
-func validateNewDataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermDataFactoryTriggerSchedulesTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingProfileRecurrenceOutputReference) vali
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingProfileRecurrenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingProfileRecurrenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileRecurrenceOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingProfileRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingProfileRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileRecurrenceOutputReference) vali
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingProfileRecurrenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorAutoscaleSettingProfileRecurrenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

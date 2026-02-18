@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validatePutClien
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VpnServerConfigurationRadiusClientRootCertificate:
 		value := value.(*[]*VpnServerConfigurationRadiusClientRootCertificate)
@@ -117,7 +117,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validatePutClien
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VpnServerConfigurationRadiusClientRootCertificate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpnServerConfigurationRadiusClientRootCertificate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validatePutServe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VpnServerConfigurationRadiusServer:
 		value := value.(*[]*VpnServerConfigurationRadiusServer)
@@ -148,7 +148,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validatePutServe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VpnServerConfigurationRadiusServer; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpnServerConfigurationRadiusServer; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validatePutServe
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VpnServerConfigurationRadiusServerRootCertificate:
 		value := value.(*[]*VpnServerConfigurationRadiusServerRootCertificate)
@@ -179,14 +179,14 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validatePutServe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VpnServerConfigurationRadiusServerRootCertificate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpnServerConfigurationRadiusServerRootCertificate; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -275,7 +275,7 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -283,7 +283,7 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateSetTerra
 	return nil
 }
 
-func validateNewVpnServerConfigurationRadiusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpnServerConfigurationRadiusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

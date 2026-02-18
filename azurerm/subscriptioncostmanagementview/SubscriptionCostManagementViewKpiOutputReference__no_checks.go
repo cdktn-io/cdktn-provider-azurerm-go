@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewKpiOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewKpiOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionCostManagementViewKpiOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewKpiOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementViewKpiOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionCostManagementViewKpiOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewKpiOutputReference) validateSet
 	return nil
 }
 
-func validateNewSubscriptionCostManagementViewKpiOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSubscriptionCostManagementViewKpiOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

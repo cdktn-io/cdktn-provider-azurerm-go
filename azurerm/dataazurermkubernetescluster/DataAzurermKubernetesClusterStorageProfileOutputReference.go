@@ -5,15 +5,15 @@ package dataazurermkubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermkubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermKubernetesClusterStorageProfileOutputReference interface {
-	cdktf.ComplexObject
-	BlobDriverEnabled() cdktf.IResolvable
+	cdktn.ComplexObject
+	BlobDriverEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -29,27 +29,27 @@ type DataAzurermKubernetesClusterStorageProfileOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DiskDriverEnabled() cdktf.IResolvable
-	FileDriverEnabled() cdktf.IResolvable
+	DiskDriverEnabled() cdktn.IResolvable
+	FileDriverEnabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermKubernetesClusterStorageProfile
 	SetInternalValue(val *DataAzurermKubernetesClusterStorageProfile)
-	SnapshotControllerEnabled() cdktf.IResolvable
+	SnapshotControllerEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermKubernetesClusterStorageProfileOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,11 +80,11 @@ type DataAzurermKubernetesClusterStorageProfileOutputReference interface {
 
 // The jsii proxy struct for DataAzurermKubernetesClusterStorageProfileOutputReference
 type jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) BlobDriverEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) BlobDriverEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"blobDriverEnabled",
@@ -123,8 +123,8 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Cr
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) DiskDriverEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) DiskDriverEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"diskDriverEnabled",
@@ -133,8 +133,8 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Di
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) FileDriverEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) FileDriverEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"fileDriverEnabled",
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) In
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) SnapshotControllerEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) SnapshotControllerEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"snapshotControllerEnabled",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Te
 }
 
 
-func NewDataAzurermKubernetesClusterStorageProfileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermKubernetesClusterStorageProfileOutputReference {
+func NewDataAzurermKubernetesClusterStorageProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermKubernetesClusterStorageProfileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermKubernetesClusterStorageProfileOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermKubernetesClusterStorageProfileOutputReference(terraformResou
 	return &j
 }
 
-func NewDataAzurermKubernetesClusterStorageProfileOutputReference_Override(d DataAzurermKubernetesClusterStorageProfileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermKubernetesClusterStorageProfileOutputReference_Override(d DataAzurermKubernetesClusterStorageProfileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

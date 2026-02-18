@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermCdnFrontdoorSecretSecretCustomerCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

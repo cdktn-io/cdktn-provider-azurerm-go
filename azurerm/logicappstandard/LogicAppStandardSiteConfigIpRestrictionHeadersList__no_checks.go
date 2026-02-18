@@ -15,7 +15,7 @@ func (l *jsiiProxy_LogicAppStandardSiteConfigIpRestrictionHeadersList) validateG
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppStandardSiteConfigIpRestrictionHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppStandardSiteConfigIpRestrictionHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigIpRestrictionHeadersList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppStandardSiteConfigIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppStandardSiteConfigIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigIpRestrictionHeadersList) validateS
 	return nil
 }
 
-func validateNewLogicAppStandardSiteConfigIpRestrictionHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLogicAppStandardSiteConfigIpRestrictionHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

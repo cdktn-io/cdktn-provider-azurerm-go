@@ -5,14 +5,14 @@ package oracleautonomousdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/oracleautonomousdatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/oracleautonomousdatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OracleAutonomousDatabaseLongTermBackupScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type OracleAutonomousDatabaseLongTermBackupScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeOfBackup() *string
 	SetTimeOfBackup(val *string)
 	TimeOfBackupInput() *string
@@ -57,7 +57,7 @@ type OracleAutonomousDatabaseLongTermBackupScheduleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,12 +73,12 @@ type OracleAutonomousDatabaseLongTermBackupScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type OracleAutonomousDatabaseLongTermBackupScheduleOutputReference interface {
 
 // The jsii proxy struct for OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 type jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -242,7 +242,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 }
 
 
-func NewOracleAutonomousDatabaseLongTermBackupScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OracleAutonomousDatabaseLongTermBackupScheduleOutputReference {
+func NewOracleAutonomousDatabaseLongTermBackupScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OracleAutonomousDatabaseLongTermBackupScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOracleAutonomousDatabaseLongTermBackupScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -259,7 +259,7 @@ func NewOracleAutonomousDatabaseLongTermBackupScheduleOutputReference(terraformR
 	return &j
 }
 
-func NewOracleAutonomousDatabaseLongTermBackupScheduleOutputReference_Override(o OracleAutonomousDatabaseLongTermBackupScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOracleAutonomousDatabaseLongTermBackupScheduleOutputReference_Override(o OracleAutonomousDatabaseLongTermBackupScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -346,7 +346,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	)
 }
 
-func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -397,11 +397,11 @@ func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return returns
 }
 
-func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -525,8 +525,8 @@ func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return returns
 }
 
-func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -538,11 +538,11 @@ func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return returns
 }
 
-func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -554,7 +554,7 @@ func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return returns
 }
 
-func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

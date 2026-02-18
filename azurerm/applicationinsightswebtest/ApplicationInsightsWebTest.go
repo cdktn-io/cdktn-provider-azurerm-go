@@ -5,21 +5,21 @@ package applicationinsightswebtest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationinsightswebtest/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationinsightswebtest/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/application_insights_web_test azurerm_application_insights_web_test}.
 type ApplicationInsightsWebTest interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationInsightsId() *string
 	SetApplicationInsightsId(val *string)
 	ApplicationInsightsIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Configuration() *string
 	SetConfiguration(val *string)
 	ConfigurationInput() *string
@@ -44,9 +44,9 @@ type ApplicationInsightsWebTest interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	Frequency() *float64
@@ -64,9 +64,9 @@ type ApplicationInsightsWebTest interface {
 	SetKind(val *string)
 	KindInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -76,9 +76,9 @@ type ApplicationInsightsWebTest interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -96,7 +96,7 @@ type ApplicationInsightsWebTest interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -114,7 +114,7 @@ type ApplicationInsightsWebTest interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -132,9 +132,9 @@ type ApplicationInsightsWebTest interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -176,7 +176,7 @@ type ApplicationInsightsWebTest interface {
 
 // The jsii proxy struct for ApplicationInsightsWebTest
 type jsiiProxy_ApplicationInsightsWebTest struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApplicationInsightsWebTest) ApplicationInsightsId() *string {
@@ -199,8 +199,8 @@ func (j *jsiiProxy_ApplicationInsightsWebTest) ApplicationInsightsIdInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApplicationInsightsWebTest) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_ApplicationInsightsWebTest) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApplicationInsightsWebTest) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_ApplicationInsightsWebTest) KindInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApplicationInsightsWebTest) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -479,8 +479,8 @@ func (j *jsiiProxy_ApplicationInsightsWebTest) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApplicationInsightsWebTest) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -579,8 +579,8 @@ func (j *jsiiProxy_ApplicationInsightsWebTest) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApplicationInsightsWebTest) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -753,7 +753,7 @@ func (j *jsiiProxy_ApplicationInsightsWebTest)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApplicationInsightsWebTest)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -805,7 +805,7 @@ func (j *jsiiProxy_ApplicationInsightsWebTest)SetKind(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApplicationInsightsWebTest)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -838,7 +838,7 @@ func (j *jsiiProxy_ApplicationInsightsWebTest)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApplicationInsightsWebTest)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -901,14 +901,14 @@ func (j *jsiiProxy_ApplicationInsightsWebTest)SetTimeout(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a ApplicationInsightsWebTest resource upon running "cdktf plan <stack-name>".
-func ApplicationInsightsWebTest_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApplicationInsightsWebTest resource upon running "cdktn plan <stack-name>".
+func ApplicationInsightsWebTest_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApplicationInsightsWebTest_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.applicationInsightsWebTest.ApplicationInsightsWebTest",
@@ -1042,11 +1042,11 @@ func (a *jsiiProxy_ApplicationInsightsWebTest) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationInsightsWebTest) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationInsightsWebTest) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1183,7 +1183,7 @@ func (a *jsiiProxy_ApplicationInsightsWebTest) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationInsightsWebTest) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApplicationInsightsWebTest) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1194,11 +1194,11 @@ func (a *jsiiProxy_ApplicationInsightsWebTest) ImportFrom(id *string, provider c
 	)
 }
 
-func (a *jsiiProxy_ApplicationInsightsWebTest) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationInsightsWebTest) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

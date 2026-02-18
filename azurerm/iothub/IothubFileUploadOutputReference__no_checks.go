@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubFileUploadOutputReference) validateInterpolationForAttr
 	return nil
 }
 
-func (i *jsiiProxy_IothubFileUploadOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubFileUploadOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,11 +103,11 @@ func (j *jsiiProxy_IothubFileUploadOutputReference) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_IothubFileUploadOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubFileUploadOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIothubFileUploadOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIothubFileUploadOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

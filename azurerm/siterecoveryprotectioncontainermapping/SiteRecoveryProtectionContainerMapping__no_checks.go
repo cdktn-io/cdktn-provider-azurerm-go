@@ -111,7 +111,7 @@ func (j *jsiiProxy_SiteRecoveryProtectionContainerMapping) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryProtectionContainerMapping) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SiteRecoveryProtectionContainerMapping) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

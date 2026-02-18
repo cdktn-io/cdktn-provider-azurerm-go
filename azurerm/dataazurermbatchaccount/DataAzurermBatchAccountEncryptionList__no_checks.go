@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchAccountEncryptionList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchAccountEncryptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchAccountEncryptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchAccountEncryptionList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchAccountEncryptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchAccountEncryptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchAccountEncryptionList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAzurermBatchAccountEncryptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchAccountEncryptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

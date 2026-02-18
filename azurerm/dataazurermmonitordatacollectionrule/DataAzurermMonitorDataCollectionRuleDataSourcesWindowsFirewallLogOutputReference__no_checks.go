@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewal
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewallLogOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewallLogOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewal
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewallLogOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewallLogOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewallLogOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermMonitorDataCollectionRuleDataSourcesWindowsFirewallLogOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

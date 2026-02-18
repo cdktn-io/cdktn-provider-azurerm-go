@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutp
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutp
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeGroupOracleVolumeDataProtectionSnapshotPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

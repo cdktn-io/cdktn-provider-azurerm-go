@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultCertificateIssuerAdminOutputReference) validateInterp
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateIssuerAdminOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateIssuerAdminOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_KeyVaultCertificateIssuerAdminOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateIssuerAdminOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateIssuerAdminOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKeyVaultCertificateIssuerAdminOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKeyVaultCertificateIssuerAdminOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

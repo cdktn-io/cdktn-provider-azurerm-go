@@ -119,7 +119,7 @@ func (j *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

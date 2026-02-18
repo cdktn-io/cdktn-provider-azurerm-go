@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSetIpRuleOutputReference) val
 	return nil
 }
 
-func (i *jsiiProxy_IotcentralApplicationNetworkRuleSetIpRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSetIpRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSetIpRuleOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSetIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSetIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIotcentralApplicationNetworkRuleSetIpRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIotcentralApplicationNetworkRuleSetIpRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

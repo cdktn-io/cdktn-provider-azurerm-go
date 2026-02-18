@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermStorageEncryptionScopeTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStorageEncryptionScopeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStorageEncryptionScopeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermStorageEncryptionScopeTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageEncryptionScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStorageEncryptionScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermStorageEncryptionScopeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermStorageEncryptionScopeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SignalrSharedPrivateLinkResourceTimeoutsOutputReference) vali
 	return nil
 }
 
-func (s *jsiiProxy_SignalrSharedPrivateLinkResourceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrSharedPrivateLinkResourceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SignalrSharedPrivateLinkResourceTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SignalrSharedPrivateLinkResourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrSharedPrivateLinkResourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SignalrSharedPrivateLinkResourceTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewSignalrSharedPrivateLinkResourceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSignalrSharedPrivateLinkResourceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

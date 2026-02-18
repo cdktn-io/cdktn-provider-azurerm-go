@@ -5,14 +5,14 @@ package webapplicationfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webapplicationfirewallpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webapplicationfirewallpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WebApplicationFirewallPolicyPolicySettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -66,15 +66,15 @@ type WebApplicationFirewallPolicyPolicySettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -90,9 +90,9 @@ type WebApplicationFirewallPolicyPolicySettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutLogScrubbing(value *WebApplicationFirewallPolicyPolicySettingsLogScrubbing)
 	ResetEnabled()
 	ResetFileUploadEnforcement()
@@ -106,7 +106,7 @@ type WebApplicationFirewallPolicyPolicySettingsOutputReference interface {
 	ResetRequestBodyInspectLimitInKb()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -116,7 +116,7 @@ type WebApplicationFirewallPolicyPolicySettingsOutputReference interface {
 
 // The jsii proxy struct for WebApplicationFirewallPolicyPolicySettingsOutputReference
 type jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -379,8 +379,8 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -390,7 +390,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) Te
 }
 
 
-func NewWebApplicationFirewallPolicyPolicySettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WebApplicationFirewallPolicyPolicySettingsOutputReference {
+func NewWebApplicationFirewallPolicyPolicySettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WebApplicationFirewallPolicyPolicySettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWebApplicationFirewallPolicyPolicySettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -407,7 +407,7 @@ func NewWebApplicationFirewallPolicyPolicySettingsOutputReference(terraformResou
 	return &j
 }
 
-func NewWebApplicationFirewallPolicyPolicySettingsOutputReference_Override(w WebApplicationFirewallPolicyPolicySettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWebApplicationFirewallPolicyPolicySettingsOutputReference_Override(w WebApplicationFirewallPolicyPolicySettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -560,7 +560,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -600,11 +600,11 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) Ge
 	return returns
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -728,8 +728,8 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) Ge
 	return returns
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -741,11 +741,11 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) In
 	return returns
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -848,7 +848,7 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) Re
 	)
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WebApplicationFirewallPolicyPolicySettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (t *jsiiProxy_TenantTemplateDeploymentTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (t *jsiiProxy_TenantTemplateDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TenantTemplateDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TenantTemplateDeploymentTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_TenantTemplateDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TenantTemplateDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TenantTemplateDeploymentTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewTenantTemplateDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTenantTemplateDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

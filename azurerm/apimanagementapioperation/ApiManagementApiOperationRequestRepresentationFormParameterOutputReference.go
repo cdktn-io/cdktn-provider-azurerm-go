@@ -5,14 +5,14 @@ package apimanagementapioperation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementapioperation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementapioperation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementApiOperationRequestRepresentationFormParameterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -54,9 +54,9 @@ type ApiManagementApiOperationRequestRepresentationFormParameterOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -71,7 +71,7 @@ type ApiManagementApiOperationRequestRepresentationFormParameterOutputReference 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,9 +87,9 @@ type ApiManagementApiOperationRequestRepresentationFormParameterOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutExample(value interface{})
 	ResetDefaultValue()
 	ResetDescription()
@@ -99,7 +99,7 @@ type ApiManagementApiOperationRequestRepresentationFormParameterOutputReference 
 	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -109,7 +109,7 @@ type ApiManagementApiOperationRequestRepresentationFormParameterOutputReference 
 
 // The jsii proxy struct for ApiManagementApiOperationRequestRepresentationFormParameterOutputReference
 type jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) ComplexObjectIndex() interface{} {
@@ -292,8 +292,8 @@ func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOu
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -363,7 +363,7 @@ func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOu
 }
 
 
-func NewApiManagementApiOperationRequestRepresentationFormParameterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApiManagementApiOperationRequestRepresentationFormParameterOutputReference {
+func NewApiManagementApiOperationRequestRepresentationFormParameterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApiManagementApiOperationRequestRepresentationFormParameterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementApiOperationRequestRepresentationFormParameterOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -380,7 +380,7 @@ func NewApiManagementApiOperationRequestRepresentationFormParameterOutputReferen
 	return &j
 }
 
-func NewApiManagementApiOperationRequestRepresentationFormParameterOutputReference_Override(a ApiManagementApiOperationRequestRepresentationFormParameterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApiManagementApiOperationRequestRepresentationFormParameterOutputReference_Override(a ApiManagementApiOperationRequestRepresentationFormParameterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -489,7 +489,7 @@ func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOu
 	)
 }
 
-func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -562,11 +562,11 @@ func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOu
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -690,8 +690,8 @@ func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOu
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -703,11 +703,11 @@ func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOu
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -778,7 +778,7 @@ func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOu
 	)
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

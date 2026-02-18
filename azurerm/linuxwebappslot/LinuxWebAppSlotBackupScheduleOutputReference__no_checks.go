@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxWebAppSlotBackupScheduleOutputReference) validateInterpo
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotBackupScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppSlotBackupScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_LinuxWebAppSlotBackupScheduleOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppSlotBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxWebAppSlotBackupScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppSlotBackupScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

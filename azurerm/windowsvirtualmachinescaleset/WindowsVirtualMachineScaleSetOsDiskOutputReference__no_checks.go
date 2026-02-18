@@ -51,7 +51,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetOsDiskOutputReference) validateP
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetOsDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetOsDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetOsDiskOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetOsDiskOutputReference) validateS
 	return nil
 }
 
-func validateNewWindowsVirtualMachineScaleSetOsDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsVirtualMachineScaleSetOsDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_DataboxEdgeDevice) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_DataboxEdgeDevice) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataboxEdgeDevice) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

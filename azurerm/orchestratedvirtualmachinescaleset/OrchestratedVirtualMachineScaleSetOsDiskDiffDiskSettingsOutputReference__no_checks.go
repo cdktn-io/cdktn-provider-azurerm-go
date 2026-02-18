@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutpu
 	return nil
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutpu
 	return nil
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrchestratedVirtualMachineScaleSetOsDiskDiffDiskSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

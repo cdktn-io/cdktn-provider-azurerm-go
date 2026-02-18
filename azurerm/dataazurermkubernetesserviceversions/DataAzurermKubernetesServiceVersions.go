@@ -5,18 +5,18 @@ package dataazurermkubernetesserviceversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkubernetesserviceversions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermkubernetesserviceversions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/kubernetes_service_versions azurerm_kubernetes_service_versions}.
 type DataAzurermKubernetesServiceVersions interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,9 +29,9 @@ type DataAzurermKubernetesServiceVersions interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,22 +44,22 @@ type DataAzurermKubernetesServiceVersions interface {
 	IncludePreviewInput() interface{}
 	LatestVersion() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type DataAzurermKubernetesServiceVersions interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,7 +91,7 @@ type DataAzurermKubernetesServiceVersions interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -119,11 +119,11 @@ type DataAzurermKubernetesServiceVersions interface {
 
 // The jsii proxy struct for DataAzurermKubernetesServiceVersions
 type jsiiProxy_DataAzurermKubernetesServiceVersions struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) DependsOn() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) LatestVersion() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) Node() constructs.Node 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -312,8 +312,8 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) RawOverrides() interfac
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -441,7 +441,7 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -471,7 +471,7 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetIncludePreview(val in
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -493,7 +493,7 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetLocation(val *string)
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -512,14 +512,14 @@ func (j *jsiiProxy_DataAzurermKubernetesServiceVersions)SetVersionPrefix(val *st
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermKubernetesServiceVersions resource upon running "cdktf plan <stack-name>".
-func DataAzurermKubernetesServiceVersions_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermKubernetesServiceVersions resource upon running "cdktn plan <stack-name>".
+func DataAzurermKubernetesServiceVersions_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermKubernetesServiceVersions_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermKubernetesServiceVersions.DataAzurermKubernetesServiceVersions",
@@ -642,11 +642,11 @@ func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -770,11 +770,11 @@ func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

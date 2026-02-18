@@ -127,7 +127,7 @@ func (j *jsiiProxy_HealthcareDicomService) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDicomService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareDicomService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

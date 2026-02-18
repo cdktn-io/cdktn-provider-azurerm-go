@@ -5,14 +5,14 @@ package dataazurermarcmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermarcmachine/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermarcmachine/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,15 +39,15 @@ type DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference 
 
 // The jsii proxy struct for DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference
 type jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) ComplexObjectIndex() interface{} {
@@ -161,8 +161,8 @@ func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOu
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOu
 }
 
 
-func NewDataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference {
+func NewDataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReferen
 	return &j
 }
 
-func NewDataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference_Override(d DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference_Override(d DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOu
 	)
 }
 
-func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermArcMachineServiceStatusGuestConfigurationServiceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

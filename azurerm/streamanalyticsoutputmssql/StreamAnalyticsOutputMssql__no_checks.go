@@ -115,7 +115,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputMssql) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputMssql) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StreamAnalyticsOutputMssql) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

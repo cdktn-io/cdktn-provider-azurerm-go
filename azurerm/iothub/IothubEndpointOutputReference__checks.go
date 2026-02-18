@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IothubEndpointOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (i *jsiiProxy_IothubEndpointOutputReference) validateInterpolationForAttrib
 	return nil
 }
 
-func (i *jsiiProxy_IothubEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -240,7 +240,7 @@ func (j *jsiiProxy_IothubEndpointOutputReference) validateSetIdentityIdParameter
 
 func (j *jsiiProxy_IothubEndpointOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *IothubEndpoint:
 		val := val.(*IothubEndpoint)
@@ -255,7 +255,7 @@ func (j *jsiiProxy_IothubEndpointOutputReference) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *IothubEndpoint; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *IothubEndpoint; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -302,7 +302,7 @@ func (j *jsiiProxy_IothubEndpointOutputReference) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_IothubEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -318,7 +318,7 @@ func (j *jsiiProxy_IothubEndpointOutputReference) validateSetTypeParameters(val 
 	return nil
 }
 
-func validateNewIothubEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIothubEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

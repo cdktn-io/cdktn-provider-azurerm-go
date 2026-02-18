@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutput
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutput
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutput
 	return nil
 }
 
-func validateNewSentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelAlertRuleNrtAlertDetailsOverrideDynamicPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

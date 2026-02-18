@@ -135,7 +135,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzureCli) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_ResourceDeploymentScriptAzureCli) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ResourceDeploymentScriptAzureCli) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

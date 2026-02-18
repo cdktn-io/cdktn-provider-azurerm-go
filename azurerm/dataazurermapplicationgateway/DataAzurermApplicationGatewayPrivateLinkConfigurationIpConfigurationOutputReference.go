@@ -5,14 +5,14 @@ package dataazurermapplicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermapplicationgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermapplicationgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,7 +33,7 @@ type DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputR
 	InternalValue() *DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfiguration
 	SetInternalValue(val *DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfiguration)
 	Name() *string
-	Primary() cdktf.IResolvable
+	Primary() cdktn.IResolvable
 	PrivateIpAddress() *string
 	PrivateIpAddressAllocation() *string
 	SubnetId() *string
@@ -42,15 +42,15 @@ type DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputR
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputR
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputR
 
 // The jsii proxy struct for DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference
 type jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -144,8 +144,8 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) Primary() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) Primary() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"primary",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 }
 
 
-func NewDataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference {
+func NewDataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutp
 	return &j
 }
 
-func NewDataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference_Override(d DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference_Override(d DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfig
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermApplicationGatewayPrivateLinkConfigurationIpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

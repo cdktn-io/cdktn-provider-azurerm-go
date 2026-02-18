@@ -5,14 +5,14 @@ package vpngatewayconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpngatewayconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vpngatewayconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetLabels()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference interface {
 
 // The jsii proxy struct for VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference
 type jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenc
 }
 
 
-func NewVpnGatewayConnectionRoutingPropagatedRouteTableOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference {
+func NewVpnGatewayConnectionRoutingPropagatedRouteTableOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewVpnGatewayConnectionRoutingPropagatedRouteTableOutputReference(terraform
 	return &j
 }
 
-func NewVpnGatewayConnectionRoutingPropagatedRouteTableOutputReference_Override(v VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVpnGatewayConnectionRoutingPropagatedRouteTableOutputReference_Override(v VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenc
 	return returns
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -458,8 +458,8 @@ func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenc
 	return returns
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -471,11 +471,11 @@ func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenc
 	return returns
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -495,7 +495,7 @@ func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReferenc
 	)
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpnGatewayConnectionRoutingPropagatedRouteTableOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

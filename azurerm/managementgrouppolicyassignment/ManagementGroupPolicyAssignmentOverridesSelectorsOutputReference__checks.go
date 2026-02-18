@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputRefere
 	return nil
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputRefere
 
 func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ManagementGroupPolicyAssignmentOverridesSelectors:
 		val := val.(*ManagementGroupPolicyAssignmentOverridesSelectors)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputRefere
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ManagementGroupPolicyAssignmentOverridesSelectors; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ManagementGroupPolicyAssignmentOverridesSelectors; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentOverridesSelectorsOutputRefere
 	return nil
 }
 
-func validateNewManagementGroupPolicyAssignmentOverridesSelectorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewManagementGroupPolicyAssignmentOverridesSelectorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

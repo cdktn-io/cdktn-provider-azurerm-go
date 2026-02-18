@@ -5,14 +5,14 @@ package dataazurermsharedimageversion
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsharedimageversion/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsharedimageversion/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermSharedImageVersionTargetRegionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAzurermSharedImageVersionTargetRegionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAzurermSharedImageVersionTargetRegionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAzurermSharedImageVersionTargetRegionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAzurermSharedImageVersionTargetRegionList interface {
 
 // The jsii proxy struct for DataAzurermSharedImageVersionTargetRegionList
 type jsiiProxy_DataAzurermSharedImageVersionTargetRegionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) WrapsSet() *bo
 }
 
 
-func NewDataAzurermSharedImageVersionTargetRegionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermSharedImageVersionTargetRegionList {
+func NewDataAzurermSharedImageVersionTargetRegionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermSharedImageVersionTargetRegionList {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermSharedImageVersionTargetRegionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAzurermSharedImageVersionTargetRegionList(terraformResource cdktf.II
 	return &j
 }
 
-func NewDataAzurermSharedImageVersionTargetRegionList_Override(d DataAzurermSharedImageVersionTargetRegionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAzurermSharedImageVersionTargetRegionList_Override(d DataAzurermSharedImageVersionTargetRegionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList)SetWrapsSet(val
 	)
 }
 
-func (d *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) Get(index *flo
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermSharedImageVersionTargetRegionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

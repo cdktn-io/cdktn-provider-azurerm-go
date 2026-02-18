@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIde
 	return nil
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIde
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIde
 	return nil
 }
 
-func validateNewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

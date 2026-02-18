@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDatabricksAccessConnectorIdentityOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksAccessConnectorIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDatabricksAccessConnectorIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDatabricksAccessConnectorIdentityOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksAccessConnectorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDatabricksAccessConnectorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDatabricksAccessConnectorIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDatabricksAccessConnectorIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

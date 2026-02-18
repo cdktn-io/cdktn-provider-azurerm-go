@@ -107,7 +107,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validate
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

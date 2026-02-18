@@ -5,19 +5,19 @@ package dataazurermappserviceplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermappserviceplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermappserviceplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/app_service_plan azurerm_app_service_plan}.
 type DataAzurermAppServicePlan interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AppServiceEnvironmentId() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,9 +29,9 @@ type DataAzurermAppServicePlan interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -39,12 +39,12 @@ type DataAzurermAppServicePlan interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	IsXenon() cdktf.IResolvable
+	IsXenon() cdktn.IResolvable
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	MaximumElasticWorkerCount() *float64
 	MaximumNumberOfWorkers() *float64
@@ -53,34 +53,34 @@ type DataAzurermAppServicePlan interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	PerSiteScaling() cdktf.IResolvable
+	PerSiteScaling() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	Reserved() cdktf.IResolvable
+	Reserved() cdktn.IResolvable
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	Sku() DataAzurermAppServicePlanSkuList
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermAppServicePlanTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	ZoneRedundant() cdktf.IResolvable
+	ZoneRedundant() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,7 +96,7 @@ type DataAzurermAppServicePlan interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -122,7 +122,7 @@ type DataAzurermAppServicePlan interface {
 
 // The jsii proxy struct for DataAzurermAppServicePlan
 type jsiiProxy_DataAzurermAppServicePlan struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermAppServicePlan) AppServiceEnvironmentId() *string {
@@ -135,8 +135,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) AppServiceEnvironmentId() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermAppServicePlan) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermAppServicePlan) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -225,8 +225,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) IsXenon() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermAppServicePlan) IsXenon() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"isXenon",
@@ -245,8 +245,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermAppServicePlan) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) PerSiteScaling() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermAppServicePlan) PerSiteScaling() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"perSiteScaling",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) PerSiteScaling() cdktf.IResolvable
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermAppServicePlan) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -345,8 +345,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) Reserved() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermAppServicePlan) Reserved() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reserved",
@@ -385,8 +385,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) Sku() DataAzurermAppServicePlanSku
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermAppServicePlan) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -395,8 +395,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermAppServicePlan) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -445,8 +445,8 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan) ZoneRedundant() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermAppServicePlan) ZoneRedundant() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"zoneRedundant",
@@ -504,7 +504,7 @@ func (j *jsiiProxy_DataAzurermAppServicePlan)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermAppServicePlan)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -523,7 +523,7 @@ func (j *jsiiProxy_DataAzurermAppServicePlan)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermAppServicePlan)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -545,7 +545,7 @@ func (j *jsiiProxy_DataAzurermAppServicePlan)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermAppServicePlan)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermAppServicePlan)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -564,14 +564,14 @@ func (j *jsiiProxy_DataAzurermAppServicePlan)SetResourceGroupName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermAppServicePlan resource upon running "cdktf plan <stack-name>".
-func DataAzurermAppServicePlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermAppServicePlan resource upon running "cdktn plan <stack-name>".
+func DataAzurermAppServicePlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermAppServicePlan_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermAppServicePlan.DataAzurermAppServicePlan",
@@ -694,11 +694,11 @@ func (d *jsiiProxy_DataAzurermAppServicePlan) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermAppServicePlan) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermAppServicePlan) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -822,11 +822,11 @@ func (d *jsiiProxy_DataAzurermAppServicePlan) GetStringMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermAppServicePlan) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermAppServicePlan) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

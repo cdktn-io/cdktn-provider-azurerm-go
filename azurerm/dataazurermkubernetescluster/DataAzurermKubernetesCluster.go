@@ -5,23 +5,23 @@ package dataazurermkubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermkubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster}.
 type DataAzurermKubernetesCluster interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AciConnectorLinux() DataAzurermKubernetesClusterAciConnectorLinuxList
 	AgentPoolProfile() DataAzurermKubernetesClusterAgentPoolProfileList
 	ApiServerAuthorizedIpRanges() *[]*string
 	AzureActiveDirectoryRoleBasedAccessControl() DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlList
-	AzurePolicyEnabled() cdktf.IResolvable
+	AzurePolicyEnabled() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -36,15 +36,15 @@ type DataAzurermKubernetesCluster interface {
 	DiskEncryptionSetId() *string
 	DnsPrefix() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fqdn() *string
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	HttpApplicationRoutingEnabled() cdktf.IResolvable
+	HttpApplicationRoutingEnabled() cdktn.IResolvable
 	HttpApplicationRoutingZoneName() *string
 	Id() *string
 	SetId(val *string)
@@ -60,9 +60,9 @@ type DataAzurermKubernetesCluster interface {
 	KubeletIdentity() DataAzurermKubernetesClusterKubeletIdentityList
 	KubernetesVersion() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LinuxProfile() DataAzurermKubernetesClusterLinuxProfileList
 	Location() *string
 	MicrosoftDefender() DataAzurermKubernetesClusterMicrosoftDefenderList
@@ -74,28 +74,28 @@ type DataAzurermKubernetesCluster interface {
 	Node() constructs.Node
 	NodeResourceGroup() *string
 	NodeResourceGroupId() *string
-	OidcIssuerEnabled() cdktf.IResolvable
+	OidcIssuerEnabled() cdktn.IResolvable
 	OidcIssuerUrl() *string
 	OmsAgent() DataAzurermKubernetesClusterOmsAgentList
-	OpenServiceMeshEnabled() cdktf.IResolvable
-	PrivateClusterEnabled() cdktf.IResolvable
+	OpenServiceMeshEnabled() cdktn.IResolvable
+	PrivateClusterEnabled() cdktn.IResolvable
 	PrivateFqdn() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
-	RoleBasedAccessControlEnabled() cdktf.IResolvable
+	RoleBasedAccessControlEnabled() cdktn.IResolvable
 	ServiceMeshProfile() DataAzurermKubernetesClusterServiceMeshProfileList
 	ServicePrincipal() DataAzurermKubernetesClusterServicePrincipalList
 	StorageProfile() DataAzurermKubernetesClusterStorageProfileList
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type DataAzurermKubernetesCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,7 +124,7 @@ type DataAzurermKubernetesCluster interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -150,7 +150,7 @@ type DataAzurermKubernetesCluster interface {
 
 // The jsii proxy struct for DataAzurermKubernetesCluster
 type jsiiProxy_DataAzurermKubernetesCluster struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermKubernetesCluster) AciConnectorLinux() DataAzurermKubernetesClusterAciConnectorLinuxList {
@@ -193,8 +193,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) AzureActiveDirectoryRoleBasedAc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) AzurePolicyEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesCluster) AzurePolicyEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"azurePolicyEnabled",
@@ -203,8 +203,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) AzurePolicyEnabled() cdktf.IRes
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermKubernetesCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) DnsPrefix() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermKubernetesCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -313,8 +313,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) HttpApplicationRoutingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesCluster) HttpApplicationRoutingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"httpApplicationRoutingEnabled",
@@ -453,8 +453,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) KubernetesVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermKubernetesCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -553,8 +553,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) NodeResourceGroupId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) OidcIssuerEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesCluster) OidcIssuerEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"oidcIssuerEnabled",
@@ -583,8 +583,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) OmsAgent() DataAzurermKubernete
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) OpenServiceMeshEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesCluster) OpenServiceMeshEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"openServiceMeshEnabled",
@@ -593,8 +593,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) OpenServiceMeshEnabled() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) PrivateClusterEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesCluster) PrivateClusterEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"privateClusterEnabled",
@@ -613,8 +613,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) PrivateFqdn() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermKubernetesCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -653,8 +653,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) ResourceGroupNameInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) RoleBasedAccessControlEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKubernetesCluster) RoleBasedAccessControlEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"roleBasedAccessControlEnabled",
@@ -693,8 +693,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) StorageProfile() DataAzurermKub
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermKubernetesCluster) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -703,8 +703,8 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermKubernetesCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -812,7 +812,7 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermKubernetesCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -831,7 +831,7 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermKubernetesCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -853,7 +853,7 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermKubernetesCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -872,14 +872,14 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster)SetResourceGroupName(val *string
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermKubernetesCluster resource upon running "cdktf plan <stack-name>".
-func DataAzurermKubernetesCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermKubernetesCluster resource upon running "cdktn plan <stack-name>".
+func DataAzurermKubernetesCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermKubernetesCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermKubernetesCluster.DataAzurermKubernetesCluster",
@@ -1002,11 +1002,11 @@ func (d *jsiiProxy_DataAzurermKubernetesCluster) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKubernetesCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1130,11 +1130,11 @@ func (d *jsiiProxy_DataAzurermKubernetesCluster) GetStringMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKubernetesCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

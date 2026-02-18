@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermHealthcareServiceCorsConfigurationOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareServiceCorsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermHealthcareServiceCorsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermHealthcareServiceCorsConfigurationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareServiceCorsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermHealthcareServiceCorsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermHealthcareServiceCorsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermHealthcareServiceCorsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

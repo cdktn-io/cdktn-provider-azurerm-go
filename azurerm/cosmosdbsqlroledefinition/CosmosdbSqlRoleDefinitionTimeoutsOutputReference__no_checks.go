@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbSqlRoleDefinitionTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlRoleDefinitionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlRoleDefinitionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CosmosdbSqlRoleDefinitionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlRoleDefinitionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlRoleDefinitionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CosmosdbSqlRoleDefinitionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewCosmosdbSqlRoleDefinitionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbSqlRoleDefinitionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

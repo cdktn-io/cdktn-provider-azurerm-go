@@ -47,7 +47,7 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceOperat
 	return nil
 }
 
-func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceOperatingSystemOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceOperatingSystemOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceOperat
 	return nil
 }
 
-func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceOperatingSystemOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceOperatingSystemOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSystemCenterVirtualMachineManagerVirtualMachineInstanceOperatingSystemOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSystemCenterVirtualMachineManagerVirtualMachineInstanceOperatingSystemOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

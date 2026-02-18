@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestGroupOutputReference) validateInt
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectionMonitorTestGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestGroupOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorTestGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectionMonitorTestGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestGroupOutputReference) validateSet
 	return nil
 }
 
-func validateNewNetworkConnectionMonitorTestGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkConnectionMonitorTestGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

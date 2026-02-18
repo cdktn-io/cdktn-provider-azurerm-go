@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesList) validate
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesList) validate
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesList) validate
 	return nil
 }
 
-func validateNewVirtualMachineOsProfileSecretsVaultCertificatesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineOsProfileSecretsVaultCertificatesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (h *jsiiProxy_HdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceSchedu
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceSchedu
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceSchedu
 	return nil
 }
 
-func validateNewHdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHdinsightHbaseClusterRolesWorkerNodeAutoscaleRecurrenceScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

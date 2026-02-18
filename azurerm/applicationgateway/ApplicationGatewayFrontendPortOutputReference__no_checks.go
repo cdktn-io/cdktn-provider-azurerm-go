@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewayFrontendPortOutputReference) validateInterp
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayFrontendPortOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayFrontendPortOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApplicationGatewayFrontendPortOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayFrontendPortOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayFrontendPortOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewayFrontendPortOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationGatewayFrontendPortOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

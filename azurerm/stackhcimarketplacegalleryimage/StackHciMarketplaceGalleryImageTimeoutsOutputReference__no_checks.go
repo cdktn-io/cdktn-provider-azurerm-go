@@ -47,7 +47,7 @@ func (s *jsiiProxy_StackHciMarketplaceGalleryImageTimeoutsOutputReference) valid
 	return nil
 }
 
-func (s *jsiiProxy_StackHciMarketplaceGalleryImageTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciMarketplaceGalleryImageTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StackHciMarketplaceGalleryImageTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_StackHciMarketplaceGalleryImageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciMarketplaceGalleryImageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StackHciMarketplaceGalleryImageTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewStackHciMarketplaceGalleryImageTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStackHciMarketplaceGalleryImageTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputRe
 
 func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *DataAzurermOracleExascaleDatabaseStorageVaultTimeouts:
 		val := val.(*DataAzurermOracleExascaleDatabaseStorageVaultTimeouts)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputRe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *DataAzurermOracleExascaleDatabaseStorageVaultTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *DataAzurermOracleExascaleDatabaseStorageVaultTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -214,7 +214,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputRe
 	return nil
 }
 
-func validateNewDataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

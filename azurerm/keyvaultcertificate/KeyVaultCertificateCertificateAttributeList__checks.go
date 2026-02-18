@@ -8,7 +8,7 @@ package keyvaultcertificate
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (k *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateGetParam
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificateAttributeList) validateSetWraps
 	return nil
 }
 
-func validateNewKeyVaultCertificateCertificateAttributeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKeyVaultCertificateCertificateAttributeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

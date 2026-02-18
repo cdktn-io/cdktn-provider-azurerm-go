@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetRollingUpgradePolicyOutputRefere
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetRollingUpgradePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetRollingUpgradePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetRollingUpgradePolicyOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetRollingUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetRollingUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsVirtualMachineScaleSetRollingUpgradePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsVirtualMachineScaleSetRollingUpgradePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

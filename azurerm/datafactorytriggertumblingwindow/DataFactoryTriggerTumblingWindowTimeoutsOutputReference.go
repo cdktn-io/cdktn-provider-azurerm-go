@@ -5,14 +5,14 @@ package datafactorytriggertumblingwindow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorytriggertumblingwindow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorytriggertumblingwindow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryTriggerTumblingWindowTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type DataFactoryTriggerTumblingWindowTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type DataFactoryTriggerTumblingWindowTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DataFactoryTriggerTumblingWindowTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DataFactoryTriggerTumblingWindowTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DataFactoryTriggerTumblingWindowTimeoutsOutputReference
 type jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) Upda
 }
 
 
-func NewDataFactoryTriggerTumblingWindowTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryTriggerTumblingWindowTimeoutsOutputReference {
+func NewDataFactoryTriggerTumblingWindowTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryTriggerTumblingWindowTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryTriggerTumblingWindowTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDataFactoryTriggerTumblingWindowTimeoutsOutputReference(terraformResourc
 	return &j
 }
 
-func NewDataFactoryTriggerTumblingWindowTimeoutsOutputReference_Override(d DataFactoryTriggerTumblingWindowTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryTriggerTumblingWindowTimeoutsOutputReference_Override(d DataFactoryTriggerTumblingWindowTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) GetA
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) GetS
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) Rese
 	)
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

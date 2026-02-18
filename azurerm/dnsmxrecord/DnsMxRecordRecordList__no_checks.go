@@ -15,7 +15,7 @@ func (d *jsiiProxy_DnsMxRecordRecordList) validateGetParameters(index *float64) 
 	return nil
 }
 
-func (d *jsiiProxy_DnsMxRecordRecordList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsMxRecordRecordList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DnsMxRecordRecordList) validateSetTerraformAttributeParameter
 	return nil
 }
 
-func (j *jsiiProxy_DnsMxRecordRecordList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsMxRecordRecordList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DnsMxRecordRecordList) validateSetWrapsSetParameters(val *boo
 	return nil
 }
 
-func validateNewDnsMxRecordRecordListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDnsMxRecordRecordListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

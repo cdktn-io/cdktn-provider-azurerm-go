@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ContainerGroupExposedPortList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (c *jsiiProxy_ContainerGroupExposedPortList) validateGetParameters(index *f
 	return nil
 }
 
-func (c *jsiiProxy_ContainerGroupExposedPortList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerGroupExposedPortList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (c *jsiiProxy_ContainerGroupExposedPortList) validateResolveParameters(cont
 
 func (j *jsiiProxy_ContainerGroupExposedPortList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerGroupExposedPort:
 		val := val.(*[]*ContainerGroupExposedPort)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ContainerGroupExposedPortList) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ContainerGroupExposedPort; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ContainerGroupExposedPort; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ContainerGroupExposedPortList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroupExposedPortList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerGroupExposedPortList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ContainerGroupExposedPortList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewContainerGroupExposedPortListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerGroupExposedPortListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

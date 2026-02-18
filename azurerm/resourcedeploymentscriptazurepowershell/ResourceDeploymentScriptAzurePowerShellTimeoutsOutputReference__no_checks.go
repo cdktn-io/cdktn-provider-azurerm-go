@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellTimeoutsOutputReferenc
 	return nil
 }
 
-func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewResourceDeploymentScriptAzurePowerShellTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewResourceDeploymentScriptAzurePowerShellTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

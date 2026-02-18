@@ -51,7 +51,7 @@ func (l *jsiiProxy_LinuxVirtualMachineOsDiskOutputReference) validatePutDiffDisk
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineOsDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineOsDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_LinuxVirtualMachineOsDiskOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_LinuxVirtualMachineOsDiskOutputReference) validateSetWriteAcc
 	return nil
 }
 
-func validateNewLinuxVirtualMachineOsDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxVirtualMachineOsDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKeyVaultCertificatesCertificatesList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKeyVaultCertificatesCertificatesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKeyVaultCertificatesCertificatesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultCertificatesCertificatesList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKeyVaultCertificatesCertificatesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKeyVaultCertificatesCertificatesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultCertificatesCertificatesList) validateSetW
 	return nil
 }
 
-func validateNewDataAzurermKeyVaultCertificatesCertificatesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKeyVaultCertificatesCertificatesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

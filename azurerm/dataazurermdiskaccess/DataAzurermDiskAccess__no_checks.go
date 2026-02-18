@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermDiskAccess) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDiskAccess) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDiskAccess) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

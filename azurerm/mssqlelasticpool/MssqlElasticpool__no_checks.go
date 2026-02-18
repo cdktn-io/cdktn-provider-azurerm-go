@@ -123,7 +123,7 @@ func (j *jsiiProxy_MssqlElasticpool) validateSetLicenseTypeParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_MssqlElasticpool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MssqlElasticpool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

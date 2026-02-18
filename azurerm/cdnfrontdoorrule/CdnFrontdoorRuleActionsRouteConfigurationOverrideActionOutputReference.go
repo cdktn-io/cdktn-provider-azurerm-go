@@ -5,14 +5,14 @@ package cdnfrontdoorrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnfrontdoorrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CacheBehavior() *string
 	SetCacheBehavior(val *string)
 	CacheBehaviorInput() *string
@@ -58,15 +58,15 @@ type CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCacheBehavior()
 	ResetCacheDuration()
 	ResetCdnFrontdoorOriginGroupId()
@@ -94,7 +94,7 @@ type CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference inte
 	ResetQueryStringParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference inte
 
 // The jsii proxy struct for CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference
 type jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) CacheBehavior() *string {
@@ -307,8 +307,8 @@ func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutput
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutput
 }
 
 
-func NewCdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference {
+func NewCdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewCdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference(t
 	return &j
 }
 
-func NewCdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference_Override(c CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference_Override(c CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -466,7 +466,7 @@ func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutput
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -506,11 +506,11 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutput
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -634,8 +634,8 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutput
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -647,11 +647,11 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutput
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -719,7 +719,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutput
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsRouteConfigurationOverrideActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

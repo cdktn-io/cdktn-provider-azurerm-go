@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridNamespaceInboundIpRuleOutputReference) validateInter
 	return nil
 }
 
-func (e *jsiiProxy_EventgridNamespaceInboundIpRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridNamespaceInboundIpRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EventgridNamespaceInboundIpRuleOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EventgridNamespaceInboundIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridNamespaceInboundIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventgridNamespaceInboundIpRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventgridNamespaceInboundIpRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

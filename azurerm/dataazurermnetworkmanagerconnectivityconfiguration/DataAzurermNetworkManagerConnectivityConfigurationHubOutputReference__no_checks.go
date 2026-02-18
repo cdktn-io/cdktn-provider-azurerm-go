@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNetworkManagerConnectivityConfigurationHubOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermNetworkManagerConnectivityConfigurationHubOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

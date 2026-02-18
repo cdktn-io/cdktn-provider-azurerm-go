@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolDiskEncryptionOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolDiskEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolDiskEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermBatchPoolDiskEncryptionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolDiskEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolDiskEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolDiskEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermBatchPoolDiskEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

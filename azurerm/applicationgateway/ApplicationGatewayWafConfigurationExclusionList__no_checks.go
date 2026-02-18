@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayWafConfigurationExclusionList) validateGetP
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayWafConfigurationExclusionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayWafConfigurationExclusionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayWafConfigurationExclusionList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayWafConfigurationExclusionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayWafConfigurationExclusionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayWafConfigurationExclusionList) validateSetW
 	return nil
 }
 
-func validateNewApplicationGatewayWafConfigurationExclusionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayWafConfigurationExclusionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

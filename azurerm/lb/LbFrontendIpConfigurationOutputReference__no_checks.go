@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbFrontendIpConfigurationOutputReference) validateInterpolati
 	return nil
 }
 
-func (l *jsiiProxy_LbFrontendIpConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbFrontendIpConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_LbFrontendIpConfigurationOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_LbFrontendIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbFrontendIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_LbFrontendIpConfigurationOutputReference) validateSetZonesPar
 	return nil
 }
 
-func validateNewLbFrontendIpConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLbFrontendIpConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

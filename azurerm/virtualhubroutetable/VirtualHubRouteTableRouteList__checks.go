@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VirtualHubRouteTableRouteList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (v *jsiiProxy_VirtualHubRouteTableRouteList) validateGetParameters(index *f
 	return nil
 }
 
-func (v *jsiiProxy_VirtualHubRouteTableRouteList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualHubRouteTableRouteList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (v *jsiiProxy_VirtualHubRouteTableRouteList) validateResolveParameters(cont
 
 func (j *jsiiProxy_VirtualHubRouteTableRouteList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VirtualHubRouteTableRoute:
 		val := val.(*[]*VirtualHubRouteTableRoute)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_VirtualHubRouteTableRouteList) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*VirtualHubRouteTableRoute; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*VirtualHubRouteTableRoute; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_VirtualHubRouteTableRouteList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubRouteTableRouteList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualHubRouteTableRouteList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_VirtualHubRouteTableRouteList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewVirtualHubRouteTableRouteListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualHubRouteTableRouteListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

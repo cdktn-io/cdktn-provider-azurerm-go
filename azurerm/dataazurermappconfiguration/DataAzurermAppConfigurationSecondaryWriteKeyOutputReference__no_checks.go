@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermAppConfigurationSecondaryWriteKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermAppConfigurationSecondaryWriteKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

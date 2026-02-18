@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchPoolDataDisksList) validateGetParameters(index *float64)
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolDataDisksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolDataDisksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchPoolDataDisksList) validateSetTerraformAttributeParamete
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolDataDisksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolDataDisksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchPoolDataDisksList) validateSetWrapsSetParameters(val *bo
 	return nil
 }
 
-func validateNewBatchPoolDataDisksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchPoolDataDisksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

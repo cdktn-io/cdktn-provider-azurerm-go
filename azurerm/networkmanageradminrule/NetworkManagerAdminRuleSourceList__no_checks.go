@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkManagerAdminRuleSourceList) validateGetParameters(inde
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagerAdminRuleSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagerAdminRuleSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkManagerAdminRuleSourceList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerAdminRuleSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagerAdminRuleSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkManagerAdminRuleSourceList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewNetworkManagerAdminRuleSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkManagerAdminRuleSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -139,7 +139,7 @@ func (j *jsiiProxy_AppConfigurationFeature) validateSetLabelParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationFeature) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppConfigurationFeature) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

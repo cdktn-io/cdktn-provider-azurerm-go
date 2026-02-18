@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateG
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateR
 
 func (j *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WindowsWebAppSiteConfigScmIpRestrictionHeaders:
 		val := val.(*[]*WindowsWebAppSiteConfigScmIpRestrictionHeaders)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*WindowsWebAppSiteConfigScmIpRestrictionHeaders; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*WindowsWebAppSiteConfigScmIpRestrictionHeaders; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigScmIpRestrictionHeadersList) validateS
 	return nil
 }
 
-func validateNewWindowsWebAppSiteConfigScmIpRestrictionHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsWebAppSiteConfigScmIpRestrictionHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

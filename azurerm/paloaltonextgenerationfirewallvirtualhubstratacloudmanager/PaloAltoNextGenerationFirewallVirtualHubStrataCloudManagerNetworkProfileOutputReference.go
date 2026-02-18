@@ -5,14 +5,14 @@ package paloaltonextgenerationfirewallvirtualhubstratacloudmanager
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltonextgenerationfirewallvirtualhubstratacloudmanager/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/paloaltonextgenerationfirewallvirtualhubstratacloudmanager/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOut
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrustedAddressRanges() *[]*string
 	SetTrustedAddressRanges(val *[]*string)
 	TrustedAddressRangesInput() *[]*string
@@ -65,7 +65,7 @@ type PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOut
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,14 +81,14 @@ type PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOut
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEgressNatIpAddressIds()
 	ResetTrustedAddressRanges()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOut
 
 // The jsii proxy struct for PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference
 type jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) ComplexObjectIndex() interface{} {
@@ -251,8 +251,8 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNet
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -322,7 +322,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNet
 }
 
 
-func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference {
+func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -339,7 +339,7 @@ func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfile
 	return &j
 }
 
-func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference_Override(p PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference_Override(p PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -426,7 +426,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNet
 	)
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -488,11 +488,11 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNet
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -616,8 +616,8 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNet
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -629,11 +629,11 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNet
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -661,7 +661,7 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNet
 	)
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerNetworkProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineGroupTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlVirtualMachineGroupTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlVirtualMachineGroupTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewMssqlVirtualMachineGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualMachineGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

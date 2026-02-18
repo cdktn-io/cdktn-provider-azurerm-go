@@ -47,7 +47,7 @@ func (r *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAdminNo
 	return nil
 }
 
-func (r *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAdminNo
 	return nil
 }
 
-func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoleManagementPolicyNotificationRulesActiveAssignmentsAdminNotificationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

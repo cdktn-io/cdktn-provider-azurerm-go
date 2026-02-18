@@ -15,7 +15,7 @@ func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) validateGetParameters(in
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewFrontdoorBackendPoolHealthProbeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorBackendPoolHealthProbeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

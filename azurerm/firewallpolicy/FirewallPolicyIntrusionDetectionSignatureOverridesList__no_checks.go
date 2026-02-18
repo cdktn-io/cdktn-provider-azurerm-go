@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesList) valid
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesList) valid
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesList) valid
 	return nil
 }
 
-func validateNewFirewallPolicyIntrusionDetectionSignatureOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirewallPolicyIntrusionDetectionSignatureOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

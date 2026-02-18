@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference) va
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppAuthSettingsV2FacebookV2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsFunctionAppAuthSettingsV2FacebookV2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppAuthSettingsV2FacebookV2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

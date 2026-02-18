@@ -5,14 +5,14 @@ package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppSlotSiteConfigVirtualApplicationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type WindowsWebAppSlotSiteConfigVirtualApplicationList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type WindowsWebAppSlotSiteConfigVirtualApplicationList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type WindowsWebAppSlotSiteConfigVirtualApplicationList interface {
 
 // The jsii proxy struct for WindowsWebAppSlotSiteConfigVirtualApplicationList
 type jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) WrapsSet()
 }
 
 
-func NewWindowsWebAppSlotSiteConfigVirtualApplicationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WindowsWebAppSlotSiteConfigVirtualApplicationList {
+func NewWindowsWebAppSlotSiteConfigVirtualApplicationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WindowsWebAppSlotSiteConfigVirtualApplicationList {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppSlotSiteConfigVirtualApplicationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewWindowsWebAppSlotSiteConfigVirtualApplicationList(terraformResource cdkt
 	return &j
 }
 
-func NewWindowsWebAppSlotSiteConfigVirtualApplicationList_Override(w WindowsWebAppSlotSiteConfigVirtualApplicationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewWindowsWebAppSlotSiteConfigVirtualApplicationList_Override(w WindowsWebAppSlotSiteConfigVirtualApplicationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList)SetWrapsSet
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := w.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		w,
@@ -231,7 +231,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) Get(index 
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

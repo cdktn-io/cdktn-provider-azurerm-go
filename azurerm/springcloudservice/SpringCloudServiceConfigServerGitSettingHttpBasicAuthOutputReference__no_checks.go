@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputRe
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputRe
 	return nil
 }
 
-func validateNewSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudServiceConfigServerGitSettingHttpBasicAuthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

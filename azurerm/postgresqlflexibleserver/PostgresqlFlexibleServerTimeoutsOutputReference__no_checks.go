@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlFlexibleServerTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlFlexibleServerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlFlexibleServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewPostgresqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

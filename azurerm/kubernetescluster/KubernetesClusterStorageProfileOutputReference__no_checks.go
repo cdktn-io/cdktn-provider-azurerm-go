@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterStorageProfileOutputReference) validateInter
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterStorageProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterStorageProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_KubernetesClusterStorageProfileOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterStorageProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterStorageProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterStorageProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterStorageProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

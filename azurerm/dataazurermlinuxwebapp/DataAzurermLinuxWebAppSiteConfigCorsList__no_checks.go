@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppSiteConfigCorsList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppSiteConfigCorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLinuxWebAppSiteConfigCorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigCorsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigCorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigCorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigCorsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAzurermLinuxWebAppSiteConfigCorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermLinuxWebAppSiteConfigCorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

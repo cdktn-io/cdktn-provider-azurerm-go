@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) validateInterpolatio
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) validateSetTypeParam
 	return nil
 }
 
-func validateNewPostgresqlServerIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlServerIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

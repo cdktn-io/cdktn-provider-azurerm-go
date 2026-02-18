@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionWebhookEndpointOutputReference) val
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionWebhookEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionWebhookEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionWebhookEndpointOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionWebhookEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionWebhookEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionWebhookEndpointOutputReference) val
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionWebhookEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridEventSubscriptionWebhookEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewaySslProfileSslPolicyOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewaySslProfileSslPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewaySslProfileSslPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileSslPolicyOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewaySslProfileSslPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewaySslProfileSslPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewaySslProfileSslPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationGatewaySslProfileSslPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

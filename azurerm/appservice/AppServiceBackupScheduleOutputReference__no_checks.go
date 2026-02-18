@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceBackupScheduleOutputReference) validateInterpolatio
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceBackupScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceBackupScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_AppServiceBackupScheduleOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppServiceBackupScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceBackupScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

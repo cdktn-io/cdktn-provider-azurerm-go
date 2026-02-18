@@ -111,7 +111,7 @@ func (j *jsiiProxy_MysqlFlexibleServerFirewallRule) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerFirewallRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MysqlFlexibleServerFirewallRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

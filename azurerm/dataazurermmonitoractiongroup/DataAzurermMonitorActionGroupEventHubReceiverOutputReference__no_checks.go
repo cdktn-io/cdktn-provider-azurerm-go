@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermMonitorActionGroupEventHubReceiverOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorActionGroupEventHubReceiverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorActionGroupEventHubReceiverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroupEventHubReceiverOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorActionGroupEventHubReceiverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorActionGroupEventHubReceiverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermMonitorActionGroupEventHubReceiverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermMonitorActionGroupEventHubReceiverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

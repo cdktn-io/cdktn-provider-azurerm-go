@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopWorkspace) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualDesktopWorkspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermVirtualDesktopWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

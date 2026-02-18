@@ -47,7 +47,7 @@ func (h *jsiiProxy_HpcCacheAccessPolicyTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheAccessPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheAccessPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HpcCacheAccessPolicyTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheAccessPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheAccessPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_HpcCacheAccessPolicyTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewHpcCacheAccessPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHpcCacheAccessPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

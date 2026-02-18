@@ -55,7 +55,7 @@ func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyOutputReference) validatePut
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyOutputReference) validateSet
 	return nil
 }
 
-func validateNewServiceFabricClusterUpgradePolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricClusterUpgradePolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

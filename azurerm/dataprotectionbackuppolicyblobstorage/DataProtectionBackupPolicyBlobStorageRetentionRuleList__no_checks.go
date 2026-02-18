@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleList) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleList) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageRetentionRuleList) valid
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyBlobStorageRetentionRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataProtectionBackupPolicyBlobStorageRetentionRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoring) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoring) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoring) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

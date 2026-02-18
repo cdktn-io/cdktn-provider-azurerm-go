@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermRoleManagementPolicyNotificationRulesEligibleAssig
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyNotificationRulesEligibleAssig
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyNotificationRulesEligibleAssig
 	return nil
 }
 
-func validateNewDataAzurermRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermRoleManagementPolicyNotificationRulesEligibleAssignmentsApproverNotificationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

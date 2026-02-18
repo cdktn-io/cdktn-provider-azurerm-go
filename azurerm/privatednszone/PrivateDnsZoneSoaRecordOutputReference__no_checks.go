@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivateDnsZoneSoaRecordOutputReference) validateInterpolation
 	return nil
 }
 
-func (p *jsiiProxy_PrivateDnsZoneSoaRecordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateDnsZoneSoaRecordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_PrivateDnsZoneSoaRecordOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsZoneSoaRecordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateDnsZoneSoaRecordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_PrivateDnsZoneSoaRecordOutputReference) validateSetTtlParamet
 	return nil
 }
 
-func validateNewPrivateDnsZoneSoaRecordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivateDnsZoneSoaRecordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorSmartDetectorAlertRuleTimeoutsOutputReference) validat
 	return nil
 }
 
-func (m *jsiiProxy_MonitorSmartDetectorAlertRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorSmartDetectorAlertRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorSmartDetectorAlertRuleTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_MonitorSmartDetectorAlertRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorSmartDetectorAlertRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MonitorSmartDetectorAlertRuleTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewMonitorSmartDetectorAlertRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorSmartDetectorAlertRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

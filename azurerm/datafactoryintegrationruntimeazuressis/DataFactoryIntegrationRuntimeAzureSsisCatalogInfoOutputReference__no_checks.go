@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryIntegrationRuntimeAzureSsisCatalogInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

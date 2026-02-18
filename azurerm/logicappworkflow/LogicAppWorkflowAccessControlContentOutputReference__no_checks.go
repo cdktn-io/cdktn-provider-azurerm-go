@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogicAppWorkflowAccessControlContentOutputReference) validate
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppWorkflowAccessControlContentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppWorkflowAccessControlContentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_LogicAppWorkflowAccessControlContentOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppWorkflowAccessControlContentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppWorkflowAccessControlContentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLogicAppWorkflowAccessControlContentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogicAppWorkflowAccessControlContentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

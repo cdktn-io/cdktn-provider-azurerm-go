@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultAccessPolicyOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultAccessPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultAccessPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_KeyVaultAccessPolicyOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultAccessPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultAccessPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKeyVaultAccessPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKeyVaultAccessPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

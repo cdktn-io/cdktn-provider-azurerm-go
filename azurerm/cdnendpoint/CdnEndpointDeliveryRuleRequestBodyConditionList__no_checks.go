@@ -15,7 +15,7 @@ func (c *jsiiProxy_CdnEndpointDeliveryRuleRequestBodyConditionList) validateGetP
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointDeliveryRuleRequestBodyConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointDeliveryRuleRequestBodyConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestBodyConditionList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestBodyConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestBodyConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestBodyConditionList) validateSetW
 	return nil
 }
 
-func validateNewCdnEndpointDeliveryRuleRequestBodyConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCdnEndpointDeliveryRuleRequestBodyConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

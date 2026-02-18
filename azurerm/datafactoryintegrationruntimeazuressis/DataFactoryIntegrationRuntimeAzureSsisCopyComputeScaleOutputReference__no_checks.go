@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputR
 	return nil
 }
 
-func validateNewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryIntegrationRuntimeAzureSsisCopyComputeScaleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

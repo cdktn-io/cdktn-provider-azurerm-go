@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) validate
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) validate
 	return nil
 }
 
-func validateNewHdinsightKafkaClusterMetastoresOozieOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightKafkaClusterMetastoresOozieOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

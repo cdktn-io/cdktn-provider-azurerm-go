@@ -5,14 +5,14 @@ package subnet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subnet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/subnet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SubnetDelegationServiceDelegationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Actions() *[]*string
 	SetActions(val *[]*string)
 	ActionsInput() *[]*string
@@ -43,15 +43,15 @@ type SubnetDelegationServiceDelegationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type SubnetDelegationServiceDelegationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetActions()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type SubnetDelegationServiceDelegationOutputReference interface {
 
 // The jsii proxy struct for SubnetDelegationServiceDelegationOutputReference
 type jsiiProxy_SubnetDelegationServiceDelegationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) Actions() *[]*string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) TerraformRe
 }
 
 
-func NewSubnetDelegationServiceDelegationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SubnetDelegationServiceDelegationOutputReference {
+func NewSubnetDelegationServiceDelegationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SubnetDelegationServiceDelegationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSubnetDelegationServiceDelegationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewSubnetDelegationServiceDelegationOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewSubnetDelegationServiceDelegationOutputReference_Override(s SubnetDelegationServiceDelegationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSubnetDelegationServiceDelegationOutputReference_Override(s SubnetDelegationServiceDelegationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -458,8 +458,8 @@ func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) GetStringMa
 	return returns
 }
 
-func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -471,11 +471,11 @@ func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) Interpolati
 	return returns
 }
 
-func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -495,7 +495,7 @@ func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) ResetAction
 	)
 }
 
-func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

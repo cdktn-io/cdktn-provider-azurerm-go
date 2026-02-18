@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermManagedRedisCustomerManagedKeyList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermManagedRedisCustomerManagedKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermManagedRedisCustomerManagedKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisCustomerManagedKeyList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedisCustomerManagedKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermManagedRedisCustomerManagedKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisCustomerManagedKeyList) validateSetWra
 	return nil
 }
 
-func validateNewDataAzurermManagedRedisCustomerManagedKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermManagedRedisCustomerManagedKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

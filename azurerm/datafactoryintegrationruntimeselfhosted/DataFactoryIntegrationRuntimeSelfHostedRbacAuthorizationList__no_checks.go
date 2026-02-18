@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationList)
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationList)
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationList)
 	return nil
 }
 
-func validateNewDataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryIntegrationRuntimeSelfHostedRbacAuthorizationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

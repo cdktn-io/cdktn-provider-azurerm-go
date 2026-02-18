@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelMetadataCategoryOutputReference) validateInterpolatio
 	return nil
 }
 
-func (s *jsiiProxy_SentinelMetadataCategoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelMetadataCategoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SentinelMetadataCategoryOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_SentinelMetadataCategoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelMetadataCategoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelMetadataCategoryOutputReference) validateSetVerticals
 	return nil
 }
 
-func validateNewSentinelMetadataCategoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelMetadataCategoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

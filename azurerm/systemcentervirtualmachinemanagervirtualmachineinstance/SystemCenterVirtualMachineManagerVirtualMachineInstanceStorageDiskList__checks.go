@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	return nil
 }
 
-func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 
 func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDisk:
 		val := val.(*[]*SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDisk)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDisk; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDisk; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	return nil
 }
 
-func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	return nil
 }
 
-func validateNewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

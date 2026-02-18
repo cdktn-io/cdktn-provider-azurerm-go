@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiManagementApiOperationTemplateParameterList) validateGetPa
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationTemplateParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiOperationTemplateParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiManagementApiOperationTemplateParameterList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiOperationTemplateParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiOperationTemplateParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiManagementApiOperationTemplateParameterList) validateSetWr
 	return nil
 }
 
-func validateNewApiManagementApiOperationTemplateParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiManagementApiOperationTemplateParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

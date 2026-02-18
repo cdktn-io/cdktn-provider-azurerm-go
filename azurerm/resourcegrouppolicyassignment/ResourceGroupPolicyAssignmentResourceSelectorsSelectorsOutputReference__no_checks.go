@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	return nil
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

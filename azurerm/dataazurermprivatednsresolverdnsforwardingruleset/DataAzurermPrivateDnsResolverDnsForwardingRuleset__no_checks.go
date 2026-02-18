@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolverDnsForwardingRuleset) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPrivateDnsResolverDnsForwardingRuleset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermPrivateDnsResolverDnsForwardingRuleset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

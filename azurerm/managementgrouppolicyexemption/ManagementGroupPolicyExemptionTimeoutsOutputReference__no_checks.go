@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagementGroupPolicyExemptionTimeoutsOutputReference) valida
 	return nil
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyExemptionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagementGroupPolicyExemptionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagementGroupPolicyExemptionTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ManagementGroupPolicyExemptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagementGroupPolicyExemptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ManagementGroupPolicyExemptionTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewManagementGroupPolicyExemptionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagementGroupPolicyExemptionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

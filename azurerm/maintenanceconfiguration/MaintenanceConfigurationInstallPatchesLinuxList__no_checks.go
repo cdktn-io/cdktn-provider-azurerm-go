@@ -15,7 +15,7 @@ func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) validateGetP
 	return nil
 }
 
-func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) validateSetW
 	return nil
 }
 
-func validateNewMaintenanceConfigurationInstallPatchesLinuxListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMaintenanceConfigurationInstallPatchesLinuxListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

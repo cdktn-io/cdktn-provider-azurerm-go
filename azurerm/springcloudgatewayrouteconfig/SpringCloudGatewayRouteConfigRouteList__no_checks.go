@@ -15,7 +15,7 @@ func (s *jsiiProxy_SpringCloudGatewayRouteConfigRouteList) validateGetParameters
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudGatewayRouteConfigRouteList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudGatewayRouteConfigRouteList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewSpringCloudGatewayRouteConfigRouteListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSpringCloudGatewayRouteConfigRouteListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -139,7 +139,7 @@ func (j *jsiiProxy_NetworkSecurityRule) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkSecurityRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

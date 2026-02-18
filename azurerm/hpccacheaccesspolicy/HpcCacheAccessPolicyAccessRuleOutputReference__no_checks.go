@@ -47,7 +47,7 @@ func (h *jsiiProxy_HpcCacheAccessPolicyAccessRuleOutputReference) validateInterp
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheAccessPolicyAccessRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheAccessPolicyAccessRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_HpcCacheAccessPolicyAccessRuleOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheAccessPolicyAccessRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheAccessPolicyAccessRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHpcCacheAccessPolicyAccessRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHpcCacheAccessPolicyAccessRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -8,7 +8,7 @@ package appservicecertificateorder
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (a *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateGetParame
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_AppServiceCertificateOrderCertificatesList) validateSetWrapsS
 	return nil
 }
 
-func validateNewAppServiceCertificateOrderCertificatesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppServiceCertificateOrderCertificatesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

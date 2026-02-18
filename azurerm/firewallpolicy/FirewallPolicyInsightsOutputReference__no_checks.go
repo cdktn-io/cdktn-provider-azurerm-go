@@ -51,7 +51,7 @@ func (f *jsiiProxy_FirewallPolicyInsightsOutputReference) validatePutLogAnalytic
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyInsightsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyInsightsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FirewallPolicyInsightsOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyInsightsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyInsightsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirewallPolicyInsightsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallPolicyInsightsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

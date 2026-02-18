@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputR
 	return nil
 }
 
-func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputR
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputR
 	return nil
 }
 
-func validateNewSentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelDataConnectorMicrosoftCloudAppSecurityTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

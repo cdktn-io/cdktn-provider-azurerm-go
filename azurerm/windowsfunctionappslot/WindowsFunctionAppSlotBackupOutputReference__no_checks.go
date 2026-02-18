@@ -51,7 +51,7 @@ func (w *jsiiProxy_WindowsFunctionAppSlotBackupOutputReference) validatePutSched
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotBackupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppSlotBackupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_WindowsFunctionAppSlotBackupOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlotBackupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppSlotBackupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsFunctionAppSlotBackupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppSlotBackupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

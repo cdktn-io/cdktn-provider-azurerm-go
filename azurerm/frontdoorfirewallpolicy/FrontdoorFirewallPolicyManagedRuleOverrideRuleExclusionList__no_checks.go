@@ -15,7 +15,7 @@ func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionList) 
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionList) 
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionList) 
 	return nil
 }
 
-func validateNewFrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorFirewallPolicyManagedRuleOverrideRuleExclusionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

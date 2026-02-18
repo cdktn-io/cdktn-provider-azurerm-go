@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignmentTimeoutsOutputRefer
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignmentTimeoutsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignmentTimeoutsOutputRefer
 	return nil
 }
 
-func validateNewVirtualMachineGalleryApplicationAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineGalleryApplicationAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

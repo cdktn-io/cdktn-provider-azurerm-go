@@ -5,14 +5,14 @@ package machinelearningcomputecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearningcomputecluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/machinelearningcomputecluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MachineLearningComputeClusterScaleSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type MachineLearningComputeClusterScaleSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type MachineLearningComputeClusterScaleSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type MachineLearningComputeClusterScaleSettingsOutputReference interface {
 
 // The jsii proxy struct for MachineLearningComputeClusterScaleSettingsOutputReference
 type jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) Te
 }
 
 
-func NewMachineLearningComputeClusterScaleSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MachineLearningComputeClusterScaleSettingsOutputReference {
+func NewMachineLearningComputeClusterScaleSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MachineLearningComputeClusterScaleSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMachineLearningComputeClusterScaleSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewMachineLearningComputeClusterScaleSettingsOutputReference(terraformResou
 	return &j
 }
 
-func NewMachineLearningComputeClusterScaleSettingsOutputReference_Override(m MachineLearningComputeClusterScaleSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMachineLearningComputeClusterScaleSettingsOutputReference_Override(m MachineLearningComputeClusterScaleSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) Ge
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -491,8 +491,8 @@ func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) Ge
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,11 +504,11 @@ func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) In
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -520,7 +520,7 @@ func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) In
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MachineLearningComputeClusterScaleSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

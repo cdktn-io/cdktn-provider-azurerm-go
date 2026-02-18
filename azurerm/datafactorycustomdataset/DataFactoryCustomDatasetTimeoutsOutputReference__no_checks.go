@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryCustomDatasetTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryCustomDatasetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryCustomDatasetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryCustomDatasetTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryCustomDatasetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryCustomDatasetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataFactoryCustomDatasetTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewDataFactoryCustomDatasetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryCustomDatasetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

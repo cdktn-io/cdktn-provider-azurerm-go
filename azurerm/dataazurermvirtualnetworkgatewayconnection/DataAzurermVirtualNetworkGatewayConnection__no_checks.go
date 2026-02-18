@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

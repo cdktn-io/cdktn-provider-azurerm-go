@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkManagerCrossTenantScopesOutputReference) validateInter
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagerCrossTenantScopesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagerCrossTenantScopesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_NetworkManagerCrossTenantScopesOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerCrossTenantScopesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagerCrossTenantScopesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkManagerCrossTenantScopesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkManagerCrossTenantScopesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

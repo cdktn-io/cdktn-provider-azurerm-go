@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleList) val
 	return nil
 }
 
-func (b *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleList) val
 	return nil
 }
 
-func (j *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleList) val
 	return nil
 }
 
-func validateNewBatchAccountNetworkProfileNodeManagementAccessIpRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchAccountNetworkProfileNodeManagementAccessIpRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

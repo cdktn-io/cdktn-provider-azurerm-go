@@ -5,14 +5,14 @@ package datafactoryflowletdataflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactoryflowletdataflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactoryflowletdataflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference interfac
 
 // The jsii proxy struct for DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference
 type jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputRefe
 }
 
 
-func NewDataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference {
+func NewDataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewDataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference(terra
 	return &j
 }
 
-func NewDataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference_Override(d DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference_Override(d DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputRefe
 	)
 }
 
-func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -458,8 +458,8 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -471,11 +471,11 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputRefe
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputRefe
 	)
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkRejectedLinkedServiceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

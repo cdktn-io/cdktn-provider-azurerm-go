@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseWorkspaceGithubRepoOutputReference) validateInterpolat
 	return nil
 }
 
-func (s *jsiiProxy_SynapseWorkspaceGithubRepoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseWorkspaceGithubRepoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_SynapseWorkspaceGithubRepoOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_SynapseWorkspaceGithubRepoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseWorkspaceGithubRepoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSynapseWorkspaceGithubRepoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseWorkspaceGithubRepoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

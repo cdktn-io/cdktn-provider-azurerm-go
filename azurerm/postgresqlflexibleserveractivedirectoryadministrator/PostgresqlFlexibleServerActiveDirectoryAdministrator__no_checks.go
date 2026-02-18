@@ -107,7 +107,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerActiveDirectoryAdministrator) validat
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerActiveDirectoryAdministrator) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PostgresqlFlexibleServerActiveDirectoryAdministrator) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

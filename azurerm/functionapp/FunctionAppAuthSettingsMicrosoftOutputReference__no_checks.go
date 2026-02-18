@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppAuthSettingsMicrosoftOutputReference) validateInte
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_FunctionAppAuthSettingsMicrosoftOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFunctionAppAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

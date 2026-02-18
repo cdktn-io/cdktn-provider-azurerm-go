@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputRefer
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppFlexConsumptionSiteConfigAppServiceLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetSecretList) validateGetParameters(
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetSecretList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetSecretList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewLinuxVirtualMachineScaleSetSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxVirtualMachineScaleSetSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

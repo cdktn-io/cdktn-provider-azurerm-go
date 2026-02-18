@@ -15,7 +15,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigScmIpRestrictionList) val
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigScmIpRestrictionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigScmIpRestrictionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigScmIpRestrictionList) val
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigScmIpRestrictionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigScmIpRestrictionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigScmIpRestrictionList) val
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionSiteConfigScmIpRestrictionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFunctionAppFlexConsumptionSiteConfigScmIpRestrictionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

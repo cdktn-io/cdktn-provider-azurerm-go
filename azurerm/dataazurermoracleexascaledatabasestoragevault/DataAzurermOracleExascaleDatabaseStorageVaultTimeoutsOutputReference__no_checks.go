@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermOracleExascaleDatabaseStorageVaultTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

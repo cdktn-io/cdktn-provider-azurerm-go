@@ -5,14 +5,14 @@ package dataazurermoraclecloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoraclecloudvmcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoraclecloudvmcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList interface {
 
 // The jsii proxy struct for DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList
 type jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) Te
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) Wr
 }
 
 
-func NewDataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList {
+func NewDataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermOracleCloudVmClusterIormConfigCacheDbPlansListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList(terraformResou
 	return &j
 }
 
-func NewDataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList_Override(d DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList_Override(d DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList)Set
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList)Set
 	)
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheDbPlansList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

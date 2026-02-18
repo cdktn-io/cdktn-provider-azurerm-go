@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubnetDelegationServiceDelegationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSubnetDelegationServiceDelegationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSubnetDelegationServiceDelegationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

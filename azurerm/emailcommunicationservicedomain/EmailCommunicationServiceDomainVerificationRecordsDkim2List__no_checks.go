@@ -15,7 +15,7 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2List) 
 	return nil
 }
 
-func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2List) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2List) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2List) 
 	return nil
 }
 
-func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2List) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2List) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2List) 
 	return nil
 }
 
-func validateNewEmailCommunicationServiceDomainVerificationRecordsDkim2ListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmailCommunicationServiceDomainVerificationRecordsDkim2ListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

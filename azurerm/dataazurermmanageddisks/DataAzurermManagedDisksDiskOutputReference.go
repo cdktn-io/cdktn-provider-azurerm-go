@@ -5,14 +5,14 @@ package dataazurermmanageddisks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmanageddisks/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmanageddisks/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermManagedDisksDiskOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,22 +49,22 @@ type DataAzurermManagedDisksDiskOutputReference interface {
 	SourceUri() *string
 	StorageAccountId() *string
 	StorageAccountType() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Zones() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -80,12 +80,12 @@ type DataAzurermManagedDisksDiskOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type DataAzurermManagedDisksDiskOutputReference interface {
 
 // The jsii proxy struct for DataAzurermManagedDisksDiskOutputReference
 type jsiiProxy_DataAzurermManagedDisksDiskOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) ComplexObjectIndex() interface{} {
@@ -318,8 +318,8 @@ func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) StorageAccountTyp
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -359,7 +359,7 @@ func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) Zones() *[]*strin
 }
 
 
-func NewDataAzurermManagedDisksDiskOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermManagedDisksDiskOutputReference {
+func NewDataAzurermManagedDisksDiskOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermManagedDisksDiskOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermManagedDisksDiskOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -376,7 +376,7 @@ func NewDataAzurermManagedDisksDiskOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewDataAzurermManagedDisksDiskOutputReference_Override(d DataAzurermManagedDisksDiskOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermManagedDisksDiskOutputReference_Override(d DataAzurermManagedDisksDiskOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -430,7 +430,7 @@ func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermManagedDisksDiskOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -598,8 +598,8 @@ func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -611,11 +611,11 @@ func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -627,7 +627,7 @@ func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) InterpolationForA
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermManagedDisksDiskOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package capacityreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/capacityreservation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/capacityreservation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CapacityReservationSkuOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Capacity() *float64
 	SetCapacity(val *float64)
 	CapacityInput() *float64
@@ -43,15 +43,15 @@ type CapacityReservationSkuOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type CapacityReservationSkuOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type CapacityReservationSkuOutputReference interface {
 
 // The jsii proxy struct for CapacityReservationSkuOutputReference
 type jsiiProxy_CapacityReservationSkuOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CapacityReservationSkuOutputReference) Capacity() *float64 {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_CapacityReservationSkuOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_CapacityReservationSkuOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CapacityReservationSkuOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_CapacityReservationSkuOutputReference) TerraformResource() cd
 }
 
 
-func NewCapacityReservationSkuOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CapacityReservationSkuOutputReference {
+func NewCapacityReservationSkuOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CapacityReservationSkuOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCapacityReservationSkuOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewCapacityReservationSkuOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewCapacityReservationSkuOutputReference_Override(c CapacityReservationSkuOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCapacityReservationSkuOutputReference_Override(c CapacityReservationSkuOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_CapacityReservationSkuOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_CapacityReservationSkuOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CapacityReservationSkuOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (c *jsiiProxy_CapacityReservationSkuOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (c *jsiiProxy_CapacityReservationSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CapacityReservationSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -457,8 +457,8 @@ func (c *jsiiProxy_CapacityReservationSkuOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (c *jsiiProxy_CapacityReservationSkuOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CapacityReservationSkuOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -470,11 +470,11 @@ func (c *jsiiProxy_CapacityReservationSkuOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (c *jsiiProxy_CapacityReservationSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CapacityReservationSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -486,7 +486,7 @@ func (c *jsiiProxy_CapacityReservationSkuOutputReference) InterpolationForAttrib
 	return returns
 }
 
-func (c *jsiiProxy_CapacityReservationSkuOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CapacityReservationSkuOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

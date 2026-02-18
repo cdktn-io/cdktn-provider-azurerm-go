@@ -5,14 +5,14 @@ package automationsoftwareupdateconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationsoftwareupdateconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationsoftwareupdateconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomationSoftwareUpdateConfigurationScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdvancedMonthDays() *[]*float64
 	SetAdvancedMonthDays(val *[]*float64)
 	AdvancedMonthDaysInput() *[]*float64
@@ -77,9 +77,9 @@ type AutomationSoftwareUpdateConfigurationScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeZone() *string
 	SetTimeZone(val *string)
 	TimeZoneInput() *string
@@ -88,7 +88,7 @@ type AutomationSoftwareUpdateConfigurationScheduleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type AutomationSoftwareUpdateConfigurationScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMonthlyOccurrence(value *AutomationSoftwareUpdateConfigurationScheduleMonthlyOccurrence)
 	ResetAdvancedMonthDays()
 	ResetAdvancedWeekDays()
@@ -123,7 +123,7 @@ type AutomationSoftwareUpdateConfigurationScheduleOutputReference interface {
 	ResetTimeZone()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -133,7 +133,7 @@ type AutomationSoftwareUpdateConfigurationScheduleOutputReference interface {
 
 // The jsii proxy struct for AutomationSoftwareUpdateConfigurationScheduleOutputReference
 type jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) AdvancedMonthDays() *[]*float64 {
@@ -476,8 +476,8 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -507,7 +507,7 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)
 }
 
 
-func NewAutomationSoftwareUpdateConfigurationScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomationSoftwareUpdateConfigurationScheduleOutputReference {
+func NewAutomationSoftwareUpdateConfigurationScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomationSoftwareUpdateConfigurationScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomationSoftwareUpdateConfigurationScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -524,7 +524,7 @@ func NewAutomationSoftwareUpdateConfigurationScheduleOutputReference(terraformRe
 	return &j
 }
 
-func NewAutomationSoftwareUpdateConfigurationScheduleOutputReference_Override(a AutomationSoftwareUpdateConfigurationScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomationSoftwareUpdateConfigurationScheduleOutputReference_Override(a AutomationSoftwareUpdateConfigurationScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -710,7 +710,7 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)
 	)
 }
 
-func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -761,11 +761,11 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)
 	return returns
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -889,8 +889,8 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)
 	return returns
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -902,11 +902,11 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)
 	return returns
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1033,7 +1033,7 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference)
 	)
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

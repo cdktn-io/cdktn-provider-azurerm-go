@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageAccountImmutabilityPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountImmutabilityPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package automationmodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationmodule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationmodule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomationModuleModuleLinkHashOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Algorithm() *string
 	SetAlgorithm(val *string)
 	AlgorithmInput() *string
@@ -40,9 +40,9 @@ type AutomationModuleModuleLinkHashOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	SetValue(val *string)
 	ValueInput() *string
@@ -51,7 +51,7 @@ type AutomationModuleModuleLinkHashOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type AutomationModuleModuleLinkHashOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type AutomationModuleModuleLinkHashOutputReference interface {
 
 // The jsii proxy struct for AutomationModuleModuleLinkHashOutputReference
 type jsiiProxy_AutomationModuleModuleLinkHashOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) Algorithm() *string {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) ValueInput() *
 }
 
 
-func NewAutomationModuleModuleLinkHashOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomationModuleModuleLinkHashOutputReference {
+func NewAutomationModuleModuleLinkHashOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomationModuleModuleLinkHashOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomationModuleModuleLinkHashOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewAutomationModuleModuleLinkHashOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewAutomationModuleModuleLinkHashOutputReference_Override(a AutomationModuleModuleLinkHashOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomationModuleModuleLinkHashOutputReference_Override(a AutomationModuleModuleLinkHashOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomationModuleModuleLinkHashOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -457,8 +457,8 @@ func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) GetStringMapAt
 	return returns
 }
 
-func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -470,11 +470,11 @@ func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) InterpolationA
 	return returns
 }
 
-func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -486,7 +486,7 @@ func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) InterpolationF
 	return returns
 }
 
-func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomationModuleModuleLinkHashOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

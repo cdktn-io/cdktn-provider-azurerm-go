@@ -135,7 +135,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) validateSetIntegr
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

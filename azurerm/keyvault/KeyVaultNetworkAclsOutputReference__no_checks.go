@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) validateSetVirtualNetwork
 	return nil
 }
 
-func validateNewKeyVaultNetworkAclsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyVaultNetworkAclsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

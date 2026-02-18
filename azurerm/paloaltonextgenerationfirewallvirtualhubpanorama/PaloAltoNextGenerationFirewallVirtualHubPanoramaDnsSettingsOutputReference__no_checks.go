@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	return nil
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	return nil
 }
 
-func validateNewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

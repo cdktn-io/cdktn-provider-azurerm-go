@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualHubRouteList) validateGetParameters(index *float64) er
 	return nil
 }
 
-func (v *jsiiProxy_VirtualHubRouteList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualHubRouteList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualHubRouteList) validateSetTerraformAttributeParameters(
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubRouteList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualHubRouteList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualHubRouteList) validateSetWrapsSetParameters(val *bool)
 	return nil
 }
 
-func validateNewVirtualHubRouteListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualHubRouteListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

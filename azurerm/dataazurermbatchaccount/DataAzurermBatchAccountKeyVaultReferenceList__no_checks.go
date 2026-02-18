@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchAccountKeyVaultReferenceList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchAccountKeyVaultReferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchAccountKeyVaultReferenceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchAccountKeyVaultReferenceList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchAccountKeyVaultReferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchAccountKeyVaultReferenceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchAccountKeyVaultReferenceList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAzurermBatchAccountKeyVaultReferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchAccountKeyVaultReferenceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

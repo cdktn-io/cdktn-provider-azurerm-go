@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentOutputRefere
 	return nil
 }
 
-func validateNewDevCenterProjectEnvironmentTypeUserRoleAssignmentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDevCenterProjectEnvironmentTypeUserRoleAssignmentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

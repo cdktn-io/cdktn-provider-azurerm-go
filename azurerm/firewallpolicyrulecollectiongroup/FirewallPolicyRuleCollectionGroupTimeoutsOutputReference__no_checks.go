@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupTimeoutsOutputReference) val
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewFirewallPolicyRuleCollectionGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallPolicyRuleCollectionGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

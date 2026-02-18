@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateGe
 	return nil
 }
 
-func (f *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateRe
 
 func (j *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FirewallApplicationRuleCollectionRuleProtocol:
 		val := val.(*[]*FirewallApplicationRuleCollectionRuleProtocol)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateSe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FirewallApplicationRuleCollectionRuleProtocol; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FirewallApplicationRuleCollectionRuleProtocol; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FirewallApplicationRuleCollectionRuleProtocolList) validateSe
 	return nil
 }
 
-func validateNewFirewallApplicationRuleCollectionRuleProtocolListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirewallApplicationRuleCollectionRuleProtocolListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

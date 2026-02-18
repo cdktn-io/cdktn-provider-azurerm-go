@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAdvisorRecommendations) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

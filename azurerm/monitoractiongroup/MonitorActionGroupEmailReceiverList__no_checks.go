@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorActionGroupEmailReceiverList) validateGetParameters(in
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActionGroupEmailReceiverList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActionGroupEmailReceiverList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorActionGroupEmailReceiverList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActionGroupEmailReceiverList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActionGroupEmailReceiverList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorActionGroupEmailReceiverList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewMonitorActionGroupEmailReceiverListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorActionGroupEmailReceiverListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

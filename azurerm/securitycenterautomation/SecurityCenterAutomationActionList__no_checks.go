@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecurityCenterAutomationActionList) validateGetParameters(ind
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterAutomationActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterAutomationActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecurityCenterAutomationActionList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterAutomationActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterAutomationActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecurityCenterAutomationActionList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewSecurityCenterAutomationActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecurityCenterAutomationActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

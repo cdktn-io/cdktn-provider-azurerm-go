@@ -15,7 +15,7 @@ func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleList) validateGetParameters(in
 	return nil
 }
 
-func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewIotSecurityDeviceGroupRangeRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIotSecurityDeviceGroupRangeRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

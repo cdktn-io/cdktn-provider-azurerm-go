@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsGithubOutputReference) validateInter
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsGithubOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsGithubOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsGithubOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsGithubOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppAuthSettingsGithubOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsWebAppAuthSettingsGithubOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppAuthSettingsGithubOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

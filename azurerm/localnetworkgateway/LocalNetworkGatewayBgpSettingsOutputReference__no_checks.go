@@ -47,7 +47,7 @@ func (l *jsiiProxy_LocalNetworkGatewayBgpSettingsOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LocalNetworkGatewayBgpSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LocalNetworkGatewayBgpSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_LocalNetworkGatewayBgpSettingsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LocalNetworkGatewayBgpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LocalNetworkGatewayBgpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLocalNetworkGatewayBgpSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLocalNetworkGatewayBgpSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

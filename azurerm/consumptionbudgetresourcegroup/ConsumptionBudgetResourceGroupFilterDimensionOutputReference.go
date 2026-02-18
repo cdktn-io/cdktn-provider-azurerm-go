@@ -5,14 +5,14 @@ package consumptionbudgetresourcegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/consumptionbudgetresourcegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/consumptionbudgetresourcegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConsumptionBudgetResourceGroupFilterDimensionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type ConsumptionBudgetResourceGroupFilterDimensionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	SetValues(val *[]*string)
 	ValuesInput() *[]*string
@@ -54,7 +54,7 @@ type ConsumptionBudgetResourceGroupFilterDimensionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type ConsumptionBudgetResourceGroupFilterDimensionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetOperator()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type ConsumptionBudgetResourceGroupFilterDimensionOutputReference interface {
 
 // The jsii proxy struct for ConsumptionBudgetResourceGroupFilterDimensionOutputReference
 type jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)
 }
 
 
-func NewConsumptionBudgetResourceGroupFilterDimensionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ConsumptionBudgetResourceGroupFilterDimensionOutputReference {
+func NewConsumptionBudgetResourceGroupFilterDimensionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ConsumptionBudgetResourceGroupFilterDimensionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewConsumptionBudgetResourceGroupFilterDimensionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewConsumptionBudgetResourceGroupFilterDimensionOutputReference(terraformRe
 	return &j
 }
 
-func NewConsumptionBudgetResourceGroupFilterDimensionOutputReference_Override(c ConsumptionBudgetResourceGroupFilterDimensionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewConsumptionBudgetResourceGroupFilterDimensionOutputReference_Override(c ConsumptionBudgetResourceGroupFilterDimensionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)
 	)
 }
 
-func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -492,8 +492,8 @@ func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -505,11 +505,11 @@ func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -529,7 +529,7 @@ func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference)
 	)
 }
 
-func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterDimensionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	return nil
 }
 
-func validateNewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

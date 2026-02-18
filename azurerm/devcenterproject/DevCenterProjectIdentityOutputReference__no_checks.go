@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevCenterProjectIdentityOutputReference) validateInterpolatio
 	return nil
 }
 
-func (d *jsiiProxy_DevCenterProjectIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevCenterProjectIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DevCenterProjectIdentityOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DevCenterProjectIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevCenterProjectIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DevCenterProjectIdentityOutputReference) validateSetTypeParam
 	return nil
 }
 
-func validateNewDevCenterProjectIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevCenterProjectIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

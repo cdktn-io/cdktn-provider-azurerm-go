@@ -131,7 +131,7 @@ func (j *jsiiProxy_IothubEndpointEventhub) validateSetIothubIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_IothubEndpointEventhub) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IothubEndpointEventhub) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

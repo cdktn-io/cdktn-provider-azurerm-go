@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeGroupOracleTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupOracleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupOracleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupOracleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupOracleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewNetappVolumeGroupOracleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeGroupOracleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

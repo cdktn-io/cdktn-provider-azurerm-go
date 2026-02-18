@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermAppServiceCertificate) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAppServiceCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermAppServiceCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

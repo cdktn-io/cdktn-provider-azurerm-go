@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermPolicyVirtualMachineConfigurationAssignment) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPolicyVirtualMachineConfigurationAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermPolicyVirtualMachineConfigurationAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

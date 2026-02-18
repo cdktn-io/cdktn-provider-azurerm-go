@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudDevToolPortalSsoOutputReference) validateInterpola
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudDevToolPortalSsoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudDevToolPortalSsoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_SpringCloudDevToolPortalSsoOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudDevToolPortalSsoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudDevToolPortalSsoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpringCloudDevToolPortalSsoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudDevToolPortalSsoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package vpnsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpnsite/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vpnsite/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpnSiteLinkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bgp() VpnSiteLinkBgpOutputReference
 	BgpInput() *VpnSiteLinkBgp
 	// the index of the complex object in a list.
@@ -55,15 +55,15 @@ type VpnSiteLinkOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type VpnSiteLinkOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutBgp(value *VpnSiteLinkBgp)
 	ResetBgp()
 	ResetFqdn()
@@ -90,7 +90,7 @@ type VpnSiteLinkOutputReference interface {
 	ResetSpeedInMbps()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type VpnSiteLinkOutputReference interface {
 
 // The jsii proxy struct for VpnSiteLinkOutputReference
 type jsiiProxy_VpnSiteLinkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpnSiteLinkOutputReference) Bgp() VpnSiteLinkBgpOutputReference {
@@ -293,8 +293,8 @@ func (j *jsiiProxy_VpnSiteLinkOutputReference) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VpnSiteLinkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpnSiteLinkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -304,7 +304,7 @@ func (j *jsiiProxy_VpnSiteLinkOutputReference) TerraformResource() cdktf.IInterp
 }
 
 
-func NewVpnSiteLinkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VpnSiteLinkOutputReference {
+func NewVpnSiteLinkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VpnSiteLinkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpnSiteLinkOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -321,7 +321,7 @@ func NewVpnSiteLinkOutputReference(terraformResource cdktf.IInterpolatingParent,
 	return &j
 }
 
-func NewVpnSiteLinkOutputReference_Override(v VpnSiteLinkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVpnSiteLinkOutputReference_Override(v VpnSiteLinkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -430,7 +430,7 @@ func (j *jsiiProxy_VpnSiteLinkOutputReference)SetTerraformAttribute(val *string)
 	)
 }
 
-func (j *jsiiProxy_VpnSiteLinkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpnSiteLinkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (v *jsiiProxy_VpnSiteLinkOutputReference) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (v *jsiiProxy_VpnSiteLinkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnSiteLinkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -598,8 +598,8 @@ func (v *jsiiProxy_VpnSiteLinkOutputReference) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (v *jsiiProxy_VpnSiteLinkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpnSiteLinkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -611,11 +611,11 @@ func (v *jsiiProxy_VpnSiteLinkOutputReference) InterpolationAsList() cdktf.IReso
 	return returns
 }
 
-func (v *jsiiProxy_VpnSiteLinkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnSiteLinkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -678,7 +678,7 @@ func (v *jsiiProxy_VpnSiteLinkOutputReference) ResetSpeedInMbps() {
 	)
 }
 
-func (v *jsiiProxy_VpnSiteLinkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpnSiteLinkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

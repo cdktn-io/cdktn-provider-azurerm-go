@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyOutputReference) valida
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyOutputReference) valida
 	return nil
 }
 
-func validateNewLinuxVirtualMachineScaleSetAdminSshKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLinuxVirtualMachineScaleSetAdminSshKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

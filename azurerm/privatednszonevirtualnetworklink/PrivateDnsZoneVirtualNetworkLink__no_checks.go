@@ -107,7 +107,7 @@ func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivateDnsZoneVirtualNetworkLink) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

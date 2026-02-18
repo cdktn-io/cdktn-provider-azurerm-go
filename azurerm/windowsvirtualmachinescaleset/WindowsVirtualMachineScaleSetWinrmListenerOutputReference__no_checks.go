@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetWinrmListenerOutputReference) va
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetWinrmListenerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetWinrmListenerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetWinrmListenerOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetWinrmListenerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetWinrmListenerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsVirtualMachineScaleSetWinrmListenerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsVirtualMachineScaleSetWinrmListenerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

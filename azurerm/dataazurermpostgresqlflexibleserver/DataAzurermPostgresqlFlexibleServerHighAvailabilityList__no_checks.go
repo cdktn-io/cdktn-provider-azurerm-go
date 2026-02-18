@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServerHighAvailabilityList) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServerHighAvailabilityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServerHighAvailabilityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServerHighAvailabilityList) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServerHighAvailabilityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServerHighAvailabilityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServerHighAvailabilityList) vali
 	return nil
 }
 
-func validateNewDataAzurermPostgresqlFlexibleServerHighAvailabilityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermPostgresqlFlexibleServerHighAvailabilityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

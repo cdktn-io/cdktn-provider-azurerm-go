@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudConnectionSecretStoreOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudConnectionSecretStoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudConnectionSecretStoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_SpringCloudConnectionSecretStoreOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudConnectionSecretStoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudConnectionSecretStoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpringCloudConnectionSecretStoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudConnectionSecretStoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

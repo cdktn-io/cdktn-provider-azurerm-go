@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDi
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDirectoryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDirectoryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDi
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDirectoryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDirectoryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDi
 	return nil
 }
 
-func validateNewDataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDirectoryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermWindowsWebAppSiteConfigVirtualApplicationVirtualDirectoryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

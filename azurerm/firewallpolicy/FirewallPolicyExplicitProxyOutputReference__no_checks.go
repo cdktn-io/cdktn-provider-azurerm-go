@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirewallPolicyExplicitProxyOutputReference) validateInterpola
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyExplicitProxyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyExplicitProxyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_FirewallPolicyExplicitProxyOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyExplicitProxyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyExplicitProxyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirewallPolicyExplicitProxyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallPolicyExplicitProxyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

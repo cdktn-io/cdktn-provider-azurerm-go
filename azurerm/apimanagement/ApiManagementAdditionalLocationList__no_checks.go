@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiManagementAdditionalLocationList) validateGetParameters(in
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementAdditionalLocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementAdditionalLocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiManagementAdditionalLocationList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementAdditionalLocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementAdditionalLocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiManagementAdditionalLocationList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewApiManagementAdditionalLocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiManagementAdditionalLocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

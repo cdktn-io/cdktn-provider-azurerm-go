@@ -15,7 +15,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsList
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsList
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsList
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHdinsightHadoopClusterRolesEdgeNodeUninstallScriptActionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

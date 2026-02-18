@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermOrchestratedVirtualMachineScaleSet) validateSetIdP
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOrchestratedVirtualMachineScaleSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermOrchestratedVirtualMachineScaleSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

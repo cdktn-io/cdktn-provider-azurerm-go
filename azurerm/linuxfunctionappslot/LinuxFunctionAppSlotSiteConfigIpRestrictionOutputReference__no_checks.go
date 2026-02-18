@@ -51,7 +51,7 @@ func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference) v
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigIpRestrictionOutputReference) v
 	return nil
 }
 
-func validateNewLinuxFunctionAppSlotSiteConfigIpRestrictionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLinuxFunctionAppSlotSiteConfigIpRestrictionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

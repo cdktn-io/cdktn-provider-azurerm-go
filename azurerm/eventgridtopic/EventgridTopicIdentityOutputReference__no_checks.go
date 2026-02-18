@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridTopicIdentityOutputReference) validateInterpolationF
 	return nil
 }
 
-func (e *jsiiProxy_EventgridTopicIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridTopicIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_EventgridTopicIdentityOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_EventgridTopicIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridTopicIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EventgridTopicIdentityOutputReference) validateSetTypeParamet
 	return nil
 }
 
-func validateNewEventgridTopicIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridTopicIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

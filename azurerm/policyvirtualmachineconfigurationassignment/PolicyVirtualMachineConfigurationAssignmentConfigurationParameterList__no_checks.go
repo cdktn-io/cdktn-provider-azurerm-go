@@ -15,7 +15,7 @@ func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParam
 	return nil
 }
 
-func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParam
 	return nil
 }
 
-func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParam
 	return nil
 }
 
-func validateNewPolicyVirtualMachineConfigurationAssignmentConfigurationParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPolicyVirtualMachineConfigurationAssignmentConfigurationParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesExclusionExcludedRule
 	return nil
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesExclusionExcludedRuleSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebApplicationFirewallPolicyManagedRulesExclusionExcludedRuleSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyManagedRulesExclusionExcludedRule
 	return nil
 }
 
-func (j *jsiiProxy_WebApplicationFirewallPolicyManagedRulesExclusionExcludedRuleSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebApplicationFirewallPolicyManagedRulesExclusionExcludedRuleSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyManagedRulesExclusionExcludedRule
 	return nil
 }
 
-func validateNewWebApplicationFirewallPolicyManagedRulesExclusionExcludedRuleSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWebApplicationFirewallPolicyManagedRulesExclusionExcludedRuleSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

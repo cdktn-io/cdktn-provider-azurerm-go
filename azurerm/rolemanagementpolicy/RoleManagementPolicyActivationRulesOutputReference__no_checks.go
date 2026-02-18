@@ -51,7 +51,7 @@ func (r *jsiiProxy_RoleManagementPolicyActivationRulesOutputReference) validateP
 	return nil
 }
 
-func (r *jsiiProxy_RoleManagementPolicyActivationRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleManagementPolicyActivationRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_RoleManagementPolicyActivationRulesOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_RoleManagementPolicyActivationRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleManagementPolicyActivationRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoleManagementPolicyActivationRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoleManagementPolicyActivationRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

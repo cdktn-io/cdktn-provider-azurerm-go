@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterApiServerAccessProfileOutputReference) valid
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterApiServerAccessProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterApiServerAccessProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_KubernetesClusterApiServerAccessProfileOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterApiServerAccessProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterApiServerAccessProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KubernetesClusterApiServerAccessProfileOutputReference) valid
 	return nil
 }
 
-func validateNewKubernetesClusterApiServerAccessProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterApiServerAccessProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_ContainerRegistryToken) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryToken) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerRegistryToken) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

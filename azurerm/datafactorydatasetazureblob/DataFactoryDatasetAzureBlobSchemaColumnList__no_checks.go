@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryDatasetAzureBlobSchemaColumnList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetAzureBlobSchemaColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetAzureBlobSchemaColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryDatasetAzureBlobSchemaColumnList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureBlobSchemaColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetAzureBlobSchemaColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryDatasetAzureBlobSchemaColumnList) validateSetWraps
 	return nil
 }
 
-func validateNewDataFactoryDatasetAzureBlobSchemaColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryDatasetAzureBlobSchemaColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

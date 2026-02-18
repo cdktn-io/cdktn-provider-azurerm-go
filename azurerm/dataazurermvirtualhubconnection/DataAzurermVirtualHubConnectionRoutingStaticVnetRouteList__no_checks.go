@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVirtualHubConnectionRoutingStaticVnetRouteList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualHubConnectionRoutingStaticVnetRouteList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualHubConnectionRoutingStaticVnetRouteList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVirtualHubConnectionRoutingStaticVnetRouteList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualHubConnectionRoutingStaticVnetRouteList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualHubConnectionRoutingStaticVnetRouteList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVirtualHubConnectionRoutingStaticVnetRouteList) va
 	return nil
 }
 
-func validateNewDataAzurermVirtualHubConnectionRoutingStaticVnetRouteListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVirtualHubConnectionRoutingStaticVnetRouteListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

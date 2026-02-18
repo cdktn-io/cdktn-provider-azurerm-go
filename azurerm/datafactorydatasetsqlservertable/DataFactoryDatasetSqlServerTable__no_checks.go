@@ -131,7 +131,7 @@ func (j *jsiiProxy_DataFactoryDatasetSqlServerTable) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetSqlServerTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryDatasetSqlServerTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

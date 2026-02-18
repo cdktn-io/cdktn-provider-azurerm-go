@@ -127,7 +127,7 @@ func (j *jsiiProxy_LbOutboundRule) validateSetIdleTimeoutInMinutesParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_LbOutboundRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbOutboundRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

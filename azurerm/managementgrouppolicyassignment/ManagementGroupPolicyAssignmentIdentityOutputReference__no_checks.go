@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) valid
 	return nil
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) valid
 	return nil
 }
 
-func validateNewManagementGroupPolicyAssignmentIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagementGroupPolicyAssignmentIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

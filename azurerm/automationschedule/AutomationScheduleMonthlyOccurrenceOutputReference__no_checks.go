@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationScheduleMonthlyOccurrenceOutputReference) validateI
 	return nil
 }
 
-func (a *jsiiProxy_AutomationScheduleMonthlyOccurrenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationScheduleMonthlyOccurrenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AutomationScheduleMonthlyOccurrenceOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_AutomationScheduleMonthlyOccurrenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationScheduleMonthlyOccurrenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutomationScheduleMonthlyOccurrenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationScheduleMonthlyOccurrenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

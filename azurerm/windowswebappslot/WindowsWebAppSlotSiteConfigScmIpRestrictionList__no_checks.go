@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigScmIpRestrictionList) validateGetP
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigScmIpRestrictionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigScmIpRestrictionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigScmIpRestrictionList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigScmIpRestrictionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigScmIpRestrictionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigScmIpRestrictionList) validateSetW
 	return nil
 }
 
-func validateNewWindowsWebAppSlotSiteConfigScmIpRestrictionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsWebAppSlotSiteConfigScmIpRestrictionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package paloaltonextgenerationfirewallvirtualhubpanorama
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltonextgenerationfirewallvirtualhubpanorama/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/paloaltonextgenerationfirewallvirtualhubpanorama/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/palo_alto_next_generation_firewall_virtual_hub_panorama azurerm_palo_alto_next_generation_firewall_virtual_hub_panorama}.
 type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -36,9 +36,9 @@ type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
 	DnsSettings() PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference
 	DnsSettingsInput() *PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettings
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,9 +47,9 @@ type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -71,9 +71,9 @@ type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
 	SetPlanId(val *string)
 	PlanIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -166,11 +166,11 @@ type PaloAltoNextGenerationFirewallVirtualHubPanorama interface {
 
 // The jsii proxy struct for PaloAltoNextGenerationFirewallVirtualHubPanorama
 type jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) DnsSettings
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) IdInput() *
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -459,8 +459,8 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) PlanIdInput
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -529,8 +529,8 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) TagsInput()
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -639,7 +639,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetDependsOn
 	)
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -658,7 +658,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetId(val *s
 	)
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -724,7 +724,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetPlanId(va
 	)
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -765,14 +765,14 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama)SetTags(val 
 	)
 }
 
-// Generates CDKTF code for importing a PaloAltoNextGenerationFirewallVirtualHubPanorama resource upon running "cdktf plan <stack-name>".
-func PaloAltoNextGenerationFirewallVirtualHubPanorama_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PaloAltoNextGenerationFirewallVirtualHubPanorama resource upon running "cdktn plan <stack-name>".
+func PaloAltoNextGenerationFirewallVirtualHubPanorama_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePaloAltoNextGenerationFirewallVirtualHubPanorama_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.paloAltoNextGenerationFirewallVirtualHubPanorama.PaloAltoNextGenerationFirewallVirtualHubPanorama",
@@ -906,11 +906,11 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) GetAnyMapAt
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -1047,7 +1047,7 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) HasResource
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1058,11 +1058,11 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) ImportFrom(
 	)
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

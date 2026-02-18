@@ -111,7 +111,7 @@ func (j *jsiiProxy_EventgridPartnerNamespace) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_EventgridPartnerNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EventgridPartnerNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

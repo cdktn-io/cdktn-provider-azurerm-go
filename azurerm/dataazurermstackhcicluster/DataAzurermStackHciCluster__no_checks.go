@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermStackHciCluster) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStackHciCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermStackHciCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

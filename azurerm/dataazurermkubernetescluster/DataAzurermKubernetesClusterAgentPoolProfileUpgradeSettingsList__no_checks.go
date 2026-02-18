@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsLi
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsLi
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsLi
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterAgentPoolProfileUpgradeSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

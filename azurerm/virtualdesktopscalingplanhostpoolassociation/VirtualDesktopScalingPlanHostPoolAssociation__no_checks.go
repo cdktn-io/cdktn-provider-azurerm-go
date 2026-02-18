@@ -115,7 +115,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateSetIdPa
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateSetIntegra
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

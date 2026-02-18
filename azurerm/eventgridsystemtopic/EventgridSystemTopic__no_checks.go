@@ -111,7 +111,7 @@ func (j *jsiiProxy_EventgridSystemTopic) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_EventgridSystemTopic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EventgridSystemTopic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

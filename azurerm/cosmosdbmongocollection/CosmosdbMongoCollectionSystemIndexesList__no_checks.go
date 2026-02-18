@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbMongoCollectionSystemIndexesList) validateGetParamete
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbMongoCollectionSystemIndexesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbMongoCollectionSystemIndexesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CosmosdbMongoCollectionSystemIndexesList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbMongoCollectionSystemIndexesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbMongoCollectionSystemIndexesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CosmosdbMongoCollectionSystemIndexesList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewCosmosdbMongoCollectionSystemIndexesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbMongoCollectionSystemIndexesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

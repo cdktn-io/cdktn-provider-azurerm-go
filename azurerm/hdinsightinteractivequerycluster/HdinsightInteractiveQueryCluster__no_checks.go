@@ -167,7 +167,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryCluster) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HdinsightInteractiveQueryCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

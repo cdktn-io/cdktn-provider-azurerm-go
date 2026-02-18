@@ -5,14 +5,14 @@ package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CertChainObjectName() *string
 	SetCertChainObjectName(val *string)
 	CertChainObjectNameInput() *string
@@ -52,15 +52,15 @@ type KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,12 +76,12 @@ type KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference inte
 
 // The jsii proxy struct for KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference
 type jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) CertChainObjectName() *string {
@@ -254,8 +254,8 @@ func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -265,7 +265,7 @@ func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 }
 
 
-func NewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference {
+func NewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -282,7 +282,7 @@ func NewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference(t
 	return &j
 }
 
-func NewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference_Override(k KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference_Override(k KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -391,7 +391,7 @@ func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -431,11 +431,11 @@ func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -559,8 +559,8 @@ func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -572,11 +572,11 @@ func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -588,7 +588,7 @@ func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutput
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterServiceMeshProfileCertificateAuthorityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

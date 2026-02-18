@@ -15,7 +15,7 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewPivotList) validateGetParamete
 	return nil
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewPivotList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceGroupCostManagementViewPivotList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewPivotList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementViewPivotList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceGroupCostManagementViewPivotList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewPivotList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewResourceGroupCostManagementViewPivotListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewResourceGroupCostManagementViewPivotListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_NotificationHubNamespace) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_NotificationHubNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NotificationHubNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

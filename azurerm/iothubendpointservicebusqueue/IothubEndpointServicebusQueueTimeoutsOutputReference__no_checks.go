@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubEndpointServicebusQueueTimeoutsOutputReference) validat
 	return nil
 }
 
-func (i *jsiiProxy_IothubEndpointServicebusQueueTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubEndpointServicebusQueueTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IothubEndpointServicebusQueueTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_IothubEndpointServicebusQueueTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubEndpointServicebusQueueTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IothubEndpointServicebusQueueTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewIothubEndpointServicebusQueueTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIothubEndpointServicebusQueueTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

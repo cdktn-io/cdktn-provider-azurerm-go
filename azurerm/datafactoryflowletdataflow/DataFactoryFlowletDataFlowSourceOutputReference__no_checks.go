@@ -67,7 +67,7 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceOutputReference) validatePutS
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryFlowletDataFlowSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataFactoryFlowletDataFlowSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

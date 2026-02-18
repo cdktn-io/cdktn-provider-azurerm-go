@@ -47,7 +47,7 @@ func (m *jsiiProxy_MysqlFlexibleServerFirewallRuleTimeoutsOutputReference) valid
 	return nil
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MysqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MysqlFlexibleServerFirewallRuleTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MysqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MysqlFlexibleServerFirewallRuleTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewMysqlFlexibleServerFirewallRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMysqlFlexibleServerFirewallRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

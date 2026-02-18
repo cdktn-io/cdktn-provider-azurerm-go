@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsVirtualMachineGalleryApplicationList) validateGetParam
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineGalleryApplicationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineGalleryApplicationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsVirtualMachineGalleryApplicationList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineGalleryApplicationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineGalleryApplicationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsVirtualMachineGalleryApplicationList) validateSetWraps
 	return nil
 }
 
-func validateNewWindowsVirtualMachineGalleryApplicationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsVirtualMachineGalleryApplicationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

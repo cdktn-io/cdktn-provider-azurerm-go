@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultCertificateContactsContactOutputReference) validateIn
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateContactsContactOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateContactsContactOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_KeyVaultCertificateContactsContactOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateContactsContactOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateContactsContactOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKeyVaultCertificateContactsContactOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKeyVaultCertificateContactsContactOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

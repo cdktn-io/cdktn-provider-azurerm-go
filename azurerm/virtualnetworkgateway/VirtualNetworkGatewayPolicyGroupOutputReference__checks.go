@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validatePutP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VirtualNetworkGatewayPolicyGroupPolicyMember:
 		value := value.(*[]*VirtualNetworkGatewayPolicyGroupPolicyMember)
@@ -117,14 +117,14 @@ func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validatePutP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*VirtualNetworkGatewayPolicyGroupPolicyMember; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VirtualNetworkGatewayPolicyGroupPolicyMember; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -199,7 +199,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetC
 
 func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *VirtualNetworkGatewayPolicyGroup:
 		val := val.(*VirtualNetworkGatewayPolicyGroup)
@@ -214,7 +214,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *VirtualNetworkGatewayPolicyGroup; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *VirtualNetworkGatewayPolicyGroup; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -230,11 +230,11 @@ func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetI
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -265,7 +265,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -273,7 +273,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayPolicyGroupOutputReference) validateSetT
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayPolicyGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualNetworkGatewayPolicyGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsO
 	return nil
 }
 
-func validateNewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupInstancePostgresqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

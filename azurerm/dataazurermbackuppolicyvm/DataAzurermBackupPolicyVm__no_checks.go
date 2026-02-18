@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermBackupPolicyVm) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBackupPolicyVm) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermBackupPolicyVm) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

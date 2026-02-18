@@ -5,14 +5,14 @@ package containerregistrytask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerregistrytask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerregistrytask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerRegistryTaskSourceTriggerAuthenticationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type ContainerRegistryTaskSourceTriggerAuthenticationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Token() *string
 	SetToken(val *string)
 	TokenInput() *string
@@ -60,7 +60,7 @@ type ContainerRegistryTaskSourceTriggerAuthenticationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,15 +76,15 @@ type ContainerRegistryTaskSourceTriggerAuthenticationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExpireInSeconds()
 	ResetRefreshToken()
 	ResetScope()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type ContainerRegistryTaskSourceTriggerAuthenticationOutputReference interface {
 
 // The jsii proxy struct for ContainerRegistryTaskSourceTriggerAuthenticationOutputReference
 type jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) ComplexObjectIndex() interface{} {
@@ -217,8 +217,8 @@ func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -268,7 +268,7 @@ func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 }
 
 
-func NewContainerRegistryTaskSourceTriggerAuthenticationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ContainerRegistryTaskSourceTriggerAuthenticationOutputReference {
+func NewContainerRegistryTaskSourceTriggerAuthenticationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ContainerRegistryTaskSourceTriggerAuthenticationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerRegistryTaskSourceTriggerAuthenticationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -285,7 +285,7 @@ func NewContainerRegistryTaskSourceTriggerAuthenticationOutputReference(terrafor
 	return &j
 }
 
-func NewContainerRegistryTaskSourceTriggerAuthenticationOutputReference_Override(c ContainerRegistryTaskSourceTriggerAuthenticationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewContainerRegistryTaskSourceTriggerAuthenticationOutputReference_Override(c ContainerRegistryTaskSourceTriggerAuthenticationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -372,7 +372,7 @@ func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	)
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -434,11 +434,11 @@ func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -562,8 +562,8 @@ func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -575,11 +575,11 @@ func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -615,7 +615,7 @@ func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	)
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

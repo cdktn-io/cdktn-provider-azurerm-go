@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolStorageImageReferenceOutputReference) validateInterp
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolStorageImageReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolStorageImageReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BatchPoolStorageImageReferenceOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolStorageImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolStorageImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_BatchPoolStorageImageReferenceOutputReference) validateSetVer
 	return nil
 }
 
-func validateNewBatchPoolStorageImageReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchPoolStorageImageReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

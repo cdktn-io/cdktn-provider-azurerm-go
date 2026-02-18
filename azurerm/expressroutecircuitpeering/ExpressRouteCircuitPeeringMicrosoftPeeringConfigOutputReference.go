@@ -5,14 +5,14 @@ package expressroutecircuitpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/expressroutecircuitpeering/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/expressroutecircuitpeering/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdvertisedCommunities() *[]*string
 	SetAdvertisedCommunities(val *[]*string)
 	AdvertisedCommunitiesInput() *[]*string
@@ -49,15 +49,15 @@ type ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdvertisedCommunities()
 	ResetCustomerAsn()
 	ResetRoutingRegistryName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference interface {
 
 // The jsii proxy struct for ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference
 type jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) AdvertisedCommunities() *[]*string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferen
 }
 
 
-func NewExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference {
+func NewExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference(terrafor
 	return &j
 }
 
-func NewExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference_Override(e ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference_Override(e ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferen
 	)
 }
 
-func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferen
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -528,8 +528,8 @@ func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferen
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -541,11 +541,11 @@ func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferen
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -581,7 +581,7 @@ func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReferen
 	)
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_ExpressRouteCircuitPeeringMicrosoftPeeringConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

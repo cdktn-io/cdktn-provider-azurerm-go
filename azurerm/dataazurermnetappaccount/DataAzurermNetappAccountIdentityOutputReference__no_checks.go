@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNetappAccountIdentityOutputReference) validateInte
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetappAccountIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetappAccountIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAzurermNetappAccountIdentityOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetappAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAzurermNetappAccountIdentityOutputReference) validateSetT
 	return nil
 }
 
-func validateNewDataAzurermNetappAccountIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermNetappAccountIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

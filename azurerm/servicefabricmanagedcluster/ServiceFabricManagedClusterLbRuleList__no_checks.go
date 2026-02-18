@@ -15,7 +15,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterLbRuleList) validateGetParameters(
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterLbRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterLbRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterLbRuleList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterLbRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterLbRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterLbRuleList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterLbRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewServiceFabricManagedClusterLbRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

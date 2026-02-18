@@ -5,14 +5,14 @@ package servicefabricmanagedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicefabricmanagedcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicefabricmanagedcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceFabricManagedClusterAuthenticationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDirectory() ServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReference
 	ActiveDirectoryInput() *ServiceFabricManagedClusterAuthenticationActiveDirectory
 	Certificate() ServiceFabricManagedClusterAuthenticationCertificateList
@@ -41,15 +41,15 @@ type ServiceFabricManagedClusterAuthenticationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type ServiceFabricManagedClusterAuthenticationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutActiveDirectory(value *ServiceFabricManagedClusterAuthenticationActiveDirectory)
 	PutCertificate(value interface{})
 	ResetActiveDirectory()
 	ResetCertificate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type ServiceFabricManagedClusterAuthenticationOutputReference interface {
 
 // The jsii proxy struct for ServiceFabricManagedClusterAuthenticationOutputReference
 type jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) ActiveDirectory() ServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReference {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Ter
 }
 
 
-func NewServiceFabricManagedClusterAuthenticationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceFabricManagedClusterAuthenticationOutputReference {
+func NewServiceFabricManagedClusterAuthenticationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceFabricManagedClusterAuthenticationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceFabricManagedClusterAuthenticationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewServiceFabricManagedClusterAuthenticationOutputReference(terraformResour
 	return &j
 }
 
-func NewServiceFabricManagedClusterAuthenticationOutputReference_Override(s ServiceFabricManagedClusterAuthenticationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceFabricManagedClusterAuthenticationOutputReference_Override(s ServiceFabricManagedClusterAuthenticationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -437,8 +437,8 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -450,11 +450,11 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Int
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Res
 	)
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

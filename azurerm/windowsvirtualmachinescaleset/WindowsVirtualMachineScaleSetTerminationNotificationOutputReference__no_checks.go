@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetTerminationNotificationOutputRef
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetTerminationNotificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetTerminationNotificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetTerminationNotificationOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetTerminationNotificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetTerminationNotificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetTerminationNotificationOutputRef
 	return nil
 }
 
-func validateNewWindowsVirtualMachineScaleSetTerminationNotificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsVirtualMachineScaleSetTerminationNotificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

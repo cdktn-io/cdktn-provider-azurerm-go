@@ -15,7 +15,7 @@ func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUdfInputList) validateGetPar
 	return nil
 }
 
-func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUdfInputList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUdfInputList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StreamAnalyticsFunctionJavascriptUdfInputList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsFunctionJavascriptUdfInputList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StreamAnalyticsFunctionJavascriptUdfInputList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StreamAnalyticsFunctionJavascriptUdfInputList) validateSetWra
 	return nil
 }
 
-func validateNewStreamAnalyticsFunctionJavascriptUdfInputListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStreamAnalyticsFunctionJavascriptUdfInputListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

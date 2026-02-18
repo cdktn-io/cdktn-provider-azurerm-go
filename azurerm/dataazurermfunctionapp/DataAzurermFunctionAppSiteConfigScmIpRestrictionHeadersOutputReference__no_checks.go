@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutput
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutput
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermFunctionAppSiteConfigScmIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

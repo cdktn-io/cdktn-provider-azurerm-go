@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagOutputReference) validate
 	return nil
 }
 
-func validateNewDynatraceTagRulesLogRuleFilteringTagOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDynatraceTagRulesLogRuleFilteringTagOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

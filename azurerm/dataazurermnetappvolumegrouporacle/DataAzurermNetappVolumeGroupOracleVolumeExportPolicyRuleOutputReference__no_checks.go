@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

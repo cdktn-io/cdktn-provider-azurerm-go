@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	return nil
 }
 
-func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	return nil
 }
 
-func validateNewArcKubernetesFluxConfigurationKustomizationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewArcKubernetesFluxConfigurationKustomizationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

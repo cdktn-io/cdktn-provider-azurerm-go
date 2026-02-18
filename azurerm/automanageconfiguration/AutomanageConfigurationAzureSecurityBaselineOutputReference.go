@@ -5,14 +5,14 @@ package automanageconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automanageconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automanageconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomanageConfigurationAzureSecurityBaselineOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AssignmentType() *string
 	SetAssignmentType(val *string)
 	AssignmentTypeInput() *string
@@ -40,15 +40,15 @@ type AutomanageConfigurationAzureSecurityBaselineOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type AutomanageConfigurationAzureSecurityBaselineOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAssignmentType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type AutomanageConfigurationAzureSecurityBaselineOutputReference interface {
 
 // The jsii proxy struct for AutomanageConfigurationAzureSecurityBaselineOutputReference
 type jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) AssignmentType() *string {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 }
 
 
-func NewAutomanageConfigurationAzureSecurityBaselineOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomanageConfigurationAzureSecurityBaselineOutputReference {
+func NewAutomanageConfigurationAzureSecurityBaselineOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomanageConfigurationAzureSecurityBaselineOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomanageConfigurationAzureSecurityBaselineOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewAutomanageConfigurationAzureSecurityBaselineOutputReference(terraformRes
 	return &j
 }
 
-func NewAutomanageConfigurationAzureSecurityBaselineOutputReference_Override(a AutomanageConfigurationAzureSecurityBaselineOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomanageConfigurationAzureSecurityBaselineOutputReference_Override(a AutomanageConfigurationAzureSecurityBaselineOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -424,8 +424,8 @@ func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,11 +437,11 @@ func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -461,7 +461,7 @@ func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 	)
 }
 
-func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

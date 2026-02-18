@@ -5,14 +5,14 @@ package storageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storageaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StorageAccountQueuePropertiesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type StorageAccountQueuePropertiesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,9 +69,9 @@ type StorageAccountQueuePropertiesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCorsRule(value interface{})
 	PutHourMetrics(value *StorageAccountQueuePropertiesHourMetrics)
 	PutLogging(value *StorageAccountQueuePropertiesLogging)
@@ -82,7 +82,7 @@ type StorageAccountQueuePropertiesOutputReference interface {
 	ResetMinuteMetrics()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type StorageAccountQueuePropertiesOutputReference interface {
 
 // The jsii proxy struct for StorageAccountQueuePropertiesOutputReference
 type jsiiProxy_StorageAccountQueuePropertiesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference) TerraformResour
 }
 
 
-func NewStorageAccountQueuePropertiesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StorageAccountQueuePropertiesOutputReference {
+func NewStorageAccountQueuePropertiesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StorageAccountQueuePropertiesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStorageAccountQueuePropertiesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewStorageAccountQueuePropertiesOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewStorageAccountQueuePropertiesOutputReference_Override(s StorageAccountQueuePropertiesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStorageAccountQueuePropertiesOutputReference_Override(s StorageAccountQueuePropertiesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -317,7 +317,7 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StorageAccountQueuePropertiesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -357,11 +357,11 @@ func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -485,8 +485,8 @@ func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -498,11 +498,11 @@ func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -590,7 +590,7 @@ func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) ResetMinuteMetr
 	)
 }
 
-func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StorageAccountQueuePropertiesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (b *jsiiProxy_BotChannelLineLineChannelList) validateGetParameters(index *f
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelLineLineChannelList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelLineLineChannelList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewBotChannelLineLineChannelListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBotChannelLineLineChannelListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

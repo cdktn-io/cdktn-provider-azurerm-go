@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResource) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterEx
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterExampleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterExampleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterEx
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterExampleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterExampleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationFormParameterEx
 	return nil
 }
 
-func validateNewApiManagementApiOperationRequestRepresentationFormParameterExampleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiManagementApiOperationRequestRepresentationFormParameterExampleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

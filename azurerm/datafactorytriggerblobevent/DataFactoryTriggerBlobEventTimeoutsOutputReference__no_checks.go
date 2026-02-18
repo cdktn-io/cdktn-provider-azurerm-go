@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryTriggerBlobEventTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryTriggerBlobEventTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryTriggerBlobEventTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryTriggerBlobEventTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerBlobEventTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryTriggerBlobEventTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataFactoryTriggerBlobEventTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewDataFactoryTriggerBlobEventTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryTriggerBlobEventTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

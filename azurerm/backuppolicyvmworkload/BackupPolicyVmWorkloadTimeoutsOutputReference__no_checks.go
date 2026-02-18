@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupPolicyVmWorkloadTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyVmWorkloadTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyVmWorkloadTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BackupPolicyVmWorkloadTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyVmWorkloadTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyVmWorkloadTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BackupPolicyVmWorkloadTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewBackupPolicyVmWorkloadTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPolicyVmWorkloadTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

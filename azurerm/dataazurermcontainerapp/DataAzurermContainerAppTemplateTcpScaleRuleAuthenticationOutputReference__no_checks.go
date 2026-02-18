@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutp
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutp
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermContainerAppTemplateTcpScaleRuleAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

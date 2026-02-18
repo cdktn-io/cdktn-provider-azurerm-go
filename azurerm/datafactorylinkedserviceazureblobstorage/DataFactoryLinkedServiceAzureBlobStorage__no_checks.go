@@ -143,7 +143,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateSetIntegrat
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

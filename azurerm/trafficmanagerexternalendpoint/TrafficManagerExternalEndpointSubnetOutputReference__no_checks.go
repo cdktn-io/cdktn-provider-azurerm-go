@@ -47,7 +47,7 @@ func (t *jsiiProxy_TrafficManagerExternalEndpointSubnetOutputReference) validate
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerExternalEndpointSubnetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerExternalEndpointSubnetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_TrafficManagerExternalEndpointSubnetOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerExternalEndpointSubnetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerExternalEndpointSubnetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewTrafficManagerExternalEndpointSubnetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTrafficManagerExternalEndpointSubnetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

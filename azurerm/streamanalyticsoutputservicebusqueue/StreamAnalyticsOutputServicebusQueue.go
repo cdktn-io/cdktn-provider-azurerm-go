@@ -5,21 +5,21 @@ package streamanalyticsoutputservicebusqueue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsoutputservicebusqueue/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsoutputservicebusqueue/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/stream_analytics_output_servicebus_queue azurerm_stream_analytics_output_servicebus_queue}.
 type StreamAnalyticsOutputServicebusQueue interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthenticationMode() *string
 	SetAuthenticationMode(val *string)
 	AuthenticationModeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type StreamAnalyticsOutputServicebusQueue interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type StreamAnalyticsOutputServicebusQueue interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -58,9 +58,9 @@ type StreamAnalyticsOutputServicebusQueue interface {
 	SetPropertyColumns(val *[]*string)
 	PropertyColumnsInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type StreamAnalyticsOutputServicebusQueue interface {
 	SetSystemPropertyColumns(val *map[string]*string)
 	SystemPropertyColumnsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type StreamAnalyticsOutputServicebusQueue interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,9 +124,9 @@ type StreamAnalyticsOutputServicebusQueue interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -168,7 +168,7 @@ type StreamAnalyticsOutputServicebusQueue interface {
 
 // The jsii proxy struct for StreamAnalyticsOutputServicebusQueue
 type jsiiProxy_StreamAnalyticsOutputServicebusQueue struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) AuthenticationMode() *string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) AuthenticationModeInput
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) DependsOn() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -291,8 +291,8 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) PropertyColumnsInput() 
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -541,8 +541,8 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) SystemPropertyColumnsIn
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -662,7 +662,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -681,7 +681,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -714,7 +714,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetPropertyColumns(val *
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -810,14 +810,14 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueue)SetSystemPropertyColumns
 	)
 }
 
-// Generates CDKTF code for importing a StreamAnalyticsOutputServicebusQueue resource upon running "cdktf plan <stack-name>".
-func StreamAnalyticsOutputServicebusQueue_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StreamAnalyticsOutputServicebusQueue resource upon running "cdktn plan <stack-name>".
+func StreamAnalyticsOutputServicebusQueue_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStreamAnalyticsOutputServicebusQueue_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.streamAnalyticsOutputServicebusQueue.StreamAnalyticsOutputServicebusQueue",
@@ -951,11 +951,11 @@ func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1092,7 +1092,7 @@ func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) HasResourceMove() inter
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1103,11 +1103,11 @@ func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) ImportFrom(id *string, 
 	)
 }
 
-func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueue) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

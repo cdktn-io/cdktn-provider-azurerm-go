@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsGithubOutputReference) 
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsGithubOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsGithubOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsGithubOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsGithubOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsGithubOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionAuthSettingsGithubOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppFlexConsumptionAuthSettingsGithubOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

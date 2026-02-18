@@ -115,7 +115,7 @@ func (j *jsiiProxy_LogAnalyticsDataExportRule) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsDataExportRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogAnalyticsDataExportRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

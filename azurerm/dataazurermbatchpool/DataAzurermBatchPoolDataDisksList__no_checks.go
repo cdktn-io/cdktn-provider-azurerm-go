@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolDataDisksList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolDataDisksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolDataDisksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolDataDisksList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolDataDisksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolDataDisksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolDataDisksList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolDataDisksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchPoolDataDisksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

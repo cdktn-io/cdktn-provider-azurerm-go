@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReference)
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReference)
 	return nil
 }
 
-func validateNewLogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogAnalyticsClusterCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

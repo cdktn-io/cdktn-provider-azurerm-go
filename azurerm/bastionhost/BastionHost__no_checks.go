@@ -127,7 +127,7 @@ func (j *jsiiProxy_BastionHost) validateSetKerberosEnabledParameters(val interfa
 	return nil
 }
 
-func (j *jsiiProxy_BastionHost) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BastionHost) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

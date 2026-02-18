@@ -131,7 +131,7 @@ func (j *jsiiProxy_RecoveryServicesVault) validateSetImmutabilityParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RecoveryServicesVault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDiskEncryptionSetIdentityOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDiskEncryptionSetIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDiskEncryptionSetIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDiskEncryptionSetIdentityOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDiskEncryptionSetIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDiskEncryptionSetIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDiskEncryptionSetIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDiskEncryptionSetIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

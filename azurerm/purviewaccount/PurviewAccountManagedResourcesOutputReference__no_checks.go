@@ -47,7 +47,7 @@ func (p *jsiiProxy_PurviewAccountManagedResourcesOutputReference) validateInterp
 	return nil
 }
 
-func (p *jsiiProxy_PurviewAccountManagedResourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PurviewAccountManagedResourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_PurviewAccountManagedResourcesOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_PurviewAccountManagedResourcesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PurviewAccountManagedResourcesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPurviewAccountManagedResourcesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPurviewAccountManagedResourcesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

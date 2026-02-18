@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) validateInte
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsFunctionAppBackupScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppBackupScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

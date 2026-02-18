@@ -5,14 +5,14 @@ package dataazurermrolemanagementpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermrolemanagementpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermrolemanagementpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,29 +28,29 @@ type DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference interfa
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	ExpirationRequired() cdktf.IResolvable
+	ExpirationRequired() cdktn.IResolvable
 	ExpireAfter() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermRoleManagementPolicyActiveAssignmentRules
 	SetInternalValue(val *DataAzurermRoleManagementPolicyActiveAssignmentRules)
-	RequireJustification() cdktf.IResolvable
-	RequireMultifactorAuthentication() cdktf.IResolvable
-	RequireTicketInfo() cdktf.IResolvable
+	RequireJustification() cdktn.IResolvable
+	RequireMultifactorAuthentication() cdktn.IResolvable
+	RequireTicketInfo() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference interfa
 
 // The jsii proxy struct for DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference
 type jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) ComplexObjectIndex() interface{} {
@@ -114,8 +114,8 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) ExpirationRequired() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) ExpirationRequired() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"expirationRequired",
@@ -154,8 +154,8 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) RequireJustification() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) RequireJustification() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"requireJustification",
@@ -164,8 +164,8 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) RequireMultifactorAuthentication() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) RequireMultifactorAuthentication() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"requireMultifactorAuthentication",
@@ -174,8 +174,8 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) RequireTicketInfo() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) RequireTicketInfo() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"requireTicketInfo",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 }
 
 
-func NewDataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference {
+func NewDataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference(terr
 	return &j
 }
 
-func NewDataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference_Override(d DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference_Override(d DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	)
 }
 
-func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermRoleManagementPolicyActiveAssignmentRulesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

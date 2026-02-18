@@ -5,21 +5,21 @@ package serviceplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/serviceplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/serviceplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/service_plan azurerm_service_plan}.
 type ServicePlan interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppServiceEnvironmentId() *string
 	SetAppServiceEnvironmentId(val *string)
 	AppServiceEnvironmentIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type ServicePlan interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,9 +47,9 @@ type ServicePlan interface {
 	IdInput() *string
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -71,16 +71,16 @@ type ServicePlan interface {
 	SetPremiumPlanAutoScaleEnabled(val interface{})
 	PremiumPlanAutoScaleEnabledInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
-	Reserved() cdktf.IResolvable
+	Reserved() cdktn.IResolvable
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
@@ -91,7 +91,7 @@ type ServicePlan interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -112,7 +112,7 @@ type ServicePlan interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -130,9 +130,9 @@ type ServicePlan interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -175,7 +175,7 @@ type ServicePlan interface {
 
 // The jsii proxy struct for ServicePlan
 type jsiiProxy_ServicePlan struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ServicePlan) AppServiceEnvironmentId() *string {
@@ -198,8 +198,8 @@ func (j *jsiiProxy_ServicePlan) AppServiceEnvironmentIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePlan) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ServicePlan) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -248,8 +248,8 @@ func (j *jsiiProxy_ServicePlan) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePlan) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ServicePlan) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -308,8 +308,8 @@ func (j *jsiiProxy_ServicePlan) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePlan) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ServicePlan) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -448,8 +448,8 @@ func (j *jsiiProxy_ServicePlan) PremiumPlanAutoScaleEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePlan) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ServicePlan) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -478,8 +478,8 @@ func (j *jsiiProxy_ServicePlan) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePlan) Reserved() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ServicePlan) Reserved() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"reserved",
@@ -548,8 +548,8 @@ func (j *jsiiProxy_ServicePlan) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ServicePlan) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ServicePlan) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -709,7 +709,7 @@ func (j *jsiiProxy_ServicePlan)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_ServicePlan)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ServicePlan)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -728,7 +728,7 @@ func (j *jsiiProxy_ServicePlan)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ServicePlan)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ServicePlan)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -805,7 +805,7 @@ func (j *jsiiProxy_ServicePlan)SetPremiumPlanAutoScaleEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_ServicePlan)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ServicePlan)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -879,14 +879,14 @@ func (j *jsiiProxy_ServicePlan)SetZoneBalancingEnabled(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a ServicePlan resource upon running "cdktf plan <stack-name>".
-func ServicePlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ServicePlan resource upon running "cdktn plan <stack-name>".
+func ServicePlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateServicePlan_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.servicePlan.ServicePlan",
@@ -1020,11 +1020,11 @@ func (s *jsiiProxy_ServicePlan) GetAnyMapAttribute(terraformAttribute *string) *
 	return returns
 }
 
-func (s *jsiiProxy_ServicePlan) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicePlan) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1161,7 +1161,7 @@ func (s *jsiiProxy_ServicePlan) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_ServicePlan) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_ServicePlan) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1172,11 +1172,11 @@ func (s *jsiiProxy_ServicePlan) ImportFrom(id *string, provider cdktf.TerraformP
 	)
 }
 
-func (s *jsiiProxy_ServicePlan) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicePlan) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDataShareSnapshotScheduleOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDataShareSnapshotScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDataShareSnapshotScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDataShareSnapshotScheduleOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataShareSnapshotScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDataShareSnapshotScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDataShareSnapshotScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDataShareSnapshotScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

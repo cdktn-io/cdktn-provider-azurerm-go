@@ -87,7 +87,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,11 +107,11 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleDataSourcesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorDataCollectionRuleDataSourcesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

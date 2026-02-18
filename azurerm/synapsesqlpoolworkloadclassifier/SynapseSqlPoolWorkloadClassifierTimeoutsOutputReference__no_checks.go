@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseSqlPoolWorkloadClassifierTimeoutsOutputReference) vali
 	return nil
 }
 
-func (s *jsiiProxy_SynapseSqlPoolWorkloadClassifierTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseSqlPoolWorkloadClassifierTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SynapseSqlPoolWorkloadClassifierTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SynapseSqlPoolWorkloadClassifierTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseSqlPoolWorkloadClassifierTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SynapseSqlPoolWorkloadClassifierTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewSynapseSqlPoolWorkloadClassifierTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseSqlPoolWorkloadClassifierTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_ProximityPlacementGroup) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_ProximityPlacementGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ProximityPlacementGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

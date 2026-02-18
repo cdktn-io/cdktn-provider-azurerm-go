@@ -5,37 +5,37 @@ package dataazurermcontainerregistry
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermcontainerregistry/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermcontainerregistry/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/container_registry azurerm_container_registry}.
 type DataAzurermContainerRegistry interface {
-	cdktf.TerraformDataSource
-	AdminEnabled() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	AdminEnabled() cdktn.IResolvable
 	AdminPassword() *string
 	AdminUsername() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
-	DataEndpointEnabled() cdktf.IResolvable
+	DataEndpointEnabled() cdktn.IResolvable
 	DataEndpointHostNames() *[]*string
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,9 +44,9 @@ type DataAzurermContainerRegistry interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	LoginServer() *string
 	Name() *string
@@ -55,18 +55,18 @@ type DataAzurermContainerRegistry interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	Sku() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type DataAzurermContainerRegistry interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,7 +94,7 @@ type DataAzurermContainerRegistry interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -120,11 +120,11 @@ type DataAzurermContainerRegistry interface {
 
 // The jsii proxy struct for DataAzurermContainerRegistry
 type jsiiProxy_DataAzurermContainerRegistry struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) AdminEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermContainerRegistry) AdminEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"adminEnabled",
@@ -153,8 +153,8 @@ func (j *jsiiProxy_DataAzurermContainerRegistry) AdminUsername() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermContainerRegistry) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermContainerRegistry) Count() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) DataEndpointEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermContainerRegistry) DataEndpointEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"dataEndpointEnabled",
@@ -213,8 +213,8 @@ func (j *jsiiProxy_DataAzurermContainerRegistry) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermContainerRegistry) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_DataAzurermContainerRegistry) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermContainerRegistry) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -323,8 +323,8 @@ func (j *jsiiProxy_DataAzurermContainerRegistry) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermContainerRegistry) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -373,8 +373,8 @@ func (j *jsiiProxy_DataAzurermContainerRegistry) Sku() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermContainerRegistry) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_DataAzurermContainerRegistry) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermContainerRegistry) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -482,7 +482,7 @@ func (j *jsiiProxy_DataAzurermContainerRegistry)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermContainerRegistry)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -501,7 +501,7 @@ func (j *jsiiProxy_DataAzurermContainerRegistry)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermContainerRegistry)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -523,7 +523,7 @@ func (j *jsiiProxy_DataAzurermContainerRegistry)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistry)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermContainerRegistry)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -542,14 +542,14 @@ func (j *jsiiProxy_DataAzurermContainerRegistry)SetResourceGroupName(val *string
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermContainerRegistry resource upon running "cdktf plan <stack-name>".
-func DataAzurermContainerRegistry_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermContainerRegistry resource upon running "cdktn plan <stack-name>".
+func DataAzurermContainerRegistry_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermContainerRegistry_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermContainerRegistry.DataAzurermContainerRegistry",
@@ -672,11 +672,11 @@ func (d *jsiiProxy_DataAzurermContainerRegistry) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermContainerRegistry) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermContainerRegistry) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -800,11 +800,11 @@ func (d *jsiiProxy_DataAzurermContainerRegistry) GetStringMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermContainerRegistry) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermContainerRegistry) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -115,7 +115,7 @@ func (j *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

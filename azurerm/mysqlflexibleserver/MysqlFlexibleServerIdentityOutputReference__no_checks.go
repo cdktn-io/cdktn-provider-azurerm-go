@@ -47,7 +47,7 @@ func (m *jsiiProxy_MysqlFlexibleServerIdentityOutputReference) validateInterpola
 	return nil
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MysqlFlexibleServerIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MysqlFlexibleServerIdentityOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MysqlFlexibleServerIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MysqlFlexibleServerIdentityOutputReference) validateSetTypePa
 	return nil
 }
 
-func validateNewMysqlFlexibleServerIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMysqlFlexibleServerIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

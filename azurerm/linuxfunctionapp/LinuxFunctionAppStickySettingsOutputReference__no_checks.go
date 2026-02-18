@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxFunctionAppStickySettingsOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppStickySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppStickySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LinuxFunctionAppStickySettingsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppStickySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppStickySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxFunctionAppStickySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxFunctionAppStickySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

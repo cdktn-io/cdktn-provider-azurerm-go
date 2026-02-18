@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaColumnOutputReference) validateIn
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaColumnOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaColumnOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnOutputReference) validateSe
 	return nil
 }
 
-func validateNewCosmosdbCassandraTableSchemaColumnOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbCassandraTableSchemaColumnOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

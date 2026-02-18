@@ -15,7 +15,7 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroupNotificationList) validateGet
 	return nil
 }
 
-func (c *jsiiProxy_ConsumptionBudgetManagementGroupNotificationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConsumptionBudgetManagementGroupNotificationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroupNotificationList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ConsumptionBudgetManagementGroupNotificationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConsumptionBudgetManagementGroupNotificationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroupNotificationList) validateSet
 	return nil
 }
 
-func validateNewConsumptionBudgetManagementGroupNotificationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewConsumptionBudgetManagementGroupNotificationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_SpringCloudBuildDeployment) validateSetInstanceCountParameter
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudBuildDeployment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudBuildDeployment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleMatchConditionOutputReferenc
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleMatchConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleMatchConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleMatchConditionOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleMatchConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleMatchConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleMatchConditionOutputReferenc
 	return nil
 }
 
-func validateNewFrontdoorFirewallPolicyCustomRuleMatchConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFrontdoorFirewallPolicyCustomRuleMatchConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewKpiOutputReference) validateIn
 	return nil
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewKpiOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceGroupCostManagementViewKpiOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewKpiOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementViewKpiOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceGroupCostManagementViewKpiOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewKpiOutputReference) validateSe
 	return nil
 }
 
-func validateNewResourceGroupCostManagementViewKpiOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewResourceGroupCostManagementViewKpiOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

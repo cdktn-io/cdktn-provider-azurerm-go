@@ -55,7 +55,7 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) v
 	return nil
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutomationSoftwareUpdateConfigurationTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationSoftwareUpdateConfigurationTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

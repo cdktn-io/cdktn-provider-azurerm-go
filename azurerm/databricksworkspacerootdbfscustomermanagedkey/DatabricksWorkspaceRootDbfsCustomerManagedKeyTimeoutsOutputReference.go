@@ -5,14 +5,14 @@ package databricksworkspacerootdbfscustomermanagedkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/databricksworkspacerootdbfscustomermanagedkey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/databricksworkspacerootdbfscustomermanagedkey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference interf
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference interf
 
 // The jsii proxy struct for DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference
 type jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputRe
 }
 
 
-func NewDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference {
+func NewDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference(ter
 	return &j
 }
 
-func NewDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference_Override(d DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference_Override(d DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputRe
 	)
 }
 
-func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputRe
 	return returns
 }
 
-func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputRe
 	return returns
 }
 
-func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputRe
 	return returns
 }
 
-func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputRe
 	)
 }
 
-func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKeyTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

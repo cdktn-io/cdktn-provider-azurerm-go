@@ -111,7 +111,7 @@ func (j *jsiiProxy_SignalrServiceCustomCertificate) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceCustomCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SignalrServiceCustomCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

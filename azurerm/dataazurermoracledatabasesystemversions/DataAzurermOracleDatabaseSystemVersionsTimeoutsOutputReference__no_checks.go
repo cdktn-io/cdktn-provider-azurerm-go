@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermOracleDatabaseSystemVersionsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BlueprintAssignmentIdentityOutputReference) validateInterpola
 	return nil
 }
 
-func (b *jsiiProxy_BlueprintAssignmentIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BlueprintAssignmentIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BlueprintAssignmentIdentityOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_BlueprintAssignmentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BlueprintAssignmentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BlueprintAssignmentIdentityOutputReference) validateSetTypePa
 	return nil
 }
 
-func validateNewBlueprintAssignmentIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBlueprintAssignmentIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

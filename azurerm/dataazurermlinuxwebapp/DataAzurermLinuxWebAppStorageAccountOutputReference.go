@@ -5,14 +5,14 @@ package dataazurermlinuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlinuxwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermlinuxwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermLinuxWebAppStorageAccountOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessKey() *string
 	AccountName() *string
 	// the index of the complex object in a list.
@@ -42,16 +42,16 @@ type DataAzurermLinuxWebAppStorageAccountOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataAzurermLinuxWebAppStorageAccountOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataAzurermLinuxWebAppStorageAccountOutputReference interface {
 
 // The jsii proxy struct for DataAzurermLinuxWebAppStorageAccountOutputReference
 type jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) AccessKey() *string {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) Type() *
 }
 
 
-func NewDataAzurermLinuxWebAppStorageAccountOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxWebAppStorageAccountOutputReference {
+func NewDataAzurermLinuxWebAppStorageAccountOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxWebAppStorageAccountOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermLinuxWebAppStorageAccountOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataAzurermLinuxWebAppStorageAccountOutputReference(terraformResource cd
 	return &j
 }
 
-func NewDataAzurermLinuxWebAppStorageAccountOutputReference_Override(d DataAzurermLinuxWebAppStorageAccountOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermLinuxWebAppStorageAccountOutputReference_Override(d DataAzurermLinuxWebAppStorageAccountOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) GetAnyMa
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) GetStrin
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) Interpol
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermLinuxWebAppStorageAccountOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

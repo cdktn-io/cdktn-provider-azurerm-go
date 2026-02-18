@@ -15,7 +15,7 @@ func (f *jsiiProxy_FrontdoorBackendPoolBackendList) validateGetParameters(index 
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolBackendList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorBackendPoolBackendList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolBackendList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolBackendList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorBackendPoolBackendList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolBackendList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewFrontdoorBackendPoolBackendListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorBackendPoolBackendListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

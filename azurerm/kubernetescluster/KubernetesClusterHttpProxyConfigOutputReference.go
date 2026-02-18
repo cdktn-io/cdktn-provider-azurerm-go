@@ -5,14 +5,14 @@ package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterHttpProxyConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type KubernetesClusterHttpProxyConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrustedCa() *string
 	SetTrustedCa(val *string)
 	TrustedCaInput() *string
@@ -57,7 +57,7 @@ type KubernetesClusterHttpProxyConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type KubernetesClusterHttpProxyConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetHttpProxy()
 	ResetHttpsProxy()
 	ResetNoProxy()
 	ResetTrustedCa()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type KubernetesClusterHttpProxyConfigOutputReference interface {
 
 // The jsii proxy struct for KubernetesClusterHttpProxyConfigOutputReference
 type jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) TrustedCaInp
 }
 
 
-func NewKubernetesClusterHttpProxyConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesClusterHttpProxyConfigOutputReference {
+func NewKubernetesClusterHttpProxyConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesClusterHttpProxyConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterHttpProxyConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewKubernetesClusterHttpProxyConfigOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewKubernetesClusterHttpProxyConfigOutputReference_Override(k KubernetesClusterHttpProxyConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesClusterHttpProxyConfigOutputReference_Override(k KubernetesClusterHttpProxyConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -529,8 +529,8 @@ func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) GetStringMap
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -542,11 +542,11 @@ func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) Interpolatio
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -590,7 +590,7 @@ func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) ResetTrusted
 	)
 }
 
-func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterHttpProxyConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

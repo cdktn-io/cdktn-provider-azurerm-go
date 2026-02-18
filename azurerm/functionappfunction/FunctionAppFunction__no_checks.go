@@ -127,7 +127,7 @@ func (j *jsiiProxy_FunctionAppFunction) validateSetLanguageParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFunction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FunctionAppFunction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,20 +5,20 @@ package extendedcustomlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/extendedcustomlocation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/extendedcustomlocation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/extended_custom_location azurerm_extended_custom_location}.
 type ExtendedCustomLocation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Authentication() ExtendedCustomLocationAuthenticationOutputReference
 	AuthenticationInput() *ExtendedCustomLocationAuthentication
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterExtensionIds() *[]*string
 	SetClusterExtensionIds(val *[]*string)
 	ClusterExtensionIdsInput() *[]*string
@@ -40,9 +40,9 @@ type ExtendedCustomLocation interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type ExtendedCustomLocation interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -72,9 +72,9 @@ type ExtendedCustomLocation interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type ExtendedCustomLocation interface {
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type ExtendedCustomLocation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type ExtendedCustomLocation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -160,7 +160,7 @@ type ExtendedCustomLocation interface {
 
 // The jsii proxy struct for ExtendedCustomLocation
 type jsiiProxy_ExtendedCustomLocation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ExtendedCustomLocation) Authentication() ExtendedCustomLocationAuthenticationOutputReference {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_ExtendedCustomLocation) AuthenticationInput() *ExtendedCustom
 	return returns
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ExtendedCustomLocation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_ExtendedCustomLocation) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ExtendedCustomLocation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -363,8 +363,8 @@ func (j *jsiiProxy_ExtendedCustomLocation) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ExtendedCustomLocation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -443,8 +443,8 @@ func (j *jsiiProxy_ExtendedCustomLocation) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ExtendedCustomLocation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -493,8 +493,8 @@ func (j *jsiiProxy_ExtendedCustomLocation) ResourceGroupNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ExtendedCustomLocation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -625,7 +625,7 @@ func (j *jsiiProxy_ExtendedCustomLocation)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ExtendedCustomLocation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -666,7 +666,7 @@ func (j *jsiiProxy_ExtendedCustomLocation)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ExtendedCustomLocation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -710,7 +710,7 @@ func (j *jsiiProxy_ExtendedCustomLocation)SetNamespace(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ExtendedCustomLocation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -740,14 +740,14 @@ func (j *jsiiProxy_ExtendedCustomLocation)SetResourceGroupName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ExtendedCustomLocation resource upon running "cdktf plan <stack-name>".
-func ExtendedCustomLocation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ExtendedCustomLocation resource upon running "cdktn plan <stack-name>".
+func ExtendedCustomLocation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateExtendedCustomLocation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.extendedCustomLocation.ExtendedCustomLocation",
@@ -881,11 +881,11 @@ func (e *jsiiProxy_ExtendedCustomLocation) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (e *jsiiProxy_ExtendedCustomLocation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExtendedCustomLocation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1022,7 +1022,7 @@ func (e *jsiiProxy_ExtendedCustomLocation) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_ExtendedCustomLocation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_ExtendedCustomLocation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1033,11 +1033,11 @@ func (e *jsiiProxy_ExtendedCustomLocation) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (e *jsiiProxy_ExtendedCustomLocation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExtendedCustomLocation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

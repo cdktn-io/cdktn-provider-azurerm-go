@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSynapseWorkspaceIdentityList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSynapseWorkspaceIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSynapseWorkspaceIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSynapseWorkspaceIdentityList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSynapseWorkspaceIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSynapseWorkspaceIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSynapseWorkspaceIdentityList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAzurermSynapseWorkspaceIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSynapseWorkspaceIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

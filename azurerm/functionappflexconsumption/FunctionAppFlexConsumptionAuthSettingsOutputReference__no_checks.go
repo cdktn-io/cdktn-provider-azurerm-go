@@ -71,7 +71,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) valida
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -131,7 +131,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) valida
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionAuthSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppFlexConsumptionAuthSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

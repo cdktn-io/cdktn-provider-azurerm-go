@@ -8,7 +8,7 @@ package emailcommunicationservicedomain
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) va
 	return nil
 }
 
-func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) va
 	return nil
 }
 
-func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsSpfList) va
 	return nil
 }
 
-func validateNewEmailCommunicationServiceDomainVerificationRecordsSpfListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEmailCommunicationServiceDomainVerificationRecordsSpfListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

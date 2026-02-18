@@ -8,7 +8,7 @@ package dataazurermdiskencryptionset
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (d *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_DataAzurermDiskEncryptionSetIdentityList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAzurermDiskEncryptionSetIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermDiskEncryptionSetIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

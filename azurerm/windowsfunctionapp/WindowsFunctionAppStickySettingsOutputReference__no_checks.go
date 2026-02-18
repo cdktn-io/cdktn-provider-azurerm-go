@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppStickySettingsOutputReference) validateInte
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppStickySettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppStickySettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WindowsFunctionAppStickySettingsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppStickySettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppStickySettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsFunctionAppStickySettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppStickySettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

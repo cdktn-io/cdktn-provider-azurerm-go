@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppServiceSiteConfigIpRestrictionOutputReference) validatePut
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSiteConfigIpRestrictionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSiteConfigIpRestrictionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_AppServiceSiteConfigIpRestrictionOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSiteConfigIpRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSiteConfigIpRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_AppServiceSiteConfigIpRestrictionOutputReference) validateSet
 	return nil
 }
 
-func validateNewAppServiceSiteConfigIpRestrictionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppServiceSiteConfigIpRestrictionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (r *jsiiProxy_RouteMapRuleActionParameterList) validateGetParameters(index 
 	return nil
 }
 
-func (r *jsiiProxy_RouteMapRuleActionParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RouteMapRuleActionParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RouteMapRuleActionParameterList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_RouteMapRuleActionParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RouteMapRuleActionParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RouteMapRuleActionParameterList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewRouteMapRuleActionParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRouteMapRuleActionParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

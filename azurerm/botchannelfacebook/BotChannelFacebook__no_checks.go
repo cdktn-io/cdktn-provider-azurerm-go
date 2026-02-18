@@ -123,7 +123,7 @@ func (j *jsiiProxy_BotChannelFacebook) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelFacebook) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BotChannelFacebook) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

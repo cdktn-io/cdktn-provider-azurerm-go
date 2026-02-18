@@ -107,7 +107,7 @@ func (j *jsiiProxy_VirtualHubBgpConnection) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubBgpConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualHubBgpConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

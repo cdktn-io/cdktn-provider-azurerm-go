@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubnetServiceEndpointStoragePolicyTimeoutsOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_SubnetServiceEndpointStoragePolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubnetServiceEndpointStoragePolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SubnetServiceEndpointStoragePolicyTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_SubnetServiceEndpointStoragePolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubnetServiceEndpointStoragePolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SubnetServiceEndpointStoragePolicyTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewSubnetServiceEndpointStoragePolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSubnetServiceEndpointStoragePolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

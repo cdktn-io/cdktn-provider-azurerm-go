@@ -5,14 +5,14 @@ package batchaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/batchaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/batchaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BatchAccountKeyVaultReferenceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type BatchAccountKeyVaultReferenceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Url() *string
 	SetUrl(val *string)
 	UrlInput() *string
@@ -51,7 +51,7 @@ type BatchAccountKeyVaultReferenceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type BatchAccountKeyVaultReferenceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type BatchAccountKeyVaultReferenceOutputReference interface {
 
 // The jsii proxy struct for BatchAccountKeyVaultReferenceOutputReference
 type jsiiProxy_BatchAccountKeyVaultReferenceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) UrlInput() *str
 }
 
 
-func NewBatchAccountKeyVaultReferenceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BatchAccountKeyVaultReferenceOutputReference {
+func NewBatchAccountKeyVaultReferenceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BatchAccountKeyVaultReferenceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBatchAccountKeyVaultReferenceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewBatchAccountKeyVaultReferenceOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewBatchAccountKeyVaultReferenceOutputReference_Override(b BatchAccountKeyVaultReferenceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBatchAccountKeyVaultReferenceOutputReference_Override(b BatchAccountKeyVaultReferenceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -457,8 +457,8 @@ func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -470,11 +470,11 @@ func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) InterpolationAs
 	return returns
 }
 
-func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -486,7 +486,7 @@ func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) InterpolationFo
 	return returns
 }
 
-func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

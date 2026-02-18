@@ -5,14 +5,14 @@ package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference interfa
 
 // The jsii proxy struct for WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference
 type jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) ComplexObjectIndex() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputRef
 }
 
 
-func NewWindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference {
+func NewWindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewWindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference(terr
 	return &j
 }
 
-func NewWindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference_Override(w WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference_Override(w WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputRef
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputRef
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -491,8 +491,8 @@ func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputRef
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -504,11 +504,11 @@ func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputRef
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -520,7 +520,7 @@ func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputRef
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppSlotLogsApplicationLogsAzureBlobStorageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

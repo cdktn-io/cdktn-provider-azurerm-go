@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrbitalContactProfileTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (o *jsiiProxy_OrbitalContactProfileTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrbitalContactProfileTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OrbitalContactProfileTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_OrbitalContactProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrbitalContactProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_OrbitalContactProfileTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewOrbitalContactProfileTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrbitalContactProfileTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

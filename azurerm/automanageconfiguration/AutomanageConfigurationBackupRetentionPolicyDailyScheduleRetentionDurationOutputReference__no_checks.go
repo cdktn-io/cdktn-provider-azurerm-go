@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyDailyScheduleRete
 	return nil
 }
 
-func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyDailyScheduleRete
 	return nil
 }
 
-func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomanageConfigurationBackupRetentionPolicyDailyScheduleRetentionDurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

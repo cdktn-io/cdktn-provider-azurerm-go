@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkManagerRoutingRuleDestinationOutputReference) validate
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagerRoutingRuleDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagerRoutingRuleDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NetworkManagerRoutingRuleDestinationOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerRoutingRuleDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagerRoutingRuleDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkManagerRoutingRuleDestinationOutputReference) validate
 	return nil
 }
 
-func validateNewNetworkManagerRoutingRuleDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkManagerRoutingRuleDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

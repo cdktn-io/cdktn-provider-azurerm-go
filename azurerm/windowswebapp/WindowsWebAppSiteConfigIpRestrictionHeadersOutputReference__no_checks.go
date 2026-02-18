@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigIpRestrictionHeadersOutputReference) v
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSiteConfigIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSiteConfigIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigIpRestrictionHeadersOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSiteConfigIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSiteConfigIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigIpRestrictionHeadersOutputReference) v
 	return nil
 }
 
-func validateNewWindowsWebAppSiteConfigIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsWebAppSiteConfigIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

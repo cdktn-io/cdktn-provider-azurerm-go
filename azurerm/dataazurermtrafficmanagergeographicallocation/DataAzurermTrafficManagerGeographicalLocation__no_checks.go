@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermTrafficManagerGeographicalLocation) validateSetIdP
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermTrafficManagerGeographicalLocation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermTrafficManagerGeographicalLocation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

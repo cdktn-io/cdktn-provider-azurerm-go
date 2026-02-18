@@ -47,7 +47,7 @@ func (b *jsiiProxy_BotChannelDirectlineSiteOutputReference) validateInterpolatio
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelDirectlineSiteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelDirectlineSiteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BotChannelDirectlineSiteOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelDirectlineSiteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelDirectlineSiteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_BotChannelDirectlineSiteOutputReference) validateSetV3Allowed
 	return nil
 }
 
-func validateNewBotChannelDirectlineSiteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBotChannelDirectlineSiteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

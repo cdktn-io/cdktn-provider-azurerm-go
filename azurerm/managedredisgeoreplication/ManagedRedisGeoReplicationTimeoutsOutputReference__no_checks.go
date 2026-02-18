@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedRedisGeoReplicationTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_ManagedRedisGeoReplicationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedRedisGeoReplicationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagedRedisGeoReplicationTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ManagedRedisGeoReplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedRedisGeoReplicationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ManagedRedisGeoReplicationTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewManagedRedisGeoReplicationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedRedisGeoReplicationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

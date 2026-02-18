@@ -5,14 +5,14 @@ package windowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsFunctionAppConnectionStringList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type WindowsFunctionAppConnectionStringList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type WindowsFunctionAppConnectionStringList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) WindowsFunctionAppConnectionStringOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type WindowsFunctionAppConnectionStringList interface {
 
 // The jsii proxy struct for WindowsFunctionAppConnectionStringList
 type jsiiProxy_WindowsFunctionAppConnectionStringList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_WindowsFunctionAppConnectionStringList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_WindowsFunctionAppConnectionStringList) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_WindowsFunctionAppConnectionStringList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsFunctionAppConnectionStringList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_WindowsFunctionAppConnectionStringList) WrapsSet() *bool {
 }
 
 
-func NewWindowsFunctionAppConnectionStringList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WindowsFunctionAppConnectionStringList {
+func NewWindowsFunctionAppConnectionStringList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WindowsFunctionAppConnectionStringList {
 	_init_.Initialize()
 
 	if err := validateNewWindowsFunctionAppConnectionStringListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewWindowsFunctionAppConnectionStringList(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewWindowsFunctionAppConnectionStringList_Override(w WindowsFunctionAppConnectionStringList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewWindowsFunctionAppConnectionStringList_Override(w WindowsFunctionAppConnectionStringList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_WindowsFunctionAppConnectionStringList)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_WindowsFunctionAppConnectionStringList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsFunctionAppConnectionStringList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_WindowsFunctionAppConnectionStringList)SetWrapsSet(val *bool)
 	)
 }
 
-func (w *jsiiProxy_WindowsFunctionAppConnectionStringList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (w *jsiiProxy_WindowsFunctionAppConnectionStringList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := w.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		w,
@@ -231,7 +231,7 @@ func (w *jsiiProxy_WindowsFunctionAppConnectionStringList) Get(index *float64) W
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppConnectionStringList) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsFunctionAppConnectionStringList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

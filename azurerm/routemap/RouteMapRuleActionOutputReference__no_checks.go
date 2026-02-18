@@ -51,7 +51,7 @@ func (r *jsiiProxy_RouteMapRuleActionOutputReference) validatePutParameterParame
 	return nil
 }
 
-func (r *jsiiProxy_RouteMapRuleActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RouteMapRuleActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_RouteMapRuleActionOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_RouteMapRuleActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RouteMapRuleActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RouteMapRuleActionOutputReference) validateSetTypeParameters(
 	return nil
 }
 
-func validateNewRouteMapRuleActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRouteMapRuleActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

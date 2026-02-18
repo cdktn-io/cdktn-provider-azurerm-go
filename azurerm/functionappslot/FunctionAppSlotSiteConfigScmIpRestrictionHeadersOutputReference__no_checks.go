@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReferen
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_FunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_FunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReferen
 	return nil
 }
 
-func validateNewFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

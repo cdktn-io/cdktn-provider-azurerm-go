@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermDataShareDatasetBlobStorage) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataShareDatasetBlobStorage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDataShareDatasetBlobStorage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

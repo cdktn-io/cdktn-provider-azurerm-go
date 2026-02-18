@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesFluxConfigurationGitRepositoryOutputReference) vali
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationGitRepositoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFluxConfigurationGitRepositoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_KubernetesFluxConfigurationGitRepositoryOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFluxConfigurationGitRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFluxConfigurationGitRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_KubernetesFluxConfigurationGitRepositoryOutputReference) vali
 	return nil
 }
 
-func validateNewKubernetesFluxConfigurationGitRepositoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesFluxConfigurationGitRepositoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

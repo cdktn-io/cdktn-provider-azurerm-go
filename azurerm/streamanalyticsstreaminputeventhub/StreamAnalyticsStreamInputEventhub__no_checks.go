@@ -123,7 +123,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhub) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhub) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhub) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolAutoScaleOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolAutoScaleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolAutoScaleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BatchPoolAutoScaleOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolAutoScaleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolAutoScaleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchPoolAutoScaleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchPoolAutoScaleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

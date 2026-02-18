@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkFunctionCollectorPolicy) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_NetworkFunctionCollectorPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkFunctionCollectorPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

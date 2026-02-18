@@ -5,16 +5,16 @@ package datafactorytriggertumblingwindow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorytriggertumblingwindow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorytriggertumblingwindow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window}.
 type DataFactoryTriggerTumblingWindow interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Activated() interface{}
 	SetActivated(val interface{})
 	ActivatedInput() interface{}
@@ -25,7 +25,7 @@ type DataFactoryTriggerTumblingWindow interface {
 	SetAnnotations(val *[]*string)
 	AnnotationsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -53,9 +53,9 @@ type DataFactoryTriggerTumblingWindow interface {
 	SetEndTime(val *string)
 	EndTimeInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	Frequency() *string
@@ -70,9 +70,9 @@ type DataFactoryTriggerTumblingWindow interface {
 	SetInterval(val *float64)
 	IntervalInput() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxConcurrency() *float64
 	SetMaxConcurrency(val *float64)
 	MaxConcurrencyInput() *float64
@@ -84,9 +84,9 @@ type DataFactoryTriggerTumblingWindow interface {
 	Pipeline() DataFactoryTriggerTumblingWindowPipelineOutputReference
 	PipelineInput() *DataFactoryTriggerTumblingWindowPipeline
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type DataFactoryTriggerTumblingWindow interface {
 	SetStartTime(val *string)
 	StartTimeInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -116,7 +116,7 @@ type DataFactoryTriggerTumblingWindow interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -134,9 +134,9 @@ type DataFactoryTriggerTumblingWindow interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -184,7 +184,7 @@ type DataFactoryTriggerTumblingWindow interface {
 
 // The jsii proxy struct for DataFactoryTriggerTumblingWindow
 type jsiiProxy_DataFactoryTriggerTumblingWindow struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) Activated() interface{} {
@@ -247,8 +247,8 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) AnnotationsInput() *[]*stri
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -377,8 +377,8 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) EndTimeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -467,8 +467,8 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) IntervalInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -547,8 +547,8 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) PipelineInput() *DataFactor
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -617,8 +617,8 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) StartTimeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -824,7 +824,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetEndTime(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -865,7 +865,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetInterval(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -898,7 +898,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -928,14 +928,14 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow)SetStartTime(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataFactoryTriggerTumblingWindow resource upon running "cdktf plan <stack-name>".
-func DataFactoryTriggerTumblingWindow_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataFactoryTriggerTumblingWindow resource upon running "cdktn plan <stack-name>".
+func DataFactoryTriggerTumblingWindow_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataFactoryTriggerTumblingWindow_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataFactoryTriggerTumblingWindow.DataFactoryTriggerTumblingWindow",
@@ -1069,11 +1069,11 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1210,7 +1210,7 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) HasResourceMove() interface
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1221,11 +1221,11 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) ImportFrom(id *string, prov
 	)
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

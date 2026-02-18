@@ -51,7 +51,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRete
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRete
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

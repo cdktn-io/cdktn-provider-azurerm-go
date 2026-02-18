@@ -167,7 +167,7 @@ func (j *jsiiProxy_VirtualMachine) validateSetLicenseTypeParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualMachine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

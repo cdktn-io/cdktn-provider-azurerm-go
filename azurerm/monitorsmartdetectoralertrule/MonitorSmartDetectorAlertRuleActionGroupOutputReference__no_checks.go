@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorSmartDetectorAlertRuleActionGroupOutputReference) vali
 	return nil
 }
 
-func (m *jsiiProxy_MonitorSmartDetectorAlertRuleActionGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorSmartDetectorAlertRuleActionGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorSmartDetectorAlertRuleActionGroupOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_MonitorSmartDetectorAlertRuleActionGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorSmartDetectorAlertRuleActionGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorSmartDetectorAlertRuleActionGroupOutputReference) vali
 	return nil
 }
 
-func validateNewMonitorSmartDetectorAlertRuleActionGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorSmartDetectorAlertRuleActionGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

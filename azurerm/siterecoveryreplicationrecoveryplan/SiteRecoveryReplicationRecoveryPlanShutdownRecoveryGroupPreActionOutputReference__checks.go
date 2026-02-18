@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAc
 	return nil
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -192,7 +192,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAc
 
 func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAction:
 		val := val.(*SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAction)
@@ -207,7 +207,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAction; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAction; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -254,7 +254,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAc
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -270,7 +270,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreAc
 	return nil
 }
 
-func validateNewSiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPreActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

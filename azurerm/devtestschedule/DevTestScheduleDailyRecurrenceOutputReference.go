@@ -5,14 +5,14 @@ package devtestschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devtestschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/devtestschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DevTestScheduleDailyRecurrenceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type DevTestScheduleDailyRecurrenceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Time() *string
 	SetTime(val *string)
 	TimeInput() *string
@@ -48,7 +48,7 @@ type DevTestScheduleDailyRecurrenceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DevTestScheduleDailyRecurrenceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DevTestScheduleDailyRecurrenceOutputReference interface {
 
 // The jsii proxy struct for DevTestScheduleDailyRecurrenceOutputReference
 type jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) ComplexObjectIndex() interface{} {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) TimeInput() *s
 }
 
 
-func NewDevTestScheduleDailyRecurrenceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DevTestScheduleDailyRecurrenceOutputReference {
+func NewDevTestScheduleDailyRecurrenceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DevTestScheduleDailyRecurrenceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDevTestScheduleDailyRecurrenceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewDevTestScheduleDailyRecurrenceOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewDevTestScheduleDailyRecurrenceOutputReference_Override(d DevTestScheduleDailyRecurrenceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDevTestScheduleDailyRecurrenceOutputReference_Override(d DevTestScheduleDailyRecurrenceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -244,7 +244,7 @@ func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -423,8 +423,8 @@ func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) GetStringMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -436,11 +436,11 @@ func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) InterpolationA
 	return returns
 }
 
-func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -452,7 +452,7 @@ func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) InterpolationF
 	return returns
 }
 
-func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

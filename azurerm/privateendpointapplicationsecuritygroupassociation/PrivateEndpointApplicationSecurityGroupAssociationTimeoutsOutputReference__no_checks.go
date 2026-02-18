@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	return nil
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOut
 	return nil
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivateEndpointApplicationSecurityGroupAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

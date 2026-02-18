@@ -131,7 +131,7 @@ func (j *jsiiProxy_NetappSnapshotPolicy) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetappSnapshotPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

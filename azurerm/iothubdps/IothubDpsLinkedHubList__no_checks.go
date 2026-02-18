@@ -15,7 +15,7 @@ func (i *jsiiProxy_IothubDpsLinkedHubList) validateGetParameters(index *float64)
 	return nil
 }
 
-func (i *jsiiProxy_IothubDpsLinkedHubList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubDpsLinkedHubList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IothubDpsLinkedHubList) validateSetTerraformAttributeParamete
 	return nil
 }
 
-func (j *jsiiProxy_IothubDpsLinkedHubList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubDpsLinkedHubList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IothubDpsLinkedHubList) validateSetWrapsSetParameters(val *bo
 	return nil
 }
 
-func validateNewIothubDpsLinkedHubListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIothubDpsLinkedHubListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

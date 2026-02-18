@@ -139,7 +139,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlServer) validateSetIntegrationRunt
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

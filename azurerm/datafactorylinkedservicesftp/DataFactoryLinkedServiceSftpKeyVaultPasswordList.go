@@ -5,14 +5,14 @@ package datafactorylinkedservicesftp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicesftp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorylinkedservicesftp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryLinkedServiceSftpKeyVaultPasswordList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataFactoryLinkedServiceSftpKeyVaultPasswordList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataFactoryLinkedServiceSftpKeyVaultPasswordList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataFactoryLinkedServiceSftpKeyVaultPasswordOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataFactoryLinkedServiceSftpKeyVaultPasswordList interface {
 
 // The jsii proxy struct for DataFactoryLinkedServiceSftpKeyVaultPasswordList
 type jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) WrapsSet() 
 }
 
 
-func NewDataFactoryLinkedServiceSftpKeyVaultPasswordList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryLinkedServiceSftpKeyVaultPasswordList {
+func NewDataFactoryLinkedServiceSftpKeyVaultPasswordList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryLinkedServiceSftpKeyVaultPasswordList {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryLinkedServiceSftpKeyVaultPasswordListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataFactoryLinkedServiceSftpKeyVaultPasswordList(terraformResource cdktf
 	return &j
 }
 
-func NewDataFactoryLinkedServiceSftpKeyVaultPasswordList_Override(d DataFactoryLinkedServiceSftpKeyVaultPasswordList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataFactoryLinkedServiceSftpKeyVaultPasswordList_Override(d DataFactoryLinkedServiceSftpKeyVaultPasswordList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList)SetWrapsSet(
 	)
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) Get(index *
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

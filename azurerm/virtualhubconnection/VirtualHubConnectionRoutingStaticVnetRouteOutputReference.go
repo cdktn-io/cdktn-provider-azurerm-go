@@ -5,14 +5,14 @@ package virtualhubconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualhubconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualhubconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VirtualHubConnectionRoutingStaticVnetRouteOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AddressPrefixes() *[]*string
 	SetAddressPrefixes(val *[]*string)
 	AddressPrefixesInput() *[]*string
@@ -46,15 +46,15 @@ type VirtualHubConnectionRoutingStaticVnetRouteOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type VirtualHubConnectionRoutingStaticVnetRouteOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAddressPrefixes()
 	ResetName()
 	ResetNextHopIpAddress()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type VirtualHubConnectionRoutingStaticVnetRouteOutputReference interface {
 
 // The jsii proxy struct for VirtualHubConnectionRoutingStaticVnetRouteOutputReference
 type jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) AddressPrefixes() *[]*string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) Te
 }
 
 
-func NewVirtualHubConnectionRoutingStaticVnetRouteOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VirtualHubConnectionRoutingStaticVnetRouteOutputReference {
+func NewVirtualHubConnectionRoutingStaticVnetRouteOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VirtualHubConnectionRoutingStaticVnetRouteOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVirtualHubConnectionRoutingStaticVnetRouteOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -239,7 +239,7 @@ func NewVirtualHubConnectionRoutingStaticVnetRouteOutputReference(terraformResou
 	return &j
 }
 
-func NewVirtualHubConnectionRoutingStaticVnetRouteOutputReference_Override(v VirtualHubConnectionRoutingStaticVnetRouteOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVirtualHubConnectionRoutingStaticVnetRouteOutputReference_Override(v VirtualHubConnectionRoutingStaticVnetRouteOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) Ge
 	return returns
 }
 
-func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -494,8 +494,8 @@ func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) Ge
 	return returns
 }
 
-func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -507,11 +507,11 @@ func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) In
 	return returns
 }
 
-func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -547,7 +547,7 @@ func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) Re
 	)
 }
 
-func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

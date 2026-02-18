@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAzurermBillingMpaAccountScope) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBillingMpaAccountScope) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermBillingMpaAccountScope) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

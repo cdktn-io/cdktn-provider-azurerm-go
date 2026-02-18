@@ -51,7 +51,7 @@ func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationOutputReference) valida
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountAzureFilesAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountAzureFilesAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageAccountAzureFilesAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountAzureFilesAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -55,7 +55,7 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	return nil
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

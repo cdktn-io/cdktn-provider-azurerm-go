@@ -15,7 +15,7 @@ func (l *jsiiProxy_LogicAppStandardConnectionStringList) validateGetParameters(i
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppStandardConnectionStringList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppStandardConnectionStringList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LogicAppStandardConnectionStringList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppStandardConnectionStringList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppStandardConnectionStringList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LogicAppStandardConnectionStringList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewLogicAppStandardConnectionStringListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLogicAppStandardConnectionStringListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

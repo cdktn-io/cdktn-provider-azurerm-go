@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKeyVaultNetworkAclsList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKeyVaultNetworkAclsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKeyVaultNetworkAclsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultNetworkAclsList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKeyVaultNetworkAclsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKeyVaultNetworkAclsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultNetworkAclsList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAzurermKeyVaultNetworkAclsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKeyVaultNetworkAclsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

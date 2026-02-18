@@ -111,7 +111,7 @@ func (j *jsiiProxy_AutomationHybridRunbookWorker) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_AutomationHybridRunbookWorker) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutomationHybridRunbookWorker) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

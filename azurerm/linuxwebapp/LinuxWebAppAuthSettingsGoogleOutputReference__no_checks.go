@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsGoogleOutputReference) validateInterpo
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsGoogleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsGoogleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsGoogleOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppAuthSettingsGoogleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppAuthSettingsGoogleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxWebAppAuthSettingsGoogleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppAuthSettingsGoogleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

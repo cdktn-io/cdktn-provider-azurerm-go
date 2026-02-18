@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcResourceBridgeApplianceTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_ArcResourceBridgeApplianceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcResourceBridgeApplianceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ArcResourceBridgeApplianceTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ArcResourceBridgeApplianceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcResourceBridgeApplianceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ArcResourceBridgeApplianceTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewArcResourceBridgeApplianceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewArcResourceBridgeApplianceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

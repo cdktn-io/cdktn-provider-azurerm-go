@@ -5,14 +5,14 @@ package containerregistrytask
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerregistrytask/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerregistrytask/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerRegistryTaskFileStepOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type ContainerRegistryTaskFileStepOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ValueFilePath() *string
 	SetValueFilePath(val *string)
 	ValueFilePathInput() *string
@@ -63,7 +63,7 @@ type ContainerRegistryTaskFileStepOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type ContainerRegistryTaskFileStepOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetContextAccessToken()
 	ResetContextPath()
 	ResetSecretValues()
@@ -89,7 +89,7 @@ type ContainerRegistryTaskFileStepOutputReference interface {
 	ResetValues()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type ContainerRegistryTaskFileStepOutputReference interface {
 
 // The jsii proxy struct for ContainerRegistryTaskFileStepOutputReference
 type jsiiProxy_ContainerRegistryTaskFileStepOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) ComplexObjectIndex() interface{} {
@@ -242,8 +242,8 @@ func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) ValuesInput() *
 }
 
 
-func NewContainerRegistryTaskFileStepOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ContainerRegistryTaskFileStepOutputReference {
+func NewContainerRegistryTaskFileStepOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ContainerRegistryTaskFileStepOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerRegistryTaskFileStepOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -310,7 +310,7 @@ func NewContainerRegistryTaskFileStepOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewContainerRegistryTaskFileStepOutputReference_Override(c ContainerRegistryTaskFileStepOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewContainerRegistryTaskFileStepOutputReference_Override(c ContainerRegistryTaskFileStepOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -408,7 +408,7 @@ func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -598,8 +598,8 @@ func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -611,11 +611,11 @@ func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) InterpolationAs
 	return returns
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -667,7 +667,7 @@ func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) ResetValues() {
 	)
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

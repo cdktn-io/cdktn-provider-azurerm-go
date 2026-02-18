@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermArcMachineAgentExtensionsAllowListStructOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermArcMachineAgentExtensionsAllowListStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermArcMachineAgentExtensionsAllowListStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermArcMachineAgentExtensionsAllowListStructOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermArcMachineAgentExtensionsAllowListStructOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermArcMachineAgentExtensionsAllowListStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermArcMachineAgentExtensionsAllowListStructOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermArcMachineAgentExtensionsAllowListStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

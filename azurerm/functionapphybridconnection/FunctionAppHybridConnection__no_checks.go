@@ -115,7 +115,7 @@ func (j *jsiiProxy_FunctionAppHybridConnection) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppHybridConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FunctionAppHybridConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

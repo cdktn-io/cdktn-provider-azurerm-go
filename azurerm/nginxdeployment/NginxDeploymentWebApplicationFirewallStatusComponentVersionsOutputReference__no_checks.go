@@ -47,7 +47,7 @@ func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsO
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNginxDeploymentWebApplicationFirewallStatusComponentVersionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

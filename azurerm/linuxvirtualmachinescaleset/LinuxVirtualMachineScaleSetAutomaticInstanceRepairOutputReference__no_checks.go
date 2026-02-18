@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputRefer
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxVirtualMachineScaleSetAutomaticInstanceRepairOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

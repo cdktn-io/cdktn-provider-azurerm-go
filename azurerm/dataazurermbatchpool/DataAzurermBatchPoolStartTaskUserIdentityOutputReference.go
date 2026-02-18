@@ -5,14 +5,14 @@ package dataazurermbatchpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermbatchpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermbatchpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermBatchPoolStartTaskUserIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoUser() DataAzurermBatchPoolStartTaskUserIdentityAutoUserList
 	// the index of the complex object in a list.
 	// Experimental.
@@ -38,16 +38,16 @@ type DataAzurermBatchPoolStartTaskUserIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserName() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAzurermBatchPoolStartTaskUserIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataAzurermBatchPoolStartTaskUserIdentityOutputReference interface {
 
 // The jsii proxy struct for DataAzurermBatchPoolStartTaskUserIdentityOutputReference
 type jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) AutoUser() DataAzurermBatchPoolStartTaskUserIdentityAutoUserList {
@@ -151,8 +151,8 @@ func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Use
 }
 
 
-func NewDataAzurermBatchPoolStartTaskUserIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermBatchPoolStartTaskUserIdentityOutputReference {
+func NewDataAzurermBatchPoolStartTaskUserIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermBatchPoolStartTaskUserIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermBatchPoolStartTaskUserIdentityOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataAzurermBatchPoolStartTaskUserIdentityOutputReference(terraformResour
 	return &j
 }
 
-func NewDataAzurermBatchPoolStartTaskUserIdentityOutputReference_Override(d DataAzurermBatchPoolStartTaskUserIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermBatchPoolStartTaskUserIdentityOutputReference_Override(d DataAzurermBatchPoolStartTaskUserIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermBatchPoolStartTaskUserIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachinePacketCaptureFilterList) validateGetParameters(
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachinePacketCaptureFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachinePacketCaptureFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachinePacketCaptureFilterList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachinePacketCaptureFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachinePacketCaptureFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachinePacketCaptureFilterList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewVirtualMachinePacketCaptureFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachinePacketCaptureFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

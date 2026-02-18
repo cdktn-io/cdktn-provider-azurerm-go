@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociati
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

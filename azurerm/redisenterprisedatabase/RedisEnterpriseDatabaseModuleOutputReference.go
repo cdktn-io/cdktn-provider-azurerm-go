@@ -5,14 +5,14 @@ package redisenterprisedatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/redisenterprisedatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/redisenterprisedatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RedisEnterpriseDatabaseModuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Args() *string
 	SetArgs(val *string)
 	ArgsInput() *string
@@ -43,16 +43,16 @@ type RedisEnterpriseDatabaseModuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Version() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,13 +68,13 @@ type RedisEnterpriseDatabaseModuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetArgs()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type RedisEnterpriseDatabaseModuleOutputReference interface {
 
 // The jsii proxy struct for RedisEnterpriseDatabaseModuleOutputReference
 type jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) Args() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -208,7 +208,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) Version() *stri
 }
 
 
-func NewRedisEnterpriseDatabaseModuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RedisEnterpriseDatabaseModuleOutputReference {
+func NewRedisEnterpriseDatabaseModuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) RedisEnterpriseDatabaseModuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRedisEnterpriseDatabaseModuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -225,7 +225,7 @@ func NewRedisEnterpriseDatabaseModuleOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewRedisEnterpriseDatabaseModuleOutputReference_Override(r RedisEnterpriseDatabaseModuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewRedisEnterpriseDatabaseModuleOutputReference_Override(r RedisEnterpriseDatabaseModuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -301,7 +301,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -341,11 +341,11 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -469,8 +469,8 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -482,11 +482,11 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) InterpolationAs
 	return returns
 }
 
-func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -506,7 +506,7 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) ResetArgs() {
 	)
 }
 
-func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

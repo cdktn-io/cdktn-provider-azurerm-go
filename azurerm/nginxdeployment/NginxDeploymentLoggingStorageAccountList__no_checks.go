@@ -15,7 +15,7 @@ func (n *jsiiProxy_NginxDeploymentLoggingStorageAccountList) validateGetParamete
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeploymentLoggingStorageAccountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NginxDeploymentLoggingStorageAccountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NginxDeploymentLoggingStorageAccountList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeploymentLoggingStorageAccountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NginxDeploymentLoggingStorageAccountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NginxDeploymentLoggingStorageAccountList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewNginxDeploymentLoggingStorageAccountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNginxDeploymentLoggingStorageAccountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

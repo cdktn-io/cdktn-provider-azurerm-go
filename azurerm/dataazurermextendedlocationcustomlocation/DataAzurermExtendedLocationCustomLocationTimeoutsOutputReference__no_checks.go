@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermExtendedLocationCustomLocationTimeoutsOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermExtendedLocationCustomLocationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermExtendedLocationCustomLocationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermExtendedLocationCustomLocationTimeoutsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermExtendedLocationCustomLocationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermExtendedLocationCustomLocationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermExtendedLocationCustomLocationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermExtendedLocationCustomLocationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

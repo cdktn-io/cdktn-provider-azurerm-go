@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPasswordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryLinkedServiceSftpKeyVaultPasswordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataFactoryLinkedServiceSftpKeyVaultPasswordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

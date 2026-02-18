@@ -107,7 +107,7 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

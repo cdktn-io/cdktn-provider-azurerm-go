@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsConnectionDrainingOutput
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsConnectionDrainingOutput
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

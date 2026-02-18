@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApiManagementApiImportOutputReference) validatePutWsdlSelecto
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiImportOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiImportOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ApiManagementApiImportOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiImportOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiImportOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementApiImportOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementApiImportOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

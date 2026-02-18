@@ -5,14 +5,14 @@ package dataazurermspringcloudservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermspringcloudservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermspringcloudservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,21 +35,21 @@ type DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference i
 	InternalValue() *DataAzurermSpringCloudServiceConfigServerGitSettingSshAuth
 	SetInternalValue(val *DataAzurermSpringCloudServiceConfigServerGitSettingSshAuth)
 	PrivateKey() *string
-	StrictHostKeyCheckingEnabled() cdktf.IResolvable
+	StrictHostKeyCheckingEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference i
 
 // The jsii proxy struct for DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference
 type jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) StrictHostKeyCheckingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) StrictHostKeyCheckingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"strictHostKeyCheckingEnabled",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 }
 
 
-func NewDataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference {
+func NewDataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReferenc
 	return &j
 }
 
-func NewDataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference_Override(d DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference_Override(d DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingSshAuthOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

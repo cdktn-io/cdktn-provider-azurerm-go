@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutput
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutput
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutput
 	return nil
 }
 
-func validateNewLogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogAnalyticsDatasourceWindowsPerformanceCounterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package apimanagementapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementapi/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementapi/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementApiOauth2AuthorizationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthorizationServerName() *string
 	SetAuthorizationServerName(val *string)
 	AuthorizationServerNameInput() *string
@@ -43,15 +43,15 @@ type ApiManagementApiOauth2AuthorizationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type ApiManagementApiOauth2AuthorizationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetScope()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ApiManagementApiOauth2AuthorizationOutputReference interface {
 
 // The jsii proxy struct for ApiManagementApiOauth2AuthorizationOutputReference
 type jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) AuthorizationServerName() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) Terraform
 }
 
 
-func NewApiManagementApiOauth2AuthorizationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApiManagementApiOauth2AuthorizationOutputReference {
+func NewApiManagementApiOauth2AuthorizationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApiManagementApiOauth2AuthorizationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementApiOauth2AuthorizationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewApiManagementApiOauth2AuthorizationOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewApiManagementApiOauth2AuthorizationOutputReference_Override(a ApiManagementApiOauth2AuthorizationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApiManagementApiOauth2AuthorizationOutputReference_Override(a ApiManagementApiOauth2AuthorizationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -458,8 +458,8 @@ func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -471,11 +471,11 @@ func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -495,7 +495,7 @@ func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) ResetScop
 	)
 }
 
-func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementApiOauth2AuthorizationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

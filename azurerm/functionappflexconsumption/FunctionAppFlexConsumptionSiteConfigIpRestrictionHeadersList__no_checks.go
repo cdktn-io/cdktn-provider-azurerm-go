@@ -15,7 +15,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersList)
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersList)
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersList)
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFunctionAppFlexConsumptionSiteConfigIpRestrictionHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

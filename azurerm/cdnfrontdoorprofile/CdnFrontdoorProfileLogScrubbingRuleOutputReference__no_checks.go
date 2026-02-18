@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnFrontdoorProfileLogScrubbingRuleOutputReference) validateI
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorProfileLogScrubbingRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorProfileLogScrubbingRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CdnFrontdoorProfileLogScrubbingRuleOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorProfileLogScrubbingRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorProfileLogScrubbingRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnFrontdoorProfileLogScrubbingRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCdnFrontdoorProfileLogScrubbingRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

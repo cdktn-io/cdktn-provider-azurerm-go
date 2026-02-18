@@ -15,7 +15,7 @@ func (m *jsiiProxy_MssqlJobTargetGroupJobTargetList) validateGetParameters(index
 	return nil
 }
 
-func (m *jsiiProxy_MssqlJobTargetGroupJobTargetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlJobTargetGroupJobTargetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MssqlJobTargetGroupJobTargetList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_MssqlJobTargetGroupJobTargetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlJobTargetGroupJobTargetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MssqlJobTargetGroupJobTargetList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewMssqlJobTargetGroupJobTargetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMssqlJobTargetGroupJobTargetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -127,7 +127,7 @@ func (j *jsiiProxy_SpringCloudApiPortal) validateSetInstanceCountParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudApiPortal) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudApiPortal) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

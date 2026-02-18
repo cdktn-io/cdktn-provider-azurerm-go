@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxFunctionAppStorageAccountOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppStorageAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppStorageAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LinuxFunctionAppStorageAccountOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_LinuxFunctionAppStorageAccountOutputReference) validateSetTyp
 	return nil
 }
 
-func validateNewLinuxFunctionAppStorageAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLinuxFunctionAppStorageAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

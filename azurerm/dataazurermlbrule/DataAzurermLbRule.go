@@ -5,20 +5,20 @@ package dataazurermlbrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlbrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermlbrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/lb_rule azurerm_lb_rule}.
 type DataAzurermLbRule interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	BackendAddressPoolId() *string
 	BackendPort() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,14 +29,14 @@ type DataAzurermLbRule interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	DisableOutboundSnat() cdktf.IResolvable
-	EnableFloatingIp() cdktf.IResolvable
-	EnableTcpReset() cdktf.IResolvable
-	FloatingIpEnabled() cdktf.IResolvable
+	DisableOutboundSnat() cdktn.IResolvable
+	EnableFloatingIp() cdktn.IResolvable
+	EnableTcpReset() cdktn.IResolvable
+	FloatingIpEnabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,9 +48,9 @@ type DataAzurermLbRule interface {
 	IdInput() *string
 	IdleTimeoutInMinutes() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadbalancerId() *string
 	SetLoadbalancerId(val *string)
 	LoadbalancerIdInput() *string
@@ -63,14 +63,14 @@ type DataAzurermLbRule interface {
 	ProbeId() *string
 	Protocol() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	TcpResetEnabled() cdktf.IResolvable
+	TcpResetEnabled() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type DataAzurermLbRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataAzurermLbRule interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -124,7 +124,7 @@ type DataAzurermLbRule interface {
 
 // The jsii proxy struct for DataAzurermLbRule
 type jsiiProxy_DataAzurermLbRule struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermLbRule) BackendAddressPoolId() *string {
@@ -147,8 +147,8 @@ func (j *jsiiProxy_DataAzurermLbRule) BackendPort() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermLbRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -187,8 +187,8 @@ func (j *jsiiProxy_DataAzurermLbRule) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) DisableOutboundSnat() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLbRule) DisableOutboundSnat() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"disableOutboundSnat",
@@ -197,8 +197,8 @@ func (j *jsiiProxy_DataAzurermLbRule) DisableOutboundSnat() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) EnableFloatingIp() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLbRule) EnableFloatingIp() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableFloatingIp",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataAzurermLbRule) EnableFloatingIp() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) EnableTcpReset() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLbRule) EnableTcpReset() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableTcpReset",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_DataAzurermLbRule) EnableTcpReset() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) FloatingIpEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLbRule) FloatingIpEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"floatingIpEnabled",
@@ -227,8 +227,8 @@ func (j *jsiiProxy_DataAzurermLbRule) FloatingIpEnabled() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermLbRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_DataAzurermLbRule) IdleTimeoutInMinutes() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermLbRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_DataAzurermLbRule) Protocol() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermLbRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -417,8 +417,8 @@ func (j *jsiiProxy_DataAzurermLbRule) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) TcpResetEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLbRule) TcpResetEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"tcpResetEnabled",
@@ -427,8 +427,8 @@ func (j *jsiiProxy_DataAzurermLbRule) TcpResetEnabled() cdktf.IResolvable {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLbRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermLbRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -526,7 +526,7 @@ func (j *jsiiProxy_DataAzurermLbRule)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLbRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermLbRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -545,7 +545,7 @@ func (j *jsiiProxy_DataAzurermLbRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLbRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermLbRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DataAzurermLbRule)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLbRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermLbRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -586,14 +586,14 @@ func (j *jsiiProxy_DataAzurermLbRule)SetProvider(val cdktf.TerraformProvider) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermLbRule resource upon running "cdktf plan <stack-name>".
-func DataAzurermLbRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermLbRule resource upon running "cdktn plan <stack-name>".
+func DataAzurermLbRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermLbRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermLbRule.DataAzurermLbRule",
@@ -716,11 +716,11 @@ func (d *jsiiProxy_DataAzurermLbRule) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLbRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLbRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -844,11 +844,11 @@ func (d *jsiiProxy_DataAzurermLbRule) GetStringMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLbRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLbRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

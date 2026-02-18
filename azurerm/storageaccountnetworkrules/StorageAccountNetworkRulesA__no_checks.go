@@ -123,7 +123,7 @@ func (j *jsiiProxy_StorageAccountNetworkRulesA) validateSetIpRulesParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountNetworkRulesA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageAccountNetworkRulesA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedApplicationPlanOutputReference) validateInterpolationF
 	return nil
 }
 
-func (m *jsiiProxy_ManagedApplicationPlanOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedApplicationPlanOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ManagedApplicationPlanOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ManagedApplicationPlanOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedApplicationPlanOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ManagedApplicationPlanOutputReference) validateSetVersionPara
 	return nil
 }
 
-func validateNewManagedApplicationPlanOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedApplicationPlanOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkSecurityGroupSecurityRuleList) validateGetParameters(i
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityGroupSecurityRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityGroupSecurityRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkSecurityGroupSecurityRuleList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityGroupSecurityRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityGroupSecurityRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkSecurityGroupSecurityRuleList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewNetworkSecurityGroupSecurityRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkSecurityGroupSecurityRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

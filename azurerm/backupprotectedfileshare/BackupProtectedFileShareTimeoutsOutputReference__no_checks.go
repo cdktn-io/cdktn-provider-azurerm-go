@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupProtectedFileShareTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (b *jsiiProxy_BackupProtectedFileShareTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupProtectedFileShareTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BackupProtectedFileShareTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_BackupProtectedFileShareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupProtectedFileShareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BackupProtectedFileShareTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewBackupProtectedFileShareTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupProtectedFileShareTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

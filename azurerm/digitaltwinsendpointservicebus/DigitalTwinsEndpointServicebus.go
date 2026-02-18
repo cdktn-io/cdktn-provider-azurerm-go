@@ -5,18 +5,18 @@ package digitaltwinsendpointservicebus
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/digitaltwinsendpointservicebus/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/digitaltwinsendpointservicebus/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus}.
 type DigitalTwinsEndpointServicebus interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type DigitalTwinsEndpointServicebus interface {
 	SetDigitalTwinsId(val *string)
 	DigitalTwinsIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,18 +49,18 @@ type DigitalTwinsEndpointServicebus interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type DigitalTwinsEndpointServicebus interface {
 	SetServicebusSecondaryConnectionString(val *string)
 	ServicebusSecondaryConnectionStringInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type DigitalTwinsEndpointServicebus interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type DigitalTwinsEndpointServicebus interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -146,11 +146,11 @@ type DigitalTwinsEndpointServicebus interface {
 
 // The jsii proxy struct for DigitalTwinsEndpointServicebus
 type jsiiProxy_DigitalTwinsEndpointServicebus struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus) DigitalTwinsIdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -289,8 +289,8 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus) ServicebusSecondaryConnection
 	return returns
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -531,7 +531,7 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetDigitalTwinsId(val *string)
 	)
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -572,7 +572,7 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -613,14 +613,14 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus)SetServicebusSecondaryConnecti
 	)
 }
 
-// Generates CDKTF code for importing a DigitalTwinsEndpointServicebus resource upon running "cdktf plan <stack-name>".
-func DigitalTwinsEndpointServicebus_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DigitalTwinsEndpointServicebus resource upon running "cdktn plan <stack-name>".
+func DigitalTwinsEndpointServicebus_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDigitalTwinsEndpointServicebus_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.digitalTwinsEndpointServicebus.DigitalTwinsEndpointServicebus",
@@ -754,11 +754,11 @@ func (d *jsiiProxy_DigitalTwinsEndpointServicebus) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DigitalTwinsEndpointServicebus) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DigitalTwinsEndpointServicebus) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -895,7 +895,7 @@ func (d *jsiiProxy_DigitalTwinsEndpointServicebus) HasResourceMove() interface{}
 	return returns
 }
 
-func (d *jsiiProxy_DigitalTwinsEndpointServicebus) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DigitalTwinsEndpointServicebus) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -906,11 +906,11 @@ func (d *jsiiProxy_DigitalTwinsEndpointServicebus) ImportFrom(id *string, provid
 	)
 }
 
-func (d *jsiiProxy_DigitalTwinsEndpointServicebus) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DigitalTwinsEndpointServicebus) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -5,14 +5,14 @@ package appservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppServiceSiteConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AcrUseManagedIdentityCredentials() interface{}
 	SetAcrUseManagedIdentityCredentials(val interface{})
 	AcrUseManagedIdentityCredentialsInput() interface{}
@@ -115,9 +115,9 @@ type AppServiceSiteConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Use32BitWorkerProcess() interface{}
 	SetUse32BitWorkerProcess(val interface{})
 	Use32BitWorkerProcessInput() interface{}
@@ -135,7 +135,7 @@ type AppServiceSiteConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -151,9 +151,9 @@ type AppServiceSiteConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCors(value *AppServiceSiteConfigCors)
 	PutIpRestriction(value interface{})
 	PutScmIpRestriction(value interface{})
@@ -190,7 +190,7 @@ type AppServiceSiteConfigOutputReference interface {
 	ResetWindowsFxVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -200,7 +200,7 @@ type AppServiceSiteConfigOutputReference interface {
 
 // The jsii proxy struct for AppServiceSiteConfigOutputReference
 type jsiiProxy_AppServiceSiteConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppServiceSiteConfigOutputReference) AcrUseManagedIdentityCredentials() interface{} {
@@ -803,8 +803,8 @@ func (j *jsiiProxy_AppServiceSiteConfigOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_AppServiceSiteConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppServiceSiteConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -894,7 +894,7 @@ func (j *jsiiProxy_AppServiceSiteConfigOutputReference) WindowsFxVersionInput() 
 }
 
 
-func NewAppServiceSiteConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppServiceSiteConfigOutputReference {
+func NewAppServiceSiteConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppServiceSiteConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppServiceSiteConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -911,7 +911,7 @@ func NewAppServiceSiteConfigOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewAppServiceSiteConfigOutputReference_Override(a AppServiceSiteConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppServiceSiteConfigOutputReference_Override(a AppServiceSiteConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -1229,7 +1229,7 @@ func (j *jsiiProxy_AppServiceSiteConfigOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_AppServiceSiteConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppServiceSiteConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -1313,11 +1313,11 @@ func (a *jsiiProxy_AppServiceSiteConfigOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1441,8 +1441,8 @@ func (a *jsiiProxy_AppServiceSiteConfigOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSiteConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppServiceSiteConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1454,11 +1454,11 @@ func (a *jsiiProxy_AppServiceSiteConfigOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1751,7 +1751,7 @@ func (a *jsiiProxy_AppServiceSiteConfigOutputReference) ResetWindowsFxVersion() 
 	)
 }
 
-func (a *jsiiProxy_AppServiceSiteConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppServiceSiteConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

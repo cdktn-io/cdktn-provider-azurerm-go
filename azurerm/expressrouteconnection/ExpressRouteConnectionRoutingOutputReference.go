@@ -5,14 +5,14 @@ package expressrouteconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/expressrouteconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/expressrouteconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ExpressRouteConnectionRoutingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AssociatedRouteTableId() *string
 	SetAssociatedRouteTableId(val *string)
 	AssociatedRouteTableIdInput() *string
@@ -48,15 +48,15 @@ type ExpressRouteConnectionRoutingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type ExpressRouteConnectionRoutingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPropagatedRouteTable(value *ExpressRouteConnectionRoutingPropagatedRouteTable)
 	ResetAssociatedRouteTableId()
 	ResetInboundRouteMapId()
@@ -82,7 +82,7 @@ type ExpressRouteConnectionRoutingOutputReference interface {
 	ResetPropagatedRouteTable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type ExpressRouteConnectionRoutingOutputReference interface {
 
 // The jsii proxy struct for ExpressRouteConnectionRoutingOutputReference
 type jsiiProxy_ExpressRouteConnectionRoutingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) AssociatedRouteTableId() *string {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) TerraformResour
 }
 
 
-func NewExpressRouteConnectionRoutingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ExpressRouteConnectionRoutingOutputReference {
+func NewExpressRouteConnectionRoutingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ExpressRouteConnectionRoutingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewExpressRouteConnectionRoutingOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewExpressRouteConnectionRoutingOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewExpressRouteConnectionRoutingOutputReference_Override(e ExpressRouteConnectionRoutingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewExpressRouteConnectionRoutingOutputReference_Override(e ExpressRouteConnectionRoutingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ExpressRouteConnectionRoutingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -390,11 +390,11 @@ func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -518,8 +518,8 @@ func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -531,11 +531,11 @@ func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) InterpolationAs
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -590,7 +590,7 @@ func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) ResetPropagated
 	)
 }
 
-func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_ExpressRouteConnectionRoutingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

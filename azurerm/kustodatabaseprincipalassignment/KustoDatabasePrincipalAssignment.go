@@ -5,18 +5,18 @@ package kustodatabaseprincipalassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustodatabaseprincipalassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kustodatabaseprincipalassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment}.
 type KustoDatabasePrincipalAssignment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClusterName() *string
 	SetClusterName(val *string)
 	ClusterNameInput() *string
@@ -38,9 +38,9 @@ type KustoDatabasePrincipalAssignment interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type KustoDatabasePrincipalAssignment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -65,9 +65,9 @@ type KustoDatabasePrincipalAssignment interface {
 	SetPrincipalType(val *string)
 	PrincipalTypeInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type KustoDatabasePrincipalAssignment interface {
 	TenantIdInput() *string
 	TenantName() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type KustoDatabasePrincipalAssignment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type KustoDatabasePrincipalAssignment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -156,11 +156,11 @@ type KustoDatabasePrincipalAssignment interface {
 
 // The jsii proxy struct for KustoDatabasePrincipalAssignment
 type jsiiProxy_KustoDatabasePrincipalAssignment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -389,8 +389,8 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment) PrincipalTypeInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -489,8 +489,8 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment) TenantName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -621,7 +621,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -640,7 +640,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -684,7 +684,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetPrincipalType(val *string
 	)
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -736,14 +736,14 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment)SetTenantId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a KustoDatabasePrincipalAssignment resource upon running "cdktf plan <stack-name>".
-func KustoDatabasePrincipalAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a KustoDatabasePrincipalAssignment resource upon running "cdktn plan <stack-name>".
+func KustoDatabasePrincipalAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateKustoDatabasePrincipalAssignment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.kustoDatabasePrincipalAssignment.KustoDatabasePrincipalAssignment",
@@ -877,11 +877,11 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignment) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (k *jsiiProxy_KustoDatabasePrincipalAssignment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KustoDatabasePrincipalAssignment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -1018,7 +1018,7 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignment) HasResourceMove() interface
 	return returns
 }
 
-func (k *jsiiProxy_KustoDatabasePrincipalAssignment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (k *jsiiProxy_KustoDatabasePrincipalAssignment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := k.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1029,11 +1029,11 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignment) ImportFrom(id *string, prov
 	)
 }
 
-func (k *jsiiProxy_KustoDatabasePrincipalAssignment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KustoDatabasePrincipalAssignment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,

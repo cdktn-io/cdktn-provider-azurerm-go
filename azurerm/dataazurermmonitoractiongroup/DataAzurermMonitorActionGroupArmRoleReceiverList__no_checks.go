@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMonitorActionGroupArmRoleReceiverList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorActionGroupArmRoleReceiverList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorActionGroupArmRoleReceiverList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroupArmRoleReceiverList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorActionGroupArmRoleReceiverList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorActionGroupArmRoleReceiverList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroupArmRoleReceiverList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermMonitorActionGroupArmRoleReceiverListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMonitorActionGroupArmRoleReceiverListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppServiceSlotConnectionStringList) validateGetParameters(ind
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotConnectionStringList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotConnectionStringList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppServiceSlotConnectionStringList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotConnectionStringList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotConnectionStringList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppServiceSlotConnectionStringList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewAppServiceSlotConnectionStringListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppServiceSlotConnectionStringListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

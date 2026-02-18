@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeList) validateGetParameters(ind
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewNetappVolumeGroupSapHanaVolumeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetappVolumeGroupSapHanaVolumeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package backuppolicyvm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/backuppolicyvm/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/backuppolicyvm/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BackupPolicyVmBackupOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type BackupPolicyVmBackupOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Time() *string
 	SetTime(val *string)
 	TimeInput() *string
@@ -60,7 +60,7 @@ type BackupPolicyVmBackupOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,15 +76,15 @@ type BackupPolicyVmBackupOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetHourDuration()
 	ResetHourInterval()
 	ResetWeekdays()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type BackupPolicyVmBackupOutputReference interface {
 
 // The jsii proxy struct for BackupPolicyVmBackupOutputReference
 type jsiiProxy_BackupPolicyVmBackupOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BackupPolicyVmBackupOutputReference) ComplexObjectIndex() interface{} {
@@ -217,8 +217,8 @@ func (j *jsiiProxy_BackupPolicyVmBackupOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_BackupPolicyVmBackupOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BackupPolicyVmBackupOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -268,7 +268,7 @@ func (j *jsiiProxy_BackupPolicyVmBackupOutputReference) WeekdaysInput() *[]*stri
 }
 
 
-func NewBackupPolicyVmBackupOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BackupPolicyVmBackupOutputReference {
+func NewBackupPolicyVmBackupOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BackupPolicyVmBackupOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBackupPolicyVmBackupOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -285,7 +285,7 @@ func NewBackupPolicyVmBackupOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewBackupPolicyVmBackupOutputReference_Override(b BackupPolicyVmBackupOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBackupPolicyVmBackupOutputReference_Override(b BackupPolicyVmBackupOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -372,7 +372,7 @@ func (j *jsiiProxy_BackupPolicyVmBackupOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_BackupPolicyVmBackupOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BackupPolicyVmBackupOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -434,11 +434,11 @@ func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -562,8 +562,8 @@ func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -575,11 +575,11 @@ func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -615,7 +615,7 @@ func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) ResetWeekdays() {
 	)
 }
 
-func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BackupPolicyVmBackupOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

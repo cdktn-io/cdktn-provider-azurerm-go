@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermEventgridSystemTopicIdentityList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermEventgridSystemTopicIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermEventgridSystemTopicIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopicIdentityList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermEventgridSystemTopicIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermEventgridSystemTopicIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopicIdentityList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAzurermEventgridSystemTopicIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermEventgridSystemTopicIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

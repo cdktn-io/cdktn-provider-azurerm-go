@@ -47,7 +47,7 @@ func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) validateInte
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWebPubsubNetworkAclPublicNetworkOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWebPubsubNetworkAclPublicNetworkOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

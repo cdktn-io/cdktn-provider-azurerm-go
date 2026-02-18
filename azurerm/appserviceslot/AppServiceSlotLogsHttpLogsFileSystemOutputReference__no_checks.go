@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceSlotLogsHttpLogsFileSystemOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotLogsHttpLogsFileSystemOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotLogsHttpLogsFileSystemOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppServiceSlotLogsHttpLogsFileSystemOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotLogsHttpLogsFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotLogsHttpLogsFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppServiceSlotLogsHttpLogsFileSystemOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceSlotLogsHttpLogsFileSystemOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

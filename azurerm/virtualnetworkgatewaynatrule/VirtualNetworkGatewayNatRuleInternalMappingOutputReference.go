@@ -5,14 +5,14 @@ package virtualnetworkgatewaynatrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualnetworkgatewaynatrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualnetworkgatewaynatrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VirtualNetworkGatewayNatRuleInternalMappingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AddressSpace() *string
 	SetAddressSpace(val *string)
 	AddressSpaceInput() *string
@@ -43,15 +43,15 @@ type VirtualNetworkGatewayNatRuleInternalMappingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type VirtualNetworkGatewayNatRuleInternalMappingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPortRange()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type VirtualNetworkGatewayNatRuleInternalMappingOutputReference interface {
 
 // The jsii proxy struct for VirtualNetworkGatewayNatRuleInternalMappingOutputReference
 type jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) AddressSpace() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) T
 }
 
 
-func NewVirtualNetworkGatewayNatRuleInternalMappingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VirtualNetworkGatewayNatRuleInternalMappingOutputReference {
+func NewVirtualNetworkGatewayNatRuleInternalMappingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) VirtualNetworkGatewayNatRuleInternalMappingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVirtualNetworkGatewayNatRuleInternalMappingOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewVirtualNetworkGatewayNatRuleInternalMappingOutputReference(terraformReso
 	return &j
 }
 
-func NewVirtualNetworkGatewayNatRuleInternalMappingOutputReference_Override(v VirtualNetworkGatewayNatRuleInternalMappingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewVirtualNetworkGatewayNatRuleInternalMappingOutputReference_Override(v VirtualNetworkGatewayNatRuleInternalMappingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) G
 	return returns
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -458,8 +458,8 @@ func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) G
 	return returns
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -471,11 +471,11 @@ func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) I
 	return returns
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -495,7 +495,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) R
 	)
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VirtualNetworkGatewayNatRuleInternalMappingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

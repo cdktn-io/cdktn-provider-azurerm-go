@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNotificationHubTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNotificationHubTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNotificationHubTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermNotificationHubTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNotificationHubTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNotificationHubTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNotificationHubTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermNotificationHubTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

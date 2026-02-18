@@ -5,14 +5,14 @@ package backuppolicyfileshare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/backuppolicyfileshare/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/backuppolicyfileshare/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BackupPolicyFileShareRetentionYearlyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type BackupPolicyFileShareRetentionYearlyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Weekdays() *[]*string
 	SetWeekdays(val *[]*string)
 	WeekdaysInput() *[]*string
@@ -63,7 +63,7 @@ type BackupPolicyFileShareRetentionYearlyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,16 +79,16 @@ type BackupPolicyFileShareRetentionYearlyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDays()
 	ResetIncludeLastDays()
 	ResetWeekdays()
 	ResetWeeks()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type BackupPolicyFileShareRetentionYearlyOutputReference interface {
 
 // The jsii proxy struct for BackupPolicyFileShareRetentionYearlyOutputReference
 type jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) ComplexObjectIndex() interface{} {
@@ -241,8 +241,8 @@ func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -292,7 +292,7 @@ func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) WeeksInp
 }
 
 
-func NewBackupPolicyFileShareRetentionYearlyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BackupPolicyFileShareRetentionYearlyOutputReference {
+func NewBackupPolicyFileShareRetentionYearlyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BackupPolicyFileShareRetentionYearlyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBackupPolicyFileShareRetentionYearlyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -309,7 +309,7 @@ func NewBackupPolicyFileShareRetentionYearlyOutputReference(terraformResource cd
 	return &j
 }
 
-func NewBackupPolicyFileShareRetentionYearlyOutputReference_Override(b BackupPolicyFileShareRetentionYearlyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBackupPolicyFileShareRetentionYearlyOutputReference_Override(b BackupPolicyFileShareRetentionYearlyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -407,7 +407,7 @@ func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -469,11 +469,11 @@ func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) GetAnyMa
 	return returns
 }
 
-func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -597,8 +597,8 @@ func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) GetStrin
 	return returns
 }
 
-func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -610,11 +610,11 @@ func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) Interpol
 	return returns
 }
 
-func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -658,7 +658,7 @@ func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) ResetWee
 	)
 }
 
-func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

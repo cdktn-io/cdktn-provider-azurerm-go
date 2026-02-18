@@ -5,14 +5,14 @@ package functionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/functionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FunctionAppSiteConfigIpRestrictionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() *string
 	SetAction(val *string)
 	ActionInput() *string
@@ -54,9 +54,9 @@ type FunctionAppSiteConfigIpRestrictionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualNetworkSubnetId() *string
 	SetVirtualNetworkSubnetId(val *string)
 	VirtualNetworkSubnetIdInput() *string
@@ -65,7 +65,7 @@ type FunctionAppSiteConfigIpRestrictionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,9 +81,9 @@ type FunctionAppSiteConfigIpRestrictionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeaders(value interface{})
 	ResetAction()
 	ResetHeaders()
@@ -94,7 +94,7 @@ type FunctionAppSiteConfigIpRestrictionOutputReference interface {
 	ResetVirtualNetworkSubnetId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type FunctionAppSiteConfigIpRestrictionOutputReference interface {
 
 // The jsii proxy struct for FunctionAppSiteConfigIpRestrictionOutputReference
 type jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) Action() *string {
@@ -287,8 +287,8 @@ func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) VirtualNet
 }
 
 
-func NewFunctionAppSiteConfigIpRestrictionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FunctionAppSiteConfigIpRestrictionOutputReference {
+func NewFunctionAppSiteConfigIpRestrictionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FunctionAppSiteConfigIpRestrictionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFunctionAppSiteConfigIpRestrictionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -335,7 +335,7 @@ func NewFunctionAppSiteConfigIpRestrictionOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewFunctionAppSiteConfigIpRestrictionOutputReference_Override(f FunctionAppSiteConfigIpRestrictionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFunctionAppSiteConfigIpRestrictionOutputReference_Override(f FunctionAppSiteConfigIpRestrictionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -444,7 +444,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -495,11 +495,11 @@ func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) GetAnyMapA
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -623,8 +623,8 @@ func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) GetStringM
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -636,11 +636,11 @@ func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) Interpolat
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -719,7 +719,7 @@ func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) ResetVirtu
 	)
 }
 
-func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FunctionAppSiteConfigIpRestrictionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,19 +5,19 @@ package dataazurermkeyvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermkeyvault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermkeyvault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/key_vault azurerm_key_vault}.
 type DataAzurermKeyVault interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AccessPolicy() DataAzurermKeyVaultAccessPolicyList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,14 +28,14 @@ type DataAzurermKeyVault interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnabledForDeployment() cdktf.IResolvable
-	EnabledForDiskEncryption() cdktf.IResolvable
-	EnabledForTemplateDeployment() cdktf.IResolvable
-	EnableRbacAuthorization() cdktf.IResolvable
+	EnabledForDeployment() cdktn.IResolvable
+	EnabledForDiskEncryption() cdktn.IResolvable
+	EnabledForTemplateDeployment() cdktn.IResolvable
+	EnableRbacAuthorization() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,9 +44,9 @@ type DataAzurermKeyVault interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -55,22 +55,22 @@ type DataAzurermKeyVault interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	PublicNetworkAccessEnabled() cdktf.IResolvable
-	PurgeProtectionEnabled() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	PublicNetworkAccessEnabled() cdktn.IResolvable
+	PurgeProtectionEnabled() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
-	RbacAuthorizationEnabled() cdktf.IResolvable
+	RbacAuthorizationEnabled() cdktn.IResolvable
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	SkuName() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	TenantId() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type DataAzurermKeyVault interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,7 +99,7 @@ type DataAzurermKeyVault interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -125,7 +125,7 @@ type DataAzurermKeyVault interface {
 
 // The jsii proxy struct for DataAzurermKeyVault
 type jsiiProxy_DataAzurermKeyVault struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermKeyVault) AccessPolicy() DataAzurermKeyVaultAccessPolicyList {
@@ -138,8 +138,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) AccessPolicy() DataAzurermKeyVaultAccess
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermKeyVault) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -178,8 +178,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) EnabledForDeployment() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKeyVault) EnabledForDeployment() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabledForDeployment",
@@ -188,8 +188,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) EnabledForDeployment() cdktf.IResolvable
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) EnabledForDiskEncryption() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKeyVault) EnabledForDiskEncryption() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabledForDiskEncryption",
@@ -198,8 +198,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) EnabledForDiskEncryption() cdktf.IResolv
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) EnabledForTemplateDeployment() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKeyVault) EnabledForTemplateDeployment() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabledForTemplateDeployment",
@@ -208,8 +208,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) EnabledForTemplateDeployment() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) EnableRbacAuthorization() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKeyVault) EnableRbacAuthorization() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableRbacAuthorization",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) EnableRbacAuthorization() cdktf.IResolva
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermKeyVault) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermKeyVault) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermKeyVault) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) Provider() cdktf.TerraformProvider {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) PublicNetworkAccessEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKeyVault) PublicNetworkAccessEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publicNetworkAccessEnabled",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) PublicNetworkAccessEnabled() cdktf.IReso
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) PurgeProtectionEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKeyVault) PurgeProtectionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"purgeProtectionEnabled",
@@ -368,8 +368,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) RbacAuthorizationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermKeyVault) RbacAuthorizationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"rbacAuthorizationEnabled",
@@ -408,8 +408,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) SkuName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermKeyVault) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -428,8 +428,8 @@ func (j *jsiiProxy_DataAzurermKeyVault) TenantId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermKeyVault) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -537,7 +537,7 @@ func (j *jsiiProxy_DataAzurermKeyVault)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermKeyVault)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -556,7 +556,7 @@ func (j *jsiiProxy_DataAzurermKeyVault)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermKeyVault)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DataAzurermKeyVault)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermKeyVault)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermKeyVault)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -597,14 +597,14 @@ func (j *jsiiProxy_DataAzurermKeyVault)SetResourceGroupName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermKeyVault resource upon running "cdktf plan <stack-name>".
-func DataAzurermKeyVault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermKeyVault resource upon running "cdktn plan <stack-name>".
+func DataAzurermKeyVault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermKeyVault_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermKeyVault.DataAzurermKeyVault",
@@ -727,11 +727,11 @@ func (d *jsiiProxy_DataAzurermKeyVault) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKeyVault) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKeyVault) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -855,11 +855,11 @@ func (d *jsiiProxy_DataAzurermKeyVault) GetStringMapAttribute(terraformAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermKeyVault) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermKeyVault) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

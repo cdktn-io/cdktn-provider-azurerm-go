@@ -47,7 +47,7 @@ func (p *jsiiProxy_PimActiveRoleAssignmentScheduleExpirationOutputReference) val
 	return nil
 }
 
-func (p *jsiiProxy_PimActiveRoleAssignmentScheduleExpirationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PimActiveRoleAssignmentScheduleExpirationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_PimActiveRoleAssignmentScheduleExpirationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_PimActiveRoleAssignmentScheduleExpirationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PimActiveRoleAssignmentScheduleExpirationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPimActiveRoleAssignmentScheduleExpirationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPimActiveRoleAssignmentScheduleExpirationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

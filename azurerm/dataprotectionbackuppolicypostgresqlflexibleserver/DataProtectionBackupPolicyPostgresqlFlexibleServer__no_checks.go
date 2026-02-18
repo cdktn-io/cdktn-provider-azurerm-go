@@ -119,7 +119,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

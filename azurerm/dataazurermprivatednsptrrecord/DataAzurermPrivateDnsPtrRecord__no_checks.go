@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsPtrRecord) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPrivateDnsPtrRecord) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermPrivateDnsPtrRecord) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

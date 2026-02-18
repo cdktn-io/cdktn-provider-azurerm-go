@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsConnectionDra
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsConnectionDra
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermApplicationGatewayBackendHttpSettingsConnectionDrainingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

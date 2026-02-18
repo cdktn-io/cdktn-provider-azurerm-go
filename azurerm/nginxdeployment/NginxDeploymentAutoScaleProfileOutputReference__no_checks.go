@@ -47,7 +47,7 @@ func (n *jsiiProxy_NginxDeploymentAutoScaleProfileOutputReference) validateInter
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeploymentAutoScaleProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NginxDeploymentAutoScaleProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_NginxDeploymentAutoScaleProfileOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeploymentAutoScaleProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NginxDeploymentAutoScaleProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNginxDeploymentAutoScaleProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNginxDeploymentAutoScaleProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelDataConnectorOffice365TimeoutsOutputReference) valida
 	return nil
 }
 
-func (s *jsiiProxy_SentinelDataConnectorOffice365TimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelDataConnectorOffice365TimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelDataConnectorOffice365TimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorOffice365TimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelDataConnectorOffice365TimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SentinelDataConnectorOffice365TimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewSentinelDataConnectorOffice365TimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelDataConnectorOffice365TimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

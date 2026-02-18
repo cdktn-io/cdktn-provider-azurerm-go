@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogicAppStandardConnectionStringOutputReference) validateInte
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppStandardConnectionStringOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppStandardConnectionStringOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LogicAppStandardConnectionStringOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppStandardConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppStandardConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_LogicAppStandardConnectionStringOutputReference) validateSetV
 	return nil
 }
 
-func validateNewLogicAppStandardConnectionStringOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLogicAppStandardConnectionStringOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

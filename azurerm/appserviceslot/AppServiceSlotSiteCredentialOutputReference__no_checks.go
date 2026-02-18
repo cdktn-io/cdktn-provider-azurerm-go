@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceSlotSiteCredentialOutputReference) validateInterpol
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotSiteCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotSiteCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_AppServiceSlotSiteCredentialOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotSiteCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotSiteCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppServiceSlotSiteCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppServiceSlotSiteCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

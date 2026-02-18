@@ -5,14 +5,14 @@ package kubernetesclusterextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetesclusterextension/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetesclusterextension/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterExtensionPlanOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type KubernetesClusterExtensionPlanOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Version() *string
 	SetVersion(val *string)
 	VersionInput() *string
@@ -60,7 +60,7 @@ type KubernetesClusterExtensionPlanOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,14 +76,14 @@ type KubernetesClusterExtensionPlanOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPromotionCode()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type KubernetesClusterExtensionPlanOutputReference interface {
 
 // The jsii proxy struct for KubernetesClusterExtensionPlanOutputReference
 type jsiiProxy_KubernetesClusterExtensionPlanOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) ComplexObjectIndex() interface{} {
@@ -236,8 +236,8 @@ func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -267,7 +267,7 @@ func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) VersionInput()
 }
 
 
-func NewKubernetesClusterExtensionPlanOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesClusterExtensionPlanOutputReference {
+func NewKubernetesClusterExtensionPlanOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesClusterExtensionPlanOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterExtensionPlanOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -284,7 +284,7 @@ func NewKubernetesClusterExtensionPlanOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewKubernetesClusterExtensionPlanOutputReference_Override(k KubernetesClusterExtensionPlanOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesClusterExtensionPlanOutputReference_Override(k KubernetesClusterExtensionPlanOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -382,7 +382,7 @@ func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -433,11 +433,11 @@ func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -561,8 +561,8 @@ func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) GetStringMapAt
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -574,11 +574,11 @@ func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) InterpolationA
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -606,7 +606,7 @@ func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) ResetVersion()
 	)
 }
 
-func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

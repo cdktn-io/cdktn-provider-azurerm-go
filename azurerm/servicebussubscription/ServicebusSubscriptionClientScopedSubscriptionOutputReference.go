@@ -5,14 +5,14 @@ package servicebussubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicebussubscription/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicebussubscription/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServicebusSubscriptionClientScopedSubscriptionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -35,7 +35,7 @@ type ServicebusSubscriptionClientScopedSubscriptionOutputReference interface {
 	Fqn() *string
 	InternalValue() *ServicebusSubscriptionClientScopedSubscription
 	SetInternalValue(val *ServicebusSubscriptionClientScopedSubscription)
-	IsClientScopedSubscriptionDurable() cdktf.IResolvable
+	IsClientScopedSubscriptionDurable() cdktn.IResolvable
 	IsClientScopedSubscriptionShareable() interface{}
 	SetIsClientScopedSubscriptionShareable(val interface{})
 	IsClientScopedSubscriptionShareableInput() interface{}
@@ -44,15 +44,15 @@ type ServicebusSubscriptionClientScopedSubscriptionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,14 +68,14 @@ type ServicebusSubscriptionClientScopedSubscriptionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClientId()
 	ResetIsClientScopedSubscriptionShareable()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type ServicebusSubscriptionClientScopedSubscriptionOutputReference interface {
 
 // The jsii proxy struct for ServicebusSubscriptionClientScopedSubscriptionOutputReference
 type jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) ClientId() *string {
@@ -158,8 +158,8 @@ func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) IsClientScopedSubscriptionDurable() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) IsClientScopedSubscriptionDurable() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"isClientScopedSubscriptionDurable",
@@ -198,8 +198,8 @@ func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 }
 
 
-func NewServicebusSubscriptionClientScopedSubscriptionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServicebusSubscriptionClientScopedSubscriptionOutputReference {
+func NewServicebusSubscriptionClientScopedSubscriptionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServicebusSubscriptionClientScopedSubscriptionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServicebusSubscriptionClientScopedSubscriptionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewServicebusSubscriptionClientScopedSubscriptionOutputReference(terraformR
 	return &j
 }
 
-func NewServicebusSubscriptionClientScopedSubscriptionOutputReference_Override(s ServicebusSubscriptionClientScopedSubscriptionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServicebusSubscriptionClientScopedSubscriptionOutputReference_Override(s ServicebusSubscriptionClientScopedSubscriptionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -302,7 +302,7 @@ func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	)
 }
 
-func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -342,11 +342,11 @@ func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	return returns
 }
 
-func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -470,8 +470,8 @@ func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	return returns
 }
 
-func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -483,11 +483,11 @@ func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	return returns
 }
 
-func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -515,7 +515,7 @@ func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	)
 }
 
-func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

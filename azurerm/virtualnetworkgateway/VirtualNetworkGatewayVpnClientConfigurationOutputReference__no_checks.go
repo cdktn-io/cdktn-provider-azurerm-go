@@ -67,7 +67,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationOutputReference) v
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -123,7 +123,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationOutputReference) v
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayVpnClientConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualNetworkGatewayVpnClientConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

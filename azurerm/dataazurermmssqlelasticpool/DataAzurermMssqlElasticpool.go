@@ -5,18 +5,18 @@ package dataazurermmssqlelasticpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmssqlelasticpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmssqlelasticpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/mssql_elasticpool azurerm_mssql_elasticpool}.
 type DataAzurermMssqlElasticpool interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -29,9 +29,9 @@ type DataAzurermMssqlElasticpool interface {
 	SetDependsOn(val *[]*string)
 	EnclaveType() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -41,9 +41,9 @@ type DataAzurermMssqlElasticpool interface {
 	IdInput() *string
 	LicenseType() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	MaxSizeBytes() *float64
 	MaxSizeGb() *float64
@@ -55,9 +55,9 @@ type DataAzurermMssqlElasticpool interface {
 	PerDbMaxCapacity() *float64
 	PerDbMinCapacity() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -67,22 +67,22 @@ type DataAzurermMssqlElasticpool interface {
 	SetServerName(val *string)
 	ServerNameInput() *string
 	Sku() DataAzurermMssqlElasticpoolSkuList
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermMssqlElasticpoolTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	ZoneRedundant() cdktf.IResolvable
+	ZoneRedundant() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataAzurermMssqlElasticpool interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -124,11 +124,11 @@ type DataAzurermMssqlElasticpool interface {
 
 // The jsii proxy struct for DataAzurermMssqlElasticpool
 type jsiiProxy_DataAzurermMssqlElasticpool struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -177,8 +177,8 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool) EnclaveType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool) LicenseType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool) PerDbMinCapacity() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool) Sku() DataAzurermMssqlElasticpoo
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -457,8 +457,8 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool) TimeoutsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) ZoneRedundant() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) ZoneRedundant() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"zoneRedundant",
@@ -516,7 +516,7 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -535,7 +535,7 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -557,7 +557,7 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -587,14 +587,14 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool)SetServerName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermMssqlElasticpool resource upon running "cdktf plan <stack-name>".
-func DataAzurermMssqlElasticpool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermMssqlElasticpool resource upon running "cdktn plan <stack-name>".
+func DataAzurermMssqlElasticpool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermMssqlElasticpool_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermMssqlElasticpool.DataAzurermMssqlElasticpool",
@@ -717,11 +717,11 @@ func (d *jsiiProxy_DataAzurermMssqlElasticpool) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMssqlElasticpool) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermMssqlElasticpool) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -845,11 +845,11 @@ func (d *jsiiProxy_DataAzurermMssqlElasticpool) GetStringMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMssqlElasticpool) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermMssqlElasticpool) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

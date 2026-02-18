@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedLustreFileSystemIdentityOutputReference) validateInter
 	return nil
 }
 
-func (m *jsiiProxy_ManagedLustreFileSystemIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedLustreFileSystemIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ManagedLustreFileSystemIdentityOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ManagedLustreFileSystemIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedLustreFileSystemIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagedLustreFileSystemIdentityOutputReference) validateSetTy
 	return nil
 }
 
-func validateNewManagedLustreFileSystemIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedLustreFileSystemIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

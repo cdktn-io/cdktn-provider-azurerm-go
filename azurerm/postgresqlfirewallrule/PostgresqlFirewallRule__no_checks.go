@@ -111,7 +111,7 @@ func (j *jsiiProxy_PostgresqlFirewallRule) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlFirewallRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PostgresqlFirewallRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

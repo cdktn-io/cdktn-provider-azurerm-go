@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermPostgresqlServerTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPostgresqlServerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPostgresqlServerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermPostgresqlServerTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPostgresqlServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermPostgresqlServerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermPostgresqlServerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

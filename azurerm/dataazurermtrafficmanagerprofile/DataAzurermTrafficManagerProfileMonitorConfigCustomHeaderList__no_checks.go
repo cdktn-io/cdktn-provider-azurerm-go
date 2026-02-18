@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderList
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderList
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderList
 	return nil
 }
 
-func validateNewDataAzurermTrafficManagerProfileMonitorConfigCustomHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermTrafficManagerProfileMonitorConfigCustomHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

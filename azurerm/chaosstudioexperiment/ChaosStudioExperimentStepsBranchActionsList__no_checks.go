@@ -15,7 +15,7 @@ func (c *jsiiProxy_ChaosStudioExperimentStepsBranchActionsList) validateGetParam
 	return nil
 }
 
-func (c *jsiiProxy_ChaosStudioExperimentStepsBranchActionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChaosStudioExperimentStepsBranchActionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ChaosStudioExperimentStepsBranchActionsList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ChaosStudioExperimentStepsBranchActionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChaosStudioExperimentStepsBranchActionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ChaosStudioExperimentStepsBranchActionsList) validateSetWraps
 	return nil
 }
 
-func validateNewChaosStudioExperimentStepsBranchActionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewChaosStudioExperimentStepsBranchActionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

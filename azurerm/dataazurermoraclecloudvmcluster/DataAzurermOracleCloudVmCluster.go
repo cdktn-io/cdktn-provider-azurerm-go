@@ -5,19 +5,19 @@ package dataazurermoraclecloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoraclecloudvmcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoraclecloudvmcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster}.
 type DataAzurermOracleCloudVmCluster interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	BackupSubnetCidr() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CloudExadataInfrastructureId() *string
 	ClusterName() *string
 	CompartmentId() *string
@@ -44,9 +44,9 @@ type DataAzurermOracleCloudVmCluster interface {
 	Domain() *string
 	FileSystemConfiguration() DataAzurermOracleCloudVmClusterFileSystemConfigurationList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,13 +61,13 @@ type DataAzurermOracleCloudVmCluster interface {
 	LastUpdateHistoryEntryId() *string
 	LicenseModel() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleDetails() *string
 	LifecycleState() *string
 	ListenerPort() *float64
-	LocalBackupEnabled() cdktf.IResolvable
+	LocalBackupEnabled() cdktn.IResolvable
 	Location() *string
 	MemorySizeInGbs() *float64
 	Name() *string
@@ -81,9 +81,9 @@ type DataAzurermOracleCloudVmCluster interface {
 	OciUrl() *string
 	OcpuCount() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -95,15 +95,15 @@ type DataAzurermOracleCloudVmCluster interface {
 	ScanListenerPortTcp() *float64
 	ScanListenerPortTcpSsl() *float64
 	Shape() *string
-	SparseDiskgroupEnabled() cdktf.IResolvable
+	SparseDiskgroupEnabled() cdktn.IResolvable
 	SshPublicKeys() *[]*string
 	StorageSizeInGbs() *float64
 	SubnetId() *string
 	SubnetOcid() *string
 	SystemVersion() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -120,7 +120,7 @@ type DataAzurermOracleCloudVmCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -136,7 +136,7 @@ type DataAzurermOracleCloudVmCluster interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -162,7 +162,7 @@ type DataAzurermOracleCloudVmCluster interface {
 
 // The jsii proxy struct for DataAzurermOracleCloudVmCluster
 type jsiiProxy_DataAzurermOracleCloudVmCluster struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) BackupSubnetCidr() *string {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) BackupSubnetCidr() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -365,8 +365,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) FileSystemConfiguration() Da
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -475,8 +475,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) LicenseModel() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -515,8 +515,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) ListenerPort() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) LocalBackupEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) LocalBackupEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"localBackupEnabled",
@@ -625,8 +625,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) OcpuCount() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -725,8 +725,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Shape() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) SparseDiskgroupEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) SparseDiskgroupEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sparseDiskgroupEnabled",
@@ -785,8 +785,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) SystemVersion() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -795,8 +795,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -944,7 +944,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetDependsOn(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -963,7 +963,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -985,7 +985,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1004,14 +1004,14 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster)SetResourceGroupName(val *str
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermOracleCloudVmCluster resource upon running "cdktf plan <stack-name>".
-func DataAzurermOracleCloudVmCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermOracleCloudVmCluster resource upon running "cdktn plan <stack-name>".
+func DataAzurermOracleCloudVmCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermOracleCloudVmCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermOracleCloudVmCluster.DataAzurermOracleCloudVmCluster",
@@ -1134,11 +1134,11 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1262,11 +1262,11 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) GetStringMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

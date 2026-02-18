@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageMoverJobDefinitionTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_StorageMoverJobDefinitionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageMoverJobDefinitionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StorageMoverJobDefinitionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_StorageMoverJobDefinitionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageMoverJobDefinitionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StorageMoverJobDefinitionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewStorageMoverJobDefinitionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageMoverJobDefinitionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesClusterBackupDatasource
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesClusterBackupDatasourceParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesClusterBackupDatasourceParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesClusterBackupDatasource
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesClusterBackupDatasourceParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesClusterBackupDatasourceParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesClusterBackupDatasource
 	return nil
 }
 
-func validateNewDataProtectionBackupInstanceKubernetesClusterBackupDatasourceParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupInstanceKubernetesClusterBackupDatasourceParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

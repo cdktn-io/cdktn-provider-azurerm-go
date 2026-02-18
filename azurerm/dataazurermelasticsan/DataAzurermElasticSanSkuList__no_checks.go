@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermElasticSanSkuList) validateGetParameters(index *fl
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermElasticSanSkuList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermElasticSanSkuList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermElasticSanSkuList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermElasticSanSkuList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermElasticSanSkuList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermElasticSanSkuList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewDataAzurermElasticSanSkuListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermElasticSanSkuListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

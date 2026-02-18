@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerGroupContainerList) validateGetParameters(index *flo
 	return nil
 }
 
-func (c *jsiiProxy_ContainerGroupContainerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerGroupContainerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerGroupContainerList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroupContainerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerGroupContainerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerGroupContainerList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewContainerGroupContainerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerGroupContainerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

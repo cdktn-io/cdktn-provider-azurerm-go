@@ -5,14 +5,14 @@ package dataazurermlinuxfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlinuxfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermlinuxfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppId() *string
 	AppSecret() *string
 	AppSecretSettingName() *string
@@ -41,15 +41,15 @@ type DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference interface {
 
 // The jsii proxy struct for DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference
 type jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) AppId() *string {
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenc
 }
 
 
-func NewDataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference {
+func NewDataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference(terraform
 	return &j
 }
 
-func NewDataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference_Override(d DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference_Override(d DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsFacebookOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightSparkClusterTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightSparkClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HdinsightSparkClusterTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightSparkClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_HdinsightSparkClusterTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewHdinsightSparkClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightSparkClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

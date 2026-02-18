@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityList) validateGe
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_KubernetesClusterExtensionAksAssignedIdentityList) validateSe
 	return nil
 }
 
-func validateNewKubernetesClusterExtensionAksAssignedIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterExtensionAksAssignedIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

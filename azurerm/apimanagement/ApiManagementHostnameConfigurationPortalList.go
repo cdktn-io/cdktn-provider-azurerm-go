@@ -5,14 +5,14 @@ package apimanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagement/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagement/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementHostnameConfigurationPortalList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ApiManagementHostnameConfigurationPortalList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ApiManagementHostnameConfigurationPortalList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ApiManagementHostnameConfigurationPortalOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ApiManagementHostnameConfigurationPortalList interface {
 
 // The jsii proxy struct for ApiManagementHostnameConfigurationPortalList
 type jsiiProxy_ApiManagementHostnameConfigurationPortalList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList) WrapsSet() *boo
 }
 
 
-func NewApiManagementHostnameConfigurationPortalList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApiManagementHostnameConfigurationPortalList {
+func NewApiManagementHostnameConfigurationPortalList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ApiManagementHostnameConfigurationPortalList {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementHostnameConfigurationPortalListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewApiManagementHostnameConfigurationPortalList(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewApiManagementHostnameConfigurationPortalList_Override(a ApiManagementHostnameConfigurationPortalList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewApiManagementHostnameConfigurationPortalList_Override(a ApiManagementHostnameConfigurationPortalList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationPortalList)SetWrapsSet(val 
 	)
 }
 
-func (a *jsiiProxy_ApiManagementHostnameConfigurationPortalList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_ApiManagementHostnameConfigurationPortalList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationPortalList) Get(index *floa
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementHostnameConfigurationPortalList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementHostnameConfigurationPortalList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

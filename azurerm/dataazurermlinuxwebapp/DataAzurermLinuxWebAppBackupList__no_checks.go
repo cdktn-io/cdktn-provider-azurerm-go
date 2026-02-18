@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppBackupList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppBackupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLinuxWebAppBackupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppBackupList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppBackupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLinuxWebAppBackupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppBackupList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAzurermLinuxWebAppBackupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermLinuxWebAppBackupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

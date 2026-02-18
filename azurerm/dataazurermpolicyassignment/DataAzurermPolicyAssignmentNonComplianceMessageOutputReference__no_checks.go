@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermPolicyAssignmentNonComplianceMessageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermPolicyAssignmentNonComplianceMessageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

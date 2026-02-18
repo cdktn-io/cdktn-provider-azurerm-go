@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2OutputReference) valid
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2OutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsWebAppAuthSettingsV2CustomOidcV2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsWebAppAuthSettingsV2CustomOidcV2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

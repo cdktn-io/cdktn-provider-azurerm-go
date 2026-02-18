@@ -123,7 +123,7 @@ func (j *jsiiProxy_LogicAppWorkflow) validateSetIntegrationServiceEnvironmentIdP
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppWorkflow) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogicAppWorkflow) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

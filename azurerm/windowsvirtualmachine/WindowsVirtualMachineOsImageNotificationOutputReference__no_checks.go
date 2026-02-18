@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsVirtualMachineOsImageNotificationOutputReference) vali
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineOsImageNotificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineOsImageNotificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_WindowsVirtualMachineOsImageNotificationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineOsImageNotificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineOsImageNotificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_WindowsVirtualMachineOsImageNotificationOutputReference) vali
 	return nil
 }
 
-func validateNewWindowsVirtualMachineOsImageNotificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsVirtualMachineOsImageNotificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

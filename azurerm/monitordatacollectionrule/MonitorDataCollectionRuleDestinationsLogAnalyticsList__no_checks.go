@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsLogAnalyticsList) valida
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsLogAnalyticsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsLogAnalyticsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsLogAnalyticsList) valida
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsLogAnalyticsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsLogAnalyticsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsLogAnalyticsList) valida
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleDestinationsLogAnalyticsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorDataCollectionRuleDestinationsLogAnalyticsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

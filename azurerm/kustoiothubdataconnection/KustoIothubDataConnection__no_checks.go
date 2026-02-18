@@ -135,7 +135,7 @@ func (j *jsiiProxy_KustoIothubDataConnection) validateSetIothubIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_KustoIothubDataConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KustoIothubDataConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

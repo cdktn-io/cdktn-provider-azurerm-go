@@ -5,14 +5,14 @@ package cdnendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Behavior() *string
 	SetBehavior(val *string)
 	BehaviorInput() *string
@@ -43,15 +43,15 @@ type CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference inter
 
 // The jsii proxy struct for CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference
 type jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) Behavior() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	return returns
 }
 
-func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 }
 
 
-func NewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference {
+func NewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference(te
 	return &j
 }
 
-func NewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference_Override(c CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference_Override(c CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	)
 }
 
-func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	return returns
 }
 
-func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -458,8 +458,8 @@ func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	return returns
 }
 
-func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -471,11 +471,11 @@ func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	return returns
 }
 
-func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -495,7 +495,7 @@ func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	)
 }
 
-func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

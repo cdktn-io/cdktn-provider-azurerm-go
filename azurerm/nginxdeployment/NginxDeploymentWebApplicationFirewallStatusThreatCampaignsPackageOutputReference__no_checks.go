@@ -47,7 +47,7 @@ func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPac
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPac
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNginxDeploymentWebApplicationFirewallStatusThreatCampaignsPackageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

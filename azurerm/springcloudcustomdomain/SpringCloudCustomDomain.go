@@ -5,18 +5,18 @@ package springcloudcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudcustomdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudcustomdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/spring_cloud_custom_domain azurerm_spring_cloud_custom_domain}.
 type SpringCloudCustomDomain interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateName() *string
 	SetCertificateName(val *string)
 	CertificateNameInput() *string
@@ -35,9 +35,9 @@ type SpringCloudCustomDomain interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,18 +46,18 @@ type SpringCloudCustomDomain interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type SpringCloudCustomDomain interface {
 	SetSpringCloudAppId(val *string)
 	SpringCloudAppIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type SpringCloudCustomDomain interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type SpringCloudCustomDomain interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type SpringCloudCustomDomain interface {
 
 // The jsii proxy struct for SpringCloudCustomDomain
 type jsiiProxy_SpringCloudCustomDomain struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SpringCloudCustomDomain) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_SpringCloudCustomDomain) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SpringCloudCustomDomain) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -267,8 +267,8 @@ func (j *jsiiProxy_SpringCloudCustomDomain) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SpringCloudCustomDomain) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_SpringCloudCustomDomain) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SpringCloudCustomDomain) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_SpringCloudCustomDomain) SpringCloudAppIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SpringCloudCustomDomain) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -498,7 +498,7 @@ func (j *jsiiProxy_SpringCloudCustomDomain)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SpringCloudCustomDomain)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -517,7 +517,7 @@ func (j *jsiiProxy_SpringCloudCustomDomain)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SpringCloudCustomDomain)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -539,7 +539,7 @@ func (j *jsiiProxy_SpringCloudCustomDomain)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SpringCloudCustomDomain)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -580,14 +580,14 @@ func (j *jsiiProxy_SpringCloudCustomDomain)SetThumbprint(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SpringCloudCustomDomain resource upon running "cdktf plan <stack-name>".
-func SpringCloudCustomDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SpringCloudCustomDomain resource upon running "cdktn plan <stack-name>".
+func SpringCloudCustomDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSpringCloudCustomDomain_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.springCloudCustomDomain.SpringCloudCustomDomain",
@@ -721,11 +721,11 @@ func (s *jsiiProxy_SpringCloudCustomDomain) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudCustomDomain) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudCustomDomain) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -862,7 +862,7 @@ func (s *jsiiProxy_SpringCloudCustomDomain) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudCustomDomain) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SpringCloudCustomDomain) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -873,11 +873,11 @@ func (s *jsiiProxy_SpringCloudCustomDomain) ImportFrom(id *string, provider cdkt
 	)
 }
 
-func (s *jsiiProxy_SpringCloudCustomDomain) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudCustomDomain) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

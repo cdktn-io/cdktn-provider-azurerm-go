@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsWebAppSiteCredentialList) validateGetParameters(index 
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSiteCredentialList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSiteCredentialList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_WindowsWebAppSiteCredentialList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSiteCredentialList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSiteCredentialList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_WindowsWebAppSiteCredentialList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewWindowsWebAppSiteCredentialListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsWebAppSiteCredentialListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

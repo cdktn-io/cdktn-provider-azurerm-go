@@ -15,7 +15,7 @@ func (o *jsiiProxy_OrbitalSpacecraftLinksList) validateGetParameters(index *floa
 	return nil
 }
 
-func (o *jsiiProxy_OrbitalSpacecraftLinksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrbitalSpacecraftLinksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OrbitalSpacecraftLinksList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_OrbitalSpacecraftLinksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrbitalSpacecraftLinksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OrbitalSpacecraftLinksList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewOrbitalSpacecraftLinksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOrbitalSpacecraftLinksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

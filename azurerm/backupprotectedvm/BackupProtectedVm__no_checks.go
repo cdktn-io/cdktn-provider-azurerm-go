@@ -119,7 +119,7 @@ func (j *jsiiProxy_BackupProtectedVm) validateSetIncludeDiskLunsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_BackupProtectedVm) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupProtectedVm) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

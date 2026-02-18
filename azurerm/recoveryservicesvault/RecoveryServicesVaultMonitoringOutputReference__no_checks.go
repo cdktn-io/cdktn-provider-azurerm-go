@@ -47,7 +47,7 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateInter
 	return nil
 }
 
-func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRecoveryServicesVaultMonitoringOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRecoveryServicesVaultMonitoringOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

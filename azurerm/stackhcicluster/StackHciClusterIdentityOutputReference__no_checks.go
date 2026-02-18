@@ -47,7 +47,7 @@ func (s *jsiiProxy_StackHciClusterIdentityOutputReference) validateInterpolation
 	return nil
 }
 
-func (s *jsiiProxy_StackHciClusterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciClusterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_StackHciClusterIdentityOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_StackHciClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StackHciClusterIdentityOutputReference) validateSetTypeParame
 	return nil
 }
 
-func validateNewStackHciClusterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStackHciClusterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

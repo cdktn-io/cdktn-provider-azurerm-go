@@ -15,7 +15,7 @@ func (s *jsiiProxy_ServiceFabricClusterReverseProxyCertificateCommonNamesCommonN
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateCommonNamesCommonN
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateCommonNamesCommonN
 	return nil
 }
 
-func validateNewServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewServiceFabricClusterReverseProxyCertificateCommonNamesCommonNamesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

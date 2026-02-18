@@ -15,7 +15,7 @@ func (k *jsiiProxy_KeyVaultAccessPolicyList) validateGetParameters(index *float6
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultAccessPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultAccessPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KeyVaultAccessPolicyList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultAccessPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultAccessPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KeyVaultAccessPolicyList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewKeyVaultAccessPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKeyVaultAccessPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HpcCacheIdentityOutputReference) validateInterpolationForAttr
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_HpcCacheIdentityOutputReference) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HpcCacheIdentityOutputReference) validateSetTypeParameters(va
 	return nil
 }
 
-func validateNewHpcCacheIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHpcCacheIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

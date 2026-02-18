@@ -119,7 +119,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroup) validateSetIothubIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_IotSecurityDeviceGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IotSecurityDeviceGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

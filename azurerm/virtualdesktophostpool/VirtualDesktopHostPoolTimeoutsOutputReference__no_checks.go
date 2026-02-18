@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualDesktopHostPoolTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopHostPoolTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopHostPoolTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualDesktopHostPoolTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopHostPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopHostPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualDesktopHostPoolTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewVirtualDesktopHostPoolTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualDesktopHostPoolTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

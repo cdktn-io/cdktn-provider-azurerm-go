@@ -5,18 +5,18 @@ package recoveryservicesvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/recoveryservicesvault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/recoveryservicesvault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/recovery_services_vault azurerm_recovery_services_vault}.
 type RecoveryServicesVault interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClassicVmwareReplicationEnabled() interface{}
 	SetClassicVmwareReplicationEnabled(val interface{})
 	ClassicVmwareReplicationEnabledInput() interface{}
@@ -40,9 +40,9 @@ type RecoveryServicesVault interface {
 	Encryption() RecoveryServicesVaultEncryptionOutputReference
 	EncryptionInput() *RecoveryServicesVaultEncryption
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type RecoveryServicesVault interface {
 	SetImmutability(val *string)
 	ImmutabilityInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -70,9 +70,9 @@ type RecoveryServicesVault interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type RecoveryServicesVault interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -113,7 +113,7 @@ type RecoveryServicesVault interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -131,9 +131,9 @@ type RecoveryServicesVault interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -182,11 +182,11 @@ type RecoveryServicesVault interface {
 
 // The jsii proxy struct for RecoveryServicesVault
 type jsiiProxy_RecoveryServicesVault struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_RecoveryServicesVault) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_RecoveryServicesVault) EncryptionInput() *RecoveryServicesVau
 	return returns
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_RecoveryServicesVault) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -385,8 +385,8 @@ func (j *jsiiProxy_RecoveryServicesVault) ImmutabilityInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_RecoveryServicesVault) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -465,8 +465,8 @@ func (j *jsiiProxy_RecoveryServicesVault) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_RecoveryServicesVault) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -615,8 +615,8 @@ func (j *jsiiProxy_RecoveryServicesVault) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_RecoveryServicesVault) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_RecoveryServicesVault) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -747,7 +747,7 @@ func (j *jsiiProxy_RecoveryServicesVault)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_RecoveryServicesVault)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_RecoveryServicesVault)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -777,7 +777,7 @@ func (j *jsiiProxy_RecoveryServicesVault)SetImmutability(val *string) {
 	)
 }
 
-func (j *jsiiProxy_RecoveryServicesVault)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_RecoveryServicesVault)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -810,7 +810,7 @@ func (j *jsiiProxy_RecoveryServicesVault)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_RecoveryServicesVault)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_RecoveryServicesVault)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -895,14 +895,14 @@ func (j *jsiiProxy_RecoveryServicesVault)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a RecoveryServicesVault resource upon running "cdktf plan <stack-name>".
-func RecoveryServicesVault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a RecoveryServicesVault resource upon running "cdktn plan <stack-name>".
+func RecoveryServicesVault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateRecoveryServicesVault_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.recoveryServicesVault.RecoveryServicesVault",
@@ -1036,11 +1036,11 @@ func (r *jsiiProxy_RecoveryServicesVault) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (r *jsiiProxy_RecoveryServicesVault) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RecoveryServicesVault) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1177,7 +1177,7 @@ func (r *jsiiProxy_RecoveryServicesVault) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_RecoveryServicesVault) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_RecoveryServicesVault) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1188,11 +1188,11 @@ func (r *jsiiProxy_RecoveryServicesVault) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (r *jsiiProxy_RecoveryServicesVault) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RecoveryServicesVault) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

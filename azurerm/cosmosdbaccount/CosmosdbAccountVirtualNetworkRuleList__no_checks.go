@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbAccountVirtualNetworkRuleList) validateGetParameters(
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbAccountVirtualNetworkRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbAccountVirtualNetworkRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbAccountVirtualNetworkRuleList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccountVirtualNetworkRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbAccountVirtualNetworkRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbAccountVirtualNetworkRuleList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewCosmosdbAccountVirtualNetworkRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbAccountVirtualNetworkRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

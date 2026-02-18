@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItems) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItems) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItems) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

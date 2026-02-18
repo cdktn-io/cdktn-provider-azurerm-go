@@ -5,14 +5,14 @@ package dataazurermwindowswebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwindowswebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwindowswebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermWindowsWebAppAuthSettingsGithubList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAzurermWindowsWebAppAuthSettingsGithubList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAzurermWindowsWebAppAuthSettingsGithubList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAzurermWindowsWebAppAuthSettingsGithubOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAzurermWindowsWebAppAuthSettingsGithubList interface {
 
 // The jsii proxy struct for DataAzurermWindowsWebAppAuthSettingsGithubList
 type jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) WrapsSet() *b
 }
 
 
-func NewDataAzurermWindowsWebAppAuthSettingsGithubList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermWindowsWebAppAuthSettingsGithubList {
+func NewDataAzurermWindowsWebAppAuthSettingsGithubList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermWindowsWebAppAuthSettingsGithubList {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermWindowsWebAppAuthSettingsGithubListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAzurermWindowsWebAppAuthSettingsGithubList(terraformResource cdktf.I
 	return &j
 }
 
-func NewDataAzurermWindowsWebAppAuthSettingsGithubList_Override(d DataAzurermWindowsWebAppAuthSettingsGithubList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAzurermWindowsWebAppAuthSettingsGithubList_Override(d DataAzurermWindowsWebAppAuthSettingsGithubList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList)SetWrapsSet(va
 	)
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) Get(index *fl
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermWindowsWebAppAuthSettingsGithubList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

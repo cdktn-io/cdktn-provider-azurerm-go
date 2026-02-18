@@ -51,7 +51,7 @@ func (s *jsiiProxy_SubscriptionPolicyAssignmentOverridesOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionPolicyAssignmentOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionPolicyAssignmentOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesOutputReference) validat
 	return nil
 }
 
-func validateNewSubscriptionPolicyAssignmentOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSubscriptionPolicyAssignmentOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

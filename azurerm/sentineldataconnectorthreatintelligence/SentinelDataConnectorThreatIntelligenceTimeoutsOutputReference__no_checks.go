@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelDataConnectorThreatIntelligenceTimeoutsOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_SentinelDataConnectorThreatIntelligenceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelDataConnectorThreatIntelligenceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SentinelDataConnectorThreatIntelligenceTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorThreatIntelligenceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelDataConnectorThreatIntelligenceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelDataConnectorThreatIntelligenceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelDataConnectorThreatIntelligenceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

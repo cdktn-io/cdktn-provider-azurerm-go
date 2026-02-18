@@ -107,7 +107,7 @@ func (j *jsiiProxy_ChaosStudioTarget) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_ChaosStudioTarget) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ChaosStudioTarget) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

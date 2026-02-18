@@ -135,7 +135,7 @@ func (j *jsiiProxy_ApplicationInsightsWebTest) validateSetKindParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsightsWebTest) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApplicationInsightsWebTest) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

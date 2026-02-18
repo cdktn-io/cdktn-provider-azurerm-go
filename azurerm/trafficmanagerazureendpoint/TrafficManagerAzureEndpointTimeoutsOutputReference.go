@@ -5,14 +5,14 @@ package trafficmanagerazureendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/trafficmanagerazureendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/trafficmanagerazureendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type TrafficManagerAzureEndpointTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type TrafficManagerAzureEndpointTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type TrafficManagerAzureEndpointTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type TrafficManagerAzureEndpointTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type TrafficManagerAzureEndpointTimeoutsOutputReference interface {
 
 // The jsii proxy struct for TrafficManagerAzureEndpointTimeoutsOutputReference
 type jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) UpdateInp
 }
 
 
-func NewTrafficManagerAzureEndpointTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) TrafficManagerAzureEndpointTimeoutsOutputReference {
+func NewTrafficManagerAzureEndpointTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) TrafficManagerAzureEndpointTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewTrafficManagerAzureEndpointTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewTrafficManagerAzureEndpointTimeoutsOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewTrafficManagerAzureEndpointTimeoutsOutputReference_Override(t TrafficManagerAzureEndpointTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewTrafficManagerAzureEndpointTimeoutsOutputReference_Override(t TrafficManagerAzureEndpointTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) GetAnyMap
 	return returns
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -529,8 +529,8 @@ func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) GetString
 	return returns
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -542,11 +542,11 @@ func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) Interpola
 	return returns
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		t,
@@ -590,7 +590,7 @@ func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) ResetUpda
 	)
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := t.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

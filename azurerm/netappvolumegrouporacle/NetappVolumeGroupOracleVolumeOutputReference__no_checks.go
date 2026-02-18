@@ -59,7 +59,7 @@ func (n *jsiiProxy_NetappVolumeGroupOracleVolumeOutputReference) validatePutExpo
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupOracleVolumeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupOracleVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -131,7 +131,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupOracleVolumeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupOracleVolumeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -151,7 +151,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeOutputReference) validateSetZone
 	return nil
 }
 
-func validateNewNetappVolumeGroupOracleVolumeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetappVolumeGroupOracleVolumeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

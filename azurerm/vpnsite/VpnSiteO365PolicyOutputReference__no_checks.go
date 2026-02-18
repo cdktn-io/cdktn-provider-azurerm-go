@@ -51,7 +51,7 @@ func (v *jsiiProxy_VpnSiteO365PolicyOutputReference) validatePutTrafficCategoryP
 	return nil
 }
 
-func (v *jsiiProxy_VpnSiteO365PolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnSiteO365PolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VpnSiteO365PolicyOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_VpnSiteO365PolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnSiteO365PolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnSiteO365PolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpnSiteO365PolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

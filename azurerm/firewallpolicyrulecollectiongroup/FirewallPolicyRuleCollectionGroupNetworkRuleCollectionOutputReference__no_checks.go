@@ -51,7 +51,7 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputR
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFirewallPolicyRuleCollectionGroupNetworkRuleCollectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociationTimeoutsOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainAssociationTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorCustomDomainAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainAssociationTimeoutsOutputReference) v
 	return nil
 }
 
-func validateNewCdnFrontdoorCustomDomainAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorCustomDomainAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

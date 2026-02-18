@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateGetPa
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateResol
 
 func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleStreamDeclaration:
 		val := val.(*[]*MonitorDataCollectionRuleStreamDeclaration)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleStreamDeclaration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleStreamDeclaration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleStreamDeclarationList) validateSetWr
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleStreamDeclarationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorDataCollectionRuleStreamDeclarationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

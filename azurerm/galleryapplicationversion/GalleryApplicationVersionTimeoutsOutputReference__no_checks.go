@@ -47,7 +47,7 @@ func (g *jsiiProxy_GalleryApplicationVersionTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (g *jsiiProxy_GalleryApplicationVersionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GalleryApplicationVersionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_GalleryApplicationVersionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_GalleryApplicationVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GalleryApplicationVersionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_GalleryApplicationVersionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewGalleryApplicationVersionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGalleryApplicationVersionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

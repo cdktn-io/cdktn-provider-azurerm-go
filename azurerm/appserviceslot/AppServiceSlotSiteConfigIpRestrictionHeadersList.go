@@ -5,14 +5,14 @@ package appserviceslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appserviceslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppServiceSlotSiteConfigIpRestrictionHeadersList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AppServiceSlotSiteConfigIpRestrictionHeadersList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AppServiceSlotSiteConfigIpRestrictionHeadersList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AppServiceSlotSiteConfigIpRestrictionHeadersOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AppServiceSlotSiteConfigIpRestrictionHeadersList interface {
 
 // The jsii proxy struct for AppServiceSlotSiteConfigIpRestrictionHeadersList
 type jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) WrapsSet() 
 }
 
 
-func NewAppServiceSlotSiteConfigIpRestrictionHeadersList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppServiceSlotSiteConfigIpRestrictionHeadersList {
+func NewAppServiceSlotSiteConfigIpRestrictionHeadersList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AppServiceSlotSiteConfigIpRestrictionHeadersList {
 	_init_.Initialize()
 
 	if err := validateNewAppServiceSlotSiteConfigIpRestrictionHeadersListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAppServiceSlotSiteConfigIpRestrictionHeadersList(terraformResource cdktf
 	return &j
 }
 
-func NewAppServiceSlotSiteConfigIpRestrictionHeadersList_Override(a AppServiceSlotSiteConfigIpRestrictionHeadersList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAppServiceSlotSiteConfigIpRestrictionHeadersList_Override(a AppServiceSlotSiteConfigIpRestrictionHeadersList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList)SetWrapsSet(
 	)
 }
 
-func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) Get(index *
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

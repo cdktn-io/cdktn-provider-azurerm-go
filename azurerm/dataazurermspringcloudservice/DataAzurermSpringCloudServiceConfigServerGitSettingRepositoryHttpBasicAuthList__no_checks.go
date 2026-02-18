@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepository
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryHttpBasicAuthList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryHttpBasicAuthList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepository
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryHttpBasicAuthList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryHttpBasicAuthList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepository
 	return nil
 }
 
-func validateNewDataAzurermSpringCloudServiceConfigServerGitSettingRepositoryHttpBasicAuthListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSpringCloudServiceConfigServerGitSettingRepositoryHttpBasicAuthListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

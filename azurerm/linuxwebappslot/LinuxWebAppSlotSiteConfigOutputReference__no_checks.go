@@ -67,7 +67,7 @@ func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validatePutScmIpRes
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -175,7 +175,7 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -195,7 +195,7 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateSetWorkerCo
 	return nil
 }
 
-func validateNewLinuxWebAppSlotSiteConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppSlotSiteConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

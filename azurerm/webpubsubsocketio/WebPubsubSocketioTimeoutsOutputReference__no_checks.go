@@ -47,7 +47,7 @@ func (w *jsiiProxy_WebPubsubSocketioTimeoutsOutputReference) validateInterpolati
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubSocketioTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubSocketioTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WebPubsubSocketioTimeoutsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubSocketioTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubSocketioTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WebPubsubSocketioTimeoutsOutputReference) validateSetUpdatePa
 	return nil
 }
 
-func validateNewWebPubsubSocketioTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWebPubsubSocketioTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

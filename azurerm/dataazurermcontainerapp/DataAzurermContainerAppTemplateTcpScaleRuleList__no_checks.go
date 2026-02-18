@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateTcpScaleRuleList) validateSetW
 	return nil
 }
 
-func validateNewDataAzurermContainerAppTemplateTcpScaleRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermContainerAppTemplateTcpScaleRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

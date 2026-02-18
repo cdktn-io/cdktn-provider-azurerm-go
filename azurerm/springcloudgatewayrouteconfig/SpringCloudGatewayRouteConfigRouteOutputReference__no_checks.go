@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudGatewayRouteConfigRouteOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudGatewayRouteConfigRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudGatewayRouteConfigRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_SpringCloudGatewayRouteConfigRouteOutputReference) validateSe
 	return nil
 }
 
-func validateNewSpringCloudGatewayRouteConfigRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSpringCloudGatewayRouteConfigRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

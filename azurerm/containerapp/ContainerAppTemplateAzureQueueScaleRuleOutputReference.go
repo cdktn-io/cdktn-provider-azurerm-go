@@ -5,14 +5,14 @@ package containerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerAppTemplateAzureQueueScaleRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Authentication() ContainerAppTemplateAzureQueueScaleRuleAuthenticationList
 	AuthenticationInput() interface{}
 	// the index of the complex object in a list.
@@ -48,15 +48,15 @@ type ContainerAppTemplateAzureQueueScaleRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,13 +72,13 @@ type ContainerAppTemplateAzureQueueScaleRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuthentication(value interface{})
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ContainerAppTemplateAzureQueueScaleRuleOutputReference interface {
 
 // The jsii proxy struct for ContainerAppTemplateAzureQueueScaleRuleOutputReference
 type jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) Authentication() ContainerAppTemplateAzureQueueScaleRuleAuthenticationList {
@@ -231,8 +231,8 @@ func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -242,7 +242,7 @@ func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) Terra
 }
 
 
-func NewContainerAppTemplateAzureQueueScaleRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerAppTemplateAzureQueueScaleRuleOutputReference {
+func NewContainerAppTemplateAzureQueueScaleRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerAppTemplateAzureQueueScaleRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerAppTemplateAzureQueueScaleRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -259,7 +259,7 @@ func NewContainerAppTemplateAzureQueueScaleRuleOutputReference(terraformResource
 	return &j
 }
 
-func NewContainerAppTemplateAzureQueueScaleRuleOutputReference_Override(c ContainerAppTemplateAzureQueueScaleRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewContainerAppTemplateAzureQueueScaleRuleOutputReference_Override(c ContainerAppTemplateAzureQueueScaleRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -346,7 +346,7 @@ func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -386,11 +386,11 @@ func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) GetAn
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -514,8 +514,8 @@ func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) GetSt
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -527,11 +527,11 @@ func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) Inter
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -554,7 +554,7 @@ func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) PutAu
 	)
 }
 
-func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

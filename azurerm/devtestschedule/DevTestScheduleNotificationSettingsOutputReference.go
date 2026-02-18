@@ -5,14 +5,14 @@ package devtestschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devtestschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/devtestschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DevTestScheduleNotificationSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DevTestScheduleNotificationSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeInMinutes() *float64
 	SetTimeInMinutes(val *float64)
 	TimeInMinutesInput() *float64
@@ -54,7 +54,7 @@ type DevTestScheduleNotificationSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type DevTestScheduleNotificationSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetStatus()
 	ResetTimeInMinutes()
 	ResetWebhookUrl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DevTestScheduleNotificationSettingsOutputReference interface {
 
 // The jsii proxy struct for DevTestScheduleNotificationSettingsOutputReference
 type jsiiProxy_DevTestScheduleNotificationSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -171,8 +171,8 @@ func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) WebhookUr
 }
 
 
-func NewDevTestScheduleNotificationSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DevTestScheduleNotificationSettingsOutputReference {
+func NewDevTestScheduleNotificationSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DevTestScheduleNotificationSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDevTestScheduleNotificationSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewDevTestScheduleNotificationSettingsOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewDevTestScheduleNotificationSettingsOutputReference_Override(d DevTestScheduleNotificationSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDevTestScheduleNotificationSettingsOutputReference_Override(d DevTestScheduleNotificationSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -304,7 +304,7 @@ func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) GetAnyMap
 	return returns
 }
 
-func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -494,8 +494,8 @@ func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) GetString
 	return returns
 }
 
-func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -507,11 +507,11 @@ func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) Interpola
 	return returns
 }
 
-func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -547,7 +547,7 @@ func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) ResetWebh
 	)
 }
 
-func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

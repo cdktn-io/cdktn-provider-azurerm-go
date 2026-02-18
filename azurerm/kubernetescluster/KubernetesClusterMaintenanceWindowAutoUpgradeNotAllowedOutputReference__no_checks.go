@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutput
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutput
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesClusterMaintenanceWindowAutoUpgradeNotAllowedOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

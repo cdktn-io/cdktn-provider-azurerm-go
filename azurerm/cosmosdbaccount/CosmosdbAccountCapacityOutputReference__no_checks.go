@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbAccountCapacityOutputReference) validateInterpolation
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbAccountCapacityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbAccountCapacityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_CosmosdbAccountCapacityOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccountCapacityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbAccountCapacityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CosmosdbAccountCapacityOutputReference) validateSetTotalThrou
 	return nil
 }
 
-func validateNewCosmosdbAccountCapacityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbAccountCapacityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

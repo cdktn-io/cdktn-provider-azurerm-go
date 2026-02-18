@@ -5,14 +5,14 @@ package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdminGroupObjectIds() *[]*string
 	SetAdminGroupObjectIds(val *[]*string)
 	AdminGroupObjectIdsInput() *[]*string
@@ -46,15 +46,15 @@ type KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdminGroupObjectIds()
 	ResetAzureRbacEnabled()
 	ResetTenantId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference 
 
 // The jsii proxy struct for KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference
 type jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) AdminGroupObjectIds() *[]*string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOu
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOu
 }
 
 
-func NewKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference {
+func NewKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReferen
 	return &j
 }
 
-func NewKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference_Override(k KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference_Override(k KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOu
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOu
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -494,8 +494,8 @@ func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOu
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -507,11 +507,11 @@ func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOu
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -547,7 +547,7 @@ func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOu
 	)
 }
 
-func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterAzureActiveDirectoryRoleBasedAccessControlOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

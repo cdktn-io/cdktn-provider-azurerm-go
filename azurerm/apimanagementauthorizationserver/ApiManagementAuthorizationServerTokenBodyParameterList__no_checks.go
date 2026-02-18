@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiManagementAuthorizationServerTokenBodyParameterList) valid
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementAuthorizationServerTokenBodyParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementAuthorizationServerTokenBodyParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiManagementAuthorizationServerTokenBodyParameterList) valid
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementAuthorizationServerTokenBodyParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementAuthorizationServerTokenBodyParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiManagementAuthorizationServerTokenBodyParameterList) valid
 	return nil
 }
 
-func validateNewApiManagementAuthorizationServerTokenBodyParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiManagementAuthorizationServerTokenBodyParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

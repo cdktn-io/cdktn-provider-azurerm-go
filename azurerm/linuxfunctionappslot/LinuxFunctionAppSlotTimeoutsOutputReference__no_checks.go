@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxFunctionAppSlotTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppSlotTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSlotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppSlotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewLinuxFunctionAppSlotTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxFunctionAppSlotTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

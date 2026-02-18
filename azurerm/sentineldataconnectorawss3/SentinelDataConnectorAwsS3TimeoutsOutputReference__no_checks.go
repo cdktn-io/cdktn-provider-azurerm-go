@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelDataConnectorAwsS3TimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SentinelDataConnectorAwsS3TimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelDataConnectorAwsS3TimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelDataConnectorAwsS3TimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorAwsS3TimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelDataConnectorAwsS3TimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SentinelDataConnectorAwsS3TimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewSentinelDataConnectorAwsS3TimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelDataConnectorAwsS3TimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

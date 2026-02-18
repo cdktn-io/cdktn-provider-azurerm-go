@@ -59,7 +59,7 @@ func (l *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validatePutScmIpRe
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -139,7 +139,7 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -155,7 +155,7 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetWebsock
 	return nil
 }
 
-func validateNewLogicAppStandardSiteConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogicAppStandardSiteConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

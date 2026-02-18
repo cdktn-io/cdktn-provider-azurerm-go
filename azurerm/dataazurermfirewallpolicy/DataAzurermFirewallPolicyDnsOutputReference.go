@@ -5,14 +5,14 @@ package dataazurermfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermfirewallpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermfirewallpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermFirewallPolicyDnsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -32,23 +32,23 @@ type DataAzurermFirewallPolicyDnsOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAzurermFirewallPolicyDns
 	SetInternalValue(val *DataAzurermFirewallPolicyDns)
-	NetworkRuleFqdnEnabled() cdktf.IResolvable
-	ProxyEnabled() cdktf.IResolvable
+	NetworkRuleFqdnEnabled() cdktn.IResolvable
+	ProxyEnabled() cdktn.IResolvable
 	Servers() *[]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataAzurermFirewallPolicyDnsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataAzurermFirewallPolicyDnsOutputReference interface {
 
 // The jsii proxy struct for DataAzurermFirewallPolicyDnsOutputReference
 type jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) ComplexObjectIndex() interface{} {
@@ -132,8 +132,8 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) InternalValue() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) NetworkRuleFqdnEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) NetworkRuleFqdnEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"networkRuleFqdnEnabled",
@@ -142,8 +142,8 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) NetworkRuleFqdnE
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) ProxyEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) ProxyEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"proxyEnabled",
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) TerraformResourc
 }
 
 
-func NewDataAzurermFirewallPolicyDnsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermFirewallPolicyDnsOutputReference {
+func NewDataAzurermFirewallPolicyDnsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermFirewallPolicyDnsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermFirewallPolicyDnsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataAzurermFirewallPolicyDnsOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewDataAzurermFirewallPolicyDnsOutputReference_Override(d DataAzurermFirewallPolicyDnsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermFirewallPolicyDnsOutputReference_Override(d DataAzurermFirewallPolicyDnsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) InterpolationAsL
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) InterpolationFor
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermFirewallPolicyDnsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) validateInter
 	return nil
 }
 
-func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlServerAzureadAdministratorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlServerAzureadAdministratorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

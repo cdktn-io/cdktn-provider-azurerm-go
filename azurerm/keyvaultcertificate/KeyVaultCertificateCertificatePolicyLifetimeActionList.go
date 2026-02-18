@@ -5,14 +5,14 @@ package keyvaultcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultcertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/keyvaultcertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KeyVaultCertificateCertificatePolicyLifetimeActionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type KeyVaultCertificateCertificatePolicyLifetimeActionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type KeyVaultCertificateCertificatePolicyLifetimeActionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) KeyVaultCertificateCertificatePolicyLifetimeActionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type KeyVaultCertificateCertificatePolicyLifetimeActionList interface {
 
 // The jsii proxy struct for KeyVaultCertificateCertificatePolicyLifetimeActionList
 type jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) Terra
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) Wraps
 }
 
 
-func NewKeyVaultCertificateCertificatePolicyLifetimeActionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KeyVaultCertificateCertificatePolicyLifetimeActionList {
+func NewKeyVaultCertificateCertificatePolicyLifetimeActionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) KeyVaultCertificateCertificatePolicyLifetimeActionList {
 	_init_.Initialize()
 
 	if err := validateNewKeyVaultCertificateCertificatePolicyLifetimeActionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewKeyVaultCertificateCertificatePolicyLifetimeActionList(terraformResource
 	return &j
 }
 
-func NewKeyVaultCertificateCertificatePolicyLifetimeActionList_Override(k KeyVaultCertificateCertificatePolicyLifetimeActionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewKeyVaultCertificateCertificatePolicyLifetimeActionList_Override(k KeyVaultCertificateCertificatePolicyLifetimeActionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList)SetTer
 	)
 }
 
-func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList)SetWra
 	)
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := k.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		k,
@@ -231,7 +231,7 @@ func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) Get(i
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

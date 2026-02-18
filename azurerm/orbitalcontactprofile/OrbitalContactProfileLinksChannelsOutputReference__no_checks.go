@@ -51,7 +51,7 @@ func (o *jsiiProxy_OrbitalContactProfileLinksChannelsOutputReference) validatePu
 	return nil
 }
 
-func (o *jsiiProxy_OrbitalContactProfileLinksChannelsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrbitalContactProfileLinksChannelsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_OrbitalContactProfileLinksChannelsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_OrbitalContactProfileLinksChannelsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrbitalContactProfileLinksChannelsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewOrbitalContactProfileLinksChannelsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOrbitalContactProfileLinksChannelsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -5,16 +5,16 @@ package apimanagementsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementsubscription/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementsubscription/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/api_management_subscription azurerm_api_management_subscription}.
 type ApiManagementSubscription interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AllowTracing() interface{}
 	SetAllowTracing(val interface{})
 	AllowTracingInput() interface{}
@@ -25,7 +25,7 @@ type ApiManagementSubscription interface {
 	SetApiManagementName(val *string)
 	ApiManagementNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type ApiManagementSubscription interface {
 	SetDisplayName(val *string)
 	DisplayNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type ApiManagementSubscription interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PrimaryKey() *string
@@ -67,9 +67,9 @@ type ApiManagementSubscription interface {
 	SetProductId(val *string)
 	ProductIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type ApiManagementSubscription interface {
 	SetSubscriptionId(val *string)
 	SubscriptionIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -107,7 +107,7 @@ type ApiManagementSubscription interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -125,9 +125,9 @@ type ApiManagementSubscription interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -171,7 +171,7 @@ type ApiManagementSubscription interface {
 
 // The jsii proxy struct for ApiManagementSubscription
 type jsiiProxy_ApiManagementSubscription struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApiManagementSubscription) AllowTracing() interface{} {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_ApiManagementSubscription) ApiManagementNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementSubscription) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApiManagementSubscription) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_ApiManagementSubscription) DisplayNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementSubscription) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApiManagementSubscription) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -354,8 +354,8 @@ func (j *jsiiProxy_ApiManagementSubscription) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementSubscription) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApiManagementSubscription) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -414,8 +414,8 @@ func (j *jsiiProxy_ApiManagementSubscription) ProductIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementSubscription) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApiManagementSubscription) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -524,8 +524,8 @@ func (j *jsiiProxy_ApiManagementSubscription) SubscriptionIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementSubscription) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApiManagementSubscription) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -698,7 +698,7 @@ func (j *jsiiProxy_ApiManagementSubscription)SetDisplayName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementSubscription)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApiManagementSubscription)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -717,7 +717,7 @@ func (j *jsiiProxy_ApiManagementSubscription)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementSubscription)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApiManagementSubscription)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -750,7 +750,7 @@ func (j *jsiiProxy_ApiManagementSubscription)SetProductId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementSubscription)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApiManagementSubscription)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -824,14 +824,14 @@ func (j *jsiiProxy_ApiManagementSubscription)SetUserId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a ApiManagementSubscription resource upon running "cdktf plan <stack-name>".
-func ApiManagementSubscription_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApiManagementSubscription resource upon running "cdktn plan <stack-name>".
+func ApiManagementSubscription_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApiManagementSubscription_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.apiManagementSubscription.ApiManagementSubscription",
@@ -965,11 +965,11 @@ func (a *jsiiProxy_ApiManagementSubscription) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementSubscription) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementSubscription) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1106,7 +1106,7 @@ func (a *jsiiProxy_ApiManagementSubscription) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementSubscription) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApiManagementSubscription) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1117,11 +1117,11 @@ func (a *jsiiProxy_ApiManagementSubscription) ImportFrom(id *string, provider cd
 	)
 }
 
-func (a *jsiiProxy_ApiManagementSubscription) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementSubscription) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

@@ -135,7 +135,7 @@ func (j *jsiiProxy_DevTestLinuxVirtualMachine) validateSetLabVirtualNetworkIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DevTestLinuxVirtualMachine) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DevTestLinuxVirtualMachine) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -143,7 +143,7 @@ func (j *jsiiProxy_DataFactoryDatasetBinary) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetBinary) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryDatasetBinary) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

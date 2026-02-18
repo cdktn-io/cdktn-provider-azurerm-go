@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppLogsApplicationLogsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppLogsApplicationLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLinuxWebAppLogsApplicationLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppLogsApplicationLogsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppLogsApplicationLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLinuxWebAppLogsApplicationLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermLinuxWebAppLogsApplicationLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermLinuxWebAppLogsApplicationLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

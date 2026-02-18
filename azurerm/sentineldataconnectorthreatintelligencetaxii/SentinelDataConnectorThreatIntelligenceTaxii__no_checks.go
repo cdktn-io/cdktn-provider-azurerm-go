@@ -119,7 +119,7 @@ func (j *jsiiProxy_SentinelDataConnectorThreatIntelligenceTaxii) validateSetIdPa
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorThreatIntelligenceTaxii) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorThreatIntelligenceTaxii) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

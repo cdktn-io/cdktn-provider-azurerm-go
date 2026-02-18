@@ -115,7 +115,7 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterComponentVersionOutputReference) valida
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterComponentVersionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterComponentVersionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_HdinsightHadoopClusterComponentVersionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterComponentVersionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterComponentVersionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterComponentVersionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterComponentVersionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

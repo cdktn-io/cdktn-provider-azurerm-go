@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayProbeList) validateGetParameters(index *flo
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayProbeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayProbeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayProbeList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayProbeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayProbeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayProbeList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewApplicationGatewayProbeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayProbeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

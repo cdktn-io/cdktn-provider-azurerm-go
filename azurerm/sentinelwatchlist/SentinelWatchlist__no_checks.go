@@ -127,7 +127,7 @@ func (j *jsiiProxy_SentinelWatchlist) validateSetLabelsParameters(val *[]*string
 	return nil
 }
 
-func (j *jsiiProxy_SentinelWatchlist) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelWatchlist) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

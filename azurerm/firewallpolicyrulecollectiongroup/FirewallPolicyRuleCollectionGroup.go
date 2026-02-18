@@ -5,20 +5,20 @@ package firewallpolicyrulecollectiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/firewallpolicyrulecollectiongroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/firewallpolicyrulecollectiongroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/firewall_policy_rule_collection_group azurerm_firewall_policy_rule_collection_group}.
 type FirewallPolicyRuleCollectionGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationRuleCollection() FirewallPolicyRuleCollectionGroupApplicationRuleCollectionList
 	ApplicationRuleCollectionInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,9 +37,9 @@ type FirewallPolicyRuleCollectionGroup interface {
 	SetFirewallPolicyId(val *string)
 	FirewallPolicyIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,9 +48,9 @@ type FirewallPolicyRuleCollectionGroup interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -64,9 +64,9 @@ type FirewallPolicyRuleCollectionGroup interface {
 	SetPriority(val *float64)
 	PriorityInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type FirewallPolicyRuleCollectionGroup interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type FirewallPolicyRuleCollectionGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type FirewallPolicyRuleCollectionGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -151,7 +151,7 @@ type FirewallPolicyRuleCollectionGroup interface {
 
 // The jsii proxy struct for FirewallPolicyRuleCollectionGroup
 type jsiiProxy_FirewallPolicyRuleCollectionGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) ApplicationRuleCollection() FirewallPolicyRuleCollectionGroupApplicationRuleCollectionList {
@@ -174,8 +174,8 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) ApplicationRuleCollectionI
 	return returns
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -244,8 +244,8 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) FirewallPolicyIdInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -294,8 +294,8 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -394,8 +394,8 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) PriorityInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -424,8 +424,8 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -545,7 +545,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetFirewallPolicyId(val *st
 	)
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -564,7 +564,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -597,7 +597,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetPriority(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -616,14 +616,14 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroup)SetProvisioners(val *[]inte
 	)
 }
 
-// Generates CDKTF code for importing a FirewallPolicyRuleCollectionGroup resource upon running "cdktf plan <stack-name>".
-func FirewallPolicyRuleCollectionGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a FirewallPolicyRuleCollectionGroup resource upon running "cdktn plan <stack-name>".
+func FirewallPolicyRuleCollectionGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateFirewallPolicyRuleCollectionGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.firewallPolicyRuleCollectionGroup.FirewallPolicyRuleCollectionGroup",
@@ -757,11 +757,11 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -898,7 +898,7 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) HasResourceMove() interfac
 	return returns
 }
 
-func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := f.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -909,11 +909,11 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) ImportFrom(id *string, pro
 	)
 }
 
-func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,

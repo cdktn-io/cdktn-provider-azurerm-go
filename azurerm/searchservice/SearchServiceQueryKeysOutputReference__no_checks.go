@@ -47,7 +47,7 @@ func (s *jsiiProxy_SearchServiceQueryKeysOutputReference) validateInterpolationF
 	return nil
 }
 
-func (s *jsiiProxy_SearchServiceQueryKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SearchServiceQueryKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_SearchServiceQueryKeysOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_SearchServiceQueryKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SearchServiceQueryKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSearchServiceQueryKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSearchServiceQueryKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterBootstrapProfileOutputReference) validateInt
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterBootstrapProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterBootstrapProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KubernetesClusterBootstrapProfileOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterBootstrapProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterBootstrapProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterBootstrapProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterBootstrapProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

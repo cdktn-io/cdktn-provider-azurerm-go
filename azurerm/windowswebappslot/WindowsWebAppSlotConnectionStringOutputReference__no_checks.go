@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppSlotConnectionStringOutputReference) validateInt
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotConnectionStringOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotConnectionStringOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WindowsWebAppSlotConnectionStringOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_WindowsWebAppSlotConnectionStringOutputReference) validateSet
 	return nil
 }
 
-func validateNewWindowsWebAppSlotConnectionStringOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsWebAppSlotConnectionStringOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

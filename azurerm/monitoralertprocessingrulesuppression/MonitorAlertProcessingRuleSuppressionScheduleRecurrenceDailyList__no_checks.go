@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyL
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyL
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyL
 	return nil
 }
 
-func validateNewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceDailyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

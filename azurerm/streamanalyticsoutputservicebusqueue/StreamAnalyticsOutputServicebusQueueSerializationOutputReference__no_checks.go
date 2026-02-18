@@ -47,7 +47,7 @@ func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueueSerializationOutputRefere
 	return nil
 }
 
-func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueueSerializationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StreamAnalyticsOutputServicebusQueueSerializationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueueSerializationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueueSerializationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueueSerializationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusQueueSerializationOutputRefere
 	return nil
 }
 
-func validateNewStreamAnalyticsOutputServicebusQueueSerializationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStreamAnalyticsOutputServicebusQueueSerializationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

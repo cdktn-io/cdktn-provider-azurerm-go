@@ -5,14 +5,14 @@ package netappsnapshotpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappsnapshotpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/netappsnapshotpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetappSnapshotPolicyDailyScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type NetappSnapshotPolicyDailyScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type NetappSnapshotPolicyDailyScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type NetappSnapshotPolicyDailyScheduleOutputReference interface {
 
 // The jsii proxy struct for NetappSnapshotPolicyDailyScheduleOutputReference
 type jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) TerraformRe
 }
 
 
-func NewNetappSnapshotPolicyDailyScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetappSnapshotPolicyDailyScheduleOutputReference {
+func NewNetappSnapshotPolicyDailyScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetappSnapshotPolicyDailyScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetappSnapshotPolicyDailyScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewNetappSnapshotPolicyDailyScheduleOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewNetappSnapshotPolicyDailyScheduleOutputReference_Override(n NetappSnapshotPolicyDailyScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetappSnapshotPolicyDailyScheduleOutputReference_Override(n NetappSnapshotPolicyDailyScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -491,8 +491,8 @@ func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) GetStringMa
 	return returns
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -504,11 +504,11 @@ func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) Interpolati
 	return returns
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -520,7 +520,7 @@ func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) Interpolati
 	return returns
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetappSnapshotPolicyDailyScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -115,7 +115,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStandbyPool) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetStandbyPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualMachineScaleSetStandbyPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

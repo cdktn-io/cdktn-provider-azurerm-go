@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateSetInteg
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

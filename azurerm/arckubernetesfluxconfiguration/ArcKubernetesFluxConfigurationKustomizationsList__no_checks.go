@@ -15,7 +15,7 @@ func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsList) validateGet
 	return nil
 }
 
-func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsList) validateSet
 	return nil
 }
 
-func validateNewArcKubernetesFluxConfigurationKustomizationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewArcKubernetesFluxConfigurationKustomizationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

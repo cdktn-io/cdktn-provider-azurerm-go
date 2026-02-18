@@ -5,21 +5,21 @@ package arcmachineautomanageconfigurationassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arcmachineautomanageconfigurationassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/arcmachineautomanageconfigurationassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/arc_machine_automanage_configuration_assignment azurerm_arc_machine_automanage_configuration_assignment}.
 type ArcMachineAutomanageConfigurationAssignment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ArcMachineId() *string
 	SetArcMachineId(val *string)
 	ArcMachineIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConfigurationId() *string
 	SetConfigurationId(val *string)
 	ConfigurationIdInput() *string
@@ -38,9 +38,9 @@ type ArcMachineAutomanageConfigurationAssignment interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,15 +49,15 @@ type ArcMachineAutomanageConfigurationAssignment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type ArcMachineAutomanageConfigurationAssignment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type ArcMachineAutomanageConfigurationAssignment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,9 +98,9 @@ type ArcMachineAutomanageConfigurationAssignment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,7 +136,7 @@ type ArcMachineAutomanageConfigurationAssignment interface {
 
 // The jsii proxy struct for ArcMachineAutomanageConfigurationAssignment
 type jsiiProxy_ArcMachineAutomanageConfigurationAssignment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) ArcMachineId() *string {
@@ -159,8 +159,8 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) ArcMachineIdInpu
 	return returns
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) DependsOn() *[]*
 	return returns
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -279,8 +279,8 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) IdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) Node() construct
 	return returns
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) RawOverrides() i
 	return returns
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -461,7 +461,7 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetDependsOn(val 
 	)
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -480,7 +480,7 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetId(val *string
 	)
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetLifecycle(val 
 	)
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -510,14 +510,14 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment)SetProvisioners(v
 	)
 }
 
-// Generates CDKTF code for importing a ArcMachineAutomanageConfigurationAssignment resource upon running "cdktf plan <stack-name>".
-func ArcMachineAutomanageConfigurationAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ArcMachineAutomanageConfigurationAssignment resource upon running "cdktn plan <stack-name>".
+func ArcMachineAutomanageConfigurationAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateArcMachineAutomanageConfigurationAssignment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.arcMachineAutomanageConfigurationAssignment.ArcMachineAutomanageConfigurationAssignment",
@@ -651,11 +651,11 @@ func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) GetAnyMapAttribu
 	return returns
 }
 
-func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -792,7 +792,7 @@ func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) HasResourceMove(
 	return returns
 }
 
-func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -803,11 +803,11 @@ func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) ImportFrom(id *s
 	)
 }
 
-func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

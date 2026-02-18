@@ -47,7 +47,7 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostA
 	return nil
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostA
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostA
 	return nil
 }
 
-func validateNewSiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSiteRecoveryReplicationRecoveryPlanShutdownRecoveryGroupPostActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

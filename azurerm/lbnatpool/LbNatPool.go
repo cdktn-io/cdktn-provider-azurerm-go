@@ -5,21 +5,21 @@ package lbnatpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lbnatpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/lbnatpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/lb_nat_pool azurerm_lb_nat_pool}.
 type LbNatPool interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BackendPort() *float64
 	SetBackendPort(val *float64)
 	BackendPortInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type LbNatPool interface {
 	SetFloatingIpEnabled(val interface{})
 	FloatingIpEnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,9 +62,9 @@ type LbNatPool interface {
 	SetIdleTimeoutInMinutes(val *float64)
 	IdleTimeoutInMinutesInput() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadbalancerId() *string
 	SetLoadbalancerId(val *string)
 	LoadbalancerIdInput() *string
@@ -77,9 +77,9 @@ type LbNatPool interface {
 	SetProtocol(val *string)
 	ProtocolInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type LbNatPool interface {
 	SetTcpResetEnabled(val interface{})
 	TcpResetEnabledInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type LbNatPool interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type LbNatPool interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -167,7 +167,7 @@ type LbNatPool interface {
 
 // The jsii proxy struct for LbNatPool
 type jsiiProxy_LbNatPool struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LbNatPool) BackendPort() *float64 {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_LbNatPool) BackendPortInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_LbNatPool) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LbNatPool) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -260,8 +260,8 @@ func (j *jsiiProxy_LbNatPool) FloatingIpEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LbNatPool) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LbNatPool) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -400,8 +400,8 @@ func (j *jsiiProxy_LbNatPool) IdleTimeoutInMinutesInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_LbNatPool) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LbNatPool) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -480,8 +480,8 @@ func (j *jsiiProxy_LbNatPool) ProtocolInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LbNatPool) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LbNatPool) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -550,8 +550,8 @@ func (j *jsiiProxy_LbNatPool) TcpResetEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LbNatPool) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LbNatPool) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -682,7 +682,7 @@ func (j *jsiiProxy_LbNatPool)SetFloatingIpEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LbNatPool)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LbNatPool)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -745,7 +745,7 @@ func (j *jsiiProxy_LbNatPool)SetIdleTimeoutInMinutes(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_LbNatPool)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LbNatPool)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -789,7 +789,7 @@ func (j *jsiiProxy_LbNatPool)SetProtocol(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LbNatPool)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LbNatPool)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -830,14 +830,14 @@ func (j *jsiiProxy_LbNatPool)SetTcpResetEnabled(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a LbNatPool resource upon running "cdktf plan <stack-name>".
-func LbNatPool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LbNatPool resource upon running "cdktn plan <stack-name>".
+func LbNatPool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLbNatPool_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.lbNatPool.LbNatPool",
@@ -971,11 +971,11 @@ func (l *jsiiProxy_LbNatPool) GetAnyMapAttribute(terraformAttribute *string) *ma
 	return returns
 }
 
-func (l *jsiiProxy_LbNatPool) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbNatPool) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1112,7 +1112,7 @@ func (l *jsiiProxy_LbNatPool) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LbNatPool) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LbNatPool) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1123,11 +1123,11 @@ func (l *jsiiProxy_LbNatPool) ImportFrom(id *string, provider cdktf.TerraformPro
 	)
 }
 
-func (l *jsiiProxy_LbNatPool) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbNatPool) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

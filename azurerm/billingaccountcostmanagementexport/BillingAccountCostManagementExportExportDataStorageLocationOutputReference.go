@@ -5,14 +5,14 @@ package billingaccountcostmanagementexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/billingaccountcostmanagementexport/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/billingaccountcostmanagementexport/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BillingAccountCostManagementExportExportDataStorageLocationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type BillingAccountCostManagementExportExportDataStorageLocationOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type BillingAccountCostManagementExportExportDataStorageLocationOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type BillingAccountCostManagementExportExportDataStorageLocationOutputReference 
 
 // The jsii proxy struct for BillingAccountCostManagementExportExportDataStorageLocationOutputReference
 type jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	return returns
 }
 
-func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 }
 
 
-func NewBillingAccountCostManagementExportExportDataStorageLocationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BillingAccountCostManagementExportExportDataStorageLocationOutputReference {
+func NewBillingAccountCostManagementExportExportDataStorageLocationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BillingAccountCostManagementExportExportDataStorageLocationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBillingAccountCostManagementExportExportDataStorageLocationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewBillingAccountCostManagementExportExportDataStorageLocationOutputReferen
 	return &j
 }
 
-func NewBillingAccountCostManagementExportExportDataStorageLocationOutputReference_Override(b BillingAccountCostManagementExportExportDataStorageLocationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBillingAccountCostManagementExportExportDataStorageLocationOutputReference_Override(b BillingAccountCostManagementExportExportDataStorageLocationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	)
 }
 
-func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	return returns
 }
 
-func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -457,8 +457,8 @@ func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	return returns
 }
 
-func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -470,11 +470,11 @@ func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	return returns
 }
 
-func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -486,7 +486,7 @@ func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	return returns
 }
 
-func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

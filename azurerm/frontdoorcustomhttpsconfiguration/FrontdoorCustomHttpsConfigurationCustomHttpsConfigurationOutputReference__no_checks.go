@@ -47,7 +47,7 @@ func (f *jsiiProxy_FrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutp
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutp
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFrontdoorCustomHttpsConfigurationCustomHttpsConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package mssqlvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlvirtualmachine/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqlvirtualmachine/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MssqlVirtualMachineAssessmentOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type MssqlVirtualMachineAssessmentOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,16 +69,16 @@ type MssqlVirtualMachineAssessmentOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSchedule(value *MssqlVirtualMachineAssessmentSchedule)
 	ResetEnabled()
 	ResetRunImmediately()
 	ResetSchedule()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type MssqlVirtualMachineAssessmentOutputReference interface {
 
 // The jsii proxy struct for MssqlVirtualMachineAssessmentOutputReference
 type jsiiProxy_MssqlVirtualMachineAssessmentOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) TerraformResour
 }
 
 
-func NewMssqlVirtualMachineAssessmentOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MssqlVirtualMachineAssessmentOutputReference {
+func NewMssqlVirtualMachineAssessmentOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MssqlVirtualMachineAssessmentOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMssqlVirtualMachineAssessmentOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewMssqlVirtualMachineAssessmentOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewMssqlVirtualMachineAssessmentOutputReference_Override(m MssqlVirtualMachineAssessmentOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMssqlVirtualMachineAssessmentOutputReference_Override(m MssqlVirtualMachineAssessmentOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -355,11 +355,11 @@ func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -483,8 +483,8 @@ func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -496,11 +496,11 @@ func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) InterpolationAs
 	return returns
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -547,7 +547,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) ResetSchedule()
 	)
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MssqlVirtualMachineAssessmentOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

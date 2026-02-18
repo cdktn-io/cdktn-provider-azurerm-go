@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetappAccountEncryption) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_NetappAccountEncryption) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetappAccountEncryption) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

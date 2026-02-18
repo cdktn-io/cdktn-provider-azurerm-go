@@ -115,7 +115,7 @@ func (j *jsiiProxy_ContainerRegistryAgentPool) validateSetInstanceCountParameter
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryAgentPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerRegistryAgentPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

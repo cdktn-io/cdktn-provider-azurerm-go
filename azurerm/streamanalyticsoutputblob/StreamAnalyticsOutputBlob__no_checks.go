@@ -131,7 +131,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputBlob) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputBlob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StreamAnalyticsOutputBlob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

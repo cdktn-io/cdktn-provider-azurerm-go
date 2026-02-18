@@ -131,7 +131,7 @@ func (j *jsiiProxy_KubernetesFluxConfiguration) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFluxConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KubernetesFluxConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyOutputReference) validateSetU
 	return nil
 }
 
-func validateNewStorageAccountCustomerManagedKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountCustomerManagedKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

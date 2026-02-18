@@ -5,14 +5,14 @@ package dataazurermoracledbsystemshapes
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracledbsystemshapes/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracledbsystemshapes/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermOracleDbSystemShapesDbSystemShapesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAzurermOracleDbSystemShapesDbSystemShapesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAzurermOracleDbSystemShapesDbSystemShapesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAzurermOracleDbSystemShapesDbSystemShapesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAzurermOracleDbSystemShapesDbSystemShapesList interface {
 
 // The jsii proxy struct for DataAzurermOracleDbSystemShapesDbSystemShapesList
 type jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) WrapsSet()
 }
 
 
-func NewDataAzurermOracleDbSystemShapesDbSystemShapesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermOracleDbSystemShapesDbSystemShapesList {
+func NewDataAzurermOracleDbSystemShapesDbSystemShapesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermOracleDbSystemShapesDbSystemShapesList {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermOracleDbSystemShapesDbSystemShapesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAzurermOracleDbSystemShapesDbSystemShapesList(terraformResource cdkt
 	return &j
 }
 
-func NewDataAzurermOracleDbSystemShapesDbSystemShapesList_Override(d DataAzurermOracleDbSystemShapesDbSystemShapesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAzurermOracleDbSystemShapesDbSystemShapesList_Override(d DataAzurermOracleDbSystemShapesDbSystemShapesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList)SetWrapsSet
 	)
 }
 
-func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) Get(index 
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -111,7 +111,7 @@ func (j *jsiiProxy_SiteRecoveryVmwareReplicationPolicy) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryVmwareReplicationPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SiteRecoveryVmwareReplicationPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package webpubsubsharedprivatelinkresource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubsharedprivatelinkresource/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webpubsubsharedprivatelinkresource/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/web_pubsub_shared_private_link_resource azurerm_web_pubsub_shared_private_link_resource}.
 type WebPubsubSharedPrivateLinkResource interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type WebPubsubSharedPrivateLinkResource interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,18 +43,18 @@ type WebPubsubSharedPrivateLinkResource interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type WebPubsubSharedPrivateLinkResource interface {
 	SetTargetResourceId(val *string)
 	TargetResourceIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type WebPubsubSharedPrivateLinkResource interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type WebPubsubSharedPrivateLinkResource interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,11 +147,11 @@ type WebPubsubSharedPrivateLinkResource interface {
 
 // The jsii proxy struct for WebPubsubSharedPrivateLinkResource
 type jsiiProxy_WebPubsubSharedPrivateLinkResource struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -200,8 +200,8 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -250,8 +250,8 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -390,8 +390,8 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) TargetResourceIdInput() *
 	return returns
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -520,7 +520,7 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetDependsOn(val *[]*strin
 	)
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -539,7 +539,7 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -561,7 +561,7 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -624,14 +624,14 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource)SetWebPubsubId(val *string
 	)
 }
 
-// Generates CDKTF code for importing a WebPubsubSharedPrivateLinkResource resource upon running "cdktf plan <stack-name>".
-func WebPubsubSharedPrivateLinkResource_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WebPubsubSharedPrivateLinkResource resource upon running "cdktn plan <stack-name>".
+func WebPubsubSharedPrivateLinkResource_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWebPubsubSharedPrivateLinkResource_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.webPubsubSharedPrivateLinkResource.WebPubsubSharedPrivateLinkResource",
@@ -765,11 +765,11 @@ func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -906,7 +906,7 @@ func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) HasResourceMove() interfa
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -917,11 +917,11 @@ func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) ImportFrom(id *string, pr
 	)
 }
 
-func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermElasticSanVolumeGroupIdentityList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermElasticSanVolumeGroupIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermElasticSanVolumeGroupIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupIdentityList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupIdentityList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAzurermElasticSanVolumeGroupIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermElasticSanVolumeGroupIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,16 +5,16 @@ package windowsvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsvirtualmachine/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsvirtualmachine/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine}.
 type WindowsVirtualMachine interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalCapabilities() WindowsVirtualMachineAdditionalCapabilitiesOutputReference
 	AdditionalCapabilitiesInput() *WindowsVirtualMachineAdditionalCapabilities
 	AdditionalUnattendContent() WindowsVirtualMachineAdditionalUnattendContentList
@@ -43,7 +43,7 @@ type WindowsVirtualMachine interface {
 	SetCapacityReservationGroupId(val *string)
 	CapacityReservationGroupIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComputerName() *string
 	SetComputerName(val *string)
 	ComputerNameInput() *string
@@ -89,9 +89,9 @@ type WindowsVirtualMachine interface {
 	SetExtensionsTimeBudget(val *string)
 	ExtensionsTimeBudgetInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -110,9 +110,9 @@ type WindowsVirtualMachine interface {
 	SetLicenseType(val *string)
 	LicenseTypeInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -151,9 +151,9 @@ type WindowsVirtualMachine interface {
 	PrivateIpAddress() *string
 	PrivateIpAddresses() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -193,7 +193,7 @@ type WindowsVirtualMachine interface {
 	TerminationNotification() WindowsVirtualMachineTerminationNotificationOutputReference
 	TerminationNotificationInput() *WindowsVirtualMachineTerminationNotification
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -229,7 +229,7 @@ type WindowsVirtualMachine interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -247,9 +247,9 @@ type WindowsVirtualMachine interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -345,7 +345,7 @@ type WindowsVirtualMachine interface {
 
 // The jsii proxy struct for WindowsVirtualMachine
 type jsiiProxy_WindowsVirtualMachine struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_WindowsVirtualMachine) AdditionalCapabilities() WindowsVirtualMachineAdditionalCapabilitiesOutputReference {
@@ -548,8 +548,8 @@ func (j *jsiiProxy_WindowsVirtualMachine) CapacityReservationGroupIdInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WindowsVirtualMachine) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -798,8 +798,8 @@ func (j *jsiiProxy_WindowsVirtualMachine) ExtensionsTimeBudgetInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WindowsVirtualMachine) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -928,8 +928,8 @@ func (j *jsiiProxy_WindowsVirtualMachine) LicenseTypeInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WindowsVirtualMachine) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1208,8 +1208,8 @@ func (j *jsiiProxy_WindowsVirtualMachine) PrivateIpAddresses() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WindowsVirtualMachine) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1478,8 +1478,8 @@ func (j *jsiiProxy_WindowsVirtualMachine) TerminationNotificationInput() *Window
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WindowsVirtualMachine) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1925,7 +1925,7 @@ func (j *jsiiProxy_WindowsVirtualMachine)SetExtensionsTimeBudget(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WindowsVirtualMachine)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1966,7 +1966,7 @@ func (j *jsiiProxy_WindowsVirtualMachine)SetLicenseType(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WindowsVirtualMachine)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -2076,7 +2076,7 @@ func (j *jsiiProxy_WindowsVirtualMachine)SetPriority(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WindowsVirtualMachine)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WindowsVirtualMachine)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -2249,14 +2249,14 @@ func (j *jsiiProxy_WindowsVirtualMachine)SetZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a WindowsVirtualMachine resource upon running "cdktf plan <stack-name>".
-func WindowsVirtualMachine_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WindowsVirtualMachine resource upon running "cdktn plan <stack-name>".
+func WindowsVirtualMachine_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWindowsVirtualMachine_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.windowsVirtualMachine.WindowsVirtualMachine",
@@ -2390,11 +2390,11 @@ func (w *jsiiProxy_WindowsVirtualMachine) GetAnyMapAttribute(terraformAttribute 
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachine) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachine) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -2531,7 +2531,7 @@ func (w *jsiiProxy_WindowsVirtualMachine) HasResourceMove() interface{} {
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachine) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WindowsVirtualMachine) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -2542,11 +2542,11 @@ func (w *jsiiProxy_WindowsVirtualMachine) ImportFrom(id *string, provider cdktf.
 	)
 }
 
-func (w *jsiiProxy_WindowsVirtualMachine) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachine) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

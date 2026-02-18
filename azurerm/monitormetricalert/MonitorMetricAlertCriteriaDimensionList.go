@@ -5,14 +5,14 @@ package monitormetricalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitormetricalert/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitormetricalert/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorMetricAlertCriteriaDimensionList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type MonitorMetricAlertCriteriaDimensionList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type MonitorMetricAlertCriteriaDimensionList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) MonitorMetricAlertCriteriaDimensionOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type MonitorMetricAlertCriteriaDimensionList interface {
 
 // The jsii proxy struct for MonitorMetricAlertCriteriaDimensionList
 type jsiiProxy_MonitorMetricAlertCriteriaDimensionList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) WrapsSet() *bool {
 }
 
 
-func NewMonitorMetricAlertCriteriaDimensionList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitorMetricAlertCriteriaDimensionList {
+func NewMonitorMetricAlertCriteriaDimensionList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MonitorMetricAlertCriteriaDimensionList {
 	_init_.Initialize()
 
 	if err := validateNewMonitorMetricAlertCriteriaDimensionListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewMonitorMetricAlertCriteriaDimensionList(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewMonitorMetricAlertCriteriaDimensionList_Override(m MonitorMetricAlertCriteriaDimensionList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewMonitorMetricAlertCriteriaDimensionList_Override(m MonitorMetricAlertCriteriaDimensionList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionList)SetWrapsSet(val *bool
 	)
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) Get(index *float64) 
 	return returns
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

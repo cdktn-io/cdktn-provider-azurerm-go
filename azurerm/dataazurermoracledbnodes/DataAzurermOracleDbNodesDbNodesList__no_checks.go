@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermOracleDbNodesDbNodesList) validateGetParameters(in
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleDbNodesDbNodesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleDbNodesDbNodesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermOracleDbNodesDbNodesList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleDbNodesDbNodesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleDbNodesDbNodesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermOracleDbNodesDbNodesList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewDataAzurermOracleDbNodesDbNodesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermOracleDbNodesDbNodesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

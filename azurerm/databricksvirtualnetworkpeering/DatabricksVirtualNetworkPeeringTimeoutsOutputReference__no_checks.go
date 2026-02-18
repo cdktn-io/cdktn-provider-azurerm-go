@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabricksVirtualNetworkPeeringTimeoutsOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DatabricksVirtualNetworkPeeringTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabricksVirtualNetworkPeeringTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DatabricksVirtualNetworkPeeringTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DatabricksVirtualNetworkPeeringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabricksVirtualNetworkPeeringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DatabricksVirtualNetworkPeeringTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewDatabricksVirtualNetworkPeeringTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabricksVirtualNetworkPeeringTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

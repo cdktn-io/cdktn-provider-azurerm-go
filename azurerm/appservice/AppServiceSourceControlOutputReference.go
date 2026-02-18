@@ -5,14 +5,14 @@ package appservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppServiceSourceControlOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Branch() *string
 	SetBranch(val *string)
 	BranchInput() *string
@@ -49,9 +49,9 @@ type AppServiceSourceControlOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseMercurial() interface{}
 	SetUseMercurial(val interface{})
 	UseMercurialInput() interface{}
@@ -60,7 +60,7 @@ type AppServiceSourceControlOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type AppServiceSourceControlOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBranch()
 	ResetManualIntegration()
 	ResetRepoUrl()
@@ -86,7 +86,7 @@ type AppServiceSourceControlOutputReference interface {
 	ResetUseMercurial()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type AppServiceSourceControlOutputReference interface {
 
 // The jsii proxy struct for AppServiceSourceControlOutputReference
 type jsiiProxy_AppServiceSourceControlOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppServiceSourceControlOutputReference) Branch() *string {
@@ -239,8 +239,8 @@ func (j *jsiiProxy_AppServiceSourceControlOutputReference) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_AppServiceSourceControlOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppServiceSourceControlOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_AppServiceSourceControlOutputReference) UseMercurialInput() i
 }
 
 
-func NewAppServiceSourceControlOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppServiceSourceControlOutputReference {
+func NewAppServiceSourceControlOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppServiceSourceControlOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppServiceSourceControlOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewAppServiceSourceControlOutputReference(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewAppServiceSourceControlOutputReference_Override(a AppServiceSourceControlOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppServiceSourceControlOutputReference_Override(a AppServiceSourceControlOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_AppServiceSourceControlOutputReference)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_AppServiceSourceControlOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppServiceSourceControlOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (a *jsiiProxy_AppServiceSourceControlOutputReference) GetAnyMapAttribute(te
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSourceControlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSourceControlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -564,8 +564,8 @@ func (a *jsiiProxy_AppServiceSourceControlOutputReference) GetStringMapAttribute
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSourceControlOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppServiceSourceControlOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -577,11 +577,11 @@ func (a *jsiiProxy_AppServiceSourceControlOutputReference) InterpolationAsList()
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSourceControlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSourceControlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -633,7 +633,7 @@ func (a *jsiiProxy_AppServiceSourceControlOutputReference) ResetUseMercurial() {
 	)
 }
 
-func (a *jsiiProxy_AppServiceSourceControlOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppServiceSourceControlOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

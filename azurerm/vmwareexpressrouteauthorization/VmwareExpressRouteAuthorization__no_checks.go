@@ -107,7 +107,7 @@ func (j *jsiiProxy_VmwareExpressRouteAuthorization) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_VmwareExpressRouteAuthorization) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VmwareExpressRouteAuthorization) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

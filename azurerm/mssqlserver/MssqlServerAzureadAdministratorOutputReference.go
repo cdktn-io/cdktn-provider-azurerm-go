@@ -5,14 +5,14 @@ package mssqlserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqlserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MssqlServerAzureadAdministratorOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AzureadAuthenticationOnly() interface{}
 	SetAzureadAuthenticationOnly(val interface{})
 	AzureadAuthenticationOnlyInput() interface{}
@@ -49,15 +49,15 @@ type MssqlServerAzureadAdministratorOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type MssqlServerAzureadAdministratorOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAzureadAuthenticationOnly()
 	ResetTenantId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type MssqlServerAzureadAdministratorOutputReference interface {
 
 // The jsii proxy struct for MssqlServerAzureadAdministratorOutputReference
 type jsiiProxy_MssqlServerAzureadAdministratorOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) AzureadAuthenticationOnly() interface{} {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) TerraformReso
 }
 
 
-func NewMssqlServerAzureadAdministratorOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MssqlServerAzureadAdministratorOutputReference {
+func NewMssqlServerAzureadAdministratorOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MssqlServerAzureadAdministratorOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMssqlServerAzureadAdministratorOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewMssqlServerAzureadAdministratorOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewMssqlServerAzureadAdministratorOutputReference_Override(m MssqlServerAzureadAdministratorOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMssqlServerAzureadAdministratorOutputReference_Override(m MssqlServerAzureadAdministratorOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -359,7 +359,7 @@ func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MssqlServerAzureadAdministratorOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -527,8 +527,8 @@ func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) GetStringMapA
 	return returns
 }
 
-func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -540,11 +540,11 @@ func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) Interpolation
 	return returns
 }
 
-func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -572,7 +572,7 @@ func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) ResetTenantId
 	)
 }
 
-func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MssqlServerAzureadAdministratorOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

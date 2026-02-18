@@ -5,14 +5,14 @@ package datafactorydatasetparquet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorydatasetparquet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorydatasetparquet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -55,15 +55,15 @@ type DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDynamicContainerEnabled()
 	ResetDynamicFilenameEnabled()
 	ResetDynamicPathEnabled()
@@ -89,7 +89,7 @@ type DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference interface 
 	ResetPath()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference interface 
 
 // The jsii proxy struct for DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference
 type jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) ComplexObjectIndex() interface{} {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputRefere
 }
 
 
-func NewDataFactoryDatasetParquetAzureBlobStorageLocationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference {
+func NewDataFactoryDatasetParquetAzureBlobStorageLocationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryDatasetParquetAzureBlobStorageLocationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -310,7 +310,7 @@ func NewDataFactoryDatasetParquetAzureBlobStorageLocationOutputReference(terrafo
 	return &j
 }
 
-func NewDataFactoryDatasetParquetAzureBlobStorageLocationOutputReference_Override(d DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryDatasetParquetAzureBlobStorageLocationOutputReference_Override(d DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -430,7 +430,7 @@ func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputRefere
 	)
 }
 
-func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -598,8 +598,8 @@ func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -611,11 +611,11 @@ func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -667,7 +667,7 @@ func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputRefere
 	)
 }
 
-func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryDatasetParquetAzureBlobStorageLocationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

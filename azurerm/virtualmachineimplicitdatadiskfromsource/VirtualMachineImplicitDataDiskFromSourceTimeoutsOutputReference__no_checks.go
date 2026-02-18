@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReferen
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReferen
 	return nil
 }
 
-func validateNewVirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineImplicitDataDiskFromSourceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) 
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

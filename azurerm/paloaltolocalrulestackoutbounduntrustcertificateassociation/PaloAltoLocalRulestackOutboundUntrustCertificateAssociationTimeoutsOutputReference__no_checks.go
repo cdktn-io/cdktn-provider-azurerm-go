@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTi
 	return nil
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTi
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

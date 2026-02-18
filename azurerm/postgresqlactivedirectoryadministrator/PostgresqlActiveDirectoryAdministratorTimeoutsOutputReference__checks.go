@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (p *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 
 func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *PostgresqlActiveDirectoryAdministratorTimeouts:
 		val := val.(*PostgresqlActiveDirectoryAdministratorTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *PostgresqlActiveDirectoryAdministratorTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *PostgresqlActiveDirectoryAdministratorTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 	return nil
 }
 
-func validateNewPostgresqlActiveDirectoryAdministratorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlActiveDirectoryAdministratorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

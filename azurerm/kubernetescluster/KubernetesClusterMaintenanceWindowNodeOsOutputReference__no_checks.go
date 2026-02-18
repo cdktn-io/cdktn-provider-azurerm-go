@@ -51,7 +51,7 @@ func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsOutputReference) vali
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsOutputReference) vali
 	return nil
 }
 
-func validateNewKubernetesClusterMaintenanceWindowNodeOsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterMaintenanceWindowNodeOsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) validateInterpo
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ContainerRegistryTaskFileStepOutputReference) validateSetValu
 	return nil
 }
 
-func validateNewContainerRegistryTaskFileStepOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerRegistryTaskFileStepOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

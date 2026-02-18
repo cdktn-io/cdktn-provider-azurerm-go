@@ -115,7 +115,7 @@ func (j *jsiiProxy_ContainerRegistryWebhook) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryWebhook) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerRegistryWebhook) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package virtualmachinescalesetpacketcapture
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachinescalesetpacketcapture/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualmachinescalesetpacketcapture/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/virtual_machine_scale_set_packet_capture azurerm_virtual_machine_scale_set_packet_capture}.
 type VirtualMachineScaleSetPacketCapture interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type VirtualMachineScaleSetPacketCapture interface {
 	Filter() VirtualMachineScaleSetPacketCaptureFilterList
 	FilterInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,9 +45,9 @@ type VirtualMachineScaleSetPacketCapture interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MachineScope() VirtualMachineScaleSetPacketCaptureMachineScopeOutputReference
 	MachineScopeInput() *VirtualMachineScaleSetPacketCaptureMachineScope
 	MaximumBytesPerPacket() *float64
@@ -68,9 +68,9 @@ type VirtualMachineScaleSetPacketCapture interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type VirtualMachineScaleSetPacketCapture interface {
 	StorageLocation() VirtualMachineScaleSetPacketCaptureStorageLocationOutputReference
 	StorageLocationInput() *VirtualMachineScaleSetPacketCaptureStorageLocation
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -98,7 +98,7 @@ type VirtualMachineScaleSetPacketCapture interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -116,9 +116,9 @@ type VirtualMachineScaleSetPacketCapture interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,11 +162,11 @@ type VirtualMachineScaleSetPacketCapture interface {
 
 // The jsii proxy struct for VirtualMachineScaleSetPacketCapture
 type jsiiProxy_VirtualMachineScaleSetPacketCapture struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -235,8 +235,8 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) FilterInput() interface{
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -425,8 +425,8 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -475,8 +475,8 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) StorageLocationInput() *
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -605,7 +605,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -624,7 +624,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -690,7 +690,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetNetworkWatcherId(val *
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -720,14 +720,14 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture)SetVirtualMachineScaleSet
 	)
 }
 
-// Generates CDKTF code for importing a VirtualMachineScaleSetPacketCapture resource upon running "cdktf plan <stack-name>".
-func VirtualMachineScaleSetPacketCapture_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VirtualMachineScaleSetPacketCapture resource upon running "cdktn plan <stack-name>".
+func VirtualMachineScaleSetPacketCapture_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVirtualMachineScaleSetPacketCapture_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.virtualMachineScaleSetPacketCapture.VirtualMachineScaleSetPacketCapture",
@@ -861,11 +861,11 @@ func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -1002,7 +1002,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) HasResourceMove() interf
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1013,11 +1013,11 @@ func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) ImportFrom(id *string, p
 	)
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineScaleSetPacketCapture) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

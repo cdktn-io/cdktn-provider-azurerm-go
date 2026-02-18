@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermMssqlManagedInstance) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMssqlManagedInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermMssqlManagedInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

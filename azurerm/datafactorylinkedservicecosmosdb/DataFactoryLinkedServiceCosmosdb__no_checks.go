@@ -143,7 +143,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceCosmosdb) validateSetIntegrationRunti
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceCosmosdb) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceCosmosdb) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

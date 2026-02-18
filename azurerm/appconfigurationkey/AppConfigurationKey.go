@@ -5,18 +5,18 @@ package appconfigurationkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appconfigurationkey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appconfigurationkey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/app_configuration_key azurerm_app_configuration_key}.
 type AppConfigurationKey interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConfigurationStoreId() *string
 	SetConfigurationStoreId(val *string)
 	ConfigurationStoreIdInput() *string
@@ -41,9 +41,9 @@ type AppConfigurationKey interface {
 	SetEtag(val *string)
 	EtagInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,18 +58,18 @@ type AppConfigurationKey interface {
 	SetLabel(val *string)
 	LabelInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Locked() interface{}
 	SetLocked(val interface{})
 	LockedInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type AppConfigurationKey interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type AppConfigurationKey interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type AppConfigurationKey interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -168,11 +168,11 @@ type AppConfigurationKey interface {
 
 // The jsii proxy struct for AppConfigurationKey
 type jsiiProxy_AppConfigurationKey struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_AppConfigurationKey) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_AppConfigurationKey) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -281,8 +281,8 @@ func (j *jsiiProxy_AppConfigurationKey) EtagInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppConfigurationKey) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_AppConfigurationKey) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -371,8 +371,8 @@ func (j *jsiiProxy_AppConfigurationKey) LabelInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_AppConfigurationKey) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_AppConfigurationKey) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -411,8 +411,8 @@ func (j *jsiiProxy_AppConfigurationKey) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_AppConfigurationKey) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_AppConfigurationKey) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -461,8 +461,8 @@ func (j *jsiiProxy_AppConfigurationKey) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_AppConfigurationKey) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_AppConfigurationKey) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -664,7 +664,7 @@ func (j *jsiiProxy_AppConfigurationKey)SetEtag(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppConfigurationKey)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_AppConfigurationKey)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -705,7 +705,7 @@ func (j *jsiiProxy_AppConfigurationKey)SetLabel(val *string) {
 	)
 }
 
-func (j *jsiiProxy_AppConfigurationKey)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_AppConfigurationKey)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -727,7 +727,7 @@ func (j *jsiiProxy_AppConfigurationKey)SetLocked(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_AppConfigurationKey)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_AppConfigurationKey)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -790,14 +790,14 @@ func (j *jsiiProxy_AppConfigurationKey)SetVaultKeyReference(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a AppConfigurationKey resource upon running "cdktf plan <stack-name>".
-func AppConfigurationKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a AppConfigurationKey resource upon running "cdktn plan <stack-name>".
+func AppConfigurationKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateAppConfigurationKey_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.appConfigurationKey.AppConfigurationKey",
@@ -931,11 +931,11 @@ func (a *jsiiProxy_AppConfigurationKey) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (a *jsiiProxy_AppConfigurationKey) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppConfigurationKey) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1072,7 +1072,7 @@ func (a *jsiiProxy_AppConfigurationKey) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_AppConfigurationKey) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_AppConfigurationKey) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1083,11 +1083,11 @@ func (a *jsiiProxy_AppConfigurationKey) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (a *jsiiProxy_AppConfigurationKey) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppConfigurationKey) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

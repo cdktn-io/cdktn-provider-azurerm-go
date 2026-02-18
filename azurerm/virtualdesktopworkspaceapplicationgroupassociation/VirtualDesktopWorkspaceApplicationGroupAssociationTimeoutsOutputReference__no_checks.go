@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOut
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOut
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualDesktopWorkspaceApplicationGroupAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

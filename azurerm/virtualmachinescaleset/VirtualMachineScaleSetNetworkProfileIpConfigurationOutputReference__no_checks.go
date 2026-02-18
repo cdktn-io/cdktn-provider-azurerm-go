@@ -51,7 +51,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationOutputRefe
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetNetworkProfileIpConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualMachineScaleSetNetworkProfileIpConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

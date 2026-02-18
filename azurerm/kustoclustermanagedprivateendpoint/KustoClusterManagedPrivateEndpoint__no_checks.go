@@ -115,7 +115,7 @@ func (j *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package eventgridpartnerregistration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgridpartnerregistration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventgridpartnerregistration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventgridPartnerRegistrationTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type EventgridPartnerRegistrationTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type EventgridPartnerRegistrationTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type EventgridPartnerRegistrationTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type EventgridPartnerRegistrationTimeoutsOutputReference interface {
 
 // The jsii proxy struct for EventgridPartnerRegistrationTimeoutsOutputReference
 type jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) UpdateIn
 }
 
 
-func NewEventgridPartnerRegistrationTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EventgridPartnerRegistrationTimeoutsOutputReference {
+func NewEventgridPartnerRegistrationTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EventgridPartnerRegistrationTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventgridPartnerRegistrationTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewEventgridPartnerRegistrationTimeoutsOutputReference(terraformResource cd
 	return &j
 }
 
-func NewEventgridPartnerRegistrationTimeoutsOutputReference_Override(e EventgridPartnerRegistrationTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEventgridPartnerRegistrationTimeoutsOutputReference_Override(e EventgridPartnerRegistrationTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) GetAnyMa
 	return returns
 }
 
-func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -529,8 +529,8 @@ func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) GetStrin
 	return returns
 }
 
-func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -542,11 +542,11 @@ func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) Interpol
 	return returns
 }
 
-func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -590,7 +590,7 @@ func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) ResetUpd
 	)
 }
 
-func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

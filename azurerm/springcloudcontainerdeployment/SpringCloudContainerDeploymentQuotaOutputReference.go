@@ -5,14 +5,14 @@ package springcloudcontainerdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudcontainerdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudcontainerdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpringCloudContainerDeploymentQuotaOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type SpringCloudContainerDeploymentQuotaOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type SpringCloudContainerDeploymentQuotaOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCpu()
 	ResetMemory()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type SpringCloudContainerDeploymentQuotaOutputReference interface {
 
 // The jsii proxy struct for SpringCloudContainerDeploymentQuotaOutputReference
 type jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) Terraform
 }
 
 
-func NewSpringCloudContainerDeploymentQuotaOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SpringCloudContainerDeploymentQuotaOutputReference {
+func NewSpringCloudContainerDeploymentQuotaOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpringCloudContainerDeploymentQuotaOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpringCloudContainerDeploymentQuotaOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewSpringCloudContainerDeploymentQuotaOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewSpringCloudContainerDeploymentQuotaOutputReference_Override(s SpringCloudContainerDeploymentQuotaOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSpringCloudContainerDeploymentQuotaOutputReference_Override(s SpringCloudContainerDeploymentQuotaOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) GetAnyMap
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -459,8 +459,8 @@ func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) GetString
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -472,11 +472,11 @@ func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) Interpola
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) ResetMemo
 	)
 }
 
-func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpringCloudContainerDeploymentQuotaOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

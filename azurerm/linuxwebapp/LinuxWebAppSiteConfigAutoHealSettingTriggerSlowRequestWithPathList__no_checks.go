@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPat
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPat
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPat
 	return nil
 }
 
-func validateNewLinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxWebAppSiteConfigAutoHealSettingTriggerSlowRequestWithPathListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

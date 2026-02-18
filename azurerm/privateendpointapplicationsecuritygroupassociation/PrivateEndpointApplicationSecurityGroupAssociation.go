@@ -5,21 +5,21 @@ package privateendpointapplicationsecuritygroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privateendpointapplicationsecuritygroupassociation/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/privateendpointapplicationsecuritygroupassociation/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association}.
 type PrivateEndpointApplicationSecurityGroupAssociation interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApplicationSecurityGroupId() *string
 	SetApplicationSecurityGroupId(val *string)
 	ApplicationSecurityGroupIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,18 +46,18 @@ type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	PrivateEndpointId() *string
 	SetPrivateEndpointId(val *string)
 	PrivateEndpointIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,9 +98,9 @@ type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,7 +136,7 @@ type PrivateEndpointApplicationSecurityGroupAssociation interface {
 
 // The jsii proxy struct for PrivateEndpointApplicationSecurityGroupAssociation
 type jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) ApplicationSecurityGroupId() *string {
@@ -159,8 +159,8 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) Applicati
 	return returns
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -209,8 +209,8 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) DependsOn
 	return returns
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) IdInput()
 	return returns
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) PrivateEn
 	return returns
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) RawOverri
 	return returns
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -450,7 +450,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetDepends
 	)
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -469,7 +469,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetId(val 
 	)
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetPrivate
 	)
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -510,14 +510,14 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation)SetProvisi
 	)
 }
 
-// Generates CDKTF code for importing a PrivateEndpointApplicationSecurityGroupAssociation resource upon running "cdktf plan <stack-name>".
-func PrivateEndpointApplicationSecurityGroupAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PrivateEndpointApplicationSecurityGroupAssociation resource upon running "cdktn plan <stack-name>".
+func PrivateEndpointApplicationSecurityGroupAssociation_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePrivateEndpointApplicationSecurityGroupAssociation_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.privateEndpointApplicationSecurityGroupAssociation.PrivateEndpointApplicationSecurityGroupAssociation",
@@ -651,11 +651,11 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) GetAnyMap
 	return returns
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -792,7 +792,7 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) HasResour
 	return returns
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -803,11 +803,11 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) ImportFro
 	)
 }
 
-func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

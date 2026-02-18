@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningSynapseSparkTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningSynapseSparkTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningSynapseSparkTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MachineLearningSynapseSparkTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningSynapseSparkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningSynapseSparkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMachineLearningSynapseSparkTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningSynapseSparkTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

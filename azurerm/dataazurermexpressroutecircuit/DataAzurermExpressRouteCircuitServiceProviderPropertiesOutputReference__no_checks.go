@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermExpressRouteCircuitServiceProviderPropertiesOutput
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermExpressRouteCircuitServiceProviderPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermExpressRouteCircuitServiceProviderPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermExpressRouteCircuitServiceProviderPropertiesOutput
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermExpressRouteCircuitServiceProviderPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermExpressRouteCircuitServiceProviderPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermExpressRouteCircuitServiceProviderPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermExpressRouteCircuitServiceProviderPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermApiManagementSubscription) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermApiManagementSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

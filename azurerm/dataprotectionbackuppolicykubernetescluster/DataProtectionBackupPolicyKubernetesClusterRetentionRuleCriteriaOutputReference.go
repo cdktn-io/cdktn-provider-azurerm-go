@@ -5,14 +5,14 @@ package dataprotectionbackuppolicykubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataprotectionbackuppolicykubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataprotectionbackuppolicykubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AbsoluteCriteria() *string
 	SetAbsoluteCriteria(val *string)
 	AbsoluteCriteriaInput() *string
@@ -49,9 +49,9 @@ type DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputRefer
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WeeksOfMonth() *[]*string
 	SetWeeksOfMonth(val *[]*string)
 	WeeksOfMonthInput() *[]*string
@@ -60,7 +60,7 @@ type DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputRefer
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputRefer
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAbsoluteCriteria()
 	ResetDaysOfWeek()
 	ResetMonthsOfYear()
@@ -86,7 +86,7 @@ type DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputRefer
 	ResetWeeksOfMonth()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputRefer
 
 // The jsii proxy struct for DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference
 type jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) AbsoluteCriteria() *string {
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 }
 
 
-func NewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference {
+func NewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputRe
 	return &j
 }
 
-func NewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference_Override(d DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference_Override(d DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	)
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -564,8 +564,8 @@ func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -577,11 +577,11 @@ func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -633,7 +633,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCrite
 	)
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataProtectionBackupPolicyKubernetesClusterRetentionRuleCriteriaOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

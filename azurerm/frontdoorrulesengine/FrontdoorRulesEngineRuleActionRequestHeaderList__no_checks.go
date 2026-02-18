@@ -15,7 +15,7 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateGetP
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetW
 	return nil
 }
 
-func validateNewFrontdoorRulesEngineRuleActionRequestHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorRulesEngineRuleActionRequestHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

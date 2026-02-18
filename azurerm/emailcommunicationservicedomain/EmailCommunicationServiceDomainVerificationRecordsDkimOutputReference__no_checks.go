@@ -47,7 +47,7 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkimOutputR
 	return nil
 }
 
-func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkimOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkimOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkimOutputR
 	return nil
 }
 
-func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkimOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkimOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEmailCommunicationServiceDomainVerificationRecordsDkimOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEmailCommunicationServiceDomainVerificationRecordsDkimOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

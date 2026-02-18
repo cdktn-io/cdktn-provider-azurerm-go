@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCer
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

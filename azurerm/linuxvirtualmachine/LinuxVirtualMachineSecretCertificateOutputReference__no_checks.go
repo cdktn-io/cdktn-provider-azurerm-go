@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxVirtualMachineSecretCertificateOutputReference) validate
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineSecretCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineSecretCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateOutputReference) validate
 	return nil
 }
 
-func validateNewLinuxVirtualMachineSecretCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLinuxVirtualMachineSecretCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

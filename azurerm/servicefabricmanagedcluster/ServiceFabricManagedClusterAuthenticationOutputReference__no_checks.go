@@ -55,7 +55,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricManagedClusterAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

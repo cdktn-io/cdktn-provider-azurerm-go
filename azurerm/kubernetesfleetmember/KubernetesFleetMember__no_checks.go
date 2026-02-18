@@ -119,7 +119,7 @@ func (j *jsiiProxy_KubernetesFleetMember) validateSetKubernetesFleetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFleetMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KubernetesFleetMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

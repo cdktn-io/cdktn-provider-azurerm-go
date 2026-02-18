@@ -47,7 +47,7 @@ func (k *jsiiProxy_KustoClusterIdentityOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (k *jsiiProxy_KustoClusterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoClusterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_KustoClusterIdentityOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_KustoClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KustoClusterIdentityOutputReference) validateSetTypeParameter
 	return nil
 }
 
-func validateNewKustoClusterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoClusterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package healthcaredicomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcaredicomservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/healthcaredicomservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HealthcareDicomServiceCorsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowCredentials() interface{}
 	SetAllowCredentials(val interface{})
 	AllowCredentialsInput() interface{}
@@ -52,15 +52,15 @@ type HealthcareDicomServiceCorsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type HealthcareDicomServiceCorsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowCredentials()
 	ResetAllowedHeaders()
 	ResetAllowedMethods()
@@ -86,7 +86,7 @@ type HealthcareDicomServiceCorsOutputReference interface {
 	ResetMaxAgeInSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type HealthcareDicomServiceCorsOutputReference interface {
 
 // The jsii proxy struct for HealthcareDicomServiceCorsOutputReference
 type jsiiProxy_HealthcareDicomServiceCorsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference) AllowCredentials() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference) TerraformResource(
 }
 
 
-func NewHealthcareDicomServiceCorsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HealthcareDicomServiceCorsOutputReference {
+func NewHealthcareDicomServiceCorsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HealthcareDicomServiceCorsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHealthcareDicomServiceCorsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewHealthcareDicomServiceCorsOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewHealthcareDicomServiceCorsOutputReference_Override(h HealthcareDicomServiceCorsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHealthcareDicomServiceCorsOutputReference_Override(h HealthcareDicomServiceCorsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HealthcareDicomServiceCorsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -564,8 +564,8 @@ func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -577,11 +577,11 @@ func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -633,7 +633,7 @@ func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) ResetMaxAgeInSecon
 	)
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HealthcareDicomServiceCorsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedRedisCustomerManagedKeyOutputReference) validateInterp
 	return nil
 }
 
-func (m *jsiiProxy_ManagedRedisCustomerManagedKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedRedisCustomerManagedKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ManagedRedisCustomerManagedKeyOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ManagedRedisCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedRedisCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagedRedisCustomerManagedKeyOutputReference) validateSetUse
 	return nil
 }
 
-func validateNewManagedRedisCustomerManagedKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedRedisCustomerManagedKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

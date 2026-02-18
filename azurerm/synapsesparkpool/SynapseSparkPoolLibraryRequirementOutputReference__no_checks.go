@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseSparkPoolLibraryRequirementOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SynapseSparkPoolLibraryRequirementOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseSparkPoolLibraryRequirementOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SynapseSparkPoolLibraryRequirementOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SynapseSparkPoolLibraryRequirementOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseSparkPoolLibraryRequirementOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSynapseSparkPoolLibraryRequirementOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseSparkPoolLibraryRequirementOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

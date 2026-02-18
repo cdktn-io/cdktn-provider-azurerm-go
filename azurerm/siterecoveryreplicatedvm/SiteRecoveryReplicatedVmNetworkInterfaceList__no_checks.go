@@ -15,7 +15,7 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceList) validateGetPara
 	return nil
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmNetworkInterfaceList) validateSetWrap
 	return nil
 }
 
-func validateNewSiteRecoveryReplicatedVmNetworkInterfaceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSiteRecoveryReplicatedVmNetworkInterfaceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

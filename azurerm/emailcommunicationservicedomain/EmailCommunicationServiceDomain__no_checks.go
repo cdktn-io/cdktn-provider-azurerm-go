@@ -115,7 +115,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomain) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_EmailCommunicationServiceDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EmailCommunicationServiceDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

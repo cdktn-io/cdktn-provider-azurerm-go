@@ -15,7 +15,7 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskList) validateGetParamet
 	return nil
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewSiteRecoveryReplicatedVmUnmanagedDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSiteRecoveryReplicatedVmUnmanagedDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

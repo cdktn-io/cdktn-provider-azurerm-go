@@ -107,7 +107,7 @@ func (j *jsiiProxy_DatabaseMigrationProject) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_DatabaseMigrationProject) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatabaseMigrationProject) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

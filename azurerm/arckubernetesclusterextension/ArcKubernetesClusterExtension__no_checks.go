@@ -127,7 +127,7 @@ func (j *jsiiProxy_ArcKubernetesClusterExtension) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ArcKubernetesClusterExtension) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ArcKubernetesClusterExtension) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

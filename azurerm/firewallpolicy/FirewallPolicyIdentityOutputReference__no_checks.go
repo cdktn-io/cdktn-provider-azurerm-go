@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirewallPolicyIdentityOutputReference) validateInterpolationF
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FirewallPolicyIdentityOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FirewallPolicyIdentityOutputReference) validateSetTypeParamet
 	return nil
 }
 
-func validateNewFirewallPolicyIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallPolicyIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

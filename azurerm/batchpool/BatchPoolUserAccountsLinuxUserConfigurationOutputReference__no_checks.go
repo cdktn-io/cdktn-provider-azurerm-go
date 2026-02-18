@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolUserAccountsLinuxUserConfigurationOutputReference) v
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BatchPoolUserAccountsLinuxUserConfigurationOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BatchPoolUserAccountsLinuxUserConfigurationOutputReference) v
 	return nil
 }
 
-func validateNewBatchPoolUserAccountsLinuxUserConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchPoolUserAccountsLinuxUserConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

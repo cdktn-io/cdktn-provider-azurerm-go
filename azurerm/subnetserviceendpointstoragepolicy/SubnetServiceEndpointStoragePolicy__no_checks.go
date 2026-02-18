@@ -111,7 +111,7 @@ func (j *jsiiProxy_SubnetServiceEndpointStoragePolicy) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_SubnetServiceEndpointStoragePolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SubnetServiceEndpointStoragePolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

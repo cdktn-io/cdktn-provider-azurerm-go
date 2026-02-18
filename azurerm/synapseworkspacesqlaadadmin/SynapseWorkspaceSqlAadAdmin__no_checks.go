@@ -107,7 +107,7 @@ func (j *jsiiProxy_SynapseWorkspaceSqlAadAdmin) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_SynapseWorkspaceSqlAadAdmin) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SynapseWorkspaceSqlAadAdmin) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

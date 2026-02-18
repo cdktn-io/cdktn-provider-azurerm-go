@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualDesktopScalingPlanScheduleOutputReference) validateInt
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopScalingPlanScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopScalingPlanScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -139,11 +139,11 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanScheduleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopScalingPlanScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopScalingPlanScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualDesktopScalingPlanScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualDesktopScalingPlanScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayIpConfigurationList) validateGetParamete
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayIpConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayIpConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayIpConfigurationList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayIpConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayIpConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayIpConfigurationList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayIpConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualNetworkGatewayIpConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

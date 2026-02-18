@@ -5,21 +5,21 @@ package netappbackuppolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappbackuppolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/netappbackuppolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy}.
 type NetappBackupPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountName() *string
 	SetAccountName(val *string)
 	AccountNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type NetappBackupPolicy interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type NetappBackupPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -67,9 +67,9 @@ type NetappBackupPolicy interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type NetappBackupPolicy interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type NetappBackupPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type NetappBackupPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,7 +162,7 @@ type NetappBackupPolicy interface {
 
 // The jsii proxy struct for NetappBackupPolicy
 type jsiiProxy_NetappBackupPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NetappBackupPolicy) AccountName() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_NetappBackupPolicy) AccountNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappBackupPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetappBackupPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_NetappBackupPolicy) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NetappBackupPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetappBackupPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_NetappBackupPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappBackupPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetappBackupPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -405,8 +405,8 @@ func (j *jsiiProxy_NetappBackupPolicy) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_NetappBackupPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetappBackupPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -475,8 +475,8 @@ func (j *jsiiProxy_NetappBackupPolicy) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappBackupPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetappBackupPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -638,7 +638,7 @@ func (j *jsiiProxy_NetappBackupPolicy)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_NetappBackupPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetappBackupPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -657,7 +657,7 @@ func (j *jsiiProxy_NetappBackupPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetappBackupPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetappBackupPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -701,7 +701,7 @@ func (j *jsiiProxy_NetappBackupPolicy)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetappBackupPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetappBackupPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -753,14 +753,14 @@ func (j *jsiiProxy_NetappBackupPolicy)SetWeeklyBackupsToKeep(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a NetappBackupPolicy resource upon running "cdktf plan <stack-name>".
-func NetappBackupPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetappBackupPolicy resource upon running "cdktn plan <stack-name>".
+func NetappBackupPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetappBackupPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.netappBackupPolicy.NetappBackupPolicy",
@@ -894,11 +894,11 @@ func (n *jsiiProxy_NetappBackupPolicy) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (n *jsiiProxy_NetappBackupPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappBackupPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1035,7 +1035,7 @@ func (n *jsiiProxy_NetappBackupPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NetappBackupPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetappBackupPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1046,11 +1046,11 @@ func (n *jsiiProxy_NetappBackupPolicy) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (n *jsiiProxy_NetappBackupPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappBackupPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

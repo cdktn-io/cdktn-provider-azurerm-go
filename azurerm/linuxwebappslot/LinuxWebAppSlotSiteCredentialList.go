@@ -5,14 +5,14 @@ package linuxwebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxWebAppSlotSiteCredentialList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type LinuxWebAppSlotSiteCredentialList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type LinuxWebAppSlotSiteCredentialList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) LinuxWebAppSlotSiteCredentialOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type LinuxWebAppSlotSiteCredentialList interface {
 
 // The jsii proxy struct for LinuxWebAppSlotSiteCredentialList
 type jsiiProxy_LinuxWebAppSlotSiteCredentialList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList) WrapsSet() *bool {
 }
 
 
-func NewLinuxWebAppSlotSiteCredentialList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LinuxWebAppSlotSiteCredentialList {
+func NewLinuxWebAppSlotSiteCredentialList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LinuxWebAppSlotSiteCredentialList {
 	_init_.Initialize()
 
 	if err := validateNewLinuxWebAppSlotSiteCredentialListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewLinuxWebAppSlotSiteCredentialList(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewLinuxWebAppSlotSiteCredentialList_Override(l LinuxWebAppSlotSiteCredentialList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewLinuxWebAppSlotSiteCredentialList_Override(l LinuxWebAppSlotSiteCredentialList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteCredentialList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotSiteCredentialList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (l *jsiiProxy_LinuxWebAppSlotSiteCredentialList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := l.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		l,
@@ -208,7 +208,7 @@ func (l *jsiiProxy_LinuxWebAppSlotSiteCredentialList) Get(index *float64) LinuxW
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotSiteCredentialList) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxWebAppSlotSiteCredentialList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

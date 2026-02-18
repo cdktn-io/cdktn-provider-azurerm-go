@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermLinuxFunctionAppAuthSettingsV2CustomOidcV2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

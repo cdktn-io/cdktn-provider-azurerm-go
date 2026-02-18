@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppConfigurationFeatureTargetingFilterGroupsOutputReference) 
 	return nil
 }
 
-func (a *jsiiProxy_AppConfigurationFeatureTargetingFilterGroupsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppConfigurationFeatureTargetingFilterGroupsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppConfigurationFeatureTargetingFilterGroupsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationFeatureTargetingFilterGroupsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppConfigurationFeatureTargetingFilterGroupsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppConfigurationFeatureTargetingFilterGroupsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppConfigurationFeatureTargetingFilterGroupsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermVirtualNetworkGatewayBgpSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermVirtualNetworkGatewayBgpSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

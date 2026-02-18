@@ -15,7 +15,7 @@ func (h *jsiiProxy_HpcCacheAccessPolicyAccessRuleList) validateGetParameters(ind
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheAccessPolicyAccessRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheAccessPolicyAccessRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HpcCacheAccessPolicyAccessRuleList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheAccessPolicyAccessRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheAccessPolicyAccessRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HpcCacheAccessPolicyAccessRuleList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewHpcCacheAccessPolicyAccessRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHpcCacheAccessPolicyAccessRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

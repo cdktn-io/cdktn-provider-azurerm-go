@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolFixedScaleOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolFixedScaleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolFixedScaleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermBatchPoolFixedScaleOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolFixedScaleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolFixedScaleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolFixedScaleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermBatchPoolFixedScaleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

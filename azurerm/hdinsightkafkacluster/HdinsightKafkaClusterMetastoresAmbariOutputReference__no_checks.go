@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterMetastoresAmbariOutputReference) validat
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterMetastoresAmbariOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightKafkaClusterMetastoresAmbariOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterMetastoresAmbariOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterMetastoresAmbariOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightKafkaClusterMetastoresAmbariOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterMetastoresAmbariOutputReference) validat
 	return nil
 }
 
-func validateNewHdinsightKafkaClusterMetastoresAmbariOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightKafkaClusterMetastoresAmbariOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

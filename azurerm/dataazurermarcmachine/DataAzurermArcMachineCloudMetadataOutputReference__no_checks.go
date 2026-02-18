@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermArcMachineCloudMetadataOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermArcMachineCloudMetadataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermArcMachineCloudMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermArcMachineCloudMetadataOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermArcMachineCloudMetadataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermArcMachineCloudMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermArcMachineCloudMetadataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermArcMachineCloudMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

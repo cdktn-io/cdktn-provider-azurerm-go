@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbPostgresqlClusterServersList) validateGetParameters(i
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbPostgresqlClusterServersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbPostgresqlClusterServersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlClusterServersList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbPostgresqlClusterServersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbPostgresqlClusterServersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlClusterServersList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewCosmosdbPostgresqlClusterServersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbPostgresqlClusterServersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

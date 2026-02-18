@@ -5,14 +5,14 @@ package windowsvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsVirtualMachineScaleSetSpotRestoreOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type WindowsVirtualMachineScaleSetSpotRestoreOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Timeout() *string
 	SetTimeout(val *string)
 	TimeoutInput() *string
@@ -51,7 +51,7 @@ type WindowsVirtualMachineScaleSetSpotRestoreOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type WindowsVirtualMachineScaleSetSpotRestoreOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
 	ResetTimeout()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type WindowsVirtualMachineScaleSetSpotRestoreOutputReference interface {
 
 // The jsii proxy struct for WindowsVirtualMachineScaleSetSpotRestoreOutputReference
 type jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) Time
 }
 
 
-func NewWindowsVirtualMachineScaleSetSpotRestoreOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsVirtualMachineScaleSetSpotRestoreOutputReference {
+func NewWindowsVirtualMachineScaleSetSpotRestoreOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsVirtualMachineScaleSetSpotRestoreOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsVirtualMachineScaleSetSpotRestoreOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewWindowsVirtualMachineScaleSetSpotRestoreOutputReference(terraformResourc
 	return &j
 }
 
-func NewWindowsVirtualMachineScaleSetSpotRestoreOutputReference_Override(w WindowsVirtualMachineScaleSetSpotRestoreOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsVirtualMachineScaleSetSpotRestoreOutputReference_Override(w WindowsVirtualMachineScaleSetSpotRestoreOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) GetA
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -459,8 +459,8 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) GetS
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -472,11 +472,11 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) Inte
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -504,7 +504,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) Rese
 	)
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetSpotRestoreOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

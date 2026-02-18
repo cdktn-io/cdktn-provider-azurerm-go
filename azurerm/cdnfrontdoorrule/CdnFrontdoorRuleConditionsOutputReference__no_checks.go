@@ -123,7 +123,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlPath
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -143,11 +143,11 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnFrontdoorRuleConditionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorRuleConditionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

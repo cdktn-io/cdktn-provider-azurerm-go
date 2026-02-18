@@ -5,14 +5,14 @@ package containergroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containergroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containergroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerGroupInitContainerVolumeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -63,15 +63,15 @@ type ContainerGroupInitContainerVolumeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,9 +87,9 @@ type ContainerGroupInitContainerVolumeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutGitRepo(value *ContainerGroupInitContainerVolumeGitRepo)
 	ResetEmptyDir()
 	ResetGitRepo()
@@ -100,7 +100,7 @@ type ContainerGroupInitContainerVolumeOutputReference interface {
 	ResetStorageAccountName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -110,7 +110,7 @@ type ContainerGroupInitContainerVolumeOutputReference interface {
 
 // The jsii proxy struct for ContainerGroupInitContainerVolumeOutputReference
 type jsiiProxy_ContainerGroupInitContainerVolumeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) ComplexObjectIndex() interface{} {
@@ -353,8 +353,8 @@ func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -364,7 +364,7 @@ func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) TerraformRe
 }
 
 
-func NewContainerGroupInitContainerVolumeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerGroupInitContainerVolumeOutputReference {
+func NewContainerGroupInitContainerVolumeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerGroupInitContainerVolumeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerGroupInitContainerVolumeOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -381,7 +381,7 @@ func NewContainerGroupInitContainerVolumeOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewContainerGroupInitContainerVolumeOutputReference_Override(c ContainerGroupInitContainerVolumeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewContainerGroupInitContainerVolumeOutputReference_Override(c ContainerGroupInitContainerVolumeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -523,7 +523,7 @@ func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -563,11 +563,11 @@ func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -691,8 +691,8 @@ func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) GetStringMa
 	return returns
 }
 
-func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -704,11 +704,11 @@ func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) Interpolati
 	return returns
 }
 
-func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -787,7 +787,7 @@ func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) ResetStorag
 	)
 }
 
-func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerGroupInitContainerVolumeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -127,7 +127,7 @@ func (j *jsiiProxy_OracleExadataInfrastructure) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_OracleExadataInfrastructure) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OracleExadataInfrastructure) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

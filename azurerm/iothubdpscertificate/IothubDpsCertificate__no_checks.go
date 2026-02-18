@@ -119,7 +119,7 @@ func (j *jsiiProxy_IothubDpsCertificate) validateSetIsVerifiedParameters(val int
 	return nil
 }
 
-func (j *jsiiProxy_IothubDpsCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IothubDpsCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

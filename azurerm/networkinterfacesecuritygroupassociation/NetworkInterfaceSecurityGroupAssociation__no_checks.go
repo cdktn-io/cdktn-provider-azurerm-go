@@ -107,7 +107,7 @@ func (j *jsiiProxy_NetworkInterfaceSecurityGroupAssociation) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterfaceSecurityGroupAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkInterfaceSecurityGroupAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

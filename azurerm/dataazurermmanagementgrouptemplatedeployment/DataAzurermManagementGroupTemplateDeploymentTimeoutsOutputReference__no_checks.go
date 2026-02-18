@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermManagementGroupTemplateDeploymentTimeoutsOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermManagementGroupTemplateDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermManagementGroupTemplateDeploymentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermManagementGroupTemplateDeploymentTimeoutsOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermManagementGroupTemplateDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermManagementGroupTemplateDeploymentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermManagementGroupTemplateDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermManagementGroupTemplateDeploymentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

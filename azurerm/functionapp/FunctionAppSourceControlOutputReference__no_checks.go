@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppSourceControlOutputReference) validateInterpolatio
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppSourceControlOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppSourceControlOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FunctionAppSourceControlOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppSourceControlOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppSourceControlOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_FunctionAppSourceControlOutputReference) validateSetUseMercur
 	return nil
 }
 
-func validateNewFunctionAppSourceControlOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppSourceControlOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

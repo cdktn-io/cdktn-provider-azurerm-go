@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationRunbookDraftContentLinkHashOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_AutomationRunbookDraftContentLinkHashOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationRunbookDraftContentLinkHashOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AutomationRunbookDraftContentLinkHashOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_AutomationRunbookDraftContentLinkHashOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationRunbookDraftContentLinkHashOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationRunbookDraftContentLinkHashOutputReference) validat
 	return nil
 }
 
-func validateNewAutomationRunbookDraftContentLinkHashOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationRunbookDraftContentLinkHashOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

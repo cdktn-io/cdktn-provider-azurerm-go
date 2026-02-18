@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceSlotAuthSettingsMicrosoftOutputReference) validateI
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotAuthSettingsMicrosoftOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppServiceSlotAuthSettingsMicrosoftOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotAuthSettingsMicrosoftOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppServiceSlotAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceSlotAuthSettingsMicrosoftOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

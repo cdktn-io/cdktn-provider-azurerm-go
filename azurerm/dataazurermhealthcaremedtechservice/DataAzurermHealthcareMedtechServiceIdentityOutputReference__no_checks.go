@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermHealthcareMedtechServiceIdentityOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareMedtechServiceIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermHealthcareMedtechServiceIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermHealthcareMedtechServiceIdentityOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareMedtechServiceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermHealthcareMedtechServiceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermHealthcareMedtechServiceIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermHealthcareMedtechServiceIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

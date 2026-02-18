@@ -8,7 +8,7 @@ package mongocluster
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MongoClusterConnectionStringsList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (m *jsiiProxy_MongoClusterConnectionStringsList) validateGetParameters(inde
 	return nil
 }
 
-func (m *jsiiProxy_MongoClusterConnectionStringsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MongoClusterConnectionStringsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewMongoClusterConnectionStringsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMongoClusterConnectionStringsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

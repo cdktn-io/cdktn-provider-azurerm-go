@@ -5,14 +5,14 @@ package windowsvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Caching() *string
 	SetCaching(val *string)
 	CachingInput() *string
@@ -58,9 +58,9 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UltraSsdDiskIopsReadWrite() *float64
 	SetUltraSsdDiskIopsReadWrite(val *float64)
 	UltraSsdDiskIopsReadWriteInput() *float64
@@ -75,7 +75,7 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,9 +91,9 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreateOption()
 	ResetDiskEncryptionSetId()
 	ResetName()
@@ -102,7 +102,7 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	ResetWriteAcceleratorEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 
 // The jsii proxy struct for WindowsVirtualMachineScaleSetDataDiskOutputReference
 type jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) Caching() *string {
@@ -315,8 +315,8 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -386,7 +386,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) WriteAc
 }
 
 
-func NewWindowsVirtualMachineScaleSetDataDiskOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsVirtualMachineScaleSetDataDiskOutputReference {
+func NewWindowsVirtualMachineScaleSetDataDiskOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsVirtualMachineScaleSetDataDiskOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsVirtualMachineScaleSetDataDiskOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -403,7 +403,7 @@ func NewWindowsVirtualMachineScaleSetDataDiskOutputReference(terraformResource c
 	return &j
 }
 
-func NewWindowsVirtualMachineScaleSetDataDiskOutputReference_Override(w WindowsVirtualMachineScaleSetDataDiskOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWindowsVirtualMachineScaleSetDataDiskOutputReference_Override(w WindowsVirtualMachineScaleSetDataDiskOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -534,7 +534,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -607,11 +607,11 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) GetAnyM
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -735,8 +735,8 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) GetStri
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -748,11 +748,11 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) Interpo
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -812,7 +812,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) ResetWr
 	)
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

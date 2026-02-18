@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivateLinkServiceNatIpConfigurationOutputReference) validate
 	return nil
 }
 
-func (p *jsiiProxy_PrivateLinkServiceNatIpConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateLinkServiceNatIpConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_PrivateLinkServiceNatIpConfigurationOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_PrivateLinkServiceNatIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateLinkServiceNatIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivateLinkServiceNatIpConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPrivateLinkServiceNatIpConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_VirtualHubRouteTable) validateSetLabelsParameters(val *[]*str
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubRouteTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualHubRouteTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

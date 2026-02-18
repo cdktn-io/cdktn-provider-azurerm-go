@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceKeyVaultTimeoutsOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceKeyVaultTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedServiceKeyVaultTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceKeyVaultTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceKeyVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceKeyVaultTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceKeyVaultTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewDataFactoryLinkedServiceKeyVaultTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryLinkedServiceKeyVaultTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

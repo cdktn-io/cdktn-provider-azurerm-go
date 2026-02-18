@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayProbeMatchList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayProbeMatchList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApplicationGatewayProbeMatchList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayProbeMatchList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayProbeMatchList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApplicationGatewayProbeMatchList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayProbeMatchList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAzurermApplicationGatewayProbeMatchListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApplicationGatewayProbeMatchListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

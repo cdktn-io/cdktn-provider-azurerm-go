@@ -47,7 +47,7 @@ func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeTimeoutsOutputReference) val
 	return nil
 }
 
-func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewMaintenanceAssignmentDynamicScopeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMaintenanceAssignmentDynamicScopeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

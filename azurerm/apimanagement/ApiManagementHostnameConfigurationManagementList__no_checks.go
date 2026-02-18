@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationManagementList) validateGet
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementHostnameConfigurationManagementList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementHostnameConfigurationManagementList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationManagementList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementHostnameConfigurationManagementList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementHostnameConfigurationManagementList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationManagementList) validateSet
 	return nil
 }
 
-func validateNewApiManagementHostnameConfigurationManagementListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiManagementHostnameConfigurationManagementListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -87,7 +87,7 @@ func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsV2OutputReference) validatePutTwit
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsV2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsV2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -151,7 +151,7 @@ func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsV2OutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsV2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsV2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -159,7 +159,7 @@ func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsV2OutputReference) validateSetUnau
 	return nil
 }
 
-func validateNewLinuxWebAppSlotAuthSettingsV2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppSlotAuthSettingsV2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

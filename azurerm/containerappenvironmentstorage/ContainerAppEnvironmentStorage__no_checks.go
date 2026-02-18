@@ -123,7 +123,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentStorage) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentStorage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerAppEnvironmentStorage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

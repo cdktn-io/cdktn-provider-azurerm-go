@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) validateInt
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) validateSet
 	return nil
 }
 
-func validateNewMonitorActionGroupArmRoleReceiverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorActionGroupArmRoleReceiverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentNonComplianceMessageList) vali
 	return nil
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentNonComplianceMessageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentNonComplianceMessageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentNonComplianceMessageList) vali
 	return nil
 }
 
-func (j *jsiiProxy_ManagementGroupPolicyAssignmentNonComplianceMessageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagementGroupPolicyAssignmentNonComplianceMessageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentNonComplianceMessageList) vali
 	return nil
 }
 
-func validateNewManagementGroupPolicyAssignmentNonComplianceMessageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewManagementGroupPolicyAssignmentNonComplianceMessageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

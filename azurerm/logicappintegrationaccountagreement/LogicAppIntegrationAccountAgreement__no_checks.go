@@ -135,7 +135,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountAgreement) validateSetIntegrationAc
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountAgreement) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogicAppIntegrationAccountAgreement) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

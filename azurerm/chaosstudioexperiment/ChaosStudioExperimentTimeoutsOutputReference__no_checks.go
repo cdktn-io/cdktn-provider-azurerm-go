@@ -47,7 +47,7 @@ func (c *jsiiProxy_ChaosStudioExperimentTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (c *jsiiProxy_ChaosStudioExperimentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChaosStudioExperimentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ChaosStudioExperimentTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ChaosStudioExperimentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChaosStudioExperimentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ChaosStudioExperimentTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewChaosStudioExperimentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewChaosStudioExperimentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

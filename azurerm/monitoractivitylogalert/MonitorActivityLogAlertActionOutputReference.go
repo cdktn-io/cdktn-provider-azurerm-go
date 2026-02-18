@@ -5,14 +5,14 @@ package monitoractivitylogalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitoractivitylogalert/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitoractivitylogalert/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorActivityLogAlertActionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActionGroupId() *string
 	SetActionGroupId(val *string)
 	ActionGroupIdInput() *string
@@ -40,9 +40,9 @@ type MonitorActivityLogAlertActionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WebhookProperties() *map[string]*string
 	SetWebhookProperties(val *map[string]*string)
 	WebhookPropertiesInput() *map[string]*string
@@ -51,7 +51,7 @@ type MonitorActivityLogAlertActionOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type MonitorActivityLogAlertActionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetWebhookProperties()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type MonitorActivityLogAlertActionOutputReference interface {
 
 // The jsii proxy struct for MonitorActivityLogAlertActionOutputReference
 type jsiiProxy_MonitorActivityLogAlertActionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference) ActionGroupId() *string {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference) WebhookProperti
 }
 
 
-func NewMonitorActivityLogAlertActionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorActivityLogAlertActionOutputReference {
+func NewMonitorActivityLogAlertActionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorActivityLogAlertActionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorActivityLogAlertActionOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewMonitorActivityLogAlertActionOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewMonitorActivityLogAlertActionOutputReference_Override(m MonitorActivityLogAlertActionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewMonitorActivityLogAlertActionOutputReference_Override(m MonitorActivityLogAlertActionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorActivityLogAlertActionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -458,8 +458,8 @@ func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -471,11 +471,11 @@ func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) InterpolationAs
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -495,7 +495,7 @@ func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) ResetWebhookPro
 	)
 }
 
-func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorActivityLogAlertActionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

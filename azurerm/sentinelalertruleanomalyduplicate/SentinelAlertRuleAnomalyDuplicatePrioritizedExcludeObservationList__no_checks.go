@@ -15,7 +15,7 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservatio
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservatio
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservatio
 	return nil
 }
 
-func validateNewSentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

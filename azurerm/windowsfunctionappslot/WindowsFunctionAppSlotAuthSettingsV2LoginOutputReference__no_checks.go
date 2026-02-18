@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2LoginOutputReference) val
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2LoginOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2LoginOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2LoginOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2LoginOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2LoginOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2LoginOutputReference) val
 	return nil
 }
 
-func validateNewWindowsFunctionAppSlotAuthSettingsV2LoginOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppSlotAuthSettingsV2LoginOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

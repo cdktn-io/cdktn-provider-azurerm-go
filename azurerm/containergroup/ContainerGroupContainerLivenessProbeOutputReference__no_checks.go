@@ -51,7 +51,7 @@ func (c *jsiiProxy_ContainerGroupContainerLivenessProbeOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ContainerGroupContainerLivenessProbeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerGroupContainerLivenessProbeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ContainerGroupContainerLivenessProbeOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroupContainerLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerGroupContainerLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_ContainerGroupContainerLivenessProbeOutputReference) validate
 	return nil
 }
 
-func validateNewContainerGroupContainerLivenessProbeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerGroupContainerLivenessProbeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

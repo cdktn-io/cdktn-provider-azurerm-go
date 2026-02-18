@@ -123,7 +123,7 @@ func (j *jsiiProxy_VirtualDesktopApplicationGroup) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopApplicationGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualDesktopApplicationGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

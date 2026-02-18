@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudBuildPackBindingTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudBuildPackBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudBuildPackBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SpringCloudBuildPackBindingTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudBuildPackBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudBuildPackBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SpringCloudBuildPackBindingTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewSpringCloudBuildPackBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudBuildPackBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

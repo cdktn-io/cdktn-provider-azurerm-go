@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticSanVolumeGroupNetworkRuleList) validateGetParameters(i
 	return nil
 }
 
-func (e *jsiiProxy_ElasticSanVolumeGroupNetworkRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticSanVolumeGroupNetworkRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElasticSanVolumeGroupNetworkRuleList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_ElasticSanVolumeGroupNetworkRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticSanVolumeGroupNetworkRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElasticSanVolumeGroupNetworkRuleList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewElasticSanVolumeGroupNetworkRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticSanVolumeGroupNetworkRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

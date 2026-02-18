@@ -119,7 +119,7 @@ func (j *jsiiProxy_StorageMoverJobDefinition) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_StorageMoverJobDefinition) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageMoverJobDefinition) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

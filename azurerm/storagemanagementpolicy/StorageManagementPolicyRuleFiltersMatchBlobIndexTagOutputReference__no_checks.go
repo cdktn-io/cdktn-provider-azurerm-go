@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputRefe
 	return nil
 }
 
-func (s *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputRefe
 	return nil
 }
 
-func validateNewStorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageManagementPolicyRuleFiltersMatchBlobIndexTagOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

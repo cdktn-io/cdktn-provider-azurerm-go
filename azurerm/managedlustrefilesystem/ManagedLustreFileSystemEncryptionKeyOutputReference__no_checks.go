@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedLustreFileSystemEncryptionKeyOutputReference) validate
 	return nil
 }
 
-func (m *jsiiProxy_ManagedLustreFileSystemEncryptionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedLustreFileSystemEncryptionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ManagedLustreFileSystemEncryptionKeyOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ManagedLustreFileSystemEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedLustreFileSystemEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedLustreFileSystemEncryptionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedLustreFileSystemEncryptionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationInsightsStandardWebTestTimeoutsOutputReference) va
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationInsightsStandardWebTestTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationInsightsStandardWebTestTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApplicationInsightsStandardWebTestTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsightsStandardWebTestTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationInsightsStandardWebTestTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApplicationInsightsStandardWebTestTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewApplicationInsightsStandardWebTestTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationInsightsStandardWebTestTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

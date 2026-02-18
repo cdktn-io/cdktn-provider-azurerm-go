@@ -115,7 +115,7 @@ func (j *jsiiProxy_VmwarePrivateCloud) validateSetInternetConnectionEnabledParam
 	return nil
 }
 
-func (j *jsiiProxy_VmwarePrivateCloud) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VmwarePrivateCloud) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

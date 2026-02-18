@@ -5,14 +5,14 @@ package appserviceslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appserviceslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppServiceSlotStorageAccountOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessKey() *string
 	SetAccessKey(val *string)
 	AccessKeyInput() *string
@@ -52,9 +52,9 @@ type AppServiceSlotStorageAccountOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -63,7 +63,7 @@ type AppServiceSlotStorageAccountOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,13 +79,13 @@ type AppServiceSlotStorageAccountOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMountPath()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type AppServiceSlotStorageAccountOutputReference interface {
 
 // The jsii proxy struct for AppServiceSlotStorageAccountOutputReference
 type jsiiProxy_AppServiceSlotStorageAccountOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference) AccessKey() *string {
@@ -258,8 +258,8 @@ func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -289,7 +289,7 @@ func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference) TypeInput() *str
 }
 
 
-func NewAppServiceSlotStorageAccountOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppServiceSlotStorageAccountOutputReference {
+func NewAppServiceSlotStorageAccountOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) AppServiceSlotStorageAccountOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppServiceSlotStorageAccountOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -306,7 +306,7 @@ func NewAppServiceSlotStorageAccountOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewAppServiceSlotStorageAccountOutputReference_Override(a AppServiceSlotStorageAccountOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewAppServiceSlotStorageAccountOutputReference_Override(a AppServiceSlotStorageAccountOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -415,7 +415,7 @@ func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppServiceSlotStorageAccountOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -466,11 +466,11 @@ func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -594,8 +594,8 @@ func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -607,11 +607,11 @@ func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) InterpolationAsL
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -631,7 +631,7 @@ func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) ResetMountPath()
 	)
 }
 
-func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppServiceSlotStorageAccountOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

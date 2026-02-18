@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermAutomationVariablesEncryptedList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAutomationVariablesEncryptedList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAutomationVariablesEncryptedList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermAutomationVariablesEncryptedList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAutomationVariablesEncryptedList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAutomationVariablesEncryptedList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermAutomationVariablesEncryptedList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAzurermAutomationVariablesEncryptedListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermAutomationVariablesEncryptedListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

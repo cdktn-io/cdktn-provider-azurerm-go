@@ -5,14 +5,14 @@ package batchpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/batchpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/batchpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BatchPoolContainerConfigurationContainerRegistriesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type BatchPoolContainerConfigurationContainerRegistriesOutputReference interface
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserAssignedIdentityId() *string
 	SetUserAssignedIdentityId(val *string)
 	UserAssignedIdentityIdInput() *string
@@ -57,7 +57,7 @@ type BatchPoolContainerConfigurationContainerRegistriesOutputReference interface
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type BatchPoolContainerConfigurationContainerRegistriesOutputReference interface
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPassword()
 	ResetRegistryServer()
 	ResetUserAssignedIdentityId()
 	ResetUserName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type BatchPoolContainerConfigurationContainerRegistriesOutputReference interface
 
 // The jsii proxy struct for BatchPoolContainerConfigurationContainerRegistriesOutputReference
 type jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) ComplexObjectIndex() interface{} {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputRefer
 	return returns
 }
 
-func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputRefer
 }
 
 
-func NewBatchPoolContainerConfigurationContainerRegistriesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BatchPoolContainerConfigurationContainerRegistriesOutputReference {
+func NewBatchPoolContainerConfigurationContainerRegistriesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BatchPoolContainerConfigurationContainerRegistriesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBatchPoolContainerConfigurationContainerRegistriesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -263,7 +263,7 @@ func NewBatchPoolContainerConfigurationContainerRegistriesOutputReference(terraf
 	return &j
 }
 
-func NewBatchPoolContainerConfigurationContainerRegistriesOutputReference_Override(b BatchPoolContainerConfigurationContainerRegistriesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBatchPoolContainerConfigurationContainerRegistriesOutputReference_Override(b BatchPoolContainerConfigurationContainerRegistriesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -339,7 +339,7 @@ func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputRefer
 	)
 }
 
-func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputRefer
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -529,8 +529,8 @@ func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputRefer
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -542,11 +542,11 @@ func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputRefer
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -590,7 +590,7 @@ func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputRefer
 	)
 }
 
-func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BatchPoolContainerConfigurationContainerRegistriesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

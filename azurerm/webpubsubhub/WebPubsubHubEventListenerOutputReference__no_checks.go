@@ -47,7 +47,7 @@ func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) validateInterpolati
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) validateSetUserEven
 	return nil
 }
 
-func validateNewWebPubsubHubEventListenerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWebPubsubHubEventListenerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

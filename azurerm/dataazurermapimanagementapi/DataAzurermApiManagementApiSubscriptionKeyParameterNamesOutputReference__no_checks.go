@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermApiManagementApiSubscriptionKeyParameterNamesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermApiManagementApiSubscriptionKeyParameterNamesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

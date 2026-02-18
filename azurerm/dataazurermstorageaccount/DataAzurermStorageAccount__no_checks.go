@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermStorageAccount) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermStorageAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

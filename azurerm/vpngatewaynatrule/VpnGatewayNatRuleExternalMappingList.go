@@ -5,14 +5,14 @@ package vpngatewaynatrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpngatewaynatrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vpngatewaynatrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpnGatewayNatRuleExternalMappingList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type VpnGatewayNatRuleExternalMappingList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type VpnGatewayNatRuleExternalMappingList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) VpnGatewayNatRuleExternalMappingOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type VpnGatewayNatRuleExternalMappingList interface {
 
 // The jsii proxy struct for VpnGatewayNatRuleExternalMappingList
 type jsiiProxy_VpnGatewayNatRuleExternalMappingList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList) WrapsSet() *bool {
 }
 
 
-func NewVpnGatewayNatRuleExternalMappingList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpnGatewayNatRuleExternalMappingList {
+func NewVpnGatewayNatRuleExternalMappingList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpnGatewayNatRuleExternalMappingList {
 	_init_.Initialize()
 
 	if err := validateNewVpnGatewayNatRuleExternalMappingListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewVpnGatewayNatRuleExternalMappingList(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewVpnGatewayNatRuleExternalMappingList_Override(v VpnGatewayNatRuleExternalMappingList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewVpnGatewayNatRuleExternalMappingList_Override(v VpnGatewayNatRuleExternalMappingList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_VpnGatewayNatRuleExternalMappingList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := v.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		v,
@@ -231,7 +231,7 @@ func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingList) Get(index *float64) Vpn
 	return returns
 }
 
-func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingList) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpnGatewayNatRuleExternalMappingList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

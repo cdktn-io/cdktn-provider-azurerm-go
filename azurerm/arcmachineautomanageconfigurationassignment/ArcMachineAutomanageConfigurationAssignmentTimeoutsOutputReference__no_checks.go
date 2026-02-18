@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignmentTimeoutsOutputRefe
 	return nil
 }
 
-func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignmentTimeoutsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewArcMachineAutomanageConfigurationAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewArcMachineAutomanageConfigurationAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package databricksworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/databricksworkspace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/databricksworkspace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/databricks_workspace azurerm_databricks_workspace}.
 type DatabricksWorkspace interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessConnectorId() *string
 	SetAccessConnectorId(val *string)
 	AccessConnectorIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -46,9 +46,9 @@ type DatabricksWorkspace interface {
 	EnhancedSecurityCompliance() DatabricksWorkspaceEnhancedSecurityComplianceOutputReference
 	EnhancedSecurityComplianceInput() *DatabricksWorkspaceEnhancedSecurityCompliance
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -60,9 +60,9 @@ type DatabricksWorkspace interface {
 	SetInfrastructureEncryptionEnabled(val interface{})
 	InfrastructureEncryptionEnabledInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LoadBalancerBackendAddressPoolId() *string
 	SetLoadBalancerBackendAddressPoolId(val *string)
 	LoadBalancerBackendAddressPoolIdInput() *string
@@ -98,9 +98,9 @@ type DatabricksWorkspace interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -121,7 +121,7 @@ type DatabricksWorkspace interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -138,7 +138,7 @@ type DatabricksWorkspace interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -156,9 +156,9 @@ type DatabricksWorkspace interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -212,7 +212,7 @@ type DatabricksWorkspace interface {
 
 // The jsii proxy struct for DatabricksWorkspace
 type jsiiProxy_DatabricksWorkspace struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DatabricksWorkspace) AccessConnectorId() *string {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_DatabricksWorkspace) AccessConnectorIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DatabricksWorkspace) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DatabricksWorkspace) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -375,8 +375,8 @@ func (j *jsiiProxy_DatabricksWorkspace) EnhancedSecurityComplianceInput() *Datab
 	return returns
 }
 
-func (j *jsiiProxy_DatabricksWorkspace) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DatabricksWorkspace) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -445,8 +445,8 @@ func (j *jsiiProxy_DatabricksWorkspace) InfrastructureEncryptionEnabledInput() i
 	return returns
 }
 
-func (j *jsiiProxy_DatabricksWorkspace) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DatabricksWorkspace) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -685,8 +685,8 @@ func (j *jsiiProxy_DatabricksWorkspace) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DatabricksWorkspace) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DatabricksWorkspace) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -805,8 +805,8 @@ func (j *jsiiProxy_DatabricksWorkspace) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DatabricksWorkspace) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DatabricksWorkspace) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -968,7 +968,7 @@ func (j *jsiiProxy_DatabricksWorkspace)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DatabricksWorkspace)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DatabricksWorkspace)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -998,7 +998,7 @@ func (j *jsiiProxy_DatabricksWorkspace)SetInfrastructureEncryptionEnabled(val in
 	)
 }
 
-func (j *jsiiProxy_DatabricksWorkspace)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DatabricksWorkspace)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1119,7 +1119,7 @@ func (j *jsiiProxy_DatabricksWorkspace)SetNetworkSecurityGroupRulesRequired(val 
 	)
 }
 
-func (j *jsiiProxy_DatabricksWorkspace)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DatabricksWorkspace)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1182,14 +1182,14 @@ func (j *jsiiProxy_DatabricksWorkspace)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DatabricksWorkspace resource upon running "cdktf plan <stack-name>".
-func DatabricksWorkspace_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DatabricksWorkspace resource upon running "cdktn plan <stack-name>".
+func DatabricksWorkspace_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDatabricksWorkspace_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.databricksWorkspace.DatabricksWorkspace",
@@ -1323,11 +1323,11 @@ func (d *jsiiProxy_DatabricksWorkspace) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (d *jsiiProxy_DatabricksWorkspace) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabricksWorkspace) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1464,7 +1464,7 @@ func (d *jsiiProxy_DatabricksWorkspace) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DatabricksWorkspace) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DatabricksWorkspace) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1475,11 +1475,11 @@ func (d *jsiiProxy_DatabricksWorkspace) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (d *jsiiProxy_DatabricksWorkspace) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatabricksWorkspace) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

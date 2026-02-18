@@ -143,7 +143,7 @@ func (j *jsiiProxy_PublicIp) validateSetIpVersionParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_PublicIp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PublicIp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

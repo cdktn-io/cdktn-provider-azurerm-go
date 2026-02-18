@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutp
 	return nil
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutp
 	return nil
 }
 
-func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutp
 	return nil
 }
 
-func validateNewAutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAutomationSoftwareUpdateConfigurationTargetAzureQueryTagsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

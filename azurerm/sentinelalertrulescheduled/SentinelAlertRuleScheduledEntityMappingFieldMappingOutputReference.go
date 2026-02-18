@@ -5,14 +5,14 @@ package sentinelalertrulescheduled
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelalertrulescheduled/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/sentinelalertrulescheduled/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ColumnName() *string
 	SetColumnName(val *string)
 	ColumnNameInput() *string
@@ -43,15 +43,15 @@ type SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference interfac
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference interfac
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference interfac
 
 // The jsii proxy struct for SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference
 type jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) ColumnName() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputRefe
 	return returns
 }
 
-func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputRefe
 }
 
 
-func NewSentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference {
+func NewSentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSentinelAlertRuleScheduledEntityMappingFieldMappingOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewSentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference(terra
 	return &j
 }
 
-func NewSentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference_Override(s SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference_Override(s SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputRefe
 	)
 }
 
-func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputRefe
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -457,8 +457,8 @@ func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputRefe
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -470,11 +470,11 @@ func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputRefe
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputRefe
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SentinelAlertRuleScheduledEntityMappingFieldMappingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

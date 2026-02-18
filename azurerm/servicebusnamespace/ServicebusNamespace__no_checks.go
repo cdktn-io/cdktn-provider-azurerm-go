@@ -123,7 +123,7 @@ func (j *jsiiProxy_ServicebusNamespace) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicebusNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotSecurityDeviceGroupTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (i *jsiiProxy_IotSecurityDeviceGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotSecurityDeviceGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroupTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_IotSecurityDeviceGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotSecurityDeviceGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroupTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewIotSecurityDeviceGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotSecurityDeviceGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

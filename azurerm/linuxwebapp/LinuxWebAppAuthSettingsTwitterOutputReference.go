@@ -5,14 +5,14 @@ package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxWebAppAuthSettingsTwitterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type LinuxWebAppAuthSettingsTwitterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type LinuxWebAppAuthSettingsTwitterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetConsumerSecret()
 	ResetConsumerSecretSettingName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type LinuxWebAppAuthSettingsTwitterOutputReference interface {
 
 // The jsii proxy struct for LinuxWebAppAuthSettingsTwitterOutputReference
 type jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) TerraformResou
 }
 
 
-func NewLinuxWebAppAuthSettingsTwitterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxWebAppAuthSettingsTwitterOutputReference {
+func NewLinuxWebAppAuthSettingsTwitterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxWebAppAuthSettingsTwitterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxWebAppAuthSettingsTwitterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewLinuxWebAppAuthSettingsTwitterOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewLinuxWebAppAuthSettingsTwitterOutputReference_Override(l LinuxWebAppAuthSettingsTwitterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxWebAppAuthSettingsTwitterOutputReference_Override(l LinuxWebAppAuthSettingsTwitterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -493,8 +493,8 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) GetStringMapAt
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -506,11 +506,11 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) InterpolationA
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -538,7 +538,7 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) ResetConsumerS
 	)
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsTwitterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

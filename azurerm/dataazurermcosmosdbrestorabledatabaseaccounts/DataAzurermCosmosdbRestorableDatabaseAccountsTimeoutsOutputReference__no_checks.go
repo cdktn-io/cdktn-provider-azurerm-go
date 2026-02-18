@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermCosmosdbRestorableDatabaseAccountsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

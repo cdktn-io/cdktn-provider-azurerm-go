@@ -5,14 +5,14 @@ package aiservices
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/aiservices/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/aiservices/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AiServicesNetworkAclsVirtualNetworkRulesList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AiServicesNetworkAclsVirtualNetworkRulesList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AiServicesNetworkAclsVirtualNetworkRulesList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AiServicesNetworkAclsVirtualNetworkRulesOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AiServicesNetworkAclsVirtualNetworkRulesList interface {
 
 // The jsii proxy struct for AiServicesNetworkAclsVirtualNetworkRulesList
 type jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) WrapsSet() *boo
 }
 
 
-func NewAiServicesNetworkAclsVirtualNetworkRulesList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AiServicesNetworkAclsVirtualNetworkRulesList {
+func NewAiServicesNetworkAclsVirtualNetworkRulesList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AiServicesNetworkAclsVirtualNetworkRulesList {
 	_init_.Initialize()
 
 	if err := validateNewAiServicesNetworkAclsVirtualNetworkRulesListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAiServicesNetworkAclsVirtualNetworkRulesList(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewAiServicesNetworkAclsVirtualNetworkRulesList_Override(a AiServicesNetworkAclsVirtualNetworkRulesList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAiServicesNetworkAclsVirtualNetworkRulesList_Override(a AiServicesNetworkAclsVirtualNetworkRulesList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList)SetWrapsSet(val 
 	)
 }
 
-func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) Get(index *floa
 	return returns
 }
 
-func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

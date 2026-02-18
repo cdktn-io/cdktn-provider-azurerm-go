@@ -5,14 +5,14 @@ package stackhcinetworkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/stackhcinetworkinterface/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/stackhcinetworkinterface/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StackHciNetworkInterfaceIpConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type StackHciNetworkInterfaceIpConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,13 +69,13 @@ type StackHciNetworkInterfaceIpConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPrivateIpAddress()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type StackHciNetworkInterfaceIpConfigurationOutputReference interface {
 
 // The jsii proxy struct for StackHciNetworkInterfaceIpConfigurationOutputReference
 type jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) Terra
 }
 
 
-func NewStackHciNetworkInterfaceIpConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StackHciNetworkInterfaceIpConfigurationOutputReference {
+func NewStackHciNetworkInterfaceIpConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StackHciNetworkInterfaceIpConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStackHciNetworkInterfaceIpConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewStackHciNetworkInterfaceIpConfigurationOutputReference(terraformResource
 	return &j
 }
 
-func NewStackHciNetworkInterfaceIpConfigurationOutputReference_Override(s StackHciNetworkInterfaceIpConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStackHciNetworkInterfaceIpConfigurationOutputReference_Override(s StackHciNetworkInterfaceIpConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -312,7 +312,7 @@ func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -352,11 +352,11 @@ func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) GetAn
 	return returns
 }
 
-func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -480,8 +480,8 @@ func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) GetSt
 	return returns
 }
 
-func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -493,11 +493,11 @@ func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) Inter
 	return returns
 }
 
-func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -517,7 +517,7 @@ func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) Reset
 	)
 }
 
-func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StackHciNetworkInterfaceIpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

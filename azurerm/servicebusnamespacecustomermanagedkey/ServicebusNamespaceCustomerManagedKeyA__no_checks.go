@@ -115,7 +115,7 @@ func (j *jsiiProxy_ServicebusNamespaceCustomerManagedKeyA) validateSetKeyVaultKe
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusNamespaceCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicebusNamespaceCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

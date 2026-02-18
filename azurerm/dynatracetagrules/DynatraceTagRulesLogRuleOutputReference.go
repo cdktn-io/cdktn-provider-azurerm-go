@@ -5,14 +5,14 @@ package dynatracetagrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dynatracetagrules/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dynatracetagrules/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DynatraceTagRulesLogRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,15 +48,15 @@ type DynatraceTagRulesLogRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type DynatraceTagRulesLogRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFilteringTag(value interface{})
 	ResetFilteringTag()
 	ResetSendActivityLogsEnabled()
@@ -82,7 +82,7 @@ type DynatraceTagRulesLogRuleOutputReference interface {
 	ResetSendSubscriptionLogsEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DynatraceTagRulesLogRuleOutputReference interface {
 
 // The jsii proxy struct for DynatraceTagRulesLogRuleOutputReference
 type jsiiProxy_DynatraceTagRulesLogRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) TerraformResource() 
 }
 
 
-func NewDynatraceTagRulesLogRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DynatraceTagRulesLogRuleOutputReference {
+func NewDynatraceTagRulesLogRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DynatraceTagRulesLogRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDynatraceTagRulesLogRuleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDynatraceTagRulesLogRuleOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewDynatraceTagRulesLogRuleOutputReference_Override(d DynatraceTagRulesLogRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDynatraceTagRulesLogRuleOutputReference_Override(d DynatraceTagRulesLogRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DynatraceTagRulesLogRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -390,11 +390,11 @@ func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -518,8 +518,8 @@ func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -531,11 +531,11 @@ func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) ResetSendSubscriptio
 	)
 }
 
-func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DynatraceTagRulesLogRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

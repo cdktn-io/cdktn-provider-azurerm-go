@@ -115,7 +115,7 @@ func (j *jsiiProxy_DynatraceTagRules) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_DynatraceTagRules) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DynatraceTagRules) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

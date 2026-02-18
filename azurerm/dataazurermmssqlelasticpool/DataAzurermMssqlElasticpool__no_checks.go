@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpool) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermMssqlElasticpool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

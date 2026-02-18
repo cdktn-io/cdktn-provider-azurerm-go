@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BotChannelLineLineChannelList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (b *jsiiProxy_BotChannelLineLineChannelList) validateGetParameters(index *f
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelLineLineChannelList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelLineLineChannelList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (b *jsiiProxy_BotChannelLineLineChannelList) validateResolveParameters(cont
 
 func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BotChannelLineLineChannel:
 		val := val.(*[]*BotChannelLineLineChannel)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetInternalValueParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*BotChannelLineLineChannel; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*BotChannelLineLineChannel; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_BotChannelLineLineChannelList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewBotChannelLineLineChannelListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBotChannelLineLineChannelListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -51,7 +51,7 @@ func (d *jsiiProxy_DevTestVirtualNetworkSubnetOutputReference) validatePutShared
 	return nil
 }
 
-func (d *jsiiProxy_DevTestVirtualNetworkSubnetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestVirtualNetworkSubnetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DevTestVirtualNetworkSubnetOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DevTestVirtualNetworkSubnetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestVirtualNetworkSubnetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DevTestVirtualNetworkSubnetOutputReference) validateSetUsePub
 	return nil
 }
 
-func validateNewDevTestVirtualNetworkSubnetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevTestVirtualNetworkSubnetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

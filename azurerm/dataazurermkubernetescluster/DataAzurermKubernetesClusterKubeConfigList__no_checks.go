@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterKubeConfigList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterKubeConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterKubeConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterKubeConfigList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterKubeConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterKubeConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterKubeConfigList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterKubeConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterKubeConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

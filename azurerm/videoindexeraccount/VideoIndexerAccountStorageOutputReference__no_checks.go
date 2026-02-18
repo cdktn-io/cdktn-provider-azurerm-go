@@ -47,7 +47,7 @@ func (v *jsiiProxy_VideoIndexerAccountStorageOutputReference) validateInterpolat
 	return nil
 }
 
-func (v *jsiiProxy_VideoIndexerAccountStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VideoIndexerAccountStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VideoIndexerAccountStorageOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_VideoIndexerAccountStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VideoIndexerAccountStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VideoIndexerAccountStorageOutputReference) validateSetUserAss
 	return nil
 }
 
-func validateNewVideoIndexerAccountStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVideoIndexerAccountStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

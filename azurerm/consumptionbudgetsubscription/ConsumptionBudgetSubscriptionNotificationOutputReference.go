@@ -5,14 +5,14 @@ package consumptionbudgetsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/consumptionbudgetsubscription/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/consumptionbudgetsubscription/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConsumptionBudgetSubscriptionNotificationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -52,9 +52,9 @@ type ConsumptionBudgetSubscriptionNotificationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Threshold() *float64
 	SetThreshold(val *float64)
 	ThresholdInput() *float64
@@ -66,7 +66,7 @@ type ConsumptionBudgetSubscriptionNotificationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type ConsumptionBudgetSubscriptionNotificationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetContactEmails()
 	ResetContactGroups()
 	ResetContactRoles()
@@ -92,7 +92,7 @@ type ConsumptionBudgetSubscriptionNotificationOutputReference interface {
 	ResetThresholdType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -102,7 +102,7 @@ type ConsumptionBudgetSubscriptionNotificationOutputReference interface {
 
 // The jsii proxy struct for ConsumptionBudgetSubscriptionNotificationOutputReference
 type jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) ComplexObjectIndex() interface{} {
@@ -265,8 +265,8 @@ func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -316,7 +316,7 @@ func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Thr
 }
 
 
-func NewConsumptionBudgetSubscriptionNotificationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ConsumptionBudgetSubscriptionNotificationOutputReference {
+func NewConsumptionBudgetSubscriptionNotificationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ConsumptionBudgetSubscriptionNotificationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewConsumptionBudgetSubscriptionNotificationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -333,7 +333,7 @@ func NewConsumptionBudgetSubscriptionNotificationOutputReference(terraformResour
 	return &j
 }
 
-func NewConsumptionBudgetSubscriptionNotificationOutputReference_Override(c ConsumptionBudgetSubscriptionNotificationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewConsumptionBudgetSubscriptionNotificationOutputReference_Override(c ConsumptionBudgetSubscriptionNotificationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -442,7 +442,7 @@ func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -504,11 +504,11 @@ func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Get
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -632,8 +632,8 @@ func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Get
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -645,11 +645,11 @@ func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Int
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -701,7 +701,7 @@ func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Res
 	)
 }
 
-func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ConsumptionBudgetSubscriptionNotificationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

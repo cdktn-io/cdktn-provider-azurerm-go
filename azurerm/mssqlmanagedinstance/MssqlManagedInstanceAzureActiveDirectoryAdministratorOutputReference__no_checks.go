@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputRe
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlManagedInstanceAzureActiveDirectoryAdministratorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

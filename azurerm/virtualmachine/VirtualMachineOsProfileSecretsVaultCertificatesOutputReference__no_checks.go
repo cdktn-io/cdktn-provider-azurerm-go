@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesOutputReferenc
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineOsProfileSecretsVaultCertificatesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineOsProfileSecretsVaultCertificatesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualMachineOsProfileSecretsVaultCertificatesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

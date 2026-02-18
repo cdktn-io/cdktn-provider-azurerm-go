@@ -67,7 +67,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validatePutUrlRewrite
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorRuleActionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnFrontdoorRuleActionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorRuleActionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

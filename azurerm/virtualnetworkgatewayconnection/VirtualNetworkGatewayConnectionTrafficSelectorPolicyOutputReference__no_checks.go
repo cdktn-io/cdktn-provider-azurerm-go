@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputRef
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualNetworkGatewayConnectionTrafficSelectorPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

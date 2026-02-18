@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstanceIdentityOutputReference)
 	return nil
 }
 
-func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstanceIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstanceIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WorkloadsSapSingleNodeVirtualInstanceIdentityOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_WorkloadsSapSingleNodeVirtualInstanceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkloadsSapSingleNodeVirtualInstanceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WorkloadsSapSingleNodeVirtualInstanceIdentityOutputReference)
 	return nil
 }
 
-func validateNewWorkloadsSapSingleNodeVirtualInstanceIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkloadsSapSingleNodeVirtualInstanceIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

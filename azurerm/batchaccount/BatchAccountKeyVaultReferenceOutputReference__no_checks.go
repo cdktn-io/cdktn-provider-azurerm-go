@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) validateInterpo
 	return nil
 }
 
-func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BatchAccountKeyVaultReferenceOutputReference) validateSetUrlP
 	return nil
 }
 
-func validateNewBatchAccountKeyVaultReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchAccountKeyVaultReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

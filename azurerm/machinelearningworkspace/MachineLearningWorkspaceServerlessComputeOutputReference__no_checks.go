@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningWorkspaceServerlessComputeOutputReference) val
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningWorkspaceServerlessComputeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningWorkspaceServerlessComputeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MachineLearningWorkspaceServerlessComputeOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningWorkspaceServerlessComputeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningWorkspaceServerlessComputeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMachineLearningWorkspaceServerlessComputeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningWorkspaceServerlessComputeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

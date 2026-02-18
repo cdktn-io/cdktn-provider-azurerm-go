@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) validateSetIpAddre
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

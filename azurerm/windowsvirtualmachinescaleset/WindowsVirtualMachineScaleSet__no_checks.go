@@ -247,7 +247,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetLicenseTypeParamete
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,22 +5,22 @@ package dataazurermapimanagementproduct
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermapimanagementproduct/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermapimanagementproduct/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/api_management_product azurerm_api_management_product}.
 type DataAzurermApiManagementProduct interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	ApiManagementName() *string
 	SetApiManagementName(val *string)
 	ApiManagementNameInput() *string
-	ApprovalRequired() cdktf.IResolvable
+	ApprovalRequired() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type DataAzurermApiManagementProduct interface {
 	Description() *string
 	DisplayName() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,29 +45,29 @@ type DataAzurermApiManagementProduct interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	ProductId() *string
 	SetProductId(val *string)
 	ProductIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	Published() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	Published() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
-	SubscriptionRequired() cdktf.IResolvable
+	SubscriptionRequired() cdktn.IResolvable
 	SubscriptionsLimit() *float64
 	Terms() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type DataAzurermApiManagementProduct interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -95,7 +95,7 @@ type DataAzurermApiManagementProduct interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -121,7 +121,7 @@ type DataAzurermApiManagementProduct interface {
 
 // The jsii proxy struct for DataAzurermApiManagementProduct
 type jsiiProxy_DataAzurermApiManagementProduct struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermApiManagementProduct) ApiManagementName() *string {
@@ -144,8 +144,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) ApiManagementNameInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) ApprovalRequired() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementProduct) ApprovalRequired() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"approvalRequired",
@@ -154,8 +154,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) ApprovalRequired() cdktf.IRe
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermApiManagementProduct) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -214,8 +214,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) DisplayName() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermApiManagementProduct) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -264,8 +264,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermApiManagementProduct) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -304,8 +304,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) ProductIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermApiManagementProduct) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -314,8 +314,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) Provider() cdktf.TerraformPr
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) Published() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementProduct) Published() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"published",
@@ -354,8 +354,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) ResourceGroupNameInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) SubscriptionRequired() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementProduct) SubscriptionRequired() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"subscriptionRequired",
@@ -384,8 +384,8 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) Terms() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermApiManagementProduct) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -494,7 +494,7 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct)SetDependsOn(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermApiManagementProduct)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -513,7 +513,7 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermApiManagementProduct)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -535,7 +535,7 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct)SetProductId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementProduct)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermApiManagementProduct)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -554,14 +554,14 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct)SetResourceGroupName(val *str
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermApiManagementProduct resource upon running "cdktf plan <stack-name>".
-func DataAzurermApiManagementProduct_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermApiManagementProduct resource upon running "cdktn plan <stack-name>".
+func DataAzurermApiManagementProduct_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermApiManagementProduct_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermApiManagementProduct.DataAzurermApiManagementProduct",
@@ -684,11 +684,11 @@ func (d *jsiiProxy_DataAzurermApiManagementProduct) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementProduct) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApiManagementProduct) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -812,11 +812,11 @@ func (d *jsiiProxy_DataAzurermApiManagementProduct) GetStringMapAttribute(terraf
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementProduct) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApiManagementProduct) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

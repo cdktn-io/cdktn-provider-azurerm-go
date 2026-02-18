@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterWindowsProfileGmsaOutputReference) validateI
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterWindowsProfileGmsaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterWindowsProfileGmsaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KubernetesClusterWindowsProfileGmsaOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterWindowsProfileGmsaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterWindowsProfileGmsaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterWindowsProfileGmsaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterWindowsProfileGmsaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

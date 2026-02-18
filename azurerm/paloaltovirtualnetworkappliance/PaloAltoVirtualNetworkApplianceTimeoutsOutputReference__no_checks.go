@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaloAltoVirtualNetworkApplianceTimeoutsOutputReference) valid
 	return nil
 }
 
-func (p *jsiiProxy_PaloAltoVirtualNetworkApplianceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaloAltoVirtualNetworkApplianceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_PaloAltoVirtualNetworkApplianceTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoVirtualNetworkApplianceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaloAltoVirtualNetworkApplianceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPaloAltoVirtualNetworkApplianceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaloAltoVirtualNetworkApplianceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

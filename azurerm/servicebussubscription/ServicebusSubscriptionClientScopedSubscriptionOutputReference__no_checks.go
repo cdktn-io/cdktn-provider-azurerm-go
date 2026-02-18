@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	return nil
 }
 
-func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicebusSubscriptionClientScopedSubscriptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServicebusSubscriptionClientScopedSubscriptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServicebusSubscriptionClientScopedSubscriptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

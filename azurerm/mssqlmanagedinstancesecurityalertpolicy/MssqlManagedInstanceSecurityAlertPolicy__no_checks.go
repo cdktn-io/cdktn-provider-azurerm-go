@@ -123,7 +123,7 @@ func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicy) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MssqlManagedInstanceSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

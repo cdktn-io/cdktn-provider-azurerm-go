@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayWafConfigurationDisabledRuleGroupList) vali
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayWafConfigurationDisabledRuleGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayWafConfigurationDisabledRuleGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayWafConfigurationDisabledRuleGroupList) vali
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayWafConfigurationDisabledRuleGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayWafConfigurationDisabledRuleGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayWafConfigurationDisabledRuleGroupList) vali
 	return nil
 }
 
-func validateNewApplicationGatewayWafConfigurationDisabledRuleGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayWafConfigurationDisabledRuleGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

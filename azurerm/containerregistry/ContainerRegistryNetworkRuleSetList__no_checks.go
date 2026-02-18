@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerRegistryNetworkRuleSetList) validateGetParameters(in
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryNetworkRuleSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryNetworkRuleSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerRegistryNetworkRuleSetList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryNetworkRuleSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryNetworkRuleSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerRegistryNetworkRuleSetList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewContainerRegistryNetworkRuleSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerRegistryNetworkRuleSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

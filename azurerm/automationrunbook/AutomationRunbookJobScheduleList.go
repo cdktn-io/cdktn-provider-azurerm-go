@@ -5,14 +5,14 @@ package automationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationrunbook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomationRunbookJobScheduleList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type AutomationRunbookJobScheduleList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type AutomationRunbookJobScheduleList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) AutomationRunbookJobScheduleOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type AutomationRunbookJobScheduleList interface {
 
 // The jsii proxy struct for AutomationRunbookJobScheduleList
 type jsiiProxy_AutomationRunbookJobScheduleList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_AutomationRunbookJobScheduleList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_AutomationRunbookJobScheduleList) TerraformAttribute() *strin
 	return returns
 }
 
-func (j *jsiiProxy_AutomationRunbookJobScheduleList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomationRunbookJobScheduleList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_AutomationRunbookJobScheduleList) WrapsSet() *bool {
 }
 
 
-func NewAutomationRunbookJobScheduleList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AutomationRunbookJobScheduleList {
+func NewAutomationRunbookJobScheduleList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) AutomationRunbookJobScheduleList {
 	_init_.Initialize()
 
 	if err := validateNewAutomationRunbookJobScheduleListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewAutomationRunbookJobScheduleList(terraformResource cdktf.IInterpolatingP
 	return &j
 }
 
-func NewAutomationRunbookJobScheduleList_Override(a AutomationRunbookJobScheduleList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewAutomationRunbookJobScheduleList_Override(a AutomationRunbookJobScheduleList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_AutomationRunbookJobScheduleList)SetTerraformAttribute(val *s
 	)
 }
 
-func (j *jsiiProxy_AutomationRunbookJobScheduleList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomationRunbookJobScheduleList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_AutomationRunbookJobScheduleList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (a *jsiiProxy_AutomationRunbookJobScheduleList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (a *jsiiProxy_AutomationRunbookJobScheduleList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := a.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		a,
@@ -231,7 +231,7 @@ func (a *jsiiProxy_AutomationRunbookJobScheduleList) Get(index *float64) Automat
 	return returns
 }
 
-func (a *jsiiProxy_AutomationRunbookJobScheduleList) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomationRunbookJobScheduleList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

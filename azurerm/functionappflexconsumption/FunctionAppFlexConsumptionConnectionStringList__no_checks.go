@@ -15,7 +15,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) validateGetPa
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringList) validateSetWr
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionConnectionStringListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFunctionAppFlexConsumptionConnectionStringListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

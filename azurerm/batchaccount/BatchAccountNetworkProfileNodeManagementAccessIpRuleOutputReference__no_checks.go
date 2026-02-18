@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputRef
 	return nil
 }
 
-func (b *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchAccountNetworkProfileNodeManagementAccessIpRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

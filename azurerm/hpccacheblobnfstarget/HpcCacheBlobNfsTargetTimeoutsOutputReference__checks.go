@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (h *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (h *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateSetDele
 
 func (j *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *HpcCacheBlobNfsTargetTimeouts:
 		val := val.(*HpcCacheBlobNfsTargetTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateSetInte
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *HpcCacheBlobNfsTargetTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *HpcCacheBlobNfsTargetTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_HpcCacheBlobNfsTargetTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewHpcCacheBlobNfsTargetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHpcCacheBlobNfsTargetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

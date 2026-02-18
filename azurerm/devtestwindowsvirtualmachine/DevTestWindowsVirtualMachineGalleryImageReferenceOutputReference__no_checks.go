@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevTestWindowsVirtualMachineGalleryImageReferenceOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DevTestWindowsVirtualMachineGalleryImageReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestWindowsVirtualMachineGalleryImageReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DevTestWindowsVirtualMachineGalleryImageReferenceOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DevTestWindowsVirtualMachineGalleryImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestWindowsVirtualMachineGalleryImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DevTestWindowsVirtualMachineGalleryImageReferenceOutputRefere
 	return nil
 }
 
-func validateNewDevTestWindowsVirtualMachineGalleryImageReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevTestWindowsVirtualMachineGalleryImageReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

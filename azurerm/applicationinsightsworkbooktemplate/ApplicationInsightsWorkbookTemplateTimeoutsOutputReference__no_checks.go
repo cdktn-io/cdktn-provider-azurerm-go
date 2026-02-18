@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationInsightsWorkbookTemplateTimeoutsOutputReference) v
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationInsightsWorkbookTemplateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationInsightsWorkbookTemplateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateTimeoutsOutputReference) v
 	return nil
 }
 
-func validateNewApplicationInsightsWorkbookTemplateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationInsightsWorkbookTemplateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

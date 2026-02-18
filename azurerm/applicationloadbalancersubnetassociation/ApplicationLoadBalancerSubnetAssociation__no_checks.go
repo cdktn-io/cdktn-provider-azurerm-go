@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateSetIdParame
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -143,7 +143,7 @@ func (j *jsiiProxy_HpcCache) validateSetKeyVaultKeyIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_HpcCache) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HpcCache) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecureLdapOutputRefere
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecureLdapOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecureLdapOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecureLdapOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecureLdapOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecureLdapOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermActiveDirectoryDomainServiceSecureLdapOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermActiveDirectoryDomainServiceSecureLdapOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

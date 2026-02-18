@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetStandbyPoolTimeoutsOutputReference) val
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetStandbyPoolTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetStandbyPoolTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStandbyPoolTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetStandbyPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetStandbyPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStandbyPoolTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetStandbyPoolTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineScaleSetStandbyPoolTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

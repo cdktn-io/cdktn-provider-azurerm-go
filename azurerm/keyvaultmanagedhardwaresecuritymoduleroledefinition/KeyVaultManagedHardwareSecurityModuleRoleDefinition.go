@@ -5,18 +5,18 @@ package keyvaultmanagedhardwaresecuritymoduleroledefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultmanagedhardwaresecuritymoduleroledefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/keyvaultmanagedhardwaresecuritymoduleroledefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/key_vault_managed_hardware_security_module_role_definition azurerm_key_vault_managed_hardware_security_module_role_definition}.
 type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	ManagedHsmId() *string
 	SetManagedHsmId(val *string)
 	ManagedHsmIdInput() *string
@@ -60,9 +60,9 @@ type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
 	Permission() KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermissionList
 	PermissionInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -75,7 +75,7 @@ type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
 	RoleNameInput() *string
 	RoleType() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -150,11 +150,11 @@ type KeyVaultManagedHardwareSecurityModuleRoleDefinition interface {
 
 // The jsii proxy struct for KeyVaultManagedHardwareSecurityModuleRoleDefinition
 type jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -223,8 +223,8 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) Descript
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -273,8 +273,8 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) IdInput(
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) Permissi
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -423,8 +423,8 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) RoleType
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -544,7 +544,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetDescri
 	)
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -563,7 +563,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetId(val
 	)
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -596,7 +596,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetName(v
 	)
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -626,14 +626,14 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition)SetRoleNa
 	)
 }
 
-// Generates CDKTF code for importing a KeyVaultManagedHardwareSecurityModuleRoleDefinition resource upon running "cdktf plan <stack-name>".
-func KeyVaultManagedHardwareSecurityModuleRoleDefinition_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a KeyVaultManagedHardwareSecurityModuleRoleDefinition resource upon running "cdktn plan <stack-name>".
+func KeyVaultManagedHardwareSecurityModuleRoleDefinition_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateKeyVaultManagedHardwareSecurityModuleRoleDefinition_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.keyVaultManagedHardwareSecurityModuleRoleDefinition.KeyVaultManagedHardwareSecurityModuleRoleDefinition",
@@ -767,11 +767,11 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) GetAnyMa
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -908,7 +908,7 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) HasResou
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := k.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -919,11 +919,11 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) ImportFr
 	)
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinition) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,

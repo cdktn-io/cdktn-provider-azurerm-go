@@ -5,14 +5,14 @@ package recoveryservicesvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/recoveryservicesvault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/recoveryservicesvault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RecoveryServicesVaultMonitoringOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AlertsForAllJobFailuresEnabled() interface{}
 	SetAlertsForAllJobFailuresEnabled(val interface{})
 	AlertsForAllJobFailuresEnabledInput() interface{}
@@ -43,15 +43,15 @@ type RecoveryServicesVaultMonitoringOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type RecoveryServicesVaultMonitoringOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAlertsForAllJobFailuresEnabled()
 	ResetAlertsForCriticalOperationFailuresEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type RecoveryServicesVaultMonitoringOutputReference interface {
 
 // The jsii proxy struct for RecoveryServicesVaultMonitoringOutputReference
 type jsiiProxy_RecoveryServicesVaultMonitoringOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) AlertsForAllJobFailuresEnabled() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) TerraformReso
 }
 
 
-func NewRecoveryServicesVaultMonitoringOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RecoveryServicesVaultMonitoringOutputReference {
+func NewRecoveryServicesVaultMonitoringOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RecoveryServicesVaultMonitoringOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRecoveryServicesVaultMonitoringOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewRecoveryServicesVaultMonitoringOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewRecoveryServicesVaultMonitoringOutputReference_Override(r RecoveryServicesVaultMonitoringOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRecoveryServicesVaultMonitoringOutputReference_Override(r RecoveryServicesVaultMonitoringOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -459,8 +459,8 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) GetStringMapA
 	return returns
 }
 
-func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -472,11 +472,11 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) Interpolation
 	return returns
 }
 
-func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -504,7 +504,7 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) ResetAlertsFo
 	)
 }
 
-func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromDatabase) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

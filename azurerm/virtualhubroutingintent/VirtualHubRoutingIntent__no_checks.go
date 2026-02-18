@@ -111,7 +111,7 @@ func (j *jsiiProxy_VirtualHubRoutingIntent) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubRoutingIntent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualHubRoutingIntent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

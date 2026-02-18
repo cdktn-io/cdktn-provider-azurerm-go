@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNginxConfigurationProtectedFileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNginxConfigurationProtectedFileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermNginxConfigurationProtectedFileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

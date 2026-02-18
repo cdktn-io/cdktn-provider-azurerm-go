@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfigurationHubList) va
 	return nil
 }
 
-func validateNewDataAzurermNetworkManagerConnectivityConfigurationHubListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermNetworkManagerConnectivityConfigurationHubListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

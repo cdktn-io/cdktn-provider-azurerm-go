@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterStorageProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterStorageProfileList) validateSetWr
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterStorageProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterStorageProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

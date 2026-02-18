@@ -5,16 +5,16 @@ package mysqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mysqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mysqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server}.
 type MysqlFlexibleServer interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdministratorLogin() *string
 	SetAdministratorLogin(val *string)
 	AdministratorLoginInput() *string
@@ -31,7 +31,7 @@ type MysqlFlexibleServer interface {
 	SetBackupRetentionDays(val *float64)
 	BackupRetentionDaysInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -55,9 +55,9 @@ type MysqlFlexibleServer interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fqdn() *string
 	// Experimental.
 	Fqn() *string
@@ -74,9 +74,9 @@ type MysqlFlexibleServer interface {
 	IdentityInput() *MysqlFlexibleServerIdentity
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -94,16 +94,16 @@ type MysqlFlexibleServer interface {
 	SetPrivateDnsZoneId(val *string)
 	PrivateDnsZoneIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
 	PublicNetworkAccess() *string
 	SetPublicNetworkAccess(val *string)
-	PublicNetworkAccessEnabled() cdktf.IResolvable
+	PublicNetworkAccessEnabled() cdktn.IResolvable
 	PublicNetworkAccessInput() *string
 	// Experimental.
 	RawOverrides() interface{}
@@ -126,7 +126,7 @@ type MysqlFlexibleServer interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -147,7 +147,7 @@ type MysqlFlexibleServer interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -165,9 +165,9 @@ type MysqlFlexibleServer interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -230,7 +230,7 @@ type MysqlFlexibleServer interface {
 
 // The jsii proxy struct for MysqlFlexibleServer
 type jsiiProxy_MysqlFlexibleServer struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_MysqlFlexibleServer) AdministratorLogin() *string {
@@ -333,8 +333,8 @@ func (j *jsiiProxy_MysqlFlexibleServer) BackupRetentionDaysInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_MysqlFlexibleServer) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -443,8 +443,8 @@ func (j *jsiiProxy_MysqlFlexibleServer) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_MysqlFlexibleServer) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -563,8 +563,8 @@ func (j *jsiiProxy_MysqlFlexibleServer) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_MysqlFlexibleServer) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -683,8 +683,8 @@ func (j *jsiiProxy_MysqlFlexibleServer) PrivateDnsZoneIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_MysqlFlexibleServer) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -713,8 +713,8 @@ func (j *jsiiProxy_MysqlFlexibleServer) PublicNetworkAccess() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer) PublicNetworkAccessEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_MysqlFlexibleServer) PublicNetworkAccessEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publicNetworkAccessEnabled",
@@ -873,8 +873,8 @@ func (j *jsiiProxy_MysqlFlexibleServer) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_MysqlFlexibleServer) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1100,7 +1100,7 @@ func (j *jsiiProxy_MysqlFlexibleServer)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_MysqlFlexibleServer)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1130,7 +1130,7 @@ func (j *jsiiProxy_MysqlFlexibleServer)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_MysqlFlexibleServer)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1185,7 +1185,7 @@ func (j *jsiiProxy_MysqlFlexibleServer)SetPrivateDnsZoneId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MysqlFlexibleServer)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_MysqlFlexibleServer)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1292,14 +1292,14 @@ func (j *jsiiProxy_MysqlFlexibleServer)SetZone(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a MysqlFlexibleServer resource upon running "cdktf plan <stack-name>".
-func MysqlFlexibleServer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a MysqlFlexibleServer resource upon running "cdktn plan <stack-name>".
+func MysqlFlexibleServer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMysqlFlexibleServer_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.mysqlFlexibleServer.MysqlFlexibleServer",
@@ -1433,11 +1433,11 @@ func (m *jsiiProxy_MysqlFlexibleServer) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (m *jsiiProxy_MysqlFlexibleServer) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MysqlFlexibleServer) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1574,7 +1574,7 @@ func (m *jsiiProxy_MysqlFlexibleServer) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_MysqlFlexibleServer) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_MysqlFlexibleServer) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1585,11 +1585,11 @@ func (m *jsiiProxy_MysqlFlexibleServer) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (m *jsiiProxy_MysqlFlexibleServer) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MysqlFlexibleServer) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

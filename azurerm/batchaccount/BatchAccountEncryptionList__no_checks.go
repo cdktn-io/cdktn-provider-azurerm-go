@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchAccountEncryptionList) validateGetParameters(index *floa
 	return nil
 }
 
-func (b *jsiiProxy_BatchAccountEncryptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchAccountEncryptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchAccountEncryptionList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_BatchAccountEncryptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchAccountEncryptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchAccountEncryptionList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewBatchAccountEncryptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchAccountEncryptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

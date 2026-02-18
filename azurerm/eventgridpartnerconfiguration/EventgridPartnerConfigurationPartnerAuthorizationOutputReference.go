@@ -5,14 +5,14 @@ package eventgridpartnerconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgridpartnerconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventgridpartnerconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventgridPartnerConfigurationPartnerAuthorizationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthorizationExpirationTimeInUtc() *string
 	SetAuthorizationExpirationTimeInUtc(val *string)
 	AuthorizationExpirationTimeInUtcInput() *string
@@ -46,15 +46,15 @@ type EventgridPartnerConfigurationPartnerAuthorizationOutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type EventgridPartnerConfigurationPartnerAuthorizationOutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAuthorizationExpirationTimeInUtc()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type EventgridPartnerConfigurationPartnerAuthorizationOutputReference interface 
 
 // The jsii proxy struct for EventgridPartnerConfigurationPartnerAuthorizationOutputReference
 type jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) AuthorizationExpirationTimeInUtc() *string {
@@ -209,8 +209,8 @@ func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 }
 
 
-func NewEventgridPartnerConfigurationPartnerAuthorizationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventgridPartnerConfigurationPartnerAuthorizationOutputReference {
+func NewEventgridPartnerConfigurationPartnerAuthorizationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventgridPartnerConfigurationPartnerAuthorizationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventgridPartnerConfigurationPartnerAuthorizationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewEventgridPartnerConfigurationPartnerAuthorizationOutputReference(terrafo
 	return &j
 }
 
-func NewEventgridPartnerConfigurationPartnerAuthorizationOutputReference_Override(e EventgridPartnerConfigurationPartnerAuthorizationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEventgridPartnerConfigurationPartnerAuthorizationOutputReference_Override(e EventgridPartnerConfigurationPartnerAuthorizationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -324,7 +324,7 @@ func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 	)
 }
 
-func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 	return returns
 }
 
-func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -492,8 +492,8 @@ func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 	return returns
 }
 
-func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -505,11 +505,11 @@ func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 	return returns
 }
 
-func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -529,7 +529,7 @@ func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputRefere
 	)
 }
 
-func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventgridPartnerConfigurationPartnerAuthorizationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

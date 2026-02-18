@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKey
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKey
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKey
 	return nil
 }
 
-func validateNewDataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermManagedDisksDiskEncryptionSettingsKeyEncryptionKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

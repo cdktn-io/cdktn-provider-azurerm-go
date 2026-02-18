@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermServicebusQueueAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

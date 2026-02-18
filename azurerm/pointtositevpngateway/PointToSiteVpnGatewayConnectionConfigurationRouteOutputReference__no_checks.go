@@ -51,7 +51,7 @@ func (p *jsiiProxy_PointToSiteVpnGatewayConnectionConfigurationRouteOutputRefere
 	return nil
 }
 
-func (p *jsiiProxy_PointToSiteVpnGatewayConnectionConfigurationRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PointToSiteVpnGatewayConnectionConfigurationRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_PointToSiteVpnGatewayConnectionConfigurationRouteOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_PointToSiteVpnGatewayConnectionConfigurationRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PointToSiteVpnGatewayConnectionConfigurationRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPointToSiteVpnGatewayConnectionConfigurationRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPointToSiteVpnGatewayConnectionConfigurationRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

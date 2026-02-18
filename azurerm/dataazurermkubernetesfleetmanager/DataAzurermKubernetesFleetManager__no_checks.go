@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermKubernetesFleetManager) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesFleetManager) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermKubernetesFleetManager) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MongoClusterFirewallRuleTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (m *jsiiProxy_MongoClusterFirewallRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MongoClusterFirewallRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MongoClusterFirewallRuleTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_MongoClusterFirewallRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MongoClusterFirewallRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MongoClusterFirewallRuleTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewMongoClusterFirewallRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMongoClusterFirewallRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

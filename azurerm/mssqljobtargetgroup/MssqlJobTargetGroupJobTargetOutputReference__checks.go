@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (m *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateInterpol
 	return nil
 }
 
-func (m *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetElast
 
 func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *MssqlJobTargetGroupJobTarget:
 		val := val.(*MssqlJobTargetGroupJobTarget)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *MssqlJobTargetGroupJobTarget; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *MssqlJobTargetGroupJobTarget; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -238,7 +238,7 @@ func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -246,7 +246,7 @@ func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetTerra
 	return nil
 }
 
-func validateNewMssqlJobTargetGroupJobTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMssqlJobTargetGroupJobTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

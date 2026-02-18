@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppStorageAccountOutputReference) validateInte
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppStorageAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppStorageAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WindowsFunctionAppStorageAccountOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_WindowsFunctionAppStorageAccountOutputReference) validateSetT
 	return nil
 }
 
-func validateNewWindowsFunctionAppStorageAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsFunctionAppStorageAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

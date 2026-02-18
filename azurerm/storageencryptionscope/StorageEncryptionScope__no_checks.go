@@ -115,7 +115,7 @@ func (j *jsiiProxy_StorageEncryptionScope) validateSetKeyVaultKeyIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_StorageEncryptionScope) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageEncryptionScope) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

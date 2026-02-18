@@ -5,19 +5,19 @@ package dataazurermrediscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermrediscache/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermrediscache/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermRedisCacheRedisConfigurationOutputReference interface {
-	cdktf.ComplexObject
-	ActiveDirectoryAuthenticationEnabled() cdktf.IResolvable
-	AofBackupEnabled() cdktf.IResolvable
+	cdktn.ComplexObject
+	ActiveDirectoryAuthenticationEnabled() cdktn.IResolvable
+	AofBackupEnabled() cdktn.IResolvable
 	AofStorageConnectionString0() *string
 	AofStorageConnectionString1() *string
-	AuthenticationEnabled() cdktf.IResolvable
+	AuthenticationEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -44,7 +44,7 @@ type DataAzurermRedisCacheRedisConfigurationOutputReference interface {
 	MaxmemoryPolicy() *string
 	MaxmemoryReserved() *float64
 	NotifyKeyspaceEvents() *string
-	RdbBackupEnabled() cdktf.IResolvable
+	RdbBackupEnabled() cdktn.IResolvable
 	RdbBackupFrequency() *float64
 	RdbBackupMaxSnapshotCount() *float64
 	RdbStorageConnectionString() *string
@@ -54,15 +54,15 @@ type DataAzurermRedisCacheRedisConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -78,12 +78,12 @@ type DataAzurermRedisCacheRedisConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,11 +93,11 @@ type DataAzurermRedisCacheRedisConfigurationOutputReference interface {
 
 // The jsii proxy struct for DataAzurermRedisCacheRedisConfigurationOutputReference
 type jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) ActiveDirectoryAuthenticationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) ActiveDirectoryAuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"activeDirectoryAuthenticationEnabled",
@@ -106,8 +106,8 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Activ
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) AofBackupEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) AofBackupEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"aofBackupEnabled",
@@ -136,8 +136,8 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) AofSt
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) AuthenticationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) AuthenticationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"authenticationEnabled",
@@ -266,8 +266,8 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Notif
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) RdbBackupEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) RdbBackupEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"rdbBackupEnabled",
@@ -326,8 +326,8 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -337,7 +337,7 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Terra
 }
 
 
-func NewDataAzurermRedisCacheRedisConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermRedisCacheRedisConfigurationOutputReference {
+func NewDataAzurermRedisCacheRedisConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermRedisCacheRedisConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermRedisCacheRedisConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -354,7 +354,7 @@ func NewDataAzurermRedisCacheRedisConfigurationOutputReference(terraformResource
 	return &j
 }
 
-func NewDataAzurermRedisCacheRedisConfigurationOutputReference_Override(d DataAzurermRedisCacheRedisConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermRedisCacheRedisConfigurationOutputReference_Override(d DataAzurermRedisCacheRedisConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -408,7 +408,7 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -448,11 +448,11 @@ func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) GetAn
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -576,8 +576,8 @@ func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) GetSt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -589,11 +589,11 @@ func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -605,7 +605,7 @@ func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

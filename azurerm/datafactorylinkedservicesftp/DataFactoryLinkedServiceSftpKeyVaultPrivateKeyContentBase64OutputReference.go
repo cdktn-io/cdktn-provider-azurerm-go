@@ -5,14 +5,14 @@ package datafactorylinkedservicesftp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicesftp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorylinkedservicesftp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference 
 
 // The jsii proxy struct for DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference
 type jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64Ou
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64Ou
 }
 
 
-func NewDataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference {
+func NewDataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewDataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReferen
 	return &j
 }
 
-func NewDataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference_Override(d DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference_Override(d DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64Ou
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64Ou
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,8 +457,8 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64Ou
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -470,11 +470,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64Ou
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -486,7 +486,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64Ou
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryLinkedServiceSftpKeyVaultPrivateKeyContentBase64OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

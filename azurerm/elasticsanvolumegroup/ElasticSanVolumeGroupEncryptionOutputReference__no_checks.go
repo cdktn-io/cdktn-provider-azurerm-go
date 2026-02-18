@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticSanVolumeGroupEncryptionOutputReference) validateInter
 	return nil
 }
 
-func (e *jsiiProxy_ElasticSanVolumeGroupEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticSanVolumeGroupEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ElasticSanVolumeGroupEncryptionOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ElasticSanVolumeGroupEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticSanVolumeGroupEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ElasticSanVolumeGroupEncryptionOutputReference) validateSetUs
 	return nil
 }
 
-func validateNewElasticSanVolumeGroupEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticSanVolumeGroupEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

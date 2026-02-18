@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

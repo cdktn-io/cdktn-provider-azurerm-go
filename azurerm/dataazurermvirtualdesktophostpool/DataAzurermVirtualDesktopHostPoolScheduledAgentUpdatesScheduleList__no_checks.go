@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesSchedul
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesSchedul
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesSchedul
 	return nil
 }
 
-func validateNewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

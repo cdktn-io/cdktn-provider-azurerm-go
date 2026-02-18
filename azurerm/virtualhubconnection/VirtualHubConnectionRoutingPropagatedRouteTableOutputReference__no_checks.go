@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualHubConnectionRoutingPropagatedRouteTableOutputReferenc
 	return nil
 }
 
-func (v *jsiiProxy_VirtualHubConnectionRoutingPropagatedRouteTableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualHubConnectionRoutingPropagatedRouteTableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualHubConnectionRoutingPropagatedRouteTableOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubConnectionRoutingPropagatedRouteTableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualHubConnectionRoutingPropagatedRouteTableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualHubConnectionRoutingPropagatedRouteTableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualHubConnectionRoutingPropagatedRouteTableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

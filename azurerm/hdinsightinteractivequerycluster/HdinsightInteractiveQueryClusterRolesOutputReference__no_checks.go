@@ -59,7 +59,7 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) validat
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightInteractiveQueryClusterRolesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightInteractiveQueryClusterRolesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHbaseClusterMonitorOutputReference) validateInterpol
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterMonitorOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHbaseClusterMonitorOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_HdinsightHbaseClusterMonitorOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterMonitorOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHbaseClusterMonitorOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightHbaseClusterMonitorOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHbaseClusterMonitorOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

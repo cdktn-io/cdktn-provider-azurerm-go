@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementWorkspaceCertificateTimeoutsOutputReference) val
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementWorkspaceCertificateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementWorkspaceCertificateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementWorkspaceCertificateTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementWorkspaceCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementWorkspaceCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementWorkspaceCertificateTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewApiManagementWorkspaceCertificateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementWorkspaceCertificateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

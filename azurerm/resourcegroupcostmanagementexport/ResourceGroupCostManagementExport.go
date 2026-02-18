@@ -5,21 +5,21 @@ package resourcegroupcostmanagementexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegroupcostmanagementexport/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/resourcegroupcostmanagementexport/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export}.
 type ResourceGroupCostManagementExport interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Active() interface{}
 	SetActive(val interface{})
 	ActiveInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type ResourceGroupCostManagementExport interface {
 	SetFileFormat(val *string)
 	FileFormatInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,18 +53,18 @@ type ResourceGroupCostManagementExport interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type ResourceGroupCostManagementExport interface {
 	SetResourceGroupId(val *string)
 	ResourceGroupIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type ResourceGroupCostManagementExport interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type ResourceGroupCostManagementExport interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -159,7 +159,7 @@ type ResourceGroupCostManagementExport interface {
 
 // The jsii proxy struct for ResourceGroupCostManagementExport
 type jsiiProxy_ResourceGroupCostManagementExport struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ResourceGroupCostManagementExport) Active() interface{} {
@@ -182,8 +182,8 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) ActiveInput() interface{} 
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ResourceGroupCostManagementExport) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -292,8 +292,8 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) FileFormatInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ResourceGroupCostManagementExport) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -342,8 +342,8 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ResourceGroupCostManagementExport) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -382,8 +382,8 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ResourceGroupCostManagementExport) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -492,8 +492,8 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) ResourceGroupIdInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ResourceGroupCostManagementExport) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -624,7 +624,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport)SetFileFormat(val *string) 
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ResourceGroupCostManagementExport)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -643,7 +643,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ResourceGroupCostManagementExport)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -665,7 +665,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementExport)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ResourceGroupCostManagementExport)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -728,14 +728,14 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport)SetResourceGroupId(val *str
 	)
 }
 
-// Generates CDKTF code for importing a ResourceGroupCostManagementExport resource upon running "cdktf plan <stack-name>".
-func ResourceGroupCostManagementExport_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ResourceGroupCostManagementExport resource upon running "cdktn plan <stack-name>".
+func ResourceGroupCostManagementExport_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateResourceGroupCostManagementExport_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.resourceGroupCostManagementExport.ResourceGroupCostManagementExport",
@@ -869,11 +869,11 @@ func (r *jsiiProxy_ResourceGroupCostManagementExport) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementExport) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupCostManagementExport) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1010,7 +1010,7 @@ func (r *jsiiProxy_ResourceGroupCostManagementExport) HasResourceMove() interfac
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementExport) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_ResourceGroupCostManagementExport) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1021,11 +1021,11 @@ func (r *jsiiProxy_ResourceGroupCostManagementExport) ImportFrom(id *string, pro
 	)
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementExport) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupCostManagementExport) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

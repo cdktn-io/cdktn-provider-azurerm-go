@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSpringCloudAppIdentityList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudAppIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSpringCloudAppIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudAppIdentityList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudAppIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSpringCloudAppIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudAppIdentityList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAzurermSpringCloudAppIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSpringCloudAppIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

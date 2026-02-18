@@ -111,7 +111,7 @@ func (j *jsiiProxy_DigitalTwinsInstance) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DigitalTwinsInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DigitalTwinsInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

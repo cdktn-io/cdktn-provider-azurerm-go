@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetTerminationNotificationOutputRefer
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetTerminationNotificationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetTerminationNotificationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetTerminationNotificationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetTerminationNotificationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetTerminationNotificationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetTerminationNotificationOutputRefer
 	return nil
 }
 
-func validateNewLinuxVirtualMachineScaleSetTerminationNotificationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxVirtualMachineScaleSetTerminationNotificationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

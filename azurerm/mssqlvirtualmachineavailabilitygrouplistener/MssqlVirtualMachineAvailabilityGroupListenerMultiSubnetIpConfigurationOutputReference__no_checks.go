@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConf
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConf
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

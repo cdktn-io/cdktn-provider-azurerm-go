@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryDatasetBinaryAzureBlobStorageLocationOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetBinaryAzureBlobStorageLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetBinaryAzureBlobStorageLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DataFactoryDatasetBinaryAzureBlobStorageLocationOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetBinaryAzureBlobStorageLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetBinaryAzureBlobStorageLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryDatasetBinaryAzureBlobStorageLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryDatasetBinaryAzureBlobStorageLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

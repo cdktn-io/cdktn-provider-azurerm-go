@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppTemplateInitContainerVolumeMountsList) validateGe
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateInitContainerVolumeMountsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateInitContainerVolumeMountsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppTemplateInitContainerVolumeMountsList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateInitContainerVolumeMountsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateInitContainerVolumeMountsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppTemplateInitContainerVolumeMountsList) validateSe
 	return nil
 }
 
-func validateNewContainerAppTemplateInitContainerVolumeMountsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppTemplateInitContainerVolumeMountsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

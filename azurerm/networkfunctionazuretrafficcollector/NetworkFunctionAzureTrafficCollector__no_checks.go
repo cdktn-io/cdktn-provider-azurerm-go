@@ -107,7 +107,7 @@ func (j *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

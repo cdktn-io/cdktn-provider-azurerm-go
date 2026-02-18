@@ -5,14 +5,14 @@ package cosmosdbmongocollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbmongocollection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbmongocollection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CosmosdbMongoCollectionAutoscaleSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type CosmosdbMongoCollectionAutoscaleSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type CosmosdbMongoCollectionAutoscaleSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetMaxThroughput()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type CosmosdbMongoCollectionAutoscaleSettingsOutputReference interface {
 
 // The jsii proxy struct for CosmosdbMongoCollectionAutoscaleSettingsOutputReference
 type jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) Terr
 }
 
 
-func NewCosmosdbMongoCollectionAutoscaleSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CosmosdbMongoCollectionAutoscaleSettingsOutputReference {
+func NewCosmosdbMongoCollectionAutoscaleSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CosmosdbMongoCollectionAutoscaleSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCosmosdbMongoCollectionAutoscaleSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewCosmosdbMongoCollectionAutoscaleSettingsOutputReference(terraformResourc
 	return &j
 }
 
-func NewCosmosdbMongoCollectionAutoscaleSettingsOutputReference_Override(c CosmosdbMongoCollectionAutoscaleSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCosmosdbMongoCollectionAutoscaleSettingsOutputReference_Override(c CosmosdbMongoCollectionAutoscaleSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) GetA
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -424,8 +424,8 @@ func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) GetS
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -437,11 +437,11 @@ func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) Inte
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -461,7 +461,7 @@ func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) Rese
 	)
 }
 
-func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CosmosdbMongoCollectionAutoscaleSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

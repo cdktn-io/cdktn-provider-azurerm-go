@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermImageOsDiskList) validateGetParameters(index *floa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermImageOsDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermImageOsDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermImageOsDiskList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermImageOsDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermImageOsDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermImageOsDiskList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewDataAzurermImageOsDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermImageOsDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

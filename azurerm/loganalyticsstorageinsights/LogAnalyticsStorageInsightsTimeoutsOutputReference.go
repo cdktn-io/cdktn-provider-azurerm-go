@@ -5,14 +5,14 @@ package loganalyticsstorageinsights
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticsstorageinsights/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/loganalyticsstorageinsights/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LogAnalyticsStorageInsightsTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type LogAnalyticsStorageInsightsTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type LogAnalyticsStorageInsightsTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type LogAnalyticsStorageInsightsTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type LogAnalyticsStorageInsightsTimeoutsOutputReference interface {
 
 // The jsii proxy struct for LogAnalyticsStorageInsightsTimeoutsOutputReference
 type jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) UpdateInp
 }
 
 
-func NewLogAnalyticsStorageInsightsTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LogAnalyticsStorageInsightsTimeoutsOutputReference {
+func NewLogAnalyticsStorageInsightsTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LogAnalyticsStorageInsightsTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLogAnalyticsStorageInsightsTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewLogAnalyticsStorageInsightsTimeoutsOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewLogAnalyticsStorageInsightsTimeoutsOutputReference_Override(l LogAnalyticsStorageInsightsTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLogAnalyticsStorageInsightsTimeoutsOutputReference_Override(l LogAnalyticsStorageInsightsTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) GetAnyMap
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -529,8 +529,8 @@ func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) GetString
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -542,11 +542,11 @@ func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) Interpola
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -590,7 +590,7 @@ func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) ResetUpda
 	)
 }
 
-func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

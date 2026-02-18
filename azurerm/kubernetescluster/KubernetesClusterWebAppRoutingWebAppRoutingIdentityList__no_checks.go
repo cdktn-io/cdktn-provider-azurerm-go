@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityList) vali
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityList) vali
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityList) vali
 	return nil
 }
 
-func validateNewKubernetesClusterWebAppRoutingWebAppRoutingIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterWebAppRoutingWebAppRoutingIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

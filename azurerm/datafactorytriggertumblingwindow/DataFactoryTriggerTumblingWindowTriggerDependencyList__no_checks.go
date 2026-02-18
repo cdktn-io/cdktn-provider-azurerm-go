@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) valida
 	return nil
 }
 
-func validateNewDataFactoryTriggerTumblingWindowTriggerDependencyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryTriggerTumblingWindowTriggerDependencyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

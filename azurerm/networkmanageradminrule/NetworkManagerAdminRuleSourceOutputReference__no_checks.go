@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkManagerAdminRuleSourceOutputReference) validateInterpo
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagerAdminRuleSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagerAdminRuleSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkManagerAdminRuleSourceOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerAdminRuleSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagerAdminRuleSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkManagerAdminRuleSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkManagerAdminRuleSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

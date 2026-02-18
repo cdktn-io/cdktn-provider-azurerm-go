@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleList) validateGetP
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleList) validateSetW
 	return nil
 }
 
-func validateNewApplicationGatewayRewriteRuleSetRewriteRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayRewriteRuleSetRewriteRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

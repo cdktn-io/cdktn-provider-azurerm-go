@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecurityCenterSubscriptionPricingExtensionList) validateGetPa
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterSubscriptionPricingExtensionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterSubscriptionPricingExtensionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecurityCenterSubscriptionPricingExtensionList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterSubscriptionPricingExtensionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterSubscriptionPricingExtensionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecurityCenterSubscriptionPricingExtensionList) validateSetWr
 	return nil
 }
 
-func validateNewSecurityCenterSubscriptionPricingExtensionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecurityCenterSubscriptionPricingExtensionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

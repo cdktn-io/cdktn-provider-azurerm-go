@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxFunctionAppSiteConfigCorsOutputReference) validateInterp
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSiteConfigCorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppSiteConfigCorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigCorsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSiteConfigCorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigCorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxFunctionAppSiteConfigCorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxFunctionAppSiteConfigCorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

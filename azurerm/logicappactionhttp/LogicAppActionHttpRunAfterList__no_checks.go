@@ -15,7 +15,7 @@ func (l *jsiiProxy_LogicAppActionHttpRunAfterList) validateGetParameters(index *
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppActionHttpRunAfterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppActionHttpRunAfterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LogicAppActionHttpRunAfterList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppActionHttpRunAfterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppActionHttpRunAfterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LogicAppActionHttpRunAfterList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewLogicAppActionHttpRunAfterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLogicAppActionHttpRunAfterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

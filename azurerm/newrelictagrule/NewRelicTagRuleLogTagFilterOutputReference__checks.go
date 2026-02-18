@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (n *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateInterpola
 	return nil
 }
 
-func (n *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateSetComple
 
 func (j *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *NewRelicTagRuleLogTagFilter:
 		val := val.(*NewRelicTagRuleLogTagFilter)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateSetIntern
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *NewRelicTagRuleLogTagFilter; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *NewRelicTagRuleLogTagFilter; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_NewRelicTagRuleLogTagFilterOutputReference) validateSetValueP
 	return nil
 }
 
-func validateNewNewRelicTagRuleLogTagFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNewRelicTagRuleLogTagFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

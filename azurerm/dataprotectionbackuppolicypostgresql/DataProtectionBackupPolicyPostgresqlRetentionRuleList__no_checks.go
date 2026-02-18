@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleList) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleList) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlRetentionRuleList) valida
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyPostgresqlRetentionRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataProtectionBackupPolicyPostgresqlRetentionRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

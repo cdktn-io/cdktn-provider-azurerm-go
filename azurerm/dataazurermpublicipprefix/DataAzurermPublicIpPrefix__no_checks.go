@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermPublicIpPrefix) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPublicIpPrefix) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermPublicIpPrefix) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

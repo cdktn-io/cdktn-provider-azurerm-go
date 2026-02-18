@@ -5,14 +5,14 @@ package functionappflexconsumption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappflexconsumption/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/functionappflexconsumption/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FunctionAppFlexConsumptionSiteConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApiDefinitionUrl() *string
 	SetApiDefinitionUrl(val *string)
 	ApiDefinitionUrlInput() *string
@@ -56,7 +56,7 @@ type FunctionAppFlexConsumptionSiteConfigOutputReference interface {
 	DefaultDocuments() *[]*string
 	SetDefaultDocuments(val *[]*string)
 	DefaultDocumentsInput() *[]*string
-	DetailedErrorLoggingEnabled() cdktf.IResolvable
+	DetailedErrorLoggingEnabled() cdktn.IResolvable
 	ElasticInstanceMinimum() *float64
 	SetElasticInstanceMinimum(val *float64)
 	ElasticInstanceMinimumInput() *float64
@@ -113,9 +113,9 @@ type FunctionAppFlexConsumptionSiteConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Use32BitWorker() interface{}
 	SetUse32BitWorker(val interface{})
 	Use32BitWorkerInput() interface{}
@@ -133,7 +133,7 @@ type FunctionAppFlexConsumptionSiteConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -149,9 +149,9 @@ type FunctionAppFlexConsumptionSiteConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAppServiceLogs(value *FunctionAppFlexConsumptionSiteConfigAppServiceLogs)
 	PutCors(value *FunctionAppFlexConsumptionSiteConfigCors)
 	PutIpRestriction(value interface{})
@@ -188,7 +188,7 @@ type FunctionAppFlexConsumptionSiteConfigOutputReference interface {
 	ResetWorkerCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -198,7 +198,7 @@ type FunctionAppFlexConsumptionSiteConfigOutputReference interface {
 
 // The jsii proxy struct for FunctionAppFlexConsumptionSiteConfigOutputReference
 type jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) ApiDefinitionUrl() *string {
@@ -431,8 +431,8 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) DefaultD
 	return returns
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) DetailedErrorLoggingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) DetailedErrorLoggingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"detailedErrorLoggingEnabled",
@@ -801,8 +801,8 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -892,7 +892,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) WorkerCo
 }
 
 
-func NewFunctionAppFlexConsumptionSiteConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionSiteConfigOutputReference {
+func NewFunctionAppFlexConsumptionSiteConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionSiteConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFunctionAppFlexConsumptionSiteConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -909,7 +909,7 @@ func NewFunctionAppFlexConsumptionSiteConfigOutputReference(terraformResource cd
 	return &j
 }
 
-func NewFunctionAppFlexConsumptionSiteConfigOutputReference_Override(f FunctionAppFlexConsumptionSiteConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFunctionAppFlexConsumptionSiteConfigOutputReference_Override(f FunctionAppFlexConsumptionSiteConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -1205,7 +1205,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -1289,11 +1289,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) GetAnyMa
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1417,8 +1417,8 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) GetStrin
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1430,11 +1430,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) Interpol
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1730,7 +1730,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) ResetWor
 	)
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FunctionAppFlexConsumptionSiteConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

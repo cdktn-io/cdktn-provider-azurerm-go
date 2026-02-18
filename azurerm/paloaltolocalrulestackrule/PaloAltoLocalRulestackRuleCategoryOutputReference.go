@@ -5,14 +5,14 @@ package paloaltolocalrulestackrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltolocalrulestackrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/paloaltolocalrulestackrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PaloAltoLocalRulestackRuleCategoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type PaloAltoLocalRulestackRuleCategoryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type PaloAltoLocalRulestackRuleCategoryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetFeeds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type PaloAltoLocalRulestackRuleCategoryOutputReference interface {
 
 // The jsii proxy struct for PaloAltoLocalRulestackRuleCategoryOutputReference
 type jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) TerraformR
 }
 
 
-func NewPaloAltoLocalRulestackRuleCategoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PaloAltoLocalRulestackRuleCategoryOutputReference {
+func NewPaloAltoLocalRulestackRuleCategoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PaloAltoLocalRulestackRuleCategoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPaloAltoLocalRulestackRuleCategoryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewPaloAltoLocalRulestackRuleCategoryOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewPaloAltoLocalRulestackRuleCategoryOutputReference_Override(p PaloAltoLocalRulestackRuleCategoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPaloAltoLocalRulestackRuleCategoryOutputReference_Override(p PaloAltoLocalRulestackRuleCategoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) GetAnyMapA
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -458,8 +458,8 @@ func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) GetStringM
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -471,11 +471,11 @@ func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) Interpolat
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -495,7 +495,7 @@ func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) ResetFeeds
 	)
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

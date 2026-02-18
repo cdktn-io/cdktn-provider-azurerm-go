@@ -115,7 +115,7 @@ func (j *jsiiProxy_CdnFrontdoorSecurityPolicy) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorSecurityPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CdnFrontdoorSecurityPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

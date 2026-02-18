@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DevTestScheduleDailyRecurrenceOutputReference) validateSetTim
 	return nil
 }
 
-func validateNewDevTestScheduleDailyRecurrenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevTestScheduleDailyRecurrenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

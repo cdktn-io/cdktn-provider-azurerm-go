@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataAzurermSharedImageVersion) validateSetImageNameParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSharedImageVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermSharedImageVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

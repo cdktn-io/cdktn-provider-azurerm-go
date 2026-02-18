@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseIntegrationRuntimeAzureTimeoutsOutputReference) valida
 	return nil
 }
 
-func (s *jsiiProxy_SynapseIntegrationRuntimeAzureTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseIntegrationRuntimeAzureTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SynapseIntegrationRuntimeAzureTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_SynapseIntegrationRuntimeAzureTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseIntegrationRuntimeAzureTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SynapseIntegrationRuntimeAzureTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewSynapseIntegrationRuntimeAzureTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseIntegrationRuntimeAzureTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

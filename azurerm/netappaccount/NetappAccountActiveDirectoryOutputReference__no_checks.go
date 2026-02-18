@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateInterpol
 	return nil
 }
 
-func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -127,7 +127,7 @@ func (j *jsiiProxy_NetappAccountActiveDirectoryOutputReference) validateSetUsern
 	return nil
 }
 
-func validateNewNetappAccountActiveDirectoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappAccountActiveDirectoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

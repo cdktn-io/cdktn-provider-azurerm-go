@@ -5,14 +5,14 @@ package functionappflexconsumption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappflexconsumption/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/functionappflexconsumption/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference interface 
 
 // The jsii proxy struct for FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference
 type jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputRefere
 }
 
 
-func NewFunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference {
+func NewFunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewFunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference(terrafo
 	return &j
 }
 
-func NewFunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference_Override(f FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference_Override(f FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputRefere
 	)
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputRefere
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -457,8 +457,8 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputRefere
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -470,11 +470,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputRefere
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -486,7 +486,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputRefere
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsV2TwitterV2OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -127,7 +127,7 @@ func (j *jsiiProxy_ManagedLustreFileSystem) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_ManagedLustreFileSystem) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ManagedLustreFileSystem) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

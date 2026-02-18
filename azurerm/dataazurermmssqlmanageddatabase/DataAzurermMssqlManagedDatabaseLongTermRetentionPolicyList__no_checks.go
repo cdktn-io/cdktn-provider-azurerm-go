@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyList) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyList) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMssqlManagedDatabaseLongTermRetentionPolicyList) v
 	return nil
 }
 
-func validateNewDataAzurermMssqlManagedDatabaseLongTermRetentionPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMssqlManagedDatabaseLongTermRetentionPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

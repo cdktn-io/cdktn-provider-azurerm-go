@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesOutputRefer
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyIntrusionDetectionSignatureOverridesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirewallPolicyIntrusionDetectionSignatureOverridesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFirewallPolicyIntrusionDetectionSignatureOverridesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

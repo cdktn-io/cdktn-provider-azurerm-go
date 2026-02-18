@@ -59,7 +59,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateP
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateS
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterRolesEdgeNodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterRolesEdgeNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermManagedRedisDefaultDatabaseModuleList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermManagedRedisDefaultDatabaseModuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermManagedRedisDefaultDatabaseModuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisDefaultDatabaseModuleList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedisDefaultDatabaseModuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermManagedRedisDefaultDatabaseModuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisDefaultDatabaseModuleList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermManagedRedisDefaultDatabaseModuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermManagedRedisDefaultDatabaseModuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

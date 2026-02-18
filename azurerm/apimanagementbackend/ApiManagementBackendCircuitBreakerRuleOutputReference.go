@@ -5,14 +5,14 @@ package apimanagementbackend
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementbackend/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementbackend/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementBackendCircuitBreakerRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AcceptRetryAfterEnabled() interface{}
 	SetAcceptRetryAfterEnabled(val interface{})
 	AcceptRetryAfterEnabledInput() interface{}
@@ -45,9 +45,9 @@ type ApiManagementBackendCircuitBreakerRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TripDuration() *string
 	SetTripDuration(val *string)
 	TripDurationInput() *string
@@ -56,7 +56,7 @@ type ApiManagementBackendCircuitBreakerRuleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,14 +72,14 @@ type ApiManagementBackendCircuitBreakerRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFailureCondition(value *ApiManagementBackendCircuitBreakerRuleFailureCondition)
 	ResetAcceptRetryAfterEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type ApiManagementBackendCircuitBreakerRuleOutputReference interface {
 
 // The jsii proxy struct for ApiManagementBackendCircuitBreakerRuleOutputReference
 type jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) AcceptRetryAfterEnabled() interface{} {
@@ -212,8 +212,8 @@ func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) TripDu
 }
 
 
-func NewApiManagementBackendCircuitBreakerRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApiManagementBackendCircuitBreakerRuleOutputReference {
+func NewApiManagementBackendCircuitBreakerRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApiManagementBackendCircuitBreakerRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementBackendCircuitBreakerRuleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -260,7 +260,7 @@ func NewApiManagementBackendCircuitBreakerRuleOutputReference(terraformResource 
 	return &j
 }
 
-func NewApiManagementBackendCircuitBreakerRuleOutputReference_Override(a ApiManagementBackendCircuitBreakerRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApiManagementBackendCircuitBreakerRuleOutputReference_Override(a ApiManagementBackendCircuitBreakerRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -336,7 +336,7 @@ func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -387,11 +387,11 @@ func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) GetAny
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -515,8 +515,8 @@ func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) GetStr
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -528,11 +528,11 @@ func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) Interp
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -563,7 +563,7 @@ func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) ResetA
 	)
 }
 
-func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

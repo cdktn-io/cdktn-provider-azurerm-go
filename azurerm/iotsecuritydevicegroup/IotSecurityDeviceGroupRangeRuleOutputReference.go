@@ -5,14 +5,14 @@ package iotsecuritydevicegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iotsecuritydevicegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/iotsecuritydevicegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IotSecurityDeviceGroupRangeRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type IotSecurityDeviceGroupRangeRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -57,7 +57,7 @@ type IotSecurityDeviceGroupRangeRuleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,12 +73,12 @@ type IotSecurityDeviceGroupRangeRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type IotSecurityDeviceGroupRangeRuleOutputReference interface {
 
 // The jsii proxy struct for IotSecurityDeviceGroupRangeRuleOutputReference
 type jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -242,7 +242,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) TypeInput() *
 }
 
 
-func NewIotSecurityDeviceGroupRangeRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) IotSecurityDeviceGroupRangeRuleOutputReference {
+func NewIotSecurityDeviceGroupRangeRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) IotSecurityDeviceGroupRangeRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIotSecurityDeviceGroupRangeRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -259,7 +259,7 @@ func NewIotSecurityDeviceGroupRangeRuleOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewIotSecurityDeviceGroupRangeRuleOutputReference_Override(i IotSecurityDeviceGroupRangeRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewIotSecurityDeviceGroupRangeRuleOutputReference_Override(i IotSecurityDeviceGroupRangeRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -346,7 +346,7 @@ func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -397,11 +397,11 @@ func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -525,8 +525,8 @@ func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) GetStringMapA
 	return returns
 }
 
-func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -538,11 +538,11 @@ func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) Interpolation
 	return returns
 }
 
-func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -554,7 +554,7 @@ func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) Interpolation
 	return returns
 }
 
-func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IotSecurityDeviceGroupRangeRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

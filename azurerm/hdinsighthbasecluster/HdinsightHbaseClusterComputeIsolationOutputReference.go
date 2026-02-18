@@ -5,14 +5,14 @@ package hdinsighthbasecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsighthbasecluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsighthbasecluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightHbaseClusterComputeIsolationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type HdinsightHbaseClusterComputeIsolationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type HdinsightHbaseClusterComputeIsolationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetComputeIsolationEnabled()
 	ResetHostSku()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type HdinsightHbaseClusterComputeIsolationOutputReference interface {
 
 // The jsii proxy struct for HdinsightHbaseClusterComputeIsolationOutputReference
 type jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) Terrafo
 }
 
 
-func NewHdinsightHbaseClusterComputeIsolationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HdinsightHbaseClusterComputeIsolationOutputReference {
+func NewHdinsightHbaseClusterComputeIsolationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HdinsightHbaseClusterComputeIsolationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightHbaseClusterComputeIsolationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewHdinsightHbaseClusterComputeIsolationOutputReference(terraformResource c
 	return &j
 }
 
-func NewHdinsightHbaseClusterComputeIsolationOutputReference_Override(h HdinsightHbaseClusterComputeIsolationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHdinsightHbaseClusterComputeIsolationOutputReference_Override(h HdinsightHbaseClusterComputeIsolationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) GetAnyM
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -459,8 +459,8 @@ func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) GetStri
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -472,11 +472,11 @@ func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) Interpo
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -504,7 +504,7 @@ func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) ResetHo
 	)
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightHbaseClusterComputeIsolationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

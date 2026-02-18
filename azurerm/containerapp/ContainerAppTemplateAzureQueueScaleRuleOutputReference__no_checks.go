@@ -51,7 +51,7 @@ func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAppTemplateAzureQueueScaleRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppTemplateAzureQueueScaleRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

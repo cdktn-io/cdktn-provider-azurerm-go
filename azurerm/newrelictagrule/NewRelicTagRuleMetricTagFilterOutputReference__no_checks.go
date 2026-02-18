@@ -47,7 +47,7 @@ func (n *jsiiProxy_NewRelicTagRuleMetricTagFilterOutputReference) validateInterp
 	return nil
 }
 
-func (n *jsiiProxy_NewRelicTagRuleMetricTagFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NewRelicTagRuleMetricTagFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NewRelicTagRuleMetricTagFilterOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_NewRelicTagRuleMetricTagFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NewRelicTagRuleMetricTagFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NewRelicTagRuleMetricTagFilterOutputReference) validateSetVal
 	return nil
 }
 
-func validateNewNewRelicTagRuleMetricTagFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNewRelicTagRuleMetricTagFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

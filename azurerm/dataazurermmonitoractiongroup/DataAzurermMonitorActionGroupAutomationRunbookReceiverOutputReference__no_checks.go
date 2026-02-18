@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermMonitorActionGroupAutomationRunbookReceiverOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorActionGroupAutomationRunbookReceiverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorActionGroupAutomationRunbookReceiverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroupAutomationRunbookReceiverOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorActionGroupAutomationRunbookReceiverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorActionGroupAutomationRunbookReceiverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermMonitorActionGroupAutomationRunbookReceiverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermMonitorActionGroupAutomationRunbookReceiverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

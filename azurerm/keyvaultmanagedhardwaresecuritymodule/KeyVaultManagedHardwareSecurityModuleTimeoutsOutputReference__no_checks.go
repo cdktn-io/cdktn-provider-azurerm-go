@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleTimeoutsOutputReference)
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleTimeoutsOutputReference)
 	return nil
 }
 
-func validateNewKeyVaultManagedHardwareSecurityModuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyVaultManagedHardwareSecurityModuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

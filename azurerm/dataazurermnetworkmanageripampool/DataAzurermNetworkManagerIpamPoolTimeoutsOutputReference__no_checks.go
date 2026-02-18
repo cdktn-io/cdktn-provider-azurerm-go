@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNetworkManagerIpamPoolTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetworkManagerIpamPoolTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetworkManagerIpamPoolTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermNetworkManagerIpamPoolTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetworkManagerIpamPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetworkManagerIpamPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNetworkManagerIpamPoolTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermNetworkManagerIpamPoolTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

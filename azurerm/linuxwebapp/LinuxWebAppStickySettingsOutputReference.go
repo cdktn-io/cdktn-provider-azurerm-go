@@ -5,14 +5,14 @@ package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxWebAppStickySettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppSettingNames() *[]*string
 	SetAppSettingNames(val *[]*string)
 	AppSettingNamesInput() *[]*string
@@ -43,15 +43,15 @@ type LinuxWebAppStickySettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type LinuxWebAppStickySettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAppSettingNames()
 	ResetConnectionStringNames()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type LinuxWebAppStickySettingsOutputReference interface {
 
 // The jsii proxy struct for LinuxWebAppStickySettingsOutputReference
 type jsiiProxy_LinuxWebAppStickySettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference) AppSettingNames() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference) TerraformResource()
 }
 
 
-func NewLinuxWebAppStickySettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxWebAppStickySettingsOutputReference {
+func NewLinuxWebAppStickySettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxWebAppStickySettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxWebAppStickySettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewLinuxWebAppStickySettingsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewLinuxWebAppStickySettingsOutputReference_Override(l LinuxWebAppStickySettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxWebAppStickySettingsOutputReference_Override(l LinuxWebAppStickySettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxWebAppStickySettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -459,8 +459,8 @@ func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -472,11 +472,11 @@ func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -504,7 +504,7 @@ func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) ResetConnectionStri
 	)
 }
 
-func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxWebAppStickySettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

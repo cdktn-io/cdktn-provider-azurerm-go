@@ -15,7 +15,7 @@ func (k *jsiiProxy_KeyVaultCertificateContactsContactList) validateGetParameters
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateContactsContactList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateContactsContactList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KeyVaultCertificateContactsContactList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateContactsContactList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateContactsContactList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KeyVaultCertificateContactsContactList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewKeyVaultCertificateContactsContactListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKeyVaultCertificateContactsContactListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

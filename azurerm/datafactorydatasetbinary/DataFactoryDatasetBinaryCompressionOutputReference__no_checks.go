@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryDatasetBinaryCompressionOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetBinaryCompressionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetBinaryCompressionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataFactoryDatasetBinaryCompressionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetBinaryCompressionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetBinaryCompressionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryDatasetBinaryCompressionOutputReference) validateS
 	return nil
 }
 
-func validateNewDataFactoryDatasetBinaryCompressionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryDatasetBinaryCompressionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

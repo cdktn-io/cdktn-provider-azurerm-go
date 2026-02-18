@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReference
 	return nil
 }
 
-func validateNewNetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetappVolumeGroupSapHanaVolumeExportPolicyRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return nil
 }
 
-func validateNewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

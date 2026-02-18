@@ -15,7 +15,7 @@ func (m *jsiiProxy_MapsAccountDataStoreList) validateGetParameters(index *float6
 	return nil
 }
 
-func (m *jsiiProxy_MapsAccountDataStoreList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MapsAccountDataStoreList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MapsAccountDataStoreList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_MapsAccountDataStoreList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MapsAccountDataStoreList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MapsAccountDataStoreList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewMapsAccountDataStoreListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMapsAccountDataStoreListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

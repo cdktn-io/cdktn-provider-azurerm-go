@@ -135,7 +135,7 @@ func (j *jsiiProxy_SpringCloudApp) validateSetIsPublicParameters(val interface{}
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudApp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudApp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

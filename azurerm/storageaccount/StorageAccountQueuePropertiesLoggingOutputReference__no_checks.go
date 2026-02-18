@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference) validate
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesLoggingOutputReference) validate
 	return nil
 }
 
-func validateNewStorageAccountQueuePropertiesLoggingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountQueuePropertiesLoggingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

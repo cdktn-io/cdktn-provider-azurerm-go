@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterMicrosoftDefenderOutputReference) validateIn
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterMicrosoftDefenderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterMicrosoftDefenderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KubernetesClusterMicrosoftDefenderOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterMicrosoftDefenderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterMicrosoftDefenderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterMicrosoftDefenderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterMicrosoftDefenderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

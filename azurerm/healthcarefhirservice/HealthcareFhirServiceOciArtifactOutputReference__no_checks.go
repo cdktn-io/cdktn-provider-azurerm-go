@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareFhirServiceOciArtifactOutputReference) validateInte
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareFhirServiceOciArtifactOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareFhirServiceOciArtifactOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_HealthcareFhirServiceOciArtifactOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareFhirServiceOciArtifactOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareFhirServiceOciArtifactOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHealthcareFhirServiceOciArtifactOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHealthcareFhirServiceOciArtifactOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

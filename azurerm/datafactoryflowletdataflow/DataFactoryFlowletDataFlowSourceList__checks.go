@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateResolveParamete
 
 func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataFactoryFlowletDataFlowSource:
 		val := val.(*[]*DataFactoryFlowletDataFlowSource)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateSetInternalValu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*DataFactoryFlowletDataFlowSource; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*DataFactoryFlowletDataFlowSource; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSourceList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataFactoryFlowletDataFlowSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryFlowletDataFlowSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

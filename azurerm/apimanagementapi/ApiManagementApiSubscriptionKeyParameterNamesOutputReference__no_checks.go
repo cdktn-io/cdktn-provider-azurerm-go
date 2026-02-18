@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementApiSubscriptionKeyParameterNamesOutputReference)
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApiManagementApiSubscriptionKeyParameterNamesOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiSubscriptionKeyParameterNamesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementApiSubscriptionKeyParameterNamesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementApiSubscriptionKeyParameterNamesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

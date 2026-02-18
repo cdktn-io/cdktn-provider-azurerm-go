@@ -115,7 +115,7 @@ func (j *jsiiProxy_ContainerRegistryCacheRule) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryCacheRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerRegistryCacheRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

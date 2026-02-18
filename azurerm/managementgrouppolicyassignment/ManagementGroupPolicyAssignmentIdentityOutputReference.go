@@ -5,14 +5,14 @@ package managementgrouppolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managementgrouppolicyassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/managementgrouppolicyassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ManagementGroupPolicyAssignmentIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type ManagementGroupPolicyAssignmentIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -53,7 +53,7 @@ type ManagementGroupPolicyAssignmentIdentityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,13 +69,13 @@ type ManagementGroupPolicyAssignmentIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIdentityIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type ManagementGroupPolicyAssignmentIdentityOutputReference interface {
 
 // The jsii proxy struct for ManagementGroupPolicyAssignmentIdentityOutputReference
 type jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) ComplexObjectIndex() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) TypeI
 }
 
 
-func NewManagementGroupPolicyAssignmentIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ManagementGroupPolicyAssignmentIdentityOutputReference {
+func NewManagementGroupPolicyAssignmentIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ManagementGroupPolicyAssignmentIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewManagementGroupPolicyAssignmentIdentityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewManagementGroupPolicyAssignmentIdentityOutputReference(terraformResource
 	return &j
 }
 
-func NewManagementGroupPolicyAssignmentIdentityOutputReference_Override(m ManagementGroupPolicyAssignmentIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewManagementGroupPolicyAssignmentIdentityOutputReference_Override(m ManagementGroupPolicyAssignmentIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -301,7 +301,7 @@ func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -352,11 +352,11 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) GetAn
 	return returns
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -480,8 +480,8 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) GetSt
 	return returns
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -493,11 +493,11 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) Inter
 	return returns
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -517,7 +517,7 @@ func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) Reset
 	)
 }
 
-func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_ManagementGroupPolicyAssignmentIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

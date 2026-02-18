@@ -111,7 +111,7 @@ func (j *jsiiProxy_StaticWebAppFunctionAppRegistration) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_StaticWebAppFunctionAppRegistration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StaticWebAppFunctionAppRegistration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

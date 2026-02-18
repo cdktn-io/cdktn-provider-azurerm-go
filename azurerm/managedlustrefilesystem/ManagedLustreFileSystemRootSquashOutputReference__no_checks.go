@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedLustreFileSystemRootSquashOutputReference) validateInt
 	return nil
 }
 
-func (m *jsiiProxy_ManagedLustreFileSystemRootSquashOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedLustreFileSystemRootSquashOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ManagedLustreFileSystemRootSquashOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ManagedLustreFileSystemRootSquashOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedLustreFileSystemRootSquashOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedLustreFileSystemRootSquashOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedLustreFileSystemRootSquashOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

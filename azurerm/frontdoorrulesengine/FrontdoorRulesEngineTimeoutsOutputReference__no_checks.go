@@ -47,7 +47,7 @@ func (f *jsiiProxy_FrontdoorRulesEngineTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorRulesEngineTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorRulesEngineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorRulesEngineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewFrontdoorRulesEngineTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFrontdoorRulesEngineTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

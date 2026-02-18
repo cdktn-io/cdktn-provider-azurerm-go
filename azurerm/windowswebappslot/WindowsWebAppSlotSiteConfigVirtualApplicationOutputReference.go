@@ -5,14 +5,14 @@ package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualDirectory() WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectoryList
 	VirtualDirectoryInput() interface{}
 	VirtualPath() *string
@@ -56,7 +56,7 @@ type WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,14 +72,14 @@ type WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutVirtualDirectory(value interface{})
 	ResetVirtualDirectory()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference interface {
 
 // The jsii proxy struct for WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference
 type jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) ComplexObjectIndex() interface{} {
@@ -192,8 +192,8 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)
 }
 
 
-func NewWindowsWebAppSlotSiteConfigVirtualApplicationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference {
+func NewWindowsWebAppSlotSiteConfigVirtualApplicationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppSlotSiteConfigVirtualApplicationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -260,7 +260,7 @@ func NewWindowsWebAppSlotSiteConfigVirtualApplicationOutputReference(terraformRe
 	return &j
 }
 
-func NewWindowsWebAppSlotSiteConfigVirtualApplicationOutputReference_Override(w WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWindowsWebAppSlotSiteConfigVirtualApplicationOutputReference_Override(w WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -336,7 +336,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -387,11 +387,11 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -515,8 +515,8 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -528,11 +528,11 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -563,7 +563,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference)
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlElasticpoolPerDatabaseSettingsOutputReference) validateI
 	return nil
 }
 
-func (m *jsiiProxy_MssqlElasticpoolPerDatabaseSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlElasticpoolPerDatabaseSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MssqlElasticpoolPerDatabaseSettingsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MssqlElasticpoolPerDatabaseSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlElasticpoolPerDatabaseSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlElasticpoolPerDatabaseSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlElasticpoolPerDatabaseSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

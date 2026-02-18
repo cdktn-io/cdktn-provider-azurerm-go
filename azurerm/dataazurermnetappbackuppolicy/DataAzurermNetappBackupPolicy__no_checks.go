@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermNetappBackupPolicy) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappBackupPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermNetappBackupPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermArcMachineOsProfileWindowsPatchList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermArcMachineOsProfileWindowsPatchList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermArcMachineOsProfileWindowsPatchList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermArcMachineOsProfileWindowsPatchList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermArcMachineOsProfileWindowsPatchList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermArcMachineOsProfileWindowsPatchList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermArcMachineOsProfileWindowsPatchList) validateSetWr
 	return nil
 }
 
-func validateNewDataAzurermArcMachineOsProfileWindowsPatchListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermArcMachineOsProfileWindowsPatchListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

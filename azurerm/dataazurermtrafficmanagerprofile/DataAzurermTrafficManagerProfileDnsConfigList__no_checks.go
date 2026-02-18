@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermTrafficManagerProfileDnsConfigList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermTrafficManagerProfileDnsConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermTrafficManagerProfileDnsConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermTrafficManagerProfileDnsConfigList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermTrafficManagerProfileDnsConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermTrafficManagerProfileDnsConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermTrafficManagerProfileDnsConfigList) validateSetWra
 	return nil
 }
 
-func validateNewDataAzurermTrafficManagerProfileDnsConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermTrafficManagerProfileDnsConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_StorageDataLakeGen2Path) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Path) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageDataLakeGen2Path) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

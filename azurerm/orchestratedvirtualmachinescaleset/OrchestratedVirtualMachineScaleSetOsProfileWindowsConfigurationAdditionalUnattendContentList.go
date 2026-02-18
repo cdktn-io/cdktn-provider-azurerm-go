@@ -5,14 +5,14 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orchestratedvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/orchestratedvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUn
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUn
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUn
 
 // The jsii proxy struct for OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList
 type jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	return returns
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 }
 
 
-func NewOrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList {
+func NewOrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList {
 	_init_.Initialize()
 
 	if err := validateNewOrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewOrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditiona
 	return &j
 }
 
-func NewOrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList_Override(o OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewOrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList_Override(o OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	)
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	)
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := o.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		o,
@@ -231,7 +231,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurati
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetOsProfileWindowsConfigurationAdditionalUnattendContentList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

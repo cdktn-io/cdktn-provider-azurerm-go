@@ -119,7 +119,7 @@ func (j *jsiiProxy_ApplicationInsightsAnalyticsItem) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsightsAnalyticsItem) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApplicationInsightsAnalyticsItem) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermDynatraceMonitor) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDynatraceMonitor) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDynatraceMonitor) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

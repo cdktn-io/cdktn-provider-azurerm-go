@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutput
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutput
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutput
 	return nil
 }
 
-func validateNewSentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelAlertRuleAnomalyDuplicateMultiSelectObservationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

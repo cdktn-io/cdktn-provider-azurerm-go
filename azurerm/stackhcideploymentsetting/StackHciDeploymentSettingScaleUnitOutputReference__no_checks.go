@@ -71,7 +71,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) validatePu
 	return nil
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -155,7 +155,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -163,7 +163,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) validateSe
 	return nil
 }
 
-func validateNewStackHciDeploymentSettingScaleUnitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStackHciDeploymentSettingScaleUnitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

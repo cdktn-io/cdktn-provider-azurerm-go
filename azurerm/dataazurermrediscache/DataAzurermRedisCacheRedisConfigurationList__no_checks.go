@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAzurermRedisCacheRedisConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermRedisCacheRedisConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

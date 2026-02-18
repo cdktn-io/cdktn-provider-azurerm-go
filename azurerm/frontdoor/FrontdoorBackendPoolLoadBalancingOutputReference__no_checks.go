@@ -47,7 +47,7 @@ func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingOutputReference) validateInt
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFrontdoorBackendPoolLoadBalancingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFrontdoorBackendPoolLoadBalancingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

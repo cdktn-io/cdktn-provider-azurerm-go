@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotcentralApplicationIdentityOutputReference) validateInterpo
 	return nil
 }
 
-func (i *jsiiProxy_IotcentralApplicationIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotcentralApplicationIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_IotcentralApplicationIdentityOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_IotcentralApplicationIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotcentralApplicationIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IotcentralApplicationIdentityOutputReference) validateSetType
 	return nil
 }
 
-func validateNewIotcentralApplicationIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotcentralApplicationIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -191,7 +191,7 @@ func (j *jsiiProxy_BatchPool) validateSetLicenseTypeParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_BatchPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BatchPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

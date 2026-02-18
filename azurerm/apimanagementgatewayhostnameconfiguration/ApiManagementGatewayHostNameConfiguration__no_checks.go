@@ -127,7 +127,7 @@ func (j *jsiiProxy_ApiManagementGatewayHostNameConfiguration) validateSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementGatewayHostNameConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementGatewayHostNameConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package dataazurermpostgresqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermpostgresqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermpostgresqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/postgresql_flexible_server azurerm_postgresql_flexible_server}.
 type DataAzurermPostgresqlFlexibleServer interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AdministratorLogin() *string
-	AutoGrowEnabled() cdktf.IResolvable
+	AutoGrowEnabled() cdktn.IResolvable
 	BackupRetentionDays() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type DataAzurermPostgresqlFlexibleServer interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fqdn() *string
 	// Experimental.
 	Fqn() *string
@@ -45,9 +45,9 @@ type DataAzurermPostgresqlFlexibleServer interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -55,10 +55,10 @@ type DataAzurermPostgresqlFlexibleServer interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
-	PublicNetworkAccessEnabled() cdktf.IResolvable
+	SetProvider(val cdktn.TerraformProvider)
+	PublicNetworkAccessEnabled() cdktn.IResolvable
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -66,9 +66,9 @@ type DataAzurermPostgresqlFlexibleServer interface {
 	ResourceGroupNameInput() *string
 	SkuName() *string
 	StorageMb() *float64
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type DataAzurermPostgresqlFlexibleServer interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataAzurermPostgresqlFlexibleServer interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -124,7 +124,7 @@ type DataAzurermPostgresqlFlexibleServer interface {
 
 // The jsii proxy struct for DataAzurermPostgresqlFlexibleServer
 type jsiiProxy_DataAzurermPostgresqlFlexibleServer struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) AdministratorLogin() *string {
@@ -137,8 +137,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) AdministratorLogin() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) AutoGrowEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) AutoGrowEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"autoGrowEnabled",
@@ -157,8 +157,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) BackupRetentionDays() *f
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Provider() cdktf.Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) PublicNetworkAccessEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) PublicNetworkAccessEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"publicNetworkAccessEnabled",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) StorageMb() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -407,8 +407,8 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -526,7 +526,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -545,7 +545,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -567,7 +567,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -586,14 +586,14 @@ func (j *jsiiProxy_DataAzurermPostgresqlFlexibleServer)SetResourceGroupName(val 
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermPostgresqlFlexibleServer resource upon running "cdktf plan <stack-name>".
-func DataAzurermPostgresqlFlexibleServer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermPostgresqlFlexibleServer resource upon running "cdktn plan <stack-name>".
+func DataAzurermPostgresqlFlexibleServer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermPostgresqlFlexibleServer_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermPostgresqlFlexibleServer.DataAzurermPostgresqlFlexibleServer",
@@ -716,11 +716,11 @@ func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -844,11 +844,11 @@ func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) GetStringMapAttribute(te
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

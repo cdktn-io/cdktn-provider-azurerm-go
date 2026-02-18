@@ -15,7 +15,7 @@ func (a *jsiiProxy_AutomationConnectionTypeFieldList) validateGetParameters(inde
 	return nil
 }
 
-func (a *jsiiProxy_AutomationConnectionTypeFieldList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationConnectionTypeFieldList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AutomationConnectionTypeFieldList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_AutomationConnectionTypeFieldList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationConnectionTypeFieldList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AutomationConnectionTypeFieldList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewAutomationConnectionTypeFieldListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAutomationConnectionTypeFieldListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

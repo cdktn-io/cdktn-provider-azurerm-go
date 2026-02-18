@@ -15,7 +15,7 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInSingleSelectObservationList) v
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInSingleSelectObservationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInSingleSelectObservationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInSingleSelectObservationList) v
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInSingleSelectObservationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInSingleSelectObservationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInSingleSelectObservationList) v
 	return nil
 }
 
-func validateNewSentinelAlertRuleAnomalyBuiltInSingleSelectObservationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSentinelAlertRuleAnomalyBuiltInSingleSelectObservationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

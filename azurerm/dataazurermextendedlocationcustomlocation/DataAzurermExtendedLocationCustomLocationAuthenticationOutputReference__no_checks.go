@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermExtendedLocationCustomLocationAuthenticationOutput
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermExtendedLocationCustomLocationAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermExtendedLocationCustomLocationAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermExtendedLocationCustomLocationAuthenticationOutput
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermExtendedLocationCustomLocationAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermExtendedLocationCustomLocationAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermExtendedLocationCustomLocationAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermExtendedLocationCustomLocationAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

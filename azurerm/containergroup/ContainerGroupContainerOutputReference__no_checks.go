@@ -67,7 +67,7 @@ func (c *jsiiProxy_ContainerGroupContainerOutputReference) validatePutVolumePara
 	return nil
 }
 
-func (c *jsiiProxy_ContainerGroupContainerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerGroupContainerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -123,11 +123,11 @@ func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerGroupContainerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerGroupContainerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

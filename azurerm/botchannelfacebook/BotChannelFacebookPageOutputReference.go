@@ -5,14 +5,14 @@ package botchannelfacebook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/botchannelfacebook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/botchannelfacebook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BotChannelFacebookPageOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccessToken() *string
 	SetAccessToken(val *string)
 	AccessTokenInput() *string
@@ -43,15 +43,15 @@ type BotChannelFacebookPageOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type BotChannelFacebookPageOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type BotChannelFacebookPageOutputReference interface {
 
 // The jsii proxy struct for BotChannelFacebookPageOutputReference
 type jsiiProxy_BotChannelFacebookPageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BotChannelFacebookPageOutputReference) AccessToken() *string {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_BotChannelFacebookPageOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_BotChannelFacebookPageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BotChannelFacebookPageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_BotChannelFacebookPageOutputReference) TerraformResource() cd
 }
 
 
-func NewBotChannelFacebookPageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BotChannelFacebookPageOutputReference {
+func NewBotChannelFacebookPageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) BotChannelFacebookPageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBotChannelFacebookPageOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewBotChannelFacebookPageOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewBotChannelFacebookPageOutputReference_Override(b BotChannelFacebookPageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewBotChannelFacebookPageOutputReference_Override(b BotChannelFacebookPageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_BotChannelFacebookPageOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_BotChannelFacebookPageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BotChannelFacebookPageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (b *jsiiProxy_BotChannelFacebookPageOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (b *jsiiProxy_BotChannelFacebookPageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BotChannelFacebookPageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -457,8 +457,8 @@ func (b *jsiiProxy_BotChannelFacebookPageOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (b *jsiiProxy_BotChannelFacebookPageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BotChannelFacebookPageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -470,11 +470,11 @@ func (b *jsiiProxy_BotChannelFacebookPageOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (b *jsiiProxy_BotChannelFacebookPageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BotChannelFacebookPageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -486,7 +486,7 @@ func (b *jsiiProxy_BotChannelFacebookPageOutputReference) InterpolationForAttrib
 	return returns
 }
 
-func (b *jsiiProxy_BotChannelFacebookPageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BotChannelFacebookPageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

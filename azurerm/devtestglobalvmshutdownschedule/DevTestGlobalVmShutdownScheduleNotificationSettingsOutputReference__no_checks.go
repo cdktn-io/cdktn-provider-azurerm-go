@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevTestGlobalVmShutdownScheduleNotificationSettingsOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DevTestGlobalVmShutdownScheduleNotificationSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestGlobalVmShutdownScheduleNotificationSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DevTestGlobalVmShutdownScheduleNotificationSettingsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DevTestGlobalVmShutdownScheduleNotificationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestGlobalVmShutdownScheduleNotificationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DevTestGlobalVmShutdownScheduleNotificationSettingsOutputRefe
 	return nil
 }
 
-func validateNewDevTestGlobalVmShutdownScheduleNotificationSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevTestGlobalVmShutdownScheduleNotificationSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

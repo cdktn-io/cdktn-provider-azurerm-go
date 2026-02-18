@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentMetadataOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentMetadataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentMetadataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentMetadataOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentMetadataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentMetadataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentMetadataOutputReference) 
 	return nil
 }
 
-func validateNewContainerAppEnvironmentDaprComponentMetadataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppEnvironmentDaprComponentMetadataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

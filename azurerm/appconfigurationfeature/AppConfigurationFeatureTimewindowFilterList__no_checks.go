@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppConfigurationFeatureTimewindowFilterList) validateGetParam
 	return nil
 }
 
-func (a *jsiiProxy_AppConfigurationFeatureTimewindowFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppConfigurationFeatureTimewindowFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppConfigurationFeatureTimewindowFilterList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationFeatureTimewindowFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppConfigurationFeatureTimewindowFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppConfigurationFeatureTimewindowFilterList) validateSetWraps
 	return nil
 }
 
-func validateNewAppConfigurationFeatureTimewindowFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppConfigurationFeatureTimewindowFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

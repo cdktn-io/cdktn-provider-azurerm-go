@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppConfigurationSecondaryReadKeyList) validateGetParameters(i
 	return nil
 }
 
-func (a *jsiiProxy_AppConfigurationSecondaryReadKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppConfigurationSecondaryReadKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AppConfigurationSecondaryReadKeyList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationSecondaryReadKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppConfigurationSecondaryReadKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AppConfigurationSecondaryReadKeyList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewAppConfigurationSecondaryReadKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppConfigurationSecondaryReadKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

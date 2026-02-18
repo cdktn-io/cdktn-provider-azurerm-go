@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermPostgresqlServerIdentityList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPostgresqlServerIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPostgresqlServerIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlServerIdentityList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPostgresqlServerIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPostgresqlServerIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermPostgresqlServerIdentityList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAzurermPostgresqlServerIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermPostgresqlServerIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

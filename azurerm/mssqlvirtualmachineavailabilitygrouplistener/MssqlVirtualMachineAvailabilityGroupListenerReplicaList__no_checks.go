@@ -15,7 +15,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerReplicaList) vali
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerReplicaList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerReplicaList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerReplicaList) vali
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerReplicaList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerReplicaList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerReplicaList) vali
 	return nil
 }
 
-func validateNewMssqlVirtualMachineAvailabilityGroupListenerReplicaListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMssqlVirtualMachineAvailabilityGroupListenerReplicaListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

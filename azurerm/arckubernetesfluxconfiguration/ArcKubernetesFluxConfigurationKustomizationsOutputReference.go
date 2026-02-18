@@ -5,14 +5,14 @@ package arckubernetesfluxconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arckubernetesfluxconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/arckubernetesfluxconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ArcKubernetesFluxConfigurationKustomizationsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -58,9 +58,9 @@ type ArcKubernetesFluxConfigurationKustomizationsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeoutInSeconds() *float64
 	SetTimeoutInSeconds(val *float64)
 	TimeoutInSecondsInput() *float64
@@ -69,7 +69,7 @@ type ArcKubernetesFluxConfigurationKustomizationsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,9 +85,9 @@ type ArcKubernetesFluxConfigurationKustomizationsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDependsOn()
 	ResetGarbageCollectionEnabled()
 	ResetPath()
@@ -97,7 +97,7 @@ type ArcKubernetesFluxConfigurationKustomizationsOutputReference interface {
 	ResetTimeoutInSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type ArcKubernetesFluxConfigurationKustomizationsOutputReference interface {
 
 // The jsii proxy struct for ArcKubernetesFluxConfigurationKustomizationsOutputReference
 type jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) ComplexObjectIndex() interface{} {
@@ -310,8 +310,8 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -341,7 +341,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 }
 
 
-func NewArcKubernetesFluxConfigurationKustomizationsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcKubernetesFluxConfigurationKustomizationsOutputReference {
+func NewArcKubernetesFluxConfigurationKustomizationsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ArcKubernetesFluxConfigurationKustomizationsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewArcKubernetesFluxConfigurationKustomizationsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -358,7 +358,7 @@ func NewArcKubernetesFluxConfigurationKustomizationsOutputReference(terraformRes
 	return &j
 }
 
-func NewArcKubernetesFluxConfigurationKustomizationsOutputReference_Override(a ArcKubernetesFluxConfigurationKustomizationsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewArcKubernetesFluxConfigurationKustomizationsOutputReference_Override(a ArcKubernetesFluxConfigurationKustomizationsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -489,7 +489,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -540,11 +540,11 @@ func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -668,8 +668,8 @@ func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -681,11 +681,11 @@ func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	return returns
 }
 
-func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -753,7 +753,7 @@ func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) 
 	)
 }
 
-func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ArcKubernetesFluxConfigurationKustomizationsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

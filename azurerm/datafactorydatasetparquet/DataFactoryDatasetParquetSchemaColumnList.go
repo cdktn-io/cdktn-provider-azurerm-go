@@ -5,14 +5,14 @@ package datafactorydatasetparquet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorydatasetparquet/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorydatasetparquet/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryDatasetParquetSchemaColumnList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataFactoryDatasetParquetSchemaColumnList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataFactoryDatasetParquetSchemaColumnList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataFactoryDatasetParquetSchemaColumnOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataFactoryDatasetParquetSchemaColumnList interface {
 
 // The jsii proxy struct for DataFactoryDatasetParquetSchemaColumnList
 type jsiiProxy_DataFactoryDatasetParquetSchemaColumnList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) WrapsSet() *bool {
 }
 
 
-func NewDataFactoryDatasetParquetSchemaColumnList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryDatasetParquetSchemaColumnList {
+func NewDataFactoryDatasetParquetSchemaColumnList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryDatasetParquetSchemaColumnList {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryDatasetParquetSchemaColumnListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataFactoryDatasetParquetSchemaColumnList(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewDataFactoryDatasetParquetSchemaColumnList_Override(d DataFactoryDatasetParquetSchemaColumnList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataFactoryDatasetParquetSchemaColumnList_Override(d DataFactoryDatasetParquetSchemaColumnList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList)SetWrapsSet(val *bo
 	)
 }
 
-func (d *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) Get(index *float64
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryDatasetParquetSchemaColumnList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

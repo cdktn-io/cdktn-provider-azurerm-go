@@ -107,7 +107,7 @@ func (j *jsiiProxy_NetworkManagerStaticMember) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerStaticMember) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkManagerStaticMember) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

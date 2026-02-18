@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageList) val
 	return nil
 }
 
-func validateNewDataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermWindowsWebAppLogsHttpLogsAzureBlobStorageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

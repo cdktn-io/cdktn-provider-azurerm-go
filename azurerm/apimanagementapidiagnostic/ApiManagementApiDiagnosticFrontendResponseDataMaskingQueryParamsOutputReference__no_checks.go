@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementApiDiagnosticFrontendResponseDataMaskingQueryPar
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiDiagnosticFrontendResponseDataMaskingQueryParamsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiDiagnosticFrontendResponseDataMaskingQueryParamsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ApiManagementApiDiagnosticFrontendResponseDataMaskingQueryPar
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiDiagnosticFrontendResponseDataMaskingQueryParamsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiDiagnosticFrontendResponseDataMaskingQueryParamsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementApiDiagnosticFrontendResponseDataMaskingQueryPar
 	return nil
 }
 
-func validateNewApiManagementApiDiagnosticFrontendResponseDataMaskingQueryParamsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiManagementApiDiagnosticFrontendResponseDataMaskingQueryParamsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

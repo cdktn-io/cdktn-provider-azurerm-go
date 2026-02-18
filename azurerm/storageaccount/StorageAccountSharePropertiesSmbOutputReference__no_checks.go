@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountSharePropertiesSmbOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountSharePropertiesSmbOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountSharePropertiesSmbOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageAccountSharePropertiesSmbOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountSharePropertiesSmbOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountSharePropertiesSmbOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_StorageAccountSharePropertiesSmbOutputReference) validateSetV
 	return nil
 }
 
-func validateNewStorageAccountSharePropertiesSmbOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountSharePropertiesSmbOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

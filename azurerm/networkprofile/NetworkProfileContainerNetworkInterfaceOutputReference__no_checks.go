@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkProfileContainerNetworkInterfaceOutputReference) valid
 	return nil
 }
 
-func (n *jsiiProxy_NetworkProfileContainerNetworkInterfaceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkProfileContainerNetworkInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkProfileContainerNetworkInterfaceOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_NetworkProfileContainerNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkProfileContainerNetworkInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkProfileContainerNetworkInterfaceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkProfileContainerNetworkInterfaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

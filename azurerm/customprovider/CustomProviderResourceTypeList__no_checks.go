@@ -15,7 +15,7 @@ func (c *jsiiProxy_CustomProviderResourceTypeList) validateGetParameters(index *
 	return nil
 }
 
-func (c *jsiiProxy_CustomProviderResourceTypeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CustomProviderResourceTypeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CustomProviderResourceTypeList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_CustomProviderResourceTypeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CustomProviderResourceTypeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CustomProviderResourceTypeList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewCustomProviderResourceTypeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCustomProviderResourceTypeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

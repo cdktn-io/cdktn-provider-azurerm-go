@@ -15,7 +15,7 @@ func (v *jsiiProxy_VmwarePrivateCloudCircuitList) validateGetParameters(index *f
 	return nil
 }
 
-func (v *jsiiProxy_VmwarePrivateCloudCircuitList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwarePrivateCloudCircuitList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_VmwarePrivateCloudCircuitList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_VmwarePrivateCloudCircuitList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwarePrivateCloudCircuitList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_VmwarePrivateCloudCircuitList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewVmwarePrivateCloudCircuitListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVmwarePrivateCloudCircuitListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

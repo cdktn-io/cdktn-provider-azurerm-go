@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputRefer
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -176,7 +176,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputRefer
 
 func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *KubernetesClusterMaintenanceWindowNodeOsNotAllowed:
 		val := val.(*KubernetesClusterMaintenanceWindowNodeOsNotAllowed)
@@ -191,7 +191,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputRefer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *KubernetesClusterMaintenanceWindowNodeOsNotAllowed; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *KubernetesClusterMaintenanceWindowNodeOsNotAllowed; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputRefer
 	return nil
 }
 
-func validateNewKubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesClusterMaintenanceWindowNodeOsNotAllowedOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

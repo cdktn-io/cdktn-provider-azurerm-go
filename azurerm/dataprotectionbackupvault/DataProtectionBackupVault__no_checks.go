@@ -123,7 +123,7 @@ func (j *jsiiProxy_DataProtectionBackupVault) validateSetImmutabilityParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupVault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupVault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

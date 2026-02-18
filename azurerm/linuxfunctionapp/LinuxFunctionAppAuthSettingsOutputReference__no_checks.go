@@ -71,7 +71,7 @@ func (l *jsiiProxy_LinuxFunctionAppAuthSettingsOutputReference) validatePutTwitt
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppAuthSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppAuthSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppAuthSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppAuthSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -131,7 +131,7 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsOutputReference) validateSetUnaut
 	return nil
 }
 
-func validateNewLinuxFunctionAppAuthSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxFunctionAppAuthSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package webpubsubsocketio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubsocketio/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webpubsubsocketio/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WebPubsubSocketioSkuOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Capacity() *float64
 	SetCapacity(val *float64)
 	CapacityInput() *float64
@@ -43,15 +43,15 @@ type WebPubsubSocketioSkuOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type WebPubsubSocketioSkuOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCapacity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type WebPubsubSocketioSkuOutputReference interface {
 
 // The jsii proxy struct for WebPubsubSocketioSkuOutputReference
 type jsiiProxy_WebPubsubSocketioSkuOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference) Capacity() *float64 {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference) TerraformResource() cdkt
 }
 
 
-func NewWebPubsubSocketioSkuOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WebPubsubSocketioSkuOutputReference {
+func NewWebPubsubSocketioSkuOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WebPubsubSocketioSkuOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWebPubsubSocketioSkuOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewWebPubsubSocketioSkuOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewWebPubsubSocketioSkuOutputReference_Override(w WebPubsubSocketioSkuOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWebPubsubSocketioSkuOutputReference_Override(w WebPubsubSocketioSkuOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WebPubsubSocketioSkuOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -458,8 +458,8 @@ func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -471,11 +471,11 @@ func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -495,7 +495,7 @@ func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) ResetCapacity() {
 	)
 }
 
-func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WebPubsubSocketioSkuOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

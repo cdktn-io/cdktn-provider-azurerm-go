@@ -47,7 +47,7 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) vali
 	return nil
 }
 
-func (k *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKustoDatabasePrincipalAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoDatabasePrincipalAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

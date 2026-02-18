@@ -5,18 +5,18 @@ package dataazurermnetworkddosprotectionplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnetworkddosprotectionplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermnetworkddosprotectionplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/network_ddos_protection_plan azurerm_network_ddos_protection_plan}.
 type DataAzurermNetworkDdosProtectionPlan interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,9 +28,9 @@ type DataAzurermNetworkDdosProtectionPlan interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -39,9 +39,9 @@ type DataAzurermNetworkDdosProtectionPlan interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -49,17 +49,17 @@ type DataAzurermNetworkDdosProtectionPlan interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -72,7 +72,7 @@ type DataAzurermNetworkDdosProtectionPlan interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,7 +88,7 @@ type DataAzurermNetworkDdosProtectionPlan interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -114,11 +114,11 @@ type DataAzurermNetworkDdosProtectionPlan interface {
 
 // The jsii proxy struct for DataAzurermNetworkDdosProtectionPlan
 type jsiiProxy_DataAzurermNetworkDdosProtectionPlan struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -157,8 +157,8 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) DependsOn() *[]*string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -207,8 +207,8 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -257,8 +257,8 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Node() constructs.Node 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -297,8 +297,8 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) ResourceGroupNameInput(
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) Tags() cdktf.StringMap 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -416,7 +416,7 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetDependsOn(val *[]*str
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -435,7 +435,7 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -457,7 +457,7 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -476,14 +476,14 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlan)SetResourceGroupName(val
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermNetworkDdosProtectionPlan resource upon running "cdktf plan <stack-name>".
-func DataAzurermNetworkDdosProtectionPlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermNetworkDdosProtectionPlan resource upon running "cdktn plan <stack-name>".
+func DataAzurermNetworkDdosProtectionPlan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermNetworkDdosProtectionPlan_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermNetworkDdosProtectionPlan.DataAzurermNetworkDdosProtectionPlan",
@@ -606,11 +606,11 @@ func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -734,11 +734,11 @@ func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

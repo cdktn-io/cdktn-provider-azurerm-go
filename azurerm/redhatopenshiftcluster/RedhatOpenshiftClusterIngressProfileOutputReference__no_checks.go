@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedhatOpenshiftClusterIngressProfileOutputReference) validate
 	return nil
 }
 
-func (r *jsiiProxy_RedhatOpenshiftClusterIngressProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedhatOpenshiftClusterIngressProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_RedhatOpenshiftClusterIngressProfileOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_RedhatOpenshiftClusterIngressProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedhatOpenshiftClusterIngressProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_RedhatOpenshiftClusterIngressProfileOutputReference) validate
 	return nil
 }
 
-func validateNewRedhatOpenshiftClusterIngressProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedhatOpenshiftClusterIngressProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

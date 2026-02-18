@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	return nil
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	return nil
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	return nil
 }
 
-func validateNewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

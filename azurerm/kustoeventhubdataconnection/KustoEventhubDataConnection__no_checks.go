@@ -143,7 +143,7 @@ func (j *jsiiProxy_KustoEventhubDataConnection) validateSetIdentityIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_KustoEventhubDataConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KustoEventhubDataConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

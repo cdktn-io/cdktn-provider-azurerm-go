@@ -155,7 +155,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) validateSetIntervalParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

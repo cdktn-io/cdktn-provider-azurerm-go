@@ -5,14 +5,14 @@ package apimanagementgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementGatewayLocationDataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	City() *string
 	SetCity(val *string)
 	CityInput() *string
@@ -49,15 +49,15 @@ type ApiManagementGatewayLocationDataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type ApiManagementGatewayLocationDataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCity()
 	ResetDistrict()
 	ResetRegion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type ApiManagementGatewayLocationDataOutputReference interface {
 
 // The jsii proxy struct for ApiManagementGatewayLocationDataOutputReference
 type jsiiProxy_ApiManagementGatewayLocationDataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) City() *string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) TerraformRes
 }
 
 
-func NewApiManagementGatewayLocationDataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApiManagementGatewayLocationDataOutputReference {
+func NewApiManagementGatewayLocationDataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApiManagementGatewayLocationDataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementGatewayLocationDataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewApiManagementGatewayLocationDataOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewApiManagementGatewayLocationDataOutputReference_Override(a ApiManagementGatewayLocationDataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApiManagementGatewayLocationDataOutputReference_Override(a ApiManagementGatewayLocationDataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -528,8 +528,8 @@ func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) GetStringMap
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -541,11 +541,11 @@ func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) Interpolatio
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -581,7 +581,7 @@ func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) ResetRegion(
 	)
 }
 
-func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

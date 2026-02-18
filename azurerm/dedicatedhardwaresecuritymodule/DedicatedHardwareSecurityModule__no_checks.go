@@ -115,7 +115,7 @@ func (j *jsiiProxy_DedicatedHardwareSecurityModule) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DedicatedHardwareSecurityModule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DedicatedHardwareSecurityModule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

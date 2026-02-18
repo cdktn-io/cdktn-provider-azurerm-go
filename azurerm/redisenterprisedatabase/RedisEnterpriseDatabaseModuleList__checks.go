@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateGetParameters(inde
 	return nil
 }
 
-func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateResolveParameters(
 
 func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*RedisEnterpriseDatabaseModule:
 		val := val.(*[]*RedisEnterpriseDatabaseModule)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetInternalValuePa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*RedisEnterpriseDatabaseModule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*RedisEnterpriseDatabaseModule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewRedisEnterpriseDatabaseModuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedisEnterpriseDatabaseModuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

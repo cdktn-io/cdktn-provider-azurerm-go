@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubDpsIpFilterRuleOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (i *jsiiProxy_IothubDpsIpFilterRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubDpsIpFilterRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_IothubDpsIpFilterRuleOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_IothubDpsIpFilterRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubDpsIpFilterRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIothubDpsIpFilterRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIothubDpsIpFilterRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

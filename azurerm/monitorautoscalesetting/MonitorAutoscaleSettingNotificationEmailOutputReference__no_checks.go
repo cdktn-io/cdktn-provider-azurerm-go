@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingNotificationEmailOutputReference) vali
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingNotificationEmailOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingNotificationEmailOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MonitorAutoscaleSettingNotificationEmailOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingNotificationEmailOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingNotificationEmailOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingNotificationEmailOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorAutoscaleSettingNotificationEmailOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

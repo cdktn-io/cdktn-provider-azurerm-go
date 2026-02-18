@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesList)
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesList)
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApiManagementApiSubscriptionKeyParameterNamesList)
 	return nil
 }
 
-func validateNewDataAzurermApiManagementApiSubscriptionKeyParameterNamesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApiManagementApiSubscriptionKeyParameterNamesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

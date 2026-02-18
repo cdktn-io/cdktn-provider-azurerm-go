@@ -5,14 +5,14 @@ package servicefabriccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicefabriccluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicefabriccluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceFabricClusterAzureActiveDirectoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientApplicationId() *string
 	SetClientApplicationId(val *string)
 	ClientApplicationIdInput() *string
@@ -46,15 +46,15 @@ type ServiceFabricClusterAzureActiveDirectoryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type ServiceFabricClusterAzureActiveDirectoryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type ServiceFabricClusterAzureActiveDirectoryOutputReference interface {
 
 // The jsii proxy struct for ServiceFabricClusterAzureActiveDirectoryOutputReference
 type jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) ClientApplicationId() *string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) Terr
 }
 
 
-func NewServiceFabricClusterAzureActiveDirectoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceFabricClusterAzureActiveDirectoryOutputReference {
+func NewServiceFabricClusterAzureActiveDirectoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceFabricClusterAzureActiveDirectoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceFabricClusterAzureActiveDirectoryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewServiceFabricClusterAzureActiveDirectoryOutputReference(terraformResourc
 	return &j
 }
 
-func NewServiceFabricClusterAzureActiveDirectoryOutputReference_Override(s ServiceFabricClusterAzureActiveDirectoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceFabricClusterAzureActiveDirectoryOutputReference_Override(s ServiceFabricClusterAzureActiveDirectoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -491,8 +491,8 @@ func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,11 +504,11 @@ func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -520,7 +520,7 @@ func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceFabricClusterAzureActiveDirectoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

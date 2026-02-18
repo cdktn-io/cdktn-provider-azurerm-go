@@ -119,7 +119,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresql) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstancePostgresql) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupInstancePostgresql) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

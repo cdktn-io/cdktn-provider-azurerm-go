@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StorageAccountQueuePropertiesMinuteMetricsOutputReference) va
 	return nil
 }
 
-func validateNewStorageAccountQueuePropertiesMinuteMetricsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountQueuePropertiesMinuteMetricsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

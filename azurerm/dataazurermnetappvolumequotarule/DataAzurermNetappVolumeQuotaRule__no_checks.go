@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeQuotaRule) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolumeQuotaRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermNetappVolumeQuotaRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermEventhubAuthorizationRuleTimeoutsOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermEventhubAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermEventhubAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRuleTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermEventhubAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermEventhubAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

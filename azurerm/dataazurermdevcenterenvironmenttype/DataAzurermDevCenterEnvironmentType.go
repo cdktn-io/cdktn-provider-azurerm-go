@@ -5,18 +5,18 @@ package dataazurermdevcenterenvironmenttype
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdevcenterenvironmenttype/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermdevcenterenvironmenttype/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/dev_center_environment_type azurerm_dev_center_environment_type}.
 type DataAzurermDevCenterEnvironmentType interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,9 +31,9 @@ type DataAzurermDevCenterEnvironmentType interface {
 	SetDevCenterId(val *string)
 	DevCenterIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,23 +42,23 @@ type DataAzurermDevCenterEnvironmentType interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type DataAzurermDevCenterEnvironmentType interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -86,7 +86,7 @@ type DataAzurermDevCenterEnvironmentType interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -112,11 +112,11 @@ type DataAzurermDevCenterEnvironmentType interface {
 
 // The jsii proxy struct for DataAzurermDevCenterEnvironmentType
 type jsiiProxy_DataAzurermDevCenterEnvironmentType struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -175,8 +175,8 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) DevCenterIdInput() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -225,8 +225,8 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -265,8 +265,8 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) RawOverrides() interface
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -405,7 +405,7 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetDevCenterId(val *strin
 	)
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -446,7 +446,7 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -454,14 +454,14 @@ func (j *jsiiProxy_DataAzurermDevCenterEnvironmentType)SetProvider(val cdktf.Ter
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermDevCenterEnvironmentType resource upon running "cdktf plan <stack-name>".
-func DataAzurermDevCenterEnvironmentType_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermDevCenterEnvironmentType resource upon running "cdktn plan <stack-name>".
+func DataAzurermDevCenterEnvironmentType_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermDevCenterEnvironmentType_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermDevCenterEnvironmentType.DataAzurermDevCenterEnvironmentType",
@@ -584,11 +584,11 @@ func (d *jsiiProxy_DataAzurermDevCenterEnvironmentType) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDevCenterEnvironmentType) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermDevCenterEnvironmentType) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -712,11 +712,11 @@ func (d *jsiiProxy_DataAzurermDevCenterEnvironmentType) GetStringMapAttribute(te
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDevCenterEnvironmentType) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermDevCenterEnvironmentType) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

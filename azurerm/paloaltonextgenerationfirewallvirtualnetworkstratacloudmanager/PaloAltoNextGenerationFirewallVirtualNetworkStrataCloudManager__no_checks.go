@@ -123,7 +123,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkStrataCloudManage
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkStrataCloudManager) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkStrataCloudManager) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

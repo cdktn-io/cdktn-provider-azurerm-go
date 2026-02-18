@@ -15,7 +15,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeScriptActionsList) validate
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeScriptActionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeScriptActionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeScriptActionsList) validate
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeScriptActionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeScriptActionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeScriptActionsList) validate
 	return nil
 }
 
-func validateNewHdinsightKafkaClusterRolesHeadNodeScriptActionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHdinsightKafkaClusterRolesHeadNodeScriptActionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

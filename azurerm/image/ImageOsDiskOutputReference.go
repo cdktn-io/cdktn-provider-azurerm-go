@@ -5,14 +5,14 @@ package image
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/image/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/image/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ImageOsDiskOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BlobUri() *string
 	SetBlobUri(val *string)
 	BlobUriInput() *string
@@ -61,15 +61,15 @@ type ImageOsDiskOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,9 +85,9 @@ type ImageOsDiskOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBlobUri()
 	ResetCaching()
 	ResetDiskEncryptionSetId()
@@ -97,7 +97,7 @@ type ImageOsDiskOutputReference interface {
 	ResetSizeGb()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type ImageOsDiskOutputReference interface {
 
 // The jsii proxy struct for ImageOsDiskOutputReference
 type jsiiProxy_ImageOsDiskOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ImageOsDiskOutputReference) BlobUri() *string {
@@ -330,8 +330,8 @@ func (j *jsiiProxy_ImageOsDiskOutputReference) TerraformAttribute() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ImageOsDiskOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ImageOsDiskOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -341,7 +341,7 @@ func (j *jsiiProxy_ImageOsDiskOutputReference) TerraformResource() cdktf.IInterp
 }
 
 
-func NewImageOsDiskOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ImageOsDiskOutputReference {
+func NewImageOsDiskOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ImageOsDiskOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewImageOsDiskOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -358,7 +358,7 @@ func NewImageOsDiskOutputReference(terraformResource cdktf.IInterpolatingParent,
 	return &j
 }
 
-func NewImageOsDiskOutputReference_Override(i ImageOsDiskOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewImageOsDiskOutputReference_Override(i ImageOsDiskOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -500,7 +500,7 @@ func (j *jsiiProxy_ImageOsDiskOutputReference)SetTerraformAttribute(val *string)
 	)
 }
 
-func (j *jsiiProxy_ImageOsDiskOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ImageOsDiskOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -540,11 +540,11 @@ func (i *jsiiProxy_ImageOsDiskOutputReference) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (i *jsiiProxy_ImageOsDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_ImageOsDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -668,8 +668,8 @@ func (i *jsiiProxy_ImageOsDiskOutputReference) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (i *jsiiProxy_ImageOsDiskOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_ImageOsDiskOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -681,11 +681,11 @@ func (i *jsiiProxy_ImageOsDiskOutputReference) InterpolationAsList() cdktf.IReso
 	return returns
 }
 
-func (i *jsiiProxy_ImageOsDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_ImageOsDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -753,7 +753,7 @@ func (i *jsiiProxy_ImageOsDiskOutputReference) ResetSizeGb() {
 	)
 }
 
-func (i *jsiiProxy_ImageOsDiskOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_ImageOsDiskOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

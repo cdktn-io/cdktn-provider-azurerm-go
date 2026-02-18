@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayFrontendPortList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayFrontendPortList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApplicationGatewayFrontendPortList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayFrontendPortList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayFrontendPortList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApplicationGatewayFrontendPortList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayFrontendPortList) validateSetWra
 	return nil
 }
 
-func validateNewDataAzurermApplicationGatewayFrontendPortListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApplicationGatewayFrontendPortListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

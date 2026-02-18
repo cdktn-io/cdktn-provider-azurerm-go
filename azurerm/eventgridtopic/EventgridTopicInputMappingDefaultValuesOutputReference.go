@@ -5,14 +5,14 @@ package eventgridtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgridtopic/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventgridtopic/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventgridTopicInputMappingDefaultValuesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type EventgridTopicInputMappingDefaultValuesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type EventgridTopicInputMappingDefaultValuesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDataVersion()
 	ResetEventType()
 	ResetSubject()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type EventgridTopicInputMappingDefaultValuesOutputReference interface {
 
 // The jsii proxy struct for EventgridTopicInputMappingDefaultValuesOutputReference
 type jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) Terra
 }
 
 
-func NewEventgridTopicInputMappingDefaultValuesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) EventgridTopicInputMappingDefaultValuesOutputReference {
+func NewEventgridTopicInputMappingDefaultValuesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) EventgridTopicInputMappingDefaultValuesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventgridTopicInputMappingDefaultValuesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewEventgridTopicInputMappingDefaultValuesOutputReference(terraformResource
 	return &j
 }
 
-func NewEventgridTopicInputMappingDefaultValuesOutputReference_Override(e EventgridTopicInputMappingDefaultValuesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewEventgridTopicInputMappingDefaultValuesOutputReference_Override(e EventgridTopicInputMappingDefaultValuesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) GetAn
 	return returns
 }
 
-func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -494,8 +494,8 @@ func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) GetSt
 	return returns
 }
 
-func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -507,11 +507,11 @@ func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) Inter
 	return returns
 }
 
-func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -547,7 +547,7 @@ func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) Reset
 	)
 }
 
-func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventgridTopicInputMappingDefaultValuesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

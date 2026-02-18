@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricClusterReverseProxyCertificateOutputReference) v
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricClusterReverseProxyCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricClusterReverseProxyCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ServiceFabricClusterReverseProxyCertificateOutputReference) v
 	return nil
 }
 
-func validateNewServiceFabricClusterReverseProxyCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricClusterReverseProxyCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewKpiList) validateGetParameters(
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewKpiList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionCostManagementViewKpiList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewKpiList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementViewKpiList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionCostManagementViewKpiList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewKpiList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewSubscriptionCostManagementViewKpiListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSubscriptionCostManagementViewKpiListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

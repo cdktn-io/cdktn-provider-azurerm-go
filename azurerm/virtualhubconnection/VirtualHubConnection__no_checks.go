@@ -115,7 +115,7 @@ func (j *jsiiProxy_VirtualHubConnection) validateSetInternetSecurityEnabledParam
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualHubConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

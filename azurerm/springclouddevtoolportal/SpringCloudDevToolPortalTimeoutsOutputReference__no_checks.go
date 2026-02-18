@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudDevToolPortalTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudDevToolPortalTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudDevToolPortalTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SpringCloudDevToolPortalTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudDevToolPortalTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudDevToolPortalTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SpringCloudDevToolPortalTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewSpringCloudDevToolPortalTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudDevToolPortalTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

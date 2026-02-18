@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkDnsServersTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkDnsServersTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkDnsServersTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualNetworkDnsServersTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkDnsServersTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkDnsServersTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualNetworkDnsServersTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewVirtualNetworkDnsServersTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualNetworkDnsServersTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

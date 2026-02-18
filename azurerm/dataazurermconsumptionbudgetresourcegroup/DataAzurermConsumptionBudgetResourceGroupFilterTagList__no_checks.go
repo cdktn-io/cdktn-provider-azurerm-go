@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterTagList) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterTagList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterTagList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterTagList) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterTagList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterTagList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterTagList) valid
 	return nil
 }
 
-func validateNewDataAzurermConsumptionBudgetResourceGroupFilterTagListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermConsumptionBudgetResourceGroupFilterTagListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

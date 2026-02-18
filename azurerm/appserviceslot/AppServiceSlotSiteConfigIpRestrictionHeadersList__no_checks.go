@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) validateGet
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppServiceSlotSiteConfigIpRestrictionHeadersList) validateSet
 	return nil
 }
 
-func validateNewAppServiceSlotSiteConfigIpRestrictionHeadersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppServiceSlotSiteConfigIpRestrictionHeadersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

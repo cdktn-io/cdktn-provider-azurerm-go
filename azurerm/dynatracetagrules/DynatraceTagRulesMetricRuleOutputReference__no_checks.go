@@ -51,7 +51,7 @@ func (d *jsiiProxy_DynatraceTagRulesMetricRuleOutputReference) validatePutFilter
 	return nil
 }
 
-func (d *jsiiProxy_DynatraceTagRulesMetricRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynatraceTagRulesMetricRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DynatraceTagRulesMetricRuleOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DynatraceTagRulesMetricRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynatraceTagRulesMetricRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDynatraceTagRulesMetricRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynatraceTagRulesMetricRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

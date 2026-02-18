@@ -5,14 +5,14 @@ package lboutboundrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lboutboundrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/lboutboundrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LbOutboundRuleFrontendIpConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type LbOutboundRuleFrontendIpConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type LbOutboundRuleFrontendIpConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type LbOutboundRuleFrontendIpConfigurationOutputReference interface {
 
 // The jsii proxy struct for LbOutboundRuleFrontendIpConfigurationOutputReference
 type jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -184,7 +184,7 @@ func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) Terrafo
 }
 
 
-func NewLbOutboundRuleFrontendIpConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LbOutboundRuleFrontendIpConfigurationOutputReference {
+func NewLbOutboundRuleFrontendIpConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LbOutboundRuleFrontendIpConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLbOutboundRuleFrontendIpConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -201,7 +201,7 @@ func NewLbOutboundRuleFrontendIpConfigurationOutputReference(terraformResource c
 	return &j
 }
 
-func NewLbOutboundRuleFrontendIpConfigurationOutputReference_Override(l LbOutboundRuleFrontendIpConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLbOutboundRuleFrontendIpConfigurationOutputReference_Override(l LbOutboundRuleFrontendIpConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -266,7 +266,7 @@ func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -306,11 +306,11 @@ func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) GetAnyM
 	return returns
 }
 
-func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -434,8 +434,8 @@ func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) GetStri
 	return returns
 }
 
-func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -447,11 +447,11 @@ func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) Interpo
 	return returns
 }
 
-func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -463,7 +463,7 @@ func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) Interpo
 	return returns
 }
 
-func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LbOutboundRuleFrontendIpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

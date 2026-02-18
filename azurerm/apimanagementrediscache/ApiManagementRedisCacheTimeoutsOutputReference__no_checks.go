@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementRedisCacheTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementRedisCacheTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementRedisCacheTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementRedisCacheTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementRedisCacheTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementRedisCacheTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementRedisCacheTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewApiManagementRedisCacheTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementRedisCacheTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

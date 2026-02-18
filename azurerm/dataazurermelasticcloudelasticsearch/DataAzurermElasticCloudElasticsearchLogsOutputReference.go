@@ -5,14 +5,14 @@ package dataazurermelasticcloudelasticsearch
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermelasticcloudelasticsearch/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermelasticcloudelasticsearch/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermElasticCloudElasticsearchLogsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -33,23 +33,23 @@ type DataAzurermElasticCloudElasticsearchLogsOutputReference interface {
 	Fqn() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
-	SendActivityLogs() cdktf.IResolvable
-	SendAzureadLogs() cdktf.IResolvable
-	SendSubscriptionLogs() cdktf.IResolvable
+	SendActivityLogs() cdktn.IResolvable
+	SendAzureadLogs() cdktn.IResolvable
+	SendSubscriptionLogs() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermElasticCloudElasticsearchLogsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermElasticCloudElasticsearchLogsOutputReference interface {
 
 // The jsii proxy struct for DataAzurermElasticCloudElasticsearchLogsOutputReference
 type jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Inte
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) SendActivityLogs() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) SendActivityLogs() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sendActivityLogs",
@@ -153,8 +153,8 @@ func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Send
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) SendAzureadLogs() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) SendAzureadLogs() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sendAzureadLogs",
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Send
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) SendSubscriptionLogs() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) SendSubscriptionLogs() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"sendSubscriptionLogs",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Terr
 }
 
 
-func NewDataAzurermElasticCloudElasticsearchLogsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermElasticCloudElasticsearchLogsOutputReference {
+func NewDataAzurermElasticCloudElasticsearchLogsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermElasticCloudElasticsearchLogsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermElasticCloudElasticsearchLogsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermElasticCloudElasticsearchLogsOutputReference(terraformResourc
 	return &j
 }
 
-func NewDataAzurermElasticCloudElasticsearchLogsOutputReference_Override(d DataAzurermElasticCloudElasticsearchLogsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermElasticCloudElasticsearchLogsOutputReference_Override(d DataAzurermElasticCloudElasticsearchLogsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) GetA
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) GetS
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermElasticCloudElasticsearchLogsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

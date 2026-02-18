@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeekly
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeeklyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeeklyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeekly
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeeklyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeeklyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeekly
 	return nil
 }
 
-func validateNewMonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeeklyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorAlertProcessingRuleActionGroupScheduleRecurrenceWeeklyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

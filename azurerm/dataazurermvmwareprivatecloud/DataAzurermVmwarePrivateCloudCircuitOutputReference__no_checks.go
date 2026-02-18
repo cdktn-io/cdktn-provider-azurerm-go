@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermVmwarePrivateCloudCircuitOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVmwarePrivateCloudCircuitOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVmwarePrivateCloudCircuitOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermVmwarePrivateCloudCircuitOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVmwarePrivateCloudCircuitOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVmwarePrivateCloudCircuitOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermVmwarePrivateCloudCircuitOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermVmwarePrivateCloudCircuitOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

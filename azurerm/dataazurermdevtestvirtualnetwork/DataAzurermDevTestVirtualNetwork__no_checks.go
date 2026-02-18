@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermDevTestVirtualNetwork) validateSetLabNameParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDevTestVirtualNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDevTestVirtualNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

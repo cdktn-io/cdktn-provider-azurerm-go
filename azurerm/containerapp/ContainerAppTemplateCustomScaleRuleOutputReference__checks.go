@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppTemplateCustomScaleRuleAuthentication:
 		value := value.(*[]*ContainerAppTemplateCustomScaleRuleAuthentication)
@@ -117,14 +117,14 @@ func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppTemplateCustomScaleRuleAuthentication; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppTemplateCustomScaleRuleAuthentication; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -207,7 +207,7 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateS
 
 func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ContainerAppTemplateCustomScaleRule:
 		val := val.(*ContainerAppTemplateCustomScaleRule)
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ContainerAppTemplateCustomScaleRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ContainerAppTemplateCustomScaleRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateS
 	return nil
 }
 
-func validateNewContainerAppTemplateCustomScaleRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppTemplateCustomScaleRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

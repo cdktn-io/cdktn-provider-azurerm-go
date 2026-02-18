@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewaySslProfileList) validateGetParameters(index
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewaySslProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewaySslProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewaySslProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewaySslProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewApplicationGatewaySslProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewaySslProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

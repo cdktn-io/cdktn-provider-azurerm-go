@@ -179,7 +179,7 @@ func (j *jsiiProxy_LinuxWebAppSlot) validateSetKeyVaultReferenceIdentityIdParame
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSlot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LinuxWebAppSlot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionOutputReference) 
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHealthcareWorkspacePrivateEndpointConnectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHealthcareWorkspacePrivateEndpointConnectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

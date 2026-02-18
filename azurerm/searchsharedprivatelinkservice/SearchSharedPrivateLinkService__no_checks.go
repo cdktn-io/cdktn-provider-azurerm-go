@@ -107,7 +107,7 @@ func (j *jsiiProxy_SearchSharedPrivateLinkService) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_SearchSharedPrivateLinkService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SearchSharedPrivateLinkService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

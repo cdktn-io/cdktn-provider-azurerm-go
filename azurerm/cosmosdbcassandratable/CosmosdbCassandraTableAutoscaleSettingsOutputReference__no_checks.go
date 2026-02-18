@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbCassandraTableAutoscaleSettingsOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableAutoscaleSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbCassandraTableAutoscaleSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CosmosdbCassandraTableAutoscaleSettingsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTableAutoscaleSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbCassandraTableAutoscaleSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbCassandraTableAutoscaleSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbCassandraTableAutoscaleSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

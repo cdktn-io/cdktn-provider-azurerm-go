@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationActiveDirectoryOutpu
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationActiveDirectoryOutpu
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricManagedClusterAuthenticationActiveDirectoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

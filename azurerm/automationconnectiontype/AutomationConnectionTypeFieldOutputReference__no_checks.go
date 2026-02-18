@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationConnectionTypeFieldOutputReference) validateInterpo
 	return nil
 }
 
-func (a *jsiiProxy_AutomationConnectionTypeFieldOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationConnectionTypeFieldOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationConnectionTypeFieldOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AutomationConnectionTypeFieldOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationConnectionTypeFieldOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AutomationConnectionTypeFieldOutputReference) validateSetType
 	return nil
 }
 
-func validateNewAutomationConnectionTypeFieldOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAutomationConnectionTypeFieldOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

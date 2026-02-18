@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference) 
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxFunctionAppSlotSiteConfigAppServiceLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

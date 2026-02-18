@@ -111,7 +111,7 @@ func (j *jsiiProxy_ApiManagementNotificationRecipientUser) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementNotificationRecipientUser) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementNotificationRecipientUser) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

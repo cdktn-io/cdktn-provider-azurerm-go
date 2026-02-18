@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSharedImagePurchasePlanList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSharedImagePurchasePlanList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSharedImagePurchasePlanList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSharedImagePurchasePlanList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSharedImagePurchasePlanList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSharedImagePurchasePlanList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSharedImagePurchasePlanList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAzurermSharedImagePurchasePlanListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSharedImagePurchasePlanListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

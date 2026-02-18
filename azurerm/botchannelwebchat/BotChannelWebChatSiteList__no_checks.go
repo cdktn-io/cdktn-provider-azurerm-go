@@ -15,7 +15,7 @@ func (b *jsiiProxy_BotChannelWebChatSiteList) validateGetParameters(index *float
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelWebChatSiteList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelWebChatSiteList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BotChannelWebChatSiteList) validateSetTerraformAttributeParam
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelWebChatSiteList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelWebChatSiteList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BotChannelWebChatSiteList) validateSetWrapsSetParameters(val 
 	return nil
 }
 
-func validateNewBotChannelWebChatSiteListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBotChannelWebChatSiteListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

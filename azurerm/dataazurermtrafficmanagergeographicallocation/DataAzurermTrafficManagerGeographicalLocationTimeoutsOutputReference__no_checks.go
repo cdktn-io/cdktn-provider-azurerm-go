@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermTrafficManagerGeographicalLocationTimeoutsOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermTrafficManagerGeographicalLocationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermTrafficManagerGeographicalLocationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermTrafficManagerGeographicalLocationTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermTrafficManagerGeographicalLocationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermTrafficManagerGeographicalLocationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermTrafficManagerGeographicalLocationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermTrafficManagerGeographicalLocationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

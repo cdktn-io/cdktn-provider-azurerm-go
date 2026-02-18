@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteList) validateSetW
 	return nil
 }
 
-func validateNewDataAzurermVirtualNetworkGatewayCustomRouteListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVirtualNetworkGatewayCustomRouteListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

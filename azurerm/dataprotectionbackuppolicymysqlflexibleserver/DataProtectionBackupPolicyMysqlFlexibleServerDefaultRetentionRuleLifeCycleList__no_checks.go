@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerDefaultRetention
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerDefaultRetentionRuleLifeCycleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerDefaultRetentionRuleLifeCycleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerDefaultRetention
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerDefaultRetentionRuleLifeCycleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerDefaultRetentionRuleLifeCycleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerDefaultRetention
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyMysqlFlexibleServerDefaultRetentionRuleLifeCycleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataProtectionBackupPolicyMysqlFlexibleServerDefaultRetentionRuleLifeCycleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

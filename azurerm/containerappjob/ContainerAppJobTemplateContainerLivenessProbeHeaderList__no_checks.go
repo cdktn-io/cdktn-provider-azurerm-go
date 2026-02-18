@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) vali
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) vali
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) vali
 	return nil
 }
 
-func validateNewContainerAppJobTemplateContainerLivenessProbeHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppJobTemplateContainerLivenessProbeHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

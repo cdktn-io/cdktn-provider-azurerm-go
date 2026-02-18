@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationRevokedCertificate
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationRevokedCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationRevokedCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationRevokedCertificate
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationRevokedCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationRevokedCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayVpnClientConfigurationRevokedCertificate
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayVpnClientConfigurationRevokedCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualNetworkGatewayVpnClientConfigurationRevokedCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

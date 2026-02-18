@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermMysqlFlexibleServerHighAvailabilityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermMysqlFlexibleServerHighAvailabilityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

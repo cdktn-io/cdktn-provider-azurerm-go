@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerRegistryNetworkRuleSetIpRuleOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryNetworkRuleSetIpRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryNetworkRuleSetIpRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerRegistryNetworkRuleSetIpRuleOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryNetworkRuleSetIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryNetworkRuleSetIpRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerRegistryNetworkRuleSetIpRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerRegistryNetworkRuleSetIpRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

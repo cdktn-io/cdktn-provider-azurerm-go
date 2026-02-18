@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressList) validateGetP
 	return nil
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressList) validateSetW
 	return nil
 }
 
-func validateNewVpnGatewayConnectionVpnLinkCustomBgpAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpnGatewayConnectionVpnLinkCustomBgpAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

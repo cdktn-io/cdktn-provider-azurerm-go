@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsVirtualMachineOsDiskDiffDiskSettingsOutputReference) v
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineOsDiskDiffDiskSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineOsDiskDiffDiskSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WindowsVirtualMachineOsDiskDiffDiskSettingsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineOsDiskDiffDiskSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineOsDiskDiffDiskSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsVirtualMachineOsDiskDiffDiskSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsVirtualMachineOsDiskDiffDiskSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

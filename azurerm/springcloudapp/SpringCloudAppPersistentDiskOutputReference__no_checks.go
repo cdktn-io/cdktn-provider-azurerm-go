@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudAppPersistentDiskOutputReference) validateInterpol
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudAppPersistentDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudAppPersistentDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SpringCloudAppPersistentDiskOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudAppPersistentDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudAppPersistentDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpringCloudAppPersistentDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudAppPersistentDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

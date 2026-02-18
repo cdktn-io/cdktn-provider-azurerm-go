@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceStorageAccountOutputReference) validateInterpolatio
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceStorageAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceStorageAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AppServiceStorageAccountOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_AppServiceStorageAccountOutputReference) validateSetTypeParam
 	return nil
 }
 
-func validateNewAppServiceStorageAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppServiceStorageAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

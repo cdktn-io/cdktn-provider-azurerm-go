@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceProviderRegistrationFeatureOutputReference) validateI
 	return nil
 }
 
-func (r *jsiiProxy_ResourceProviderRegistrationFeatureOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceProviderRegistrationFeatureOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ResourceProviderRegistrationFeatureOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ResourceProviderRegistrationFeatureOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceProviderRegistrationFeatureOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewResourceProviderRegistrationFeatureOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewResourceProviderRegistrationFeatureOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

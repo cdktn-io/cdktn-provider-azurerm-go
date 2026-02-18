@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) validatePutMatchParam
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) validateSetUnhealthyT
 	return nil
 }
 
-func validateNewApplicationGatewayProbeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationGatewayProbeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

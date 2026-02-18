@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterAciConnectorLinuxConnectorIdentityList) vali
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterAciConnectorLinuxConnectorIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterAciConnectorLinuxConnectorIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_KubernetesClusterAciConnectorLinuxConnectorIdentityList) vali
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterAciConnectorLinuxConnectorIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterAciConnectorLinuxConnectorIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_KubernetesClusterAciConnectorLinuxConnectorIdentityList) vali
 	return nil
 }
 
-func validateNewKubernetesClusterAciConnectorLinuxConnectorIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterAciConnectorLinuxConnectorIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

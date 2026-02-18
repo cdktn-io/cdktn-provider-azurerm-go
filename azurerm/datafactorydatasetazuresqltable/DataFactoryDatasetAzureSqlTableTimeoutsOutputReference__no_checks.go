@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryDatasetAzureSqlTableTimeoutsOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetAzureSqlTableTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetAzureSqlTableTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTableTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTableTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTableTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTableTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewDataFactoryDatasetAzureSqlTableTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryDatasetAzureSqlTableTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

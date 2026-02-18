@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementDelegationOutputReference) validateInterpolation
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementDelegationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementDelegationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ApiManagementDelegationOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementDelegationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementDelegationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementDelegationOutputReference) validateSetValidation
 	return nil
 }
 
-func validateNewApiManagementDelegationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementDelegationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

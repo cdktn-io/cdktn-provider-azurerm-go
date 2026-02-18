@@ -5,14 +5,14 @@ package batchpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/batchpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/batchpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type BatchPoolSecurityProfileOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type BatchPoolSecurityProfileOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VtpmEnabled() interface{}
 	SetVtpmEnabled(val interface{})
 	VtpmEnabledInput() interface{}
@@ -57,7 +57,7 @@ type BatchPoolSecurityProfileOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type BatchPoolSecurityProfileOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetHostEncryptionEnabled()
 	ResetSecureBootEnabled()
 	ResetSecurityType()
 	ResetVtpmEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type BatchPoolSecurityProfileOutputReference interface {
 
 // The jsii proxy struct for BatchPoolSecurityProfileOutputReference
 type jsiiProxy_BatchPoolSecurityProfileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference) VtpmEnabledInput() i
 }
 
 
-func NewBatchPoolSecurityProfileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) BatchPoolSecurityProfileOutputReference {
+func NewBatchPoolSecurityProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) BatchPoolSecurityProfileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewBatchPoolSecurityProfileOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewBatchPoolSecurityProfileOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewBatchPoolSecurityProfileOutputReference_Override(b BatchPoolSecurityProfileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewBatchPoolSecurityProfileOutputReference_Override(b BatchPoolSecurityProfileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_BatchPoolSecurityProfileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -529,8 +529,8 @@ func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -542,11 +542,11 @@ func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := b.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		b,
@@ -590,7 +590,7 @@ func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) ResetVtpmEnabled() {
 	)
 }
 
-func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (b *jsiiProxy_BatchPoolSecurityProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := b.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

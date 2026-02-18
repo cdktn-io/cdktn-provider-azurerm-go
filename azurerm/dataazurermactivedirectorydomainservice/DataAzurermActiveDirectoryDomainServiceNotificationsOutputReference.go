@@ -5,14 +5,14 @@ package dataazurermactivedirectorydomainservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermactivedirectorydomainservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermactivedirectorydomainservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdditionalRecipients() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -33,22 +33,22 @@ type DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference interfa
 	Fqn() *string
 	InternalValue() *DataAzurermActiveDirectoryDomainServiceNotifications
 	SetInternalValue(val *DataAzurermActiveDirectoryDomainServiceNotifications)
-	NotifyDcAdmins() cdktf.IResolvable
-	NotifyGlobalAdmins() cdktf.IResolvable
+	NotifyDcAdmins() cdktn.IResolvable
+	NotifyGlobalAdmins() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference interfa
 
 // The jsii proxy struct for DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference
 type jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) AdditionalRecipients() *[]*string {
@@ -142,8 +142,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) NotifyDcAdmins() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) NotifyDcAdmins() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"notifyDcAdmins",
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) NotifyGlobalAdmins() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) NotifyGlobalAdmins() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"notifyGlobalAdmins",
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 }
 
 
-func NewDataAzurermActiveDirectoryDomainServiceNotificationsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference {
+func NewDataAzurermActiveDirectoryDomainServiceNotificationsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermActiveDirectoryDomainServiceNotificationsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataAzurermActiveDirectoryDomainServiceNotificationsOutputReference(terr
 	return &j
 }
 
-func NewDataAzurermActiveDirectoryDomainServiceNotificationsOutputReference_Override(d DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermActiveDirectoryDomainServiceNotificationsOutputReference_Override(d DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	)
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceNotificationsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

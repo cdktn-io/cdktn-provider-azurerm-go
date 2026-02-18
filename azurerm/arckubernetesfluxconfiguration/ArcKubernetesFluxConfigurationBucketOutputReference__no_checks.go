@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcKubernetesFluxConfigurationBucketOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_ArcKubernetesFluxConfigurationBucketOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcKubernetesFluxConfigurationBucketOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationBucketOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ArcKubernetesFluxConfigurationBucketOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcKubernetesFluxConfigurationBucketOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_ArcKubernetesFluxConfigurationBucketOutputReference) validate
 	return nil
 }
 
-func validateNewArcKubernetesFluxConfigurationBucketOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewArcKubernetesFluxConfigurationBucketOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

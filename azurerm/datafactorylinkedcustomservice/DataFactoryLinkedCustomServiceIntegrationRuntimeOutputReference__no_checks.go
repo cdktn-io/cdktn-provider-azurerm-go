@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedCustomServiceIntegrationRuntimeOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedCustomServiceIntegrationRuntimeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedCustomServiceIntegrationRuntimeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataFactoryLinkedCustomServiceIntegrationRuntimeOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomServiceIntegrationRuntimeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedCustomServiceIntegrationRuntimeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryLinkedCustomServiceIntegrationRuntimeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryLinkedCustomServiceIntegrationRuntimeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

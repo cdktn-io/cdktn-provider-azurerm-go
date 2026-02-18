@@ -5,14 +5,14 @@ package cdnendpointcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnendpointcustomdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnendpointcustomdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CdnEndpointCustomDomainUserManagedHttpsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type CdnEndpointCustomDomainUserManagedHttpsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TlsVersion() *string
 	SetTlsVersion(val *string)
 	TlsVersionInput() *string
@@ -51,7 +51,7 @@ type CdnEndpointCustomDomainUserManagedHttpsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type CdnEndpointCustomDomainUserManagedHttpsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTlsVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type CdnEndpointCustomDomainUserManagedHttpsOutputReference interface {
 
 // The jsii proxy struct for CdnEndpointCustomDomainUserManagedHttpsOutputReference
 type jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) ComplexObjectIndex() interface{} {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) TlsVe
 }
 
 
-func NewCdnEndpointCustomDomainUserManagedHttpsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CdnEndpointCustomDomainUserManagedHttpsOutputReference {
+func NewCdnEndpointCustomDomainUserManagedHttpsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CdnEndpointCustomDomainUserManagedHttpsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCdnEndpointCustomDomainUserManagedHttpsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewCdnEndpointCustomDomainUserManagedHttpsOutputReference(terraformResource
 	return &j
 }
 
-func NewCdnEndpointCustomDomainUserManagedHttpsOutputReference_Override(c CdnEndpointCustomDomainUserManagedHttpsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCdnEndpointCustomDomainUserManagedHttpsOutputReference_Override(c CdnEndpointCustomDomainUserManagedHttpsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -279,7 +279,7 @@ func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) GetAn
 	return returns
 }
 
-func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -458,8 +458,8 @@ func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) GetSt
 	return returns
 }
 
-func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -471,11 +471,11 @@ func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) Inter
 	return returns
 }
 
-func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -495,7 +495,7 @@ func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) Reset
 	)
 }
 
-func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CdnEndpointCustomDomainUserManagedHttpsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

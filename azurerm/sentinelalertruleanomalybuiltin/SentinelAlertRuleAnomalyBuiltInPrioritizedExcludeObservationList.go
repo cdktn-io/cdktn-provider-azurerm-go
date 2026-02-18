@@ -5,14 +5,14 @@ package sentinelalertruleanomalybuiltin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelalertruleanomalybuiltin/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/sentinelalertruleanomalybuiltin/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList interface 
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList interface 
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList interface 
 
 // The jsii proxy struct for SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList
 type jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationL
 	return returns
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationL
 }
 
 
-func NewSentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList {
+func NewSentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList {
 	_init_.Initialize()
 
 	if err := validateNewSentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewSentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList(terrafo
 	return &j
 }
 
-func NewSentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList_Override(s SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewSentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList_Override(s SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationL
 	)
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationL
 	)
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := s.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		s,
@@ -208,7 +208,7 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationL
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyBuiltInPrioritizedExcludeObservationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

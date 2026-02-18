@@ -15,7 +15,7 @@ func (c *jsiiProxy_ConfidentialLedgerCertificateBasedSecurityPrincipalList) vali
 	return nil
 }
 
-func (c *jsiiProxy_ConfidentialLedgerCertificateBasedSecurityPrincipalList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConfidentialLedgerCertificateBasedSecurityPrincipalList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ConfidentialLedgerCertificateBasedSecurityPrincipalList) vali
 	return nil
 }
 
-func (j *jsiiProxy_ConfidentialLedgerCertificateBasedSecurityPrincipalList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConfidentialLedgerCertificateBasedSecurityPrincipalList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ConfidentialLedgerCertificateBasedSecurityPrincipalList) vali
 	return nil
 }
 
-func validateNewConfidentialLedgerCertificateBasedSecurityPrincipalListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewConfidentialLedgerCertificateBasedSecurityPrincipalListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

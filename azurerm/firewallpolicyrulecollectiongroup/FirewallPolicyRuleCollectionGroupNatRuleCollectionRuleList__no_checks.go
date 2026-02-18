@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 	return nil
 }
 
-func validateNewFirewallPolicyRuleCollectionGroupNatRuleCollectionRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirewallPolicyRuleCollectionGroupNatRuleCollectionRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

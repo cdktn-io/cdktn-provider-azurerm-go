@@ -115,7 +115,7 @@ func (j *jsiiProxy_VpnGateway) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_VpnGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VpnGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

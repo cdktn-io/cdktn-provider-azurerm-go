@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference) valid
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotAuthSettingsV2LoginOutputReference) valid
 	return nil
 }
 
-func validateNewLinuxFunctionAppSlotAuthSettingsV2LoginOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxFunctionAppSlotAuthSettingsV2LoginOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

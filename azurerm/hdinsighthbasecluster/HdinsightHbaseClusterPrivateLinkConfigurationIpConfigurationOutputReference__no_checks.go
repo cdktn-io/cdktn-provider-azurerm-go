@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationO
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_HdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationO
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHbaseClusterPrivateLinkConfigurationIpConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

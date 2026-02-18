@@ -15,7 +15,7 @@ func (d *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DynatraceTagRulesLogRuleFilteringTagList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDynatraceTagRulesLogRuleFilteringTagListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDynatraceTagRulesLogRuleFilteringTagListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

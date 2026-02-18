@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbPostgresqlClusterTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbPostgresqlClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbPostgresqlClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlClusterTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbPostgresqlClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbPostgresqlClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlClusterTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewCosmosdbPostgresqlClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbPostgresqlClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

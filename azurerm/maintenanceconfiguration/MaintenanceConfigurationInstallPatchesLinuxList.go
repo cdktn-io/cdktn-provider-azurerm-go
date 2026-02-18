@@ -5,14 +5,14 @@ package maintenanceconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/maintenanceconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/maintenanceconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MaintenanceConfigurationInstallPatchesLinuxList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type MaintenanceConfigurationInstallPatchesLinuxList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type MaintenanceConfigurationInstallPatchesLinuxList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) MaintenanceConfigurationInstallPatchesLinuxOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type MaintenanceConfigurationInstallPatchesLinuxList interface {
 
 // The jsii proxy struct for MaintenanceConfigurationInstallPatchesLinuxList
 type jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) WrapsSet() *
 }
 
 
-func NewMaintenanceConfigurationInstallPatchesLinuxList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MaintenanceConfigurationInstallPatchesLinuxList {
+func NewMaintenanceConfigurationInstallPatchesLinuxList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MaintenanceConfigurationInstallPatchesLinuxList {
 	_init_.Initialize()
 
 	if err := validateNewMaintenanceConfigurationInstallPatchesLinuxListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewMaintenanceConfigurationInstallPatchesLinuxList(terraformResource cdktf.
 	return &j
 }
 
-func NewMaintenanceConfigurationInstallPatchesLinuxList_Override(m MaintenanceConfigurationInstallPatchesLinuxList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewMaintenanceConfigurationInstallPatchesLinuxList_Override(m MaintenanceConfigurationInstallPatchesLinuxList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList)SetWrapsSet(v
 	)
 }
 
-func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) Get(index *f
 	return returns
 }
 
-func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

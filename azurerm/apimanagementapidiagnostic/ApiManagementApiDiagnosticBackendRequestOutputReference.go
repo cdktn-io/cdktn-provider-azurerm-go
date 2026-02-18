@@ -5,14 +5,14 @@ package apimanagementapidiagnostic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementapidiagnostic/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementapidiagnostic/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementApiDiagnosticBackendRequestOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BodyBytes() *float64
 	SetBodyBytes(val *float64)
 	BodyBytesInput() *float64
@@ -45,15 +45,15 @@ type ApiManagementApiDiagnosticBackendRequestOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,16 +69,16 @@ type ApiManagementApiDiagnosticBackendRequestOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDataMasking(value *ApiManagementApiDiagnosticBackendRequestDataMasking)
 	ResetBodyBytes()
 	ResetDataMasking()
 	ResetHeadersToLog()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ApiManagementApiDiagnosticBackendRequestOutputReference interface {
 
 // The jsii proxy struct for ApiManagementApiDiagnosticBackendRequestOutputReference
 type jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) BodyBytes() *float64 {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) Terr
 }
 
 
-func NewApiManagementApiDiagnosticBackendRequestOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApiManagementApiDiagnosticBackendRequestOutputReference {
+func NewApiManagementApiDiagnosticBackendRequestOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApiManagementApiDiagnosticBackendRequestOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementApiDiagnosticBackendRequestOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewApiManagementApiDiagnosticBackendRequestOutputReference(terraformResourc
 	return &j
 }
 
-func NewApiManagementApiDiagnosticBackendRequestOutputReference_Override(a ApiManagementApiDiagnosticBackendRequestOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApiManagementApiDiagnosticBackendRequestOutputReference_Override(a ApiManagementApiDiagnosticBackendRequestOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -355,11 +355,11 @@ func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) GetA
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -483,8 +483,8 @@ func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) GetS
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -496,11 +496,11 @@ func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) Inte
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) Rese
 	)
 }
 
-func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementApiDiagnosticBackendRequestOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

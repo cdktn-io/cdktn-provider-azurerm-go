@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubDeviceUpdateAccountIdentityOutputReference) validateInt
 	return nil
 }
 
-func (i *jsiiProxy_IothubDeviceUpdateAccountIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubDeviceUpdateAccountIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_IothubDeviceUpdateAccountIdentityOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_IothubDeviceUpdateAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubDeviceUpdateAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IothubDeviceUpdateAccountIdentityOutputReference) validateSet
 	return nil
 }
 
-func validateNewIothubDeviceUpdateAccountIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIothubDeviceUpdateAccountIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

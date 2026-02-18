@@ -47,7 +47,7 @@ func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDigitalTwinsTimeSeriesDatabaseConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

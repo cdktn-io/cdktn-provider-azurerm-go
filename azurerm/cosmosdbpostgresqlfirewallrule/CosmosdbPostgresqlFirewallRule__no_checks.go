@@ -115,7 +115,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

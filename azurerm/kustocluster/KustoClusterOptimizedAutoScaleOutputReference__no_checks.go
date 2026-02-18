@@ -47,7 +47,7 @@ func (k *jsiiProxy_KustoClusterOptimizedAutoScaleOutputReference) validateInterp
 	return nil
 }
 
-func (k *jsiiProxy_KustoClusterOptimizedAutoScaleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoClusterOptimizedAutoScaleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KustoClusterOptimizedAutoScaleOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_KustoClusterOptimizedAutoScaleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoClusterOptimizedAutoScaleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKustoClusterOptimizedAutoScaleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoClusterOptimizedAutoScaleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

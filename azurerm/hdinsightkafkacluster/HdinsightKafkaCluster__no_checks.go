@@ -171,7 +171,7 @@ func (j *jsiiProxy_HdinsightKafkaCluster) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HdinsightKafkaCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

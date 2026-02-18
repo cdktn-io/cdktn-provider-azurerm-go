@@ -151,7 +151,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSftp) validateSetIntegrationRuntimeNa
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSftp) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceSftp) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

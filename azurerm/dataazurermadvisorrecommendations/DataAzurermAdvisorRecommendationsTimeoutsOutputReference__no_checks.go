@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermAdvisorRecommendationsTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAdvisorRecommendationsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAdvisorRecommendationsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendationsTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAdvisorRecommendationsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAdvisorRecommendationsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermAdvisorRecommendationsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermAdvisorRecommendationsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

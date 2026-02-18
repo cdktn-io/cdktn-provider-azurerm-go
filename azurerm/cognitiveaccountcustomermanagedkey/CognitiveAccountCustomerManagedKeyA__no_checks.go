@@ -119,7 +119,7 @@ func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateSetKeyVaultKeyId
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

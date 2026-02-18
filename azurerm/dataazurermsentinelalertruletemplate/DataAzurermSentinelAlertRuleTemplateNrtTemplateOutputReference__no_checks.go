@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermSentinelAlertRuleTemplateNrtTemplateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

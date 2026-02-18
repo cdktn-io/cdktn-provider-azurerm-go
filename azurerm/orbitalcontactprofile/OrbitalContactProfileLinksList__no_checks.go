@@ -15,7 +15,7 @@ func (o *jsiiProxy_OrbitalContactProfileLinksList) validateGetParameters(index *
 	return nil
 }
 
-func (o *jsiiProxy_OrbitalContactProfileLinksList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrbitalContactProfileLinksList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OrbitalContactProfileLinksList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_OrbitalContactProfileLinksList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrbitalContactProfileLinksList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OrbitalContactProfileLinksList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewOrbitalContactProfileLinksListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOrbitalContactProfileLinksListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

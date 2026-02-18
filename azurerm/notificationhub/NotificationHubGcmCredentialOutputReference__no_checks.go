@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) validateInterpol
 	return nil
 }
 
-func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNotificationHubGcmCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotificationHubGcmCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

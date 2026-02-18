@@ -143,7 +143,7 @@ func (j *jsiiProxy_ApiManagementDiagnostic) validateSetIdentifierParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementDiagnostic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementDiagnostic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

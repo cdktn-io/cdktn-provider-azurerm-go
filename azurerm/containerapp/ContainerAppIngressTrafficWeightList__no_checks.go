@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppIngressTrafficWeightList) validateGetParameters(i
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppIngressTrafficWeightList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppIngressTrafficWeightList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppIngressTrafficWeightList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppIngressTrafficWeightList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppIngressTrafficWeightList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppIngressTrafficWeightList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewContainerAppIngressTrafficWeightListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppIngressTrafficWeightListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

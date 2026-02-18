@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionTrafficBypassList) validateGe
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyIntrusionDetectionTrafficBypassList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyIntrusionDetectionTrafficBypassList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionTrafficBypassList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyIntrusionDetectionTrafficBypassList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyIntrusionDetectionTrafficBypassList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionTrafficBypassList) validateSe
 	return nil
 }
 
-func validateNewFirewallPolicyIntrusionDetectionTrafficBypassListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirewallPolicyIntrusionDetectionTrafficBypassListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

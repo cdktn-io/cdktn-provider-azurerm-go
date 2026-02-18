@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSynapseWorkspaceAzureDevopsRepoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseWorkspaceAzureDevopsRepoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

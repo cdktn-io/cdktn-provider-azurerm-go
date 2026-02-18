@@ -5,14 +5,14 @@ package resourcegrouppolicyassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegrouppolicyassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/resourcegrouppolicyassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIn()
 	ResetNotIn()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference inte
 
 // The jsii proxy struct for ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference
 type jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 }
 
 
-func NewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference {
+func NewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -238,7 +238,7 @@ func NewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference(t
 	return &j
 }
 
-func NewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference_Override(r ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference_Override(r ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -493,8 +493,8 @@ func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -506,11 +506,11 @@ func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -538,7 +538,7 @@ func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutput
 	)
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ResourceGroupPolicyAssignmentResourceSelectorsSelectorsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

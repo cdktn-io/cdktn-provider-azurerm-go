@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlDatabaseAutoscaleSettingsList) validate
 	return nil
 }
 
-func validateNewDataAzurermCosmosdbSqlDatabaseAutoscaleSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCosmosdbSqlDatabaseAutoscaleSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

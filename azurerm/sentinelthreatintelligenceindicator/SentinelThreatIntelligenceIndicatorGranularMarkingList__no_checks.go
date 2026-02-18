@@ -15,7 +15,7 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingList) valid
 	return nil
 }
 
-func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingList) valid
 	return nil
 }
 
-func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorGranularMarkingList) valid
 	return nil
 }
 
-func validateNewSentinelThreatIntelligenceIndicatorGranularMarkingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSentinelThreatIntelligenceIndicatorGranularMarkingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

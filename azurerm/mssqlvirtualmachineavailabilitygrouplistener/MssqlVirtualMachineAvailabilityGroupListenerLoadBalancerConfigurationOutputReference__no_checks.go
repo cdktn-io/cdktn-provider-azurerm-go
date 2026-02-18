@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfi
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfi
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualMachineAvailabilityGroupListenerLoadBalancerConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

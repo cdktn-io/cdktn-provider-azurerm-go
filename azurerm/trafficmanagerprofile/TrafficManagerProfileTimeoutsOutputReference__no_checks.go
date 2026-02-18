@@ -47,7 +47,7 @@ func (t *jsiiProxy_TrafficManagerProfileTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerProfileTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerProfileTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TrafficManagerProfileTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerProfileTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TrafficManagerProfileTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewTrafficManagerProfileTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTrafficManagerProfileTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (i *jsiiProxy_IothubNetworkRuleSetList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (i *jsiiProxy_IothubNetworkRuleSetList) validateGetParameters(index *float6
 	return nil
 }
 
-func (i *jsiiProxy_IothubNetworkRuleSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubNetworkRuleSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (i *jsiiProxy_IothubNetworkRuleSetList) validateResolveParameters(context c
 
 func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*IothubNetworkRuleSet:
 		val := val.(*[]*IothubNetworkRuleSet)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetInternalValueParameters(
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*IothubNetworkRuleSet; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*IothubNetworkRuleSet; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewIothubNetworkRuleSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIothubNetworkRuleSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

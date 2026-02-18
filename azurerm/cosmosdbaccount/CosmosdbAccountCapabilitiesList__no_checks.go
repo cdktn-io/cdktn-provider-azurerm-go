@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbAccountCapabilitiesList) validateGetParameters(index 
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbAccountCapabilitiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbAccountCapabilitiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbAccountCapabilitiesList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccountCapabilitiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbAccountCapabilitiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbAccountCapabilitiesList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewCosmosdbAccountCapabilitiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbAccountCapabilitiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

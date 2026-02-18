@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputRefe
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualDesktopHostPoolScheduledAgentUpdatesScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

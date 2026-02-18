@@ -5,14 +5,14 @@ package springcloudapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpringCloudAppIngressSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackendProtocol() *string
 	SetBackendProtocol(val *string)
 	BackendProtocolInput() *string
@@ -52,15 +52,15 @@ type SpringCloudAppIngressSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type SpringCloudAppIngressSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBackendProtocol()
 	ResetReadTimeoutInSeconds()
 	ResetSendTimeoutInSeconds()
@@ -86,7 +86,7 @@ type SpringCloudAppIngressSettingsOutputReference interface {
 	ResetSessionCookieMaxAge()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type SpringCloudAppIngressSettingsOutputReference interface {
 
 // The jsii proxy struct for SpringCloudAppIngressSettingsOutputReference
 type jsiiProxy_SpringCloudAppIngressSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) BackendProtocol() *string {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) TerraformResour
 }
 
 
-func NewSpringCloudAppIngressSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SpringCloudAppIngressSettingsOutputReference {
+func NewSpringCloudAppIngressSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpringCloudAppIngressSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpringCloudAppIngressSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewSpringCloudAppIngressSettingsOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewSpringCloudAppIngressSettingsOutputReference_Override(s SpringCloudAppIngressSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSpringCloudAppIngressSettingsOutputReference_Override(s SpringCloudAppIngressSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpringCloudAppIngressSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -564,8 +564,8 @@ func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -577,11 +577,11 @@ func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -633,7 +633,7 @@ func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) ResetSessionCoo
 	)
 }
 
-func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpringCloudAppIngressSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

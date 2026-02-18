@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutput
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutput
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermOracleAdbsNationalCharacterSetsCharacterSetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

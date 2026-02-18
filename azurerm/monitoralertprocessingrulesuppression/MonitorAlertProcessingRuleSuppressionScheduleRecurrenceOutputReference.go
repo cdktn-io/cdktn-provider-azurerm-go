@@ -5,14 +5,14 @@ package monitoralertprocessingrulesuppression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitoralertprocessingrulesuppression/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitoralertprocessingrulesuppression/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,9 +41,9 @@ type MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Weekly() MonitorAlertProcessingRuleSuppressionScheduleRecurrenceWeeklyList
 	WeeklyInput() interface{}
 	// Experimental.
@@ -51,7 +51,7 @@ type MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference inte
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,9 +67,9 @@ type MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDaily(value interface{})
 	PutMonthly(value interface{})
 	PutWeekly(value interface{})
@@ -78,7 +78,7 @@ type MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference inte
 	ResetWeekly()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference inte
 
 // The jsii proxy struct for MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference
 type jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) ComplexObjectIndex() interface{} {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutput
 	return returns
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutput
 }
 
 
-func NewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference {
+func NewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference(t
 	return &j
 }
 
-func NewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference_Override(m MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference_Override(m MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -293,7 +293,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutput
 	)
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -333,11 +333,11 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutput
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -461,8 +461,8 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutput
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -474,11 +474,11 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutput
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -547,7 +547,7 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutput
 	)
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionScheduleRecurrenceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

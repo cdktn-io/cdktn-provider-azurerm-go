@@ -15,7 +15,7 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermission
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermissionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermissionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermission
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermissionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermissionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleDefinitionPermission
 	return nil
 }
 
-func validateNewKeyVaultManagedHardwareSecurityModuleRoleDefinitionPermissionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKeyVaultManagedHardwareSecurityModuleRoleDefinitionPermissionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

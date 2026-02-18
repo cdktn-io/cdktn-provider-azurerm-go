@@ -5,16 +5,16 @@ package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/windows_web_app_slot azurerm_windows_web_app_slot}.
 type WindowsWebAppSlot interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppServiceId() *string
 	SetAppServiceId(val *string)
 	AppServiceIdInput() *string
@@ -28,7 +28,7 @@ type WindowsWebAppSlot interface {
 	Backup() WindowsWebAppSlotBackupOutputReference
 	BackupInput() *WindowsWebAppSlotBackup
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientAffinityEnabled() interface{}
 	SetClientAffinityEnabled(val interface{})
 	ClientAffinityEnabledInput() interface{}
@@ -63,9 +63,9 @@ type WindowsWebAppSlot interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -87,9 +87,9 @@ type WindowsWebAppSlot interface {
 	KeyVaultReferenceIdentityIdInput() *string
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Logs() WindowsWebAppSlotLogsOutputReference
 	LogsInput() *WindowsWebAppSlotLogs
 	Name() *string
@@ -102,9 +102,9 @@ type WindowsWebAppSlot interface {
 	PossibleOutboundIpAddresses() *string
 	PossibleOutboundIpAddressList() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -126,7 +126,7 @@ type WindowsWebAppSlot interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -156,7 +156,7 @@ type WindowsWebAppSlot interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -174,9 +174,9 @@ type WindowsWebAppSlot interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -244,7 +244,7 @@ type WindowsWebAppSlot interface {
 
 // The jsii proxy struct for WindowsWebAppSlot
 type jsiiProxy_WindowsWebAppSlot struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_WindowsWebAppSlot) AppServiceId() *string {
@@ -347,8 +347,8 @@ func (j *jsiiProxy_WindowsWebAppSlot) BackupInput() *WindowsWebAppSlotBackup {
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_WindowsWebAppSlot) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -537,8 +537,8 @@ func (j *jsiiProxy_WindowsWebAppSlot) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_WindowsWebAppSlot) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -687,8 +687,8 @@ func (j *jsiiProxy_WindowsWebAppSlot) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_WindowsWebAppSlot) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -787,8 +787,8 @@ func (j *jsiiProxy_WindowsWebAppSlot) PossibleOutboundIpAddressList() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_WindowsWebAppSlot) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -927,8 +927,8 @@ func (j *jsiiProxy_WindowsWebAppSlot) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_WindowsWebAppSlot) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1214,7 +1214,7 @@ func (j *jsiiProxy_WindowsWebAppSlot)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_WindowsWebAppSlot)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1266,7 +1266,7 @@ func (j *jsiiProxy_WindowsWebAppSlot)SetKeyVaultReferenceIdentityId(val *string)
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_WindowsWebAppSlot)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1288,7 +1288,7 @@ func (j *jsiiProxy_WindowsWebAppSlot)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlot)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_WindowsWebAppSlot)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1395,14 +1395,14 @@ func (j *jsiiProxy_WindowsWebAppSlot)SetZipDeployFile(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a WindowsWebAppSlot resource upon running "cdktf plan <stack-name>".
-func WindowsWebAppSlot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a WindowsWebAppSlot resource upon running "cdktn plan <stack-name>".
+func WindowsWebAppSlot_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateWindowsWebAppSlot_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.windowsWebAppSlot.WindowsWebAppSlot",
@@ -1536,11 +1536,11 @@ func (w *jsiiProxy_WindowsWebAppSlot) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlot) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlot) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -1677,7 +1677,7 @@ func (w *jsiiProxy_WindowsWebAppSlot) HasResourceMove() interface{} {
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlot) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (w *jsiiProxy_WindowsWebAppSlot) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := w.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1688,11 +1688,11 @@ func (w *jsiiProxy_WindowsWebAppSlot) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppSlot) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlot) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,

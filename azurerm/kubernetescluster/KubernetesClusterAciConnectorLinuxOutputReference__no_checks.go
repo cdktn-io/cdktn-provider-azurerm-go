@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterAciConnectorLinuxOutputReference) validateIn
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterAciConnectorLinuxOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterAciConnectorLinuxOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KubernetesClusterAciConnectorLinuxOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterAciConnectorLinuxOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterAciConnectorLinuxOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterAciConnectorLinuxOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterAciConnectorLinuxOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package dataazurermapimanagementgatewayhostnameconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermapimanagementgatewayhostnameconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermapimanagementgatewayhostnameconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration}.
 type DataAzurermApiManagementGatewayHostNameConfiguration interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	ApiManagementId() *string
 	SetApiManagementId(val *string)
 	ApiManagementIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateId() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -32,9 +32,9 @@ type DataAzurermApiManagementGatewayHostNameConfiguration interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,42 +43,42 @@ type DataAzurermApiManagementGatewayHostNameConfiguration interface {
 	SetGatewayName(val *string)
 	GatewayNameInput() *string
 	HostName() *string
-	Http2Enabled() cdktf.IResolvable
+	Http2Enabled() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	RequestClientCertificateEnabled() cdktf.IResolvable
+	RequestClientCertificateEnabled() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
 	TerraformResourceType() *string
 	Timeouts() DataAzurermApiManagementGatewayHostNameConfigurationTimeoutsOutputReference
 	TimeoutsInput() interface{}
-	Tls10Enabled() cdktf.IResolvable
-	Tls11Enabled() cdktf.IResolvable
+	Tls10Enabled() cdktn.IResolvable
+	Tls11Enabled() cdktn.IResolvable
 	// Experimental.
 	AddOverride(path *string, value interface{})
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -94,7 +94,7 @@ type DataAzurermApiManagementGatewayHostNameConfiguration interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -120,7 +120,7 @@ type DataAzurermApiManagementGatewayHostNameConfiguration interface {
 
 // The jsii proxy struct for DataAzurermApiManagementGatewayHostNameConfiguration
 type jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) ApiManagementId() *string {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) ApiMana
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -193,8 +193,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Depends
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -253,8 +253,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) HostNam
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Http2Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Http2Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"http2Enabled",
@@ -283,8 +283,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) IdInput
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -323,8 +323,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Node() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -343,8 +343,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) RawOver
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) RequestClientCertificateEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) RequestClientCertificateEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"requestClientCertificateEnabled",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Request
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -403,8 +403,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Timeout
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Tls10Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Tls10Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"tls10Enabled",
@@ -413,8 +413,8 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Tls10En
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Tls11Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Tls11Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"tls11Enabled",
@@ -483,7 +483,7 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetDepen
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -513,7 +513,7 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetId(va
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -535,7 +535,7 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetName(
 	)
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -543,14 +543,14 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration)SetProvi
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermApiManagementGatewayHostNameConfiguration resource upon running "cdktf plan <stack-name>".
-func DataAzurermApiManagementGatewayHostNameConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermApiManagementGatewayHostNameConfiguration resource upon running "cdktn plan <stack-name>".
+func DataAzurermApiManagementGatewayHostNameConfiguration_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermApiManagementGatewayHostNameConfiguration_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermApiManagementGatewayHostNameConfiguration.DataAzurermApiManagementGatewayHostNameConfiguration",
@@ -673,11 +673,11 @@ func (d *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) GetAnyM
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -801,11 +801,11 @@ func (d *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) GetStri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

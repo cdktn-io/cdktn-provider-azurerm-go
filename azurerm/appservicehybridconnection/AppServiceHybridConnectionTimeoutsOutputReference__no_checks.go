@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceHybridConnectionTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceHybridConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceHybridConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppServiceHybridConnectionTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceHybridConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceHybridConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AppServiceHybridConnectionTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewAppServiceHybridConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceHybridConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

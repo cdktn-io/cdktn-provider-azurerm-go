@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkSecurityGroupSecurityRuleOutputReference) validateInte
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityGroupSecurityRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityGroupSecurityRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -131,11 +131,11 @@ func (j *jsiiProxy_NetworkSecurityGroupSecurityRuleOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityGroupSecurityRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityGroupSecurityRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkSecurityGroupSecurityRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkSecurityGroupSecurityRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

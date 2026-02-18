@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachineRunCommandProtectedParameterList) validateGetPa
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineRunCommandProtectedParameterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineRunCommandProtectedParameterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachineRunCommandProtectedParameterList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineRunCommandProtectedParameterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineRunCommandProtectedParameterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachineRunCommandProtectedParameterList) validateSetWr
 	return nil
 }
 
-func validateNewVirtualMachineRunCommandProtectedParameterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineRunCommandProtectedParameterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

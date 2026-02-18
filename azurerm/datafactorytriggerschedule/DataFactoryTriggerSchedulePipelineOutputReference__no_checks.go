@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryTriggerSchedulePipelineOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryTriggerSchedulePipelineOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryTriggerSchedulePipelineOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataFactoryTriggerSchedulePipelineOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerSchedulePipelineOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryTriggerSchedulePipelineOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryTriggerSchedulePipelineOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataFactoryTriggerSchedulePipelineOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

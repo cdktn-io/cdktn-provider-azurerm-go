@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermElasticSanVolumeGroupEncryptionList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermElasticSanVolumeGroupEncryptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermElasticSanVolumeGroupEncryptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupEncryptionList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupEncryptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupEncryptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermElasticSanVolumeGroupEncryptionList) validateSetWr
 	return nil
 }
 
-func validateNewDataAzurermElasticSanVolumeGroupEncryptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermElasticSanVolumeGroupEncryptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

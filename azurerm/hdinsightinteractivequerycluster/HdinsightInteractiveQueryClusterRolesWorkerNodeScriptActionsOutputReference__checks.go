@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsO
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsO
 
 func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActions:
 		val := val.(*HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActions)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsO
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActions; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActions; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsO
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsO
 	return nil
 }
 
-func validateNewHdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHdinsightInteractiveQueryClusterRolesWorkerNodeScriptActionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

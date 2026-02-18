@@ -15,7 +15,7 @@ func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateG
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionList) validateS
 	return nil
 }
 
-func validateNewMssqlManagedInstanceFailoverGroupPartnerRegionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMssqlManagedInstanceFailoverGroupPartnerRegionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

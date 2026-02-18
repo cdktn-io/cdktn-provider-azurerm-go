@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermStorageAccountCustomDomainOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStorageAccountCustomDomainOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStorageAccountCustomDomainOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermStorageAccountCustomDomainOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageAccountCustomDomainOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStorageAccountCustomDomainOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermStorageAccountCustomDomainOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermStorageAccountCustomDomainOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

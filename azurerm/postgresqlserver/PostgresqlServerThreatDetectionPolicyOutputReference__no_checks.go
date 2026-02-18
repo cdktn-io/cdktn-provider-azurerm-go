@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlServerThreatDetectionPolicyOutputReference) validat
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlServerThreatDetectionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlServerThreatDetectionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_PostgresqlServerThreatDetectionPolicyOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlServerThreatDetectionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlServerThreatDetectionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPostgresqlServerThreatDetectionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlServerThreatDetectionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

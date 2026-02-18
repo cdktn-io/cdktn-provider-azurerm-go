@@ -107,7 +107,7 @@ func (j *jsiiProxy_SentinelDataConnectorMicrosoftDefenderAdvancedThreatProtectio
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorMicrosoftDefenderAdvancedThreatProtection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorMicrosoftDefenderAdvancedThreatProtection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

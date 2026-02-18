@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolStartTaskUserIdentityAutoUserOutputReference) valida
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolStartTaskUserIdentityAutoUserOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolStartTaskUserIdentityAutoUserOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BatchPoolStartTaskUserIdentityAutoUserOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolStartTaskUserIdentityAutoUserOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolStartTaskUserIdentityAutoUserOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchPoolStartTaskUserIdentityAutoUserOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchPoolStartTaskUserIdentityAutoUserOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

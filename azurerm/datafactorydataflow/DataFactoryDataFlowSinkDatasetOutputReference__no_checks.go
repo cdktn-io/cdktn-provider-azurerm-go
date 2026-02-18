@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryDataFlowSinkDatasetOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDataFlowSinkDatasetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDataFlowSinkDatasetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataFactoryDataFlowSinkDatasetOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDataFlowSinkDatasetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDataFlowSinkDatasetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryDataFlowSinkDatasetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryDataFlowSinkDatasetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapsh
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapsh
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapsh
 	return nil
 }
 
-func validateNewDataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

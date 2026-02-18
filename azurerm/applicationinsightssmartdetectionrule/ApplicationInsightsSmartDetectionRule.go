@@ -5,16 +5,16 @@ package applicationinsightssmartdetectionrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationinsightssmartdetectionrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationinsightssmartdetectionrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/application_insights_smart_detection_rule azurerm_application_insights_smart_detection_rule}.
 type ApplicationInsightsSmartDetectionRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalEmailRecipients() *[]*string
 	SetAdditionalEmailRecipients(val *[]*string)
 	AdditionalEmailRecipientsInput() *[]*string
@@ -22,7 +22,7 @@ type ApplicationInsightsSmartDetectionRule interface {
 	SetApplicationInsightsId(val *string)
 	ApplicationInsightsIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type ApplicationInsightsSmartDetectionRule interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type ApplicationInsightsSmartDetectionRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type ApplicationInsightsSmartDetectionRule interface {
 	SetSendEmailsToSubscriptionOwners(val interface{})
 	SendEmailsToSubscriptionOwnersInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type ApplicationInsightsSmartDetectionRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type ApplicationInsightsSmartDetectionRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,7 +148,7 @@ type ApplicationInsightsSmartDetectionRule interface {
 
 // The jsii proxy struct for ApplicationInsightsSmartDetectionRule
 type jsiiProxy_ApplicationInsightsSmartDetectionRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) AdditionalEmailRecipients() *[]*string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) ApplicationInsightsIdI
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -261,8 +261,8 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) EnabledInput() interfa
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -311,8 +311,8 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) Node() constructs.Node
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -401,8 +401,8 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) SendEmailsToSubscripti
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -544,7 +544,7 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetEnabled(val interfac
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -563,7 +563,7 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -585,7 +585,7 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -615,14 +615,14 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRule)SetSendEmailsToSubscrip
 	)
 }
 
-// Generates CDKTF code for importing a ApplicationInsightsSmartDetectionRule resource upon running "cdktf plan <stack-name>".
-func ApplicationInsightsSmartDetectionRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApplicationInsightsSmartDetectionRule resource upon running "cdktn plan <stack-name>".
+func ApplicationInsightsSmartDetectionRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApplicationInsightsSmartDetectionRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.applicationInsightsSmartDetectionRule.ApplicationInsightsSmartDetectionRule",
@@ -756,11 +756,11 @@ func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -897,7 +897,7 @@ func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) HasResourceMove() inte
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -908,11 +908,11 @@ func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) ImportFrom(id *string,
 	)
 }
 
-func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationInsightsSmartDetectionRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

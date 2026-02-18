@@ -5,21 +5,21 @@ package dataazurermoracleexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracleexadatainfrastructure/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracleexadatainfrastructure/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/oracle_exadata_infrastructure azurerm_oracle_exadata_infrastructure}.
 type DataAzurermOracleExadataInfrastructure interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	ActivatedStorageCount() *float64
 	AdditionalStorageCount() *float64
 	AvailableStorageSizeInGbs() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComputeCount() *float64
 	ComputeModel() *string
 	// Experimental.
@@ -42,9 +42,9 @@ type DataAzurermOracleExadataInfrastructure interface {
 	DisplayName() *string
 	EstimatedPatchingTime() DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeList
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,9 +54,9 @@ type DataAzurermOracleExadataInfrastructure interface {
 	IdInput() *string
 	LastMaintenanceRunId() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleDetails() *string
 	LifecycleState() *string
 	Location() *string
@@ -77,9 +77,9 @@ type DataAzurermOracleExadataInfrastructure interface {
 	Ocid() *string
 	OciUrl() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -89,9 +89,9 @@ type DataAzurermOracleExadataInfrastructure interface {
 	StorageCount() *float64
 	StorageServerType() *string
 	StorageServerVersion() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type DataAzurermOracleExadataInfrastructure interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,7 +122,7 @@ type DataAzurermOracleExadataInfrastructure interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -148,7 +148,7 @@ type DataAzurermOracleExadataInfrastructure interface {
 
 // The jsii proxy struct for DataAzurermOracleExadataInfrastructure
 type jsiiProxy_DataAzurermOracleExadataInfrastructure struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) ActivatedStorageCount() *float64 {
@@ -181,8 +181,8 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) AvailableStorageSizeI
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -331,8 +331,8 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) EstimatedPatchingTime
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) LastMaintenanceRunId(
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -571,8 +571,8 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) OciUrl() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -651,8 +651,8 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) StorageServerVersion(
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -661,8 +661,8 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) Tags() cdktf.StringMa
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -790,7 +790,7 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetDependsOn(val *[]*s
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -809,7 +809,7 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -831,7 +831,7 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -850,14 +850,14 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure)SetResourceGroupName(v
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermOracleExadataInfrastructure resource upon running "cdktf plan <stack-name>".
-func DataAzurermOracleExadataInfrastructure_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermOracleExadataInfrastructure resource upon running "cdktn plan <stack-name>".
+func DataAzurermOracleExadataInfrastructure_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermOracleExadataInfrastructure_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermOracleExadataInfrastructure.DataAzurermOracleExadataInfrastructure",
@@ -980,11 +980,11 @@ func (d *jsiiProxy_DataAzurermOracleExadataInfrastructure) GetAnyMapAttribute(te
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExadataInfrastructure) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleExadataInfrastructure) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1108,11 +1108,11 @@ func (d *jsiiProxy_DataAzurermOracleExadataInfrastructure) GetStringMapAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExadataInfrastructure) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleExadataInfrastructure) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

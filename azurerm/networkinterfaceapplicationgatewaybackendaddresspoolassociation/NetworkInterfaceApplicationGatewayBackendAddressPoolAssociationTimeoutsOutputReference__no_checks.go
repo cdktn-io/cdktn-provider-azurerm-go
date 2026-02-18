@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociati
 	return nil
 }
 
-func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociati
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkInterfaceApplicationGatewayBackendAddressPoolAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkInterfaceApplicationGatewayBackendAddressPoolAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -59,7 +59,7 @@ func (c *jsiiProxy_ContainerAppIngressOutputReference) validatePutTrafficWeightP
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppIngressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppIngressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppIngressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppIngressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference) validateSetTransportParam
 	return nil
 }
 
-func validateNewContainerAppIngressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAppIngressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayAuthenticationCertificateList) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayAuthenticationCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApplicationGatewayAuthenticationCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayAuthenticationCertificateList) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayAuthenticationCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApplicationGatewayAuthenticationCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayAuthenticationCertificateList) v
 	return nil
 }
 
-func validateNewDataAzurermApplicationGatewayAuthenticationCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApplicationGatewayAuthenticationCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

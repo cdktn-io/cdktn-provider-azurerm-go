@@ -47,7 +47,7 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	return nil
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceOutputReference) 
 	return nil
 }
 
-func validateNewPolicySetDefinitionPolicyDefinitionReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPolicySetDefinitionPolicyDefinitionReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

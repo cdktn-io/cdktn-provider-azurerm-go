@@ -135,7 +135,7 @@ func (j *jsiiProxy_DashboardGrafana) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_DashboardGrafana) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DashboardGrafana) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

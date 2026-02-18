@@ -5,14 +5,14 @@ package cdnfrontdoororigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoororigin/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnfrontdoororigin/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CdnFrontdoorOriginPrivateLinkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type CdnFrontdoorOriginPrivateLinkOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type CdnFrontdoorOriginPrivateLinkOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetRequestMessage()
 	ResetTargetType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type CdnFrontdoorOriginPrivateLinkOutputReference interface {
 
 // The jsii proxy struct for CdnFrontdoorOriginPrivateLinkOutputReference
 type jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) ComplexObjectIndex() interface{} {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) TerraformResour
 }
 
 
-func NewCdnFrontdoorOriginPrivateLinkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorOriginPrivateLinkOutputReference {
+func NewCdnFrontdoorOriginPrivateLinkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CdnFrontdoorOriginPrivateLinkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCdnFrontdoorOriginPrivateLinkOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewCdnFrontdoorOriginPrivateLinkOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewCdnFrontdoorOriginPrivateLinkOutputReference_Override(c CdnFrontdoorOriginPrivateLinkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCdnFrontdoorOriginPrivateLinkOutputReference_Override(c CdnFrontdoorOriginPrivateLinkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -359,7 +359,7 @@ func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -527,8 +527,8 @@ func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -540,11 +540,11 @@ func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) InterpolationAs
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -572,7 +572,7 @@ func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) ResetTargetType
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CdnFrontdoorOriginPrivateLinkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

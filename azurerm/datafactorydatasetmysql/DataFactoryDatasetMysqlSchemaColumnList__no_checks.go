@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryDatasetMysqlSchemaColumnList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetMysqlSchemaColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetMysqlSchemaColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryDatasetMysqlSchemaColumnList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetMysqlSchemaColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetMysqlSchemaColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryDatasetMysqlSchemaColumnList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataFactoryDatasetMysqlSchemaColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryDatasetMysqlSchemaColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

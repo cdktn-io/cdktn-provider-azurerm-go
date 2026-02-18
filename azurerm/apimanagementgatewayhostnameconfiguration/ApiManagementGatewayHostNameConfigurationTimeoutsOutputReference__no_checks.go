@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementGatewayHostNameConfigurationTimeoutsOutputRefere
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementGatewayHostNameConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementGatewayHostNameConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementGatewayHostNameConfigurationTimeoutsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementGatewayHostNameConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementGatewayHostNameConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementGatewayHostNameConfigurationTimeoutsOutputRefere
 	return nil
 }
 
-func validateNewApiManagementGatewayHostNameConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementGatewayHostNameConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (t *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderList) validateGetPa
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderList) validateSetWr
 	return nil
 }
 
-func validateNewTrafficManagerExternalEndpointCustomHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewTrafficManagerExternalEndpointCustomHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

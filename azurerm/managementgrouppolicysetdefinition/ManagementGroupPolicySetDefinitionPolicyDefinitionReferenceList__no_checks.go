@@ -15,7 +15,7 @@ func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionReferenceLi
 	return nil
 }
 
-func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionReferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionReferenceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionReferenceLi
 	return nil
 }
 
-func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionReferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionReferenceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionReferenceLi
 	return nil
 }
 
-func validateNewManagementGroupPolicySetDefinitionPolicyDefinitionReferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewManagementGroupPolicySetDefinitionPolicyDefinitionReferenceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

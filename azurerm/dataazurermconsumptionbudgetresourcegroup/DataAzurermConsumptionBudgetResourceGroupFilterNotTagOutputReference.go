@@ -5,14 +5,14 @@ package dataazurermconsumptionbudgetresourcegroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermconsumptionbudgetresourcegroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermconsumptionbudgetresourcegroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,16 +39,16 @@ type DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference interf
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Values() *[]*string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference interf
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference interf
 
 // The jsii proxy struct for DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference
 type jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputRe
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputRe
 }
 
 
-func NewDataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference {
+func NewDataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference(ter
 	return &j
 }
 
-func NewDataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference_Override(d DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference_Override(d DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputRe
 	)
 }
 
-func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputRe
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputRe
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputRe
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputRe
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermConsumptionBudgetResourceGroupFilterNotTagOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -187,7 +187,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlot) validateSetKeyVaultReferenceIdentityI
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WindowsFunctionAppSlot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

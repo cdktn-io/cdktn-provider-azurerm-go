@@ -123,7 +123,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppression) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleSuppression) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitorAlertProcessingRuleSuppression) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

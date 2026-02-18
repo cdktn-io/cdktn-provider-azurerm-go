@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolFixedScaleOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolFixedScaleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolFixedScaleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_BatchPoolFixedScaleOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolFixedScaleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolFixedScaleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchPoolFixedScaleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchPoolFixedScaleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference)
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleRequestHeaderConditionOutputReference)
 	return nil
 }
 
-func validateNewCdnEndpointDeliveryRuleRequestHeaderConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCdnEndpointDeliveryRuleRequestHeaderConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

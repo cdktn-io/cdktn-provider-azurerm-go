@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionList) va
 	return nil
 }
 
-func validateNewDataAzurermAutomationAccountPrivateEndpointConnectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermAutomationAccountPrivateEndpointConnectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

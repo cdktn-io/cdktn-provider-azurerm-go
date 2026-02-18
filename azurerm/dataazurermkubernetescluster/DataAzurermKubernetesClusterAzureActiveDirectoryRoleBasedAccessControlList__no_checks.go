@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAcce
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAcce
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAcce
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -175,7 +175,7 @@ func (j *jsiiProxy_EventgridEventSubscription) validateSetLabelsParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EventgridEventSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

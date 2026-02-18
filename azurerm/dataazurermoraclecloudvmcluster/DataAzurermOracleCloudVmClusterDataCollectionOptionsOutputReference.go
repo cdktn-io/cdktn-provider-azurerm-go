@@ -5,14 +5,14 @@ package dataazurermoraclecloudvmcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoraclecloudvmcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoraclecloudvmcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,11 +28,11 @@ type DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference interfa
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	DiagnosticsEventsEnabled() cdktf.IResolvable
+	DiagnosticsEventsEnabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
-	HealthMonitoringEnabled() cdktf.IResolvable
-	IncidentLogsEnabled() cdktf.IResolvable
+	HealthMonitoringEnabled() cdktn.IResolvable
+	IncidentLogsEnabled() cdktn.IResolvable
 	InternalValue() *DataAzurermOracleCloudVmClusterDataCollectionOptions
 	SetInternalValue(val *DataAzurermOracleCloudVmClusterDataCollectionOptions)
 	// Experimental.
@@ -40,15 +40,15 @@ type DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference interfa
 
 // The jsii proxy struct for DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference
 type jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) ComplexObjectIndex() interface{} {
@@ -112,8 +112,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) DiagnosticsEventsEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) DiagnosticsEventsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"diagnosticsEventsEnabled",
@@ -132,8 +132,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) HealthMonitoringEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) HealthMonitoringEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"healthMonitoringEnabled",
@@ -142,8 +142,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) IncidentLogsEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) IncidentLogsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"incidentLogsEnabled",
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 }
 
 
-func NewDataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference {
+func NewDataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference(terr
 	return &j
 }
 
-func NewDataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference_Override(d DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference_Override(d DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputRef
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermOracleCloudVmClusterDataCollectionOptionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateGetParameters(inde
 	return nil
 }
 
-func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewRedisEnterpriseDatabaseModuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedisEnterpriseDatabaseModuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

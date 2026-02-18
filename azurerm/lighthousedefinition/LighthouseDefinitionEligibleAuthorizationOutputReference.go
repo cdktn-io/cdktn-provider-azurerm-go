@@ -5,14 +5,14 @@ package lighthousedefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/lighthousedefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/lighthousedefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LighthouseDefinitionEligibleAuthorizationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,15 +48,15 @@ type LighthouseDefinitionEligibleAuthorizationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,15 +72,15 @@ type LighthouseDefinitionEligibleAuthorizationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutJustInTimeAccessPolicy(value *LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicy)
 	ResetJustInTimeAccessPolicy()
 	ResetPrincipalDisplayName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type LighthouseDefinitionEligibleAuthorizationOutputReference interface {
 
 // The jsii proxy struct for LighthouseDefinitionEligibleAuthorizationOutputReference
 type jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) ComplexObjectIndex() interface{} {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Ter
 }
 
 
-func NewLighthouseDefinitionEligibleAuthorizationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LighthouseDefinitionEligibleAuthorizationOutputReference {
+func NewLighthouseDefinitionEligibleAuthorizationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LighthouseDefinitionEligibleAuthorizationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLighthouseDefinitionEligibleAuthorizationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -261,7 +261,7 @@ func NewLighthouseDefinitionEligibleAuthorizationOutputReference(terraformResour
 	return &j
 }
 
-func NewLighthouseDefinitionEligibleAuthorizationOutputReference_Override(l LighthouseDefinitionEligibleAuthorizationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLighthouseDefinitionEligibleAuthorizationOutputReference_Override(l LighthouseDefinitionEligibleAuthorizationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -388,11 +388,11 @@ func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Get
 	return returns
 }
 
-func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -516,8 +516,8 @@ func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Get
 	return returns
 }
 
-func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -529,11 +529,11 @@ func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Int
 	return returns
 }
 
-func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -572,7 +572,7 @@ func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Res
 	)
 }
 
-func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,14 +5,14 @@ package kustocluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustocluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kustocluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KustoClusterSkuOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Capacity() *float64
 	SetCapacity(val *float64)
 	CapacityInput() *float64
@@ -43,15 +43,15 @@ type KustoClusterSkuOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type KustoClusterSkuOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCapacity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type KustoClusterSkuOutputReference interface {
 
 // The jsii proxy struct for KustoClusterSkuOutputReference
 type jsiiProxy_KustoClusterSkuOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KustoClusterSkuOutputReference) Capacity() *float64 {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_KustoClusterSkuOutputReference) TerraformAttribute() *string 
 	return returns
 }
 
-func (j *jsiiProxy_KustoClusterSkuOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KustoClusterSkuOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_KustoClusterSkuOutputReference) TerraformResource() cdktf.IIn
 }
 
 
-func NewKustoClusterSkuOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KustoClusterSkuOutputReference {
+func NewKustoClusterSkuOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KustoClusterSkuOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKustoClusterSkuOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewKustoClusterSkuOutputReference(terraformResource cdktf.IInterpolatingPar
 	return &j
 }
 
-func NewKustoClusterSkuOutputReference_Override(k KustoClusterSkuOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKustoClusterSkuOutputReference_Override(k KustoClusterSkuOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_KustoClusterSkuOutputReference)SetTerraformAttribute(val *str
 	)
 }
 
-func (j *jsiiProxy_KustoClusterSkuOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KustoClusterSkuOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (k *jsiiProxy_KustoClusterSkuOutputReference) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (k *jsiiProxy_KustoClusterSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KustoClusterSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -458,8 +458,8 @@ func (k *jsiiProxy_KustoClusterSkuOutputReference) GetStringMapAttribute(terrafo
 	return returns
 }
 
-func (k *jsiiProxy_KustoClusterSkuOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KustoClusterSkuOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -471,11 +471,11 @@ func (k *jsiiProxy_KustoClusterSkuOutputReference) InterpolationAsList() cdktf.I
 	return returns
 }
 
-func (k *jsiiProxy_KustoClusterSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KustoClusterSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -495,7 +495,7 @@ func (k *jsiiProxy_KustoClusterSkuOutputReference) ResetCapacity() {
 	)
 }
 
-func (k *jsiiProxy_KustoClusterSkuOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KustoClusterSkuOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

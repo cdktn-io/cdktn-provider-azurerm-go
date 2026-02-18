@@ -107,7 +107,7 @@ func (j *jsiiProxy_PrivateDnsResolverDnsForwardingRuleset) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsResolverDnsForwardingRuleset) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivateDnsResolverDnsForwardingRuleset) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPool
 	return nil
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPoolList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPoolList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPool
 	return nil
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPoolList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPoolList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPool
 	return nil
 }
 
-func validateNewStackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPoolListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStackHciDeploymentSettingScaleUnitInfrastructureNetworkIpPoolListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

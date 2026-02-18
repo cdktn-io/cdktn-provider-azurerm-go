@@ -5,14 +5,14 @@ package dataazurermroleassignments
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermroleassignments/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermroleassignments/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermRoleAssignmentsRoleAssignmentsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -47,15 +47,15 @@ type DataAzurermRoleAssignmentsRoleAssignmentsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,12 +71,12 @@ type DataAzurermRoleAssignmentsRoleAssignmentsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type DataAzurermRoleAssignmentsRoleAssignmentsOutputReference interface {
 
 // The jsii proxy struct for DataAzurermRoleAssignmentsRoleAssignmentsOutputReference
 type jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) ComplexObjectIndex() interface{} {
@@ -249,8 +249,8 @@ func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -260,7 +260,7 @@ func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Ter
 }
 
 
-func NewDataAzurermRoleAssignmentsRoleAssignmentsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermRoleAssignmentsRoleAssignmentsOutputReference {
+func NewDataAzurermRoleAssignmentsRoleAssignmentsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermRoleAssignmentsRoleAssignmentsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermRoleAssignmentsRoleAssignmentsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -277,7 +277,7 @@ func NewDataAzurermRoleAssignmentsRoleAssignmentsOutputReference(terraformResour
 	return &j
 }
 
-func NewDataAzurermRoleAssignmentsRoleAssignmentsOutputReference_Override(d DataAzurermRoleAssignmentsRoleAssignmentsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermRoleAssignmentsRoleAssignmentsOutputReference_Override(d DataAzurermRoleAssignmentsRoleAssignmentsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -331,7 +331,7 @@ func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -371,11 +371,11 @@ func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -499,8 +499,8 @@ func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Get
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -512,11 +512,11 @@ func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -528,7 +528,7 @@ func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Int
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbPostgresqlRoleTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbPostgresqlRoleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbPostgresqlRoleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CosmosdbPostgresqlRoleTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbPostgresqlRoleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbPostgresqlRoleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbPostgresqlRoleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbPostgresqlRoleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

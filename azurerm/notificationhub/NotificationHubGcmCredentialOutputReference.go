@@ -5,14 +5,14 @@ package notificationhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/notificationhub/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/notificationhub/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NotificationHubGcmCredentialOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApiKey() *string
 	SetApiKey(val *string)
 	ApiKeyInput() *string
@@ -40,15 +40,15 @@ type NotificationHubGcmCredentialOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type NotificationHubGcmCredentialOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type NotificationHubGcmCredentialOutputReference interface {
 
 // The jsii proxy struct for NotificationHubGcmCredentialOutputReference
 type jsiiProxy_NotificationHubGcmCredentialOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) ApiKey() *string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference) TerraformResourc
 }
 
 
-func NewNotificationHubGcmCredentialOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NotificationHubGcmCredentialOutputReference {
+func NewNotificationHubGcmCredentialOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NotificationHubGcmCredentialOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNotificationHubGcmCredentialOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewNotificationHubGcmCredentialOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewNotificationHubGcmCredentialOutputReference_Override(n NotificationHubGcmCredentialOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNotificationHubGcmCredentialOutputReference_Override(n NotificationHubGcmCredentialOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NotificationHubGcmCredentialOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -423,8 +423,8 @@ func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -436,11 +436,11 @@ func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) InterpolationAsL
 	return returns
 }
 
-func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -452,7 +452,7 @@ func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) InterpolationFor
 	return returns
 }
 
-func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NotificationHubGcmCredentialOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

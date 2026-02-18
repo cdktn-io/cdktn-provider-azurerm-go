@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlElasticpoolSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlElasticpoolSkuOutputReference) validateSetTierParameters
 	return nil
 }
 
-func validateNewMssqlElasticpoolSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlElasticpoolSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

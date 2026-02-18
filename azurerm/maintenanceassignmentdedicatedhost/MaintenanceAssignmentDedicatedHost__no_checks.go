@@ -111,7 +111,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDedicatedHost) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentDedicatedHost) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MaintenanceAssignmentDedicatedHost) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

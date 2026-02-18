@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputR
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputR
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHdinsightHadoopClusterRolesEdgeNodeInstallScriptActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

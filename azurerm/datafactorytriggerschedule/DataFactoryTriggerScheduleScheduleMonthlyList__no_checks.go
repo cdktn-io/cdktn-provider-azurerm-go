@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) validateSetWra
 	return nil
 }
 
-func validateNewDataFactoryTriggerScheduleScheduleMonthlyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryTriggerScheduleScheduleMonthlyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

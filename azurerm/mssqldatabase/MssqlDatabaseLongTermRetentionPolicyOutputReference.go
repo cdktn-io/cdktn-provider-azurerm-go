@@ -5,14 +5,14 @@ package mssqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqldatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqldatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MssqlDatabaseLongTermRetentionPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type MssqlDatabaseLongTermRetentionPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WeeklyRetention() *string
 	SetWeeklyRetention(val *string)
 	WeeklyRetentionInput() *string
@@ -60,7 +60,7 @@ type MssqlDatabaseLongTermRetentionPolicyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type MssqlDatabaseLongTermRetentionPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetImmutableBackupsEnabled()
 	ResetMonthlyRetention()
 	ResetWeeklyRetention()
@@ -86,7 +86,7 @@ type MssqlDatabaseLongTermRetentionPolicyOutputReference interface {
 	ResetYearlyRetention()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type MssqlDatabaseLongTermRetentionPolicyOutputReference interface {
 
 // The jsii proxy struct for MssqlDatabaseLongTermRetentionPolicyOutputReference
 type jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -199,8 +199,8 @@ func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) YearlyRe
 }
 
 
-func NewMssqlDatabaseLongTermRetentionPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MssqlDatabaseLongTermRetentionPolicyOutputReference {
+func NewMssqlDatabaseLongTermRetentionPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MssqlDatabaseLongTermRetentionPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMssqlDatabaseLongTermRetentionPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewMssqlDatabaseLongTermRetentionPolicyOutputReference(terraformResource cd
 	return &j
 }
 
-func NewMssqlDatabaseLongTermRetentionPolicyOutputReference_Override(m MssqlDatabaseLongTermRetentionPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMssqlDatabaseLongTermRetentionPolicyOutputReference_Override(m MssqlDatabaseLongTermRetentionPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -363,7 +363,7 @@ func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) GetAnyMa
 	return returns
 }
 
-func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -564,8 +564,8 @@ func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) GetStrin
 	return returns
 }
 
-func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -577,11 +577,11 @@ func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) Interpol
 	return returns
 }
 
-func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -633,7 +633,7 @@ func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) ResetYea
 	)
 }
 
-func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

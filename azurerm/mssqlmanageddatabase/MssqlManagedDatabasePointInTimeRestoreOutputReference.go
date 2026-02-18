@@ -5,14 +5,14 @@ package mssqlmanageddatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlmanageddatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqlmanageddatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MssqlManagedDatabasePointInTimeRestoreOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type MssqlManagedDatabasePointInTimeRestoreOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type MssqlManagedDatabasePointInTimeRestoreOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type MssqlManagedDatabasePointInTimeRestoreOutputReference interface {
 
 // The jsii proxy struct for MssqlManagedDatabasePointInTimeRestoreOutputReference
 type jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) Terraf
 }
 
 
-func NewMssqlManagedDatabasePointInTimeRestoreOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MssqlManagedDatabasePointInTimeRestoreOutputReference {
+func NewMssqlManagedDatabasePointInTimeRestoreOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MssqlManagedDatabasePointInTimeRestoreOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMssqlManagedDatabasePointInTimeRestoreOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewMssqlManagedDatabasePointInTimeRestoreOutputReference(terraformResource 
 	return &j
 }
 
-func NewMssqlManagedDatabasePointInTimeRestoreOutputReference_Override(m MssqlManagedDatabasePointInTimeRestoreOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMssqlManagedDatabasePointInTimeRestoreOutputReference_Override(m MssqlManagedDatabasePointInTimeRestoreOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) GetAny
 	return returns
 }
 
-func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -457,8 +457,8 @@ func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) GetStr
 	return returns
 }
 
-func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -470,11 +470,11 @@ func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) Interp
 	return returns
 }
 
-func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -486,7 +486,7 @@ func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) Interp
 	return returns
 }
 
-func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

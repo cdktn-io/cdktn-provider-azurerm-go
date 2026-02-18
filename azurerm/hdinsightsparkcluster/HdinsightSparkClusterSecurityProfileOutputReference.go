@@ -5,14 +5,14 @@ package hdinsightsparkcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsightsparkcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsightsparkcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightSparkClusterSecurityProfileOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AaddsResourceId() *string
 	SetAaddsResourceId(val *string)
 	AaddsResourceIdInput() *string
@@ -58,15 +58,15 @@ type HdinsightSparkClusterSecurityProfileOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,13 +82,13 @@ type HdinsightSparkClusterSecurityProfileOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClusterUsersGroupDns()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type HdinsightSparkClusterSecurityProfileOutputReference interface {
 
 // The jsii proxy struct for HdinsightSparkClusterSecurityProfileOutputReference
 type jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) AaddsResourceId() *string {
@@ -301,8 +301,8 @@ func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -312,7 +312,7 @@ func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) Terrafor
 }
 
 
-func NewHdinsightSparkClusterSecurityProfileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HdinsightSparkClusterSecurityProfileOutputReference {
+func NewHdinsightSparkClusterSecurityProfileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HdinsightSparkClusterSecurityProfileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightSparkClusterSecurityProfileOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -329,7 +329,7 @@ func NewHdinsightSparkClusterSecurityProfileOutputReference(terraformResource cd
 	return &j
 }
 
-func NewHdinsightSparkClusterSecurityProfileOutputReference_Override(h HdinsightSparkClusterSecurityProfileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHdinsightSparkClusterSecurityProfileOutputReference_Override(h HdinsightSparkClusterSecurityProfileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -460,7 +460,7 @@ func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -500,11 +500,11 @@ func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) GetAnyMa
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -628,8 +628,8 @@ func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) GetStrin
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -641,11 +641,11 @@ func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) Interpol
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -665,7 +665,7 @@ func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) ResetClu
 	)
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightSparkClusterSecurityProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

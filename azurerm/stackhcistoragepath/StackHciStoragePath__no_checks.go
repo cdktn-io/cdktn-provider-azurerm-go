@@ -111,7 +111,7 @@ func (j *jsiiProxy_StackHciStoragePath) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_StackHciStoragePath) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StackHciStoragePath) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

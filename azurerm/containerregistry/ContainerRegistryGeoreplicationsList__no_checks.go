@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerRegistryGeoreplicationsList) validateGetParameters(i
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryGeoreplicationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryGeoreplicationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryGeoreplicationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryGeoreplicationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewContainerRegistryGeoreplicationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerRegistryGeoreplicationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

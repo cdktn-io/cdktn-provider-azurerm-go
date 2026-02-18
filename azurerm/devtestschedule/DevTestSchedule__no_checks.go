@@ -127,7 +127,7 @@ func (j *jsiiProxy_DevTestSchedule) validateSetLabNameParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_DevTestSchedule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DevTestSchedule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

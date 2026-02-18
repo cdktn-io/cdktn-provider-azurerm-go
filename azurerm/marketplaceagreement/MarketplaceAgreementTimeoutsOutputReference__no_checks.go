@@ -47,7 +47,7 @@ func (m *jsiiProxy_MarketplaceAgreementTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (m *jsiiProxy_MarketplaceAgreementTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MarketplaceAgreementTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MarketplaceAgreementTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MarketplaceAgreementTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MarketplaceAgreementTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMarketplaceAgreementTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMarketplaceAgreementTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

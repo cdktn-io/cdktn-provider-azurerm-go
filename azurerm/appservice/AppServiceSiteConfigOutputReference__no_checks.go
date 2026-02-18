@@ -59,7 +59,7 @@ func (a *jsiiProxy_AppServiceSiteConfigOutputReference) validatePutScmIpRestrict
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSiteConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSiteConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -175,7 +175,7 @@ func (j *jsiiProxy_AppServiceSiteConfigOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -195,7 +195,7 @@ func (j *jsiiProxy_AppServiceSiteConfigOutputReference) validateSetWindowsFxVers
 	return nil
 }
 
-func validateNewAppServiceSiteConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceSiteConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) validateInte
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) validateSetU
 	return nil
 }
 
-func validateNewHpcCacheDirectoryActiveDirectoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHpcCacheDirectoryActiveDirectoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

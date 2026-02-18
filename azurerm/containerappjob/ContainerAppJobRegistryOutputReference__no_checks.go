@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppJobRegistryOutputReference) validateInterpolation
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobRegistryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobRegistryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppJobRegistryOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobRegistryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobRegistryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ContainerAppJobRegistryOutputReference) validateSetUsernamePa
 	return nil
 }
 
-func validateNewContainerAppJobRegistryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppJobRegistryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkPacketCaptureFilterOutputReference) validateInterpolat
 	return nil
 }
 
-func (n *jsiiProxy_NetworkPacketCaptureFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkPacketCaptureFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_NetworkPacketCaptureFilterOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_NetworkPacketCaptureFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkPacketCaptureFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkPacketCaptureFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkPacketCaptureFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (r *jsiiProxy_ResourcePolicyAssignmentNonComplianceMessageList) validateGet
 	return nil
 }
 
-func (r *jsiiProxy_ResourcePolicyAssignmentNonComplianceMessageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourcePolicyAssignmentNonComplianceMessageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ResourcePolicyAssignmentNonComplianceMessageList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ResourcePolicyAssignmentNonComplianceMessageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourcePolicyAssignmentNonComplianceMessageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ResourcePolicyAssignmentNonComplianceMessageList) validateSet
 	return nil
 }
 
-func validateNewResourcePolicyAssignmentNonComplianceMessageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewResourcePolicyAssignmentNonComplianceMessageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

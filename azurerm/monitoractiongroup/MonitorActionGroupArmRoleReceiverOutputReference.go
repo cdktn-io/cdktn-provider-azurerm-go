@@ -5,14 +5,14 @@ package monitoractiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitoractiongroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitoractiongroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorActionGroupArmRoleReceiverOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type MonitorActionGroupArmRoleReceiverOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseCommonAlertSchema() interface{}
 	SetUseCommonAlertSchema(val interface{})
 	UseCommonAlertSchemaInput() interface{}
@@ -54,7 +54,7 @@ type MonitorActionGroupArmRoleReceiverOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type MonitorActionGroupArmRoleReceiverOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUseCommonAlertSchema()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type MonitorActionGroupArmRoleReceiverOutputReference interface {
 
 // The jsii proxy struct for MonitorActionGroupArmRoleReceiverOutputReference
 type jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) ComplexObjectIndex() interface{} {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) UseCommonAl
 }
 
 
-func NewMonitorActionGroupArmRoleReceiverOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorActionGroupArmRoleReceiverOutputReference {
+func NewMonitorActionGroupArmRoleReceiverOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorActionGroupArmRoleReceiverOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorActionGroupArmRoleReceiverOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -237,7 +237,7 @@ func NewMonitorActionGroupArmRoleReceiverOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewMonitorActionGroupArmRoleReceiverOutputReference_Override(m MonitorActionGroupArmRoleReceiverOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewMonitorActionGroupArmRoleReceiverOutputReference_Override(m MonitorActionGroupArmRoleReceiverOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -492,8 +492,8 @@ func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) GetStringMa
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -505,11 +505,11 @@ func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) Interpolati
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -529,7 +529,7 @@ func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) ResetUseCom
 	)
 }
 
-func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorActionGroupArmRoleReceiverOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

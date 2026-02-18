@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ArcResourceBridgeApplianceIdentityOutputReference) validateSe
 	return nil
 }
 
-func validateNewArcResourceBridgeApplianceIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewArcResourceBridgeApplianceIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

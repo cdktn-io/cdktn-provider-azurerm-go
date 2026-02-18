@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermRouteFilterRuleList) validateGetParameters(index *
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRouteFilterRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRouteFilterRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermRouteFilterRuleList) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRouteFilterRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRouteFilterRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermRouteFilterRuleList) validateSetWrapsSetParameters
 	return nil
 }
 
-func validateNewDataAzurermRouteFilterRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermRouteFilterRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

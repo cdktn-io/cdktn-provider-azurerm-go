@@ -51,7 +51,7 @@ func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleOutputReference) validatePut
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleOutputReference) validateSet
 	return nil
 }
 
-func validateNewFrontdoorFirewallPolicyCustomRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFrontdoorFirewallPolicyCustomRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

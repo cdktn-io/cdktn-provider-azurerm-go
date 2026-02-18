@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetSortingOutputReference)
 	return nil
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetSortingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetSortingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetSortingOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetSortingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetSortingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewResourceGroupCostManagementViewDatasetSortingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewResourceGroupCostManagementViewDatasetSortingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

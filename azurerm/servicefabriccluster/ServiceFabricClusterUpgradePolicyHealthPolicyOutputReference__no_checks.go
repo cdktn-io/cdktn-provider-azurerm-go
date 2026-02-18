@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference)
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyHealthPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceFabricClusterUpgradePolicyHealthPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricClusterUpgradePolicyHealthPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference
 	return nil
 }
 
-func (m *jsiiProxy_ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedDiskEncryptionSettingsDiskEncryptionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

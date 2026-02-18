@@ -5,18 +5,18 @@ package keyvaultcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultcertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/keyvaultcertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/key_vault_certificate azurerm_key_vault_certificate}.
 type KeyVaultCertificate interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Certificate() KeyVaultCertificateCertificateOutputReference
 	CertificateAttribute() KeyVaultCertificateCertificateAttributeList
 	CertificateData() *string
@@ -39,9 +39,9 @@ type KeyVaultCertificate interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,18 +53,18 @@ type KeyVaultCertificate interface {
 	SetKeyVaultId(val *string)
 	KeyVaultIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type KeyVaultCertificate interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -97,7 +97,7 @@ type KeyVaultCertificate interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -115,9 +115,9 @@ type KeyVaultCertificate interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,11 +158,11 @@ type KeyVaultCertificate interface {
 
 // The jsii proxy struct for KeyVaultCertificate
 type jsiiProxy_KeyVaultCertificate struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_KeyVaultCertificate) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_KeyVaultCertificate) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -281,8 +281,8 @@ func (j *jsiiProxy_KeyVaultCertificate) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultCertificate) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_KeyVaultCertificate) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_KeyVaultCertificate) KeyVaultIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultCertificate) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_KeyVaultCertificate) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_KeyVaultCertificate) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultCertificate) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_KeyVaultCertificate) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_KeyVaultCertificate) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultCertificate) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_KeyVaultCertificate) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -621,7 +621,7 @@ func (j *jsiiProxy_KeyVaultCertificate)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_KeyVaultCertificate)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_KeyVaultCertificate)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -651,7 +651,7 @@ func (j *jsiiProxy_KeyVaultCertificate)SetKeyVaultId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_KeyVaultCertificate)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_KeyVaultCertificate)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -673,7 +673,7 @@ func (j *jsiiProxy_KeyVaultCertificate)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_KeyVaultCertificate)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_KeyVaultCertificate)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -703,14 +703,14 @@ func (j *jsiiProxy_KeyVaultCertificate)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a KeyVaultCertificate resource upon running "cdktf plan <stack-name>".
-func KeyVaultCertificate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a KeyVaultCertificate resource upon running "cdktn plan <stack-name>".
+func KeyVaultCertificate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateKeyVaultCertificate_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.keyVaultCertificate.KeyVaultCertificate",
@@ -844,11 +844,11 @@ func (k *jsiiProxy_KeyVaultCertificate) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultCertificate) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultCertificate) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -985,7 +985,7 @@ func (k *jsiiProxy_KeyVaultCertificate) HasResourceMove() interface{} {
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultCertificate) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (k *jsiiProxy_KeyVaultCertificate) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := k.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -996,11 +996,11 @@ func (k *jsiiProxy_KeyVaultCertificate) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (k *jsiiProxy_KeyVaultCertificate) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultCertificate) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,

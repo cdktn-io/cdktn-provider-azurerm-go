@@ -119,7 +119,7 @@ func (j *jsiiProxy_ConfidentialLedger) validateSetLedgerTypeParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_ConfidentialLedger) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ConfidentialLedger) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

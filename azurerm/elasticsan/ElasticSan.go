@@ -5,21 +5,21 @@ package elasticsan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/elasticsan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/elasticsan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/elastic_san azurerm_elastic_san}.
 type ElasticSan interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BaseSizeInTib() *float64
 	SetBaseSizeInTib(val *float64)
 	BaseSizeInTibInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type ElasticSan interface {
 	SetExtendedSizeInTib(val *float64)
 	ExtendedSizeInTibInput() *float64
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type ElasticSan interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -61,9 +61,9 @@ type ElasticSan interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type ElasticSan interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type ElasticSan interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type ElasticSan interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,7 +162,7 @@ type ElasticSan interface {
 
 // The jsii proxy struct for ElasticSan
 type jsiiProxy_ElasticSan struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ElasticSan) BaseSizeInTib() *float64 {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_ElasticSan) BaseSizeInTibInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticSan) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ElasticSan) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_ElasticSan) ExtendedSizeInTibInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticSan) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ElasticSan) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -305,8 +305,8 @@ func (j *jsiiProxy_ElasticSan) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticSan) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ElasticSan) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -365,8 +365,8 @@ func (j *jsiiProxy_ElasticSan) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticSan) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ElasticSan) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -455,8 +455,8 @@ func (j *jsiiProxy_ElasticSan) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ElasticSan) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ElasticSan) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -657,7 +657,7 @@ func (j *jsiiProxy_ElasticSan)SetExtendedSizeInTib(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_ElasticSan)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ElasticSan)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -676,7 +676,7 @@ func (j *jsiiProxy_ElasticSan)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ElasticSan)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ElasticSan)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -709,7 +709,7 @@ func (j *jsiiProxy_ElasticSan)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ElasticSan)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ElasticSan)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -761,14 +761,14 @@ func (j *jsiiProxy_ElasticSan)SetZones(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a ElasticSan resource upon running "cdktf plan <stack-name>".
-func ElasticSan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ElasticSan resource upon running "cdktn plan <stack-name>".
+func ElasticSan_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateElasticSan_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.elasticSan.ElasticSan",
@@ -902,11 +902,11 @@ func (e *jsiiProxy_ElasticSan) GetAnyMapAttribute(terraformAttribute *string) *m
 	return returns
 }
 
-func (e *jsiiProxy_ElasticSan) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticSan) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1043,7 +1043,7 @@ func (e *jsiiProxy_ElasticSan) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_ElasticSan) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_ElasticSan) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1054,11 +1054,11 @@ func (e *jsiiProxy_ElasticSan) ImportFrom(id *string, provider cdktf.TerraformPr
 	)
 }
 
-func (e *jsiiProxy_ElasticSan) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ElasticSan) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

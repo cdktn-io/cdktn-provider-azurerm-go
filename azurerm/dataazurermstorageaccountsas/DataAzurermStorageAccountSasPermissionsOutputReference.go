@@ -5,14 +5,14 @@ package dataazurermstorageaccountsas
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermstorageaccountsas/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermstorageaccountsas/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermStorageAccountSasPermissionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Add() interface{}
 	SetAdd(val interface{})
 	AddInput() interface{}
@@ -61,9 +61,9 @@ type DataAzurermStorageAccountSasPermissionsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() interface{}
 	SetUpdate(val interface{})
 	UpdateInput() interface{}
@@ -75,7 +75,7 @@ type DataAzurermStorageAccountSasPermissionsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -91,12 +91,12 @@ type DataAzurermStorageAccountSasPermissionsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -106,7 +106,7 @@ type DataAzurermStorageAccountSasPermissionsOutputReference interface {
 
 // The jsii proxy struct for DataAzurermStorageAccountSasPermissionsOutputReference
 type jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Add() interface{} {
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -380,7 +380,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Write
 }
 
 
-func NewDataAzurermStorageAccountSasPermissionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataAzurermStorageAccountSasPermissionsOutputReference {
+func NewDataAzurermStorageAccountSasPermissionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataAzurermStorageAccountSasPermissionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermStorageAccountSasPermissionsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -397,7 +397,7 @@ func NewDataAzurermStorageAccountSasPermissionsOutputReference(terraformResource
 	return &j
 }
 
-func NewDataAzurermStorageAccountSasPermissionsOutputReference_Override(d DataAzurermStorageAccountSasPermissionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataAzurermStorageAccountSasPermissionsOutputReference_Override(d DataAzurermStorageAccountSasPermissionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -539,7 +539,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -601,11 +601,11 @@ func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) GetAn
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -729,8 +729,8 @@ func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) GetSt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -742,11 +742,11 @@ func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -758,7 +758,7 @@ func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Inter
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

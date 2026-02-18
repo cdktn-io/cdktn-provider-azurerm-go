@@ -15,7 +15,7 @@ func (k *jsiiProxy_KustoClusterLanguageExtensionList) validateGetParameters(inde
 	return nil
 }
 
-func (k *jsiiProxy_KustoClusterLanguageExtensionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoClusterLanguageExtensionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KustoClusterLanguageExtensionList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_KustoClusterLanguageExtensionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoClusterLanguageExtensionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KustoClusterLanguageExtensionList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewKustoClusterLanguageExtensionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKustoClusterLanguageExtensionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

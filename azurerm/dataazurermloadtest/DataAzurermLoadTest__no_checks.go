@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermLoadTest) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLoadTest) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermLoadTest) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

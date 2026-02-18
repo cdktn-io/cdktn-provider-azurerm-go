@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseWorkspaceAadAdminTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SynapseWorkspaceAadAdminTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseWorkspaceAadAdminTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SynapseWorkspaceAadAdminTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SynapseWorkspaceAadAdminTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseWorkspaceAadAdminTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SynapseWorkspaceAadAdminTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewSynapseWorkspaceAadAdminTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseWorkspaceAadAdminTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

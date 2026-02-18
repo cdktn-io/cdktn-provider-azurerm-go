@@ -127,7 +127,7 @@ func (c *jsiiProxy_CdnEndpointDeliveryRuleOutputReference) validatePutUrlRewrite
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointDeliveryRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointDeliveryRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -155,11 +155,11 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointDeliveryRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointDeliveryRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnEndpointDeliveryRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCdnEndpointDeliveryRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

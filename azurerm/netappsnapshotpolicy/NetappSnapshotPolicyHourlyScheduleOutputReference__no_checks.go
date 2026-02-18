@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappSnapshotPolicyHourlyScheduleOutputReference) validateIn
 	return nil
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicyHourlyScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappSnapshotPolicyHourlyScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetappSnapshotPolicyHourlyScheduleOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicyHourlyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappSnapshotPolicyHourlyScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetappSnapshotPolicyHourlyScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappSnapshotPolicyHourlyScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

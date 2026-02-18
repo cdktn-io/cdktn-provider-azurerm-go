@@ -111,7 +111,7 @@ func (j *jsiiProxy_PrivateDnsResolverInboundEndpoint) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsResolverInboundEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivateDnsResolverInboundEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermVpnServerConfiguration) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVpnServerConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermVpnServerConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_SiteRecoveryNetworkMapping) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryNetworkMapping) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SiteRecoveryNetworkMapping) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

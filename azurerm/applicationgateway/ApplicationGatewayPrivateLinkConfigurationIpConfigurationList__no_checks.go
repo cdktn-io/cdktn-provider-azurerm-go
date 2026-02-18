@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayPrivateLinkConfigurationIpConfigurationList
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayPrivateLinkConfigurationIpConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayPrivateLinkConfigurationIpConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayPrivateLinkConfigurationIpConfigurationList
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayPrivateLinkConfigurationIpConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayPrivateLinkConfigurationIpConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayPrivateLinkConfigurationIpConfigurationList
 	return nil
 }
 
-func validateNewApplicationGatewayPrivateLinkConfigurationIpConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayPrivateLinkConfigurationIpConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

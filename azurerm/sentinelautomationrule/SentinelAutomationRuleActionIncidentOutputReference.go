@@ -5,14 +5,14 @@ package sentinelautomationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelautomationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/sentinelautomationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SentinelAutomationRuleActionIncidentOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Classification() *string
 	SetClassification(val *string)
 	ClassificationComment() *string
@@ -58,15 +58,15 @@ type SentinelAutomationRuleActionIncidentOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type SentinelAutomationRuleActionIncidentOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClassification()
 	ResetClassificationComment()
 	ResetLabels()
@@ -93,7 +93,7 @@ type SentinelAutomationRuleActionIncidentOutputReference interface {
 	ResetStatus()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -103,7 +103,7 @@ type SentinelAutomationRuleActionIncidentOutputReference interface {
 
 // The jsii proxy struct for SentinelAutomationRuleActionIncidentOutputReference
 type jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) Classification() *string {
@@ -306,8 +306,8 @@ func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -317,7 +317,7 @@ func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) Terrafor
 }
 
 
-func NewSentinelAutomationRuleActionIncidentOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelAutomationRuleActionIncidentOutputReference {
+func NewSentinelAutomationRuleActionIncidentOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelAutomationRuleActionIncidentOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSentinelAutomationRuleActionIncidentOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -334,7 +334,7 @@ func NewSentinelAutomationRuleActionIncidentOutputReference(terraformResource cd
 	return &j
 }
 
-func NewSentinelAutomationRuleActionIncidentOutputReference_Override(s SentinelAutomationRuleActionIncidentOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSentinelAutomationRuleActionIncidentOutputReference_Override(s SentinelAutomationRuleActionIncidentOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -465,7 +465,7 @@ func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -505,11 +505,11 @@ func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) GetAnyMa
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -633,8 +633,8 @@ func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) GetStrin
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -646,11 +646,11 @@ func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) Interpol
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -710,7 +710,7 @@ func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) ResetSta
 	)
 }
 
-func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SentinelAutomationRuleActionIncidentOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

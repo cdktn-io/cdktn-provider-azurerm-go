@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) validateInterpola
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementLoggerEventhubOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementLoggerEventhubOutputReference) validateSetUserAs
 	return nil
 }
 
-func validateNewApiManagementLoggerEventhubOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementLoggerEventhubOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

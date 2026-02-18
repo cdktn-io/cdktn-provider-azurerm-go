@@ -5,14 +5,14 @@ package activedirectorydomainservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/activedirectorydomainservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/activedirectorydomainservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ActiveDirectoryDomainServiceSecurityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -55,9 +55,9 @@ type ActiveDirectoryDomainServiceSecurityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TlsV1Enabled() interface{}
 	SetTlsV1Enabled(val interface{})
 	TlsV1EnabledInput() interface{}
@@ -66,7 +66,7 @@ type ActiveDirectoryDomainServiceSecurityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type ActiveDirectoryDomainServiceSecurityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetKerberosArmoringEnabled()
 	ResetKerberosRc4EncryptionEnabled()
 	ResetNtlmV1Enabled()
@@ -94,7 +94,7 @@ type ActiveDirectoryDomainServiceSecurityOutputReference interface {
 	ResetTlsV1Enabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type ActiveDirectoryDomainServiceSecurityOutputReference interface {
 
 // The jsii proxy struct for ActiveDirectoryDomainServiceSecurityOutputReference
 type jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) ComplexObjectIndex() interface{} {
@@ -287,8 +287,8 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) TlsV1Ena
 }
 
 
-func NewActiveDirectoryDomainServiceSecurityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ActiveDirectoryDomainServiceSecurityOutputReference {
+func NewActiveDirectoryDomainServiceSecurityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ActiveDirectoryDomainServiceSecurityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewActiveDirectoryDomainServiceSecurityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewActiveDirectoryDomainServiceSecurityOutputReference(terraformResource cd
 	return &j
 }
 
-func NewActiveDirectoryDomainServiceSecurityOutputReference_Override(a ActiveDirectoryDomainServiceSecurityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewActiveDirectoryDomainServiceSecurityOutputReference_Override(a ActiveDirectoryDomainServiceSecurityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -455,7 +455,7 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -506,11 +506,11 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) GetAnyMa
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -634,8 +634,8 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) GetStrin
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -647,11 +647,11 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) Interpol
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -719,7 +719,7 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) ResetTls
 	)
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ActiveDirectoryDomainServiceSecurityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

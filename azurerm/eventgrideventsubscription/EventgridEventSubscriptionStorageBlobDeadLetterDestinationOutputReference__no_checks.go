@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionStorageBlobDeadLetterDestinationOut
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionStorageBlobDeadLetterDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionStorageBlobDeadLetterDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EventgridEventSubscriptionStorageBlobDeadLetterDestinationOut
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionStorageBlobDeadLetterDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionStorageBlobDeadLetterDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionStorageBlobDeadLetterDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridEventSubscriptionStorageBlobDeadLetterDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

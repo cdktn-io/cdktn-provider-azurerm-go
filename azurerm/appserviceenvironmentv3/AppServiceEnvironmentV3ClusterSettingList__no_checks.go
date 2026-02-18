@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppServiceEnvironmentV3ClusterSettingList) validateGetParamet
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceEnvironmentV3ClusterSettingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceEnvironmentV3ClusterSettingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppServiceEnvironmentV3ClusterSettingList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceEnvironmentV3ClusterSettingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceEnvironmentV3ClusterSettingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppServiceEnvironmentV3ClusterSettingList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewAppServiceEnvironmentV3ClusterSettingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppServiceEnvironmentV3ClusterSettingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

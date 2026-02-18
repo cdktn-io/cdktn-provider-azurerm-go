@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxWebAppLogsHttpLogsFileSystemOutputReference) validateInt
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppLogsHttpLogsFileSystemOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppLogsHttpLogsFileSystemOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LinuxWebAppLogsHttpLogsFileSystemOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppLogsHttpLogsFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppLogsHttpLogsFileSystemOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxWebAppLogsHttpLogsFileSystemOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppLogsHttpLogsFileSystemOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

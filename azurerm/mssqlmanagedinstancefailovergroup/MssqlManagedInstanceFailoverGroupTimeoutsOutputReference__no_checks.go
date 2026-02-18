@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupTimeoutsOutputReference) val
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewMssqlManagedInstanceFailoverGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlManagedInstanceFailoverGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

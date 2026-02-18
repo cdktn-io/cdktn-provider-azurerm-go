@@ -5,18 +5,18 @@ package eventhubnamespacecustomermanagedkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventhubnamespacecustomermanagedkey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventhubnamespacecustomermanagedkey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/eventhub_namespace_customer_managed_key azurerm_eventhub_namespace_customer_managed_key}.
 type EventhubNamespaceCustomerManagedKey interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type EventhubNamespaceCustomerManagedKey interface {
 	SetEventhubNamespaceId(val *string)
 	EventhubNamespaceIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,15 +52,15 @@ type EventhubNamespaceCustomerManagedKey interface {
 	SetKeyVaultKeyIds(val *[]*string)
 	KeyVaultKeyIdsInput() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type EventhubNamespaceCustomerManagedKey interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type EventhubNamespaceCustomerManagedKey interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type EventhubNamespaceCustomerManagedKey interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type EventhubNamespaceCustomerManagedKey interface {
 
 // The jsii proxy struct for EventhubNamespaceCustomerManagedKey
 type jsiiProxy_EventhubNamespaceCustomerManagedKey struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -217,8 +217,8 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) EventhubNamespaceIdInput
 	return returns
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) KeyVaultKeyIdsInput() *[
 	return returns
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) RawOverrides() interface
 	return returns
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -498,7 +498,7 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetEventhubNamespaceId(va
 	)
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -539,7 +539,7 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetKeyVaultKeyIds(val *[]
 	)
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -550,7 +550,7 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetLifecycle(val *cdktf.T
 	)
 }
 
-func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -580,14 +580,14 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey)SetUserAssignedIdentityId
 	)
 }
 
-// Generates CDKTF code for importing a EventhubNamespaceCustomerManagedKey resource upon running "cdktf plan <stack-name>".
-func EventhubNamespaceCustomerManagedKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EventhubNamespaceCustomerManagedKey resource upon running "cdktn plan <stack-name>".
+func EventhubNamespaceCustomerManagedKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEventhubNamespaceCustomerManagedKey_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.eventhubNamespaceCustomerManagedKey.EventhubNamespaceCustomerManagedKey",
@@ -721,11 +721,11 @@ func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -862,7 +862,7 @@ func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) HasResourceMove() interf
 	return returns
 }
 
-func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -873,11 +873,11 @@ func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) ImportFrom(id *string, p
 	)
 }
 
-func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

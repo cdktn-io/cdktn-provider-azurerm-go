@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermStorageAccountSasServicesOutputReference) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStorageAccountSasServicesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStorageAccountSasServicesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_DataAzurermStorageAccountSasServicesOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageAccountSasServicesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStorageAccountSasServicesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermStorageAccountSasServicesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermStorageAccountSasServicesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

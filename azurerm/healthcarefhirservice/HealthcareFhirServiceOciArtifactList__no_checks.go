@@ -15,7 +15,7 @@ func (h *jsiiProxy_HealthcareFhirServiceOciArtifactList) validateGetParameters(i
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareFhirServiceOciArtifactList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareFhirServiceOciArtifactList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HealthcareFhirServiceOciArtifactList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareFhirServiceOciArtifactList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareFhirServiceOciArtifactList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HealthcareFhirServiceOciArtifactList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewHealthcareFhirServiceOciArtifactListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHealthcareFhirServiceOciArtifactListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

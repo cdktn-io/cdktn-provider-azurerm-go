@@ -15,7 +15,7 @@ func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsL
 	return nil
 }
 
-func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsL
 	return nil
 }
 
-func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsL
 	return nil
 }
 
-func validateNewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

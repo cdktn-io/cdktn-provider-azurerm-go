@@ -119,7 +119,7 @@ func (j *jsiiProxy_AutomationConnectionType) validateSetIsGlobalParameters(val i
 	return nil
 }
 
-func (j *jsiiProxy_AutomationConnectionType) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutomationConnectionType) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

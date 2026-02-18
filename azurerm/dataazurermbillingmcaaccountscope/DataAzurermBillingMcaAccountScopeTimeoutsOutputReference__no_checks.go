@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermBillingMcaAccountScopeTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBillingMcaAccountScopeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBillingMcaAccountScopeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermBillingMcaAccountScopeTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBillingMcaAccountScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBillingMcaAccountScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermBillingMcaAccountScopeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermBillingMcaAccountScopeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

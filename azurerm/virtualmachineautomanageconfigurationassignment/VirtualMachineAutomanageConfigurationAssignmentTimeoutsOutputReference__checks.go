@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutput
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutput
 
 func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *VirtualMachineAutomanageConfigurationAssignmentTimeouts:
 		val := val.(*VirtualMachineAutomanageConfigurationAssignmentTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutput
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *VirtualMachineAutomanageConfigurationAssignmentTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *VirtualMachineAutomanageConfigurationAssignmentTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutput
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_VirtualMachineAutomanageConfigurationAssignmentTimeoutsOutput
 	return nil
 }
 
-func validateNewVirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineAutomanageConfigurationAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

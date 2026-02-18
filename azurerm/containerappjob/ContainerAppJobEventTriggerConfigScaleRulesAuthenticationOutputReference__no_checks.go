@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutp
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutp
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutp
 	return nil
 }
 
-func validateNewContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppJobEventTriggerConfigScaleRulesAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

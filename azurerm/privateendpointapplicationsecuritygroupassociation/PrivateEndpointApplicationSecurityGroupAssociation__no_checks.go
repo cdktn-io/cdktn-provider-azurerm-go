@@ -111,7 +111,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateS
 	return nil
 }
 
-func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

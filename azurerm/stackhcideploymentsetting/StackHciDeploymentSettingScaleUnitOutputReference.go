@@ -5,14 +5,14 @@ package stackhcideploymentsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/stackhcideploymentsetting/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/stackhcideploymentsetting/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StackHciDeploymentSettingScaleUnitOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDirectoryOrganizationalUnitPath() *string
 	SetActiveDirectoryOrganizationalUnitPath(val *string)
 	ActiveDirectoryOrganizationalUnitPathInput() *string
@@ -97,9 +97,9 @@ type StackHciDeploymentSettingScaleUnitOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WdacEnabled() interface{}
 	SetWdacEnabled(val interface{})
 	WdacEnabledInput() interface{}
@@ -108,7 +108,7 @@ type StackHciDeploymentSettingScaleUnitOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,9 +124,9 @@ type StackHciDeploymentSettingScaleUnitOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCluster(value *StackHciDeploymentSettingScaleUnitCluster)
 	PutHostNetwork(value *StackHciDeploymentSettingScaleUnitHostNetwork)
 	PutInfrastructureNetwork(value interface{})
@@ -148,7 +148,7 @@ type StackHciDeploymentSettingScaleUnitOutputReference interface {
 	ResetWdacEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -158,7 +158,7 @@ type StackHciDeploymentSettingScaleUnitOutputReference interface {
 
 // The jsii proxy struct for StackHciDeploymentSettingScaleUnitOutputReference
 type jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) ActiveDirectoryOrganizationalUnitPath() *string {
@@ -661,8 +661,8 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -692,7 +692,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) WdacEnable
 }
 
 
-func NewStackHciDeploymentSettingScaleUnitOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StackHciDeploymentSettingScaleUnitOutputReference {
+func NewStackHciDeploymentSettingScaleUnitOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StackHciDeploymentSettingScaleUnitOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStackHciDeploymentSettingScaleUnitOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -709,7 +709,7 @@ func NewStackHciDeploymentSettingScaleUnitOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewStackHciDeploymentSettingScaleUnitOutputReference_Override(s StackHciDeploymentSettingScaleUnitOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewStackHciDeploymentSettingScaleUnitOutputReference_Override(s StackHciDeploymentSettingScaleUnitOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -939,7 +939,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -990,11 +990,11 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) GetAnyMapA
 	return returns
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1118,8 +1118,8 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) GetStringM
 	return returns
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1131,11 +1131,11 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) Interpolat
 	return returns
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1317,7 +1317,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) ResetWdacE
 	)
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

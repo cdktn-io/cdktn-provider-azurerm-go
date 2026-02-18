@@ -47,7 +47,7 @@ func (s *jsiiProxy_StackHciLogicalNetworkSubnetIpPoolOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_StackHciLogicalNetworkSubnetIpPoolOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciLogicalNetworkSubnetIpPoolOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_StackHciLogicalNetworkSubnetIpPoolOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_StackHciLogicalNetworkSubnetIpPoolOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciLogicalNetworkSubnetIpPoolOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStackHciLogicalNetworkSubnetIpPoolOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStackHciLogicalNetworkSubnetIpPoolOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

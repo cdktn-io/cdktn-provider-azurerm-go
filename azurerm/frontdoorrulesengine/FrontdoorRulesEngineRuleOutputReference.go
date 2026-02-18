@@ -5,14 +5,14 @@ package frontdoorrulesengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/frontdoorrulesengine/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/frontdoorrulesengine/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FrontdoorRulesEngineRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() FrontdoorRulesEngineRuleActionOutputReference
 	ActionInput() *FrontdoorRulesEngineRuleAction
 	// the index of the complex object in a list.
@@ -47,15 +47,15 @@ type FrontdoorRulesEngineRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,16 +71,16 @@ type FrontdoorRulesEngineRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAction(value *FrontdoorRulesEngineRuleAction)
 	PutMatchCondition(value interface{})
 	ResetAction()
 	ResetMatchCondition()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type FrontdoorRulesEngineRuleOutputReference interface {
 
 // The jsii proxy struct for FrontdoorRulesEngineRuleOutputReference
 type jsiiProxy_FrontdoorRulesEngineRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) Action() FrontdoorRulesEngineRuleActionOutputReference {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) TerraformResource() 
 }
 
 
-func NewFrontdoorRulesEngineRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FrontdoorRulesEngineRuleOutputReference {
+func NewFrontdoorRulesEngineRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FrontdoorRulesEngineRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFrontdoorRulesEngineRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -261,7 +261,7 @@ func NewFrontdoorRulesEngineRuleOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewFrontdoorRulesEngineRuleOutputReference_Override(f FrontdoorRulesEngineRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFrontdoorRulesEngineRuleOutputReference_Override(f FrontdoorRulesEngineRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -337,7 +337,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FrontdoorRulesEngineRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -377,11 +377,11 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -505,8 +505,8 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -518,11 +518,11 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -572,7 +572,7 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) ResetMatchCondition(
 	)
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FrontdoorRulesEngineRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

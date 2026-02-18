@@ -15,7 +15,7 @@ func (f *jsiiProxy_FunctionAppFunctionFileList) validateGetParameters(index *flo
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFunctionFileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFunctionFileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FunctionAppFunctionFileList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFunctionFileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFunctionFileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FunctionAppFunctionFileList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewFunctionAppFunctionFileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFunctionAppFunctionFileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

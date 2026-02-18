@@ -5,14 +5,14 @@ package dataazurermactivedirectorydomainservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermactivedirectorydomainservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermactivedirectorydomainservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermActiveDirectoryDomainServiceSecurityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -32,27 +32,27 @@ type DataAzurermActiveDirectoryDomainServiceSecurityOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAzurermActiveDirectoryDomainServiceSecurity
 	SetInternalValue(val *DataAzurermActiveDirectoryDomainServiceSecurity)
-	KerberosArmoringEnabled() cdktf.IResolvable
-	KerberosRc4EncryptionEnabled() cdktf.IResolvable
-	NtlmV1Enabled() cdktf.IResolvable
-	SyncKerberosPasswords() cdktf.IResolvable
-	SyncNtlmPasswords() cdktf.IResolvable
-	SyncOnPremPasswords() cdktf.IResolvable
+	KerberosArmoringEnabled() cdktn.IResolvable
+	KerberosRc4EncryptionEnabled() cdktn.IResolvable
+	NtlmV1Enabled() cdktn.IResolvable
+	SyncKerberosPasswords() cdktn.IResolvable
+	SyncNtlmPasswords() cdktn.IResolvable
+	SyncOnPremPasswords() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	TlsV1Enabled() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	TlsV1Enabled() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type DataAzurermActiveDirectoryDomainServiceSecurityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type DataAzurermActiveDirectoryDomainServiceSecurityOutputReference interface {
 
 // The jsii proxy struct for DataAzurermActiveDirectoryDomainServiceSecurityOutputReference
 type jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) ComplexObjectIndex() interface{} {
@@ -136,8 +136,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) KerberosArmoringEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) KerberosArmoringEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"kerberosArmoringEnabled",
@@ -146,8 +146,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) KerberosRc4EncryptionEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) KerberosRc4EncryptionEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"kerberosRc4EncryptionEnabled",
@@ -156,8 +156,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) NtlmV1Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) NtlmV1Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ntlmV1Enabled",
@@ -166,8 +166,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) SyncKerberosPasswords() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) SyncKerberosPasswords() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"syncKerberosPasswords",
@@ -176,8 +176,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) SyncNtlmPasswords() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) SyncNtlmPasswords() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"syncNtlmPasswords",
@@ -186,8 +186,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) SyncOnPremPasswords() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) SyncOnPremPasswords() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"syncOnPremPasswords",
@@ -206,8 +206,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,8 +216,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) TlsV1Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) TlsV1Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"tlsV1Enabled",
@@ -227,7 +227,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 }
 
 
-func NewDataAzurermActiveDirectoryDomainServiceSecurityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermActiveDirectoryDomainServiceSecurityOutputReference {
+func NewDataAzurermActiveDirectoryDomainServiceSecurityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermActiveDirectoryDomainServiceSecurityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermActiveDirectoryDomainServiceSecurityOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -244,7 +244,7 @@ func NewDataAzurermActiveDirectoryDomainServiceSecurityOutputReference(terraform
 	return &j
 }
 
-func NewDataAzurermActiveDirectoryDomainServiceSecurityOutputReference_Override(d DataAzurermActiveDirectoryDomainServiceSecurityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermActiveDirectoryDomainServiceSecurityOutputReference_Override(d DataAzurermActiveDirectoryDomainServiceSecurityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -298,7 +298,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -338,11 +338,11 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -466,8 +466,8 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -479,11 +479,11 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -495,7 +495,7 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceSecurityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

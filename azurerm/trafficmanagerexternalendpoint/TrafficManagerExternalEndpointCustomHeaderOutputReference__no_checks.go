@@ -47,7 +47,7 @@ func (t *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderOutputReference) va
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TrafficManagerExternalEndpointCustomHeaderOutputReference) va
 	return nil
 }
 
-func validateNewTrafficManagerExternalEndpointCustomHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTrafficManagerExternalEndpointCustomHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

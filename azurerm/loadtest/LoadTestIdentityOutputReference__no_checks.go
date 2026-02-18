@@ -47,7 +47,7 @@ func (l *jsiiProxy_LoadTestIdentityOutputReference) validateInterpolationForAttr
 	return nil
 }
 
-func (l *jsiiProxy_LoadTestIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LoadTestIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LoadTestIdentityOutputReference) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_LoadTestIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LoadTestIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LoadTestIdentityOutputReference) validateSetTypeParameters(va
 	return nil
 }
 
-func validateNewLoadTestIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLoadTestIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

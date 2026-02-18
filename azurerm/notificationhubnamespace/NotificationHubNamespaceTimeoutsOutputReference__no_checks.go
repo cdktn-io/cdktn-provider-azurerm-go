@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotificationHubNamespaceTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (n *jsiiProxy_NotificationHubNamespaceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotificationHubNamespaceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NotificationHubNamespaceTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NotificationHubNamespaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotificationHubNamespaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NotificationHubNamespaceTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewNotificationHubNamespaceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotificationHubNamespaceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

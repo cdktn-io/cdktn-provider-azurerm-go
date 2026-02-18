@@ -5,26 +5,26 @@ package dataazurermoracleautonomousdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracleautonomousdatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracleautonomousdatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
 type DataAzurermOracleAutonomousDatabase interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	ActualUsedDataStorageSizeInTbs() *float64
 	AllocatedStorageSizeInTbs() *float64
 	AllowedIps() *[]*float64
 	AutonomousDatabaseId() *string
-	AutoScalingEnabled() cdktf.IResolvable
-	AutoScalingForStorageEnabled() cdktf.IResolvable
+	AutoScalingEnabled() cdktn.IResolvable
+	AutoScalingForStorageEnabled() cdktn.IResolvable
 	AvailableUpgradeVersions() *[]*string
 	BackupRetentionPeriodInDays() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CharacterSet() *string
 	ComputeCount() *float64
 	// Experimental.
@@ -45,9 +45,9 @@ type DataAzurermOracleAutonomousDatabase interface {
 	DisplayName() *string
 	FailedDataRecoveryInSeconds() *float64
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,16 +57,16 @@ type DataAzurermOracleAutonomousDatabase interface {
 	IdInput() *string
 	InMemoryAreaInGbs() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleDetails() *string
 	LocalAdgAutoFailoverMaxDataLossLimit() *float64
-	LocalDataGuardEnabled() cdktf.IResolvable
+	LocalDataGuardEnabled() cdktn.IResolvable
 	Location() *string
 	LongTermBackupSchedule() DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList
 	MemoryPerOracleComputeUnitInGbs() *float64
-	MtlsConnectionRequired() cdktf.IResolvable
+	MtlsConnectionRequired() cdktn.IResolvable
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -78,19 +78,19 @@ type DataAzurermOracleAutonomousDatabase interface {
 	OciUrl() *string
 	PeerDbId() *string
 	PeerDbIds() *[]*string
-	Preview() cdktf.IResolvable
-	PreviewVersionWithServiceTermsAccepted() cdktf.IResolvable
+	Preview() cdktn.IResolvable
+	PreviewVersionWithServiceTermsAccepted() cdktn.IResolvable
 	PrivateEndpoint() *string
 	PrivateEndpointIp() *string
 	PrivateEndpointLabel() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	ProvisionableCpus() *[]*float64
 	// Experimental.
 	RawOverrides() interface{}
-	RemoteDataGuardEnabled() cdktf.IResolvable
+	RemoteDataGuardEnabled() cdktn.IResolvable
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
@@ -98,9 +98,9 @@ type DataAzurermOracleAutonomousDatabase interface {
 	SqlWebDeveloperUrl() *string
 	SubnetId() *string
 	SupportedRegionsToCloneTo() *[]*string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -126,7 +126,7 @@ type DataAzurermOracleAutonomousDatabase interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -142,7 +142,7 @@ type DataAzurermOracleAutonomousDatabase interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -168,7 +168,7 @@ type DataAzurermOracleAutonomousDatabase interface {
 
 // The jsii proxy struct for DataAzurermOracleAutonomousDatabase
 type jsiiProxy_DataAzurermOracleAutonomousDatabase struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) ActualUsedDataStorageSizeInTbs() *float64 {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) AutonomousDatabaseId() *
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) AutoScalingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) AutoScalingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"autoScalingEnabled",
@@ -221,8 +221,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) AutoScalingEnabled() cdk
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) AutoScalingForStorageEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) AutoScalingForStorageEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"autoScalingForStorageEnabled",
@@ -251,8 +251,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) BackupRetentionPeriodInD
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -381,8 +381,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) FailedDataRecoveryInSeco
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -441,8 +441,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) InMemoryAreaInGbs() *flo
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) LocalAdgAutoFailoverMaxD
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) LocalDataGuardEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) LocalDataGuardEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"localDataGuardEnabled",
@@ -511,8 +511,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) MemoryPerOracleComputeUn
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) MtlsConnectionRequired() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) MtlsConnectionRequired() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"mtlsConnectionRequired",
@@ -611,8 +611,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) PeerDbIds() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Preview() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Preview() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"preview",
@@ -621,8 +621,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Preview() cdktf.IResolva
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) PreviewVersionWithServiceTermsAccepted() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) PreviewVersionWithServiceTermsAccepted() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"previewVersionWithServiceTermsAccepted",
@@ -661,8 +661,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) PrivateEndpointLabel() *
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -691,8 +691,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) RawOverrides() interface
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) RemoteDataGuardEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) RemoteDataGuardEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"remoteDataGuardEnabled",
@@ -761,8 +761,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) SupportedRegionsToCloneT
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -771,8 +771,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1010,7 +1010,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetDependsOn(val *[]*stri
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1029,7 +1029,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1051,7 +1051,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1070,14 +1070,14 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabase)SetResourceGroupName(val 
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermOracleAutonomousDatabase resource upon running "cdktf plan <stack-name>".
-func DataAzurermOracleAutonomousDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermOracleAutonomousDatabase resource upon running "cdktn plan <stack-name>".
+func DataAzurermOracleAutonomousDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermOracleAutonomousDatabase_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermOracleAutonomousDatabase.DataAzurermOracleAutonomousDatabase",
@@ -1200,11 +1200,11 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabase) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabase) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabase) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1328,11 +1328,11 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabase) GetStringMapAttribute(te
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabase) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabase) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

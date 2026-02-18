@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkFunctionCollectorPolicyIpfxEmissionOutputReference) va
 	return nil
 }
 
-func (n *jsiiProxy_NetworkFunctionCollectorPolicyIpfxEmissionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkFunctionCollectorPolicyIpfxEmissionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetworkFunctionCollectorPolicyIpfxEmissionOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_NetworkFunctionCollectorPolicyIpfxEmissionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkFunctionCollectorPolicyIpfxEmissionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkFunctionCollectorPolicyIpfxEmissionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkFunctionCollectorPolicyIpfxEmissionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

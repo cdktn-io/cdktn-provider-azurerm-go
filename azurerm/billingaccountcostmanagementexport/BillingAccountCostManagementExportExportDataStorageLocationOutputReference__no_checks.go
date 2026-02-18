@@ -47,7 +47,7 @@ func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	return nil
 }
 
-func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOu
 	return nil
 }
 
-func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BillingAccountCostManagementExportExportDataStorageLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBillingAccountCostManagementExportExportDataStorageLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBillingAccountCostManagementExportExportDataStorageLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

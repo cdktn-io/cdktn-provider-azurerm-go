@@ -119,7 +119,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanorama) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

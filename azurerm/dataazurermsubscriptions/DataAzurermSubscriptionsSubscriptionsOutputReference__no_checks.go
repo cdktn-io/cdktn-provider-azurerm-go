@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermSubscriptionsSubscriptionsOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSubscriptionsSubscriptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSubscriptionsSubscriptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermSubscriptionsSubscriptionsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionsSubscriptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSubscriptionsSubscriptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermSubscriptionsSubscriptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermSubscriptionsSubscriptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

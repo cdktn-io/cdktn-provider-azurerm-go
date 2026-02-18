@@ -5,14 +5,14 @@ package workloadssapdiscoveryvirtualinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/workloadssapdiscoveryvirtualinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/workloadssapdiscoveryvirtualinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -51,7 +51,7 @@ type WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference interface {
 
 // The jsii proxy struct for WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference
 type jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) 
 }
 
 
-func NewWorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference {
+func NewWorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWorkloadsSapDiscoveryVirtualInstanceIdentityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewWorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference(terraformRes
 	return &j
 }
 
-func NewWorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference_Override(w WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference_Override(w WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) 
 	return returns
 }
 
-func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -457,8 +457,8 @@ func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) 
 	return returns
 }
 
-func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -470,11 +470,11 @@ func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) 
 	return returns
 }
 
-func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -486,7 +486,7 @@ func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) 
 	return returns
 }
 
-func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

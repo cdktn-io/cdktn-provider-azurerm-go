@@ -5,20 +5,20 @@ package apimanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagement/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagement/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/api_management azurerm_api_management}.
 type ApiManagement interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalLocation() ApiManagementAdditionalLocationList
 	AdditionalLocationInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Certificate() ApiManagementCertificateList
 	CertificateInput() interface{}
 	ClientCertificateEnabled() interface{}
@@ -42,9 +42,9 @@ type ApiManagement interface {
 	SetDependsOn(val *[]*string)
 	DeveloperPortalUrl() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,9 +62,9 @@ type ApiManagement interface {
 	IdentityInput() *ApiManagementIdentity
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -85,9 +85,9 @@ type ApiManagement interface {
 	Protocols() ApiManagementProtocolsOutputReference
 	ProtocolsInput() *ApiManagementProtocols
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -126,7 +126,7 @@ type ApiManagement interface {
 	TenantAccess() ApiManagementTenantAccessOutputReference
 	TenantAccessInput() *ApiManagementTenantAccess
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -149,7 +149,7 @@ type ApiManagement interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -167,9 +167,9 @@ type ApiManagement interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -236,7 +236,7 @@ type ApiManagement interface {
 
 // The jsii proxy struct for ApiManagement
 type jsiiProxy_ApiManagement struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApiManagement) AdditionalLocation() ApiManagementAdditionalLocationList {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_ApiManagement) AdditionalLocationInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagement) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApiManagement) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -379,8 +379,8 @@ func (j *jsiiProxy_ApiManagement) DeveloperPortalUrl() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagement) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApiManagement) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -509,8 +509,8 @@ func (j *jsiiProxy_ApiManagement) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagement) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApiManagement) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -659,8 +659,8 @@ func (j *jsiiProxy_ApiManagement) ProtocolsInput() *ApiManagementProtocols {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagement) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApiManagement) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -929,8 +929,8 @@ func (j *jsiiProxy_ApiManagement) TenantAccessInput() *ApiManagementTenantAccess
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagement) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApiManagement) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1110,7 +1110,7 @@ func (j *jsiiProxy_ApiManagement)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagement)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApiManagement)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1140,7 +1140,7 @@ func (j *jsiiProxy_ApiManagement)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagement)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApiManagement)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1195,7 +1195,7 @@ func (j *jsiiProxy_ApiManagement)SetNotificationSenderEmail(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagement)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApiManagement)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1313,14 +1313,14 @@ func (j *jsiiProxy_ApiManagement)SetZones(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a ApiManagement resource upon running "cdktf plan <stack-name>".
-func ApiManagement_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApiManagement resource upon running "cdktn plan <stack-name>".
+func ApiManagement_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApiManagement_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.apiManagement.ApiManagement",
@@ -1454,11 +1454,11 @@ func (a *jsiiProxy_ApiManagement) GetAnyMapAttribute(terraformAttribute *string)
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagement) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagement) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1595,7 +1595,7 @@ func (a *jsiiProxy_ApiManagement) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagement) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApiManagement) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1606,11 +1606,11 @@ func (a *jsiiProxy_ApiManagement) ImportFrom(id *string, provider cdktf.Terrafor
 	)
 }
 
-func (a *jsiiProxy_ApiManagement) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagement) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

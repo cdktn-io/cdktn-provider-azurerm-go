@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathOutputReference
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbSqlContainerIndexingPolicyExcludedPathOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbSqlContainerIndexingPolicyExcludedPathOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

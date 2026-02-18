@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyList) validateGetParame
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetAdminSshKeyList) validateSetWrapsS
 	return nil
 }
 
-func validateNewLinuxVirtualMachineScaleSetAdminSshKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxVirtualMachineScaleSetAdminSshKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

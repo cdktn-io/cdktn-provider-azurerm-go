@@ -5,14 +5,14 @@ package datafactorytriggertumblingwindow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorytriggertumblingwindow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorytriggertumblingwindow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryTriggerTumblingWindowTriggerDependencyList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataFactoryTriggerTumblingWindowTriggerDependencyList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataFactoryTriggerTumblingWindowTriggerDependencyList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataFactoryTriggerTumblingWindowTriggerDependencyOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataFactoryTriggerTumblingWindowTriggerDependencyList interface {
 
 // The jsii proxy struct for DataFactoryTriggerTumblingWindowTriggerDependencyList
 type jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) WrapsS
 }
 
 
-func NewDataFactoryTriggerTumblingWindowTriggerDependencyList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryTriggerTumblingWindowTriggerDependencyList {
+func NewDataFactoryTriggerTumblingWindowTriggerDependencyList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryTriggerTumblingWindowTriggerDependencyList {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryTriggerTumblingWindowTriggerDependencyListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataFactoryTriggerTumblingWindowTriggerDependencyList(terraformResource 
 	return &j
 }
 
-func NewDataFactoryTriggerTumblingWindowTriggerDependencyList_Override(d DataFactoryTriggerTumblingWindowTriggerDependencyList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataFactoryTriggerTumblingWindowTriggerDependencyList_Override(d DataFactoryTriggerTumblingWindowTriggerDependencyList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList)SetTerr
 	)
 }
 
-func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList)SetWrap
 	)
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) Get(in
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindowTriggerDependencyList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

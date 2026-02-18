@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermImagesImagesOsDiskOutputReference) validateInterpo
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermImagesImagesOsDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermImagesImagesOsDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermImagesImagesOsDiskOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermImagesImagesOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermImagesImagesOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermImagesImagesOsDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermImagesImagesOsDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

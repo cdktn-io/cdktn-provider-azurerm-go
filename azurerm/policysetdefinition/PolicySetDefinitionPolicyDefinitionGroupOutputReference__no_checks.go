@@ -47,7 +47,7 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupOutputReference) vali
 	return nil
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPolicySetDefinitionPolicyDefinitionGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPolicySetDefinitionPolicyDefinitionGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

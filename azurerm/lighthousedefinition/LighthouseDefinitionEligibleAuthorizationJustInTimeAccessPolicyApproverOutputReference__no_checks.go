@@ -47,7 +47,7 @@ func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPoli
 	return nil
 }
 
-func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPoli
 	return nil
 }
 
-func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLighthouseDefinitionEligibleAuthorizationJustInTimeAccessPolicyApproverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

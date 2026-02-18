@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcKubernetesProvisionedClusterIdentityOutputReference) valid
 	return nil
 }
 
-func (a *jsiiProxy_ArcKubernetesProvisionedClusterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcKubernetesProvisionedClusterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ArcKubernetesProvisionedClusterIdentityOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcKubernetesProvisionedClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ArcKubernetesProvisionedClusterIdentityOutputReference) valid
 	return nil
 }
 
-func validateNewArcKubernetesProvisionedClusterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewArcKubernetesProvisionedClusterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

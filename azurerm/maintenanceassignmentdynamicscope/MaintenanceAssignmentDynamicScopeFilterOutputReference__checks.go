@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) valid
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MaintenanceAssignmentDynamicScopeFilterTags:
 		value := value.(*[]*MaintenanceAssignmentDynamicScopeFilterTags)
@@ -117,14 +117,14 @@ func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) valid
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MaintenanceAssignmentDynamicScopeFilterTags; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MaintenanceAssignmentDynamicScopeFilterTags; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -253,7 +253,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -261,7 +261,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterOutputReference) valid
 	return nil
 }
 
-func validateNewMaintenanceAssignmentDynamicScopeFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMaintenanceAssignmentDynamicScopeFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

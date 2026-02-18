@@ -167,7 +167,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseCloneFromDatabase) validateSetLicense
 	return nil
 }
 
-func (j *jsiiProxy_OracleAutonomousDatabaseCloneFromDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OracleAutonomousDatabaseCloneFromDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

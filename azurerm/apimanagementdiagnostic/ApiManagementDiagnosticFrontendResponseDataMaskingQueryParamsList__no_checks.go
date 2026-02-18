@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApiManagementDiagnosticFrontendResponseDataMaskingQueryParams
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementDiagnosticFrontendResponseDataMaskingQueryParamsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementDiagnosticFrontendResponseDataMaskingQueryParamsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApiManagementDiagnosticFrontendResponseDataMaskingQueryParams
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementDiagnosticFrontendResponseDataMaskingQueryParamsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementDiagnosticFrontendResponseDataMaskingQueryParamsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApiManagementDiagnosticFrontendResponseDataMaskingQueryParams
 	return nil
 }
 
-func validateNewApiManagementDiagnosticFrontendResponseDataMaskingQueryParamsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApiManagementDiagnosticFrontendResponseDataMaskingQueryParamsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

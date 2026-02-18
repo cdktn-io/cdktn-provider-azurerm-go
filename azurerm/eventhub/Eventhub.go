@@ -5,20 +5,20 @@ package eventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventhub/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventhub/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/eventhub azurerm_eventhub}.
 type Eventhub interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CaptureDescription() EventhubCaptureDescriptionOutputReference
 	CaptureDescriptionInput() *EventhubCaptureDescription
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type Eventhub interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,9 +45,9 @@ type Eventhub interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MessageRetention() *float64
 	SetMessageRetention(val *float64)
 	MessageRetentionInput() *float64
@@ -67,9 +67,9 @@ type Eventhub interface {
 	PartitionCountInput() *float64
 	PartitionIds() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type Eventhub interface {
 	SetStatus(val *string)
 	StatusInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type Eventhub interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type Eventhub interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type Eventhub interface {
 
 // The jsii proxy struct for Eventhub
 type jsiiProxy_Eventhub struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_Eventhub) CaptureDescription() EventhubCaptureDescriptionOutputReference {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_Eventhub) CaptureDescriptionInput() *EventhubCaptureDescripti
 	return returns
 }
 
-func (j *jsiiProxy_Eventhub) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_Eventhub) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -238,8 +238,8 @@ func (j *jsiiProxy_Eventhub) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Eventhub) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_Eventhub) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_Eventhub) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Eventhub) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_Eventhub) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -418,8 +418,8 @@ func (j *jsiiProxy_Eventhub) PartitionIds() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_Eventhub) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_Eventhub) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -508,8 +508,8 @@ func (j *jsiiProxy_Eventhub) StatusInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_Eventhub) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_Eventhub) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -618,7 +618,7 @@ func (j *jsiiProxy_Eventhub)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_Eventhub)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_Eventhub)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -637,7 +637,7 @@ func (j *jsiiProxy_Eventhub)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_Eventhub)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_Eventhub)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -703,7 +703,7 @@ func (j *jsiiProxy_Eventhub)SetPartitionCount(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_Eventhub)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_Eventhub)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -744,14 +744,14 @@ func (j *jsiiProxy_Eventhub)SetStatus(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a Eventhub resource upon running "cdktf plan <stack-name>".
-func Eventhub_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a Eventhub resource upon running "cdktn plan <stack-name>".
+func Eventhub_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEventhub_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.eventhub.Eventhub",
@@ -885,11 +885,11 @@ func (e *jsiiProxy_Eventhub) GetAnyMapAttribute(terraformAttribute *string) *map
 	return returns
 }
 
-func (e *jsiiProxy_Eventhub) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Eventhub) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1026,7 +1026,7 @@ func (e *jsiiProxy_Eventhub) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_Eventhub) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_Eventhub) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1037,11 +1037,11 @@ func (e *jsiiProxy_Eventhub) ImportFrom(id *string, provider cdktf.TerraformProv
 	)
 }
 
-func (e *jsiiProxy_Eventhub) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_Eventhub) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

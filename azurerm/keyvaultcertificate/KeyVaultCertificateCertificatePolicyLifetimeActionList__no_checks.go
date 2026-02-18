@@ -15,7 +15,7 @@ func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) valid
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) valid
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyLifetimeActionList) valid
 	return nil
 }
 
-func validateNewKeyVaultCertificateCertificatePolicyLifetimeActionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKeyVaultCertificateCertificatePolicyLifetimeActionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

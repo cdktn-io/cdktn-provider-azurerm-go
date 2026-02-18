@@ -131,7 +131,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceWeb) validateSetIntegrationRuntimeNam
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceWeb) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceWeb) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

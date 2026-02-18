@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterSecurityProfileOutputReference) validat
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterSecurityProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterSecurityProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_HdinsightHadoopClusterSecurityProfileOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterSecurityProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterSecurityProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterSecurityProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterSecurityProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

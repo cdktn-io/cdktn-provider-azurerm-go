@@ -71,7 +71,7 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) validatePutTwitterP
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -131,7 +131,7 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) validateSetUnauthen
 	return nil
 }
 
-func validateNewWindowsWebAppAuthSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppAuthSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

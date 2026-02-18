@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryFlowletDataFlowSinkList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryFlowletDataFlowSinkList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataFactoryFlowletDataFlowSinkListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryFlowletDataFlowSinkListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

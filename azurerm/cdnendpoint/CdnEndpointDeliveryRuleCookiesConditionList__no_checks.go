@@ -15,7 +15,7 @@ func (c *jsiiProxy_CdnEndpointDeliveryRuleCookiesConditionList) validateGetParam
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointDeliveryRuleCookiesConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointDeliveryRuleCookiesConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleCookiesConditionList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointDeliveryRuleCookiesConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointDeliveryRuleCookiesConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleCookiesConditionList) validateSetWraps
 	return nil
 }
 
-func validateNewCdnEndpointDeliveryRuleCookiesConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCdnEndpointDeliveryRuleCookiesConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

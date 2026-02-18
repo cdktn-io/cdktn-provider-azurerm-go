@@ -47,7 +47,7 @@ func (a *jsiiProxy_ArcKubernetesClusterExtensionTimeoutsOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_ArcKubernetesClusterExtensionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ArcKubernetesClusterExtensionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ArcKubernetesClusterExtensionTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ArcKubernetesClusterExtensionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ArcKubernetesClusterExtensionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ArcKubernetesClusterExtensionTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewArcKubernetesClusterExtensionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewArcKubernetesClusterExtensionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

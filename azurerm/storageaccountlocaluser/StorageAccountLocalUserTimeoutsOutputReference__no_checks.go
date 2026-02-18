@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountLocalUserTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountLocalUserTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountLocalUserTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StorageAccountLocalUserTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountLocalUserTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountLocalUserTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StorageAccountLocalUserTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewStorageAccountLocalUserTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountLocalUserTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

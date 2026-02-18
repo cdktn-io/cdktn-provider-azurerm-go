@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputR
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputR
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineRunCommandSourceScriptUriManagedIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

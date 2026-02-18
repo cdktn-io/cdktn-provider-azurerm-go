@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateGetParam
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateResolveP
 
 func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SignalrServiceNetworkAclPrivateEndpoint:
 		val := val.(*[]*SignalrServiceNetworkAclPrivateEndpoint)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetInter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*SignalrServiceNetworkAclPrivateEndpoint; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*SignalrServiceNetworkAclPrivateEndpoint; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetWraps
 	return nil
 }
 
-func validateNewSignalrServiceNetworkAclPrivateEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSignalrServiceNetworkAclPrivateEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

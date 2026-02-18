@@ -119,7 +119,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayNatRule) validateSetIpConfigurationIdPar
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayNatRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualNetworkGatewayNatRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

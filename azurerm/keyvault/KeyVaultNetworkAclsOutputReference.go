@@ -5,14 +5,14 @@ package keyvault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/keyvault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KeyVaultNetworkAclsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bypass() *string
 	SetBypass(val *string)
 	BypassInput() *string
@@ -46,9 +46,9 @@ type KeyVaultNetworkAclsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualNetworkSubnetIds() *[]*string
 	SetVirtualNetworkSubnetIds(val *[]*string)
 	VirtualNetworkSubnetIdsInput() *[]*string
@@ -57,7 +57,7 @@ type KeyVaultNetworkAclsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type KeyVaultNetworkAclsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIpRules()
 	ResetVirtualNetworkSubnetIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type KeyVaultNetworkAclsOutputReference interface {
 
 // The jsii proxy struct for KeyVaultNetworkAclsOutputReference
 type jsiiProxy_KeyVaultNetworkAclsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) Bypass() *string {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference) VirtualNetworkSubnetIdsIn
 }
 
 
-func NewKeyVaultNetworkAclsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KeyVaultNetworkAclsOutputReference {
+func NewKeyVaultNetworkAclsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KeyVaultNetworkAclsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKeyVaultNetworkAclsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewKeyVaultNetworkAclsOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewKeyVaultNetworkAclsOutputReference_Override(k KeyVaultNetworkAclsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKeyVaultNetworkAclsOutputReference_Override(k KeyVaultNetworkAclsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KeyVaultNetworkAclsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -527,8 +527,8 @@ func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -540,11 +540,11 @@ func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -572,7 +572,7 @@ func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) ResetVirtualNetworkSubnet
 	)
 }
 
-func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KeyVaultNetworkAclsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

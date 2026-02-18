@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountCustomDomainOutputReference) validateInterpolat
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountCustomDomainOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountCustomDomainOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_StorageAccountCustomDomainOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountCustomDomainOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountCustomDomainOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StorageAccountCustomDomainOutputReference) validateSetUseSubd
 	return nil
 }
 
-func validateNewStorageAccountCustomDomainOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountCustomDomainOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

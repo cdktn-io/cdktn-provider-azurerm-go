@@ -51,7 +51,7 @@ func (c *jsiiProxy_ContainerAppTemplateHttpScaleRuleOutputReference) validatePut
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateHttpScaleRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateHttpScaleRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ContainerAppTemplateHttpScaleRuleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateHttpScaleRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateHttpScaleRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAppTemplateHttpScaleRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppTemplateHttpScaleRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

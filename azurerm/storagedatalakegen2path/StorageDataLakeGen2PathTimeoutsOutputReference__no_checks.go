@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageDataLakeGen2PathTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2PathTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageDataLakeGen2PathTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StorageDataLakeGen2PathTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2PathTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageDataLakeGen2PathTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StorageDataLakeGen2PathTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewStorageDataLakeGen2PathTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageDataLakeGen2PathTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

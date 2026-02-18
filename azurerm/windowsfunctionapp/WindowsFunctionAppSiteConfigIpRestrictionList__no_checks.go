@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsFunctionAppSiteConfigIpRestrictionList) validateGetPar
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSiteConfigIpRestrictionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppSiteConfigIpRestrictionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsFunctionAppSiteConfigIpRestrictionList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSiteConfigIpRestrictionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppSiteConfigIpRestrictionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsFunctionAppSiteConfigIpRestrictionList) validateSetWra
 	return nil
 }
 
-func validateNewWindowsFunctionAppSiteConfigIpRestrictionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsFunctionAppSiteConfigIpRestrictionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

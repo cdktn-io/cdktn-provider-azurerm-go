@@ -119,7 +119,7 @@ func (j *jsiiProxy_DatadogMonitorTagRule) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_DatadogMonitorTagRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatadogMonitorTagRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

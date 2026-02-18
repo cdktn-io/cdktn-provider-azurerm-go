@@ -5,20 +5,20 @@ package dataazurermvirtualnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvirtualnetworkgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermvirtualnetworkgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type DataAzurermVirtualNetworkGateway interface {
-	cdktf.TerraformDataSource
-	ActiveActive() cdktf.IResolvable
+	cdktn.TerraformDataSource
+	ActiveActive() cdktn.IResolvable
 	BgpSettings() DataAzurermVirtualNetworkGatewayBgpSettingsList
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,11 +31,11 @@ type DataAzurermVirtualNetworkGateway interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EnableBgp() cdktf.IResolvable
+	EnableBgp() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,29 +46,29 @@ type DataAzurermVirtualNetworkGateway interface {
 	IdInput() *string
 	IpConfiguration() DataAzurermVirtualNetworkGatewayIpConfigurationList
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	PrivateIpAddressEnabled() cdktf.IResolvable
+	PrivateIpAddressEnabled() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	Sku() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type DataAzurermVirtualNetworkGateway interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,7 +99,7 @@ type DataAzurermVirtualNetworkGateway interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -125,11 +125,11 @@ type DataAzurermVirtualNetworkGateway interface {
 
 // The jsii proxy struct for DataAzurermVirtualNetworkGateway
 type jsiiProxy_DataAzurermVirtualNetworkGateway struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) ActiveActive() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) ActiveActive() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"activeActive",
@@ -148,8 +148,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) BgpSettings() DataAzurermVi
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -208,8 +208,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) EnableBgp() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) EnableBgp() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableBgp",
@@ -218,8 +218,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) EnableBgp() cdktf.IResolvab
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -288,8 +288,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) IpConfiguration() DataAzure
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -338,8 +338,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) PrivateIpAddressEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) PrivateIpAddressEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"privateIpAddressEnabled",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) PrivateIpAddressEnabled() c
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -398,8 +398,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Sku() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -408,8 +408,8 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -537,7 +537,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -556,7 +556,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -597,14 +597,14 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway)SetResourceGroupName(val *st
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermVirtualNetworkGateway resource upon running "cdktf plan <stack-name>".
-func DataAzurermVirtualNetworkGateway_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermVirtualNetworkGateway resource upon running "cdktn plan <stack-name>".
+func DataAzurermVirtualNetworkGateway_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermVirtualNetworkGateway_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermVirtualNetworkGateway.DataAzurermVirtualNetworkGateway",
@@ -727,11 +727,11 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -855,11 +855,11 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) GetStringMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

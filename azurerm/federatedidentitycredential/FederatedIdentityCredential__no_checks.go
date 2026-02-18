@@ -115,7 +115,7 @@ func (j *jsiiProxy_FederatedIdentityCredential) validateSetIssuerParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_FederatedIdentityCredential) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FederatedIdentityCredential) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

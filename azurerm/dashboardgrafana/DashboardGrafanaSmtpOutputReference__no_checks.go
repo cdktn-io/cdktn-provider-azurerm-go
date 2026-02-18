@@ -47,7 +47,7 @@ func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) validateSetVerificationS
 	return nil
 }
 
-func validateNewDashboardGrafanaSmtpOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDashboardGrafanaSmtpOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

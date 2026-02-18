@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetGalleryApplicationOutputReferenc
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetGalleryApplicationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetGalleryApplicationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetGalleryApplicationOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetGalleryApplicationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetGalleryApplicationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetGalleryApplicationOutputReferenc
 	return nil
 }
 
-func validateNewWindowsVirtualMachineScaleSetGalleryApplicationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsVirtualMachineScaleSetGalleryApplicationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

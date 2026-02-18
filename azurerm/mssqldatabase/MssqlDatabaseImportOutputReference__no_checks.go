@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlDatabaseImportOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (m *jsiiProxy_MssqlDatabaseImportOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlDatabaseImportOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_MssqlDatabaseImportOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_MssqlDatabaseImportOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlDatabaseImportOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlDatabaseImportOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlDatabaseImportOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_StorageContainerImmutabilityPolicy) validateSetImmutabilityPe
 	return nil
 }
 
-func (j *jsiiProxy_StorageContainerImmutabilityPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageContainerImmutabilityPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

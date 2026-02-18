@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyO
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyO
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

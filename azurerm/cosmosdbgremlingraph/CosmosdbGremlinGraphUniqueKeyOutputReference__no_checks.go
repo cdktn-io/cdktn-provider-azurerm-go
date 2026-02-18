@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbGremlinGraphUniqueKeyOutputReference) validateInterpo
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbGremlinGraphUniqueKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbGremlinGraphUniqueKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CosmosdbGremlinGraphUniqueKeyOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbGremlinGraphUniqueKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbGremlinGraphUniqueKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbGremlinGraphUniqueKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbGremlinGraphUniqueKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) validateInter
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPostgresqlFlexibleServerClusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlFlexibleServerClusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

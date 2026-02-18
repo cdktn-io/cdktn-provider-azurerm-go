@@ -5,14 +5,14 @@ package monitordatacollectionrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitordatacollectionrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitordatacollectionrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference int
 
 // The jsii proxy struct for MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference
 type jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutpu
 	return returns
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutpu
 }
 
 
-func NewMonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference {
+func NewMonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewMonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference(
 	return &j
 }
 
-func NewMonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference_Override(m MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference_Override(m MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutpu
 	)
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutpu
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -423,8 +423,8 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutpu
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutpu
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -452,7 +452,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutpu
 	return returns
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsAzureMonitorMetricsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

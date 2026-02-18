@@ -5,14 +5,14 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationGatewaySkuOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Capacity() *float64
 	SetCapacity(val *float64)
 	CapacityInput() *float64
@@ -43,9 +43,9 @@ type ApplicationGatewaySkuOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Tier() *string
 	SetTier(val *string)
 	TierInput() *string
@@ -54,7 +54,7 @@ type ApplicationGatewaySkuOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type ApplicationGatewaySkuOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCapacity()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type ApplicationGatewaySkuOutputReference interface {
 
 // The jsii proxy struct for ApplicationGatewaySkuOutputReference
 type jsiiProxy_ApplicationGatewaySkuOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApplicationGatewaySkuOutputReference) Capacity() *float64 {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_ApplicationGatewaySkuOutputReference) TerraformAttribute() *s
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGatewaySkuOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationGatewaySkuOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_ApplicationGatewaySkuOutputReference) TierInput() *string {
 }
 
 
-func NewApplicationGatewaySkuOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApplicationGatewaySkuOutputReference {
+func NewApplicationGatewaySkuOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApplicationGatewaySkuOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApplicationGatewaySkuOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewApplicationGatewaySkuOutputReference(terraformResource cdktf.IInterpolat
 	return &j
 }
 
-func NewApplicationGatewaySkuOutputReference_Override(a ApplicationGatewaySkuOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApplicationGatewaySkuOutputReference_Override(a ApplicationGatewaySkuOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_ApplicationGatewaySkuOutputReference)SetTerraformAttribute(va
 	)
 }
 
-func (j *jsiiProxy_ApplicationGatewaySkuOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationGatewaySkuOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -492,8 +492,8 @@ func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) GetStringMapAttribute(t
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -505,11 +505,11 @@ func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) InterpolationAsList() c
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -529,7 +529,7 @@ func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) ResetCapacity() {
 	)
 }
 
-func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationGatewaySkuOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

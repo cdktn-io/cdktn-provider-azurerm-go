@@ -5,14 +5,14 @@ package subscriptioncostmanagementview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/subscriptioncostmanagementview/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/subscriptioncostmanagementview/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SubscriptionCostManagementViewDatasetGroupingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type SubscriptionCostManagementViewDatasetGroupingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -51,7 +51,7 @@ type SubscriptionCostManagementViewDatasetGroupingOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type SubscriptionCostManagementViewDatasetGroupingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type SubscriptionCostManagementViewDatasetGroupingOutputReference interface {
 
 // The jsii proxy struct for SubscriptionCostManagementViewDatasetGroupingOutputReference
 type jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)
 }
 
 
-func NewSubscriptionCostManagementViewDatasetGroupingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SubscriptionCostManagementViewDatasetGroupingOutputReference {
+func NewSubscriptionCostManagementViewDatasetGroupingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SubscriptionCostManagementViewDatasetGroupingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSubscriptionCostManagementViewDatasetGroupingOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewSubscriptionCostManagementViewDatasetGroupingOutputReference(terraformRe
 	return &j
 }
 
-func NewSubscriptionCostManagementViewDatasetGroupingOutputReference_Override(s SubscriptionCostManagementViewDatasetGroupingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSubscriptionCostManagementViewDatasetGroupingOutputReference_Override(s SubscriptionCostManagementViewDatasetGroupingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)
 	)
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -457,8 +457,8 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -470,11 +470,11 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -486,7 +486,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SubscriptionCostManagementViewDatasetGroupingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

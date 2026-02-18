@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultCertificateCertificatePolicySecretPropertiesOutputRef
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicySecretPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicySecretPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicySecretPropertiesOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateCertificatePolicySecretPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateCertificatePolicySecretPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKeyVaultCertificateCertificatePolicySecretPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyVaultCertificateCertificatePolicySecretPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_CdnEndpointDeliveryRuleUrlFileExtensionConditionList) validat
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointDeliveryRuleUrlFileExtensionConditionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointDeliveryRuleUrlFileExtensionConditionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileExtensionConditionList) validat
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileExtensionConditionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileExtensionConditionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileExtensionConditionList) validat
 	return nil
 }
 
-func validateNewCdnEndpointDeliveryRuleUrlFileExtensionConditionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCdnEndpointDeliveryRuleUrlFileExtensionConditionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

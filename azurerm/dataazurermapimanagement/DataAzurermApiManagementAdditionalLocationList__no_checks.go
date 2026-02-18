@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApiManagementAdditionalLocationList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementAdditionalLocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApiManagementAdditionalLocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApiManagementAdditionalLocationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementAdditionalLocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApiManagementAdditionalLocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApiManagementAdditionalLocationList) validateSetWr
 	return nil
 }
 
-func validateNewDataAzurermApiManagementAdditionalLocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApiManagementAdditionalLocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

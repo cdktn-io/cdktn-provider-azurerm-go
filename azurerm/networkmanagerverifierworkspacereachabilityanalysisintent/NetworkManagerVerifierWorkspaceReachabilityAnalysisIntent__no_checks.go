@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) va
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

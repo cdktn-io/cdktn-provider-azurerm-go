@@ -51,7 +51,7 @@ func (v *jsiiProxy_VirtualMachineRunCommandSourceOutputReference) validatePutScr
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineRunCommandSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineRunCommandSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_VirtualMachineRunCommandSourceOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineRunCommandSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineRunCommandSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineRunCommandSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineRunCommandSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

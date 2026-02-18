@@ -5,14 +5,14 @@ package mysqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mysqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mysqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MysqlFlexibleServerCustomerManagedKeyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -52,15 +52,15 @@ type MysqlFlexibleServerCustomerManagedKeyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type MysqlFlexibleServerCustomerManagedKeyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetGeoBackupKeyVaultKeyId()
 	ResetGeoBackupUserAssignedIdentityId()
 	ResetKeyVaultKeyId()
@@ -86,7 +86,7 @@ type MysqlFlexibleServerCustomerManagedKeyOutputReference interface {
 	ResetPrimaryUserAssignedIdentityId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type MysqlFlexibleServerCustomerManagedKeyOutputReference interface {
 
 // The jsii proxy struct for MysqlFlexibleServerCustomerManagedKeyOutputReference
 type jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) Terrafo
 }
 
 
-func NewMysqlFlexibleServerCustomerManagedKeyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MysqlFlexibleServerCustomerManagedKeyOutputReference {
+func NewMysqlFlexibleServerCustomerManagedKeyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MysqlFlexibleServerCustomerManagedKeyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMysqlFlexibleServerCustomerManagedKeyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewMysqlFlexibleServerCustomerManagedKeyOutputReference(terraformResource c
 	return &j
 }
 
-func NewMysqlFlexibleServerCustomerManagedKeyOutputReference_Override(m MysqlFlexibleServerCustomerManagedKeyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMysqlFlexibleServerCustomerManagedKeyOutputReference_Override(m MysqlFlexibleServerCustomerManagedKeyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) GetAnyM
 	return returns
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -564,8 +564,8 @@ func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) GetStri
 	return returns
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -577,11 +577,11 @@ func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) Interpo
 	return returns
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -633,7 +633,7 @@ func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) ResetPr
 	)
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -5,18 +5,18 @@ package containerappenvironmentcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerappenvironmentcustomdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerappenvironmentcustomdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/container_app_environment_custom_domain azurerm_container_app_environment_custom_domain}.
 type ContainerAppEnvironmentCustomDomain interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	CertificateBlobBase64() *string
 	SetCertificateBlobBase64(val *string)
 	CertificateBlobBase64Input() *string
@@ -44,9 +44,9 @@ type ContainerAppEnvironmentCustomDomain interface {
 	SetDnsSuffix(val *string)
 	DnsSuffixInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,15 +55,15 @@ type ContainerAppEnvironmentCustomDomain interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type ContainerAppEnvironmentCustomDomain interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type ContainerAppEnvironmentCustomDomain interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type ContainerAppEnvironmentCustomDomain interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -142,11 +142,11 @@ type ContainerAppEnvironmentCustomDomain interface {
 
 // The jsii proxy struct for ContainerAppEnvironmentCustomDomain
 type jsiiProxy_ContainerAppEnvironmentCustomDomain struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -275,8 +275,8 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) DnsSuffixInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -325,8 +325,8 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -345,8 +345,8 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -375,8 +375,8 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) RawOverrides() interface
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -529,7 +529,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetDnsSuffix(val *string)
 	)
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -548,7 +548,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -559,7 +559,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetLifecycle(val *cdktf.T
 	)
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -578,14 +578,14 @@ func (j *jsiiProxy_ContainerAppEnvironmentCustomDomain)SetProvisioners(val *[]in
 	)
 }
 
-// Generates CDKTF code for importing a ContainerAppEnvironmentCustomDomain resource upon running "cdktf plan <stack-name>".
-func ContainerAppEnvironmentCustomDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ContainerAppEnvironmentCustomDomain resource upon running "cdktn plan <stack-name>".
+func ContainerAppEnvironmentCustomDomain_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateContainerAppEnvironmentCustomDomain_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.containerAppEnvironmentCustomDomain.ContainerAppEnvironmentCustomDomain",
@@ -719,11 +719,11 @@ func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -860,7 +860,7 @@ func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) HasResourceMove() interf
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -871,11 +871,11 @@ func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) ImportFrom(id *string, p
 	)
 }
 
-func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppEnvironmentCustomDomain) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

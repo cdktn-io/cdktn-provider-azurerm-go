@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupPolicyVmTieringPolicyArchivedRestorePointOutputReferenc
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyVmTieringPolicyArchivedRestorePointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyVmTieringPolicyArchivedRestorePointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_BackupPolicyVmTieringPolicyArchivedRestorePointOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyVmTieringPolicyArchivedRestorePointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyVmTieringPolicyArchivedRestorePointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBackupPolicyVmTieringPolicyArchivedRestorePointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPolicyVmTieringPolicyArchivedRestorePointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

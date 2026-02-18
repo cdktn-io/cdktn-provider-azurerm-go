@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubDpsCertificateTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (i *jsiiProxy_IothubDpsCertificateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubDpsCertificateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IothubDpsCertificateTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_IothubDpsCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubDpsCertificateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IothubDpsCertificateTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewIothubDpsCertificateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIothubDpsCertificateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

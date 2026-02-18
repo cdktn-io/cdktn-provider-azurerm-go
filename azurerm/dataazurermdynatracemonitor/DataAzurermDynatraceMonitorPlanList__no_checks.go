@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermDynatraceMonitorPlanList) validateGetParameters(in
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDynatraceMonitorPlanList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDynatraceMonitorPlanList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermDynatraceMonitorPlanList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDynatraceMonitorPlanList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDynatraceMonitorPlanList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermDynatraceMonitorPlanList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewDataAzurermDynatraceMonitorPlanListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermDynatraceMonitorPlanListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

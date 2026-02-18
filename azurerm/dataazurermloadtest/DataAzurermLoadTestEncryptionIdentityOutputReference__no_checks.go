@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermLoadTestEncryptionIdentityOutputReference) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLoadTestEncryptionIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLoadTestEncryptionIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermLoadTestEncryptionIdentityOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLoadTestEncryptionIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLoadTestEncryptionIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermLoadTestEncryptionIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermLoadTestEncryptionIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

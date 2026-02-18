@@ -15,7 +15,7 @@ func (b *jsiiProxy_BotChannelFacebookPageList) validateGetParameters(index *floa
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelFacebookPageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelFacebookPageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BotChannelFacebookPageList) validateSetTerraformAttributePara
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelFacebookPageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelFacebookPageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BotChannelFacebookPageList) validateSetWrapsSetParameters(val
 	return nil
 }
 
-func validateNewBotChannelFacebookPageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBotChannelFacebookPageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

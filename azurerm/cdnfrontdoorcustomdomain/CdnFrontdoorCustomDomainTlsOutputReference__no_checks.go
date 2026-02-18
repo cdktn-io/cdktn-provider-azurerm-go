@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateInterpola
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnFrontdoorCustomDomainTlsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorCustomDomainTlsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

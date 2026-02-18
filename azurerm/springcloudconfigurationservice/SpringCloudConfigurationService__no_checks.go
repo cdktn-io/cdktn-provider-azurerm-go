@@ -115,7 +115,7 @@ func (j *jsiiProxy_SpringCloudConfigurationService) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudConfigurationService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudConfigurationService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

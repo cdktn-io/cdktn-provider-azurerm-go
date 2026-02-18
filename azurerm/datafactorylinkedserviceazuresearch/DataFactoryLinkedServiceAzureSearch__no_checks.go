@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateSetIntegrationRu
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

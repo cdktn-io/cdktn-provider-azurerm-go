@@ -47,7 +47,7 @@ func (r *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApprov
 	return nil
 }
 
-func (r *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApprov
 	return nil
 }
 
-func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApprov
 	return nil
 }
 
-func validateNewRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

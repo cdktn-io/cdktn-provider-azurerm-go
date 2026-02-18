@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputRe
 	return nil
 }
 
-func validateNewContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppTemplateAzureQueueScaleRuleAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

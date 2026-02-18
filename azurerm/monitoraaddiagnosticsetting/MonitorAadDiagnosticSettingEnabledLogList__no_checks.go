@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogList) validateGetParamet
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewMonitorAadDiagnosticSettingEnabledLogListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorAadDiagnosticSettingEnabledLogListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

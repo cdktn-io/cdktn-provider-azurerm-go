@@ -119,7 +119,7 @@ func (j *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

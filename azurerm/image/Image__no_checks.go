@@ -119,7 +119,7 @@ func (j *jsiiProxy_Image) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_Image) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Image) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsV2AppleV2OutputReference) validateIn
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsV2AppleV2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsV2AppleV2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsV2AppleV2OutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsV2AppleV2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppAuthSettingsV2AppleV2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsWebAppAuthSettingsV2AppleV2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppAuthSettingsV2AppleV2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateGetParameters
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateResolveParame
 
 func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*HpcCacheNfsTargetNamespaceJunction:
 		val := val.(*[]*HpcCacheNfsTargetNamespaceJunction)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetInternalVa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*HpcCacheNfsTargetNamespaceJunction; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*HpcCacheNfsTargetNamespaceJunction; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewHpcCacheNfsTargetNamespaceJunctionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHpcCacheNfsTargetNamespaceJunctionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

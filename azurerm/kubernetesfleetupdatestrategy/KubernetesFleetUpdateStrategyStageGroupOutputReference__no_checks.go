@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageGroupOutputReference) valid
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageGroupOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesFleetUpdateStrategyStageGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesFleetUpdateStrategyStageGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

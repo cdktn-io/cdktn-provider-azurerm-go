@@ -59,7 +59,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validatePutServe
 	return nil
 }
 
-func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnServerConfigurationRadiusOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnServerConfigurationRadiusOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpnServerConfigurationRadiusOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

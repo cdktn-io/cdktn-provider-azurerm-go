@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleActionGroupConditionMonitorServiceO
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleActionGroupConditionMonitorServiceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAlertProcessingRuleActionGroupConditionMonitorServiceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupConditionMonitorServiceO
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupConditionMonitorServiceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupConditionMonitorServiceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroupConditionMonitorServiceO
 	return nil
 }
 
-func validateNewMonitorAlertProcessingRuleActionGroupConditionMonitorServiceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorAlertProcessingRuleActionGroupConditionMonitorServiceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

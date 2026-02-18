@@ -15,7 +15,7 @@ func (r *jsiiProxy_RedisCachePatchScheduleList) validateGetParameters(index *flo
 	return nil
 }
 
-func (r *jsiiProxy_RedisCachePatchScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisCachePatchScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RedisCachePatchScheduleList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_RedisCachePatchScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisCachePatchScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RedisCachePatchScheduleList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewRedisCachePatchScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRedisCachePatchScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

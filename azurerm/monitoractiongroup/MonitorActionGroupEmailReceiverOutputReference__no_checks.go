@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorActionGroupEmailReceiverOutputReference) validateInter
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActionGroupEmailReceiverOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActionGroupEmailReceiverOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorActionGroupEmailReceiverOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActionGroupEmailReceiverOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActionGroupEmailReceiverOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorActionGroupEmailReceiverOutputReference) validateSetUs
 	return nil
 }
 
-func validateNewMonitorActionGroupEmailReceiverOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorActionGroupEmailReceiverOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

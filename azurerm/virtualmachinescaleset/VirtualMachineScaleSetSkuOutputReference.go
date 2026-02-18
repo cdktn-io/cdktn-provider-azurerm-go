@@ -5,14 +5,14 @@ package virtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VirtualMachineScaleSetSkuOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Capacity() *float64
 	SetCapacity(val *float64)
 	CapacityInput() *float64
@@ -43,9 +43,9 @@ type VirtualMachineScaleSetSkuOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Tier() *string
 	SetTier(val *string)
 	TierInput() *string
@@ -54,7 +54,7 @@ type VirtualMachineScaleSetSkuOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,13 +70,13 @@ type VirtualMachineScaleSetSkuOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTier()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -86,7 +86,7 @@ type VirtualMachineScaleSetSkuOutputReference interface {
 
 // The jsii proxy struct for VirtualMachineScaleSetSkuOutputReference
 type jsiiProxy_VirtualMachineScaleSetSkuOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) Capacity() *float64 {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -220,7 +220,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) TierInput() *string
 }
 
 
-func NewVirtualMachineScaleSetSkuOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VirtualMachineScaleSetSkuOutputReference {
+func NewVirtualMachineScaleSetSkuOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VirtualMachineScaleSetSkuOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVirtualMachineScaleSetSkuOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -237,7 +237,7 @@ func NewVirtualMachineScaleSetSkuOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewVirtualMachineScaleSetSkuOutputReference_Override(v VirtualMachineScaleSetSkuOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVirtualMachineScaleSetSkuOutputReference_Override(v VirtualMachineScaleSetSkuOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -313,7 +313,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VirtualMachineScaleSetSkuOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -364,11 +364,11 @@ func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -492,8 +492,8 @@ func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -505,11 +505,11 @@ func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) InterpolationAsList
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -529,7 +529,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) ResetTier() {
 	)
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VirtualMachineScaleSetSkuOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

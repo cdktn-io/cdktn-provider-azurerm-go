@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTrigge
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTriggerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTriggerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTrigge
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTriggerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTriggerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTriggerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermMonitorScheduledQueryRulesAlertTriggerMetricTriggerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

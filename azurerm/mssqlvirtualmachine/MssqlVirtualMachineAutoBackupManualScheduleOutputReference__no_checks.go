@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAutoBackupManualScheduleOutputReference) v
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAutoBackupManualScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineAutoBackupManualScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_MssqlVirtualMachineAutoBackupManualScheduleOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAutoBackupManualScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineAutoBackupManualScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlVirtualMachineAutoBackupManualScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualMachineAutoBackupManualScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

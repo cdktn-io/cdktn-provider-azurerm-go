@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermStorageAccountIdentityList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStorageAccountIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStorageAccountIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountIdentityList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageAccountIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStorageAccountIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountIdentityList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDataAzurermStorageAccountIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermStorageAccountIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

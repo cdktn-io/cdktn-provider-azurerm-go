@@ -115,7 +115,7 @@ func (j *jsiiProxy_IpGroupCidr) validateSetIpGroupIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_IpGroupCidr) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IpGroupCidr) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,23 +5,23 @@ package cosmosdbcassandrakeyspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbcassandrakeyspace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbcassandrakeyspace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/cosmosdb_cassandra_keyspace azurerm_cosmosdb_cassandra_keyspace}.
 type CosmosdbCassandraKeyspace interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountName() *string
 	SetAccountName(val *string)
 	AccountNameInput() *string
 	AutoscaleSettings() CosmosdbCassandraKeyspaceAutoscaleSettingsOutputReference
 	AutoscaleSettingsInput() *CosmosdbCassandraKeyspaceAutoscaleSettings
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,9 +37,9 @@ type CosmosdbCassandraKeyspace interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,18 +48,18 @@ type CosmosdbCassandraKeyspace interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type CosmosdbCassandraKeyspace interface {
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type CosmosdbCassandraKeyspace interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,9 +106,9 @@ type CosmosdbCassandraKeyspace interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type CosmosdbCassandraKeyspace interface {
 
 // The jsii proxy struct for CosmosdbCassandraKeyspace
 type jsiiProxy_CosmosdbCassandraKeyspace struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CosmosdbCassandraKeyspace) AccountName() *string {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace) AutoscaleSettingsInput() *Cosmosdb
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CosmosdbCassandraKeyspace) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -240,8 +240,8 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CosmosdbCassandraKeyspace) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CosmosdbCassandraKeyspace) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -330,8 +330,8 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CosmosdbCassandraKeyspace) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace) ResourceGroupNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CosmosdbCassandraKeyspace) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -521,7 +521,7 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -540,7 +540,7 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -562,7 +562,7 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -603,14 +603,14 @@ func (j *jsiiProxy_CosmosdbCassandraKeyspace)SetThroughput(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a CosmosdbCassandraKeyspace resource upon running "cdktf plan <stack-name>".
-func CosmosdbCassandraKeyspace_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CosmosdbCassandraKeyspace resource upon running "cdktn plan <stack-name>".
+func CosmosdbCassandraKeyspace_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCosmosdbCassandraKeyspace_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.cosmosdbCassandraKeyspace.CosmosdbCassandraKeyspace",
@@ -744,11 +744,11 @@ func (c *jsiiProxy_CosmosdbCassandraKeyspace) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbCassandraKeyspace) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbCassandraKeyspace) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -885,7 +885,7 @@ func (c *jsiiProxy_CosmosdbCassandraKeyspace) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbCassandraKeyspace) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CosmosdbCassandraKeyspace) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -896,11 +896,11 @@ func (c *jsiiProxy_CosmosdbCassandraKeyspace) ImportFrom(id *string, provider cd
 	)
 }
 
-func (c *jsiiProxy_CosmosdbCassandraKeyspace) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbCassandraKeyspace) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

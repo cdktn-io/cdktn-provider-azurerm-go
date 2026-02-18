@@ -5,14 +5,14 @@ package virtualmachineruncommand
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachineruncommand/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualmachineruncommand/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -43,15 +43,15 @@ type VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClientId()
 	ResetObjectId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference interface {
 
 // The jsii proxy struct for VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference
 type jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) ClientId() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReferen
 }
 
 
-func NewVirtualMachineRunCommandErrorBlobManagedIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference {
+func NewVirtualMachineRunCommandErrorBlobManagedIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVirtualMachineRunCommandErrorBlobManagedIdentityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewVirtualMachineRunCommandErrorBlobManagedIdentityOutputReference(terrafor
 	return &j
 }
 
-func NewVirtualMachineRunCommandErrorBlobManagedIdentityOutputReference_Override(v VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVirtualMachineRunCommandErrorBlobManagedIdentityOutputReference_Override(v VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReferen
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReferen
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -459,8 +459,8 @@ func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReferen
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -472,11 +472,11 @@ func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReferen
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -504,7 +504,7 @@ func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReferen
 	)
 }
 
-func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VirtualMachineRunCommandErrorBlobManagedIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

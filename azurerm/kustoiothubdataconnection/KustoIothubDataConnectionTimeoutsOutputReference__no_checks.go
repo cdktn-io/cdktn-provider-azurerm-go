@@ -47,7 +47,7 @@ func (k *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (k *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KustoIothubDataConnectionTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewKustoIothubDataConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoIothubDataConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

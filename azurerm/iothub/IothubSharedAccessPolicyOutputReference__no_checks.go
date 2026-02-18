@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubSharedAccessPolicyOutputReference) validateInterpolatio
 	return nil
 }
 
-func (i *jsiiProxy_IothubSharedAccessPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubSharedAccessPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_IothubSharedAccessPolicyOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_IothubSharedAccessPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubSharedAccessPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIothubSharedAccessPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIothubSharedAccessPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

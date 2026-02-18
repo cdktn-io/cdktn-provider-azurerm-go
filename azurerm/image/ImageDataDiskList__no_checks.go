@@ -15,7 +15,7 @@ func (i *jsiiProxy_ImageDataDiskList) validateGetParameters(index *float64) erro
 	return nil
 }
 
-func (i *jsiiProxy_ImageDataDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_ImageDataDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ImageDataDiskList) validateSetTerraformAttributeParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_ImageDataDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ImageDataDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ImageDataDiskList) validateSetWrapsSetParameters(val *bool) e
 	return nil
 }
 
-func validateNewImageDataDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewImageDataDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

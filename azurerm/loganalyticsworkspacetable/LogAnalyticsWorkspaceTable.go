@@ -5,18 +5,18 @@ package loganalyticsworkspacetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticsworkspacetable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/loganalyticsworkspacetable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/log_analytics_workspace_table azurerm_log_analytics_workspace_table}.
 type LogAnalyticsWorkspaceTable interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type LogAnalyticsWorkspaceTable interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,9 +43,9 @@ type LogAnalyticsWorkspaceTable interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -55,9 +55,9 @@ type LogAnalyticsWorkspaceTable interface {
 	SetPlan(val *string)
 	PlanInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type LogAnalyticsWorkspaceTable interface {
 	SetRetentionInDays(val *float64)
 	RetentionInDaysInput() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type LogAnalyticsWorkspaceTable interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type LogAnalyticsWorkspaceTable interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -148,11 +148,11 @@ type LogAnalyticsWorkspaceTable interface {
 
 // The jsii proxy struct for LogAnalyticsWorkspaceTable
 type jsiiProxy_LogAnalyticsWorkspaceTable struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -201,8 +201,8 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -251,8 +251,8 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -311,8 +311,8 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable) PlanInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable) RetentionInDaysInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -511,7 +511,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -530,7 +530,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -563,7 +563,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetPlan(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -615,14 +615,14 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTable)SetWorkspaceId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a LogAnalyticsWorkspaceTable resource upon running "cdktf plan <stack-name>".
-func LogAnalyticsWorkspaceTable_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LogAnalyticsWorkspaceTable resource upon running "cdktn plan <stack-name>".
+func LogAnalyticsWorkspaceTable_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLogAnalyticsWorkspaceTable_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.logAnalyticsWorkspaceTable.LogAnalyticsWorkspaceTable",
@@ -756,11 +756,11 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTable) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTable) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTable) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -897,7 +897,7 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTable) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTable) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTable) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -908,11 +908,11 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTable) ImportFrom(id *string, provider c
 	)
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTable) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTable) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

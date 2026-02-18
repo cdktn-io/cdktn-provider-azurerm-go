@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermKubernetesFleetManagerTimeoutsOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesFleetManagerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesFleetManagerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermKubernetesFleetManagerTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesFleetManagerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesFleetManagerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermKubernetesFleetManagerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermKubernetesFleetManagerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

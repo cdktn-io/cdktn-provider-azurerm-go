@@ -5,18 +5,18 @@ package vpnserverconfigurationpolicygroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpnserverconfigurationpolicygroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vpnserverconfigurationpolicygroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/vpn_server_configuration_policy_group azurerm_vpn_server_configuration_policy_group}.
 type VpnServerConfigurationPolicyGroup interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type VpnServerConfigurationPolicyGroup interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type VpnServerConfigurationPolicyGroup interface {
 	SetIsDefault(val interface{})
 	IsDefaultInput() interface{}
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -60,9 +60,9 @@ type VpnServerConfigurationPolicyGroup interface {
 	SetPriority(val *float64)
 	PriorityInput() *float64
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -70,7 +70,7 @@ type VpnServerConfigurationPolicyGroup interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type VpnServerConfigurationPolicyGroup interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,9 +106,9 @@ type VpnServerConfigurationPolicyGroup interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,11 +147,11 @@ type VpnServerConfigurationPolicyGroup interface {
 
 // The jsii proxy struct for VpnServerConfigurationPolicyGroup
 type jsiiProxy_VpnServerConfigurationPolicyGroup struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -200,8 +200,8 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -270,8 +270,8 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) IsDefaultInput() interface
 	return returns
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -350,8 +350,8 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) PriorityInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -380,8 +380,8 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) RawOverrides() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -510,7 +510,7 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetDependsOn(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -540,7 +540,7 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetIsDefault(val interface{
 	)
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -573,7 +573,7 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetPriority(val *float64) {
 	)
 }
 
-func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -603,14 +603,14 @@ func (j *jsiiProxy_VpnServerConfigurationPolicyGroup)SetVpnServerConfigurationId
 	)
 }
 
-// Generates CDKTF code for importing a VpnServerConfigurationPolicyGroup resource upon running "cdktf plan <stack-name>".
-func VpnServerConfigurationPolicyGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VpnServerConfigurationPolicyGroup resource upon running "cdktn plan <stack-name>".
+func VpnServerConfigurationPolicyGroup_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVpnServerConfigurationPolicyGroup_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.vpnServerConfigurationPolicyGroup.VpnServerConfigurationPolicyGroup",
@@ -744,11 +744,11 @@ func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -885,7 +885,7 @@ func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) HasResourceMove() interfac
 	return returns
 }
 
-func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -896,11 +896,11 @@ func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) ImportFrom(id *string, pro
 	)
 }
 
-func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnServerConfigurationPolicyGroup) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

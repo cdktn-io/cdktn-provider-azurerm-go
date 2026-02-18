@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleAuthenticationOutputRefere
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleAuthenticationOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleAuthenticationOutputRefere
 	return nil
 }
 
-func validateNewContainerAppTemplateCustomScaleRuleAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppTemplateCustomScaleRuleAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (s *jsiiProxy_StorageAccountNetworkRulesOutputReference) validatePutPrivate
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountNetworkRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountNetworkRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageAccountNetworkRulesOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountNetworkRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountNetworkRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_StorageAccountNetworkRulesOutputReference) validateSetVirtual
 	return nil
 }
 
-func validateNewStorageAccountNetworkRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountNetworkRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlJobAgentIdentityOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (m *jsiiProxy_MssqlJobAgentIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlJobAgentIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MssqlJobAgentIdentityOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_MssqlJobAgentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlJobAgentIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlJobAgentIdentityOutputReference) validateSetTypeParamete
 	return nil
 }
 
-func validateNewMssqlJobAgentIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlJobAgentIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

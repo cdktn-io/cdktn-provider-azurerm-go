@@ -115,7 +115,7 @@ func (j *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitorin
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitoring) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitoring) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

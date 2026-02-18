@@ -111,7 +111,7 @@ func (j *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

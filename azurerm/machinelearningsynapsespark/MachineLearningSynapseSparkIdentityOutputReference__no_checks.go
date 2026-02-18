@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningSynapseSparkIdentityOutputReference) validateI
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningSynapseSparkIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningSynapseSparkIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MachineLearningSynapseSparkIdentityOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningSynapseSparkIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningSynapseSparkIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MachineLearningSynapseSparkIdentityOutputReference) validateS
 	return nil
 }
 
-func validateNewMachineLearningSynapseSparkIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningSynapseSparkIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

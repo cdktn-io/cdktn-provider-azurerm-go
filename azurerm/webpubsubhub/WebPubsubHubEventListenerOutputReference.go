@@ -5,14 +5,14 @@ package webpubsubhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubhub/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webpubsubhub/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WebPubsubHubEventListenerOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type WebPubsubHubEventListenerOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserEventNameFilter() *[]*string
 	SetUserEventNameFilter(val *[]*string)
 	UserEventNameFilterInput() *[]*string
@@ -57,7 +57,7 @@ type WebPubsubHubEventListenerOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type WebPubsubHubEventListenerOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSystemEventNameFilter()
 	ResetUserEventNameFilter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type WebPubsubHubEventListenerOutputReference interface {
 
 // The jsii proxy struct for WebPubsubHubEventListenerOutputReference
 type jsiiProxy_WebPubsubHubEventListenerOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) ComplexObjectIndex() interface{} {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference) UserEventNameFilter
 }
 
 
-func NewWebPubsubHubEventListenerOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WebPubsubHubEventListenerOutputReference {
+func NewWebPubsubHubEventListenerOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WebPubsubHubEventListenerOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWebPubsubHubEventListenerOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -261,7 +261,7 @@ func NewWebPubsubHubEventListenerOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewWebPubsubHubEventListenerOutputReference_Override(w WebPubsubHubEventListenerOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWebPubsubHubEventListenerOutputReference_Override(w WebPubsubHubEventListenerOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WebPubsubHubEventListenerOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -527,8 +527,8 @@ func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -540,11 +540,11 @@ func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) InterpolationAsList
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -572,7 +572,7 @@ func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) ResetUserEventNameF
 	)
 }
 
-func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WebPubsubHubEventListenerOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (m *jsiiProxy_MongoClusterConnectionStringsList) validateGetParameters(inde
 	return nil
 }
 
-func (m *jsiiProxy_MongoClusterConnectionStringsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MongoClusterConnectionStringsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_MongoClusterConnectionStringsList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewMongoClusterConnectionStringsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMongoClusterConnectionStringsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

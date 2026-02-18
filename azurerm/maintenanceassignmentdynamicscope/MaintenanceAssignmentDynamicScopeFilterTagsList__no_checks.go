@@ -15,7 +15,7 @@ func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) validateGetP
 	return nil
 }
 
-func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) validateSetW
 	return nil
 }
 
-func validateNewMaintenanceAssignmentDynamicScopeFilterTagsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMaintenanceAssignmentDynamicScopeFilterTagsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

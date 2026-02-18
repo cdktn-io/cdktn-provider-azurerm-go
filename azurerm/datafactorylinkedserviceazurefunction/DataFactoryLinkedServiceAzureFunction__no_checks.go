@@ -135,7 +135,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureFunction) validateSetKeyParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureFunction) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureFunction) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

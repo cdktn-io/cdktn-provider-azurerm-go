@@ -5,14 +5,14 @@ package networkconnectionmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkconnectionmonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkconnectionmonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TraceRouteEnabled() interface{}
 	SetTraceRouteEnabled(val interface{})
 	TraceRouteEnabledInput() interface{}
@@ -48,7 +48,7 @@ type NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference i
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetTraceRouteEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference i
 
 // The jsii proxy struct for NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference
 type jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOut
 	return returns
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOut
 }
 
 
-func NewNetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference {
+func NewNetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewNetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReferenc
 	return &j
 }
 
-func NewNetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference_Override(n NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference_Override(n NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOut
 	)
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOut
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -424,8 +424,8 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOut
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -437,11 +437,11 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOut
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -461,7 +461,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOut
 	)
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationIcmpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceReplicaSetsList) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceReplicaSetsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainServiceReplicaSetsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceReplicaSetsList) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceReplicaSetsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceReplicaSetsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainServiceReplicaSetsList) valid
 	return nil
 }
 
-func validateNewDataAzurermActiveDirectoryDomainServiceReplicaSetsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermActiveDirectoryDomainServiceReplicaSetsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

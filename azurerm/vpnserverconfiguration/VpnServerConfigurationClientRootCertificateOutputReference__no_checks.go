@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpnServerConfigurationClientRootCertificateOutputReference) v
 	return nil
 }
 
-func (v *jsiiProxy_VpnServerConfigurationClientRootCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnServerConfigurationClientRootCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpnServerConfigurationClientRootCertificateOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationClientRootCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnServerConfigurationClientRootCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnServerConfigurationClientRootCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpnServerConfigurationClientRootCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

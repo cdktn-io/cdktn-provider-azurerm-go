@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedLustreFileSystemMaintenanceWindowOutputReference) vali
 	return nil
 }
 
-func (m *jsiiProxy_ManagedLustreFileSystemMaintenanceWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedLustreFileSystemMaintenanceWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ManagedLustreFileSystemMaintenanceWindowOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ManagedLustreFileSystemMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedLustreFileSystemMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagedLustreFileSystemMaintenanceWindowOutputReference) vali
 	return nil
 }
 
-func validateNewManagedLustreFileSystemMaintenanceWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedLustreFileSystemMaintenanceWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

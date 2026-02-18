@@ -5,14 +5,14 @@ package networkconnectionmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkconnectionmonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkconnectionmonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkConnectionMonitorEndpointOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Address() *string
 	SetAddress(val *string)
 	AddressInput() *string
@@ -60,15 +60,15 @@ type NetworkConnectionMonitorEndpointOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,9 +84,9 @@ type NetworkConnectionMonitorEndpointOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFilter(value *NetworkConnectionMonitorEndpointFilter)
 	ResetAddress()
 	ResetCoverageLevel()
@@ -97,7 +97,7 @@ type NetworkConnectionMonitorEndpointOutputReference interface {
 	ResetTargetResourceType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type NetworkConnectionMonitorEndpointOutputReference interface {
 
 // The jsii proxy struct for NetworkConnectionMonitorEndpointOutputReference
 type jsiiProxy_NetworkConnectionMonitorEndpointOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) Address() *string {
@@ -330,8 +330,8 @@ func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -341,7 +341,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) TerraformRes
 }
 
 
-func NewNetworkConnectionMonitorEndpointOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkConnectionMonitorEndpointOutputReference {
+func NewNetworkConnectionMonitorEndpointOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetworkConnectionMonitorEndpointOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkConnectionMonitorEndpointOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -358,7 +358,7 @@ func NewNetworkConnectionMonitorEndpointOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewNetworkConnectionMonitorEndpointOutputReference_Override(n NetworkConnectionMonitorEndpointOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetworkConnectionMonitorEndpointOutputReference_Override(n NetworkConnectionMonitorEndpointOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -489,7 +489,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -529,11 +529,11 @@ func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -657,8 +657,8 @@ func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) GetStringMap
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -670,11 +670,11 @@ func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) Interpolatio
 	return returns
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -753,7 +753,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) ResetTargetR
 	)
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkConnectionMonitorEndpointOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

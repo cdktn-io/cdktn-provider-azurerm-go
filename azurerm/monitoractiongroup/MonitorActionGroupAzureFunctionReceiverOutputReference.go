@@ -5,14 +5,14 @@ package monitoractiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitoractiongroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitoractiongroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorActionGroupAzureFunctionReceiverOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type MonitorActionGroupAzureFunctionReceiverOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseCommonAlertSchema() interface{}
 	SetUseCommonAlertSchema(val interface{})
 	UseCommonAlertSchemaInput() interface{}
@@ -60,7 +60,7 @@ type MonitorActionGroupAzureFunctionReceiverOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,13 +76,13 @@ type MonitorActionGroupAzureFunctionReceiverOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUseCommonAlertSchema()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type MonitorActionGroupAzureFunctionReceiverOutputReference interface {
 
 // The jsii proxy struct for MonitorActionGroupAzureFunctionReceiverOutputReference
 type jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -266,7 +266,7 @@ func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) UseCo
 }
 
 
-func NewMonitorActionGroupAzureFunctionReceiverOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorActionGroupAzureFunctionReceiverOutputReference {
+func NewMonitorActionGroupAzureFunctionReceiverOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorActionGroupAzureFunctionReceiverOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorActionGroupAzureFunctionReceiverOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -283,7 +283,7 @@ func NewMonitorActionGroupAzureFunctionReceiverOutputReference(terraformResource
 	return &j
 }
 
-func NewMonitorActionGroupAzureFunctionReceiverOutputReference_Override(m MonitorActionGroupAzureFunctionReceiverOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewMonitorActionGroupAzureFunctionReceiverOutputReference_Override(m MonitorActionGroupAzureFunctionReceiverOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -381,7 +381,7 @@ func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -432,11 +432,11 @@ func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) GetAn
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -560,8 +560,8 @@ func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) GetSt
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -573,11 +573,11 @@ func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) Inter
 	return returns
 }
 
-func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -597,7 +597,7 @@ func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) Reset
 	)
 }
 
-func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorActionGroupAzureFunctionReceiverOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

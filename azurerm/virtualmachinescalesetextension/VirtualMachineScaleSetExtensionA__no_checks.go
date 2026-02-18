@@ -127,7 +127,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetExtensionA) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetExtensionA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualMachineScaleSetExtensionA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

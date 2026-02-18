@@ -119,7 +119,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputEventhub) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputEventhub) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StreamAnalyticsOutputEventhub) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

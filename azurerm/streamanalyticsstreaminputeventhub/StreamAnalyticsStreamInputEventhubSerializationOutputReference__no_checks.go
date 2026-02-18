@@ -47,7 +47,7 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubSerializationOutputReferenc
 	return nil
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubSerializationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubSerializationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubSerializationOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubSerializationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubSerializationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubSerializationOutputReferenc
 	return nil
 }
 
-func validateNewStreamAnalyticsStreamInputEventhubSerializationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStreamAnalyticsStreamInputEventhubSerializationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

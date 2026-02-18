@@ -115,7 +115,7 @@ func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

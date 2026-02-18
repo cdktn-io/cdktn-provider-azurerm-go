@@ -5,14 +5,14 @@ package loganalyticsworkspacetablecustomlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticsworkspacetablecustomlog/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/loganalyticsworkspacetablecustomlog/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LogAnalyticsWorkspaceTableCustomLogColumnOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type LogAnalyticsWorkspaceTableCustomLogColumnOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -57,7 +57,7 @@ type LogAnalyticsWorkspaceTableCustomLogColumnOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type LogAnalyticsWorkspaceTableCustomLogColumnOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	ResetDisplayName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type LogAnalyticsWorkspaceTableCustomLogColumnOutputReference interface {
 
 // The jsii proxy struct for LogAnalyticsWorkspaceTableCustomLogColumnOutputReference
 type jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) ComplexObjectIndex() interface{} {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Typ
 }
 
 
-func NewLogAnalyticsWorkspaceTableCustomLogColumnOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LogAnalyticsWorkspaceTableCustomLogColumnOutputReference {
+func NewLogAnalyticsWorkspaceTableCustomLogColumnOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LogAnalyticsWorkspaceTableCustomLogColumnOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLogAnalyticsWorkspaceTableCustomLogColumnOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -261,7 +261,7 @@ func NewLogAnalyticsWorkspaceTableCustomLogColumnOutputReference(terraformResour
 	return &j
 }
 
-func NewLogAnalyticsWorkspaceTableCustomLogColumnOutputReference_Override(l LogAnalyticsWorkspaceTableCustomLogColumnOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLogAnalyticsWorkspaceTableCustomLogColumnOutputReference_Override(l LogAnalyticsWorkspaceTableCustomLogColumnOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Get
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -527,8 +527,8 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Get
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -540,11 +540,11 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Int
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -572,7 +572,7 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Res
 	)
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

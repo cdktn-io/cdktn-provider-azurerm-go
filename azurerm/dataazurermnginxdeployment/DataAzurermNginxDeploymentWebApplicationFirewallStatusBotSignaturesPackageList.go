@@ -5,14 +5,14 @@ package dataazurermnginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnginxdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermnginxdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageL
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageL
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageL
 
 // The jsii proxy struct for DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList
 type jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSign
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSign
 }
 
 
-func NewDataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList {
+func NewDataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPacka
 	return &j
 }
 
-func NewDataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList_Override(d DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList_Override(d DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSign
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSign
 	)
 }
 
-func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSign
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermNginxDeploymentWebApplicationFirewallStatusBotSignaturesPackageList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

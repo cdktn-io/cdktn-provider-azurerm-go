@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkProfileContainerNetworkInterfaceIpConfigurationOutputR
 	return nil
 }
 
-func (n *jsiiProxy_NetworkProfileContainerNetworkInterfaceIpConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkProfileContainerNetworkInterfaceIpConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkProfileContainerNetworkInterfaceIpConfigurationOutputR
 	return nil
 }
 
-func (j *jsiiProxy_NetworkProfileContainerNetworkInterfaceIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkProfileContainerNetworkInterfaceIpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkProfileContainerNetworkInterfaceIpConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetworkProfileContainerNetworkInterfaceIpConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

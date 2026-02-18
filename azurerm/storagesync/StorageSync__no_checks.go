@@ -111,7 +111,7 @@ func (j *jsiiProxy_StorageSync) validateSetIncomingTrafficPolicyParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_StorageSync) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageSync) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

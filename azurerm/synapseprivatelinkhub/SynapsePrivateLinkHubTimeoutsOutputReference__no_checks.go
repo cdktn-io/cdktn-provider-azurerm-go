@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapsePrivateLinkHubTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (s *jsiiProxy_SynapsePrivateLinkHubTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapsePrivateLinkHubTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SynapsePrivateLinkHubTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SynapsePrivateLinkHubTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapsePrivateLinkHubTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SynapsePrivateLinkHubTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewSynapsePrivateLinkHubTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapsePrivateLinkHubTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

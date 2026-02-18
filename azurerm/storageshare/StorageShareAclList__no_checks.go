@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageShareAclList) validateGetParameters(index *float64) er
 	return nil
 }
 
-func (s *jsiiProxy_StorageShareAclList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageShareAclList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StorageShareAclList) validateSetTerraformAttributeParameters(
 	return nil
 }
 
-func (j *jsiiProxy_StorageShareAclList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageShareAclList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StorageShareAclList) validateSetWrapsSetParameters(val *bool)
 	return nil
 }
 
-func validateNewStorageShareAclListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageShareAclListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

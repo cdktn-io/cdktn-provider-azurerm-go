@@ -47,7 +47,7 @@ func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) validateInterpola
 	return nil
 }
 
-func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) validateSetTypePa
 	return nil
 }
 
-func validateNewVideoIndexerAccountIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVideoIndexerAccountIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

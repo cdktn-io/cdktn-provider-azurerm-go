@@ -51,7 +51,7 @@ func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyO
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyO
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLogicAppWorkflowAccessControlTriggerOpenAuthenticationPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

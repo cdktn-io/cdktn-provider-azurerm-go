@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

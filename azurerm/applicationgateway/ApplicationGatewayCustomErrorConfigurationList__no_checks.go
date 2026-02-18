@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayCustomErrorConfigurationList) validateGetPa
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayCustomErrorConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayCustomErrorConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayCustomErrorConfigurationList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayCustomErrorConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayCustomErrorConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayCustomErrorConfigurationList) validateSetWr
 	return nil
 }
 
-func validateNewApplicationGatewayCustomErrorConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayCustomErrorConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

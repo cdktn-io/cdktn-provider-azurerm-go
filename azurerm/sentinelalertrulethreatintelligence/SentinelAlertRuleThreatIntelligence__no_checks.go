@@ -115,7 +115,7 @@ func (j *jsiiProxy_SentinelAlertRuleThreatIntelligence) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleThreatIntelligence) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelAlertRuleThreatIntelligence) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

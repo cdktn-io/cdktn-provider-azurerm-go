@@ -5,14 +5,14 @@ package dashboardgrafanamanagedprivateendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dashboardgrafanamanagedprivateendpoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dashboardgrafanamanagedprivateendpoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference interface {
 
 // The jsii proxy struct for DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 type jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 }
 
 
-func NewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference {
+func NewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference(terraformR
 	return &j
 }
 
-func NewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference_Override(d DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference_Override(d DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	)
 }
 
-func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	return returns
 }
 
-func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference
 	)
 }
 
-func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpointTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

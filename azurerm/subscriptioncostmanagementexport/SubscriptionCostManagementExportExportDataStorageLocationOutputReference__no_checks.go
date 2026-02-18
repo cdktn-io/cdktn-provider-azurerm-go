@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubscriptionCostManagementExportExportDataStorageLocationOutp
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementExportExportDataStorageLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionCostManagementExportExportDataStorageLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SubscriptionCostManagementExportExportDataStorageLocationOutp
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementExportExportDataStorageLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionCostManagementExportExportDataStorageLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSubscriptionCostManagementExportExportDataStorageLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSubscriptionCostManagementExportExportDataStorageLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

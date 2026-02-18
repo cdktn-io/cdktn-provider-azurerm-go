@@ -115,7 +115,7 @@ func (j *jsiiProxy_NginxConfiguration) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_NginxConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NginxConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

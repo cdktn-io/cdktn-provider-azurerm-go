@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

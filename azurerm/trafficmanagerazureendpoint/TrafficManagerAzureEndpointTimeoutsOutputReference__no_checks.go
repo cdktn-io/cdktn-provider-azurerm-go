@@ -47,7 +47,7 @@ func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpointTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewTrafficManagerAzureEndpointTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTrafficManagerAzureEndpointTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

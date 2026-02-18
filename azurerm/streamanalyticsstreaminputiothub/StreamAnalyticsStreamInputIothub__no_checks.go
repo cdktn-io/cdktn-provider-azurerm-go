@@ -123,7 +123,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputIothub) validateSetIothubNamespaceP
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputIothub) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StreamAnalyticsStreamInputIothub) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

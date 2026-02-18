@@ -47,7 +47,7 @@ func (g *jsiiProxy_GalleryApplicationVersionManageActionOutputReference) validat
 	return nil
 }
 
-func (g *jsiiProxy_GalleryApplicationVersionManageActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (g *jsiiProxy_GalleryApplicationVersionManageActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_GalleryApplicationVersionManageActionOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_GalleryApplicationVersionManageActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_GalleryApplicationVersionManageActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_GalleryApplicationVersionManageActionOutputReference) validat
 	return nil
 }
 
-func validateNewGalleryApplicationVersionManageActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewGalleryApplicationVersionManageActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

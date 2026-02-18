@@ -5,14 +5,14 @@ package eventgridnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgridnamespace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventgridnamespace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventgridNamespaceTopicSpacesConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AlternativeAuthenticationNameSource() *[]*string
 	SetAlternativeAuthenticationNameSource(val *[]*string)
 	AlternativeAuthenticationNameSourceInput() *[]*string
@@ -53,15 +53,15 @@ type EventgridNamespaceTopicSpacesConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -77,9 +77,9 @@ type EventgridNamespaceTopicSpacesConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDynamicRoutingEnrichment(value interface{})
 	PutStaticRoutingEnrichment(value interface{})
 	ResetAlternativeAuthenticationNameSource()
@@ -90,7 +90,7 @@ type EventgridNamespaceTopicSpacesConfigurationOutputReference interface {
 	ResetStaticRoutingEnrichment()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type EventgridNamespaceTopicSpacesConfigurationOutputReference interface {
 
 // The jsii proxy struct for EventgridNamespaceTopicSpacesConfigurationOutputReference
 type jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) AlternativeAuthenticationNameSource() *[]*string {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) Te
 }
 
 
-func NewEventgridNamespaceTopicSpacesConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventgridNamespaceTopicSpacesConfigurationOutputReference {
+func NewEventgridNamespaceTopicSpacesConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventgridNamespaceTopicSpacesConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventgridNamespaceTopicSpacesConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -311,7 +311,7 @@ func NewEventgridNamespaceTopicSpacesConfigurationOutputReference(terraformResou
 	return &j
 }
 
-func NewEventgridNamespaceTopicSpacesConfigurationOutputReference_Override(e EventgridNamespaceTopicSpacesConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEventgridNamespaceTopicSpacesConfigurationOutputReference_Override(e EventgridNamespaceTopicSpacesConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -409,7 +409,7 @@ func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -449,11 +449,11 @@ func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) Ge
 	return returns
 }
 
-func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -577,8 +577,8 @@ func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) Ge
 	return returns
 }
 
-func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -590,11 +590,11 @@ func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) In
 	return returns
 }
 
-func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -676,7 +676,7 @@ func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) Re
 	)
 }
 
-func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

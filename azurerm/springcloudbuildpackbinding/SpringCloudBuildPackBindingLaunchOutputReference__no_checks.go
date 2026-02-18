@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudBuildPackBindingLaunchOutputReference) validateInt
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudBuildPackBindingLaunchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudBuildPackBindingLaunchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SpringCloudBuildPackBindingLaunchOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudBuildPackBindingLaunchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudBuildPackBindingLaunchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpringCloudBuildPackBindingLaunchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudBuildPackBindingLaunchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

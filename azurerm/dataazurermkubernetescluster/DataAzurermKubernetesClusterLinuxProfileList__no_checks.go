@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterLinuxProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterLinuxProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

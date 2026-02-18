@@ -15,7 +15,7 @@ func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateGetParameters
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewHpcCacheNfsTargetNamespaceJunctionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHpcCacheNfsTargetNamespaceJunctionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

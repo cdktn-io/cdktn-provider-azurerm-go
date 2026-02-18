@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppConfigurationPrimaryReadKeyOutputReference) validateInterp
 	return nil
 }
 
-func (a *jsiiProxy_AppConfigurationPrimaryReadKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppConfigurationPrimaryReadKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_AppConfigurationPrimaryReadKeyOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationPrimaryReadKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppConfigurationPrimaryReadKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppConfigurationPrimaryReadKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAppConfigurationPrimaryReadKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

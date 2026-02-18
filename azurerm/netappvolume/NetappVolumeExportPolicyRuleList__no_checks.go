@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetappVolumeExportPolicyRuleList) validateGetParameters(index
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeExportPolicyRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeExportPolicyRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRuleList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeExportPolicyRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeExportPolicyRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetappVolumeExportPolicyRuleList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewNetappVolumeExportPolicyRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetappVolumeExportPolicyRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

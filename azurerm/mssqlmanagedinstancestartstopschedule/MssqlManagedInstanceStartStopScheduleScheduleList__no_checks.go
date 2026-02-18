@@ -15,7 +15,7 @@ func (m *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleList) validateGe
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleList) validateSe
 	return nil
 }
 
-func validateNewMssqlManagedInstanceStartStopScheduleScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMssqlManagedInstanceStartStopScheduleScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolAutoScaleList) validateGetParameters(inde
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolAutoScaleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolAutoScaleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolAutoScaleList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolAutoScaleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolAutoScaleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolAutoScaleList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolAutoScaleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchPoolAutoScaleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

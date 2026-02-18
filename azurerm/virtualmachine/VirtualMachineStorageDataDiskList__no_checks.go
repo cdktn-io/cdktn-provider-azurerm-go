@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachineStorageDataDiskList) validateGetParameters(inde
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineStorageDataDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineStorageDataDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachineStorageDataDiskList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineStorageDataDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineStorageDataDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachineStorageDataDiskList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewVirtualMachineStorageDataDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineStorageDataDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

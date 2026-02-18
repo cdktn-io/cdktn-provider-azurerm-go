@@ -15,7 +15,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConf
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConf
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConf
 	return nil
 }
 
-func validateNewMssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMssqlVirtualMachineAvailabilityGroupListenerMultiSubnetIpConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

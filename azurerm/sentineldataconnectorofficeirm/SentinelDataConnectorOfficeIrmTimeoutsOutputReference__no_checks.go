@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelDataConnectorOfficeIrmTimeoutsOutputReference) valida
 	return nil
 }
 
-func (s *jsiiProxy_SentinelDataConnectorOfficeIrmTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelDataConnectorOfficeIrmTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SentinelDataConnectorOfficeIrmTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorOfficeIrmTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelDataConnectorOfficeIrmTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelDataConnectorOfficeIrmTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelDataConnectorOfficeIrmTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

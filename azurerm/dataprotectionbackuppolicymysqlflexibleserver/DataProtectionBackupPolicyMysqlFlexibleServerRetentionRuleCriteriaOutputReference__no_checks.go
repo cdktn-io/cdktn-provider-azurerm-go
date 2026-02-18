@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCri
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCriteriaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCriteriaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCri
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCri
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCriteriaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupPolicyMysqlFlexibleServerRetentionRuleCriteriaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

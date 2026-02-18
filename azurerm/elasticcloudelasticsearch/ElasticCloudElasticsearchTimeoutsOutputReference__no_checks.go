@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticCloudElasticsearchTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (e *jsiiProxy_ElasticCloudElasticsearchTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticCloudElasticsearchTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ElasticCloudElasticsearchTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ElasticCloudElasticsearchTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticCloudElasticsearchTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ElasticCloudElasticsearchTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewElasticCloudElasticsearchTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticCloudElasticsearchTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

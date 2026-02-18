@@ -123,7 +123,7 @@ func (j *jsiiProxy_SecurityCenterAssessmentPolicy) validateSetImplementationEffo
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterAssessmentPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SecurityCenterAssessmentPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

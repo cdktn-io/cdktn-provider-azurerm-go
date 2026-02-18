@@ -51,7 +51,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationOut
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationOut
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationOut
 	return nil
 }
 
-func validateNewNetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkConnectionMonitorTestConfigurationHttpConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

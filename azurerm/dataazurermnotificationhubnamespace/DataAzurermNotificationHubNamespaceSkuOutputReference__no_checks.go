@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNotificationHubNamespaceSkuOutputReference) valida
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNotificationHubNamespaceSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNotificationHubNamespaceSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermNotificationHubNamespaceSkuOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNotificationHubNamespaceSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNotificationHubNamespaceSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNotificationHubNamespaceSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermNotificationHubNamespaceSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

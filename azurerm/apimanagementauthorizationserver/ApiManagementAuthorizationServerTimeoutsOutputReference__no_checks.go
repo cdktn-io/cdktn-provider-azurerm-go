@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementAuthorizationServerTimeoutsOutputReference) vali
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementAuthorizationServerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementAuthorizationServerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementAuthorizationServerTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementAuthorizationServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementAuthorizationServerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementAuthorizationServerTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewApiManagementAuthorizationServerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementAuthorizationServerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

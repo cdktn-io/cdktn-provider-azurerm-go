@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateGetParameters(ind
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateResolveParameters
 
 func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SignalrServiceUpstreamEndpoint:
 		val := val.(*[]*SignalrServiceUpstreamEndpoint)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetInternalValueP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*SignalrServiceUpstreamEndpoint; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*SignalrServiceUpstreamEndpoint; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewSignalrServiceUpstreamEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSignalrServiceUpstreamEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

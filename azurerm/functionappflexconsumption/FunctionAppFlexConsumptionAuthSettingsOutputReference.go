@@ -5,14 +5,14 @@ package functionappflexconsumption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappflexconsumption/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/functionappflexconsumption/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FunctionAppFlexConsumptionAuthSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDirectory() FunctionAppFlexConsumptionAuthSettingsActiveDirectoryOutputReference
 	ActiveDirectoryInput() *FunctionAppFlexConsumptionAuthSettingsActiveDirectory
 	AdditionalLoginParameters() *map[string]*string
@@ -65,9 +65,9 @@ type FunctionAppFlexConsumptionAuthSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenRefreshExtensionHours() *float64
 	SetTokenRefreshExtensionHours(val *float64)
 	TokenRefreshExtensionHoursInput() *float64
@@ -84,7 +84,7 @@ type FunctionAppFlexConsumptionAuthSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type FunctionAppFlexConsumptionAuthSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutActiveDirectory(value *FunctionAppFlexConsumptionAuthSettingsActiveDirectory)
 	PutFacebook(value *FunctionAppFlexConsumptionAuthSettingsFacebook)
 	PutGithub(value *FunctionAppFlexConsumptionAuthSettingsGithub)
@@ -125,7 +125,7 @@ type FunctionAppFlexConsumptionAuthSettingsOutputReference interface {
 	ResetUnauthenticatedClientAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -135,7 +135,7 @@ type FunctionAppFlexConsumptionAuthSettingsOutputReference interface {
 
 // The jsii proxy struct for FunctionAppFlexConsumptionAuthSettingsOutputReference
 type jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) ActiveDirectory() FunctionAppFlexConsumptionAuthSettingsActiveDirectoryOutputReference {
@@ -418,8 +418,8 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -509,7 +509,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) Unauth
 }
 
 
-func NewFunctionAppFlexConsumptionAuthSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionAuthSettingsOutputReference {
+func NewFunctionAppFlexConsumptionAuthSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionAuthSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFunctionAppFlexConsumptionAuthSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -526,7 +526,7 @@ func NewFunctionAppFlexConsumptionAuthSettingsOutputReference(terraformResource 
 	return &j
 }
 
-func NewFunctionAppFlexConsumptionAuthSettingsOutputReference_Override(f FunctionAppFlexConsumptionAuthSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFunctionAppFlexConsumptionAuthSettingsOutputReference_Override(f FunctionAppFlexConsumptionAuthSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -646,7 +646,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -719,11 +719,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) GetAny
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -847,8 +847,8 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) GetStr
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -860,11 +860,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) Interp
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -1054,7 +1054,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) ResetU
 	)
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAuthSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

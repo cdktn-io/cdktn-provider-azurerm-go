@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermSearchServiceQueryKeysOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSearchServiceQueryKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSearchServiceQueryKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermSearchServiceQueryKeysOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSearchServiceQueryKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSearchServiceQueryKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermSearchServiceQueryKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermSearchServiceQueryKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

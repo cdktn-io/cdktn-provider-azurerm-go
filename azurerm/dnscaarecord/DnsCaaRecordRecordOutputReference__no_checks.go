@@ -47,7 +47,7 @@ func (d *jsiiProxy_DnsCaaRecordRecordOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (d *jsiiProxy_DnsCaaRecordRecordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DnsCaaRecordRecordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DnsCaaRecordRecordOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_DnsCaaRecordRecordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DnsCaaRecordRecordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DnsCaaRecordRecordOutputReference) validateSetValueParameters
 	return nil
 }
 
-func validateNewDnsCaaRecordRecordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDnsCaaRecordRecordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

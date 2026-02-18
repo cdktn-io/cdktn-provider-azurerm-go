@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputRefe
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputRefe
 	return nil
 }
 
-func validateNewAppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceSlotVirtualNetworkSwiftConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

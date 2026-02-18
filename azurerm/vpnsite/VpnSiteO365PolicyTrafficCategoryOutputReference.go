@@ -5,14 +5,14 @@ package vpnsite
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpnsite/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vpnsite/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpnSiteO365PolicyTrafficCategoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowEndpointEnabled() interface{}
 	SetAllowEndpointEnabled(val interface{})
 	AllowEndpointEnabledInput() interface{}
@@ -46,15 +46,15 @@ type VpnSiteO365PolicyTrafficCategoryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type VpnSiteO365PolicyTrafficCategoryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowEndpointEnabled()
 	ResetDefaultEndpointEnabled()
 	ResetOptimizeEndpointEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type VpnSiteO365PolicyTrafficCategoryOutputReference interface {
 
 // The jsii proxy struct for VpnSiteO365PolicyTrafficCategoryOutputReference
 type jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) AllowEndpointEnabled() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) TerraformRes
 }
 
 
-func NewVpnSiteO365PolicyTrafficCategoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VpnSiteO365PolicyTrafficCategoryOutputReference {
+func NewVpnSiteO365PolicyTrafficCategoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VpnSiteO365PolicyTrafficCategoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVpnSiteO365PolicyTrafficCategoryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewVpnSiteO365PolicyTrafficCategoryOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewVpnSiteO365PolicyTrafficCategoryOutputReference_Override(v VpnSiteO365PolicyTrafficCategoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVpnSiteO365PolicyTrafficCategoryOutputReference_Override(v VpnSiteO365PolicyTrafficCategoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -494,8 +494,8 @@ func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) GetStringMap
 	return returns
 }
 
-func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -507,11 +507,11 @@ func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) Interpolatio
 	return returns
 }
 
-func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -547,7 +547,7 @@ func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) ResetOptimiz
 	)
 }
 
-func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpnSiteO365PolicyTrafficCategoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

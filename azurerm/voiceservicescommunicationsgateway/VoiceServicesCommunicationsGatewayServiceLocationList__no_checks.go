@@ -15,7 +15,7 @@ func (v *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationList) valida
 	return nil
 }
 
-func (v *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationList) valida
 	return nil
 }
 
-func (j *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayServiceLocationList) valida
 	return nil
 }
 
-func validateNewVoiceServicesCommunicationsGatewayServiceLocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVoiceServicesCommunicationsGatewayServiceLocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

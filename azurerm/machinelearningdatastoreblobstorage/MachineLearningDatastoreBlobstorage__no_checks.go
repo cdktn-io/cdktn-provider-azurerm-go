@@ -119,7 +119,7 @@ func (j *jsiiProxy_MachineLearningDatastoreBlobstorage) validateSetIsDefaultPara
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreBlobstorage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MachineLearningDatastoreBlobstorage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

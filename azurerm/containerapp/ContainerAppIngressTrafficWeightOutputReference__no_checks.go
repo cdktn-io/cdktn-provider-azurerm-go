@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppIngressTrafficWeightOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppIngressTrafficWeightOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppIngressTrafficWeightOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ContainerAppIngressTrafficWeightOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppIngressTrafficWeightOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppIngressTrafficWeightOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAppIngressTrafficWeightOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppIngressTrafficWeightOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (c *jsiiProxy_CdnFrontdoorFirewallPolicyLogScrubbingOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorFirewallPolicyLogScrubbingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorFirewallPolicyLogScrubbingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicyLogScrubbingOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicyLogScrubbingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicyLogScrubbingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnFrontdoorFirewallPolicyLogScrubbingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorFirewallPolicyLogScrubbingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

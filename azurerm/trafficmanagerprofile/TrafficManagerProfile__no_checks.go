@@ -115,7 +115,7 @@ func (j *jsiiProxy_TrafficManagerProfile) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TrafficManagerProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

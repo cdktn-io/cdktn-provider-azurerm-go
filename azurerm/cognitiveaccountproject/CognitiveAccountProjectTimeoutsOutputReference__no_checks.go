@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitiveAccountProjectTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_CognitiveAccountProjectTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitiveAccountProjectTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CognitiveAccountProjectTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitiveAccountProjectTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CognitiveAccountProjectTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewCognitiveAccountProjectTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitiveAccountProjectTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

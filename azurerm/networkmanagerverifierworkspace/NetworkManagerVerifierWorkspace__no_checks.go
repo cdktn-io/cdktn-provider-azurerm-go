@@ -111,7 +111,7 @@ func (j *jsiiProxy_NetworkManagerVerifierWorkspace) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerVerifierWorkspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkManagerVerifierWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

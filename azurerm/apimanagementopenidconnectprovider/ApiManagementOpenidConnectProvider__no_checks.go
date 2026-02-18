@@ -127,7 +127,7 @@ func (j *jsiiProxy_ApiManagementOpenidConnectProvider) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementOpenidConnectProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementOpenidConnectProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

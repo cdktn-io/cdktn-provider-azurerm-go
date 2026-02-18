@@ -5,14 +5,14 @@ package rediscache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/rediscache/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/rediscache/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type RedisCacheRedisConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDirectoryAuthenticationEnabled() interface{}
 	SetActiveDirectoryAuthenticationEnabled(val interface{})
 	ActiveDirectoryAuthenticationEnabledInput() interface{}
@@ -86,15 +86,15 @@ type RedisCacheRedisConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type RedisCacheRedisConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetActiveDirectoryAuthenticationEnabled()
 	ResetAofBackupEnabled()
 	ResetAofStorageConnectionString0()
@@ -131,7 +131,7 @@ type RedisCacheRedisConfigurationOutputReference interface {
 	ResetStorageAccountSubscriptionId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -141,7 +141,7 @@ type RedisCacheRedisConfigurationOutputReference interface {
 
 // The jsii proxy struct for RedisCacheRedisConfigurationOutputReference
 type jsiiProxy_RedisCacheRedisConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) ActiveDirectoryAuthenticationEnabled() interface{} {
@@ -534,8 +534,8 @@ func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -545,7 +545,7 @@ func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference) TerraformResourc
 }
 
 
-func NewRedisCacheRedisConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) RedisCacheRedisConfigurationOutputReference {
+func NewRedisCacheRedisConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) RedisCacheRedisConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewRedisCacheRedisConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -562,7 +562,7 @@ func NewRedisCacheRedisConfigurationOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewRedisCacheRedisConfigurationOutputReference_Override(r RedisCacheRedisConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewRedisCacheRedisConfigurationOutputReference_Override(r RedisCacheRedisConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -792,7 +792,7 @@ func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_RedisCacheRedisConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -832,11 +832,11 @@ func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -960,8 +960,8 @@ func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -973,11 +973,11 @@ func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) InterpolationAsL
 	return returns
 }
 
-func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1117,7 +1117,7 @@ func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) ResetStorageAcco
 	)
 }
 
-func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_RedisCacheRedisConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

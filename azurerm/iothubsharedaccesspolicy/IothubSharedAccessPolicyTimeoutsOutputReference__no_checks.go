@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubSharedAccessPolicyTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (i *jsiiProxy_IothubSharedAccessPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubSharedAccessPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IothubSharedAccessPolicyTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_IothubSharedAccessPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubSharedAccessPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IothubSharedAccessPolicyTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewIothubSharedAccessPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIothubSharedAccessPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

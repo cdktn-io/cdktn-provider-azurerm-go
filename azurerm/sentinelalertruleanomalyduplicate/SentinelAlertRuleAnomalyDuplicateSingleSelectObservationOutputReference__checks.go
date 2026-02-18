@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutpu
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutpu
 
 func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SentinelAlertRuleAnomalyDuplicateSingleSelectObservation:
 		val := val.(*SentinelAlertRuleAnomalyDuplicateSingleSelectObservation)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutpu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SentinelAlertRuleAnomalyDuplicateSingleSelectObservation; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SentinelAlertRuleAnomalyDuplicateSingleSelectObservation; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutpu
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutpu
 	return nil
 }
 
-func validateNewSentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelAlertRuleAnomalyDuplicateSingleSelectObservationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

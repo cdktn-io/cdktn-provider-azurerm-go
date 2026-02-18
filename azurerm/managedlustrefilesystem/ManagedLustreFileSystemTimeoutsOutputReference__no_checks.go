@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedLustreFileSystemTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (m *jsiiProxy_ManagedLustreFileSystemTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedLustreFileSystemTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagedLustreFileSystemTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ManagedLustreFileSystemTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedLustreFileSystemTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ManagedLustreFileSystemTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewManagedLustreFileSystemTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedLustreFileSystemTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

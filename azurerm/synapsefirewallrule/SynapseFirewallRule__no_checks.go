@@ -111,7 +111,7 @@ func (j *jsiiProxy_SynapseFirewallRule) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_SynapseFirewallRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SynapseFirewallRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

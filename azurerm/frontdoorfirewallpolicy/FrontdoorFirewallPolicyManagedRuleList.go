@@ -5,14 +5,14 @@ package frontdoorfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/frontdoorfirewallpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/frontdoorfirewallpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FrontdoorFirewallPolicyManagedRuleList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type FrontdoorFirewallPolicyManagedRuleList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type FrontdoorFirewallPolicyManagedRuleList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) FrontdoorFirewallPolicyManagedRuleOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type FrontdoorFirewallPolicyManagedRuleList interface {
 
 // The jsii proxy struct for FrontdoorFirewallPolicyManagedRuleList
 type jsiiProxy_FrontdoorFirewallPolicyManagedRuleList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) TerraformAttribute() 
 	return returns
 }
 
-func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) WrapsSet() *bool {
 }
 
 
-func NewFrontdoorFirewallPolicyManagedRuleList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FrontdoorFirewallPolicyManagedRuleList {
+func NewFrontdoorFirewallPolicyManagedRuleList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FrontdoorFirewallPolicyManagedRuleList {
 	_init_.Initialize()
 
 	if err := validateNewFrontdoorFirewallPolicyManagedRuleListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewFrontdoorFirewallPolicyManagedRuleList(terraformResource cdktf.IInterpol
 	return &j
 }
 
-func NewFrontdoorFirewallPolicyManagedRuleList_Override(f FrontdoorFirewallPolicyManagedRuleList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewFrontdoorFirewallPolicyManagedRuleList_Override(f FrontdoorFirewallPolicyManagedRuleList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList)SetTerraformAttribute(
 	)
 }
 
-func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList)SetWrapsSet(val *bool)
 	)
 }
 
-func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := f.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		f,
@@ -231,7 +231,7 @@ func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) Get(index *float64) F
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FrontdoorFirewallPolicyManagedRuleList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

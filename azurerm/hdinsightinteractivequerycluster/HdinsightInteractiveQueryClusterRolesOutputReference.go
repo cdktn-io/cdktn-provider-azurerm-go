@@ -5,14 +5,14 @@ package hdinsightinteractivequerycluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsightinteractivequerycluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsightinteractivequerycluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightInteractiveQueryClusterRolesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,9 +39,9 @@ type HdinsightInteractiveQueryClusterRolesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WorkerNode() HdinsightInteractiveQueryClusterRolesWorkerNodeOutputReference
 	WorkerNodeInput() *HdinsightInteractiveQueryClusterRolesWorkerNode
 	ZookeeperNode() HdinsightInteractiveQueryClusterRolesZookeeperNodeOutputReference
@@ -51,7 +51,7 @@ type HdinsightInteractiveQueryClusterRolesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,15 +67,15 @@ type HdinsightInteractiveQueryClusterRolesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeadNode(value *HdinsightInteractiveQueryClusterRolesHeadNode)
 	PutWorkerNode(value *HdinsightInteractiveQueryClusterRolesWorkerNode)
 	PutZookeeperNode(value *HdinsightInteractiveQueryClusterRolesZookeeperNode)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type HdinsightInteractiveQueryClusterRolesOutputReference interface {
 
 // The jsii proxy struct for HdinsightInteractiveQueryClusterRolesOutputReference
 type jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) ComplexObjectIndex() interface{} {
@@ -168,8 +168,8 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) Zookeep
 }
 
 
-func NewHdinsightInteractiveQueryClusterRolesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HdinsightInteractiveQueryClusterRolesOutputReference {
+func NewHdinsightInteractiveQueryClusterRolesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HdinsightInteractiveQueryClusterRolesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightInteractiveQueryClusterRolesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewHdinsightInteractiveQueryClusterRolesOutputReference(terraformResource c
 	return &j
 }
 
-func NewHdinsightInteractiveQueryClusterRolesOutputReference_Override(h HdinsightInteractiveQueryClusterRolesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHdinsightInteractiveQueryClusterRolesOutputReference_Override(h HdinsightInteractiveQueryClusterRolesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) GetAnyM
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -458,8 +458,8 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) GetStri
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -471,11 +471,11 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) Interpo
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -520,7 +520,7 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) PutZook
 	)
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementSecurityOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementSecurityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementSecurityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -163,7 +163,7 @@ func (j *jsiiProxy_ApiManagementSecurityOutputReference) validateSetTripleDesCip
 	return nil
 }
 
-func validateNewApiManagementSecurityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementSecurityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

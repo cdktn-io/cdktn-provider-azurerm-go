@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatadogMonitorTagRuleLogFilterOutputReference) validateInterp
 	return nil
 }
 
-func (d *jsiiProxy_DatadogMonitorTagRuleLogFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatadogMonitorTagRuleLogFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatadogMonitorTagRuleLogFilterOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DatadogMonitorTagRuleLogFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatadogMonitorTagRuleLogFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DatadogMonitorTagRuleLogFilterOutputReference) validateSetVal
 	return nil
 }
 
-func validateNewDatadogMonitorTagRuleLogFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDatadogMonitorTagRuleLogFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference) va
 	return nil
 }
 
-func (s *jsiiProxy_SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SnapshotEncryptionSettingsKeyEncryptionKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSnapshotEncryptionSettingsKeyEncryptionKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSnapshotEncryptionSettingsKeyEncryptionKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

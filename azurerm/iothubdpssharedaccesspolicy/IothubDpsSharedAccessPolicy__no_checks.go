@@ -119,7 +119,7 @@ func (j *jsiiProxy_IothubDpsSharedAccessPolicy) validateSetIothubDpsNameParamete
 	return nil
 }
 
-func (j *jsiiProxy_IothubDpsSharedAccessPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IothubDpsSharedAccessPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

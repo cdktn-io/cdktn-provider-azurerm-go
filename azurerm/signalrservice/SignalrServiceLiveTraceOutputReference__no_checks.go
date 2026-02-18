@@ -47,7 +47,7 @@ func (s *jsiiProxy_SignalrServiceLiveTraceOutputReference) validateInterpolation
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceLiveTraceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceLiveTraceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_SignalrServiceLiveTraceOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceLiveTraceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceLiveTraceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSignalrServiceLiveTraceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSignalrServiceLiveTraceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

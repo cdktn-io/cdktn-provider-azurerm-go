@@ -51,7 +51,7 @@ func (e *jsiiProxy_ElasticCloudElasticsearchLogsOutputReference) validatePutFilt
 	return nil
 }
 
-func (e *jsiiProxy_ElasticCloudElasticsearchLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticCloudElasticsearchLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ElasticCloudElasticsearchLogsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ElasticCloudElasticsearchLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticCloudElasticsearchLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticCloudElasticsearchLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticCloudElasticsearchLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

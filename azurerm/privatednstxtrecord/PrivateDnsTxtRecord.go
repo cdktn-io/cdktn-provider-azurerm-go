@@ -5,18 +5,18 @@ package privatednstxtrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/privatednstxtrecord/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/privatednstxtrecord/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record}.
 type PrivateDnsTxtRecord interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type PrivateDnsTxtRecord interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	Fqdn() *string
 	// Experimental.
 	Fqn() *string
@@ -44,18 +44,18 @@ type PrivateDnsTxtRecord interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type PrivateDnsTxtRecord interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type PrivateDnsTxtRecord interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type PrivateDnsTxtRecord interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -150,11 +150,11 @@ type PrivateDnsTxtRecord interface {
 
 // The jsii proxy struct for PrivateDnsTxtRecord
 type jsiiProxy_PrivateDnsTxtRecord struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PrivateDnsTxtRecord) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -203,8 +203,8 @@ func (j *jsiiProxy_PrivateDnsTxtRecord) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PrivateDnsTxtRecord) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -263,8 +263,8 @@ func (j *jsiiProxy_PrivateDnsTxtRecord) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PrivateDnsTxtRecord) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -303,8 +303,8 @@ func (j *jsiiProxy_PrivateDnsTxtRecord) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PrivateDnsTxtRecord) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -393,8 +393,8 @@ func (j *jsiiProxy_PrivateDnsTxtRecord) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PrivateDnsTxtRecord) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -543,7 +543,7 @@ func (j *jsiiProxy_PrivateDnsTxtRecord)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PrivateDnsTxtRecord)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -562,7 +562,7 @@ func (j *jsiiProxy_PrivateDnsTxtRecord)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PrivateDnsTxtRecord)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -584,7 +584,7 @@ func (j *jsiiProxy_PrivateDnsTxtRecord)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PrivateDnsTxtRecord)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PrivateDnsTxtRecord)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -647,14 +647,14 @@ func (j *jsiiProxy_PrivateDnsTxtRecord)SetZoneName(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a PrivateDnsTxtRecord resource upon running "cdktf plan <stack-name>".
-func PrivateDnsTxtRecord_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PrivateDnsTxtRecord resource upon running "cdktn plan <stack-name>".
+func PrivateDnsTxtRecord_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePrivateDnsTxtRecord_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.privateDnsTxtRecord.PrivateDnsTxtRecord",
@@ -788,11 +788,11 @@ func (p *jsiiProxy_PrivateDnsTxtRecord) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (p *jsiiProxy_PrivateDnsTxtRecord) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateDnsTxtRecord) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -929,7 +929,7 @@ func (p *jsiiProxy_PrivateDnsTxtRecord) HasResourceMove() interface{} {
 	return returns
 }
 
-func (p *jsiiProxy_PrivateDnsTxtRecord) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PrivateDnsTxtRecord) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -940,11 +940,11 @@ func (p *jsiiProxy_PrivateDnsTxtRecord) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (p *jsiiProxy_PrivateDnsTxtRecord) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PrivateDnsTxtRecord) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

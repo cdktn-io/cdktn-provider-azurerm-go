@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validatePutI
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventhubNamespaceNetworkRulesetsIpRule:
 		value := value.(*[]*EventhubNamespaceNetworkRulesetsIpRule)
@@ -117,7 +117,7 @@ func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validatePutI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventhubNamespaceNetworkRulesetsIpRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventhubNamespaceNetworkRulesetsIpRule; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validatePutV
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventhubNamespaceNetworkRulesetsVirtualNetworkRule:
 		value := value.(*[]*EventhubNamespaceNetworkRulesetsVirtualNetworkRule)
@@ -148,14 +148,14 @@ func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validatePutV
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*EventhubNamespaceNetworkRulesetsVirtualNetworkRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*EventhubNamespaceNetworkRulesetsVirtualNetworkRule; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetD
 
 func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *EventhubNamespaceNetworkRulesets:
 		val := val.(*EventhubNamespaceNetworkRulesets)
@@ -253,7 +253,7 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *EventhubNamespaceNetworkRulesets; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *EventhubNamespaceNetworkRulesets; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -269,11 +269,11 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetP
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -288,7 +288,7 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -305,18 +305,18 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsOutputReference) validateSetT
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
 	return nil
 }
 
-func validateNewEventhubNamespaceNetworkRulesetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventhubNamespaceNetworkRulesetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

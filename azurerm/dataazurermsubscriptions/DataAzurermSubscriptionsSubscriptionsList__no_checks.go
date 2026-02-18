@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSubscriptionsSubscriptionsList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSubscriptionsSubscriptionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSubscriptionsSubscriptionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSubscriptionsSubscriptionsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionsSubscriptionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSubscriptionsSubscriptionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSubscriptionsSubscriptionsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAzurermSubscriptionsSubscriptionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSubscriptionsSubscriptionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

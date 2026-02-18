@@ -127,7 +127,7 @@ func (j *jsiiProxy_AutomationPython3Package) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_AutomationPython3Package) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutomationPython3Package) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

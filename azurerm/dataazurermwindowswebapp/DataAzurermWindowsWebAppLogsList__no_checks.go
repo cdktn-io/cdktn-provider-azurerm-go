@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppLogsList) validateGetParameters(index
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppLogsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermWindowsWebAppLogsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppLogsList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppLogsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermWindowsWebAppLogsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppLogsList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewDataAzurermWindowsWebAppLogsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermWindowsWebAppLogsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

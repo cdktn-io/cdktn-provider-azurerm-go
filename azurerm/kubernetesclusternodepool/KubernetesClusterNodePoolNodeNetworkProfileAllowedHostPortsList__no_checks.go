@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsLi
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsLi
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsLi
 	return nil
 }
 
-func validateNewKubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

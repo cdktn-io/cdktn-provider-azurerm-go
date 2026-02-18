@@ -51,7 +51,7 @@ func (c *jsiiProxy_ContainerAppTemplateContainerStartupProbeOutputReference) val
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateContainerStartupProbeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateContainerStartupProbeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ContainerAppTemplateContainerStartupProbeOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateContainerStartupProbeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateContainerStartupProbeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_ContainerAppTemplateContainerStartupProbeOutputReference) val
 	return nil
 }
 
-func validateNewContainerAppTemplateContainerStartupProbeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppTemplateContainerStartupProbeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_SubscriptionPolicyAssignmentOverridesList) validateGetParamet
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionPolicyAssignmentOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionPolicyAssignmentOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentOverridesList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewSubscriptionPolicyAssignmentOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSubscriptionPolicyAssignmentOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,16 +5,16 @@ package logicappstandard
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappstandard/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/logicappstandard/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.
 type LogicAppStandard interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppServicePlanId() *string
 	SetAppServicePlanId(val *string)
 	AppServicePlanIdInput() *string
@@ -25,7 +25,7 @@ type LogicAppStandard interface {
 	SetBundleVersion(val *string)
 	BundleVersionInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientAffinityEnabled() interface{}
 	SetClientAffinityEnabled(val interface{})
 	ClientAffinityEnabledInput() interface{}
@@ -54,9 +54,9 @@ type LogicAppStandard interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -74,9 +74,9 @@ type LogicAppStandard interface {
 	IdInput() *string
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -88,9 +88,9 @@ type LogicAppStandard interface {
 	OutboundIpAddresses() *string
 	PossibleOutboundIpAddresses() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -122,7 +122,7 @@ type LogicAppStandard interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -149,7 +149,7 @@ type LogicAppStandard interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -167,9 +167,9 @@ type LogicAppStandard interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -226,7 +226,7 @@ type LogicAppStandard interface {
 
 // The jsii proxy struct for LogicAppStandard
 type jsiiProxy_LogicAppStandard struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LogicAppStandard) AppServicePlanId() *string {
@@ -289,8 +289,8 @@ func (j *jsiiProxy_LogicAppStandard) BundleVersionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppStandard) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LogicAppStandard) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -439,8 +439,8 @@ func (j *jsiiProxy_LogicAppStandard) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppStandard) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LogicAppStandard) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -559,8 +559,8 @@ func (j *jsiiProxy_LogicAppStandard) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppStandard) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LogicAppStandard) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -639,8 +639,8 @@ func (j *jsiiProxy_LogicAppStandard) PossibleOutboundIpAddresses() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppStandard) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LogicAppStandard) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -839,8 +839,8 @@ func (j *jsiiProxy_LogicAppStandard) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppStandard) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LogicAppStandard) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1095,7 +1095,7 @@ func (j *jsiiProxy_LogicAppStandard)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LogicAppStandard)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LogicAppStandard)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1136,7 +1136,7 @@ func (j *jsiiProxy_LogicAppStandard)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LogicAppStandard)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LogicAppStandard)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1169,7 +1169,7 @@ func (j *jsiiProxy_LogicAppStandard)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LogicAppStandard)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LogicAppStandard)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1309,14 +1309,14 @@ func (j *jsiiProxy_LogicAppStandard)SetVnetContentShareEnabled(val interface{}) 
 	)
 }
 
-// Generates CDKTF code for importing a LogicAppStandard resource upon running "cdktf plan <stack-name>".
-func LogicAppStandard_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LogicAppStandard resource upon running "cdktn plan <stack-name>".
+func LogicAppStandard_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLogicAppStandard_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.logicAppStandard.LogicAppStandard",
@@ -1450,11 +1450,11 @@ func (l *jsiiProxy_LogicAppStandard) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppStandard) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppStandard) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1591,7 +1591,7 @@ func (l *jsiiProxy_LogicAppStandard) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppStandard) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LogicAppStandard) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1602,11 +1602,11 @@ func (l *jsiiProxy_LogicAppStandard) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (l *jsiiProxy_LogicAppStandard) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppStandard) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

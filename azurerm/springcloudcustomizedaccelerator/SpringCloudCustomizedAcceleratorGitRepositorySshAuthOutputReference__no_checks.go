@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputRef
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudCustomizedAcceleratorGitRepositorySshAuthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

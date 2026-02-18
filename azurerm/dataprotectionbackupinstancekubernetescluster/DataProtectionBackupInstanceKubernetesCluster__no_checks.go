@@ -119,7 +119,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validateSetKub
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

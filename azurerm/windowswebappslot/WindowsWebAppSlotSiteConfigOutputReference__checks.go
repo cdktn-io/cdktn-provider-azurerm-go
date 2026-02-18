@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -131,7 +131,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutHandle
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WindowsWebAppSlotSiteConfigHandlerMapping:
 		value := value.(*[]*WindowsWebAppSlotSiteConfigHandlerMapping)
@@ -150,7 +150,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutHandle
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WindowsWebAppSlotSiteConfigHandlerMapping; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WindowsWebAppSlotSiteConfigHandlerMapping; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -162,7 +162,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutIpRest
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WindowsWebAppSlotSiteConfigIpRestriction:
 		value := value.(*[]*WindowsWebAppSlotSiteConfigIpRestriction)
@@ -181,7 +181,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutIpRest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WindowsWebAppSlotSiteConfigIpRestriction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WindowsWebAppSlotSiteConfigIpRestriction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -193,7 +193,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutScmIpR
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WindowsWebAppSlotSiteConfigScmIpRestriction:
 		value := value.(*[]*WindowsWebAppSlotSiteConfigScmIpRestriction)
@@ -212,7 +212,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutScmIpR
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WindowsWebAppSlotSiteConfigScmIpRestriction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WindowsWebAppSlotSiteConfigScmIpRestriction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -224,7 +224,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutVirtua
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*WindowsWebAppSlotSiteConfigVirtualApplication:
 		value := value.(*[]*WindowsWebAppSlotSiteConfigVirtualApplication)
@@ -243,14 +243,14 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validatePutVirtua
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*WindowsWebAppSlotSiteConfigVirtualApplication; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WindowsWebAppSlotSiteConfigVirtualApplication; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -267,11 +267,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetAlways
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -392,11 +392,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetContai
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -444,11 +444,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetHttp2E
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -488,11 +488,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetLocalM
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -524,11 +524,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetRemote
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -568,11 +568,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetScmUse
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -587,7 +587,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -604,11 +604,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetUse32B
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -624,11 +624,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetVnetRo
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -644,11 +644,11 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetWebsoc
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -663,7 +663,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) validateSetWorker
 	return nil
 }
 
-func validateNewWindowsWebAppSlotSiteConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppSlotSiteConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

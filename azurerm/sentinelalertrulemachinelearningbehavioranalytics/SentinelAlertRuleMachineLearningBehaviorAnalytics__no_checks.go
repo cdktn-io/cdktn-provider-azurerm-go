@@ -115,7 +115,7 @@ func (j *jsiiProxy_SentinelAlertRuleMachineLearningBehaviorAnalytics) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleMachineLearningBehaviorAnalytics) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelAlertRuleMachineLearningBehaviorAnalytics) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

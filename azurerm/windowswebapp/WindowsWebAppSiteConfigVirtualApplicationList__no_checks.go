@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationList) validateGetPar
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigVirtualApplicationList) validateSetWra
 	return nil
 }
 
-func validateNewWindowsWebAppSiteConfigVirtualApplicationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsWebAppSiteConfigVirtualApplicationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

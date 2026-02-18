@@ -5,18 +5,18 @@ package dataazurermstoragecontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermstoragecontainer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermstoragecontainer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/storage_container azurerm_storage_container}.
 type DataAzurermStorageContainer interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	ContainerAccessType() *string
@@ -29,24 +29,24 @@ type DataAzurermStorageContainer interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
-	EncryptionScopeOverrideEnabled() cdktf.IResolvable
+	EncryptionScopeOverrideEnabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
-	HasImmutabilityPolicy() cdktf.IResolvable
-	HasLegalHold() cdktf.IResolvable
+	HasImmutabilityPolicy() cdktn.IResolvable
+	HasLegalHold() cdktn.IResolvable
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Metadata() *map[string]*string
 	SetMetadata(val *map[string]*string)
 	MetadataInput() *map[string]*string
@@ -56,9 +56,9 @@ type DataAzurermStorageContainer interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceManagerId() *string
@@ -69,7 +69,7 @@ type DataAzurermStorageContainer interface {
 	SetStorageAccountName(val *string)
 	StorageAccountNameInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type DataAzurermStorageContainer interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,7 +97,7 @@ type DataAzurermStorageContainer interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -126,11 +126,11 @@ type DataAzurermStorageContainer interface {
 
 // The jsii proxy struct for DataAzurermStorageContainer
 type jsiiProxy_DataAzurermStorageContainer struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermStorageContainer) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_DataAzurermStorageContainer) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) EncryptionScopeOverrideEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermStorageContainer) EncryptionScopeOverrideEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"encryptionScopeOverrideEnabled",
@@ -199,8 +199,8 @@ func (j *jsiiProxy_DataAzurermStorageContainer) EncryptionScopeOverrideEnabled()
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermStorageContainer) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_DataAzurermStorageContainer) FriendlyUniqueId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) HasImmutabilityPolicy() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermStorageContainer) HasImmutabilityPolicy() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hasImmutabilityPolicy",
@@ -239,8 +239,8 @@ func (j *jsiiProxy_DataAzurermStorageContainer) HasImmutabilityPolicy() cdktf.IR
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) HasLegalHold() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermStorageContainer) HasLegalHold() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"hasLegalHold",
@@ -269,8 +269,8 @@ func (j *jsiiProxy_DataAzurermStorageContainer) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermStorageContainer) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_DataAzurermStorageContainer) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermStorageContainer) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_DataAzurermStorageContainer) StorageAccountNameInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermStorageContainer) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -498,7 +498,7 @@ func (j *jsiiProxy_DataAzurermStorageContainer)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermStorageContainer)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -517,7 +517,7 @@ func (j *jsiiProxy_DataAzurermStorageContainer)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermStorageContainer)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -550,7 +550,7 @@ func (j *jsiiProxy_DataAzurermStorageContainer)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermStorageContainer)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermStorageContainer)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -580,14 +580,14 @@ func (j *jsiiProxy_DataAzurermStorageContainer)SetStorageAccountName(val *string
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermStorageContainer resource upon running "cdktf plan <stack-name>".
-func DataAzurermStorageContainer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermStorageContainer resource upon running "cdktn plan <stack-name>".
+func DataAzurermStorageContainer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermStorageContainer_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermStorageContainer.DataAzurermStorageContainer",
@@ -710,11 +710,11 @@ func (d *jsiiProxy_DataAzurermStorageContainer) GetAnyMapAttribute(terraformAttr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermStorageContainer) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermStorageContainer) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -838,11 +838,11 @@ func (d *jsiiProxy_DataAzurermStorageContainer) GetStringMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermStorageContainer) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermStorageContainer) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

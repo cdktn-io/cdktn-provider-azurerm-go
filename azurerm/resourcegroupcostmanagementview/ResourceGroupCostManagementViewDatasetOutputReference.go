@@ -5,14 +5,14 @@ package resourcegroupcostmanagementview
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegroupcostmanagementview/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/resourcegroupcostmanagementview/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ResourceGroupCostManagementViewDatasetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Aggregation() ResourceGroupCostManagementViewDatasetAggregationList
 	AggregationInput() interface{}
 	// the index of the complex object in a list.
@@ -46,15 +46,15 @@ type ResourceGroupCostManagementViewDatasetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,9 +70,9 @@ type ResourceGroupCostManagementViewDatasetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAggregation(value interface{})
 	PutGrouping(value interface{})
 	PutSorting(value interface{})
@@ -80,7 +80,7 @@ type ResourceGroupCostManagementViewDatasetOutputReference interface {
 	ResetSorting()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type ResourceGroupCostManagementViewDatasetOutputReference interface {
 
 // The jsii proxy struct for ResourceGroupCostManagementViewDatasetOutputReference
 type jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) Aggregation() ResourceGroupCostManagementViewDatasetAggregationList {
@@ -233,8 +233,8 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) Terraf
 }
 
 
-func NewResourceGroupCostManagementViewDatasetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ResourceGroupCostManagementViewDatasetOutputReference {
+func NewResourceGroupCostManagementViewDatasetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ResourceGroupCostManagementViewDatasetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewResourceGroupCostManagementViewDatasetOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -261,7 +261,7 @@ func NewResourceGroupCostManagementViewDatasetOutputReference(terraformResource 
 	return &j
 }
 
-func NewResourceGroupCostManagementViewDatasetOutputReference_Override(r ResourceGroupCostManagementViewDatasetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewResourceGroupCostManagementViewDatasetOutputReference_Override(r ResourceGroupCostManagementViewDatasetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) GetAny
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -494,8 +494,8 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) GetStr
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -507,11 +507,11 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) Interp
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -572,7 +572,7 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) ResetS
 	)
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := r.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

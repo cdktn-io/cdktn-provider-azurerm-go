@@ -47,7 +47,7 @@ func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return nil
 }
 
-func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseLongTermBackupScheduleOutputReference
 	return nil
 }
 
-func validateNewOracleAutonomousDatabaseLongTermBackupScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOracleAutonomousDatabaseLongTermBackupScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

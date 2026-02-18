@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHanaTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupSapHanaTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewNetappVolumeGroupSapHanaTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeGroupSapHanaTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

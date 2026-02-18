@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigHandlerMappingList) validateGetParamet
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSiteConfigHandlerMappingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSiteConfigHandlerMappingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigHandlerMappingList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSiteConfigHandlerMappingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSiteConfigHandlerMappingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigHandlerMappingList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewWindowsWebAppSiteConfigHandlerMappingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsWebAppSiteConfigHandlerMappingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

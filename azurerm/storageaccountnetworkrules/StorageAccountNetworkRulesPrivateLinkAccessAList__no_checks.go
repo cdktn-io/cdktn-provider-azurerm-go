@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessAList) validateGet
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessAList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessAList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessAList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessAList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessAList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StorageAccountNetworkRulesPrivateLinkAccessAList) validateSet
 	return nil
 }
 
-func validateNewStorageAccountNetworkRulesPrivateLinkAccessAListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageAccountNetworkRulesPrivateLinkAccessAListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

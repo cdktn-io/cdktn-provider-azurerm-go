@@ -5,16 +5,16 @@ package datafactorydatasetazuresqltable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorydatasetazuresqltable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorydatasetazuresqltable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_dataset_azure_sql_table azurerm_data_factory_dataset_azure_sql_table}.
 type DataFactoryDatasetAzureSqlTable interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
 	SetAdditionalProperties(val *map[string]*string)
 	AdditionalPropertiesInput() *map[string]*string
@@ -22,7 +22,7 @@ type DataFactoryDatasetAzureSqlTable interface {
 	SetAnnotations(val *[]*string)
 	AnnotationsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -47,9 +47,9 @@ type DataFactoryDatasetAzureSqlTable interface {
 	SetFolder(val *string)
 	FolderInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type DataFactoryDatasetAzureSqlTable interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LinkedServiceId() *string
 	SetLinkedServiceId(val *string)
 	LinkedServiceIdInput() *string
@@ -73,9 +73,9 @@ type DataFactoryDatasetAzureSqlTable interface {
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -91,7 +91,7 @@ type DataFactoryDatasetAzureSqlTable interface {
 	SetTable(val *string)
 	TableInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -106,7 +106,7 @@ type DataFactoryDatasetAzureSqlTable interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -124,9 +124,9 @@ type DataFactoryDatasetAzureSqlTable interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -171,7 +171,7 @@ type DataFactoryDatasetAzureSqlTable interface {
 
 // The jsii proxy struct for DataFactoryDatasetAzureSqlTable
 type jsiiProxy_DataFactoryDatasetAzureSqlTable struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) AdditionalProperties() *map[string]*string {
@@ -214,8 +214,8 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) AnnotationsInput() *[]*strin
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -324,8 +324,8 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) FolderInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -374,8 +374,8 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -454,8 +454,8 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) ParametersInput() *map[strin
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -544,8 +544,8 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) TableInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -709,7 +709,7 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetFolder(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -728,7 +728,7 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -772,7 +772,7 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetParameters(val *map[string
 	)
 }
 
-func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -813,14 +813,14 @@ func (j *jsiiProxy_DataFactoryDatasetAzureSqlTable)SetTable(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataFactoryDatasetAzureSqlTable resource upon running "cdktf plan <stack-name>".
-func DataFactoryDatasetAzureSqlTable_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataFactoryDatasetAzureSqlTable resource upon running "cdktn plan <stack-name>".
+func DataFactoryDatasetAzureSqlTable_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataFactoryDatasetAzureSqlTable_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataFactoryDatasetAzureSqlTable.DataFactoryDatasetAzureSqlTable",
@@ -954,11 +954,11 @@ func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1095,7 +1095,7 @@ func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) HasResourceMove() interface{
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1106,11 +1106,11 @@ func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) ImportFrom(id *string, provi
 	)
 }
 
-func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

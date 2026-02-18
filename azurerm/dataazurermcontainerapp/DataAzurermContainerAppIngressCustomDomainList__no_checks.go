@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermContainerAppIngressCustomDomainList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermContainerAppIngressCustomDomainList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermContainerAppIngressCustomDomainList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermContainerAppIngressCustomDomainList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermContainerAppIngressCustomDomainList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermContainerAppIngressCustomDomainList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermContainerAppIngressCustomDomainList) validateSetWr
 	return nil
 }
 
-func validateNewDataAzurermContainerAppIngressCustomDomainListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermContainerAppIngressCustomDomainListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

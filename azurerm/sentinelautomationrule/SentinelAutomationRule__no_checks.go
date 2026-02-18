@@ -135,7 +135,7 @@ func (j *jsiiProxy_SentinelAutomationRule) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAutomationRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelAutomationRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

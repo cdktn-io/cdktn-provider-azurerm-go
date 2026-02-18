@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDashboardGrafanaIdentityOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDashboardGrafanaIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDashboardGrafanaIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DataAzurermDashboardGrafanaIdentityOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDashboardGrafanaIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDashboardGrafanaIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAzurermDashboardGrafanaIdentityOutputReference) validateS
 	return nil
 }
 
-func validateNewDataAzurermDashboardGrafanaIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermDashboardGrafanaIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (i *jsiiProxy_IothubDpsIpFilterRuleList) validateGetParameters(index *float
 	return nil
 }
 
-func (i *jsiiProxy_IothubDpsIpFilterRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubDpsIpFilterRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IothubDpsIpFilterRuleList) validateSetTerraformAttributeParam
 	return nil
 }
 
-func (j *jsiiProxy_IothubDpsIpFilterRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubDpsIpFilterRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IothubDpsIpFilterRuleList) validateSetWrapsSetParameters(val 
 	return nil
 }
 
-func validateNewIothubDpsIpFilterRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIothubDpsIpFilterRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

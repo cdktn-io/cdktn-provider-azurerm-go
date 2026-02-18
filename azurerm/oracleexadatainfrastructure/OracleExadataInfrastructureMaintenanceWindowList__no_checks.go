@@ -15,7 +15,7 @@ func (o *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowList) validateGet
 	return nil
 }
 
-func (o *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowList) validateSet
 	return nil
 }
 
-func validateNewOracleExadataInfrastructureMaintenanceWindowListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOracleExadataInfrastructureMaintenanceWindowListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

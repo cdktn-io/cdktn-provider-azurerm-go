@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirewallVirtualHubOutputReference) validateInterpolationForAt
 	return nil
 }
 
-func (f *jsiiProxy_FirewallVirtualHubOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallVirtualHubOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FirewallVirtualHubOutputReference) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_FirewallVirtualHubOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallVirtualHubOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FirewallVirtualHubOutputReference) validateSetVirtualHubIdPar
 	return nil
 }
 
-func validateNewFirewallVirtualHubOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallVirtualHubOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

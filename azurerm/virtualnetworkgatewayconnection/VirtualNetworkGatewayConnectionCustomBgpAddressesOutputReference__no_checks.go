@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayConnectionCustomBgpAddressesOutputRefere
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayConnectionCustomBgpAddressesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayConnectionCustomBgpAddressesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnectionCustomBgpAddressesOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayConnectionCustomBgpAddressesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayConnectionCustomBgpAddressesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayConnectionCustomBgpAddressesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualNetworkGatewayConnectionCustomBgpAddressesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzureCliIdentityOutputReference) vali
 	return nil
 }
 
-func (r *jsiiProxy_ResourceDeploymentScriptAzureCliIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceDeploymentScriptAzureCliIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzureCliIdentityOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ResourceDeploymentScriptAzureCliIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceDeploymentScriptAzureCliIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzureCliIdentityOutputReference) vali
 	return nil
 }
 
-func validateNewResourceDeploymentScriptAzureCliIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewResourceDeploymentScriptAzureCliIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

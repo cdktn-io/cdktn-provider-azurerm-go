@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivateDnsSrvRecordRecordList) validateGetParameters(index *f
 	return nil
 }
 
-func (p *jsiiProxy_PrivateDnsSrvRecordRecordList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateDnsSrvRecordRecordList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PrivateDnsSrvRecordRecordList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsSrvRecordRecordList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateDnsSrvRecordRecordList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PrivateDnsSrvRecordRecordList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewPrivateDnsSrvRecordRecordListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivateDnsSrvRecordRecordListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorActionGroupWebhookReceiverList) validateGetParameters(
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActionGroupWebhookReceiverList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActionGroupWebhookReceiverList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorActionGroupWebhookReceiverList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActionGroupWebhookReceiverList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActionGroupWebhookReceiverList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorActionGroupWebhookReceiverList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewMonitorActionGroupWebhookReceiverListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorActionGroupWebhookReceiverListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

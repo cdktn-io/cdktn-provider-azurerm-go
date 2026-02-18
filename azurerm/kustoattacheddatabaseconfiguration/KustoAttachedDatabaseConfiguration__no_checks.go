@@ -131,7 +131,7 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

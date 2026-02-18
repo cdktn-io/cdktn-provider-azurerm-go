@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsEventLogOutputRefe
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsEventLogOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsEventLogOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsEventLogOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsEventLogOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsEventLogOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesWindowsEventLogOutputRefe
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleDataSourcesWindowsEventLogOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorDataCollectionRuleDataSourcesWindowsEventLogOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

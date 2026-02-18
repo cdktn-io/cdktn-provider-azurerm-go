@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationSuccessThresholdOutp
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationSuccessThresholdOutp
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkConnectionMonitorTestConfigurationSuccessThresholdOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

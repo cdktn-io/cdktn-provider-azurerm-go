@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsFunctionAppStorageAccountList) validateGetParameters(i
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppStorageAccountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppStorageAccountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsFunctionAppStorageAccountList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppStorageAccountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppStorageAccountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsFunctionAppStorageAccountList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewWindowsFunctionAppStorageAccountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsFunctionAppStorageAccountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

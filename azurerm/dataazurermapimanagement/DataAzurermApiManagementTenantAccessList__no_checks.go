@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApiManagementTenantAccessList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApiManagementTenantAccessList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApiManagementTenantAccessList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApiManagementTenantAccessList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApiManagementTenantAccessList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApiManagementTenantAccessList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApiManagementTenantAccessList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAzurermApiManagementTenantAccessListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApiManagementTenantAccessListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

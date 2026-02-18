@@ -5,14 +5,14 @@ package netappvolumegrouporacle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappvolumegrouporacle/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/netappvolumegrouporacle/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetappVolumeGroupOracleVolumeExportPolicyRuleList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type NetappVolumeGroupOracleVolumeExportPolicyRuleList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type NetappVolumeGroupOracleVolumeExportPolicyRuleList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type NetappVolumeGroupOracleVolumeExportPolicyRuleList interface {
 
 // The jsii proxy struct for NetappVolumeGroupOracleVolumeExportPolicyRuleList
 type jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) WrapsSet()
 }
 
 
-func NewNetappVolumeGroupOracleVolumeExportPolicyRuleList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetappVolumeGroupOracleVolumeExportPolicyRuleList {
+func NewNetappVolumeGroupOracleVolumeExportPolicyRuleList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) NetappVolumeGroupOracleVolumeExportPolicyRuleList {
 	_init_.Initialize()
 
 	if err := validateNewNetappVolumeGroupOracleVolumeExportPolicyRuleListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewNetappVolumeGroupOracleVolumeExportPolicyRuleList(terraformResource cdkt
 	return &j
 }
 
-func NewNetappVolumeGroupOracleVolumeExportPolicyRuleList_Override(n NetappVolumeGroupOracleVolumeExportPolicyRuleList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewNetappVolumeGroupOracleVolumeExportPolicyRuleList_Override(n NetappVolumeGroupOracleVolumeExportPolicyRuleList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList)SetWrapsSet
 	)
 }
 
-func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := n.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		n,
@@ -231,7 +231,7 @@ func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) Get(index 
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

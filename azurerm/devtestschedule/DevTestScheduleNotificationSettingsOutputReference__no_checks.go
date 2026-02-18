@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DevTestScheduleNotificationSettingsOutputReference) validateS
 	return nil
 }
 
-func validateNewDevTestScheduleNotificationSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevTestScheduleNotificationSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package dataazurermsubscriptiontemplatedeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsubscriptiontemplatedeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsubscriptiontemplatedeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/subscription_template_deployment azurerm_subscription_template_deployment}.
 type DataAzurermSubscriptionTemplateDeployment interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -28,9 +28,9 @@ type DataAzurermSubscriptionTemplateDeployment interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -39,9 +39,9 @@ type DataAzurermSubscriptionTemplateDeployment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -49,13 +49,13 @@ type DataAzurermSubscriptionTemplateDeployment interface {
 	Node() constructs.Node
 	OutputContent() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -67,7 +67,7 @@ type DataAzurermSubscriptionTemplateDeployment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -83,7 +83,7 @@ type DataAzurermSubscriptionTemplateDeployment interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -109,11 +109,11 @@ type DataAzurermSubscriptionTemplateDeployment interface {
 
 // The jsii proxy struct for DataAzurermSubscriptionTemplateDeployment
 type jsiiProxy_DataAzurermSubscriptionTemplateDeployment struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -152,8 +152,8 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) DependsOn() *[]*st
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -202,8 +202,8 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) IdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -252,8 +252,8 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) OutputContent() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -272,8 +272,8 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) RawOverrides() int
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -371,7 +371,7 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetDependsOn(val *[
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -390,7 +390,7 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetId(val *string) 
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetName(val *string
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -420,14 +420,14 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment)SetProvider(val cdk
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermSubscriptionTemplateDeployment resource upon running "cdktf plan <stack-name>".
-func DataAzurermSubscriptionTemplateDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermSubscriptionTemplateDeployment resource upon running "cdktn plan <stack-name>".
+func DataAzurermSubscriptionTemplateDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermSubscriptionTemplateDeployment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermSubscriptionTemplateDeployment.DataAzurermSubscriptionTemplateDeployment",
@@ -550,11 +550,11 @@ func (d *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) GetAnyMapAttribute
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -678,11 +678,11 @@ func (d *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) GetStringMapAttrib
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

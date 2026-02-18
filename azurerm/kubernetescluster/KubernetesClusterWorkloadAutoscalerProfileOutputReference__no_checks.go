@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterWorkloadAutoscalerProfileOutputReference) va
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterWorkloadAutoscalerProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterWorkloadAutoscalerProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_KubernetesClusterWorkloadAutoscalerProfileOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterWorkloadAutoscalerProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterWorkloadAutoscalerProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KubernetesClusterWorkloadAutoscalerProfileOutputReference) va
 	return nil
 }
 
-func validateNewKubernetesClusterWorkloadAutoscalerProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterWorkloadAutoscalerProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

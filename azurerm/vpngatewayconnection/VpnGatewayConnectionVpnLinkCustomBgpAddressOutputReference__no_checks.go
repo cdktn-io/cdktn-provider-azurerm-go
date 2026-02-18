@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressOutputReference) v
 	return nil
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnGatewayConnectionVpnLinkCustomBgpAddressOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnGatewayConnectionVpnLinkCustomBgpAddressOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpnGatewayConnectionVpnLinkCustomBgpAddressOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

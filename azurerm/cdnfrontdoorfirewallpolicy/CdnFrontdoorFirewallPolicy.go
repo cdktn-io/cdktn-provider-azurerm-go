@@ -5,21 +5,21 @@ package cdnfrontdoorfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cdnfrontdoorfirewallpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnfrontdoorfirewallpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/cdn_frontdoor_firewall_policy azurerm_cdn_frontdoor_firewall_policy}.
 type CdnFrontdoorFirewallPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	CaptchaCookieExpirationInMinutes() *float64
 	SetCaptchaCookieExpirationInMinutes(val *float64)
 	CaptchaCookieExpirationInMinutesInput() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -46,9 +46,9 @@ type CdnFrontdoorFirewallPolicy interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type CdnFrontdoorFirewallPolicy interface {
 	SetJsChallengeCookieExpirationInMinutes(val *float64)
 	JsChallengeCookieExpirationInMinutesInput() *float64
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogScrubbing() CdnFrontdoorFirewallPolicyLogScrubbingOutputReference
 	LogScrubbingInput() *CdnFrontdoorFirewallPolicyLogScrubbing
 	ManagedRule() CdnFrontdoorFirewallPolicyManagedRuleList
@@ -77,9 +77,9 @@ type CdnFrontdoorFirewallPolicy interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type CdnFrontdoorFirewallPolicy interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type CdnFrontdoorFirewallPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -135,9 +135,9 @@ type CdnFrontdoorFirewallPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -187,7 +187,7 @@ type CdnFrontdoorFirewallPolicy interface {
 
 // The jsii proxy struct for CdnFrontdoorFirewallPolicy
 type jsiiProxy_CdnFrontdoorFirewallPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) CaptchaCookieExpirationInMinutes() *float64 {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) CaptchaCookieExpirationInMinutesI
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -340,8 +340,8 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -420,8 +420,8 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) JsChallengeCookieExpirationInMinu
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -520,8 +520,8 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -650,8 +650,8 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -804,7 +804,7 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -834,7 +834,7 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetJsChallengeCookieExpirationInMi
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -867,7 +867,7 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -941,14 +941,14 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a CdnFrontdoorFirewallPolicy resource upon running "cdktf plan <stack-name>".
-func CdnFrontdoorFirewallPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a CdnFrontdoorFirewallPolicy resource upon running "cdktn plan <stack-name>".
+func CdnFrontdoorFirewallPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateCdnFrontdoorFirewallPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.cdnFrontdoorFirewallPolicy.CdnFrontdoorFirewallPolicy",
@@ -1082,11 +1082,11 @@ func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -1223,7 +1223,7 @@ func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := c.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1234,11 +1234,11 @@ func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) ImportFrom(id *string, provider c
 	)
 }
 
-func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CdnFrontdoorFirewallPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,

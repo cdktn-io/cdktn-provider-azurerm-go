@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagList) vali
 	return nil
 }
 
-func (s *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagList) vali
 	return nil
 }
 
-func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleFiltersMatchBlobIndexTagList) vali
 	return nil
 }
 
-func validateNewStorageManagementPolicyRuleFiltersMatchBlobIndexTagListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageManagementPolicyRuleFiltersMatchBlobIndexTagListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

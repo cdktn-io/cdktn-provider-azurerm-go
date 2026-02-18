@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayConnectionTimeoutsOutputReference) valid
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnectionTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnectionTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualNetworkGatewayConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (f *jsiiProxy_FrontdoorFrontendEndpointOutputReference) validateInterpolati
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorFrontendEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorFrontendEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FrontdoorFrontendEndpointOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorFrontendEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorFrontendEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_FrontdoorFrontendEndpointOutputReference) validateSetWebAppli
 	return nil
 }
 
-func validateNewFrontdoorFrontendEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFrontdoorFrontendEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

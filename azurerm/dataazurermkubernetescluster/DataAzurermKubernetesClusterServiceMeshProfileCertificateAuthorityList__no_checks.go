@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileCertificateAuth
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileCertificateAuthorityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileCertificateAuthorityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileCertificateAuth
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileCertificateAuthorityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileCertificateAuthorityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileCertificateAuth
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterServiceMeshProfileCertificateAuthorityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterServiceMeshProfileCertificateAuthorityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

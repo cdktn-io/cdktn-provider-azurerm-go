@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationOutputReference)
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchPoolUserAccountsWindowsUserConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchPoolUserAccountsWindowsUserConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

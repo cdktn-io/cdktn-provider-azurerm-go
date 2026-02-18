@@ -8,7 +8,7 @@ package networkmanager
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkManagerCrossTenantScopesList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (n *jsiiProxy_NetworkManagerCrossTenantScopesList) validateGetParameters(in
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagerCrossTenantScopesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagerCrossTenantScopesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewNetworkManagerCrossTenantScopesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkManagerCrossTenantScopesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

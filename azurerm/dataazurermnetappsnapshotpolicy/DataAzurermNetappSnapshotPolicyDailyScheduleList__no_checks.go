@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermNetappSnapshotPolicyDailyScheduleList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetappSnapshotPolicyDailyScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetappSnapshotPolicyDailyScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermNetappSnapshotPolicyDailyScheduleList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappSnapshotPolicyDailyScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetappSnapshotPolicyDailyScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermNetappSnapshotPolicyDailyScheduleList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermNetappSnapshotPolicyDailyScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermNetappSnapshotPolicyDailyScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

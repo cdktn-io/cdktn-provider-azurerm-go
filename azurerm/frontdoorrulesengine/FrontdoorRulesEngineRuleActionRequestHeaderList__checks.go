@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateGetP
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateReso
 
 func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FrontdoorRulesEngineRuleActionRequestHeader:
 		val := val.(*[]*FrontdoorRulesEngineRuleActionRequestHeader)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetI
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FrontdoorRulesEngineRuleActionRequestHeader; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FrontdoorRulesEngineRuleActionRequestHeader; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderList) validateSetW
 	return nil
 }
 
-func validateNewFrontdoorRulesEngineRuleActionRequestHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorRulesEngineRuleActionRequestHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (f *jsiiProxy_FirewallPolicyThreatIntelligenceAllowlistStructOutputReferenc
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_FirewallPolicyThreatIntelligenceAllowlistStructOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyThreatIntelligenceAllowlistStructOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirewallPolicyThreatIntelligenceAllowlistStructOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallPolicyThreatIntelligenceAllowlistStructOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

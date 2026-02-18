@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermSharedImageGallery) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSharedImageGallery) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermSharedImageGallery) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

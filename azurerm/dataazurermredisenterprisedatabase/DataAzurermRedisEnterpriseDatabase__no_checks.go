@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermRedisEnterpriseDatabase) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRedisEnterpriseDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermRedisEnterpriseDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

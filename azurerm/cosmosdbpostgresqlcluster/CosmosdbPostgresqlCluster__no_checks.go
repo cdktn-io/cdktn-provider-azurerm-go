@@ -139,7 +139,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlCluster) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbPostgresqlCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CosmosdbPostgresqlCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

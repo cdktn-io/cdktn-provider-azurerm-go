@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsVersionsOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsVersionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsVersionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsVersionsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsVersionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersionsVersionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleDatabaseSystemVersionsVersionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermOracleDatabaseSystemVersionsVersionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

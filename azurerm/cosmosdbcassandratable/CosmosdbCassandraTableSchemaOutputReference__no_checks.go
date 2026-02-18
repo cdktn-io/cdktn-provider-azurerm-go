@@ -59,7 +59,7 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaOutputReference) validatePutParti
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTableSchemaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbCassandraTableSchemaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbCassandraTableSchemaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbCassandraTableSchemaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

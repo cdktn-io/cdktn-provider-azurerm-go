@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbGremlinGraphConflictResolutionPolicyOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbGremlinGraphConflictResolutionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbGremlinGraphConflictResolutionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CosmosdbGremlinGraphConflictResolutionPolicyOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbGremlinGraphConflictResolutionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbGremlinGraphConflictResolutionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbGremlinGraphConflictResolutionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbGremlinGraphConflictResolutionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppSiteConfigAppServiceLogsOutputReference) va
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSiteConfigAppServiceLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppSiteConfigAppServiceLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WindowsFunctionAppSiteConfigAppServiceLogsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSiteConfigAppServiceLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppSiteConfigAppServiceLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsFunctionAppSiteConfigAppServiceLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppSiteConfigAppServiceLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

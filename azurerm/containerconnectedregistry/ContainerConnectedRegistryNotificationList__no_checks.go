@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerConnectedRegistryNotificationList) validateGetParame
 	return nil
 }
 
-func (c *jsiiProxy_ContainerConnectedRegistryNotificationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerConnectedRegistryNotificationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerConnectedRegistryNotificationList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_ContainerConnectedRegistryNotificationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerConnectedRegistryNotificationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerConnectedRegistryNotificationList) validateSetWrapsS
 	return nil
 }
 
-func validateNewContainerConnectedRegistryNotificationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerConnectedRegistryNotificationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

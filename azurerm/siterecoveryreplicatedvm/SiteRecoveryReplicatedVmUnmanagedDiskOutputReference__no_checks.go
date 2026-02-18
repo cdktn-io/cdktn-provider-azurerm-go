@@ -47,7 +47,7 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SiteRecoveryReplicatedVmUnmanagedDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSiteRecoveryReplicatedVmUnmanagedDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSiteRecoveryReplicatedVmUnmanagedDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

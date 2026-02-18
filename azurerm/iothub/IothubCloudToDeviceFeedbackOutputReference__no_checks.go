@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubCloudToDeviceFeedbackOutputReference) validateInterpola
 	return nil
 }
 
-func (i *jsiiProxy_IothubCloudToDeviceFeedbackOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubCloudToDeviceFeedbackOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_IothubCloudToDeviceFeedbackOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_IothubCloudToDeviceFeedbackOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubCloudToDeviceFeedbackOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_IothubCloudToDeviceFeedbackOutputReference) validateSetTimeTo
 	return nil
 }
 
-func validateNewIothubCloudToDeviceFeedbackOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIothubCloudToDeviceFeedbackOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

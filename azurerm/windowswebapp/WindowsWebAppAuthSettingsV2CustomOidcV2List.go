@@ -5,14 +5,14 @@ package windowswebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppAuthSettingsV2CustomOidcV2List interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type WindowsWebAppAuthSettingsV2CustomOidcV2List interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type WindowsWebAppAuthSettingsV2CustomOidcV2List interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) WindowsWebAppAuthSettingsV2CustomOidcV2OutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type WindowsWebAppAuthSettingsV2CustomOidcV2List interface {
 
 // The jsii proxy struct for WindowsWebAppAuthSettingsV2CustomOidcV2List
 type jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) WrapsSet() *bool
 }
 
 
-func NewWindowsWebAppAuthSettingsV2CustomOidcV2List(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WindowsWebAppAuthSettingsV2CustomOidcV2List {
+func NewWindowsWebAppAuthSettingsV2CustomOidcV2List(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) WindowsWebAppAuthSettingsV2CustomOidcV2List {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppAuthSettingsV2CustomOidcV2ListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewWindowsWebAppAuthSettingsV2CustomOidcV2List(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewWindowsWebAppAuthSettingsV2CustomOidcV2List_Override(w WindowsWebAppAuthSettingsV2CustomOidcV2List, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewWindowsWebAppAuthSettingsV2CustomOidcV2List_Override(w WindowsWebAppAuthSettingsV2CustomOidcV2List, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List)SetWrapsSet(val *
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := w.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		w,
@@ -231,7 +231,7 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) Get(index *float
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsV2CustomOidcV2List) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

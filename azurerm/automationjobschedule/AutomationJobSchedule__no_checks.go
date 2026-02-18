@@ -115,7 +115,7 @@ func (j *jsiiProxy_AutomationJobSchedule) validateSetJobScheduleIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_AutomationJobSchedule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutomationJobSchedule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

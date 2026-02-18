@@ -5,14 +5,14 @@ package dataazurermfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermFunctionAppSourceControlOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Branch() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -33,24 +33,24 @@ type DataAzurermFunctionAppSourceControlOutputReference interface {
 	Fqn() *string
 	InternalValue() *DataAzurermFunctionAppSourceControl
 	SetInternalValue(val *DataAzurermFunctionAppSourceControl)
-	ManualIntegration() cdktf.IResolvable
+	ManualIntegration() cdktn.IResolvable
 	RepoUrl() *string
-	RollbackEnabled() cdktf.IResolvable
+	RollbackEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	UseMercurial() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	UseMercurial() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type DataAzurermFunctionAppSourceControlOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type DataAzurermFunctionAppSourceControlOutputReference interface {
 
 // The jsii proxy struct for DataAzurermFunctionAppSourceControlOutputReference
 type jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) Branch() *string {
@@ -144,8 +144,8 @@ func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) InternalV
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) ManualIntegration() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) ManualIntegration() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"manualIntegration",
@@ -164,8 +164,8 @@ func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) RepoUrl()
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) RollbackEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) RollbackEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"rollbackEnabled",
@@ -184,8 +184,8 @@ func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,8 +194,8 @@ func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) UseMercurial() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) UseMercurial() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"useMercurial",
@@ -205,7 +205,7 @@ func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) UseMercur
 }
 
 
-func NewDataAzurermFunctionAppSourceControlOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermFunctionAppSourceControlOutputReference {
+func NewDataAzurermFunctionAppSourceControlOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermFunctionAppSourceControlOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermFunctionAppSourceControlOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -222,7 +222,7 @@ func NewDataAzurermFunctionAppSourceControlOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewDataAzurermFunctionAppSourceControlOutputReference_Override(d DataAzurermFunctionAppSourceControlOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermFunctionAppSourceControlOutputReference_Override(d DataAzurermFunctionAppSourceControlOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -276,7 +276,7 @@ func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -316,11 +316,11 @@ func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) GetAnyMap
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -444,8 +444,8 @@ func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) GetString
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,11 +457,11 @@ func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) Interpola
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -473,7 +473,7 @@ func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) Interpola
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermFunctionAppSourceControlOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

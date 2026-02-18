@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) va
 	return nil
 }
 
-func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualHubConnectionRoutingStaticVnetRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualHubConnectionRoutingStaticVnetRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualHubConnectionRoutingStaticVnetRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

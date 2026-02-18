@@ -115,7 +115,7 @@ func (j *jsiiProxy_BotChannelWebChat) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelWebChat) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BotChannelWebChat) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

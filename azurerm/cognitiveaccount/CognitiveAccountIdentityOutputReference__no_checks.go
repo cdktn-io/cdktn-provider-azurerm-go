@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitiveAccountIdentityOutputReference) validateInterpolatio
 	return nil
 }
 
-func (c *jsiiProxy_CognitiveAccountIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitiveAccountIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_CognitiveAccountIdentityOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitiveAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CognitiveAccountIdentityOutputReference) validateSetTypeParam
 	return nil
 }
 
-func validateNewCognitiveAccountIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitiveAccountIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

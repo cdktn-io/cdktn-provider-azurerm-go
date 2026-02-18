@@ -5,14 +5,14 @@ package windowsvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputRe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputRe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputRe
 
 // The jsii proxy struct for WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference
 type jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKe
 	return returns
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKe
 }
 
 
-func NewWindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference {
+func NewWindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewWindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutpu
 	return &j
 }
 
-func NewWindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference_Override(w WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference_Override(w WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKe
 	)
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKe
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -457,8 +457,8 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKe
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -470,11 +470,11 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKe
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -486,7 +486,7 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKe
 	return returns
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetExtensionProtectedSettingsFromKeyVaultOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

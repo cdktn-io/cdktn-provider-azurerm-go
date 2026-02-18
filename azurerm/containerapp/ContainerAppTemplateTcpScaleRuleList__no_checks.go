@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppTemplateTcpScaleRuleList) validateGetParameters(i
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateTcpScaleRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateTcpScaleRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppTemplateTcpScaleRuleList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateTcpScaleRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateTcpScaleRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppTemplateTcpScaleRuleList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewContainerAppTemplateTcpScaleRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppTemplateTcpScaleRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

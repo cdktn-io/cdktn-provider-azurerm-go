@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceSlotCustomHostnameBindingTimeoutsOutputReference) v
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotCustomHostnameBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotCustomHostnameBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AppServiceSlotCustomHostnameBindingTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotCustomHostnameBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotCustomHostnameBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppServiceSlotCustomHostnameBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceSlotCustomHostnameBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackups) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackups) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackups) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

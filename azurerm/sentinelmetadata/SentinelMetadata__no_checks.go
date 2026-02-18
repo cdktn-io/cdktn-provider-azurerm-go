@@ -155,7 +155,7 @@ func (j *jsiiProxy_SentinelMetadata) validateSetLastPublishDateParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_SentinelMetadata) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelMetadata) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

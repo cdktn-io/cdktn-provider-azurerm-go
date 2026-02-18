@@ -5,15 +5,15 @@ package dataazurermlinuxfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlinuxfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermlinuxfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermLinuxFunctionAppSiteConfigOutputReference interface {
-	cdktf.ComplexObject
-	AlwaysOn() cdktf.IResolvable
+	cdktn.ComplexObject
+	AlwaysOn() cdktn.IResolvable
 	ApiDefinitionUrl() *string
 	ApiManagementApiId() *string
 	AppCommandLine() *string
@@ -33,7 +33,7 @@ type DataAzurermLinuxFunctionAppSiteConfigOutputReference interface {
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
 	ContainerRegistryManagedIdentityClientId() *string
-	ContainerRegistryUseManagedIdentity() cdktf.IResolvable
+	ContainerRegistryUseManagedIdentity() cdktn.IResolvable
 	Cors() DataAzurermLinuxFunctionAppSiteConfigCorsList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
@@ -41,14 +41,14 @@ type DataAzurermLinuxFunctionAppSiteConfigOutputReference interface {
 	// Experimental.
 	CreationStack() *[]*string
 	DefaultDocuments() *[]*string
-	DetailedErrorLoggingEnabled() cdktf.IResolvable
+	DetailedErrorLoggingEnabled() cdktn.IResolvable
 	ElasticInstanceMinimum() *float64
 	// Experimental.
 	Fqn() *string
 	FtpsState() *string
 	HealthCheckEvictionTimeInMin() *float64
 	HealthCheckPath() *string
-	Http2Enabled() cdktf.IResolvable
+	Http2Enabled() cdktn.IResolvable
 	InternalValue() *DataAzurermLinuxFunctionAppSiteConfig
 	SetInternalValue(val *DataAzurermLinuxFunctionAppSiteConfig)
 	IpRestriction() DataAzurermLinuxFunctionAppSiteConfigIpRestrictionList
@@ -58,32 +58,32 @@ type DataAzurermLinuxFunctionAppSiteConfigOutputReference interface {
 	ManagedPipelineMode() *string
 	MinimumTlsVersion() *string
 	PreWarmedInstanceCount() *float64
-	RemoteDebuggingEnabled() cdktf.IResolvable
+	RemoteDebuggingEnabled() cdktn.IResolvable
 	RemoteDebuggingVersion() *string
-	RuntimeScaleMonitoringEnabled() cdktf.IResolvable
+	RuntimeScaleMonitoringEnabled() cdktn.IResolvable
 	ScmIpRestriction() DataAzurermLinuxFunctionAppSiteConfigScmIpRestrictionList
 	ScmIpRestrictionDefaultAction() *string
 	ScmMinimumTlsVersion() *string
 	ScmType() *string
-	ScmUseMainIpRestriction() cdktf.IResolvable
+	ScmUseMainIpRestriction() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
-	Use32BitWorker() cdktf.IResolvable
-	VnetRouteAllEnabled() cdktf.IResolvable
-	WebsocketsEnabled() cdktf.IResolvable
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	Use32BitWorker() cdktn.IResolvable
+	VnetRouteAllEnabled() cdktn.IResolvable
+	WebsocketsEnabled() cdktn.IResolvable
 	WorkerCount() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -99,12 +99,12 @@ type DataAzurermLinuxFunctionAppSiteConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -114,11 +114,11 @@ type DataAzurermLinuxFunctionAppSiteConfigOutputReference interface {
 
 // The jsii proxy struct for DataAzurermLinuxFunctionAppSiteConfigOutputReference
 type jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) AlwaysOn() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) AlwaysOn() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"alwaysOn",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Contain
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) ContainerRegistryUseManagedIdentity() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) ContainerRegistryUseManagedIdentity() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"containerRegistryUseManagedIdentity",
@@ -277,8 +277,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Default
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) DetailedErrorLoggingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) DetailedErrorLoggingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"detailedErrorLoggingEnabled",
@@ -337,8 +337,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) HealthC
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Http2Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Http2Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"http2Enabled",
@@ -427,8 +427,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) PreWarm
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) RemoteDebuggingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) RemoteDebuggingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"remoteDebuggingEnabled",
@@ -447,8 +447,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) RemoteD
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) RuntimeScaleMonitoringEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) RuntimeScaleMonitoringEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"runtimeScaleMonitoringEnabled",
@@ -497,8 +497,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) ScmType
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) ScmUseMainIpRestriction() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) ScmUseMainIpRestriction() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"scmUseMainIpRestriction",
@@ -517,8 +517,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -527,8 +527,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Use32BitWorker() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Use32BitWorker() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"use32BitWorker",
@@ -537,8 +537,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Use32Bi
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) VnetRouteAllEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) VnetRouteAllEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"vnetRouteAllEnabled",
@@ -547,8 +547,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) VnetRou
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) WebsocketsEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) WebsocketsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"websocketsEnabled",
@@ -568,7 +568,7 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) WorkerC
 }
 
 
-func NewDataAzurermLinuxFunctionAppSiteConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxFunctionAppSiteConfigOutputReference {
+func NewDataAzurermLinuxFunctionAppSiteConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxFunctionAppSiteConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermLinuxFunctionAppSiteConfigOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -585,7 +585,7 @@ func NewDataAzurermLinuxFunctionAppSiteConfigOutputReference(terraformResource c
 	return &j
 }
 
-func NewDataAzurermLinuxFunctionAppSiteConfigOutputReference_Override(d DataAzurermLinuxFunctionAppSiteConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermLinuxFunctionAppSiteConfigOutputReference_Override(d DataAzurermLinuxFunctionAppSiteConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -639,7 +639,7 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -679,11 +679,11 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) GetAnyM
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -807,8 +807,8 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) GetStri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -820,11 +820,11 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -836,7 +836,7 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

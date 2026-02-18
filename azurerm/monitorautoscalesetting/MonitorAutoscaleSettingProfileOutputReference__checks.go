@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -131,7 +131,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validatePutRul
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorAutoscaleSettingProfileRule:
 		value := value.(*[]*MonitorAutoscaleSettingProfileRule)
@@ -150,14 +150,14 @@ func (m *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validatePutRul
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorAutoscaleSettingProfileRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorAutoscaleSettingProfileRule; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -232,7 +232,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateSetCom
 
 func (j *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *MonitorAutoscaleSettingProfile:
 		val := val.(*MonitorAutoscaleSettingProfile)
@@ -247,7 +247,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *MonitorAutoscaleSettingProfile; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *MonitorAutoscaleSettingProfile; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -270,7 +270,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -278,7 +278,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileOutputReference) validateSetTer
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorAutoscaleSettingProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

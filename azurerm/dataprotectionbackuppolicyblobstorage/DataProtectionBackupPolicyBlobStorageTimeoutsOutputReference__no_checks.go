@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageTimeoutsOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyBlobStorageTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyBlobStorageTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupPolicyBlobStorageTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

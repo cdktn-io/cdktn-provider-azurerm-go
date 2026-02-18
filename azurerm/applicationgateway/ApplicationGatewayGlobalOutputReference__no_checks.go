@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewayGlobalOutputReference) validateInterpolatio
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayGlobalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayGlobalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApplicationGatewayGlobalOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayGlobalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayGlobalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewayGlobalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationGatewayGlobalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

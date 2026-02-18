@@ -5,14 +5,14 @@ package nginxconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/nginxconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/nginxconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NginxConfigurationProtectedFileOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,9 +41,9 @@ type NginxConfigurationProtectedFileOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualPath() *string
 	SetVirtualPath(val *string)
 	VirtualPathInput() *string
@@ -52,7 +52,7 @@ type NginxConfigurationProtectedFileOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,12 +68,12 @@ type NginxConfigurationProtectedFileOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type NginxConfigurationProtectedFileOutputReference interface {
 
 // The jsii proxy struct for NginxConfigurationProtectedFileOutputReference
 type jsiiProxy_NginxConfigurationProtectedFileOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference) ComplexObjectIndex() interface{} {
@@ -176,8 +176,8 @@ func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -207,7 +207,7 @@ func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference) VirtualPathIn
 }
 
 
-func NewNginxConfigurationProtectedFileOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NginxConfigurationProtectedFileOutputReference {
+func NewNginxConfigurationProtectedFileOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NginxConfigurationProtectedFileOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNginxConfigurationProtectedFileOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -224,7 +224,7 @@ func NewNginxConfigurationProtectedFileOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewNginxConfigurationProtectedFileOutputReference_Override(n NginxConfigurationProtectedFileOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNginxConfigurationProtectedFileOutputReference_Override(n NginxConfigurationProtectedFileOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NginxConfigurationProtectedFileOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -340,11 +340,11 @@ func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -468,8 +468,8 @@ func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) GetStringMapA
 	return returns
 }
 
-func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -481,11 +481,11 @@ func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) Interpolation
 	return returns
 }
 
-func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -497,7 +497,7 @@ func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) Interpolation
 	return returns
 }
 
-func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NginxConfigurationProtectedFileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

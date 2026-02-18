@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualDesktopScalingPlanTimeoutsOutputReference) validateInt
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopScalingPlanTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopScalingPlanTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopScalingPlanTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopScalingPlanTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanTimeoutsOutputReference) validateSet
 	return nil
 }
 
-func validateNewVirtualDesktopScalingPlanTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualDesktopScalingPlanTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

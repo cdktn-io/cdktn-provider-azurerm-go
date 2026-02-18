@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference)
 	return nil
 }
 
-func (s *jsiiProxy_ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicebusNamespaceNetworkRuleSetNetworkRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServicebusNamespaceNetworkRuleSetNetworkRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewServicebusNamespaceNetworkRuleSetNetworkRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

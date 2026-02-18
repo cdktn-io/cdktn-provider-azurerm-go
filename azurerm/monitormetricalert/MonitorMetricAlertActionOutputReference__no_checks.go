@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorMetricAlertActionOutputReference) validateInterpolatio
 	return nil
 }
 
-func (m *jsiiProxy_MonitorMetricAlertActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorMetricAlertActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MonitorMetricAlertActionOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_MonitorMetricAlertActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorMetricAlertActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorMetricAlertActionOutputReference) validateSetWebhookPr
 	return nil
 }
 
-func validateNewMonitorMetricAlertActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorMetricAlertActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

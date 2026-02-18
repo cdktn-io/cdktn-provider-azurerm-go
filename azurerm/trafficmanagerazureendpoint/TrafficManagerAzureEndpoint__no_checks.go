@@ -127,7 +127,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint) validateSetIdParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerAzureEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TrafficManagerAzureEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

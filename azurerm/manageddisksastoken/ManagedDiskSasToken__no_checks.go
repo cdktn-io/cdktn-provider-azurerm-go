@@ -115,7 +115,7 @@ func (j *jsiiProxy_ManagedDiskSasToken) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_ManagedDiskSasToken) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ManagedDiskSasToken) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

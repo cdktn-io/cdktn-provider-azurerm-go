@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRedisCacheRedisConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermRedisCacheRedisConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermRedisCacheRedisConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

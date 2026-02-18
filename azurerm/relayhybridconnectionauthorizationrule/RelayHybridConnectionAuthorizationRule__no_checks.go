@@ -111,7 +111,7 @@ func (j *jsiiProxy_RelayHybridConnectionAuthorizationRule) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_RelayHybridConnectionAuthorizationRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RelayHybridConnectionAuthorizationRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

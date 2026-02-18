@@ -15,7 +15,7 @@ func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) validateGetP
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) validateSetW
 	return nil
 }
 
-func validateNewFirewallPolicyInsightsLogAnalyticsWorkspaceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirewallPolicyInsightsLogAnalyticsWorkspaceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

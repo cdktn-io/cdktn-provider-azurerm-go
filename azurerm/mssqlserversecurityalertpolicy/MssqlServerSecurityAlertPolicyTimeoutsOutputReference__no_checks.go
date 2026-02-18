@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlServerSecurityAlertPolicyTimeoutsOutputReference) valida
 	return nil
 }
 
-func (m *jsiiProxy_MssqlServerSecurityAlertPolicyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlServerSecurityAlertPolicyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicyTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_MssqlServerSecurityAlertPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlServerSecurityAlertPolicyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicyTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewMssqlServerSecurityAlertPolicyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlServerSecurityAlertPolicyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

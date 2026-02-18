@@ -47,7 +47,7 @@ func (m *jsiiProxy_MapsAccountCorsOutputReference) validateInterpolationForAttri
 	return nil
 }
 
-func (m *jsiiProxy_MapsAccountCorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MapsAccountCorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MapsAccountCorsOutputReference) validateSetTerraformAttribute
 	return nil
 }
 
-func (j *jsiiProxy_MapsAccountCorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MapsAccountCorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMapsAccountCorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMapsAccountCorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

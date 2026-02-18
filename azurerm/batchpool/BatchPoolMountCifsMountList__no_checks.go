@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchPoolMountCifsMountList) validateGetParameters(index *flo
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolMountCifsMountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolMountCifsMountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchPoolMountCifsMountList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolMountCifsMountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolMountCifsMountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchPoolMountCifsMountList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewBatchPoolMountCifsMountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchPoolMountCifsMountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

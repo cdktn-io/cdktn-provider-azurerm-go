@@ -5,14 +5,14 @@ package firewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/firewallpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/firewallpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FirewallPolicyInsightsLogAnalyticsWorkspaceList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type FirewallPolicyInsightsLogAnalyticsWorkspaceList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type FirewallPolicyInsightsLogAnalyticsWorkspaceList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) FirewallPolicyInsightsLogAnalyticsWorkspaceOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type FirewallPolicyInsightsLogAnalyticsWorkspaceList interface {
 
 // The jsii proxy struct for FirewallPolicyInsightsLogAnalyticsWorkspaceList
 type jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) WrapsSet() *
 }
 
 
-func NewFirewallPolicyInsightsLogAnalyticsWorkspaceList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FirewallPolicyInsightsLogAnalyticsWorkspaceList {
+func NewFirewallPolicyInsightsLogAnalyticsWorkspaceList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FirewallPolicyInsightsLogAnalyticsWorkspaceList {
 	_init_.Initialize()
 
 	if err := validateNewFirewallPolicyInsightsLogAnalyticsWorkspaceListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewFirewallPolicyInsightsLogAnalyticsWorkspaceList(terraformResource cdktf.
 	return &j
 }
 
-func NewFirewallPolicyInsightsLogAnalyticsWorkspaceList_Override(f FirewallPolicyInsightsLogAnalyticsWorkspaceList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewFirewallPolicyInsightsLogAnalyticsWorkspaceList_Override(f FirewallPolicyInsightsLogAnalyticsWorkspaceList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList)SetWrapsSet(v
 	)
 }
 
-func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := f.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		f,
@@ -231,7 +231,7 @@ func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) Get(index *f
 	return returns
 }
 
-func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FirewallPolicyInsightsLogAnalyticsWorkspaceList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

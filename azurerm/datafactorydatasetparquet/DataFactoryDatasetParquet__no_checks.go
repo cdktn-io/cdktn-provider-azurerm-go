@@ -151,7 +151,7 @@ func (j *jsiiProxy_DataFactoryDatasetParquet) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetParquet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryDatasetParquet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

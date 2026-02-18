@@ -15,7 +15,7 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnList) validateGetPar
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnList) validateSetWra
 	return nil
 }
 
-func validateNewLogAnalyticsWorkspaceTableCustomLogColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLogAnalyticsWorkspaceTableCustomLogColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

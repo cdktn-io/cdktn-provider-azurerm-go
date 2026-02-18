@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermOracleDbSystemShapesDbSystemShapesList) validateSe
 	return nil
 }
 
-func validateNewDataAzurermOracleDbSystemShapesDbSystemShapesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermOracleDbSystemShapesDbSystemShapesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -135,7 +135,7 @@ func (j *jsiiProxy_ResourceGroupPolicyAssignment) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ResourceGroupPolicyAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

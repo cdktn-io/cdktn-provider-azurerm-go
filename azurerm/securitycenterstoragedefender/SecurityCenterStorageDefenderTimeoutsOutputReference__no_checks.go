@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityCenterStorageDefenderTimeoutsOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterStorageDefenderTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterStorageDefenderTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SecurityCenterStorageDefenderTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterStorageDefenderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterStorageDefenderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SecurityCenterStorageDefenderTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewSecurityCenterStorageDefenderTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityCenterStorageDefenderTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

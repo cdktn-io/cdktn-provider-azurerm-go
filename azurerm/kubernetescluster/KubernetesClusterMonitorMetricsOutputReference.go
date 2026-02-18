@@ -5,14 +5,14 @@ package kubernetescluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetescluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetescluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterMonitorMetricsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AnnotationsAllowed() *string
 	SetAnnotationsAllowed(val *string)
 	AnnotationsAllowedInput() *string
@@ -43,15 +43,15 @@ type KubernetesClusterMonitorMetricsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type KubernetesClusterMonitorMetricsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAnnotationsAllowed()
 	ResetLabelsAllowed()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type KubernetesClusterMonitorMetricsOutputReference interface {
 
 // The jsii proxy struct for KubernetesClusterMonitorMetricsOutputReference
 type jsiiProxy_KubernetesClusterMonitorMetricsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) AnnotationsAllowed() *string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) TerraformReso
 }
 
 
-func NewKubernetesClusterMonitorMetricsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesClusterMonitorMetricsOutputReference {
+func NewKubernetesClusterMonitorMetricsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesClusterMonitorMetricsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterMonitorMetricsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewKubernetesClusterMonitorMetricsOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewKubernetesClusterMonitorMetricsOutputReference_Override(k KubernetesClusterMonitorMetricsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesClusterMonitorMetricsOutputReference_Override(k KubernetesClusterMonitorMetricsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -459,8 +459,8 @@ func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) GetStringMapA
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -472,11 +472,11 @@ func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) Interpolation
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -504,7 +504,7 @@ func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) ResetLabelsAl
 	)
 }
 
-func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterMonitorMetricsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

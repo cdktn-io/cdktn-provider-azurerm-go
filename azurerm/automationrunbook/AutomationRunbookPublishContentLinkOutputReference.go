@@ -5,14 +5,14 @@ package automationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationrunbook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomationRunbookPublishContentLinkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,9 +39,9 @@ type AutomationRunbookPublishContentLinkOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -53,7 +53,7 @@ type AutomationRunbookPublishContentLinkOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,15 +69,15 @@ type AutomationRunbookPublishContentLinkOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHash(value *AutomationRunbookPublishContentLinkHash)
 	ResetHash()
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type AutomationRunbookPublishContentLinkOutputReference interface {
 
 // The jsii proxy struct for AutomationRunbookPublishContentLinkOutputReference
 type jsiiProxy_AutomationRunbookPublishContentLinkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) ComplexObjectIndex() interface{} {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) VersionIn
 }
 
 
-func NewAutomationRunbookPublishContentLinkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomationRunbookPublishContentLinkOutputReference {
+func NewAutomationRunbookPublishContentLinkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomationRunbookPublishContentLinkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomationRunbookPublishContentLinkOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewAutomationRunbookPublishContentLinkOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewAutomationRunbookPublishContentLinkOutputReference_Override(a AutomationRunbookPublishContentLinkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomationRunbookPublishContentLinkOutputReference_Override(a AutomationRunbookPublishContentLinkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -292,7 +292,7 @@ func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -354,11 +354,11 @@ func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) GetAnyMap
 	return returns
 }
 
-func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -482,8 +482,8 @@ func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) GetString
 	return returns
 }
 
-func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -495,11 +495,11 @@ func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) Interpola
 	return returns
 }
 
-func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -538,7 +538,7 @@ func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) ResetVers
 	)
 }
 
-func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomationRunbookPublishContentLinkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

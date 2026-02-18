@@ -5,20 +5,20 @@ package dataazurermservicebustopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermservicebustopic/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermservicebustopic/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic}.
 type DataAzurermServicebusTopic interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AutoDeleteOnIdle() *string
-	BatchedOperationsEnabled() cdktf.IResolvable
+	BatchedOperationsEnabled() cdktn.IResolvable
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,14 +31,14 @@ type DataAzurermServicebusTopic interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	DuplicateDetectionHistoryTimeWindow() *string
-	EnableBatchedOperations() cdktf.IResolvable
-	EnableExpress() cdktf.IResolvable
-	EnablePartitioning() cdktf.IResolvable
-	ExpressEnabled() cdktf.IResolvable
+	EnableBatchedOperations() cdktn.IResolvable
+	EnableExpress() cdktn.IResolvable
+	EnablePartitioning() cdktn.IResolvable
+	ExpressEnabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -47,9 +47,9 @@ type DataAzurermServicebusTopic interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MaxSizeInMegabytes() *float64
 	Name() *string
 	SetName(val *string)
@@ -62,21 +62,21 @@ type DataAzurermServicebusTopic interface {
 	NamespaceNameInput() *string
 	// The tree node.
 	Node() constructs.Node
-	PartitioningEnabled() cdktf.IResolvable
+	PartitioningEnabled() cdktn.IResolvable
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
-	RequiresDuplicateDetection() cdktf.IResolvable
+	RequiresDuplicateDetection() cdktn.IResolvable
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	Status() *string
-	SupportOrdering() cdktf.IResolvable
+	SupportOrdering() cdktn.IResolvable
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type DataAzurermServicebusTopic interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,7 +104,7 @@ type DataAzurermServicebusTopic interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -133,7 +133,7 @@ type DataAzurermServicebusTopic interface {
 
 // The jsii proxy struct for DataAzurermServicebusTopic
 type jsiiProxy_DataAzurermServicebusTopic struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermServicebusTopic) AutoDeleteOnIdle() *string {
@@ -146,8 +146,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) AutoDeleteOnIdle() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) BatchedOperationsEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) BatchedOperationsEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"batchedOperationsEnabled",
@@ -156,8 +156,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) BatchedOperationsEnabled() cdktf.
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermServicebusTopic) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -216,8 +216,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) DuplicateDetectionHistoryTimeWind
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) EnableBatchedOperations() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) EnableBatchedOperations() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableBatchedOperations",
@@ -226,8 +226,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) EnableBatchedOperations() cdktf.I
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) EnableExpress() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) EnableExpress() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enableExpress",
@@ -236,8 +236,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) EnableExpress() cdktf.IResolvable
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) EnablePartitioning() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) EnablePartitioning() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enablePartitioning",
@@ -246,8 +246,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) EnablePartitioning() cdktf.IResol
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) ExpressEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) ExpressEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"expressEnabled",
@@ -256,8 +256,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) ExpressEnabled() cdktf.IResolvabl
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermServicebusTopic) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -306,8 +306,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermServicebusTopic) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -396,8 +396,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) PartitioningEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) PartitioningEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"partitioningEnabled",
@@ -406,8 +406,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) PartitioningEnabled() cdktf.IReso
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermServicebusTopic) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -426,8 +426,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) RequiresDuplicateDetection() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) RequiresDuplicateDetection() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"requiresDuplicateDetection",
@@ -466,8 +466,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) Status() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) SupportOrdering() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermServicebusTopic) SupportOrdering() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"supportOrdering",
@@ -476,8 +476,8 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) SupportOrdering() cdktf.IResolvab
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermServicebusTopic) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -575,7 +575,7 @@ func (j *jsiiProxy_DataAzurermServicebusTopic)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermServicebusTopic)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -594,7 +594,7 @@ func (j *jsiiProxy_DataAzurermServicebusTopic)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermServicebusTopic)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -638,7 +638,7 @@ func (j *jsiiProxy_DataAzurermServicebusTopic)SetNamespaceName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermServicebusTopic)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermServicebusTopic)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -657,14 +657,14 @@ func (j *jsiiProxy_DataAzurermServicebusTopic)SetResourceGroupName(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermServicebusTopic resource upon running "cdktf plan <stack-name>".
-func DataAzurermServicebusTopic_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermServicebusTopic resource upon running "cdktn plan <stack-name>".
+func DataAzurermServicebusTopic_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermServicebusTopic_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermServicebusTopic.DataAzurermServicebusTopic",
@@ -787,11 +787,11 @@ func (d *jsiiProxy_DataAzurermServicebusTopic) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermServicebusTopic) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermServicebusTopic) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -915,11 +915,11 @@ func (d *jsiiProxy_DataAzurermServicebusTopic) GetStringMapAttribute(terraformAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermServicebusTopic) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermServicebusTopic) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

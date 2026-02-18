@@ -5,14 +5,14 @@ package dataazurermsentinelalertruleanomaly
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermsentinelalertruleanomaly/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsentinelalertruleanomaly/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -24,8 +24,8 @@ type DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList interf
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -33,13 +33,13 @@ type DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList interf
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -49,7 +49,7 @@ type DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList interf
 
 // The jsii proxy struct for DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList
 type jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList) CreationStack() *[]*string {
@@ -82,8 +82,8 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservat
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -103,7 +103,7 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservat
 }
 
 
-func NewDataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList {
+func NewDataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -120,7 +120,7 @@ func NewDataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList(ter
 	return &j
 }
 
-func NewDataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList_Override(d DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList_Override(d DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -141,7 +141,7 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservat
 	)
 }
 
-func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -163,11 +163,11 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservat
 	)
 }
 
-func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -208,7 +208,7 @@ func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservat
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalyPrioritizedExcludeObservationList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableLis
 	return nil
 }
 
-func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableLis
 	return nil
 }
 
-func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableLis
 	return nil
 }
 
-func validateNewResourceDeploymentScriptAzurePowerShellEnvironmentVariableListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewResourceDeploymentScriptAzurePowerShellEnvironmentVariableListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

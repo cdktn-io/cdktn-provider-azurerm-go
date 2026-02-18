@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermEventgridSystemTopicIdentityOutputReference) valid
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermEventgridSystemTopicIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermEventgridSystemTopicIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopicIdentityOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermEventgridSystemTopicIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermEventgridSystemTopicIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermEventgridSystemTopicIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermEventgridSystemTopicIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

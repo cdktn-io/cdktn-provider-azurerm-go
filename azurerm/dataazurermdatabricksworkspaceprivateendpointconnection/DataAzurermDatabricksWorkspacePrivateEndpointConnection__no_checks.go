@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspacePrivateEndpointConnection) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspacePrivateEndpointConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDatabricksWorkspacePrivateEndpointConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

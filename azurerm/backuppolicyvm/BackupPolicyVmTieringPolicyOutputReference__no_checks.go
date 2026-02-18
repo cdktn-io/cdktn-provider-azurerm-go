@@ -51,7 +51,7 @@ func (b *jsiiProxy_BackupPolicyVmTieringPolicyOutputReference) validatePutArchiv
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyVmTieringPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyVmTieringPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_BackupPolicyVmTieringPolicyOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyVmTieringPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyVmTieringPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBackupPolicyVmTieringPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPolicyVmTieringPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

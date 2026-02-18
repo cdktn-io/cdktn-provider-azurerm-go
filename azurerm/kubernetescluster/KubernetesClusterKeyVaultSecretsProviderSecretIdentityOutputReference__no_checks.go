@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputR
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesClusterKeyVaultSecretsProviderSecretIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

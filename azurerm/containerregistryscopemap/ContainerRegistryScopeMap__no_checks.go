@@ -119,7 +119,7 @@ func (j *jsiiProxy_ContainerRegistryScopeMap) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryScopeMap) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerRegistryScopeMap) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

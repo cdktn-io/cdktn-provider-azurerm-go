@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) valid
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlVirtualMachineWsfcDomainCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualMachineWsfcDomainCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

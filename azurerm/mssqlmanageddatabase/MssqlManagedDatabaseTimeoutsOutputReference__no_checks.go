@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedDatabaseTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlManagedDatabaseTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlManagedDatabaseTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewMssqlManagedDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlManagedDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

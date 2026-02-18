@@ -139,7 +139,7 @@ func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) validateSetJsChallengeCookieExpir
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CdnFrontdoorFirewallPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

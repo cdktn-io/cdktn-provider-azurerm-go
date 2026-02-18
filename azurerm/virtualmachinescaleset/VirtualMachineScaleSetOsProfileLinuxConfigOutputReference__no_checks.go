@@ -51,7 +51,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigOutputReference) va
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetOsProfileLinuxConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineScaleSetOsProfileLinuxConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

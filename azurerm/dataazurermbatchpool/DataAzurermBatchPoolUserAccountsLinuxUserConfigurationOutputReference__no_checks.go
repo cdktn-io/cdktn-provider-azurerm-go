@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputR
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputR
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermBatchPoolUserAccountsLinuxUserConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

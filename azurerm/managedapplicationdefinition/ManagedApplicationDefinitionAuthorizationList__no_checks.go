@@ -15,7 +15,7 @@ func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateGetPar
 	return nil
 }
 
-func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetWra
 	return nil
 }
 
-func validateNewManagedApplicationDefinitionAuthorizationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewManagedApplicationDefinitionAuthorizationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

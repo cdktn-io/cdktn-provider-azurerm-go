@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CosmosdbAccountRestoreOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CosmosdbAccountRestoreOutputReference) validatePutDatabasePar
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CosmosdbAccountRestoreDatabase:
 		value := value.(*[]*CosmosdbAccountRestoreDatabase)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CosmosdbAccountRestoreOutputReference) validatePutDatabasePar
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CosmosdbAccountRestoreDatabase; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CosmosdbAccountRestoreDatabase; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_CosmosdbAccountRestoreOutputReference) validatePutGremlinData
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CosmosdbAccountRestoreGremlinDatabase:
 		value := value.(*[]*CosmosdbAccountRestoreGremlinDatabase)
@@ -148,14 +148,14 @@ func (c *jsiiProxy_CosmosdbAccountRestoreOutputReference) validatePutGremlinData
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CosmosdbAccountRestoreGremlinDatabase; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CosmosdbAccountRestoreGremlinDatabase; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbAccountRestoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbAccountRestoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_CosmosdbAccountRestoreOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccountRestoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbAccountRestoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -276,7 +276,7 @@ func (j *jsiiProxy_CosmosdbAccountRestoreOutputReference) validateSetTerraformRe
 	return nil
 }
 
-func validateNewCosmosdbAccountRestoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbAccountRestoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

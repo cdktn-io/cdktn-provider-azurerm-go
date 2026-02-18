@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxFunctionAppSiteConfigApplicationStackDockerList) validat
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSiteConfigApplicationStackDockerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppSiteConfigApplicationStackDockerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigApplicationStackDockerList) validat
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSiteConfigApplicationStackDockerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigApplicationStackDockerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigApplicationStackDockerList) validat
 	return nil
 }
 
-func validateNewLinuxFunctionAppSiteConfigApplicationStackDockerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxFunctionAppSiteConfigApplicationStackDockerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

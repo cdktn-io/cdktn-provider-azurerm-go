@@ -167,7 +167,7 @@ func (j *jsiiProxy_OracleAutonomousDatabase) validateSetLicenseModelParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_OracleAutonomousDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OracleAutonomousDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

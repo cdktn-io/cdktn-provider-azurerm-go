@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageBlobInventoryPolicyRulesList) validateGetParameters(in
 	return nil
 }
 
-func (s *jsiiProxy_StorageBlobInventoryPolicyRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBlobInventoryPolicyRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_StorageBlobInventoryPolicyRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewStorageBlobInventoryPolicyRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageBlobInventoryPolicyRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

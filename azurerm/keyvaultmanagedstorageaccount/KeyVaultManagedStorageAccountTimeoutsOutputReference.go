@@ -5,14 +5,14 @@ package keyvaultmanagedstorageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultmanagedstorageaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/keyvaultmanagedstorageaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KeyVaultManagedStorageAccountTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type KeyVaultManagedStorageAccountTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type KeyVaultManagedStorageAccountTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type KeyVaultManagedStorageAccountTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type KeyVaultManagedStorageAccountTimeoutsOutputReference interface {
 
 // The jsii proxy struct for KeyVaultManagedStorageAccountTimeoutsOutputReference
 type jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) UpdateI
 }
 
 
-func NewKeyVaultManagedStorageAccountTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KeyVaultManagedStorageAccountTimeoutsOutputReference {
+func NewKeyVaultManagedStorageAccountTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KeyVaultManagedStorageAccountTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKeyVaultManagedStorageAccountTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewKeyVaultManagedStorageAccountTimeoutsOutputReference(terraformResource c
 	return &j
 }
 
-func NewKeyVaultManagedStorageAccountTimeoutsOutputReference_Override(k KeyVaultManagedStorageAccountTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKeyVaultManagedStorageAccountTimeoutsOutputReference_Override(k KeyVaultManagedStorageAccountTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) GetAnyM
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -529,8 +529,8 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) GetStri
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -542,11 +542,11 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) Interpo
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -590,7 +590,7 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) ResetUp
 	)
 }
 
-func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KeyVaultManagedStorageAccountTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

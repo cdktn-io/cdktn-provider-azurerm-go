@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementBackendServiceFabricClusterServerX509NameOutputR
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementBackendServiceFabricClusterServerX509NameOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementBackendServiceFabricClusterServerX509NameOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApiManagementBackendServiceFabricClusterServerX509NameOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementBackendServiceFabricClusterServerX509NameOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementBackendServiceFabricClusterServerX509NameOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementBackendServiceFabricClusterServerX509NameOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiManagementBackendServiceFabricClusterServerX509NameOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

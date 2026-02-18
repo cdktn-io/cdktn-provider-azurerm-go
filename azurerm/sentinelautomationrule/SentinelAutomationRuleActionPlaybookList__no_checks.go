@@ -15,7 +15,7 @@ func (s *jsiiProxy_SentinelAutomationRuleActionPlaybookList) validateGetParamete
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAutomationRuleActionPlaybookList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAutomationRuleActionPlaybookList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SentinelAutomationRuleActionPlaybookList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAutomationRuleActionPlaybookList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAutomationRuleActionPlaybookList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SentinelAutomationRuleActionPlaybookList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewSentinelAutomationRuleActionPlaybookListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSentinelAutomationRuleActionPlaybookListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

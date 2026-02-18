@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOut
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOut
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

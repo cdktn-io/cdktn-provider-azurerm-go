@@ -131,7 +131,7 @@ func (j *jsiiProxy_TrafficManagerExternalEndpoint) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerExternalEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_TrafficManagerExternalEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

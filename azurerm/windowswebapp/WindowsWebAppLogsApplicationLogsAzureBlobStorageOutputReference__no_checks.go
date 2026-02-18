@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReferen
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_WindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppLogsApplicationLogsAzureBlobStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

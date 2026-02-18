@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkManagerManagementGroupConnectionTimeoutsOutputReferenc
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagerManagementGroupConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagerManagementGroupConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkManagerManagementGroupConnectionTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerManagementGroupConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagerManagementGroupConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetworkManagerManagementGroupConnectionTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewNetworkManagerManagementGroupConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkManagerManagementGroupConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

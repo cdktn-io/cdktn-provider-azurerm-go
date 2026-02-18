@@ -5,14 +5,14 @@ package hpccache
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hpccache/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hpccache/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HpcCacheDirectoryActiveDirectoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CacheNetbiosName() *string
 	SetCacheNetbiosName(val *string)
 	CacheNetbiosNameInput() *string
@@ -55,9 +55,9 @@ type HpcCacheDirectoryActiveDirectoryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	SetUsername(val *string)
 	UsernameInput() *string
@@ -66,7 +66,7 @@ type HpcCacheDirectoryActiveDirectoryOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,13 +82,13 @@ type HpcCacheDirectoryActiveDirectoryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDnsSecondaryIp()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type HpcCacheDirectoryActiveDirectoryOutputReference interface {
 
 // The jsii proxy struct for HpcCacheDirectoryActiveDirectoryOutputReference
 type jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) CacheNetbiosName() *string {
@@ -281,8 +281,8 @@ func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -312,7 +312,7 @@ func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) UsernameInpu
 }
 
 
-func NewHpcCacheDirectoryActiveDirectoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HpcCacheDirectoryActiveDirectoryOutputReference {
+func NewHpcCacheDirectoryActiveDirectoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HpcCacheDirectoryActiveDirectoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHpcCacheDirectoryActiveDirectoryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -329,7 +329,7 @@ func NewHpcCacheDirectoryActiveDirectoryOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewHpcCacheDirectoryActiveDirectoryOutputReference_Override(h HpcCacheDirectoryActiveDirectoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHpcCacheDirectoryActiveDirectoryOutputReference_Override(h HpcCacheDirectoryActiveDirectoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -449,7 +449,7 @@ func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -500,11 +500,11 @@ func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -628,8 +628,8 @@ func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) GetStringMap
 	return returns
 }
 
-func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -641,11 +641,11 @@ func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) Interpolatio
 	return returns
 }
 
-func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -665,7 +665,7 @@ func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) ResetDnsSeco
 	)
 }
 
-func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HpcCacheDirectoryActiveDirectoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

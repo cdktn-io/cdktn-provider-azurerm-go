@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermLbBackendAddressPoolBackendAddressList) validateGe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLbBackendAddressPoolBackendAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLbBackendAddressPoolBackendAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermLbBackendAddressPoolBackendAddressList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLbBackendAddressPoolBackendAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLbBackendAddressPoolBackendAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermLbBackendAddressPoolBackendAddressList) validateSe
 	return nil
 }
 
-func validateNewDataAzurermLbBackendAddressPoolBackendAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermLbBackendAddressPoolBackendAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

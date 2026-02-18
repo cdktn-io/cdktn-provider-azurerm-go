@@ -5,14 +5,14 @@ package machinelearninginferencecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearninginferencecluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/machinelearninginferencecluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MachineLearningInferenceClusterSslOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Cert() *string
 	SetCert(val *string)
 	CertInput() *string
@@ -52,15 +52,15 @@ type MachineLearningInferenceClusterSslOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type MachineLearningInferenceClusterSslOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCert()
 	ResetCname()
 	ResetKey()
@@ -86,7 +86,7 @@ type MachineLearningInferenceClusterSslOutputReference interface {
 	ResetOverwriteExistingDomain()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type MachineLearningInferenceClusterSslOutputReference interface {
 
 // The jsii proxy struct for MachineLearningInferenceClusterSslOutputReference
 type jsiiProxy_MachineLearningInferenceClusterSslOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) Cert() *string {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) TerraformR
 }
 
 
-func NewMachineLearningInferenceClusterSslOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MachineLearningInferenceClusterSslOutputReference {
+func NewMachineLearningInferenceClusterSslOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MachineLearningInferenceClusterSslOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMachineLearningInferenceClusterSslOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewMachineLearningInferenceClusterSslOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewMachineLearningInferenceClusterSslOutputReference_Override(m MachineLearningInferenceClusterSslOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMachineLearningInferenceClusterSslOutputReference_Override(m MachineLearningInferenceClusterSslOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -396,7 +396,7 @@ func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) GetAnyMapA
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -564,8 +564,8 @@ func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) GetStringM
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -577,11 +577,11 @@ func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) Interpolat
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -633,7 +633,7 @@ func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) ResetOverw
 	)
 }
 
-func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

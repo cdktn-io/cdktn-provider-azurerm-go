@@ -111,7 +111,7 @@ func (j *jsiiProxy_PostgresqlServerKey) validateSetKeyVaultKeyIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlServerKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PostgresqlServerKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

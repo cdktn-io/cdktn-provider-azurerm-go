@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupPolicyVmInstantRestoreResourceGroupOutputReference) val
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyVmInstantRestoreResourceGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyVmInstantRestoreResourceGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_BackupPolicyVmInstantRestoreResourceGroupOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyVmInstantRestoreResourceGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyVmInstantRestoreResourceGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBackupPolicyVmInstantRestoreResourceGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPolicyVmInstantRestoreResourceGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

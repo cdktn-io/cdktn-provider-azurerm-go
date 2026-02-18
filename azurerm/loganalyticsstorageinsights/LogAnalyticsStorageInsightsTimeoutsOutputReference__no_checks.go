@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsightsTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewLogAnalyticsStorageInsightsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogAnalyticsStorageInsightsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

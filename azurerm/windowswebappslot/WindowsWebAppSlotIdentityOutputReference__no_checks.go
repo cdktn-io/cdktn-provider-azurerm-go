@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppSlotIdentityOutputReference) validateInterpolati
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WindowsWebAppSlotIdentityOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsWebAppSlotIdentityOutputReference) validateSetTypePara
 	return nil
 }
 
-func validateNewWindowsWebAppSlotIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppSlotIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

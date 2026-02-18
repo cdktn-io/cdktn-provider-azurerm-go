@@ -119,7 +119,7 @@ func (j *jsiiProxy_WebPubsubHub) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubHub) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WebPubsubHub) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

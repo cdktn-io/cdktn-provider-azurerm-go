@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkManagerCrossTenantScopesList) validateGetParameters(in
 	return nil
 }
 
-func (n *jsiiProxy_NetworkManagerCrossTenantScopesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkManagerCrossTenantScopesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_NetworkManagerCrossTenantScopesList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewNetworkManagerCrossTenantScopesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkManagerCrossTenantScopesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

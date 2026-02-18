@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkSecurityPerimeterAccessRuleTimeoutsOutputReference) va
 	return nil
 }
 
-func (n *jsiiProxy_NetworkSecurityPerimeterAccessRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkSecurityPerimeterAccessRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkSecurityPerimeterAccessRuleTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityPerimeterAccessRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkSecurityPerimeterAccessRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetworkSecurityPerimeterAccessRuleTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewNetworkSecurityPerimeterAccessRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkSecurityPerimeterAccessRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayAuthenticationCertificateList) validateGetP
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayAuthenticationCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayAuthenticationCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayAuthenticationCertificateList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayAuthenticationCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayAuthenticationCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayAuthenticationCertificateList) validateSetW
 	return nil
 }
 
-func validateNewApplicationGatewayAuthenticationCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayAuthenticationCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

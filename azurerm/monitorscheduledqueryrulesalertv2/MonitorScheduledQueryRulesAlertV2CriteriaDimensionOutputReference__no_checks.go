@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputRefer
 	return nil
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputRefer
 	return nil
 }
 
-func validateNewMonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorScheduledQueryRulesAlertV2CriteriaDimensionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

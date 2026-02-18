@@ -111,7 +111,7 @@ func (j *jsiiProxy_DnsCaaRecord) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_DnsCaaRecord) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DnsCaaRecord) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

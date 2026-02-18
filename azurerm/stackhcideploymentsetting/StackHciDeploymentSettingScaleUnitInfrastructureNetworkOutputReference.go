@@ -5,14 +5,14 @@ package stackhcideploymentsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/stackhcideploymentsetting/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/stackhcideploymentsetting/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,14 +75,14 @@ type StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIpPool(value interface{})
 	ResetDhcpEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference inte
 
 // The jsii proxy struct for StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference
 type jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) ComplexObjectIndex() interface{} {
@@ -255,8 +255,8 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutput
 	return returns
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -266,7 +266,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutput
 }
 
 
-func NewStackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference {
+func NewStackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -283,7 +283,7 @@ func NewStackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference(t
 	return &j
 }
 
-func NewStackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference_Override(s StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewStackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference_Override(s StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -381,7 +381,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutput
 	)
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -421,11 +421,11 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutput
 	return returns
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -549,8 +549,8 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutput
 	return returns
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -562,11 +562,11 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutput
 	return returns
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -597,7 +597,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutput
 	)
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitInfrastructureNetworkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

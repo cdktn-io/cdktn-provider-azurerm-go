@@ -5,14 +5,14 @@ package datafactorytriggerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorytriggerschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorytriggerschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryTriggerScheduleScheduleMonthlyList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type DataFactoryTriggerScheduleScheduleMonthlyList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type DataFactoryTriggerScheduleScheduleMonthlyList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) DataFactoryTriggerScheduleScheduleMonthlyOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type DataFactoryTriggerScheduleScheduleMonthlyList interface {
 
 // The jsii proxy struct for DataFactoryTriggerScheduleScheduleMonthlyList
 type jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) WrapsSet() *bo
 }
 
 
-func NewDataFactoryTriggerScheduleScheduleMonthlyList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryTriggerScheduleScheduleMonthlyList {
+func NewDataFactoryTriggerScheduleScheduleMonthlyList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataFactoryTriggerScheduleScheduleMonthlyList {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryTriggerScheduleScheduleMonthlyListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewDataFactoryTriggerScheduleScheduleMonthlyList(terraformResource cdktf.II
 	return &j
 }
 
-func NewDataFactoryTriggerScheduleScheduleMonthlyList_Override(d DataFactoryTriggerScheduleScheduleMonthlyList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewDataFactoryTriggerScheduleScheduleMonthlyList_Override(d DataFactoryTriggerScheduleScheduleMonthlyList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList)SetWrapsSet(val
 	)
 }
 
-func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		d,
@@ -231,7 +231,7 @@ func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) Get(index *flo
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleMonthlyList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

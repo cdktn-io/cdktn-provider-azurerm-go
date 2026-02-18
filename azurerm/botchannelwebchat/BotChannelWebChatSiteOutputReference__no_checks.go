@@ -47,7 +47,7 @@ func (b *jsiiProxy_BotChannelWebChatSiteOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelWebChatSiteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelWebChatSiteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BotChannelWebChatSiteOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelWebChatSiteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelWebChatSiteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BotChannelWebChatSiteOutputReference) validateSetUserUploadEn
 	return nil
 }
 
-func validateNewBotChannelWebChatSiteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBotChannelWebChatSiteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

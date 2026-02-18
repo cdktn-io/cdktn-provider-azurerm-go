@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationLoadBalancerFrontendTimeoutsOutputReference) valid
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationLoadBalancerFrontendTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationLoadBalancerFrontendTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerFrontendTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationLoadBalancerFrontendTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationLoadBalancerFrontendTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerFrontendTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewApplicationLoadBalancerFrontendTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationLoadBalancerFrontendTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

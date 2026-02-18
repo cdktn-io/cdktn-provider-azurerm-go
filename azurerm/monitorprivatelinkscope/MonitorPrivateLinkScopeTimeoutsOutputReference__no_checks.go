@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorPrivateLinkScopeTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (m *jsiiProxy_MonitorPrivateLinkScopeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorPrivateLinkScopeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorPrivateLinkScopeTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorPrivateLinkScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorPrivateLinkScopeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MonitorPrivateLinkScopeTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewMonitorPrivateLinkScopeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorPrivateLinkScopeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateGetParameters(in
 	return nil
 }
 
-func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateResolveParameter
 
 func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridNamespaceInboundIpRule:
 		val := val.(*[]*EventgridNamespaceInboundIpRule)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetInternalValue
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*EventgridNamespaceInboundIpRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*EventgridNamespaceInboundIpRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewEventgridNamespaceInboundIpRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventgridNamespaceInboundIpRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

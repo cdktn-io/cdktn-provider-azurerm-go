@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpnServerConfigurationAzureActiveDirectoryAuthenticationList)
 	return nil
 }
 
-func (v *jsiiProxy_VpnServerConfigurationAzureActiveDirectoryAuthenticationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnServerConfigurationAzureActiveDirectoryAuthenticationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpnServerConfigurationAzureActiveDirectoryAuthenticationList)
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationAzureActiveDirectoryAuthenticationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnServerConfigurationAzureActiveDirectoryAuthenticationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpnServerConfigurationAzureActiveDirectoryAuthenticationList)
 	return nil
 }
 
-func validateNewVpnServerConfigurationAzureActiveDirectoryAuthenticationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpnServerConfigurationAzureActiveDirectoryAuthenticationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

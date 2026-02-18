@@ -47,7 +47,7 @@ func (v *jsiiProxy_VmwareNetappVolumeAttachmentTimeoutsOutputReference) validate
 	return nil
 }
 
-func (v *jsiiProxy_VmwareNetappVolumeAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwareNetappVolumeAttachmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VmwareNetappVolumeAttachmentTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_VmwareNetappVolumeAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwareNetappVolumeAttachmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVmwareNetappVolumeAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVmwareNetappVolumeAttachmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

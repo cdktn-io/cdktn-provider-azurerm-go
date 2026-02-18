@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDataProtectionBackupVaultIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDataProtectionBackupVaultIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

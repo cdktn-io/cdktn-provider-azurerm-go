@@ -5,14 +5,14 @@ package windowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsFunctionAppAuthSettingsFacebookOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppId() *string
 	SetAppId(val *string)
 	AppIdInput() *string
@@ -49,15 +49,15 @@ type WindowsFunctionAppAuthSettingsFacebookOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type WindowsFunctionAppAuthSettingsFacebookOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAppSecret()
 	ResetAppSecretSettingName()
 	ResetOauthScopes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type WindowsFunctionAppAuthSettingsFacebookOutputReference interface {
 
 // The jsii proxy struct for WindowsFunctionAppAuthSettingsFacebookOutputReference
 type jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) AppId() *string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) Terraf
 }
 
 
-func NewWindowsFunctionAppAuthSettingsFacebookOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsFunctionAppAuthSettingsFacebookOutputReference {
+func NewWindowsFunctionAppAuthSettingsFacebookOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsFunctionAppAuthSettingsFacebookOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsFunctionAppAuthSettingsFacebookOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewWindowsFunctionAppAuthSettingsFacebookOutputReference(terraformResource 
 	return &j
 }
 
-func NewWindowsFunctionAppAuthSettingsFacebookOutputReference_Override(w WindowsFunctionAppAuthSettingsFacebookOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsFunctionAppAuthSettingsFacebookOutputReference_Override(w WindowsFunctionAppAuthSettingsFacebookOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) GetAny
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -528,8 +528,8 @@ func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) GetStr
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -541,11 +541,11 @@ func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) Interp
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -581,7 +581,7 @@ func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) ResetO
 	)
 }
 
-func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsFunctionAppAuthSettingsFacebookOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

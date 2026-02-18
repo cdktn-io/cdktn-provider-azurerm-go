@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPoli
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPoli
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPoli
 	return nil
 }
 
-func validateNewDataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVirtualNetworkGatewayConnectionTrafficSelectorPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

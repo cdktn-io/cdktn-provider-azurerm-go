@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedList) valid
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedList) valid
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowNodeOsNotAllowedList) valid
 	return nil
 }
 
-func validateNewKubernetesClusterMaintenanceWindowNodeOsNotAllowedListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterMaintenanceWindowNodeOsNotAllowedListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

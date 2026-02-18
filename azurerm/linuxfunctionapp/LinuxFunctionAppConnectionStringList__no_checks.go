@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxFunctionAppConnectionStringList) validateGetParameters(i
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppConnectionStringList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppConnectionStringList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxFunctionAppConnectionStringList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppConnectionStringList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppConnectionStringList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxFunctionAppConnectionStringList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewLinuxFunctionAppConnectionStringListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxFunctionAppConnectionStringListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

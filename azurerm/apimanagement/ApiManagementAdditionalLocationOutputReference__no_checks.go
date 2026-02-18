@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApiManagementAdditionalLocationOutputReference) validatePutVi
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementAdditionalLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementAdditionalLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementAdditionalLocationOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementAdditionalLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementAdditionalLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_ApiManagementAdditionalLocationOutputReference) validateSetZo
 	return nil
 }
 
-func validateNewApiManagementAdditionalLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiManagementAdditionalLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

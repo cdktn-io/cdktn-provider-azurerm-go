@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDatadogMonitorDatadogOrganizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatadogMonitorDatadogOrganizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

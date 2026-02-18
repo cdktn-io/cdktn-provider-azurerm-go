@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterServiceMeshProfileList) validateS
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterServiceMeshProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterServiceMeshProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

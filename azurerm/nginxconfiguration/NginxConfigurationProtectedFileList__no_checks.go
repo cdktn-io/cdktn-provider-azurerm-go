@@ -15,7 +15,7 @@ func (n *jsiiProxy_NginxConfigurationProtectedFileList) validateGetParameters(in
 	return nil
 }
 
-func (n *jsiiProxy_NginxConfigurationProtectedFileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NginxConfigurationProtectedFileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NginxConfigurationProtectedFileList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_NginxConfigurationProtectedFileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NginxConfigurationProtectedFileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NginxConfigurationProtectedFileList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewNginxConfigurationProtectedFileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNginxConfigurationProtectedFileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

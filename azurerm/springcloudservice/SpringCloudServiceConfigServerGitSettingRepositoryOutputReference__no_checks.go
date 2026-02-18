@@ -55,7 +55,7 @@ func (s *jsiiProxy_SpringCloudServiceConfigServerGitSettingRepositoryOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudServiceConfigServerGitSettingRepositoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudServiceConfigServerGitSettingRepositoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingRepositoryOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_SpringCloudServiceConfigServerGitSettingRepositoryOutputRefer
 	return nil
 }
 
-func validateNewSpringCloudServiceConfigServerGitSettingRepositoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSpringCloudServiceConfigServerGitSettingRepositoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

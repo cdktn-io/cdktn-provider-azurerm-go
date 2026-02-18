@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIden
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIden
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIden
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterKeyVaultSecretsProviderSecretIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

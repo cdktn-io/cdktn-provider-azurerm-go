@@ -15,7 +15,7 @@ func (b *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyList) validateGetParame
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyList) validateSetWrapsS
 	return nil
 }
 
-func validateNewBackupPolicyVmWorkloadProtectionPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBackupPolicyVmWorkloadProtectionPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

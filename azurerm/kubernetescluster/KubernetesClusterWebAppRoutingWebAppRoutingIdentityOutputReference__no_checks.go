@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputRefe
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesClusterWebAppRoutingWebAppRoutingIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

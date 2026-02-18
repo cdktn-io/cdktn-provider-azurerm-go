@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) validate
 	return nil
 }
 
-func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_EventgridPartnerRegistrationTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewEventgridPartnerRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridPartnerRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

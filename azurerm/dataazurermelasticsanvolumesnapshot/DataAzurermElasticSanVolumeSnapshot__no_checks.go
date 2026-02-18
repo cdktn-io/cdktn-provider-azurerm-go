@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermElasticSanVolumeSnapshot) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermElasticSanVolumeSnapshot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermElasticSanVolumeSnapshot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

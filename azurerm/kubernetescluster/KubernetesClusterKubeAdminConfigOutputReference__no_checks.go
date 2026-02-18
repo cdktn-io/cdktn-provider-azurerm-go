@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterKubeAdminConfigOutputReference) validateInte
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterKubeAdminConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterKubeAdminConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_KubernetesClusterKubeAdminConfigOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterKubeAdminConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterKubeAdminConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterKubeAdminConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesClusterKubeAdminConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

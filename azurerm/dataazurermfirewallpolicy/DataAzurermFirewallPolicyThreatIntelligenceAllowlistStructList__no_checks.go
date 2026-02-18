@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructLis
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructLis
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermFirewallPolicyThreatIntelligenceAllowlistStructLis
 	return nil
 }
 
-func validateNewDataAzurermFirewallPolicyThreatIntelligenceAllowlistStructListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermFirewallPolicyThreatIntelligenceAllowlistStructListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

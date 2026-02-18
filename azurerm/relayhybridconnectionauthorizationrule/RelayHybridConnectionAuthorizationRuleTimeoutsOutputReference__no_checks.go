@@ -47,7 +47,7 @@ func (r *jsiiProxy_RelayHybridConnectionAuthorizationRuleTimeoutsOutputReference
 	return nil
 }
 
-func (r *jsiiProxy_RelayHybridConnectionAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RelayHybridConnectionAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RelayHybridConnectionAuthorizationRuleTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_RelayHybridConnectionAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RelayHybridConnectionAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_RelayHybridConnectionAuthorizationRuleTimeoutsOutputReference
 	return nil
 }
 
-func validateNewRelayHybridConnectionAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRelayHybridConnectionAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

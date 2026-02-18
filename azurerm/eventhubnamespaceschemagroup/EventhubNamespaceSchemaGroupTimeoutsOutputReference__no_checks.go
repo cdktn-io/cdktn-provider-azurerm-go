@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventhubNamespaceSchemaGroupTimeoutsOutputReference) validate
 	return nil
 }
 
-func (e *jsiiProxy_EventhubNamespaceSchemaGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventhubNamespaceSchemaGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_EventhubNamespaceSchemaGroupTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_EventhubNamespaceSchemaGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventhubNamespaceSchemaGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventhubNamespaceSchemaGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventhubNamespaceSchemaGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

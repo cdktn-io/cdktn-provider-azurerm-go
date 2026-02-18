@@ -115,7 +115,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusTopic) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputServicebusTopic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StreamAnalyticsOutputServicebusTopic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

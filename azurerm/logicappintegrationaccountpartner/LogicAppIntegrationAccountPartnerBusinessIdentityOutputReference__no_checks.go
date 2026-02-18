@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityOutputRefere
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityOutputRefere
 	return nil
 }
 
-func validateNewLogicAppIntegrationAccountPartnerBusinessIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLogicAppIntegrationAccountPartnerBusinessIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

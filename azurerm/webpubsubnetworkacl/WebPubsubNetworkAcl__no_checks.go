@@ -119,7 +119,7 @@ func (j *jsiiProxy_WebPubsubNetworkAcl) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubNetworkAcl) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WebPubsubNetworkAcl) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

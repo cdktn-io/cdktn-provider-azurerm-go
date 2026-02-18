@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAllowedList) validateGetPar
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAllowedList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAllowedList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAllowedList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAllowedList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAllowedList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAllowedList) validateSetWra
 	return nil
 }
 
-func validateNewKubernetesClusterMaintenanceWindowAllowedListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterMaintenanceWindowAllowedListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

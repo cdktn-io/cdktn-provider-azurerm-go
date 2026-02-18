@@ -47,7 +47,7 @@ func (o *jsiiProxy_OracleResourceAnchorTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (o *jsiiProxy_OracleResourceAnchorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleResourceAnchorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OracleResourceAnchorTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_OracleResourceAnchorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleResourceAnchorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_OracleResourceAnchorTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewOracleResourceAnchorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOracleResourceAnchorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

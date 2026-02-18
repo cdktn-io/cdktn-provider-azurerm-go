@@ -111,7 +111,7 @@ func (j *jsiiProxy_SpringCloudAppMysqlAssociation) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudAppMysqlAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudAppMysqlAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

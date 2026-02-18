@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validatePutSslPo
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) validateSetVerif
 	return nil
 }
 
-func validateNewApplicationGatewaySslProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationGatewaySslProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

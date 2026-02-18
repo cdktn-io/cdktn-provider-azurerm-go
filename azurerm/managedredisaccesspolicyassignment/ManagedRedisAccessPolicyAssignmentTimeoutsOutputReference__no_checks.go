@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedRedisAccessPolicyAssignmentTimeoutsOutputReference) va
 	return nil
 }
 
-func (m *jsiiProxy_ManagedRedisAccessPolicyAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedRedisAccessPolicyAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ManagedRedisAccessPolicyAssignmentTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ManagedRedisAccessPolicyAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedRedisAccessPolicyAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedRedisAccessPolicyAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedRedisAccessPolicyAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

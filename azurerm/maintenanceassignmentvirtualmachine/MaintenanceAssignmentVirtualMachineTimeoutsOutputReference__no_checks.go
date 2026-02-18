@@ -47,7 +47,7 @@ func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineTimeoutsOutputReference) v
 	return nil
 }
 
-func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MaintenanceAssignmentVirtualMachineTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentVirtualMachineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MaintenanceAssignmentVirtualMachineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMaintenanceAssignmentVirtualMachineTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMaintenanceAssignmentVirtualMachineTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

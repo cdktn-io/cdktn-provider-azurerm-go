@@ -111,7 +111,7 @@ func (j *jsiiProxy_LbProbe) validateSetIntervalInSecondsParameters(val *float64)
 	return nil
 }
 
-func (j *jsiiProxy_LbProbe) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbProbe) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

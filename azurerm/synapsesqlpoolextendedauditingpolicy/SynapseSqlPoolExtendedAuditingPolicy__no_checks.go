@@ -107,7 +107,7 @@ func (j *jsiiProxy_SynapseSqlPoolExtendedAuditingPolicy) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_SynapseSqlPoolExtendedAuditingPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SynapseSqlPoolExtendedAuditingPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

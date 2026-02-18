@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearchTimeoutsOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearchTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearchTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearchTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearchTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearchTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearchTimeoutsOutputReference) v
 	return nil
 }
 
-func validateNewDataFactoryLinkedServiceAzureSearchTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryLinkedServiceAzureSearchTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

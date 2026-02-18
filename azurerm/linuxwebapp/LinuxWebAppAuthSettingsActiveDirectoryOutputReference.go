@@ -5,14 +5,14 @@ package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxWebAppAuthSettingsActiveDirectoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedAudiences() *[]*string
 	SetAllowedAudiences(val *[]*string)
 	AllowedAudiencesInput() *[]*string
@@ -49,15 +49,15 @@ type LinuxWebAppAuthSettingsActiveDirectoryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type LinuxWebAppAuthSettingsActiveDirectoryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowedAudiences()
 	ResetClientSecret()
 	ResetClientSecretSettingName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type LinuxWebAppAuthSettingsActiveDirectoryOutputReference interface {
 
 // The jsii proxy struct for LinuxWebAppAuthSettingsActiveDirectoryOutputReference
 type jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) AllowedAudiences() *[]*string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) Terraf
 }
 
 
-func NewLinuxWebAppAuthSettingsActiveDirectoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxWebAppAuthSettingsActiveDirectoryOutputReference {
+func NewLinuxWebAppAuthSettingsActiveDirectoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxWebAppAuthSettingsActiveDirectoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxWebAppAuthSettingsActiveDirectoryOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewLinuxWebAppAuthSettingsActiveDirectoryOutputReference(terraformResource 
 	return &j
 }
 
-func NewLinuxWebAppAuthSettingsActiveDirectoryOutputReference_Override(l LinuxWebAppAuthSettingsActiveDirectoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxWebAppAuthSettingsActiveDirectoryOutputReference_Override(l LinuxWebAppAuthSettingsActiveDirectoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) GetAny
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -528,8 +528,8 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) GetStr
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -541,11 +541,11 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) Interp
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -581,7 +581,7 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) ResetC
 	)
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsActiveDirectoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

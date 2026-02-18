@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatadogMonitorIdentityOutputReference) validateInterpolationF
 	return nil
 }
 
-func (d *jsiiProxy_DatadogMonitorIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatadogMonitorIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_DatadogMonitorIdentityOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DatadogMonitorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatadogMonitorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DatadogMonitorIdentityOutputReference) validateSetTypeParamet
 	return nil
 }
 
-func validateNewDatadogMonitorIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatadogMonitorIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

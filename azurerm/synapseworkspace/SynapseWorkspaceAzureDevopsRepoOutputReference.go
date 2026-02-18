@@ -5,14 +5,14 @@ package synapseworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/synapseworkspace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/synapseworkspace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SynapseWorkspaceAzureDevopsRepoOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccountName() *string
 	SetAccountName(val *string)
 	AccountNameInput() *string
@@ -58,15 +58,15 @@ type SynapseWorkspaceAzureDevopsRepoOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,14 +82,14 @@ type SynapseWorkspaceAzureDevopsRepoOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetLastCommitId()
 	ResetTenantId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type SynapseWorkspaceAzureDevopsRepoOutputReference interface {
 
 // The jsii proxy struct for SynapseWorkspaceAzureDevopsRepoOutputReference
 type jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) AccountName() *string {
@@ -302,8 +302,8 @@ func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -313,7 +313,7 @@ func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) TerraformReso
 }
 
 
-func NewSynapseWorkspaceAzureDevopsRepoOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SynapseWorkspaceAzureDevopsRepoOutputReference {
+func NewSynapseWorkspaceAzureDevopsRepoOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SynapseWorkspaceAzureDevopsRepoOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSynapseWorkspaceAzureDevopsRepoOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -330,7 +330,7 @@ func NewSynapseWorkspaceAzureDevopsRepoOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewSynapseWorkspaceAzureDevopsRepoOutputReference_Override(s SynapseWorkspaceAzureDevopsRepoOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSynapseWorkspaceAzureDevopsRepoOutputReference_Override(s SynapseWorkspaceAzureDevopsRepoOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -461,7 +461,7 @@ func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -501,11 +501,11 @@ func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -629,8 +629,8 @@ func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) GetStringMapA
 	return returns
 }
 
-func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -642,11 +642,11 @@ func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) Interpolation
 	return returns
 }
 
-func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -674,7 +674,7 @@ func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) ResetTenantId
 	)
 }
 
-func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SynapseWorkspaceAzureDevopsRepoOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

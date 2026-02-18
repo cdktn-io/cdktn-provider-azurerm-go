@@ -5,14 +5,14 @@ package vmwareprivatecloud
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vmwareprivatecloud/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vmwareprivatecloud/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VmwarePrivateCloudManagementClusterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,15 +42,15 @@ type VmwarePrivateCloudManagementClusterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type VmwarePrivateCloudManagementClusterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type VmwarePrivateCloudManagementClusterOutputReference interface {
 
 // The jsii proxy struct for VmwarePrivateCloudManagementClusterOutputReference
 type jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) ComplexObjectIndex() interface{} {
@@ -184,8 +184,8 @@ func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -195,7 +195,7 @@ func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) Terraform
 }
 
 
-func NewVmwarePrivateCloudManagementClusterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VmwarePrivateCloudManagementClusterOutputReference {
+func NewVmwarePrivateCloudManagementClusterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VmwarePrivateCloudManagementClusterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVmwarePrivateCloudManagementClusterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -212,7 +212,7 @@ func NewVmwarePrivateCloudManagementClusterOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewVmwarePrivateCloudManagementClusterOutputReference_Override(v VmwarePrivateCloudManagementClusterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVmwarePrivateCloudManagementClusterOutputReference_Override(v VmwarePrivateCloudManagementClusterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -277,7 +277,7 @@ func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -317,11 +317,11 @@ func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) GetAnyMap
 	return returns
 }
 
-func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -445,8 +445,8 @@ func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) GetString
 	return returns
 }
 
-func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -458,11 +458,11 @@ func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) Interpola
 	return returns
 }
 
-func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -474,7 +474,7 @@ func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) Interpola
 	return returns
 }
 
-func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VmwarePrivateCloudManagementClusterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

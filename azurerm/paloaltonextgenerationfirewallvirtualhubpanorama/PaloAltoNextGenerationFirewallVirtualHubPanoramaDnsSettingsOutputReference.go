@@ -5,14 +5,14 @@ package paloaltonextgenerationfirewallvirtualhubpanorama
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltonextgenerationfirewallvirtualhubpanorama/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/paloaltonextgenerationfirewallvirtualhubpanorama/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AzureDnsServers() *[]*string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -41,9 +41,9 @@ type PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UseAzureDns() interface{}
 	SetUseAzureDns(val interface{})
 	UseAzureDnsInput() interface{}
@@ -52,7 +52,7 @@ type PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference 
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -68,14 +68,14 @@ type PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDnsServers()
 	ResetUseAzureDns()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference 
 
 // The jsii proxy struct for PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference
 type jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) AzureDnsServers() *[]*string {
@@ -178,8 +178,8 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -209,7 +209,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 }
 
 
-func NewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference {
+func NewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -226,7 +226,7 @@ func NewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReferen
 	return &j
 }
 
-func NewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference_Override(p PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference_Override(p PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	)
 }
 
-func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -342,11 +342,11 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -470,8 +470,8 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -483,11 +483,11 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -515,7 +515,7 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOu
 	)
 }
 
-func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubPanoramaDnsSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

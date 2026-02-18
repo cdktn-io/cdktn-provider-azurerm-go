@@ -47,7 +47,7 @@ func (a *jsiiProxy_AiFoundryManagedNetworkOutputReference) validateInterpolation
 	return nil
 }
 
-func (a *jsiiProxy_AiFoundryManagedNetworkOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AiFoundryManagedNetworkOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AiFoundryManagedNetworkOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_AiFoundryManagedNetworkOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AiFoundryManagedNetworkOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAiFoundryManagedNetworkOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAiFoundryManagedNetworkOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

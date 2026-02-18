@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteOutputReference) v
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayCustomRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermVirtualNetworkGatewayCustomRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermVirtualNetworkGatewayCustomRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

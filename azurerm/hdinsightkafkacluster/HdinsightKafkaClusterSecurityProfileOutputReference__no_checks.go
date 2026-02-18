@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterSecurityProfileOutputReference) validate
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterSecurityProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightKafkaClusterSecurityProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_HdinsightKafkaClusterSecurityProfileOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterSecurityProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightKafkaClusterSecurityProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightKafkaClusterSecurityProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightKafkaClusterSecurityProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

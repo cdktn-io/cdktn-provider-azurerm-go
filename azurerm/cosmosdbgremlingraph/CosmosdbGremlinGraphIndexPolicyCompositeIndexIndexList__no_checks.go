@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbGremlinGraphIndexPolicyCompositeIndexIndexList) valid
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbGremlinGraphIndexPolicyCompositeIndexIndexList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbGremlinGraphIndexPolicyCompositeIndexIndexList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbGremlinGraphIndexPolicyCompositeIndexIndexList) valid
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbGremlinGraphIndexPolicyCompositeIndexIndexList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbGremlinGraphIndexPolicyCompositeIndexIndexList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbGremlinGraphIndexPolicyCompositeIndexIndexList) valid
 	return nil
 }
 
-func validateNewCosmosdbGremlinGraphIndexPolicyCompositeIndexIndexListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbGremlinGraphIndexPolicyCompositeIndexIndexListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

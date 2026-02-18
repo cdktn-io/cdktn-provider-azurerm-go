@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceIdentityOutputReference) validateInterpo
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsWorkspaceIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceIdentityOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsWorkspaceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceIdentityOutputReference) validateSetType
 	return nil
 }
 
-func validateNewLogAnalyticsWorkspaceIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogAnalyticsWorkspaceIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

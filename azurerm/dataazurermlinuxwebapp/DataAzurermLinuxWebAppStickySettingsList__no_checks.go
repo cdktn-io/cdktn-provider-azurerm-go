@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppStickySettingsList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppStickySettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLinuxWebAppStickySettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppStickySettingsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppStickySettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLinuxWebAppStickySettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppStickySettingsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAzurermLinuxWebAppStickySettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermLinuxWebAppStickySettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

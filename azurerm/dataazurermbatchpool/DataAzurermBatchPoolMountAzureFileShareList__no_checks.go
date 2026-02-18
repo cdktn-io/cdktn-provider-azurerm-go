@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolMountAzureFileShareList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolMountAzureFileShareList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolMountAzureFileShareList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolMountAzureFileShareList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolMountAzureFileShareList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolMountAzureFileShareList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolMountAzureFileShareList) validateSetWraps
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolMountAzureFileShareListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchPoolMountAzureFileShareListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

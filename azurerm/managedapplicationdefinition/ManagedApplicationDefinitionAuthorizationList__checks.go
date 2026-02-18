@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateGetPar
 	return nil
 }
 
-func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (m *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateResolv
 
 func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ManagedApplicationDefinitionAuthorization:
 		val := val.(*[]*ManagedApplicationDefinitionAuthorization)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*ManagedApplicationDefinitionAuthorization; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*ManagedApplicationDefinitionAuthorization; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_ManagedApplicationDefinitionAuthorizationList) validateSetWra
 	return nil
 }
 
-func validateNewManagedApplicationDefinitionAuthorizationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewManagedApplicationDefinitionAuthorizationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

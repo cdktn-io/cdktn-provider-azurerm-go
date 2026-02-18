@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsVirtualMachineSecretCertificateList) validateGetParame
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineSecretCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineSecretCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsVirtualMachineSecretCertificateList) validateSetWrapsS
 	return nil
 }
 
-func validateNewWindowsVirtualMachineSecretCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsVirtualMachineSecretCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

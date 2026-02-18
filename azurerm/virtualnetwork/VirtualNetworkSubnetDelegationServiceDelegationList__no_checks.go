@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualNetworkSubnetDelegationServiceDelegationList) validate
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkSubnetDelegationServiceDelegationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkSubnetDelegationServiceDelegationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualNetworkSubnetDelegationServiceDelegationList) validate
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkSubnetDelegationServiceDelegationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkSubnetDelegationServiceDelegationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualNetworkSubnetDelegationServiceDelegationList) validate
 	return nil
 }
 
-func validateNewVirtualNetworkSubnetDelegationServiceDelegationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualNetworkSubnetDelegationServiceDelegationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

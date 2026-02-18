@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCognitiveAccountStorageList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCognitiveAccountStorageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCognitiveAccountStorageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCognitiveAccountStorageList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCognitiveAccountStorageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCognitiveAccountStorageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCognitiveAccountStorageList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAzurermCognitiveAccountStorageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCognitiveAccountStorageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

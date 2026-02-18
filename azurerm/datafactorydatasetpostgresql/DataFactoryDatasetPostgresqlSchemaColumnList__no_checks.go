@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryDatasetPostgresqlSchemaColumnList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetPostgresqlSchemaColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetPostgresqlSchemaColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryDatasetPostgresqlSchemaColumnList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetPostgresqlSchemaColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetPostgresqlSchemaColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryDatasetPostgresqlSchemaColumnList) validateSetWrap
 	return nil
 }
 
-func validateNewDataFactoryDatasetPostgresqlSchemaColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryDatasetPostgresqlSchemaColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

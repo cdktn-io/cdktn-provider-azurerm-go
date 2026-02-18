@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermAppConfigurationKeysItemsList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAppConfigurationKeysItemsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAppConfigurationKeysItemsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermAppConfigurationKeysItemsList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAppConfigurationKeysItemsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAppConfigurationKeysItemsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermAppConfigurationKeysItemsList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAzurermAppConfigurationKeysItemsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermAppConfigurationKeysItemsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

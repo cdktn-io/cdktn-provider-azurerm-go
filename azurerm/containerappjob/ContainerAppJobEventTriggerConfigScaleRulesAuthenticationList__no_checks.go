@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesAuthenticationList
 	return nil
 }
 
-func validateNewContainerAppJobEventTriggerConfigScaleRulesAuthenticationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppJobEventTriggerConfigScaleRulesAuthenticationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

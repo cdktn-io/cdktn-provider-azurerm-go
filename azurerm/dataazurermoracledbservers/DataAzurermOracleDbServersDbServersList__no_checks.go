@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermOracleDbServersDbServersList) validateGetParameter
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleDbServersDbServersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleDbServersDbServersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermOracleDbServersDbServersList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleDbServersDbServersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleDbServersDbServersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermOracleDbServersDbServersList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewDataAzurermOracleDbServersDbServersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermOracleDbServersDbServersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

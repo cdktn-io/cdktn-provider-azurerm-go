@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 	return nil
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -200,7 +200,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *OrchestratedVirtualMachineScaleSetDataDisk:
 		val := val.(*OrchestratedVirtualMachineScaleSetDataDisk)
@@ -215,7 +215,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *OrchestratedVirtualMachineScaleSetDataDisk; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *OrchestratedVirtualMachineScaleSetDataDisk; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -246,7 +246,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -279,18 +279,18 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetDataDiskOutputReference) va
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
 	return nil
 }
 
-func validateNewOrchestratedVirtualMachineScaleSetDataDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOrchestratedVirtualMachineScaleSetDataDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

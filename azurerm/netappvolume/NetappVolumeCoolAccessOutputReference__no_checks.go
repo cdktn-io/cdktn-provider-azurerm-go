@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeCoolAccessOutputReference) validateInterpolationF
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeCoolAccessOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeCoolAccessOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_NetappVolumeCoolAccessOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeCoolAccessOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeCoolAccessOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NetappVolumeCoolAccessOutputReference) validateSetTieringPoli
 	return nil
 }
 
-func validateNewNetappVolumeCoolAccessOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeCoolAccessOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

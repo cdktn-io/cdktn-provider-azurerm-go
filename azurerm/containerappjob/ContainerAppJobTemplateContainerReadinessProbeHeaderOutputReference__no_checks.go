@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppJobTemplateContainerReadinessProbeHeaderOutputRef
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobTemplateContainerReadinessProbeHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobTemplateContainerReadinessProbeHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerReadinessProbeHeaderOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobTemplateContainerReadinessProbeHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobTemplateContainerReadinessProbeHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerReadinessProbeHeaderOutputRef
 	return nil
 }
 
-func validateNewContainerAppJobTemplateContainerReadinessProbeHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppJobTemplateContainerReadinessProbeHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

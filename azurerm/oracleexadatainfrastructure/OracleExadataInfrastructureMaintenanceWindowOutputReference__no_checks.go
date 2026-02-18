@@ -47,7 +47,7 @@ func (o *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowOutputReference) 
 	return nil
 }
 
-func (o *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_OracleExadataInfrastructureMaintenanceWindowOutputReference) 
 	return nil
 }
 
-func validateNewOracleExadataInfrastructureMaintenanceWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewOracleExadataInfrastructureMaintenanceWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

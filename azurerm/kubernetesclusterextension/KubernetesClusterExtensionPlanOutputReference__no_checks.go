@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) validateInterp
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_KubernetesClusterExtensionPlanOutputReference) validateSetVer
 	return nil
 }
 
-func validateNewKubernetesClusterExtensionPlanOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterExtensionPlanOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

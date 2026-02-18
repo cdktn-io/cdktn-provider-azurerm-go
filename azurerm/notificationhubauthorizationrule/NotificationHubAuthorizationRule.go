@@ -5,18 +5,18 @@ package notificationhubauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/notificationhubauthorizationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/notificationhubauthorizationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/notification_hub_authorization_rule azurerm_notification_hub_authorization_rule}.
 type NotificationHubAuthorizationRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type NotificationHubAuthorizationRule interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,9 +43,9 @@ type NotificationHubAuthorizationRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Listen() interface{}
 	SetListen(val interface{})
 	ListenInput() interface{}
@@ -66,9 +66,9 @@ type NotificationHubAuthorizationRule interface {
 	PrimaryAccessKey() *string
 	PrimaryConnectionString() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -84,7 +84,7 @@ type NotificationHubAuthorizationRule interface {
 	SetSend(val interface{})
 	SendInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type NotificationHubAuthorizationRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -117,9 +117,9 @@ type NotificationHubAuthorizationRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -158,11 +158,11 @@ type NotificationHubAuthorizationRule interface {
 
 // The jsii proxy struct for NotificationHubAuthorizationRule
 type jsiiProxy_NotificationHubAuthorizationRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NotificationHubAuthorizationRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -211,8 +211,8 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NotificationHubAuthorizationRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -261,8 +261,8 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NotificationHubAuthorizationRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -401,8 +401,8 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule) PrimaryConnectionString() *
 	return returns
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NotificationHubAuthorizationRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -491,8 +491,8 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule) SendInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NotificationHubAuthorizationRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -601,7 +601,7 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NotificationHubAuthorizationRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -620,7 +620,7 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NotificationHubAuthorizationRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -686,7 +686,7 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule)SetNotificationHubName(val *
 	)
 }
 
-func (j *jsiiProxy_NotificationHubAuthorizationRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NotificationHubAuthorizationRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -727,14 +727,14 @@ func (j *jsiiProxy_NotificationHubAuthorizationRule)SetSend(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a NotificationHubAuthorizationRule resource upon running "cdktf plan <stack-name>".
-func NotificationHubAuthorizationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NotificationHubAuthorizationRule resource upon running "cdktn plan <stack-name>".
+func NotificationHubAuthorizationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNotificationHubAuthorizationRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.notificationHubAuthorizationRule.NotificationHubAuthorizationRule",
@@ -868,11 +868,11 @@ func (n *jsiiProxy_NotificationHubAuthorizationRule) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (n *jsiiProxy_NotificationHubAuthorizationRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationHubAuthorizationRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1009,7 +1009,7 @@ func (n *jsiiProxy_NotificationHubAuthorizationRule) HasResourceMove() interface
 	return returns
 }
 
-func (n *jsiiProxy_NotificationHubAuthorizationRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NotificationHubAuthorizationRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1020,11 +1020,11 @@ func (n *jsiiProxy_NotificationHubAuthorizationRule) ImportFrom(id *string, prov
 	)
 }
 
-func (n *jsiiProxy_NotificationHubAuthorizationRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NotificationHubAuthorizationRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

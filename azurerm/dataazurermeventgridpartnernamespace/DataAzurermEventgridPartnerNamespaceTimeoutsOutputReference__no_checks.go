@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermEventgridPartnerNamespaceTimeoutsOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermEventgridPartnerNamespaceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermEventgridPartnerNamespaceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermEventgridPartnerNamespaceTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermEventgridPartnerNamespaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermEventgridPartnerNamespaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermEventgridPartnerNamespaceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermEventgridPartnerNamespaceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputRe
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputRe
 
 func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeaders:
 		val := val.(*LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeaders)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputRe
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeaders; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeaders; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -198,7 +198,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputRe
 	return nil
 }
 
-func validateNewLinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLinuxFunctionAppSlotSiteConfigScmIpRestrictionHeadersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerAppJobTemplateContainerLivenessProbeHeader:
 		value := value.(*[]*ContainerAppJobTemplateContainerLivenessProbeHeader)
@@ -117,14 +117,14 @@ func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerAppJobTemplateContainerLivenessProbeHeader; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerAppJobTemplateContainerLivenessProbeHeader; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -223,7 +223,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference)
 
 func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ContainerAppJobTemplateContainerLivenessProbe:
 		val := val.(*ContainerAppJobTemplateContainerLivenessProbe)
@@ -238,7 +238,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ContainerAppJobTemplateContainerLivenessProbe; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ContainerAppJobTemplateContainerLivenessProbe; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -277,7 +277,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -301,7 +301,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeOutputReference)
 	return nil
 }
 
-func validateNewContainerAppJobTemplateContainerLivenessProbeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppJobTemplateContainerLivenessProbeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

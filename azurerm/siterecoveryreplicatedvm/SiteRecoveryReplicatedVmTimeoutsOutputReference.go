@@ -5,14 +5,14 @@ package siterecoveryreplicatedvm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/siterecoveryreplicatedvm/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/siterecoveryreplicatedvm/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SiteRecoveryReplicatedVmTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type SiteRecoveryReplicatedVmTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type SiteRecoveryReplicatedVmTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type SiteRecoveryReplicatedVmTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type SiteRecoveryReplicatedVmTimeoutsOutputReference interface {
 
 // The jsii proxy struct for SiteRecoveryReplicatedVmTimeoutsOutputReference
 type jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) UpdateInput(
 }
 
 
-func NewSiteRecoveryReplicatedVmTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SiteRecoveryReplicatedVmTimeoutsOutputReference {
+func NewSiteRecoveryReplicatedVmTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SiteRecoveryReplicatedVmTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSiteRecoveryReplicatedVmTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewSiteRecoveryReplicatedVmTimeoutsOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewSiteRecoveryReplicatedVmTimeoutsOutputReference_Override(s SiteRecoveryReplicatedVmTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSiteRecoveryReplicatedVmTimeoutsOutputReference_Override(s SiteRecoveryReplicatedVmTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -529,8 +529,8 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) GetStringMap
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -542,11 +542,11 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) Interpolatio
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -590,7 +590,7 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) ResetUpdate(
 	)
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (m *jsiiProxy_MongoClusterUserRoleList) validateGetParameters(index *float6
 	return nil
 }
 
-func (m *jsiiProxy_MongoClusterUserRoleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MongoClusterUserRoleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MongoClusterUserRoleList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_MongoClusterUserRoleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MongoClusterUserRoleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MongoClusterUserRoleList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewMongoClusterUserRoleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMongoClusterUserRoleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

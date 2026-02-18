@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) validateInterpolationF
 	return nil
 }
 
-func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) validateSetTierParamet
 	return nil
 }
 
-func validateNewCognitiveDeploymentSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitiveDeploymentSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

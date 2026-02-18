@@ -5,14 +5,14 @@ package storagemanagementpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagemanagementpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storagemanagementpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StorageManagementPolicyRuleActionsBaseBlobOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutoTierToHotFromCoolEnabled() interface{}
 	SetAutoTierToHotFromCoolEnabled(val interface{})
 	AutoTierToHotFromCoolEnabledInput() interface{}
@@ -49,9 +49,9 @@ type StorageManagementPolicyRuleActionsBaseBlobOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TierToArchiveAfterDaysSinceCreationGreaterThan() *float64
 	SetTierToArchiveAfterDaysSinceCreationGreaterThan(val *float64)
 	TierToArchiveAfterDaysSinceCreationGreaterThanInput() *float64
@@ -87,7 +87,7 @@ type StorageManagementPolicyRuleActionsBaseBlobOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -103,9 +103,9 @@ type StorageManagementPolicyRuleActionsBaseBlobOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutoTierToHotFromCoolEnabled()
 	ResetDeleteAfterDaysSinceCreationGreaterThan()
 	ResetDeleteAfterDaysSinceLastAccessTimeGreaterThan()
@@ -122,7 +122,7 @@ type StorageManagementPolicyRuleActionsBaseBlobOutputReference interface {
 	ResetTierToCoolAfterDaysSinceModificationGreaterThan()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -132,7 +132,7 @@ type StorageManagementPolicyRuleActionsBaseBlobOutputReference interface {
 
 // The jsii proxy struct for StorageManagementPolicyRuleActionsBaseBlobOutputReference
 type jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) AutoTierToHotFromCoolEnabled() interface{} {
@@ -275,8 +275,8 @@ func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -486,7 +486,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) Ti
 }
 
 
-func NewStorageManagementPolicyRuleActionsBaseBlobOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StorageManagementPolicyRuleActionsBaseBlobOutputReference {
+func NewStorageManagementPolicyRuleActionsBaseBlobOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StorageManagementPolicyRuleActionsBaseBlobOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStorageManagementPolicyRuleActionsBaseBlobOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -503,7 +503,7 @@ func NewStorageManagementPolicyRuleActionsBaseBlobOutputReference(terraformResou
 	return &j
 }
 
-func NewStorageManagementPolicyRuleActionsBaseBlobOutputReference_Override(s StorageManagementPolicyRuleActionsBaseBlobOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStorageManagementPolicyRuleActionsBaseBlobOutputReference_Override(s StorageManagementPolicyRuleActionsBaseBlobOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -601,7 +601,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -751,11 +751,11 @@ func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) Ge
 	return returns
 }
 
-func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -879,8 +879,8 @@ func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) Ge
 	return returns
 }
 
-func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -892,11 +892,11 @@ func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) In
 	return returns
 }
 
-func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1020,7 +1020,7 @@ func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) Re
 	)
 }
 
-func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StorageManagementPolicyRuleActionsBaseBlobOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

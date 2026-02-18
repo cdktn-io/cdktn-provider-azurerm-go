@@ -47,7 +47,7 @@ func (b *jsiiProxy_BotChannelDirectlineTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (b *jsiiProxy_BotChannelDirectlineTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BotChannelDirectlineTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BotChannelDirectlineTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelDirectlineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BotChannelDirectlineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BotChannelDirectlineTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewBotChannelDirectlineTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBotChannelDirectlineTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermUserAssignedIdentity) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermUserAssignedIdentity) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermUserAssignedIdentity) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

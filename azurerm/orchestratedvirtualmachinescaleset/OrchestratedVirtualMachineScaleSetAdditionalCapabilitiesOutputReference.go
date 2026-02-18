@@ -5,14 +5,14 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orchestratedvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/orchestratedvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UltraSsdEnabled() interface{}
 	SetUltraSsdEnabled(val interface{})
 	UltraSsdEnabledInput() interface{}
@@ -48,7 +48,7 @@ type OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference int
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUltraSsdEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference int
 
 // The jsii proxy struct for OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference
 type jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	return returns
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 }
 
 
-func NewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference {
+func NewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference(
 	return &j
 }
 
-func NewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference_Override(o OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference_Override(o OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -245,7 +245,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	)
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -424,8 +424,8 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -437,11 +437,11 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -461,7 +461,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutpu
 	)
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetAdditionalCapabilitiesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

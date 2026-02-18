@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2IdentityOutputReference) val
 	return nil
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2IdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2IdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2IdentityOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2IdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2IdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2IdentityOutputReference) val
 	return nil
 }
 
-func validateNewMonitorScheduledQueryRulesAlertV2IdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorScheduledQueryRulesAlertV2IdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

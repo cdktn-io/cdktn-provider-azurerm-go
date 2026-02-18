@@ -47,7 +47,7 @@ func (e *jsiiProxy_ExpressRouteCircuitAuthorizationTimeoutsOutputReference) vali
 	return nil
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitAuthorizationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ExpressRouteCircuitAuthorizationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ExpressRouteCircuitAuthorizationTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteCircuitAuthorizationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ExpressRouteCircuitAuthorizationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewExpressRouteCircuitAuthorizationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewExpressRouteCircuitAuthorizationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

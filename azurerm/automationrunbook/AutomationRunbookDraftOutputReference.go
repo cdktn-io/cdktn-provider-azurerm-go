@@ -5,14 +5,14 @@ package automationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationrunbook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationrunbook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomationRunbookDraftOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type AutomationRunbookDraftOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,9 +73,9 @@ type AutomationRunbookDraftOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutContentLink(value *AutomationRunbookDraftContentLink)
 	PutParameters(value interface{})
 	ResetContentLink()
@@ -84,7 +84,7 @@ type AutomationRunbookDraftOutputReference interface {
 	ResetParameters()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type AutomationRunbookDraftOutputReference interface {
 
 // The jsii proxy struct for AutomationRunbookDraftOutputReference
 type jsiiProxy_AutomationRunbookDraftOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomationRunbookDraftOutputReference) ComplexObjectIndex() interface{} {
@@ -257,8 +257,8 @@ func (j *jsiiProxy_AutomationRunbookDraftOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_AutomationRunbookDraftOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomationRunbookDraftOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -268,7 +268,7 @@ func (j *jsiiProxy_AutomationRunbookDraftOutputReference) TerraformResource() cd
 }
 
 
-func NewAutomationRunbookDraftOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomationRunbookDraftOutputReference {
+func NewAutomationRunbookDraftOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomationRunbookDraftOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomationRunbookDraftOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -285,7 +285,7 @@ func NewAutomationRunbookDraftOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewAutomationRunbookDraftOutputReference_Override(a AutomationRunbookDraftOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomationRunbookDraftOutputReference_Override(a AutomationRunbookDraftOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_AutomationRunbookDraftOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_AutomationRunbookDraftOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomationRunbookDraftOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (a *jsiiProxy_AutomationRunbookDraftOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (a *jsiiProxy_AutomationRunbookDraftOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationRunbookDraftOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -529,8 +529,8 @@ func (a *jsiiProxy_AutomationRunbookDraftOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (a *jsiiProxy_AutomationRunbookDraftOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomationRunbookDraftOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -542,11 +542,11 @@ func (a *jsiiProxy_AutomationRunbookDraftOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (a *jsiiProxy_AutomationRunbookDraftOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationRunbookDraftOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -612,7 +612,7 @@ func (a *jsiiProxy_AutomationRunbookDraftOutputReference) ResetParameters() {
 	)
 }
 
-func (a *jsiiProxy_AutomationRunbookDraftOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomationRunbookDraftOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

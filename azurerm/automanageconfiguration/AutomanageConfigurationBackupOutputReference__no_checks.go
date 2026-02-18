@@ -55,7 +55,7 @@ func (a *jsiiProxy_AutomanageConfigurationBackupOutputReference) validatePutSche
 	return nil
 }
 
-func (a *jsiiProxy_AutomanageConfigurationBackupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomanageConfigurationBackupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AutomanageConfigurationBackupOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AutomanageConfigurationBackupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomanageConfigurationBackupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_AutomanageConfigurationBackupOutputReference) validateSetTime
 	return nil
 }
 
-func validateNewAutomanageConfigurationBackupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomanageConfigurationBackupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

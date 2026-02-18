@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerUniqueKeyOutputReference) validateInterpo
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerUniqueKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlContainerUniqueKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CosmosdbSqlContainerUniqueKeyOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerUniqueKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlContainerUniqueKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbSqlContainerUniqueKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbSqlContainerUniqueKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

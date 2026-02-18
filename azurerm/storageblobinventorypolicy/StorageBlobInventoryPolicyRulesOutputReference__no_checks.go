@@ -51,7 +51,7 @@ func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) validatePutFi
 	return nil
 }
 
-func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStorageBlobInventoryPolicyRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewStorageBlobInventoryPolicyRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

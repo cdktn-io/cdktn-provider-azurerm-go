@@ -15,7 +15,7 @@ func (b *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationList) validateGe
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationList) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_BatchPoolUserAccountsWindowsUserConfigurationList) validateSe
 	return nil
 }
 
-func validateNewBatchPoolUserAccountsWindowsUserConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewBatchPoolUserAccountsWindowsUserConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

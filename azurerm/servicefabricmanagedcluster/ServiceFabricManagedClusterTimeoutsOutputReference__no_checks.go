@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricManagedClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

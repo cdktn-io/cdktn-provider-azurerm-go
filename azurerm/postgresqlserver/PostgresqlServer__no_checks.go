@@ -155,7 +155,7 @@ func (j *jsiiProxy_PostgresqlServer) validateSetInfrastructureEncryptionEnabledP
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PostgresqlServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

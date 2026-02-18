@@ -127,7 +127,7 @@ func (j *jsiiProxy_BatchAccount) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_BatchAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BatchAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

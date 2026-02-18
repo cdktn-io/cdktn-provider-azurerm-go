@@ -127,7 +127,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

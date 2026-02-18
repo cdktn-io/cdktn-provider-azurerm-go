@@ -111,7 +111,7 @@ func (j *jsiiProxy_KustoClusterPrincipalAssignment) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_KustoClusterPrincipalAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KustoClusterPrincipalAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

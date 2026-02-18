@@ -47,7 +47,7 @@ func (f *jsiiProxy_FrontdoorRoutingRuleRedirectConfigurationOutputReference) val
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorRoutingRuleRedirectConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorRoutingRuleRedirectConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_FrontdoorRoutingRuleRedirectConfigurationOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorRoutingRuleRedirectConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorRoutingRuleRedirectConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFrontdoorRoutingRuleRedirectConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFrontdoorRoutingRuleRedirectConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

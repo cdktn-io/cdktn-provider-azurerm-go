@@ -5,14 +5,14 @@ package mongocluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mongocluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mongocluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MongoClusterCustomerManagedKeyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type MongoClusterCustomerManagedKeyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UserAssignedIdentityId() *string
 	SetUserAssignedIdentityId(val *string)
 	UserAssignedIdentityIdInput() *string
@@ -51,7 +51,7 @@ type MongoClusterCustomerManagedKeyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type MongoClusterCustomerManagedKeyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type MongoClusterCustomerManagedKeyOutputReference interface {
 
 // The jsii proxy struct for MongoClusterCustomerManagedKeyOutputReference
 type jsiiProxy_MongoClusterCustomerManagedKeyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) UserAssignedId
 }
 
 
-func NewMongoClusterCustomerManagedKeyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MongoClusterCustomerManagedKeyOutputReference {
+func NewMongoClusterCustomerManagedKeyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MongoClusterCustomerManagedKeyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMongoClusterCustomerManagedKeyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewMongoClusterCustomerManagedKeyOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewMongoClusterCustomerManagedKeyOutputReference_Override(m MongoClusterCustomerManagedKeyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMongoClusterCustomerManagedKeyOutputReference_Override(m MongoClusterCustomerManagedKeyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -457,8 +457,8 @@ func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) GetStringMapAt
 	return returns
 }
 
-func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -470,11 +470,11 @@ func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) InterpolationA
 	return returns
 }
 
-func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -486,7 +486,7 @@ func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) InterpolationF
 	return returns
 }
 
-func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MongoClusterCustomerManagedKeyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

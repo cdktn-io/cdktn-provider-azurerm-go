@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionSubjectFilterOutputReference) valid
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionSubjectFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionSubjectFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_EventgridEventSubscriptionSubjectFilterOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionSubjectFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionSubjectFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionSubjectFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridEventSubscriptionSubjectFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

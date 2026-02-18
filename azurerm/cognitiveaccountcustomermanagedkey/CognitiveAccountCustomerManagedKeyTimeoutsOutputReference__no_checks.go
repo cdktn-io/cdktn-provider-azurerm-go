@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyTimeoutsOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CognitiveAccountCustomerManagedKeyTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewCognitiveAccountCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitiveAccountCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

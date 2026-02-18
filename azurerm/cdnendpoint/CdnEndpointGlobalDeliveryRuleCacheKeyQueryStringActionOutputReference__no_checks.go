@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnEndpointGlobalDeliveryRuleCacheKeyQueryStringActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicebusNamespaceCustomerManagedKeyOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_ServicebusNamespaceCustomerManagedKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicebusNamespaceCustomerManagedKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ServicebusNamespaceCustomerManagedKeyOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusNamespaceCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicebusNamespaceCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServicebusNamespaceCustomerManagedKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServicebusNamespaceCustomerManagedKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

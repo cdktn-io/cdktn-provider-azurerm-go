@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationHybridRunbookWorkerTimeoutsOutputReference) validat
 	return nil
 }
 
-func (a *jsiiProxy_AutomationHybridRunbookWorkerTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationHybridRunbookWorkerTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_AutomationHybridRunbookWorkerTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_AutomationHybridRunbookWorkerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationHybridRunbookWorkerTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutomationHybridRunbookWorkerTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationHybridRunbookWorkerTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

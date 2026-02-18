@@ -5,21 +5,21 @@ package paloaltolocalrulestackprefixlist
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltolocalrulestackprefixlist/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/paloaltolocalrulestackprefixlist/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/palo_alto_local_rulestack_prefix_list azurerm_palo_alto_local_rulestack_prefix_list}.
 type PaloAltoLocalRulestackPrefixList interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuditComment() *string
 	SetAuditComment(val *string)
 	AuditCommentInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type PaloAltoLocalRulestackPrefixList interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type PaloAltoLocalRulestackPrefixList interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -61,9 +61,9 @@ type PaloAltoLocalRulestackPrefixList interface {
 	SetPrefixList(val *[]*string)
 	PrefixListInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type PaloAltoLocalRulestackPrefixList interface {
 	SetRulestackId(val *string)
 	RulestackIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type PaloAltoLocalRulestackPrefixList interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type PaloAltoLocalRulestackPrefixList interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type PaloAltoLocalRulestackPrefixList interface {
 
 // The jsii proxy struct for PaloAltoLocalRulestackPrefixList
 type jsiiProxy_PaloAltoLocalRulestackPrefixList struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) AuditComment() *string {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) AuditCommentInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -240,8 +240,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) DescriptionInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -350,8 +350,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) PrefixListInput() *[]*strin
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -400,8 +400,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) RulestackIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -532,7 +532,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetDescription(val *string) 
 	)
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -551,7 +551,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -584,7 +584,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetPrefixList(val *[]*string
 	)
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -614,14 +614,14 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixList)SetRulestackId(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a PaloAltoLocalRulestackPrefixList resource upon running "cdktf plan <stack-name>".
-func PaloAltoLocalRulestackPrefixList_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PaloAltoLocalRulestackPrefixList resource upon running "cdktn plan <stack-name>".
+func PaloAltoLocalRulestackPrefixList_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePaloAltoLocalRulestackPrefixList_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.paloAltoLocalRulestackPrefixList.PaloAltoLocalRulestackPrefixList",
@@ -755,11 +755,11 @@ func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -896,7 +896,7 @@ func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) HasResourceMove() interface
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -907,11 +907,11 @@ func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) ImportFrom(id *string, prov
 	)
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoLocalRulestackPrefixList) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

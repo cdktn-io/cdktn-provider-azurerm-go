@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceManagementPrivateLinkTimeoutsOutputReference) validat
 	return nil
 }
 
-func (r *jsiiProxy_ResourceManagementPrivateLinkTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceManagementPrivateLinkTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ResourceManagementPrivateLinkTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ResourceManagementPrivateLinkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceManagementPrivateLinkTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewResourceManagementPrivateLinkTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewResourceManagementPrivateLinkTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

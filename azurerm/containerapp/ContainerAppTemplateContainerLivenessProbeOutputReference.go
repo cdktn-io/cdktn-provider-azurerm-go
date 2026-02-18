@@ -5,14 +5,14 @@ package containerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerAppTemplateContainerLivenessProbeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -58,9 +58,9 @@ type ContainerAppTemplateContainerLivenessProbeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Timeout() *float64
 	SetTimeout(val *float64)
 	TimeoutInput() *float64
@@ -72,7 +72,7 @@ type ContainerAppTemplateContainerLivenessProbeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -88,9 +88,9 @@ type ContainerAppTemplateContainerLivenessProbeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeader(value interface{})
 	ResetFailureCountThreshold()
 	ResetHeader()
@@ -101,7 +101,7 @@ type ContainerAppTemplateContainerLivenessProbeOutputReference interface {
 	ResetTimeout()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -111,7 +111,7 @@ type ContainerAppTemplateContainerLivenessProbeOutputReference interface {
 
 // The jsii proxy struct for ContainerAppTemplateContainerLivenessProbeOutputReference
 type jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) ComplexObjectIndex() interface{} {
@@ -324,8 +324,8 @@ func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -375,7 +375,7 @@ func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) Tr
 }
 
 
-func NewContainerAppTemplateContainerLivenessProbeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerAppTemplateContainerLivenessProbeOutputReference {
+func NewContainerAppTemplateContainerLivenessProbeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ContainerAppTemplateContainerLivenessProbeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerAppTemplateContainerLivenessProbeOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -392,7 +392,7 @@ func NewContainerAppTemplateContainerLivenessProbeOutputReference(terraformResou
 	return &j
 }
 
-func NewContainerAppTemplateContainerLivenessProbeOutputReference_Override(c ContainerAppTemplateContainerLivenessProbeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewContainerAppTemplateContainerLivenessProbeOutputReference_Override(c ContainerAppTemplateContainerLivenessProbeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -512,7 +512,7 @@ func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -574,11 +574,11 @@ func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) Ge
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -702,8 +702,8 @@ func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) Ge
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -715,11 +715,11 @@ func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) In
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -798,7 +798,7 @@ func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) Re
 	)
 }
 
-func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

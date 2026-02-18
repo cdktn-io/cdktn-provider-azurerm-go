@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceRequiredNetworkTrafficRulesList)
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceRequiredNetworkTrafficRulesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSpringCloudServiceRequiredNetworkTrafficRulesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceRequiredNetworkTrafficRulesList)
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudServiceRequiredNetworkTrafficRulesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSpringCloudServiceRequiredNetworkTrafficRulesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceRequiredNetworkTrafficRulesList)
 	return nil
 }
 
-func validateNewDataAzurermSpringCloudServiceRequiredNetworkTrafficRulesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSpringCloudServiceRequiredNetworkTrafficRulesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

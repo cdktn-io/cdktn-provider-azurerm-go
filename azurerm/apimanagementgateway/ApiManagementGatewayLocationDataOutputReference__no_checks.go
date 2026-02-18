@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementGatewayLocationDataOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementGatewayLocationDataOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementGatewayLocationDataOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

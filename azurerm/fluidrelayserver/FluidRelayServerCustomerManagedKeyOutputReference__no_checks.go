@@ -47,7 +47,7 @@ func (f *jsiiProxy_FluidRelayServerCustomerManagedKeyOutputReference) validateIn
 	return nil
 }
 
-func (f *jsiiProxy_FluidRelayServerCustomerManagedKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FluidRelayServerCustomerManagedKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FluidRelayServerCustomerManagedKeyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_FluidRelayServerCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FluidRelayServerCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FluidRelayServerCustomerManagedKeyOutputReference) validateSe
 	return nil
 }
 
-func validateNewFluidRelayServerCustomerManagedKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFluidRelayServerCustomerManagedKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

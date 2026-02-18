@@ -15,7 +15,7 @@ func (s *jsiiProxy_SharedImageVersionTargetRegionList) validateGetParameters(ind
 	return nil
 }
 
-func (s *jsiiProxy_SharedImageVersionTargetRegionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SharedImageVersionTargetRegionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SharedImageVersionTargetRegionList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_SharedImageVersionTargetRegionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SharedImageVersionTargetRegionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SharedImageVersionTargetRegionList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewSharedImageVersionTargetRegionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSharedImageVersionTargetRegionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

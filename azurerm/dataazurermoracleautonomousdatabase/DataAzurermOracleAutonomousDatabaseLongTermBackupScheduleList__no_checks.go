@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseLongTermBackupScheduleList
 	return nil
 }
 
-func validateNewDataAzurermOracleAutonomousDatabaseLongTermBackupScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermOracleAutonomousDatabaseLongTermBackupScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

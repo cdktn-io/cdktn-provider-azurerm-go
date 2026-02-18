@@ -5,14 +5,14 @@ package streamanalyticsstreaminputiothub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsstreaminputiothub/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsstreaminputiothub/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StreamAnalyticsStreamInputIothubSerializationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type StreamAnalyticsStreamInputIothubSerializationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -54,7 +54,7 @@ type StreamAnalyticsStreamInputIothubSerializationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type StreamAnalyticsStreamInputIothubSerializationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEncoding()
 	ResetFieldDelimiter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type StreamAnalyticsStreamInputIothubSerializationOutputReference interface {
 
 // The jsii proxy struct for StreamAnalyticsStreamInputIothubSerializationOutputReference
 type jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) ComplexObjectIndex() interface{} {
@@ -190,8 +190,8 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)
 }
 
 
-func NewStreamAnalyticsStreamInputIothubSerializationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StreamAnalyticsStreamInputIothubSerializationOutputReference {
+func NewStreamAnalyticsStreamInputIothubSerializationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StreamAnalyticsStreamInputIothubSerializationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStreamAnalyticsStreamInputIothubSerializationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewStreamAnalyticsStreamInputIothubSerializationOutputReference(terraformRe
 	return &j
 }
 
-func NewStreamAnalyticsStreamInputIothubSerializationOutputReference_Override(s StreamAnalyticsStreamInputIothubSerializationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStreamAnalyticsStreamInputIothubSerializationOutputReference_Override(s StreamAnalyticsStreamInputIothubSerializationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -314,7 +314,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -493,8 +493,8 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -506,11 +506,11 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -538,7 +538,7 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference)
 	)
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StreamAnalyticsStreamInputIothubSerializationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

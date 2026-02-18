@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) validate
 	return nil
 }
 
-func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_MssqlDatabaseLongTermRetentionPolicyOutputReference) validate
 	return nil
 }
 
-func validateNewMssqlDatabaseLongTermRetentionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlDatabaseLongTermRetentionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

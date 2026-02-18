@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionOutputReference
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupPartnerRegionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlManagedInstanceFailoverGroupPartnerRegionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMssqlManagedInstanceFailoverGroupPartnerRegionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

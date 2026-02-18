@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxFunctionAppConnectionStringOutputReference) validateInte
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppConnectionStringOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppConnectionStringOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LinuxFunctionAppConnectionStringOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_LinuxFunctionAppConnectionStringOutputReference) validateSetV
 	return nil
 }
 
-func validateNewLinuxFunctionAppConnectionStringOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLinuxFunctionAppConnectionStringOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

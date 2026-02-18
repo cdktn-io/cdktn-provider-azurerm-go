@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermApplicationGatewayCustomErrorConfigurationList) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermApplicationGatewayCustomErrorConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermApplicationGatewayCustomErrorConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayCustomErrorConfigurationList) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermApplicationGatewayCustomErrorConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermApplicationGatewayCustomErrorConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayCustomErrorConfigurationList) va
 	return nil
 }
 
-func validateNewDataAzurermApplicationGatewayCustomErrorConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermApplicationGatewayCustomErrorConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

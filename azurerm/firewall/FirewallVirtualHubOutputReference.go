@@ -5,14 +5,14 @@ package firewall
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/firewall/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/firewall/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FirewallVirtualHubOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type FirewallVirtualHubOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VirtualHubId() *string
 	SetVirtualHubId(val *string)
 	VirtualHubIdInput() *string
@@ -53,7 +53,7 @@ type FirewallVirtualHubOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,13 +69,13 @@ type FirewallVirtualHubOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPublicIpCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type FirewallVirtualHubOutputReference interface {
 
 // The jsii proxy struct for FirewallVirtualHubOutputReference
 type jsiiProxy_FirewallVirtualHubOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FirewallVirtualHubOutputReference) ComplexObjectIndex() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_FirewallVirtualHubOutputReference) TerraformAttribute() *stri
 	return returns
 }
 
-func (j *jsiiProxy_FirewallVirtualHubOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FirewallVirtualHubOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_FirewallVirtualHubOutputReference) VirtualHubIdInput() *strin
 }
 
 
-func NewFirewallVirtualHubOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FirewallVirtualHubOutputReference {
+func NewFirewallVirtualHubOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FirewallVirtualHubOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFirewallVirtualHubOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewFirewallVirtualHubOutputReference(terraformResource cdktf.IInterpolating
 	return &j
 }
 
-func NewFirewallVirtualHubOutputReference_Override(f FirewallVirtualHubOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFirewallVirtualHubOutputReference_Override(f FirewallVirtualHubOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -301,7 +301,7 @@ func (j *jsiiProxy_FirewallVirtualHubOutputReference)SetTerraformAttribute(val *
 	)
 }
 
-func (j *jsiiProxy_FirewallVirtualHubOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FirewallVirtualHubOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -352,11 +352,11 @@ func (f *jsiiProxy_FirewallVirtualHubOutputReference) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (f *jsiiProxy_FirewallVirtualHubOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirewallVirtualHubOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -480,8 +480,8 @@ func (f *jsiiProxy_FirewallVirtualHubOutputReference) GetStringMapAttribute(terr
 	return returns
 }
 
-func (f *jsiiProxy_FirewallVirtualHubOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FirewallVirtualHubOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -493,11 +493,11 @@ func (f *jsiiProxy_FirewallVirtualHubOutputReference) InterpolationAsList() cdkt
 	return returns
 }
 
-func (f *jsiiProxy_FirewallVirtualHubOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FirewallVirtualHubOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -517,7 +517,7 @@ func (f *jsiiProxy_FirewallVirtualHubOutputReference) ResetPublicIpCount() {
 	)
 }
 
-func (f *jsiiProxy_FirewallVirtualHubOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FirewallVirtualHubOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

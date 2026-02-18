@@ -15,7 +15,7 @@ func (n *jsiiProxy_NginxDeploymentFrontendPrivateList) validateGetParameters(ind
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeploymentFrontendPrivateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NginxDeploymentFrontendPrivateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NginxDeploymentFrontendPrivateList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeploymentFrontendPrivateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NginxDeploymentFrontendPrivateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NginxDeploymentFrontendPrivateList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewNginxDeploymentFrontendPrivateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNginxDeploymentFrontendPrivateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

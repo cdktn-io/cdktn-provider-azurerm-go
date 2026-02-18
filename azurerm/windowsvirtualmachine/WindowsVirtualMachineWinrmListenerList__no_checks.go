@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsVirtualMachineWinrmListenerList) validateGetParameters
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineWinrmListenerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineWinrmListenerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsVirtualMachineWinrmListenerList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineWinrmListenerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineWinrmListenerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsVirtualMachineWinrmListenerList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewWindowsVirtualMachineWinrmListenerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsVirtualMachineWinrmListenerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

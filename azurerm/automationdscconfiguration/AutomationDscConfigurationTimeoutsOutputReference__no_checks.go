@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationDscConfigurationTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_AutomationDscConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationDscConfigurationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationDscConfigurationTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_AutomationDscConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationDscConfigurationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AutomationDscConfigurationTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewAutomationDscConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationDscConfigurationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

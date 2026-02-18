@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretList) validateGetPa
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretList) validateSetWr
 	return nil
 }
 
-func validateNewContainerAppEnvironmentDaprComponentSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppEnvironmentDaprComponentSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

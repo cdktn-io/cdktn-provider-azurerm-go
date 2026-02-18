@@ -123,7 +123,7 @@ func (j *jsiiProxy_OracleExascaleDatabaseStorageVault) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_OracleExascaleDatabaseStorageVault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OracleExascaleDatabaseStorageVault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

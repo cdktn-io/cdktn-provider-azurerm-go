@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermNetappVolumeDataProtectionReplicationList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetappVolumeDataProtectionReplicationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetappVolumeDataProtectionReplicationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeDataProtectionReplicationList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolumeDataProtectionReplicationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetappVolumeDataProtectionReplicationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeDataProtectionReplicationList) validat
 	return nil
 }
 
-func validateNewDataAzurermNetappVolumeDataProtectionReplicationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermNetappVolumeDataProtectionReplicationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

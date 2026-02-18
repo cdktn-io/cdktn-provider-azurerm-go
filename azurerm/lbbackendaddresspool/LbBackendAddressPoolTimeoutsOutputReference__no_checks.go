@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbBackendAddressPoolTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (l *jsiiProxy_LbBackendAddressPoolTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbBackendAddressPoolTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LbBackendAddressPoolTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_LbBackendAddressPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbBackendAddressPoolTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LbBackendAddressPoolTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewLbBackendAddressPoolTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLbBackendAddressPoolTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

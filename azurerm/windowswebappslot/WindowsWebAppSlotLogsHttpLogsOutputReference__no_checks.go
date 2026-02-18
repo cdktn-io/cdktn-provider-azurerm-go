@@ -55,7 +55,7 @@ func (w *jsiiProxy_WindowsWebAppSlotLogsHttpLogsOutputReference) validatePutFile
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotLogsHttpLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotLogsHttpLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_WindowsWebAppSlotLogsHttpLogsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotLogsHttpLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotLogsHttpLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWindowsWebAppSlotLogsHttpLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsWebAppSlotLogsHttpLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

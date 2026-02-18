@@ -47,7 +47,7 @@ func (t *jsiiProxy_TrafficManagerProfileDnsConfigOutputReference) validateInterp
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerProfileDnsConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerProfileDnsConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_TrafficManagerProfileDnsConfigOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerProfileDnsConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerProfileDnsConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TrafficManagerProfileDnsConfigOutputReference) validateSetTtl
 	return nil
 }
 
-func validateNewTrafficManagerProfileDnsConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTrafficManagerProfileDnsConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

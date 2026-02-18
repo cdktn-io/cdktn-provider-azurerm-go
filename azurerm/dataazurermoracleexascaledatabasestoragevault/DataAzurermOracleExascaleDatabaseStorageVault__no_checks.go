@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) validateSetIdP
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

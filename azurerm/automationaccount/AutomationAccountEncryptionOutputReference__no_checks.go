@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationAccountEncryptionOutputReference) validateInterpola
 	return nil
 }
 
-func (a *jsiiProxy_AutomationAccountEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationAccountEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AutomationAccountEncryptionOutputReference) validateSetUserAs
 	return nil
 }
 
-func validateNewAutomationAccountEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAutomationAccountEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

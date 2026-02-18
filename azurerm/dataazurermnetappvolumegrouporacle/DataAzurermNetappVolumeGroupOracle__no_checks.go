@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracle) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracle) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracle) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

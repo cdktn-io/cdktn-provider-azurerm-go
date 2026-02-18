@@ -47,7 +47,7 @@ func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxOutputReference) v
 	return nil
 }
 
-func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MaintenanceConfigurationInstallPatchesLinuxOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMaintenanceConfigurationInstallPatchesLinuxOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMaintenanceConfigurationInstallPatchesLinuxOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

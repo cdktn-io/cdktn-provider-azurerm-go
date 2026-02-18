@@ -15,7 +15,7 @@ func (a *jsiiProxy_AiServicesStorageList) validateGetParameters(index *float64) 
 	return nil
 }
 
-func (a *jsiiProxy_AiServicesStorageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AiServicesStorageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AiServicesStorageList) validateSetTerraformAttributeParameter
 	return nil
 }
 
-func (j *jsiiProxy_AiServicesStorageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AiServicesStorageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AiServicesStorageList) validateSetWrapsSetParameters(val *boo
 	return nil
 }
 
-func validateNewAiServicesStorageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAiServicesStorageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

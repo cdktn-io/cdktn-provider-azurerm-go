@@ -51,7 +51,7 @@ func (k *jsiiProxy_KubernetesFluxConfigurationKustomizationsPostBuildOutputRefer
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationKustomizationsPostBuildOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFluxConfigurationKustomizationsPostBuildOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KubernetesFluxConfigurationKustomizationsPostBuildOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFluxConfigurationKustomizationsPostBuildOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFluxConfigurationKustomizationsPostBuildOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesFluxConfigurationKustomizationsPostBuildOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesFluxConfigurationKustomizationsPostBuildOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

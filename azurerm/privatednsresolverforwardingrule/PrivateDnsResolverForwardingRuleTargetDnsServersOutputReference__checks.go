@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (p *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (p *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReferen
 	return nil
 }
 
-func (p *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReferen
 
 func (j *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *PrivateDnsResolverForwardingRuleTargetDnsServers:
 		val := val.(*PrivateDnsResolverForwardingRuleTargetDnsServers)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *PrivateDnsResolverForwardingRuleTargetDnsServers; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *PrivateDnsResolverForwardingRuleTargetDnsServers; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -214,7 +214,7 @@ func (j *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_PrivateDnsResolverForwardingRuleTargetDnsServersOutputReferen
 	return nil
 }
 
-func validateNewPrivateDnsResolverForwardingRuleTargetDnsServersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPrivateDnsResolverForwardingRuleTargetDnsServersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

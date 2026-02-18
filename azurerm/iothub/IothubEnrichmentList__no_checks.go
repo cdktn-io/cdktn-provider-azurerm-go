@@ -15,7 +15,7 @@ func (i *jsiiProxy_IothubEnrichmentList) validateGetParameters(index *float64) e
 	return nil
 }
 
-func (i *jsiiProxy_IothubEnrichmentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubEnrichmentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IothubEnrichmentList) validateSetTerraformAttributeParameters
 	return nil
 }
 
-func (j *jsiiProxy_IothubEnrichmentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubEnrichmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IothubEnrichmentList) validateSetWrapsSetParameters(val *bool
 	return nil
 }
 
-func validateNewIothubEnrichmentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIothubEnrichmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

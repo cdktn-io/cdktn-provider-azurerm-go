@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputRefer
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServiceFabricClusterUpgradePolicyDeltaHealthPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

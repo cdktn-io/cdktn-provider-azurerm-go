@@ -139,7 +139,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetInternetQueryEnabledParamet
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogAnalyticsWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningComputeInstanceSshOutputReference) validateInt
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningComputeInstanceSshOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningComputeInstanceSshOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_MachineLearningComputeInstanceSshOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningComputeInstanceSshOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningComputeInstanceSshOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMachineLearningComputeInstanceSshOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningComputeInstanceSshOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

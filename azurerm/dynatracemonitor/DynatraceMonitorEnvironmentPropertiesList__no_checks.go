@@ -15,7 +15,7 @@ func (d *jsiiProxy_DynatraceMonitorEnvironmentPropertiesList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DynatraceMonitorEnvironmentPropertiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynatraceMonitorEnvironmentPropertiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DynatraceMonitorEnvironmentPropertiesList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DynatraceMonitorEnvironmentPropertiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynatraceMonitorEnvironmentPropertiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DynatraceMonitorEnvironmentPropertiesList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDynatraceMonitorEnvironmentPropertiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDynatraceMonitorEnvironmentPropertiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

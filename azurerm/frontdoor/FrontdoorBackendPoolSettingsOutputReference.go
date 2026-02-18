@@ -5,14 +5,14 @@ package frontdoor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/frontdoor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/frontdoor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FrontdoorBackendPoolSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackendPoolsSendReceiveTimeoutSeconds() *float64
 	SetBackendPoolsSendReceiveTimeoutSeconds(val *float64)
 	BackendPoolsSendReceiveTimeoutSecondsInput() *float64
@@ -43,15 +43,15 @@ type FrontdoorBackendPoolSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type FrontdoorBackendPoolSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBackendPoolsSendReceiveTimeoutSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type FrontdoorBackendPoolSettingsOutputReference interface {
 
 // The jsii proxy struct for FrontdoorBackendPoolSettingsOutputReference
 type jsiiProxy_FrontdoorBackendPoolSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) BackendPoolsSendReceiveTimeoutSeconds() *float64 {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) TerraformAttribu
 	return returns
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) TerraformResourc
 }
 
 
-func NewFrontdoorBackendPoolSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FrontdoorBackendPoolSettingsOutputReference {
+func NewFrontdoorBackendPoolSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) FrontdoorBackendPoolSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFrontdoorBackendPoolSettingsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -214,7 +214,7 @@ func NewFrontdoorBackendPoolSettingsOutputReference(terraformResource cdktf.IInt
 	return &j
 }
 
-func NewFrontdoorBackendPoolSettingsOutputReference_Override(f FrontdoorBackendPoolSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewFrontdoorBackendPoolSettingsOutputReference_Override(f FrontdoorBackendPoolSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference)SetTerraformAttri
 	)
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) GetAnyMapAttribu
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -458,8 +458,8 @@ func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) GetStringMapAttr
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -471,11 +471,11 @@ func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) InterpolationAsL
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -495,7 +495,7 @@ func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) ResetBackendPool
 	)
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FrontdoorBackendPoolSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

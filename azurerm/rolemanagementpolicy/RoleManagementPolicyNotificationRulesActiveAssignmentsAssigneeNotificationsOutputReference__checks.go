@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (r *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (r *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigne
 	return nil
 }
 
-func (r *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -183,11 +183,11 @@ func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigne
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -218,7 +218,7 @@ func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigne
 	return nil
 }
 
-func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -226,7 +226,7 @@ func (j *jsiiProxy_RoleManagementPolicyNotificationRulesActiveAssignmentsAssigne
 	return nil
 }
 
-func validateNewRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoleManagementPolicyNotificationRulesActiveAssignmentsAssigneeNotificationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

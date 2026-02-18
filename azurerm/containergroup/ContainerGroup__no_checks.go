@@ -155,7 +155,7 @@ func (j *jsiiProxy_ContainerGroup) validateSetKeyVaultUserAssignedIdentityIdPara
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

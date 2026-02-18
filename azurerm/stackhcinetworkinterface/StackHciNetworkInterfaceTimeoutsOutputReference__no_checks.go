@@ -47,7 +47,7 @@ func (s *jsiiProxy_StackHciNetworkInterfaceTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_StackHciNetworkInterfaceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciNetworkInterfaceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StackHciNetworkInterfaceTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_StackHciNetworkInterfaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciNetworkInterfaceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StackHciNetworkInterfaceTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewStackHciNetworkInterfaceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStackHciNetworkInterfaceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

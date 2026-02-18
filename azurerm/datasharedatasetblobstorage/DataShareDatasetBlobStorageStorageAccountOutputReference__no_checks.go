@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataShareDatasetBlobStorageStorageAccountOutputReference) val
 	return nil
 }
 
-func (d *jsiiProxy_DataShareDatasetBlobStorageStorageAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataShareDatasetBlobStorageStorageAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataShareDatasetBlobStorageStorageAccountOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_DataShareDatasetBlobStorageStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataShareDatasetBlobStorageStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataShareDatasetBlobStorageStorageAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataShareDatasetBlobStorageStorageAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_ContainerGroupContainerOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (c *jsiiProxy_ContainerGroupContainerOutputReference) validatePutPortsParam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerGroupContainerPorts:
 		value := value.(*[]*ContainerGroupContainerPorts)
@@ -128,7 +128,7 @@ func (c *jsiiProxy_ContainerGroupContainerOutputReference) validatePutPortsParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerGroupContainerPorts; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerGroupContainerPorts; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -151,7 +151,7 @@ func (c *jsiiProxy_ContainerGroupContainerOutputReference) validatePutSecurityPa
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerGroupContainerSecurity:
 		value := value.(*[]*ContainerGroupContainerSecurity)
@@ -170,7 +170,7 @@ func (c *jsiiProxy_ContainerGroupContainerOutputReference) validatePutSecurityPa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerGroupContainerSecurity; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerGroupContainerSecurity; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -182,7 +182,7 @@ func (c *jsiiProxy_ContainerGroupContainerOutputReference) validatePutVolumePara
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ContainerGroupContainerVolume:
 		value := value.(*[]*ContainerGroupContainerVolume)
@@ -201,14 +201,14 @@ func (c *jsiiProxy_ContainerGroupContainerOutputReference) validatePutVolumePara
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ContainerGroupContainerVolume; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ContainerGroupContainerVolume; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_ContainerGroupContainerOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerGroupContainerOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -323,7 +323,7 @@ func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetImageParam
 
 func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ContainerGroupContainer:
 		val := val.(*ContainerGroupContainer)
@@ -338,7 +338,7 @@ func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetInternalVa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ContainerGroupContainer; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ContainerGroupContainer; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -385,7 +385,7 @@ func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -393,7 +393,7 @@ func (j *jsiiProxy_ContainerGroupContainerOutputReference) validateSetTerraformR
 	return nil
 }
 
-func validateNewContainerGroupContainerOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerGroupContainerOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

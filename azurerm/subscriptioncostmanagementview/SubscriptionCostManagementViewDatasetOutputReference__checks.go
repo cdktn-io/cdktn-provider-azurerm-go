@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SubscriptionCostManagementViewDatasetAggregation:
 		value := value.(*[]*SubscriptionCostManagementViewDatasetAggregation)
@@ -117,7 +117,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SubscriptionCostManagementViewDatasetAggregation; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SubscriptionCostManagementViewDatasetAggregation; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SubscriptionCostManagementViewDatasetGrouping:
 		value := value.(*[]*SubscriptionCostManagementViewDatasetGrouping)
@@ -148,7 +148,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SubscriptionCostManagementViewDatasetGrouping; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SubscriptionCostManagementViewDatasetGrouping; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SubscriptionCostManagementViewDatasetSorting:
 		value := value.(*[]*SubscriptionCostManagementViewDatasetSorting)
@@ -179,14 +179,14 @@ func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SubscriptionCostManagementViewDatasetSorting; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SubscriptionCostManagementViewDatasetSorting; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -283,7 +283,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -291,7 +291,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewDatasetOutputReference) validat
 	return nil
 }
 
-func validateNewSubscriptionCostManagementViewDatasetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSubscriptionCostManagementViewDatasetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

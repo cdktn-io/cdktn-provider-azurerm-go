@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 
 func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfig:
 		val := val.(*VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfig)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfig; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfig; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -230,7 +230,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnatten
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualMachineScaleSetOsProfileWindowsConfigAdditionalUnattendConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) valida
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedDatabasePointInTimeRestoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlManagedDatabasePointInTimeRestoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlManagedDatabasePointInTimeRestoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

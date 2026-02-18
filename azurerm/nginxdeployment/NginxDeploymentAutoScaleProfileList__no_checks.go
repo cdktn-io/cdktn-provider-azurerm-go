@@ -15,7 +15,7 @@ func (n *jsiiProxy_NginxDeploymentAutoScaleProfileList) validateGetParameters(in
 	return nil
 }
 
-func (n *jsiiProxy_NginxDeploymentAutoScaleProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NginxDeploymentAutoScaleProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NginxDeploymentAutoScaleProfileList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_NginxDeploymentAutoScaleProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NginxDeploymentAutoScaleProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NginxDeploymentAutoScaleProfileList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewNginxDeploymentAutoScaleProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNginxDeploymentAutoScaleProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualHubBgpConnectionTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (v *jsiiProxy_VirtualHubBgpConnectionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualHubBgpConnectionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VirtualHubBgpConnectionTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_VirtualHubBgpConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualHubBgpConnectionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualHubBgpConnectionTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewVirtualHubBgpConnectionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualHubBgpConnectionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

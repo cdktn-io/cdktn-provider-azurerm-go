@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApiManagementEmailTemplate) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementEmailTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementEmailTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

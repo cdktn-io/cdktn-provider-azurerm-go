@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateG
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateR
 
 func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CosmosdbSqlContainerIndexingPolicyExcludedPath:
 		val := val.(*[]*CosmosdbSqlContainerIndexingPolicyExcludedPath)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyExcludedPath; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyExcludedPath; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyExcludedPathList) validateS
 	return nil
 }
 
-func validateNewCosmosdbSqlContainerIndexingPolicyExcludedPathListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbSqlContainerIndexingPolicyExcludedPathListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

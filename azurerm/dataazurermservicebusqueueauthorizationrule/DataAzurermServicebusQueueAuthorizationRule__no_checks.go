@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermServicebusQueueAuthorizationRule) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusQueueAuthorizationRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermServicebusQueueAuthorizationRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

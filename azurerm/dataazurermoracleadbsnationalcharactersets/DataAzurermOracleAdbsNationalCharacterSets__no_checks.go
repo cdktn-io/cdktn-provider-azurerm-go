@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSets) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSets) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSets) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

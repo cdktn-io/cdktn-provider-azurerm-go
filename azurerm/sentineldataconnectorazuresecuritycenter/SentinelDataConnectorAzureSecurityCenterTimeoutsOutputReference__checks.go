@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (s *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReferen
 	return nil
 }
 
-func (s *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReferen
 
 func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SentinelDataConnectorAzureSecurityCenterTimeouts:
 		val := val.(*SentinelDataConnectorAzureSecurityCenterTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReferen
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SentinelDataConnectorAzureSecurityCenterTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SentinelDataConnectorAzureSecurityCenterTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_SentinelDataConnectorAzureSecurityCenterTimeoutsOutputReferen
 	return nil
 }
 
-func validateNewSentinelDataConnectorAzureSecurityCenterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelDataConnectorAzureSecurityCenterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

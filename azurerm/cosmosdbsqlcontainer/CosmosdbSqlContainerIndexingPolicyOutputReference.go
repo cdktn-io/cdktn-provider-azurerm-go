@@ -5,14 +5,14 @@ package cosmosdbsqlcontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbsqlcontainer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbsqlcontainer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CosmosdbSqlContainerIndexingPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,15 +48,15 @@ type CosmosdbSqlContainerIndexingPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -72,9 +72,9 @@ type CosmosdbSqlContainerIndexingPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCompositeIndex(value interface{})
 	PutExcludedPath(value interface{})
 	PutIncludedPath(value interface{})
@@ -86,7 +86,7 @@ type CosmosdbSqlContainerIndexingPolicyOutputReference interface {
 	ResetSpatialIndex()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type CosmosdbSqlContainerIndexingPolicyOutputReference interface {
 
 // The jsii proxy struct for CosmosdbSqlContainerIndexingPolicyOutputReference
 type jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) TerraformR
 }
 
 
-func NewCosmosdbSqlContainerIndexingPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CosmosdbSqlContainerIndexingPolicyOutputReference {
+func NewCosmosdbSqlContainerIndexingPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CosmosdbSqlContainerIndexingPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCosmosdbSqlContainerIndexingPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewCosmosdbSqlContainerIndexingPolicyOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewCosmosdbSqlContainerIndexingPolicyOutputReference_Override(c CosmosdbSqlContainerIndexingPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCosmosdbSqlContainerIndexingPolicyOutputReference_Override(c CosmosdbSqlContainerIndexingPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -352,7 +352,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -392,11 +392,11 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) GetAnyMapA
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -520,8 +520,8 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) GetStringM
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -533,11 +533,11 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) Interpolat
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -633,7 +633,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) ResetSpati
 	)
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

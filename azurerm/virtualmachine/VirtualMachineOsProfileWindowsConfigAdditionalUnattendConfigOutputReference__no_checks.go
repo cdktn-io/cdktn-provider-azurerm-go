@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigO
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigO
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualMachineOsProfileWindowsConfigAdditionalUnattendConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

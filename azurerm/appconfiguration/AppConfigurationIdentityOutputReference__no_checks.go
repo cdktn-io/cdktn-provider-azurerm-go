@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppConfigurationIdentityOutputReference) validateInterpolatio
 	return nil
 }
 
-func (a *jsiiProxy_AppConfigurationIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppConfigurationIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AppConfigurationIdentityOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppConfigurationIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppConfigurationIdentityOutputReference) validateSetTypeParam
 	return nil
 }
 
-func validateNewAppConfigurationIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppConfigurationIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

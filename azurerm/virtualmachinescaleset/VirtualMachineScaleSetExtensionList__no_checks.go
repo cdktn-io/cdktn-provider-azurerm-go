@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetExtensionList) validateGetParameters(in
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetExtensionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetExtensionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetExtensionList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetExtensionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetExtensionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetExtensionList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetExtensionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineScaleSetExtensionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

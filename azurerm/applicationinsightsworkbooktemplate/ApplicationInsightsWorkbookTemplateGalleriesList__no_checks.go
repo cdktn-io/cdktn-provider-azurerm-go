@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationInsightsWorkbookTemplateGalleriesList) validateGet
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationInsightsWorkbookTemplateGalleriesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationInsightsWorkbookTemplateGalleriesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateGalleriesList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateGalleriesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateGalleriesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookTemplateGalleriesList) validateSet
 	return nil
 }
 
-func validateNewApplicationInsightsWorkbookTemplateGalleriesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationInsightsWorkbookTemplateGalleriesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

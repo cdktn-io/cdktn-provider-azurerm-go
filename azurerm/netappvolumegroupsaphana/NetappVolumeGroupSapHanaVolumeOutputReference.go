@@ -5,14 +5,14 @@ package netappvolumegroupsaphana
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappvolumegroupsaphana/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/netappvolumegroupsaphana/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetappVolumeGroupSapHanaVolumeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CapacityPoolId() *string
 	SetCapacityPoolId(val *string)
 	CapacityPoolIdInput() *string
@@ -84,9 +84,9 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	ThroughputInMibps() *float64
 	SetThroughputInMibps(val *float64)
 	ThroughputInMibpsInput() *float64
@@ -104,7 +104,7 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDataProtectionReplication(value *NetappVolumeGroupSapHanaVolumeDataProtectionReplication)
 	PutDataProtectionSnapshotPolicy(value *NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicy)
 	PutExportPolicyRule(value interface{})
@@ -136,7 +136,7 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 	ResetZone()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -146,7 +146,7 @@ type NetappVolumeGroupSapHanaVolumeOutputReference interface {
 
 // The jsii proxy struct for NetappVolumeGroupSapHanaVolumeOutputReference
 type jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) CapacityPoolId() *string {
@@ -549,8 +549,8 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -640,7 +640,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ZoneInput() *s
 }
 
 
-func NewNetappVolumeGroupSapHanaVolumeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetappVolumeGroupSapHanaVolumeOutputReference {
+func NewNetappVolumeGroupSapHanaVolumeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NetappVolumeGroupSapHanaVolumeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetappVolumeGroupSapHanaVolumeOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -657,7 +657,7 @@ func NewNetappVolumeGroupSapHanaVolumeOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewNetappVolumeGroupSapHanaVolumeOutputReference_Override(n NetappVolumeGroupSapHanaVolumeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNetappVolumeGroupSapHanaVolumeOutputReference_Override(n NetappVolumeGroupSapHanaVolumeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -854,7 +854,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -938,11 +938,11 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1066,8 +1066,8 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) GetStringMapAt
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1079,11 +1079,11 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) InterpolationA
 	return returns
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1192,7 +1192,7 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) ResetZone() {
 	)
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

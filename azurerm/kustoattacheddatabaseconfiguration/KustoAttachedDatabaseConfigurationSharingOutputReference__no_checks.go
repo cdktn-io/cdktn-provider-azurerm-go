@@ -47,7 +47,7 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) val
 	return nil
 }
 
-func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKustoAttachedDatabaseConfigurationSharingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoAttachedDatabaseConfigurationSharingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

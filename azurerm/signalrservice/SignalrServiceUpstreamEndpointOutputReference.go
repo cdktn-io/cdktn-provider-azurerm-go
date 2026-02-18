@@ -5,14 +5,14 @@ package signalrservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/signalrservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/signalrservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SignalrServiceUpstreamEndpointOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CategoryPattern() *[]*string
 	SetCategoryPattern(val *[]*string)
 	CategoryPatternInput() *[]*string
@@ -46,9 +46,9 @@ type SignalrServiceUpstreamEndpointOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	UrlTemplate() *string
 	SetUrlTemplate(val *string)
 	UrlTemplateInput() *string
@@ -60,7 +60,7 @@ type SignalrServiceUpstreamEndpointOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,13 +76,13 @@ type SignalrServiceUpstreamEndpointOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetUserAssignedIdentityId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type SignalrServiceUpstreamEndpointOutputReference interface {
 
 // The jsii proxy struct for SignalrServiceUpstreamEndpointOutputReference
 type jsiiProxy_SignalrServiceUpstreamEndpointOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) CategoryPattern() *[]*string {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -266,7 +266,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) UserAssignedId
 }
 
 
-func NewSignalrServiceUpstreamEndpointOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SignalrServiceUpstreamEndpointOutputReference {
+func NewSignalrServiceUpstreamEndpointOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SignalrServiceUpstreamEndpointOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSignalrServiceUpstreamEndpointOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -283,7 +283,7 @@ func NewSignalrServiceUpstreamEndpointOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewSignalrServiceUpstreamEndpointOutputReference_Override(s SignalrServiceUpstreamEndpointOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSignalrServiceUpstreamEndpointOutputReference_Override(s SignalrServiceUpstreamEndpointOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -370,7 +370,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -432,11 +432,11 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -560,8 +560,8 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) GetStringMapAt
 	return returns
 }
 
-func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -573,11 +573,11 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) InterpolationA
 	return returns
 }
 
-func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -597,7 +597,7 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) ResetUserAssig
 	)
 }
 
-func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

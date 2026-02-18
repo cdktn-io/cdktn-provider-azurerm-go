@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference) validate
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppAuthSettingsV2MicrosoftV2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLinuxWebAppAuthSettingsV2MicrosoftV2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppAuthSettingsV2MicrosoftV2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

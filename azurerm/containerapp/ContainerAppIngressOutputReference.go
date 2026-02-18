@@ -5,14 +5,14 @@ package containerapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerAppIngressOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowInsecureConnections() interface{}
 	SetAllowInsecureConnections(val interface{})
 	AllowInsecureConnectionsInput() interface{}
@@ -58,9 +58,9 @@ type ContainerAppIngressOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TrafficWeight() ContainerAppIngressTrafficWeightList
 	TrafficWeightInput() interface{}
 	Transport() *string
@@ -71,7 +71,7 @@ type ContainerAppIngressOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -87,9 +87,9 @@ type ContainerAppIngressOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCors(value *ContainerAppIngressCors)
 	PutIpSecurityRestriction(value interface{})
 	PutTrafficWeight(value interface{})
@@ -102,7 +102,7 @@ type ContainerAppIngressOutputReference interface {
 	ResetTransport()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type ContainerAppIngressOutputReference interface {
 
 // The jsii proxy struct for ContainerAppIngressOutputReference
 type jsiiProxy_ContainerAppIngressOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ContainerAppIngressOutputReference) AllowInsecureConnections() interface{} {
@@ -335,8 +335,8 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference) TerraformAttribute() *str
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppIngressOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerAppIngressOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -386,7 +386,7 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference) TransportInput() *string 
 }
 
 
-func NewContainerAppIngressOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ContainerAppIngressOutputReference {
+func NewContainerAppIngressOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ContainerAppIngressOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewContainerAppIngressOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -403,7 +403,7 @@ func NewContainerAppIngressOutputReference(terraformResource cdktf.IInterpolatin
 	return &j
 }
 
-func NewContainerAppIngressOutputReference_Override(c ContainerAppIngressOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewContainerAppIngressOutputReference_Override(c ContainerAppIngressOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -512,7 +512,7 @@ func (j *jsiiProxy_ContainerAppIngressOutputReference)SetTerraformAttribute(val 
 	)
 }
 
-func (j *jsiiProxy_ContainerAppIngressOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerAppIngressOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -563,11 +563,11 @@ func (c *jsiiProxy_ContainerAppIngressOutputReference) GetAnyMapAttribute(terraf
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppIngressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppIngressOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -691,8 +691,8 @@ func (c *jsiiProxy_ContainerAppIngressOutputReference) GetStringMapAttribute(ter
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppIngressOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ContainerAppIngressOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -704,11 +704,11 @@ func (c *jsiiProxy_ContainerAppIngressOutputReference) InterpolationAsList() cdk
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppIngressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ContainerAppIngressOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -809,7 +809,7 @@ func (c *jsiiProxy_ContainerAppIngressOutputReference) ResetTransport() {
 	)
 }
 
-func (c *jsiiProxy_ContainerAppIngressOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerAppIngressOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

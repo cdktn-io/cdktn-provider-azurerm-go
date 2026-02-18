@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesL
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesL
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesL
 	return nil
 }
 
-func validateNewDataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermAppServiceEnvironmentV3InboundNetworkDependenciesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

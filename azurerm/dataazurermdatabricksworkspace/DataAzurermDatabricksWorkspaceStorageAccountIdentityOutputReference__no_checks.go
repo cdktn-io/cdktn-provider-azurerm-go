@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceStorageAccountIdentityOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceStorageAccountIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceStorageAccountIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceStorageAccountIdentityOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceStorageAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceStorageAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDatabricksWorkspaceStorageAccountIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDatabricksWorkspaceStorageAccountIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

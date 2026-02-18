@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermDevTestVirtualNetworkAllowedSubnetsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

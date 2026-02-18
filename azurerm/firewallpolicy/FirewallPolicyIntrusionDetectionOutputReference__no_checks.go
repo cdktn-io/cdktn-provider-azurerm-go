@@ -55,7 +55,7 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validatePutT
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewFirewallPolicyIntrusionDetectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallPolicyIntrusionDetectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

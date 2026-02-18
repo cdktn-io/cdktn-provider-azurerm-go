@@ -15,7 +15,7 @@ func (l *jsiiProxy_LbBackendAddressPoolAddressInboundNatRulePortMappingList) val
 	return nil
 }
 
-func (l *jsiiProxy_LbBackendAddressPoolAddressInboundNatRulePortMappingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbBackendAddressPoolAddressInboundNatRulePortMappingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_LbBackendAddressPoolAddressInboundNatRulePortMappingList) val
 	return nil
 }
 
-func (j *jsiiProxy_LbBackendAddressPoolAddressInboundNatRulePortMappingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbBackendAddressPoolAddressInboundNatRulePortMappingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_LbBackendAddressPoolAddressInboundNatRulePortMappingList) val
 	return nil
 }
 
-func validateNewLbBackendAddressPoolAddressInboundNatRulePortMappingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLbBackendAddressPoolAddressInboundNatRulePortMappingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

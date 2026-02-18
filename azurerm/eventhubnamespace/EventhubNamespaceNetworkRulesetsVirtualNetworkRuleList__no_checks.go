@@ -15,7 +15,7 @@ func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList) valid
 	return nil
 }
 
-func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList) valid
 	return nil
 }
 
-func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleList) valid
 	return nil
 }
 
-func validateNewEventhubNamespaceNetworkRulesetsVirtualNetworkRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventhubNamespaceNetworkRulesetsVirtualNetworkRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

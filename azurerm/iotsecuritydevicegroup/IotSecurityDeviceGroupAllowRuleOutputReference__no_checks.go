@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotSecurityDeviceGroupAllowRuleOutputReference) validateInter
 	return nil
 }
 
-func (i *jsiiProxy_IotSecurityDeviceGroupAllowRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotSecurityDeviceGroupAllowRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_IotSecurityDeviceGroupAllowRuleOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_IotSecurityDeviceGroupAllowRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotSecurityDeviceGroupAllowRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewIotSecurityDeviceGroupAllowRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotSecurityDeviceGroupAllowRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

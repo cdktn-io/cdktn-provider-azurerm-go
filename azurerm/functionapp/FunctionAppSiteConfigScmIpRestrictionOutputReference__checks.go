@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (f *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FunctionAppSiteConfigScmIpRestrictionHeaders:
 		value := value.(*[]*FunctionAppSiteConfigScmIpRestrictionHeaders)
@@ -117,14 +117,14 @@ func (f *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*FunctionAppSiteConfigScmIpRestrictionHeaders; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*FunctionAppSiteConfigScmIpRestrictionHeaders; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -207,7 +207,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validat
 
 func (j *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *FunctionAppSiteConfigScmIpRestriction:
 		val := val.(*FunctionAppSiteConfigScmIpRestriction)
@@ -222,7 +222,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *FunctionAppSiteConfigScmIpRestriction; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *FunctionAppSiteConfigScmIpRestriction; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -269,7 +269,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -285,7 +285,7 @@ func (j *jsiiProxy_FunctionAppSiteConfigScmIpRestrictionOutputReference) validat
 	return nil
 }
 
-func validateNewFunctionAppSiteConfigScmIpRestrictionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFunctionAppSiteConfigScmIpRestrictionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

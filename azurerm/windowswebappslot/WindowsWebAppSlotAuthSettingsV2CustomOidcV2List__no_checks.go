@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsV2CustomOidcV2List) validateGetP
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsV2CustomOidcV2List) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsV2CustomOidcV2List) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsV2CustomOidcV2List) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsV2CustomOidcV2List) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsV2CustomOidcV2List) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsV2CustomOidcV2List) validateSetW
 	return nil
 }
 
-func validateNewWindowsWebAppSlotAuthSettingsV2CustomOidcV2ListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsWebAppSlotAuthSettingsV2CustomOidcV2ListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

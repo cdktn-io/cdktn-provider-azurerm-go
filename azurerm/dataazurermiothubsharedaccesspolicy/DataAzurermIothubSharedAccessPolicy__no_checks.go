@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermIothubSharedAccessPolicy) validateSetIothubNamePar
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermIothubSharedAccessPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermIothubSharedAccessPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

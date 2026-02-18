@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareFhirServiceAuthenticationOutputReference) validateI
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareFhirServiceAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareFhirServiceAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_HealthcareFhirServiceAuthenticationOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareFhirServiceAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareFhirServiceAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHealthcareFhirServiceAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareFhirServiceAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

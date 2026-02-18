@@ -139,7 +139,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

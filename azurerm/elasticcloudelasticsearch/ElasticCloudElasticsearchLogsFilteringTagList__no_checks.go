@@ -15,7 +15,7 @@ func (e *jsiiProxy_ElasticCloudElasticsearchLogsFilteringTagList) validateGetPar
 	return nil
 }
 
-func (e *jsiiProxy_ElasticCloudElasticsearchLogsFilteringTagList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticCloudElasticsearchLogsFilteringTagList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ElasticCloudElasticsearchLogsFilteringTagList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ElasticCloudElasticsearchLogsFilteringTagList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticCloudElasticsearchLogsFilteringTagList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ElasticCloudElasticsearchLogsFilteringTagList) validateSetWra
 	return nil
 }
 
-func validateNewElasticCloudElasticsearchLogsFilteringTagListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewElasticCloudElasticsearchLogsFilteringTagListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

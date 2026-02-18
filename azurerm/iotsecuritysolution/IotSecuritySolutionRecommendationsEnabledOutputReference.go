@@ -5,14 +5,14 @@ package iotsecuritysolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/iotsecuritysolution/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/iotsecuritysolution/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type IotSecuritySolutionRecommendationsEnabledOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AcrAuthentication() interface{}
 	SetAcrAuthentication(val interface{})
 	AcrAuthenticationInput() interface{}
@@ -82,9 +82,9 @@ type IotSecuritySolutionRecommendationsEnabledOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VulnerableTlsCipherSuite() interface{}
 	SetVulnerableTlsCipherSuite(val interface{})
 	VulnerableTlsCipherSuiteInput() interface{}
@@ -93,7 +93,7 @@ type IotSecuritySolutionRecommendationsEnabledOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -109,9 +109,9 @@ type IotSecuritySolutionRecommendationsEnabledOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAcrAuthentication()
 	ResetAgentSendUnutilizedMsg()
 	ResetBaseline()
@@ -130,7 +130,7 @@ type IotSecuritySolutionRecommendationsEnabledOutputReference interface {
 	ResetVulnerableTlsCipherSuite()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -140,7 +140,7 @@ type IotSecuritySolutionRecommendationsEnabledOutputReference interface {
 
 // The jsii proxy struct for IotSecuritySolutionRecommendationsEnabledOutputReference
 type jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) AcrAuthentication() interface{} {
@@ -503,8 +503,8 @@ func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -534,7 +534,7 @@ func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Vul
 }
 
 
-func NewIotSecuritySolutionRecommendationsEnabledOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) IotSecuritySolutionRecommendationsEnabledOutputReference {
+func NewIotSecuritySolutionRecommendationsEnabledOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) IotSecuritySolutionRecommendationsEnabledOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewIotSecuritySolutionRecommendationsEnabledOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -551,7 +551,7 @@ func NewIotSecuritySolutionRecommendationsEnabledOutputReference(terraformResour
 	return &j
 }
 
-func NewIotSecuritySolutionRecommendationsEnabledOutputReference_Override(i IotSecuritySolutionRecommendationsEnabledOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewIotSecuritySolutionRecommendationsEnabledOutputReference_Override(i IotSecuritySolutionRecommendationsEnabledOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -770,7 +770,7 @@ func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -821,11 +821,11 @@ func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Get
 	return returns
 }
 
-func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -949,8 +949,8 @@ func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Get
 	return returns
 }
 
-func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -962,11 +962,11 @@ func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Int
 	return returns
 }
 
-func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := i.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		i,
@@ -1106,7 +1106,7 @@ func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Res
 	)
 }
 
-func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (i *jsiiProxy_IotSecuritySolutionRecommendationsEnabledOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := i.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

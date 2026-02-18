@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorActionGroupWebhookReceiverAadAuthOutputReference) vali
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActionGroupWebhookReceiverAadAuthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActionGroupWebhookReceiverAadAuthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MonitorActionGroupWebhookReceiverAadAuthOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActionGroupWebhookReceiverAadAuthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActionGroupWebhookReceiverAadAuthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorActionGroupWebhookReceiverAadAuthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorActionGroupWebhookReceiverAadAuthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

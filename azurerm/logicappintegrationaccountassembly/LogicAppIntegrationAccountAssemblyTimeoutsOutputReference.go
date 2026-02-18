@@ -5,14 +5,14 @@ package logicappintegrationaccountassembly
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappintegrationaccountassembly/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/logicappintegrationaccountassembly/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LogicAppIntegrationAccountAssemblyTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type LogicAppIntegrationAccountAssemblyTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type LogicAppIntegrationAccountAssemblyTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type LogicAppIntegrationAccountAssemblyTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type LogicAppIntegrationAccountAssemblyTimeoutsOutputReference interface {
 
 // The jsii proxy struct for LogicAppIntegrationAccountAssemblyTimeoutsOutputReference
 type jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) Up
 }
 
 
-func NewLogicAppIntegrationAccountAssemblyTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LogicAppIntegrationAccountAssemblyTimeoutsOutputReference {
+func NewLogicAppIntegrationAccountAssemblyTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LogicAppIntegrationAccountAssemblyTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLogicAppIntegrationAccountAssemblyTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewLogicAppIntegrationAccountAssemblyTimeoutsOutputReference(terraformResou
 	return &j
 }
 
-func NewLogicAppIntegrationAccountAssemblyTimeoutsOutputReference_Override(l LogicAppIntegrationAccountAssemblyTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLogicAppIntegrationAccountAssemblyTimeoutsOutputReference_Override(l LogicAppIntegrationAccountAssemblyTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) Ge
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -529,8 +529,8 @@ func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) Ge
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -542,11 +542,11 @@ func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) In
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -590,7 +590,7 @@ func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) Re
 	)
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LogicAppIntegrationAccountAssemblyTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

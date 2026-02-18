@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputRefere
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualMachineScaleSetOsProfileLinuxConfigSshKeysOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

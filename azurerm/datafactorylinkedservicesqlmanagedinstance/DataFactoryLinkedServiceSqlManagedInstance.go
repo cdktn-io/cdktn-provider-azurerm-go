@@ -5,21 +5,21 @@ package datafactorylinkedservicesqlmanagedinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedservicesqlmanagedinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorylinkedservicesqlmanagedinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_linked_service_sql_managed_instance azurerm_data_factory_linked_service_sql_managed_instance}.
 type DataFactoryLinkedServiceSqlManagedInstance interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Annotations() *[]*string
 	SetAnnotations(val *[]*string)
 	AnnotationsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type DataFactoryLinkedServiceSqlManagedInstance interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -62,9 +62,9 @@ type DataFactoryLinkedServiceSqlManagedInstance interface {
 	KeyVaultPassword() DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPasswordOutputReference
 	KeyVaultPasswordInput() *DataFactoryLinkedServiceSqlManagedInstanceKeyVaultPassword
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -74,9 +74,9 @@ type DataFactoryLinkedServiceSqlManagedInstance interface {
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type DataFactoryLinkedServiceSqlManagedInstance interface {
 	SetTenant(val *string)
 	TenantInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -108,7 +108,7 @@ type DataFactoryLinkedServiceSqlManagedInstance interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -126,9 +126,9 @@ type DataFactoryLinkedServiceSqlManagedInstance interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -176,7 +176,7 @@ type DataFactoryLinkedServiceSqlManagedInstance interface {
 
 // The jsii proxy struct for DataFactoryLinkedServiceSqlManagedInstance
 type jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) Annotations() *[]*string {
@@ -199,8 +199,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) AnnotationsInput(
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) DescriptionInput(
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) KeyVaultPasswordI
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -479,8 +479,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) ParametersInput()
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -569,8 +569,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) TenantInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -723,7 +723,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetDescription(val
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -753,7 +753,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetIntegrationRunt
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -786,7 +786,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetParameters(val 
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -838,14 +838,14 @@ func (j *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance)SetTenant(val *str
 	)
 }
 
-// Generates CDKTF code for importing a DataFactoryLinkedServiceSqlManagedInstance resource upon running "cdktf plan <stack-name>".
-func DataFactoryLinkedServiceSqlManagedInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataFactoryLinkedServiceSqlManagedInstance resource upon running "cdktn plan <stack-name>".
+func DataFactoryLinkedServiceSqlManagedInstance_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataFactoryLinkedServiceSqlManagedInstance_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataFactoryLinkedServiceSqlManagedInstance.DataFactoryLinkedServiceSqlManagedInstance",
@@ -979,11 +979,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) GetAnyMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1120,7 +1120,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) HasResourceMove()
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1131,11 +1131,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) ImportFrom(id *st
 	)
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceSqlManagedInstance) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

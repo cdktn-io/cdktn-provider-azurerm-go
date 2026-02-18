@@ -15,7 +15,7 @@ func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateGet
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSet
 	return nil
 }
 
-func validateNewHealthcareWorkspacePrivateEndpointConnectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHealthcareWorkspacePrivateEndpointConnectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

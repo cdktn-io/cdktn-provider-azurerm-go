@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultKeyRotationPolicyAutomaticOutputReference) validateIn
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultKeyRotationPolicyAutomaticOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultKeyRotationPolicyAutomaticOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_KeyVaultKeyRotationPolicyAutomaticOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultKeyRotationPolicyAutomaticOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultKeyRotationPolicyAutomaticOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KeyVaultKeyRotationPolicyAutomaticOutputReference) validateSe
 	return nil
 }
 
-func validateNewKeyVaultKeyRotationPolicyAutomaticOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyVaultKeyRotationPolicyAutomaticOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

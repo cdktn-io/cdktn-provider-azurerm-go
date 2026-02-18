@@ -15,7 +15,7 @@ func (l *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityList) valida
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityList) valida
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountPartnerBusinessIdentityList) valida
 	return nil
 }
 
-func validateNewLogicAppIntegrationAccountPartnerBusinessIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLogicAppIntegrationAccountPartnerBusinessIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

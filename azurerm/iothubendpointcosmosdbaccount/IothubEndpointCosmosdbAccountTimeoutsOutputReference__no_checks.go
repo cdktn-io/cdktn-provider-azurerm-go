@@ -47,7 +47,7 @@ func (i *jsiiProxy_IothubEndpointCosmosdbAccountTimeoutsOutputReference) validat
 	return nil
 }
 
-func (i *jsiiProxy_IothubEndpointCosmosdbAccountTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubEndpointCosmosdbAccountTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IothubEndpointCosmosdbAccountTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_IothubEndpointCosmosdbAccountTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubEndpointCosmosdbAccountTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IothubEndpointCosmosdbAccountTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewIothubEndpointCosmosdbAccountTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIothubEndpointCosmosdbAccountTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

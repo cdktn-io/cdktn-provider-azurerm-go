@@ -5,14 +5,14 @@ package dataprotectionbackupinstancemysqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataprotectionbackupinstancemysqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataprotectionbackupinstancemysqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference inte
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference inte
 
 // The jsii proxy struct for DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference
 type jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 }
 
 
-func NewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference {
+func NewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference(t
 	return &j
 }
 
-func NewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference_Override(d DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference_Override(d DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	)
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -529,8 +529,8 @@ func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -542,11 +542,11 @@ func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -590,7 +590,7 @@ func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutput
 	)
 }
 
-func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServerTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

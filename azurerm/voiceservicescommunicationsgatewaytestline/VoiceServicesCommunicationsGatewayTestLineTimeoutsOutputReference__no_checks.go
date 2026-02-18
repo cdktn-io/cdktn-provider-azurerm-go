@@ -47,7 +47,7 @@ func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTestLineTimeoutsOutputRefer
 	return nil
 }
 
-func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTestLineTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTestLineTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTestLineTimeoutsOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTestLineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTestLineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTestLineTimeoutsOutputRefer
 	return nil
 }
 
-func validateNewVoiceServicesCommunicationsGatewayTestLineTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVoiceServicesCommunicationsGatewayTestLineTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

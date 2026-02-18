@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeHeaderOutputReferen
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppTemplateContainerLivenessProbeHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeHeaderOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppTemplateContainerLivenessProbeHeaderOutputReferen
 	return nil
 }
 
-func validateNewContainerAppTemplateContainerLivenessProbeHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppTemplateContainerLivenessProbeHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

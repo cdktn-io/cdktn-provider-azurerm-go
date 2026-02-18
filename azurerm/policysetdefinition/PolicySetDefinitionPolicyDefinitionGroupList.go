@@ -5,14 +5,14 @@ package policysetdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/policysetdefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/policysetdefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PolicySetDefinitionPolicyDefinitionGroupList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type PolicySetDefinitionPolicyDefinitionGroupList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type PolicySetDefinitionPolicyDefinitionGroupList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) PolicySetDefinitionPolicyDefinitionGroupOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type PolicySetDefinitionPolicyDefinitionGroupList interface {
 
 // The jsii proxy struct for PolicySetDefinitionPolicyDefinitionGroupList
 type jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) WrapsSet() *boo
 }
 
 
-func NewPolicySetDefinitionPolicyDefinitionGroupList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PolicySetDefinitionPolicyDefinitionGroupList {
+func NewPolicySetDefinitionPolicyDefinitionGroupList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) PolicySetDefinitionPolicyDefinitionGroupList {
 	_init_.Initialize()
 
 	if err := validateNewPolicySetDefinitionPolicyDefinitionGroupListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewPolicySetDefinitionPolicyDefinitionGroupList(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewPolicySetDefinitionPolicyDefinitionGroupList_Override(p PolicySetDefinitionPolicyDefinitionGroupList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewPolicySetDefinitionPolicyDefinitionGroupList_Override(p PolicySetDefinitionPolicyDefinitionGroupList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList)SetWrapsSet(val 
 	)
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := p.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		p,
@@ -231,7 +231,7 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) Get(index *floa
 	return returns
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionGroupList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

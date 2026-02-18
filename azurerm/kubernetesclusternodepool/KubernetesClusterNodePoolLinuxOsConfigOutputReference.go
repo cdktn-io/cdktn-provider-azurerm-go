@@ -5,14 +5,14 @@ package kubernetesclusternodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetesclusternodepool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetesclusternodepool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TransparentHugePage() *string
 	SetTransparentHugePage(val *string)
 	TransparentHugePageDefrag() *string
@@ -59,7 +59,7 @@ type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutSysctlConfig(value *KubernetesClusterNodePoolLinuxOsConfigSysctlConfig)
 	ResetSwapFileSizeMb()
 	ResetSysctlConfig()
@@ -86,7 +86,7 @@ type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
 	ResetTransparentHugePageEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type KubernetesClusterNodePoolLinuxOsConfigOutputReference interface {
 
 // The jsii proxy struct for KubernetesClusterNodePoolLinuxOsConfigOutputReference
 type jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) ComplexObjectIndex() interface{} {
@@ -199,8 +199,8 @@ func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) Transp
 }
 
 
-func NewKubernetesClusterNodePoolLinuxOsConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesClusterNodePoolLinuxOsConfigOutputReference {
+func NewKubernetesClusterNodePoolLinuxOsConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesClusterNodePoolLinuxOsConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesClusterNodePoolLinuxOsConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewKubernetesClusterNodePoolLinuxOsConfigOutputReference(terraformResource 
 	return &j
 }
 
-func NewKubernetesClusterNodePoolLinuxOsConfigOutputReference_Override(k KubernetesClusterNodePoolLinuxOsConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesClusterNodePoolLinuxOsConfigOutputReference_Override(k KubernetesClusterNodePoolLinuxOsConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -352,7 +352,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -425,11 +425,11 @@ func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) GetAny
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -553,8 +553,8 @@ func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) GetStr
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -566,11 +566,11 @@ func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) Interp
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -633,7 +633,7 @@ func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) ResetT
 	)
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesClusterNodePoolLinuxOsConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

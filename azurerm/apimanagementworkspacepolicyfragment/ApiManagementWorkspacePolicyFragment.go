@@ -5,21 +5,21 @@ package apimanagementworkspacepolicyfragment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementworkspacepolicyfragment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementworkspacepolicyfragment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/api_management_workspace_policy_fragment azurerm_api_management_workspace_policy_fragment}.
 type ApiManagementWorkspacePolicyFragment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ApiManagementWorkspaceId() *string
 	SetApiManagementWorkspaceId(val *string)
 	ApiManagementWorkspaceIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type ApiManagementWorkspacePolicyFragment interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,18 +49,18 @@ type ApiManagementWorkspacePolicyFragment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type ApiManagementWorkspacePolicyFragment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type ApiManagementWorkspacePolicyFragment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type ApiManagementWorkspacePolicyFragment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -147,7 +147,7 @@ type ApiManagementWorkspacePolicyFragment interface {
 
 // The jsii proxy struct for ApiManagementWorkspacePolicyFragment
 type jsiiProxy_ApiManagementWorkspacePolicyFragment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) ApiManagementWorkspaceId() *string {
@@ -170,8 +170,8 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) ApiManagementWorkspaceI
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -240,8 +240,8 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) DescriptionInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -330,8 +330,8 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) Node() constructs.Node 
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -360,8 +360,8 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) RawOverrides() interfac
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetDescription(val *stri
 	)
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -551,7 +551,7 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -573,7 +573,7 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -614,14 +614,14 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment)SetXmlFormat(val *string
 	)
 }
 
-// Generates CDKTF code for importing a ApiManagementWorkspacePolicyFragment resource upon running "cdktf plan <stack-name>".
-func ApiManagementWorkspacePolicyFragment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApiManagementWorkspacePolicyFragment resource upon running "cdktn plan <stack-name>".
+func ApiManagementWorkspacePolicyFragment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApiManagementWorkspacePolicyFragment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.apiManagementWorkspacePolicyFragment.ApiManagementWorkspacePolicyFragment",
@@ -755,11 +755,11 @@ func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -896,7 +896,7 @@ func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) HasResourceMove() inter
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -907,11 +907,11 @@ func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) ImportFrom(id *string, 
 	)
 }
 
-func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementWorkspacePolicyFragment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpnServerConfigurationIpsecPolicyOutputReference) validateInt
 	return nil
 }
 
-func (v *jsiiProxy_VpnServerConfigurationIpsecPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnServerConfigurationIpsecPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,11 +99,11 @@ func (j *jsiiProxy_VpnServerConfigurationIpsecPolicyOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationIpsecPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnServerConfigurationIpsecPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnServerConfigurationIpsecPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpnServerConfigurationIpsecPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesFleetManagerHubProfileOutputReference) validateInte
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFleetManagerHubProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFleetManagerHubProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_KubernetesFleetManagerHubProfileOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFleetManagerHubProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFleetManagerHubProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesFleetManagerHubProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesFleetManagerHubProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

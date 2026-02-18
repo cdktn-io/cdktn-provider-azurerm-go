@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesLogCriteriaDimensionList) validateG
 	return nil
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesLogCriteriaDimensionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorScheduledQueryRulesLogCriteriaDimensionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesLogCriteriaDimensionList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MonitorScheduledQueryRulesLogCriteriaDimensionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorScheduledQueryRulesLogCriteriaDimensionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesLogCriteriaDimensionList) validateS
 	return nil
 }
 
-func validateNewMonitorScheduledQueryRulesLogCriteriaDimensionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorScheduledQueryRulesLogCriteriaDimensionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

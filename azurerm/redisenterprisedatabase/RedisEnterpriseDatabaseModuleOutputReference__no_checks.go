@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) validateInterpo
 	return nil
 }
 
-func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedisEnterpriseDatabaseModuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRedisEnterpriseDatabaseModuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewRedisEnterpriseDatabaseModuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

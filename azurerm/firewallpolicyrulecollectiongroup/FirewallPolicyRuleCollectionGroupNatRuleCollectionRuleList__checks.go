@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 
 func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FirewallPolicyRuleCollectionGroupNatRuleCollectionRule:
 		val := val.(*[]*FirewallPolicyRuleCollectionGroupNatRuleCollectionRule)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FirewallPolicyRuleCollectionGroupNatRuleCollectionRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FirewallPolicyRuleCollectionGroupNatRuleCollectionRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FirewallPolicyRuleCollectionGroupNatRuleCollectionRuleList) v
 	return nil
 }
 
-func validateNewFirewallPolicyRuleCollectionGroupNatRuleCollectionRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFirewallPolicyRuleCollectionGroupNatRuleCollectionRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

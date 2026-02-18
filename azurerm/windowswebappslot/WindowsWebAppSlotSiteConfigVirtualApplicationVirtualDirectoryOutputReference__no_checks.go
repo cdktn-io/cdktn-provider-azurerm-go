@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectory
 	return nil
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectory
 	return nil
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectory
 	return nil
 }
 
-func validateNewWindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWindowsWebAppSlotSiteConfigVirtualApplicationVirtualDirectoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

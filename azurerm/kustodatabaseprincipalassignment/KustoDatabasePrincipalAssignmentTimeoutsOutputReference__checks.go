@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) vali
 	return nil
 }
 
-func (k *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) vali
 
 func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *KustoDatabasePrincipalAssignmentTimeouts:
 		val := val.(*KustoDatabasePrincipalAssignmentTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *KustoDatabasePrincipalAssignmentTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *KustoDatabasePrincipalAssignmentTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -230,7 +230,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignmentTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewKustoDatabasePrincipalAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoDatabasePrincipalAssignmentTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

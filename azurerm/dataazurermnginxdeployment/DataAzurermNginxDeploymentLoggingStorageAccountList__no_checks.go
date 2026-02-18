@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermNginxDeploymentLoggingStorageAccountList) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNginxDeploymentLoggingStorageAccountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNginxDeploymentLoggingStorageAccountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentLoggingStorageAccountList) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNginxDeploymentLoggingStorageAccountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNginxDeploymentLoggingStorageAccountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermNginxDeploymentLoggingStorageAccountList) validate
 	return nil
 }
 
-func validateNewDataAzurermNginxDeploymentLoggingStorageAccountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermNginxDeploymentLoggingStorageAccountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

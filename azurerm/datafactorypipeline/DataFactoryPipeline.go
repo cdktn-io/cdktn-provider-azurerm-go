@@ -5,16 +5,16 @@ package datafactorypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorypipeline/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorypipeline/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline}.
 type DataFactoryPipeline interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActivitiesJson() *string
 	SetActivitiesJson(val *string)
 	ActivitiesJsonInput() *string
@@ -22,7 +22,7 @@ type DataFactoryPipeline interface {
 	SetAnnotations(val *[]*string)
 	AnnotationsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Concurrency() *float64
 	SetConcurrency(val *float64)
 	ConcurrencyInput() *float64
@@ -50,9 +50,9 @@ type DataFactoryPipeline interface {
 	SetFolder(val *string)
 	FolderInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type DataFactoryPipeline interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	MoniterMetricsAfterDuration() *string
 	SetMoniterMetricsAfterDuration(val *string)
 	MoniterMetricsAfterDurationInput() *string
@@ -76,9 +76,9 @@ type DataFactoryPipeline interface {
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type DataFactoryPipeline interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -104,7 +104,7 @@ type DataFactoryPipeline interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -122,9 +122,9 @@ type DataFactoryPipeline interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -168,7 +168,7 @@ type DataFactoryPipeline interface {
 
 // The jsii proxy struct for DataFactoryPipeline
 type jsiiProxy_DataFactoryPipeline struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataFactoryPipeline) ActivitiesJson() *string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_DataFactoryPipeline) AnnotationsInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataFactoryPipeline) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -341,8 +341,8 @@ func (j *jsiiProxy_DataFactoryPipeline) FolderInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataFactoryPipeline) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -391,8 +391,8 @@ func (j *jsiiProxy_DataFactoryPipeline) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataFactoryPipeline) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_DataFactoryPipeline) ParametersInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataFactoryPipeline) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -501,8 +501,8 @@ func (j *jsiiProxy_DataFactoryPipeline) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryPipeline) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataFactoryPipeline) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -697,7 +697,7 @@ func (j *jsiiProxy_DataFactoryPipeline)SetFolder(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryPipeline)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataFactoryPipeline)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -716,7 +716,7 @@ func (j *jsiiProxy_DataFactoryPipeline)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryPipeline)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataFactoryPipeline)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -760,7 +760,7 @@ func (j *jsiiProxy_DataFactoryPipeline)SetParameters(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryPipeline)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataFactoryPipeline)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -790,14 +790,14 @@ func (j *jsiiProxy_DataFactoryPipeline)SetVariables(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataFactoryPipeline resource upon running "cdktf plan <stack-name>".
-func DataFactoryPipeline_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataFactoryPipeline resource upon running "cdktn plan <stack-name>".
+func DataFactoryPipeline_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataFactoryPipeline_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataFactoryPipeline.DataFactoryPipeline",
@@ -931,11 +931,11 @@ func (d *jsiiProxy_DataFactoryPipeline) GetAnyMapAttribute(terraformAttribute *s
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryPipeline) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryPipeline) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1072,7 +1072,7 @@ func (d *jsiiProxy_DataFactoryPipeline) HasResourceMove() interface{} {
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryPipeline) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataFactoryPipeline) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1083,11 +1083,11 @@ func (d *jsiiProxy_DataFactoryPipeline) ImportFrom(id *string, provider cdktf.Te
 	)
 }
 
-func (d *jsiiProxy_DataFactoryPipeline) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryPipeline) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

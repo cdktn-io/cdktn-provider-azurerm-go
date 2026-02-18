@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerAuthenticationOutputReferen
 	return nil
 }
 
-func validateNewContainerRegistryTaskSourceTriggerAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerRegistryTaskSourceTriggerAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

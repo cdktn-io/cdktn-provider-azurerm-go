@@ -5,14 +5,14 @@ package hdinsightkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsightkafkacluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsightkafkacluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightKafkaClusterRolesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,9 +41,9 @@ type HdinsightKafkaClusterRolesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WorkerNode() HdinsightKafkaClusterRolesWorkerNodeOutputReference
 	WorkerNodeInput() *HdinsightKafkaClusterRolesWorkerNode
 	ZookeeperNode() HdinsightKafkaClusterRolesZookeeperNodeOutputReference
@@ -53,7 +53,7 @@ type HdinsightKafkaClusterRolesOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,9 +69,9 @@ type HdinsightKafkaClusterRolesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutHeadNode(value *HdinsightKafkaClusterRolesHeadNode)
 	PutKafkaManagementNode(value *HdinsightKafkaClusterRolesKafkaManagementNode)
 	PutWorkerNode(value *HdinsightKafkaClusterRolesWorkerNode)
@@ -79,7 +79,7 @@ type HdinsightKafkaClusterRolesOutputReference interface {
 	ResetKafkaManagementNode()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type HdinsightKafkaClusterRolesOutputReference interface {
 
 // The jsii proxy struct for HdinsightKafkaClusterRolesOutputReference
 type jsiiProxy_HdinsightKafkaClusterRolesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) ComplexObjectIndex() interface{} {
@@ -192,8 +192,8 @@ func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) ZookeeperNodeInput
 }
 
 
-func NewHdinsightKafkaClusterRolesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HdinsightKafkaClusterRolesOutputReference {
+func NewHdinsightKafkaClusterRolesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HdinsightKafkaClusterRolesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightKafkaClusterRolesOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -260,7 +260,7 @@ func NewHdinsightKafkaClusterRolesOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewHdinsightKafkaClusterRolesOutputReference_Override(h HdinsightKafkaClusterRolesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHdinsightKafkaClusterRolesOutputReference_Override(h HdinsightKafkaClusterRolesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -314,7 +314,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightKafkaClusterRolesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -354,11 +354,11 @@ func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -482,8 +482,8 @@ func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -495,11 +495,11 @@ func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -563,7 +563,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) ResetKafkaManageme
 	)
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightKafkaClusterRolesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

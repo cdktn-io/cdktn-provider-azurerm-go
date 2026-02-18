@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceList)
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceList)
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceList)
 	return nil
 }
 
-func validateNewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatadogMonitorTagRuleMetricFilterList) validateGetParameters(
 	return nil
 }
 
-func (d *jsiiProxy_DatadogMonitorTagRuleMetricFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatadogMonitorTagRuleMetricFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DatadogMonitorTagRuleMetricFilterList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_DatadogMonitorTagRuleMetricFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatadogMonitorTagRuleMetricFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DatadogMonitorTagRuleMetricFilterList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewDatadogMonitorTagRuleMetricFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatadogMonitorTagRuleMetricFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

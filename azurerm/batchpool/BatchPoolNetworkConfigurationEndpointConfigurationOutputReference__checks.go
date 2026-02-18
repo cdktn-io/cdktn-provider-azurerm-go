@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules:
 		value := value.(*[]*BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules)
@@ -117,14 +117,14 @@ func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*BatchPoolNetworkConfigurationEndpointConfigurationNetworkSecurityGroupRules; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -215,7 +215,7 @@ func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 
 func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *BatchPoolNetworkConfigurationEndpointConfiguration:
 		val := val.(*BatchPoolNetworkConfigurationEndpointConfiguration)
@@ -230,7 +230,7 @@ func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *BatchPoolNetworkConfigurationEndpointConfiguration; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *BatchPoolNetworkConfigurationEndpointConfiguration; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -261,7 +261,7 @@ func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -269,7 +269,7 @@ func (j *jsiiProxy_BatchPoolNetworkConfigurationEndpointConfigurationOutputRefer
 	return nil
 }
 
-func validateNewBatchPoolNetworkConfigurationEndpointConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchPoolNetworkConfigurationEndpointConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

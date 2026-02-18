@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) valida
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementLoggerApplicationInsightsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementLoggerApplicationInsightsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

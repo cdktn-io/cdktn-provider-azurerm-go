@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementApiLicenseOutputReference) validateInterpolation
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiLicenseOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiLicenseOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ApiManagementApiLicenseOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiLicenseOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiLicenseOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementApiLicenseOutputReference) validateSetUrlParamet
 	return nil
 }
 
-func validateNewApiManagementApiLicenseOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementApiLicenseOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

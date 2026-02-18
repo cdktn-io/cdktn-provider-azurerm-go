@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionOutputReference) validateI
 	return nil
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorMetricAlertCriteriaDimensionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaDimensionOutputReference) validateS
 	return nil
 }
 
-func validateNewMonitorMetricAlertCriteriaDimensionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMonitorMetricAlertCriteriaDimensionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

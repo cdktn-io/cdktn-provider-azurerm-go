@@ -5,16 +5,16 @@ package storagemoveragent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagemoveragent/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storagemoveragent/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/storage_mover_agent azurerm_storage_mover_agent}.
 type StorageMoverAgent interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ArcVirtualMachineId() *string
 	SetArcVirtualMachineId(val *string)
 	ArcVirtualMachineIdInput() *string
@@ -22,7 +22,7 @@ type StorageMoverAgent interface {
 	SetArcVirtualMachineUuid(val *string)
 	ArcVirtualMachineUuidInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type StorageMoverAgent interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type StorageMoverAgent interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type StorageMoverAgent interface {
 	SetStorageMoverId(val *string)
 	StorageMoverIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type StorageMoverAgent interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type StorageMoverAgent interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -146,7 +146,7 @@ type StorageMoverAgent interface {
 
 // The jsii proxy struct for StorageMoverAgent
 type jsiiProxy_StorageMoverAgent struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StorageMoverAgent) ArcVirtualMachineId() *string {
@@ -189,8 +189,8 @@ func (j *jsiiProxy_StorageMoverAgent) ArcVirtualMachineUuidInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageMoverAgent) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StorageMoverAgent) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_StorageMoverAgent) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageMoverAgent) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StorageMoverAgent) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -309,8 +309,8 @@ func (j *jsiiProxy_StorageMoverAgent) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageMoverAgent) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StorageMoverAgent) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_StorageMoverAgent) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_StorageMoverAgent) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StorageMoverAgent) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_StorageMoverAgent) StorageMoverIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageMoverAgent) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StorageMoverAgent) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -542,7 +542,7 @@ func (j *jsiiProxy_StorageMoverAgent)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageMoverAgent)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StorageMoverAgent)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -561,7 +561,7 @@ func (j *jsiiProxy_StorageMoverAgent)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageMoverAgent)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StorageMoverAgent)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -583,7 +583,7 @@ func (j *jsiiProxy_StorageMoverAgent)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageMoverAgent)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StorageMoverAgent)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -613,14 +613,14 @@ func (j *jsiiProxy_StorageMoverAgent)SetStorageMoverId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a StorageMoverAgent resource upon running "cdktf plan <stack-name>".
-func StorageMoverAgent_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StorageMoverAgent resource upon running "cdktn plan <stack-name>".
+func StorageMoverAgent_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStorageMoverAgent_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.storageMoverAgent.StorageMoverAgent",
@@ -754,11 +754,11 @@ func (s *jsiiProxy_StorageMoverAgent) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (s *jsiiProxy_StorageMoverAgent) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageMoverAgent) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -895,7 +895,7 @@ func (s *jsiiProxy_StorageMoverAgent) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_StorageMoverAgent) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StorageMoverAgent) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -906,11 +906,11 @@ func (s *jsiiProxy_StorageMoverAgent) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (s *jsiiProxy_StorageMoverAgent) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageMoverAgent) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

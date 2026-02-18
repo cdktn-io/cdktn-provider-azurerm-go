@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudBuildDeploymentQuotaOutputReference) validateInter
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudBuildDeploymentQuotaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudBuildDeploymentQuotaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SpringCloudBuildDeploymentQuotaOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudBuildDeploymentQuotaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudBuildDeploymentQuotaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSpringCloudBuildDeploymentQuotaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudBuildDeploymentQuotaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

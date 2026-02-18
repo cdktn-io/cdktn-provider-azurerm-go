@@ -47,7 +47,7 @@ func (k *jsiiProxy_KustoClusterVirtualNetworkConfigurationOutputReference) valid
 	return nil
 }
 
-func (k *jsiiProxy_KustoClusterVirtualNetworkConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoClusterVirtualNetworkConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_KustoClusterVirtualNetworkConfigurationOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_KustoClusterVirtualNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoClusterVirtualNetworkConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKustoClusterVirtualNetworkConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoClusterVirtualNetworkConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

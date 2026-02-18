@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerUniqueKeyList) validateGetParameters(inde
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerUniqueKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlContainerUniqueKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerUniqueKeyList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerUniqueKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlContainerUniqueKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerUniqueKeyList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewCosmosdbSqlContainerUniqueKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbSqlContainerUniqueKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

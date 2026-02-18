@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterUpgradeOverrideOutputReference) validateInte
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterUpgradeOverrideOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterUpgradeOverrideOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KubernetesClusterUpgradeOverrideOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterUpgradeOverrideOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterUpgradeOverrideOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterUpgradeOverrideOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterUpgradeOverrideOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

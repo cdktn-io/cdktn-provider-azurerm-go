@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermFirewallManagementIpConfigurationList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermFirewallManagementIpConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermFirewallManagementIpConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermFirewallManagementIpConfigurationList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermFirewallManagementIpConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermFirewallManagementIpConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermFirewallManagementIpConfigurationList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermFirewallManagementIpConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermFirewallManagementIpConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

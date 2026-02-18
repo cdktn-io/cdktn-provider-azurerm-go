@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutput
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutput
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutput
 	return nil
 }
 
-func validateNewKeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyVaultManagedStorageAccountSasTokenDefinitionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

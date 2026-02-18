@@ -5,14 +5,14 @@ package vpnserverconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/vpnserverconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/vpnserverconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VpnServerConfigurationRadiusClientRootCertificateList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type VpnServerConfigurationRadiusClientRootCertificateList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type VpnServerConfigurationRadiusClientRootCertificateList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) VpnServerConfigurationRadiusClientRootCertificateOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type VpnServerConfigurationRadiusClientRootCertificateList interface {
 
 // The jsii proxy struct for VpnServerConfigurationRadiusClientRootCertificateList
 type jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) WrapsS
 }
 
 
-func NewVpnServerConfigurationRadiusClientRootCertificateList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpnServerConfigurationRadiusClientRootCertificateList {
+func NewVpnServerConfigurationRadiusClientRootCertificateList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) VpnServerConfigurationRadiusClientRootCertificateList {
 	_init_.Initialize()
 
 	if err := validateNewVpnServerConfigurationRadiusClientRootCertificateListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewVpnServerConfigurationRadiusClientRootCertificateList(terraformResource 
 	return &j
 }
 
-func NewVpnServerConfigurationRadiusClientRootCertificateList_Override(v VpnServerConfigurationRadiusClientRootCertificateList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewVpnServerConfigurationRadiusClientRootCertificateList_Override(v VpnServerConfigurationRadiusClientRootCertificateList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList)SetTerr
 	)
 }
 
-func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList)SetWrap
 	)
 }
 
-func (v *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (v *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := v.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		v,
@@ -231,7 +231,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) Get(in
 	return returns
 }
 
-func (v *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VpnServerConfigurationRadiusClientRootCertificateList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

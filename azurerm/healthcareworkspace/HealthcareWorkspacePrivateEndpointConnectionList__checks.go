@@ -8,7 +8,7 @@ package healthcareworkspace
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateGet
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_HealthcareWorkspacePrivateEndpointConnectionList) validateSet
 	return nil
 }
 
-func validateNewHealthcareWorkspacePrivateEndpointConnectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHealthcareWorkspacePrivateEndpointConnectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

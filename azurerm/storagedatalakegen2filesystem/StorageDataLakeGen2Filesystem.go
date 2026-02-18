@@ -5,20 +5,20 @@ package storagedatalakegen2filesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagedatalakegen2filesystem/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storagedatalakegen2filesystem/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem}.
 type StorageDataLakeGen2Filesystem interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Ace() StorageDataLakeGen2FilesystemAceList
 	AceInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,9 +37,9 @@ type StorageDataLakeGen2Filesystem interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -51,9 +51,9 @@ type StorageDataLakeGen2Filesystem interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -66,9 +66,9 @@ type StorageDataLakeGen2Filesystem interface {
 	SetProperties(val *map[string]*string)
 	PropertiesInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type StorageDataLakeGen2Filesystem interface {
 	SetStorageAccountId(val *string)
 	StorageAccountIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type StorageDataLakeGen2Filesystem interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type StorageDataLakeGen2Filesystem interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -156,7 +156,7 @@ type StorageDataLakeGen2Filesystem interface {
 
 // The jsii proxy struct for StorageDataLakeGen2Filesystem
 type jsiiProxy_StorageDataLakeGen2Filesystem struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StorageDataLakeGen2Filesystem) Ace() StorageDataLakeGen2FilesystemAceList {
@@ -179,8 +179,8 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem) AceInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -249,8 +249,8 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -399,8 +399,8 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem) PropertiesInput() *map[string]
 	return returns
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -449,8 +449,8 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem) StorageAccountIdInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -570,7 +570,7 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -600,7 +600,7 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -644,7 +644,7 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetProperties(val *map[string]*
 	)
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -674,14 +674,14 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem)SetStorageAccountId(val *string
 	)
 }
 
-// Generates CDKTF code for importing a StorageDataLakeGen2Filesystem resource upon running "cdktf plan <stack-name>".
-func StorageDataLakeGen2Filesystem_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StorageDataLakeGen2Filesystem resource upon running "cdktn plan <stack-name>".
+func StorageDataLakeGen2Filesystem_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStorageDataLakeGen2Filesystem_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.storageDataLakeGen2Filesystem.StorageDataLakeGen2Filesystem",
@@ -815,11 +815,11 @@ func (s *jsiiProxy_StorageDataLakeGen2Filesystem) GetAnyMapAttribute(terraformAt
 	return returns
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2Filesystem) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageDataLakeGen2Filesystem) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -956,7 +956,7 @@ func (s *jsiiProxy_StorageDataLakeGen2Filesystem) HasResourceMove() interface{} 
 	return returns
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2Filesystem) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StorageDataLakeGen2Filesystem) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -967,11 +967,11 @@ func (s *jsiiProxy_StorageDataLakeGen2Filesystem) ImportFrom(id *string, provide
 	)
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2Filesystem) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageDataLakeGen2Filesystem) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

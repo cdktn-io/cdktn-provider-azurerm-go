@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareMedtechServiceFhirDestinationTimeoutsOutputReferenc
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareMedtechServiceFhirDestinationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareMedtechServiceFhirDestinationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HealthcareMedtechServiceFhirDestinationTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareMedtechServiceFhirDestinationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareMedtechServiceFhirDestinationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_HealthcareMedtechServiceFhirDestinationTimeoutsOutputReferenc
 	return nil
 }
 
-func validateNewHealthcareMedtechServiceFhirDestinationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareMedtechServiceFhirDestinationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -59,7 +59,7 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validatePutExp
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -131,7 +131,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -151,7 +151,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeOutputReference) validateSetZon
 	return nil
 }
 
-func validateNewNetappVolumeGroupSapHanaVolumeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetappVolumeGroupSapHanaVolumeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 	return nil
 }
 
-func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomanageConfigurationAzureSecurityBaselineOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAutomanageConfigurationAzureSecurityBaselineOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomanageConfigurationAzureSecurityBaselineOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

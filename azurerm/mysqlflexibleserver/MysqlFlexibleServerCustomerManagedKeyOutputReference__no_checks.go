@@ -47,7 +47,7 @@ func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) validat
 	return nil
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MysqlFlexibleServerCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMysqlFlexibleServerCustomerManagedKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMysqlFlexibleServerCustomerManagedKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

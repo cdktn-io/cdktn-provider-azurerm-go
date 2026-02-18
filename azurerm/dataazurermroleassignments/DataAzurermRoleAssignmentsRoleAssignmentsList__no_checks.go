@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermRoleAssignmentsRoleAssignmentsList) validateSetWra
 	return nil
 }
 
-func validateNewDataAzurermRoleAssignmentsRoleAssignmentsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermRoleAssignmentsRoleAssignmentsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

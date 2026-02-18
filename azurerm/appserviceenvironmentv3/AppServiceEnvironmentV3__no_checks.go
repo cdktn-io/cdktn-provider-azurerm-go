@@ -123,7 +123,7 @@ func (j *jsiiProxy_AppServiceEnvironmentV3) validateSetInternalLoadBalancingMode
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceEnvironmentV3) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppServiceEnvironmentV3) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

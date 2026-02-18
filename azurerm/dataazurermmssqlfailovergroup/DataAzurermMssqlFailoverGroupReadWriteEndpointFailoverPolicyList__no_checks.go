@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyL
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyL
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyL
 	return nil
 }
 
-func validateNewDataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMssqlFailoverGroupReadWriteEndpointFailoverPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

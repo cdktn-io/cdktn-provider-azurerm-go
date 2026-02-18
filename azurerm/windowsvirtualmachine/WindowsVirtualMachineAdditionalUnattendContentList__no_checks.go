@@ -15,7 +15,7 @@ func (w *jsiiProxy_WindowsVirtualMachineAdditionalUnattendContentList) validateG
 	return nil
 }
 
-func (w *jsiiProxy_WindowsVirtualMachineAdditionalUnattendContentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsVirtualMachineAdditionalUnattendContentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WindowsVirtualMachineAdditionalUnattendContentList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_WindowsVirtualMachineAdditionalUnattendContentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsVirtualMachineAdditionalUnattendContentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WindowsVirtualMachineAdditionalUnattendContentList) validateS
 	return nil
 }
 
-func validateNewWindowsVirtualMachineAdditionalUnattendContentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWindowsVirtualMachineAdditionalUnattendContentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

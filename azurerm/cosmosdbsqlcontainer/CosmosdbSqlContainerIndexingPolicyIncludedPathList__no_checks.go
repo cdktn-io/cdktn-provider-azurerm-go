@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyIncludedPathList) validateG
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyIncludedPathList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyIncludedPathList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyIncludedPathList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyIncludedPathList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyIncludedPathList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyIncludedPathList) validateS
 	return nil
 }
 
-func validateNewCosmosdbSqlContainerIndexingPolicyIncludedPathListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbSqlContainerIndexingPolicyIncludedPathListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

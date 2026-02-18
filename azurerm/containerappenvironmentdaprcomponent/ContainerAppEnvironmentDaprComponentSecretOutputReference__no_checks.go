@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretOutputReference) va
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentDaprComponentSecretOutputReference) va
 	return nil
 }
 
-func validateNewContainerAppEnvironmentDaprComponentSecretOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppEnvironmentDaprComponentSecretOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

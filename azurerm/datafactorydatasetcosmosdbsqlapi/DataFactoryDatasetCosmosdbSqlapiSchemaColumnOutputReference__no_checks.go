@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReference) 
 	return nil
 }
 
-func validateNewDataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataFactoryDatasetCosmosdbSqlapiSchemaColumnOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

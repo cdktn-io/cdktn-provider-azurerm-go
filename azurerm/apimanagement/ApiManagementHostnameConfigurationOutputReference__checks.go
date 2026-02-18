@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApiManagementHostnameConfigurationDeveloperPortal:
 		value := value.(*[]*ApiManagementHostnameConfigurationDeveloperPortal)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApiManagementHostnameConfigurationDeveloperPortal; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApiManagementHostnameConfigurationDeveloperPortal; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApiManagementHostnameConfigurationManagement:
 		value := value.(*[]*ApiManagementHostnameConfigurationManagement)
@@ -148,7 +148,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApiManagementHostnameConfigurationManagement; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApiManagementHostnameConfigurationManagement; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApiManagementHostnameConfigurationPortal:
 		value := value.(*[]*ApiManagementHostnameConfigurationPortal)
@@ -179,7 +179,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApiManagementHostnameConfigurationPortal; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApiManagementHostnameConfigurationPortal; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApiManagementHostnameConfigurationProxy:
 		value := value.(*[]*ApiManagementHostnameConfigurationProxy)
@@ -210,7 +210,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApiManagementHostnameConfigurationProxy; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApiManagementHostnameConfigurationProxy; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApiManagementHostnameConfigurationScm:
 		value := value.(*[]*ApiManagementHostnameConfigurationScm)
@@ -241,14 +241,14 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApiManagementHostnameConfigurationScm; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApiManagementHostnameConfigurationScm; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -337,7 +337,7 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -345,7 +345,7 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationOutputReference) validateSe
 	return nil
 }
 
-func validateNewApiManagementHostnameConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementHostnameConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

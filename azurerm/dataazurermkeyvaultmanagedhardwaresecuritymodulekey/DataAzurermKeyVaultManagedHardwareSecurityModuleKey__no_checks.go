@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleKey) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

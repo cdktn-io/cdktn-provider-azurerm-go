@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalySingleSelectObservationLis
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalySingleSelectObservationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomalySingleSelectObservationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalySingleSelectObservationLis
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalySingleSelectObservationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalySingleSelectObservationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomalySingleSelectObservationLis
 	return nil
 }
 
-func validateNewDataAzurermSentinelAlertRuleAnomalySingleSelectObservationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSentinelAlertRuleAnomalySingleSelectObservationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

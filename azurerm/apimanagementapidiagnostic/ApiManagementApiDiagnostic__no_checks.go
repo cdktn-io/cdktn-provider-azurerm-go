@@ -147,7 +147,7 @@ func (j *jsiiProxy_ApiManagementApiDiagnostic) validateSetIdentifierParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiDiagnostic) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementApiDiagnostic) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

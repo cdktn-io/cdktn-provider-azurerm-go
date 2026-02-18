@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

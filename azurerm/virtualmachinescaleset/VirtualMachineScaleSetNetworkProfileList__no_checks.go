@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileList) validateGetParamete
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetNetworkProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineScaleSetNetworkProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

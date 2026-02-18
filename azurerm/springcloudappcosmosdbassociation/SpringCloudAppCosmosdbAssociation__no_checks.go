@@ -139,7 +139,7 @@ func (j *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

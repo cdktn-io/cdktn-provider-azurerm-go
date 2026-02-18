@@ -55,7 +55,7 @@ func (m *jsiiProxy_MonitorActivityLogAlertCriteriaOutputReference) validatePutSe
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActivityLogAlertCriteriaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActivityLogAlertCriteriaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -155,11 +155,11 @@ func (j *jsiiProxy_MonitorActivityLogAlertCriteriaOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActivityLogAlertCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActivityLogAlertCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorActivityLogAlertCriteriaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorActivityLogAlertCriteriaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

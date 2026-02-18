@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StackHciDeploymentSettingScaleUnitHostNetworkIntent:
 		value := value.(*[]*StackHciDeploymentSettingScaleUnitHostNetworkIntent)
@@ -117,7 +117,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StackHciDeploymentSettingScaleUnitHostNetworkIntent; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StackHciDeploymentSettingScaleUnitHostNetworkIntent; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*StackHciDeploymentSettingScaleUnitHostNetworkStorageNetwork:
 		value := value.(*[]*StackHciDeploymentSettingScaleUnitHostNetworkStorageNetwork)
@@ -148,14 +148,14 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*StackHciDeploymentSettingScaleUnitHostNetworkStorageNetwork; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*StackHciDeploymentSettingScaleUnitHostNetworkStorageNetwork; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -245,11 +245,11 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -265,11 +265,11 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -292,7 +292,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitHostNetworkOutputReference)
 	return nil
 }
 
-func validateNewStackHciDeploymentSettingScaleUnitHostNetworkOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStackHciDeploymentSettingScaleUnitHostNetworkOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

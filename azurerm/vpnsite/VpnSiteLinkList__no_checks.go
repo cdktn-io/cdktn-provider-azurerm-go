@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpnSiteLinkList) validateGetParameters(index *float64) error 
 	return nil
 }
 
-func (v *jsiiProxy_VpnSiteLinkList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnSiteLinkList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpnSiteLinkList) validateSetTerraformAttributeParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_VpnSiteLinkList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnSiteLinkList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpnSiteLinkList) validateSetWrapsSetParameters(val *bool) err
 	return nil
 }
 
-func validateNewVpnSiteLinkListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpnSiteLinkListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

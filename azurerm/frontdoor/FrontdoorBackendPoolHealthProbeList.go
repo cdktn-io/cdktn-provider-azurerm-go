@@ -5,14 +5,14 @@ package frontdoor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/frontdoor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/frontdoor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FrontdoorBackendPoolHealthProbeList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type FrontdoorBackendPoolHealthProbeList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type FrontdoorBackendPoolHealthProbeList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) FrontdoorBackendPoolHealthProbeOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type FrontdoorBackendPoolHealthProbeList interface {
 
 // The jsii proxy struct for FrontdoorBackendPoolHealthProbeList
 type jsiiProxy_FrontdoorBackendPoolHealthProbeList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList) WrapsSet() *bool {
 }
 
 
-func NewFrontdoorBackendPoolHealthProbeList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FrontdoorBackendPoolHealthProbeList {
+func NewFrontdoorBackendPoolHealthProbeList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) FrontdoorBackendPoolHealthProbeList {
 	_init_.Initialize()
 
 	if err := validateNewFrontdoorBackendPoolHealthProbeListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewFrontdoorBackendPoolHealthProbeList(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewFrontdoorBackendPoolHealthProbeList_Override(f FrontdoorBackendPoolHealthProbeList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewFrontdoorBackendPoolHealthProbeList_Override(f FrontdoorBackendPoolHealthProbeList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_FrontdoorBackendPoolHealthProbeList)SetWrapsSet(val *bool) {
 	)
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := f.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		f,
@@ -231,7 +231,7 @@ func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) Get(index *float64) Fron
 	return returns
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FrontdoorBackendPoolHealthProbeList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

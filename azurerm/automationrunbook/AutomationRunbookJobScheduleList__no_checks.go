@@ -15,7 +15,7 @@ func (a *jsiiProxy_AutomationRunbookJobScheduleList) validateGetParameters(index
 	return nil
 }
 
-func (a *jsiiProxy_AutomationRunbookJobScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationRunbookJobScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AutomationRunbookJobScheduleList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_AutomationRunbookJobScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationRunbookJobScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AutomationRunbookJobScheduleList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewAutomationRunbookJobScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAutomationRunbookJobScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

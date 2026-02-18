@@ -5,21 +5,21 @@ package streamanalyticsstreaminputeventhubv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsstreaminputeventhubv2/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsstreaminputeventhubv2/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/stream_analytics_stream_input_eventhub_v2 azurerm_stream_analytics_stream_input_eventhub_v2}.
 type StreamAnalyticsStreamInputEventhubV2 interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthenticationMode() *string
 	SetAuthenticationMode(val *string)
 	AuthenticationModeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -41,9 +41,9 @@ type StreamAnalyticsStreamInputEventhubV2 interface {
 	SetEventhubName(val *string)
 	EventhubNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,9 +52,9 @@ type StreamAnalyticsStreamInputEventhubV2 interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -64,9 +64,9 @@ type StreamAnalyticsStreamInputEventhubV2 interface {
 	SetPartitionKey(val *string)
 	PartitionKeyInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -88,7 +88,7 @@ type StreamAnalyticsStreamInputEventhubV2 interface {
 	SetStreamAnalyticsJobId(val *string)
 	StreamAnalyticsJobIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type StreamAnalyticsStreamInputEventhubV2 interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,9 +121,9 @@ type StreamAnalyticsStreamInputEventhubV2 interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type StreamAnalyticsStreamInputEventhubV2 interface {
 
 // The jsii proxy struct for StreamAnalyticsStreamInputEventhubV2
 type jsiiProxy_StreamAnalyticsStreamInputEventhubV2 struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) AuthenticationMode() *string {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) AuthenticationModeInput
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -278,8 +278,8 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) EventhubNameInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -388,8 +388,8 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) PartitionKeyInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -518,8 +518,8 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) StreamAnalyticsJobIdInp
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -661,7 +661,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetEventhubName(val *str
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -680,7 +680,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -713,7 +713,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetPartitionKey(val *str
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -776,14 +776,14 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2)SetStreamAnalyticsJobId(
 	)
 }
 
-// Generates CDKTF code for importing a StreamAnalyticsStreamInputEventhubV2 resource upon running "cdktf plan <stack-name>".
-func StreamAnalyticsStreamInputEventhubV2_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StreamAnalyticsStreamInputEventhubV2 resource upon running "cdktn plan <stack-name>".
+func StreamAnalyticsStreamInputEventhubV2_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStreamAnalyticsStreamInputEventhubV2_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.streamAnalyticsStreamInputEventhubV2.StreamAnalyticsStreamInputEventhubV2",
@@ -917,11 +917,11 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1058,7 +1058,7 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) HasResourceMove() inter
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1069,11 +1069,11 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) ImportFrom(id *string, 
 	)
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

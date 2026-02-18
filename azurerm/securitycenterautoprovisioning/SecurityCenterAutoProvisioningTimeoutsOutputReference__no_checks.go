@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityCenterAutoProvisioningTimeoutsOutputReference) valida
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterAutoProvisioningTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterAutoProvisioningTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SecurityCenterAutoProvisioningTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterAutoProvisioningTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterAutoProvisioningTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SecurityCenterAutoProvisioningTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewSecurityCenterAutoProvisioningTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityCenterAutoProvisioningTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

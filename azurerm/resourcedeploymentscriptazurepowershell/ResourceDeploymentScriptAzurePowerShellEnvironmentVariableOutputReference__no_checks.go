@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableOut
 	return nil
 }
 
-func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableOut
 	return nil
 }
 
-func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShellEnvironmentVariableOut
 	return nil
 }
 
-func validateNewResourceDeploymentScriptAzurePowerShellEnvironmentVariableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewResourceDeploymentScriptAzurePowerShellEnvironmentVariableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

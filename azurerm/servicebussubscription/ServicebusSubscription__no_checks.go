@@ -143,7 +143,7 @@ func (j *jsiiProxy_ServicebusSubscription) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusSubscription) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ServicebusSubscription) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

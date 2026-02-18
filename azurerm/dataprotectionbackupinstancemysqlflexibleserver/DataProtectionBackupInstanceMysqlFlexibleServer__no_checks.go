@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServer) validateSetI
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupInstanceMysqlFlexibleServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateSetIdParamet
 	return nil
 }
 
-func (j *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

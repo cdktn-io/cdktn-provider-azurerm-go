@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualNetworkRuleTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualNetworkRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualNetworkRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlVirtualNetworkRuleTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualNetworkRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualNetworkRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlVirtualNetworkRuleTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewMssqlVirtualNetworkRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualNetworkRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

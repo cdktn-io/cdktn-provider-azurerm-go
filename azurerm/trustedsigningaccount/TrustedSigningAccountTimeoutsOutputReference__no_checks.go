@@ -47,7 +47,7 @@ func (t *jsiiProxy_TrustedSigningAccountTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (t *jsiiProxy_TrustedSigningAccountTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrustedSigningAccountTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TrustedSigningAccountTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_TrustedSigningAccountTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrustedSigningAccountTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TrustedSigningAccountTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewTrustedSigningAccountTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTrustedSigningAccountTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

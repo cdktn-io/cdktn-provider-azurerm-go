@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCosmosdbAccountCapabilitiesList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbAccountCapabilitiesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCosmosdbAccountCapabilitiesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbAccountCapabilitiesList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbAccountCapabilitiesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCosmosdbAccountCapabilitiesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbAccountCapabilitiesList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAzurermCosmosdbAccountCapabilitiesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCosmosdbAccountCapabilitiesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

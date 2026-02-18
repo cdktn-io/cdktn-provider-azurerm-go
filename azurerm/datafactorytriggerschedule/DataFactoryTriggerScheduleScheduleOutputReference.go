@@ -5,14 +5,14 @@ package datafactorytriggerschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorytriggerschedule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorytriggerschedule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryTriggerScheduleScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type DataFactoryTriggerScheduleScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type DataFactoryTriggerScheduleScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMonthly(value interface{})
 	ResetDaysOfMonth()
 	ResetDaysOfWeek()
@@ -86,7 +86,7 @@ type DataFactoryTriggerScheduleScheduleOutputReference interface {
 	ResetMonthly()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type DataFactoryTriggerScheduleScheduleOutputReference interface {
 
 // The jsii proxy struct for DataFactoryTriggerScheduleScheduleOutputReference
 type jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) TerraformR
 }
 
 
-func NewDataFactoryTriggerScheduleScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryTriggerScheduleScheduleOutputReference {
+func NewDataFactoryTriggerScheduleScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryTriggerScheduleScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryTriggerScheduleScheduleOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewDataFactoryTriggerScheduleScheduleOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewDataFactoryTriggerScheduleScheduleOutputReference_Override(d DataFactoryTriggerScheduleScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryTriggerScheduleScheduleOutputReference_Override(d DataFactoryTriggerScheduleScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -425,11 +425,11 @@ func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) GetAnyMapA
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -553,8 +553,8 @@ func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) GetStringM
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -566,11 +566,11 @@ func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) Interpolat
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -633,7 +633,7 @@ func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) ResetMonth
 	)
 }
 
-func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryTriggerScheduleScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpnServerConfigurationRadiusServerRootCertificateList) valida
 	return nil
 }
 
-func (v *jsiiProxy_VpnServerConfigurationRadiusServerRootCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnServerConfigurationRadiusServerRootCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusServerRootCertificateList) valida
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationRadiusServerRootCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnServerConfigurationRadiusServerRootCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpnServerConfigurationRadiusServerRootCertificateList) valida
 	return nil
 }
 
-func validateNewVpnServerConfigurationRadiusServerRootCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpnServerConfigurationRadiusServerRootCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

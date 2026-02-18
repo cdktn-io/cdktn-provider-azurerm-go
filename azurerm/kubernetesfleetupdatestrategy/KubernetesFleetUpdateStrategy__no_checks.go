@@ -115,7 +115,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateStrategy) validateSetKubernetesFleetMana
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFleetUpdateStrategy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KubernetesFleetUpdateStrategy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

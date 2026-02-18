@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepository
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepository
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepositoryList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudServiceConfigServerGitSettingRepository
 	return nil
 }
 
-func validateNewDataAzurermSpringCloudServiceConfigServerGitSettingRepositoryListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSpringCloudServiceConfigServerGitSettingRepositoryListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

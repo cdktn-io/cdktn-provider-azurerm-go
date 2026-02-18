@@ -5,14 +5,14 @@ package systemcentervirtualmachinemanagervirtualmachineinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/systemcentervirtualmachinemanagervirtualmachineinstance/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/systemcentervirtualmachinemanagervirtualmachineinstance/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Bus() *float64
 	SetBus(val *float64)
 	BusInput() *float64
@@ -58,9 +58,9 @@ type SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputRef
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	VhdType() *string
 	SetVhdType(val *string)
 	VhdTypeInput() *string
@@ -69,7 +69,7 @@ type SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputRef
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,9 +85,9 @@ type SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputRef
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBus()
 	ResetBusType()
 	ResetDiskSizeGb()
@@ -98,7 +98,7 @@ type SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputRef
 	ResetVhdType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -108,7 +108,7 @@ type SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputRef
 
 // The jsii proxy struct for SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference
 type jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) Bus() *float64 {
@@ -311,8 +311,8 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	return returns
 }
 
-func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -342,7 +342,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 }
 
 
-func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference {
+func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -359,7 +359,7 @@ func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutput
 	return &j
 }
 
-func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference_Override(s SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference_Override(s SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -490,7 +490,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	)
 }
 
-func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -541,11 +541,11 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	return returns
 }
 
-func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -669,8 +669,8 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	return returns
 }
 
-func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -682,11 +682,11 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	return returns
 }
 
-func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -762,7 +762,7 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorag
 	)
 }
 
-func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstanceStorageDiskOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

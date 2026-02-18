@@ -119,7 +119,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validateSetInte
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

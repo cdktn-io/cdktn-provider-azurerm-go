@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileSshKeyList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileSshKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileSshKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileSshKeyList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileSshKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileSshKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterLinuxProfileSshKeyList) validateS
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterLinuxProfileSshKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterLinuxProfileSshKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

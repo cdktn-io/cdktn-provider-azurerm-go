@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayCustomRouteOutputReference) validateInte
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayCustomRouteOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayCustomRouteOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_VirtualNetworkGatewayCustomRouteOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayCustomRouteOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayCustomRouteOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayCustomRouteOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualNetworkGatewayCustomRouteOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageServicePrincipalOutputR
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageServicePrincipalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageServicePrincipalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageServicePrincipalOutputR
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageServicePrincipalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageServicePrincipalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesFluxConfigurationBlobStorageServicePrincipalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesFluxConfigurationBlobStorageServicePrincipalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

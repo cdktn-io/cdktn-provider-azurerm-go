@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbGremlinDatabaseTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbGremlinDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbGremlinDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CosmosdbGremlinDatabaseTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbGremlinDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbGremlinDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CosmosdbGremlinDatabaseTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewCosmosdbGremlinDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbGremlinDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

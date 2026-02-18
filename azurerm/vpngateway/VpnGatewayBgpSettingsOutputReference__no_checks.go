@@ -55,7 +55,7 @@ func (v *jsiiProxy_VpnGatewayBgpSettingsOutputReference) validatePutInstance1Bgp
 	return nil
 }
 
-func (v *jsiiProxy_VpnGatewayBgpSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnGatewayBgpSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_VpnGatewayBgpSettingsOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_VpnGatewayBgpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnGatewayBgpSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnGatewayBgpSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpnGatewayBgpSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

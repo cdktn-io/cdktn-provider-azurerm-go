@@ -47,7 +47,7 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutpu
 	return nil
 }
 
-func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutpu
 	return nil
 }
 
-func (j *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutpu
 	return nil
 }
 
-func validateNewSystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSystemCenterVirtualMachineManagerAvailabilitySetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

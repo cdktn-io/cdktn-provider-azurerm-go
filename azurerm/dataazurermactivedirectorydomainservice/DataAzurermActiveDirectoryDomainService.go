@@ -5,18 +5,18 @@ package dataazurermactivedirectorydomainservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermactivedirectorydomainservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermactivedirectorydomainservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/active_directory_domain_service azurerm_active_directory_domain_service}.
 type DataAzurermActiveDirectoryDomainService interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -30,11 +30,11 @@ type DataAzurermActiveDirectoryDomainService interface {
 	DeploymentId() *string
 	DomainConfigurationType() *string
 	DomainName() *string
-	FilteredSyncEnabled() cdktf.IResolvable
+	FilteredSyncEnabled() cdktn.IResolvable
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,9 +43,9 @@ type DataAzurermActiveDirectoryDomainService interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -54,9 +54,9 @@ type DataAzurermActiveDirectoryDomainService interface {
 	Node() constructs.Node
 	Notifications() DataAzurermActiveDirectoryDomainServiceNotificationsList
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ReplicaSets() DataAzurermActiveDirectoryDomainServiceReplicaSetsList
@@ -73,7 +73,7 @@ type DataAzurermActiveDirectoryDomainService interface {
 	TagsInput() *map[string]*string
 	TenantId() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type DataAzurermActiveDirectoryDomainService interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -102,7 +102,7 @@ type DataAzurermActiveDirectoryDomainService interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -129,11 +129,11 @@ type DataAzurermActiveDirectoryDomainService interface {
 
 // The jsii proxy struct for DataAzurermActiveDirectoryDomainService
 type jsiiProxy_DataAzurermActiveDirectoryDomainService struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -202,8 +202,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) DomainName() *string
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) FilteredSyncEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) FilteredSyncEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"filteredSyncEnabled",
@@ -212,8 +212,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) FilteredSyncEnabled(
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -322,8 +322,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) Notifications() Data
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -452,8 +452,8 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) TenantId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -561,7 +561,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetDependsOn(val *[]*
 	)
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -580,7 +580,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -602,7 +602,7 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetName(val *string) 
 	)
 }
 
-func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -632,14 +632,14 @@ func (j *jsiiProxy_DataAzurermActiveDirectoryDomainService)SetTags(val *map[stri
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermActiveDirectoryDomainService resource upon running "cdktf plan <stack-name>".
-func DataAzurermActiveDirectoryDomainService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermActiveDirectoryDomainService resource upon running "cdktn plan <stack-name>".
+func DataAzurermActiveDirectoryDomainService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermActiveDirectoryDomainService_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermActiveDirectoryDomainService.DataAzurermActiveDirectoryDomainService",
@@ -762,11 +762,11 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainService) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainService) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainService) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -890,11 +890,11 @@ func (d *jsiiProxy_DataAzurermActiveDirectoryDomainService) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermActiveDirectoryDomainService) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermActiveDirectoryDomainService) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -119,7 +119,7 @@ func (j *jsiiProxy_BotChannelEmail) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelEmail) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BotChannelEmail) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

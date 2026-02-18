@@ -115,7 +115,7 @@ func (j *jsiiProxy_CosmosdbSqlDatabase) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CosmosdbSqlDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

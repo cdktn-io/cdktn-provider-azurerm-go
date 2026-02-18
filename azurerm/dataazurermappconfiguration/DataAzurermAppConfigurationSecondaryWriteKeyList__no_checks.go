@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermAppConfigurationSecondaryWriteKeyList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermAppConfigurationSecondaryWriteKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermAppConfigurationSecondaryWriteKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

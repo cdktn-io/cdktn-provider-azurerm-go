@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutput
 	return nil
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutput
 	return nil
 }
 
-func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorScheduledQueryRulesAlertV2CriteriaFailingPeriodsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

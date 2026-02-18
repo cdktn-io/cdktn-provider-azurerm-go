@@ -111,7 +111,7 @@ func (j *jsiiProxy_EventhubAuthorizationRule) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_EventhubAuthorizationRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_EventhubAuthorizationRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

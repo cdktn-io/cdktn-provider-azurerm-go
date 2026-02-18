@@ -139,7 +139,7 @@ func (j *jsiiProxy_GalleryApplicationVersion) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_GalleryApplicationVersion) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_GalleryApplicationVersion) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

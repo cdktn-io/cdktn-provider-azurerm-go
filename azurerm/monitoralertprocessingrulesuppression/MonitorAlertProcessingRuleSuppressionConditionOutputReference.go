@@ -5,14 +5,14 @@ package monitoralertprocessingrulesuppression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitoralertprocessingrulesuppression/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitoralertprocessingrulesuppression/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorAlertProcessingRuleSuppressionConditionOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AlertContext() MonitorAlertProcessingRuleSuppressionConditionAlertContextOutputReference
 	AlertContextInput() *MonitorAlertProcessingRuleSuppressionConditionAlertContext
 	AlertRuleId() MonitorAlertProcessingRuleSuppressionConditionAlertRuleIdOutputReference
@@ -59,15 +59,15 @@ type MonitorAlertProcessingRuleSuppressionConditionOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -83,9 +83,9 @@ type MonitorAlertProcessingRuleSuppressionConditionOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAlertContext(value *MonitorAlertProcessingRuleSuppressionConditionAlertContext)
 	PutAlertRuleId(value *MonitorAlertProcessingRuleSuppressionConditionAlertRuleId)
 	PutAlertRuleName(value *MonitorAlertProcessingRuleSuppressionConditionAlertRuleName)
@@ -110,7 +110,7 @@ type MonitorAlertProcessingRuleSuppressionConditionOutputReference interface {
 	ResetTargetResourceType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type MonitorAlertProcessingRuleSuppressionConditionOutputReference interface {
 
 // The jsii proxy struct for MonitorAlertProcessingRuleSuppressionConditionOutputReference
 type jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) AlertContext() MonitorAlertProcessingRuleSuppressionConditionAlertContextOutputReference {
@@ -403,8 +403,8 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference
 	return returns
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -414,7 +414,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference
 }
 
 
-func NewMonitorAlertProcessingRuleSuppressionConditionOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitorAlertProcessingRuleSuppressionConditionOutputReference {
+func NewMonitorAlertProcessingRuleSuppressionConditionOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitorAlertProcessingRuleSuppressionConditionOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorAlertProcessingRuleSuppressionConditionOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -431,7 +431,7 @@ func NewMonitorAlertProcessingRuleSuppressionConditionOutputReference(terraformR
 	return &j
 }
 
-func NewMonitorAlertProcessingRuleSuppressionConditionOutputReference_Override(m MonitorAlertProcessingRuleSuppressionConditionOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitorAlertProcessingRuleSuppressionConditionOutputReference_Override(m MonitorAlertProcessingRuleSuppressionConditionOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -485,7 +485,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference
 	)
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -525,11 +525,11 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -653,8 +653,8 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -666,11 +666,11 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -891,7 +891,7 @@ func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference
 	)
 }
 
-func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorAlertProcessingRuleSuppressionConditionOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

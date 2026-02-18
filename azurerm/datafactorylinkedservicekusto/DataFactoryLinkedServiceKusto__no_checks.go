@@ -135,7 +135,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceKusto) validateSetKustoEndpointParame
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceKusto) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceKusto) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

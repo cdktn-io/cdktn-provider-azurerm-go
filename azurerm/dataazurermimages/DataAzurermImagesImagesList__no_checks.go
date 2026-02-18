@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermImagesImagesList) validateGetParameters(index *flo
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermImagesImagesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermImagesImagesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermImagesImagesList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermImagesImagesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermImagesImagesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermImagesImagesList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewDataAzurermImagesImagesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermImagesImagesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

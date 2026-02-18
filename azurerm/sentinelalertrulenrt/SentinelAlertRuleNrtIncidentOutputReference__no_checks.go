@@ -51,7 +51,7 @@ func (s *jsiiProxy_SentinelAlertRuleNrtIncidentOutputReference) validatePutGroup
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtIncidentOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleNrtIncidentOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SentinelAlertRuleNrtIncidentOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleNrtIncidentOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleNrtIncidentOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelAlertRuleNrtIncidentOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelAlertRuleNrtIncidentOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

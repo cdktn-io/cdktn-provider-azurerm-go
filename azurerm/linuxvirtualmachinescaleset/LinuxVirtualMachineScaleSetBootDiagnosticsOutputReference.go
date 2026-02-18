@@ -5,14 +5,14 @@ package linuxvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetStorageAccountUri()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference interface {
 
 // The jsii proxy struct for LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference
 type jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) Te
 }
 
 
-func NewLinuxVirtualMachineScaleSetBootDiagnosticsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference {
+func NewLinuxVirtualMachineScaleSetBootDiagnosticsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxVirtualMachineScaleSetBootDiagnosticsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewLinuxVirtualMachineScaleSetBootDiagnosticsOutputReference(terraformResou
 	return &j
 }
 
-func NewLinuxVirtualMachineScaleSetBootDiagnosticsOutputReference_Override(l LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxVirtualMachineScaleSetBootDiagnosticsOutputReference_Override(l LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) Ge
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -424,8 +424,8 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) Ge
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -437,11 +437,11 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) In
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -461,7 +461,7 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) Re
 	)
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetBootDiagnosticsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

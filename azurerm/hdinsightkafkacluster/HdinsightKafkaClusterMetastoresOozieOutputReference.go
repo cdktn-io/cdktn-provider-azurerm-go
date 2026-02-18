@@ -5,14 +5,14 @@ package hdinsightkafkacluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsightkafkacluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsightkafkacluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightKafkaClusterMetastoresOozieOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type HdinsightKafkaClusterMetastoresOozieOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	SetUsername(val *string)
 	UsernameInput() *string
@@ -57,7 +57,7 @@ type HdinsightKafkaClusterMetastoresOozieOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,12 +73,12 @@ type HdinsightKafkaClusterMetastoresOozieOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type HdinsightKafkaClusterMetastoresOozieOutputReference interface {
 
 // The jsii proxy struct for HdinsightKafkaClusterMetastoresOozieOutputReference
 type jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -242,7 +242,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) Username
 }
 
 
-func NewHdinsightKafkaClusterMetastoresOozieOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HdinsightKafkaClusterMetastoresOozieOutputReference {
+func NewHdinsightKafkaClusterMetastoresOozieOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HdinsightKafkaClusterMetastoresOozieOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightKafkaClusterMetastoresOozieOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -259,7 +259,7 @@ func NewHdinsightKafkaClusterMetastoresOozieOutputReference(terraformResource cd
 	return &j
 }
 
-func NewHdinsightKafkaClusterMetastoresOozieOutputReference_Override(h HdinsightKafkaClusterMetastoresOozieOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHdinsightKafkaClusterMetastoresOozieOutputReference_Override(h HdinsightKafkaClusterMetastoresOozieOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -346,7 +346,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -397,11 +397,11 @@ func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) GetAnyMa
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -525,8 +525,8 @@ func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) GetStrin
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -538,11 +538,11 @@ func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) Interpol
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -554,7 +554,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) Interpol
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightKafkaClusterMetastoresOozieOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

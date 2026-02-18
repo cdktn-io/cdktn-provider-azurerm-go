@@ -5,18 +5,18 @@ package resourcegrouppolicyexemption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/resourcegrouppolicyexemption/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/resourcegrouppolicyexemption/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/resource_group_policy_exemption azurerm_resource_group_policy_exemption}.
 type ResourceGroupPolicyExemption interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type ResourceGroupPolicyExemption interface {
 	SetExpiresOn(val *string)
 	ExpiresOnInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type ResourceGroupPolicyExemption interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Metadata() *string
 	SetMetadata(val *string)
 	MetadataInput() *string
@@ -73,9 +73,9 @@ type ResourceGroupPolicyExemption interface {
 	SetPolicyDefinitionReferenceIds(val *[]*string)
 	PolicyDefinitionReferenceIdsInput() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type ResourceGroupPolicyExemption interface {
 	SetResourceGroupId(val *string)
 	ResourceGroupIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -101,7 +101,7 @@ type ResourceGroupPolicyExemption interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -119,9 +119,9 @@ type ResourceGroupPolicyExemption interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,11 +162,11 @@ type ResourceGroupPolicyExemption interface {
 
 // The jsii proxy struct for ResourceGroupPolicyExemption
 type jsiiProxy_ResourceGroupPolicyExemption struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ResourceGroupPolicyExemption) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption) ExpiresOnInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ResourceGroupPolicyExemption) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -345,8 +345,8 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ResourceGroupPolicyExemption) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -445,8 +445,8 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption) PolicyDefinitionReferenceIdsInp
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ResourceGroupPolicyExemption) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -495,8 +495,8 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption) ResourceGroupIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ResourceGroupPolicyExemption) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -649,7 +649,7 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption)SetExpiresOn(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ResourceGroupPolicyExemption)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -668,7 +668,7 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ResourceGroupPolicyExemption)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -723,7 +723,7 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption)SetPolicyDefinitionReferenceIds(
 	)
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyExemption)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ResourceGroupPolicyExemption)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -753,14 +753,14 @@ func (j *jsiiProxy_ResourceGroupPolicyExemption)SetResourceGroupId(val *string) 
 	)
 }
 
-// Generates CDKTF code for importing a ResourceGroupPolicyExemption resource upon running "cdktf plan <stack-name>".
-func ResourceGroupPolicyExemption_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ResourceGroupPolicyExemption resource upon running "cdktn plan <stack-name>".
+func ResourceGroupPolicyExemption_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateResourceGroupPolicyExemption_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.resourceGroupPolicyExemption.ResourceGroupPolicyExemption",
@@ -894,11 +894,11 @@ func (r *jsiiProxy_ResourceGroupPolicyExemption) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyExemption) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupPolicyExemption) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,
@@ -1035,7 +1035,7 @@ func (r *jsiiProxy_ResourceGroupPolicyExemption) HasResourceMove() interface{} {
 	return returns
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyExemption) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (r *jsiiProxy_ResourceGroupPolicyExemption) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := r.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1046,11 +1046,11 @@ func (r *jsiiProxy_ResourceGroupPolicyExemption) ImportFrom(id *string, provider
 	)
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyExemption) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (r *jsiiProxy_ResourceGroupPolicyExemption) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := r.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		r,

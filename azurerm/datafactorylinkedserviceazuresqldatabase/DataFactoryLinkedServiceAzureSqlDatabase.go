@@ -5,16 +5,16 @@ package datafactorylinkedserviceazuresqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedserviceazuresqldatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorylinkedserviceazuresqldatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_linked_service_azure_sql_database azurerm_data_factory_linked_service_azure_sql_database}.
 type DataFactoryLinkedServiceAzureSqlDatabase interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
 	SetAdditionalProperties(val *map[string]*string)
 	AdditionalPropertiesInput() *map[string]*string
@@ -22,7 +22,7 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	SetAnnotations(val *[]*string)
 	AnnotationsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -50,9 +50,9 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -68,9 +68,9 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	KeyVaultPassword() DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutputReference
 	KeyVaultPasswordInput() *DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPassword
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -80,9 +80,9 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -99,7 +99,7 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	SetTenantId(val *string)
 	TenantIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -117,7 +117,7 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -135,9 +135,9 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -188,7 +188,7 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 
 // The jsii proxy struct for DataFactoryLinkedServiceAzureSqlDatabase
 type jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) AdditionalProperties() *map[string]*string {
@@ -231,8 +231,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) AnnotationsInput() 
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) DescriptionInput() 
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -471,8 +471,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) KeyVaultPasswordInp
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -531,8 +531,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) ParametersInput() *
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -621,8 +621,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) TenantIdInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -817,7 +817,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetDescription(val *
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -847,7 +847,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetIntegrationRuntim
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -880,7 +880,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetParameters(val *m
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -943,14 +943,14 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase)SetUseManagedIdentit
 	)
 }
 
-// Generates CDKTF code for importing a DataFactoryLinkedServiceAzureSqlDatabase resource upon running "cdktf plan <stack-name>".
-func DataFactoryLinkedServiceAzureSqlDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataFactoryLinkedServiceAzureSqlDatabase resource upon running "cdktn plan <stack-name>".
+func DataFactoryLinkedServiceAzureSqlDatabase_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataFactoryLinkedServiceAzureSqlDatabase_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureSqlDatabase.DataFactoryLinkedServiceAzureSqlDatabase",
@@ -1084,11 +1084,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) GetAnyMapAttribute(
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1225,7 +1225,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) HasResourceMove() i
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1236,11 +1236,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) ImportFrom(id *stri
 	)
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

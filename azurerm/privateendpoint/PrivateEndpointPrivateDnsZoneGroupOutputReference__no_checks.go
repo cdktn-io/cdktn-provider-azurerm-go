@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivateEndpointPrivateDnsZoneGroupOutputReference) validateIn
 	return nil
 }
 
-func (p *jsiiProxy_PrivateEndpointPrivateDnsZoneGroupOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateEndpointPrivateDnsZoneGroupOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PrivateEndpointPrivateDnsZoneGroupOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PrivateEndpointPrivateDnsZoneGroupOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateEndpointPrivateDnsZoneGroupOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPrivateEndpointPrivateDnsZoneGroupOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivateEndpointPrivateDnsZoneGroupOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

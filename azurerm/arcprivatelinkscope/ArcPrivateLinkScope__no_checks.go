@@ -107,7 +107,7 @@ func (j *jsiiProxy_ArcPrivateLinkScope) validateSetIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_ArcPrivateLinkScope) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ArcPrivateLinkScope) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

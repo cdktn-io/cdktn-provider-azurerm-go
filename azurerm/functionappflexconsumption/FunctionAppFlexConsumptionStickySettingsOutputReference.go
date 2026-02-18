@@ -5,14 +5,14 @@ package functionappflexconsumption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/functionappflexconsumption/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/functionappflexconsumption/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type FunctionAppFlexConsumptionStickySettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AppSettingNames() *[]*string
 	SetAppSettingNames(val *[]*string)
 	AppSettingNamesInput() *[]*string
@@ -43,15 +43,15 @@ type FunctionAppFlexConsumptionStickySettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type FunctionAppFlexConsumptionStickySettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAppSettingNames()
 	ResetConnectionStringNames()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type FunctionAppFlexConsumptionStickySettingsOutputReference interface {
 
 // The jsii proxy struct for FunctionAppFlexConsumptionStickySettingsOutputReference
 type jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) AppSettingNames() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) Terr
 }
 
 
-func NewFunctionAppFlexConsumptionStickySettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionStickySettingsOutputReference {
+func NewFunctionAppFlexConsumptionStickySettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) FunctionAppFlexConsumptionStickySettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewFunctionAppFlexConsumptionStickySettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewFunctionAppFlexConsumptionStickySettingsOutputReference(terraformResourc
 	return &j
 }
 
-func NewFunctionAppFlexConsumptionStickySettingsOutputReference_Override(f FunctionAppFlexConsumptionStickySettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewFunctionAppFlexConsumptionStickySettingsOutputReference_Override(f FunctionAppFlexConsumptionStickySettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) GetA
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -459,8 +459,8 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) GetS
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -472,11 +472,11 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) Inte
 	return returns
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := f.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		f,
@@ -504,7 +504,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) Rese
 	)
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (f *jsiiProxy_FunctionAppFlexConsumptionStickySettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := f.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

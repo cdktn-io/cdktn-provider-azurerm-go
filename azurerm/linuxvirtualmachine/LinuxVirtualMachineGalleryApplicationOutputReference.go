@@ -5,14 +5,14 @@ package linuxvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxvirtualmachine/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxvirtualmachine/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxVirtualMachineGalleryApplicationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AutomaticUpgradeEnabled() interface{}
 	SetAutomaticUpgradeEnabled(val interface{})
 	AutomaticUpgradeEnabledInput() interface{}
@@ -49,9 +49,9 @@ type LinuxVirtualMachineGalleryApplicationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TreatFailureAsDeploymentFailureEnabled() interface{}
 	SetTreatFailureAsDeploymentFailureEnabled(val interface{})
 	TreatFailureAsDeploymentFailureEnabledInput() interface{}
@@ -63,7 +63,7 @@ type LinuxVirtualMachineGalleryApplicationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type LinuxVirtualMachineGalleryApplicationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAutomaticUpgradeEnabled()
 	ResetConfigurationBlobUri()
 	ResetOrder()
@@ -89,7 +89,7 @@ type LinuxVirtualMachineGalleryApplicationOutputReference interface {
 	ResetTreatFailureAsDeploymentFailureEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type LinuxVirtualMachineGalleryApplicationOutputReference interface {
 
 // The jsii proxy struct for LinuxVirtualMachineGalleryApplicationOutputReference
 type jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) AutomaticUpgradeEnabled() interface{} {
@@ -242,8 +242,8 @@ func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -293,7 +293,7 @@ func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) Version
 }
 
 
-func NewLinuxVirtualMachineGalleryApplicationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LinuxVirtualMachineGalleryApplicationOutputReference {
+func NewLinuxVirtualMachineGalleryApplicationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) LinuxVirtualMachineGalleryApplicationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxVirtualMachineGalleryApplicationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -310,7 +310,7 @@ func NewLinuxVirtualMachineGalleryApplicationOutputReference(terraformResource c
 	return &j
 }
 
-func NewLinuxVirtualMachineGalleryApplicationOutputReference_Override(l LinuxVirtualMachineGalleryApplicationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewLinuxVirtualMachineGalleryApplicationOutputReference_Override(l LinuxVirtualMachineGalleryApplicationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -408,7 +408,7 @@ func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -470,11 +470,11 @@ func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) GetAnyM
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -598,8 +598,8 @@ func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) GetStri
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -611,11 +611,11 @@ func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) Interpo
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -667,7 +667,7 @@ func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) ResetTr
 	)
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

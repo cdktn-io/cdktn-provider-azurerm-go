@@ -107,7 +107,7 @@ func (j *jsiiProxy_MonitorPrivateLinkScopedService) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_MonitorPrivateLinkScopedService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitorPrivateLinkScopedService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

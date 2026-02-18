@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeList) validateGetParamete
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewCosmosdbMongoRoleDefinitionPrivilegeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbMongoRoleDefinitionPrivilegeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

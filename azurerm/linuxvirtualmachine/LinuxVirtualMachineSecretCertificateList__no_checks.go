@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxVirtualMachineSecretCertificateList) validateGetParamete
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineSecretCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineSecretCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxVirtualMachineSecretCertificateList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewLinuxVirtualMachineSecretCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxVirtualMachineSecretCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

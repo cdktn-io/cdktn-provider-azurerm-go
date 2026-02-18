@@ -15,7 +15,7 @@ func (d *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentList) valida
 	return nil
 }
 
-func (d *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentList) valida
 	return nil
 }
 
-func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DevCenterProjectEnvironmentTypeUserRoleAssignmentList) valida
 	return nil
 }
 
-func validateNewDevCenterProjectEnvironmentTypeUserRoleAssignmentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDevCenterProjectEnvironmentTypeUserRoleAssignmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

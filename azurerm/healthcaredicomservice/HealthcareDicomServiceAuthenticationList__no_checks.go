@@ -15,7 +15,7 @@ func (h *jsiiProxy_HealthcareDicomServiceAuthenticationList) validateGetParamete
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceAuthenticationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareDicomServiceAuthenticationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_HealthcareDicomServiceAuthenticationList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDicomServiceAuthenticationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareDicomServiceAuthenticationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_HealthcareDicomServiceAuthenticationList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewHealthcareDicomServiceAuthenticationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHealthcareDicomServiceAuthenticationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

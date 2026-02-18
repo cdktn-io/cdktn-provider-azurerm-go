@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyOutputReference) val
 	return nil
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnGatewayConnectionTrafficSelectorPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVpnGatewayConnectionTrafficSelectorPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

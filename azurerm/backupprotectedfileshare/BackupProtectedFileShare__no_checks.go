@@ -111,7 +111,7 @@ func (j *jsiiProxy_BackupProtectedFileShare) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_BackupProtectedFileShare) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupProtectedFileShare) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

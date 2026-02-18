@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedule) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

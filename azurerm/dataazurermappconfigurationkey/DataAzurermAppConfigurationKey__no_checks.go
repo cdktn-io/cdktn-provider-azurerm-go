@@ -95,7 +95,7 @@ func (j *jsiiProxy_DataAzurermAppConfigurationKey) validateSetLabelParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAppConfigurationKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermAppConfigurationKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DatabricksWorkspaceManagedDiskIdentityList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DatabricksWorkspaceManagedDiskIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabricksWorkspaceManagedDiskIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DatabricksWorkspaceManagedDiskIdentityList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DatabricksWorkspaceManagedDiskIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabricksWorkspaceManagedDiskIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DatabricksWorkspaceManagedDiskIdentityList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDatabricksWorkspaceManagedDiskIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDatabricksWorkspaceManagedDiskIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

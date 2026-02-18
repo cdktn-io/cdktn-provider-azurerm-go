@@ -127,7 +127,7 @@ func (j *jsiiProxy_KubernetesClusterExtension) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterExtension) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KubernetesClusterExtension) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

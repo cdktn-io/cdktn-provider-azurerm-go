@@ -111,7 +111,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

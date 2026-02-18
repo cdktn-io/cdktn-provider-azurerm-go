@@ -115,7 +115,7 @@ func (j *jsiiProxy_CognitiveAccountRaiBlocklist) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountRaiBlocklist) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CognitiveAccountRaiBlocklist) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package voiceservicescommunicationsgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/voiceservicescommunicationsgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/voiceservicescommunicationsgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VoiceServicesCommunicationsGatewayTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type VoiceServicesCommunicationsGatewayTimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type VoiceServicesCommunicationsGatewayTimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type VoiceServicesCommunicationsGatewayTimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type VoiceServicesCommunicationsGatewayTimeoutsOutputReference interface {
 
 // The jsii proxy struct for VoiceServicesCommunicationsGatewayTimeoutsOutputReference
 type jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) Up
 }
 
 
-func NewVoiceServicesCommunicationsGatewayTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VoiceServicesCommunicationsGatewayTimeoutsOutputReference {
+func NewVoiceServicesCommunicationsGatewayTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VoiceServicesCommunicationsGatewayTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVoiceServicesCommunicationsGatewayTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewVoiceServicesCommunicationsGatewayTimeoutsOutputReference(terraformResou
 	return &j
 }
 
-func NewVoiceServicesCommunicationsGatewayTimeoutsOutputReference_Override(v VoiceServicesCommunicationsGatewayTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVoiceServicesCommunicationsGatewayTimeoutsOutputReference_Override(v VoiceServicesCommunicationsGatewayTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) Ge
 	return returns
 }
 
-func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -529,8 +529,8 @@ func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) Ge
 	return returns
 }
 
-func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -542,11 +542,11 @@ func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) In
 	return returns
 }
 
-func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -590,7 +590,7 @@ func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) Re
 	)
 }
 
-func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VoiceServicesCommunicationsGatewayTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

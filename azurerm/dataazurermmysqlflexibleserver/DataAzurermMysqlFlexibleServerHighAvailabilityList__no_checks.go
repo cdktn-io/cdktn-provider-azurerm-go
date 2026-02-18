@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerHighAvailabilityList) validateS
 	return nil
 }
 
-func validateNewDataAzurermMysqlFlexibleServerHighAvailabilityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMysqlFlexibleServerHighAvailabilityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

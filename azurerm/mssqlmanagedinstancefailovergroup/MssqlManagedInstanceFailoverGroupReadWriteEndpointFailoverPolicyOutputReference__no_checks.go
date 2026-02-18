@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPol
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPol
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlManagedInstanceFailoverGroupReadWriteEndpointFailoverPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_DataShareDatasetKustoCluster) validateSetKustoClusterIdParame
 	return nil
 }
 
-func (j *jsiiProxy_DataShareDatasetKustoCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataShareDatasetKustoCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

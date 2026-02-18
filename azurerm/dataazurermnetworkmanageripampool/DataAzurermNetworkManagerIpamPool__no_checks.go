@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerIpamPool) validateSetIdParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetworkManagerIpamPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermNetworkManagerIpamPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

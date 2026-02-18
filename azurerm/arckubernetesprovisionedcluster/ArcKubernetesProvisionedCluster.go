@@ -5,16 +5,16 @@ package arckubernetesprovisionedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/arckubernetesprovisionedcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/arckubernetesprovisionedcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/arc_kubernetes_provisioned_cluster azurerm_arc_kubernetes_provisioned_cluster}.
 type ArcKubernetesProvisionedCluster interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AgentVersion() *string
 	ArcAgentAutoUpgradeEnabled() interface{}
 	SetArcAgentAutoUpgradeEnabled(val interface{})
@@ -25,7 +25,7 @@ type ArcKubernetesProvisionedCluster interface {
 	AzureActiveDirectory() ArcKubernetesProvisionedClusterAzureActiveDirectoryOutputReference
 	AzureActiveDirectoryInput() *ArcKubernetesProvisionedClusterAzureActiveDirectory
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -42,9 +42,9 @@ type ArcKubernetesProvisionedCluster interface {
 	SetDependsOn(val *[]*string)
 	Distribution() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type ArcKubernetesProvisionedCluster interface {
 	Infrastructure() *string
 	KubernetesVersion() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -70,9 +70,9 @@ type ArcKubernetesProvisionedCluster interface {
 	Node() constructs.Node
 	Offering() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type ArcKubernetesProvisionedCluster interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -103,7 +103,7 @@ type ArcKubernetesProvisionedCluster interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -121,9 +121,9 @@ type ArcKubernetesProvisionedCluster interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type ArcKubernetesProvisionedCluster interface {
 
 // The jsii proxy struct for ArcKubernetesProvisionedCluster
 type jsiiProxy_ArcKubernetesProvisionedCluster struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ArcKubernetesProvisionedCluster) AgentVersion() *string {
@@ -238,8 +238,8 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster) AzureActiveDirectoryInput() 
 	return returns
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -298,8 +298,8 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster) Distribution() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -388,8 +388,8 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster) KubernetesVersion() *string 
 	return returns
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -458,8 +458,8 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster) Offering() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -528,8 +528,8 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster) TagsInput() *map[string]*str
 	return returns
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -680,7 +680,7 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetDependsOn(val *[]*string) 
 	)
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -699,7 +699,7 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -732,7 +732,7 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -773,14 +773,14 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster)SetTags(val *map[string]*stri
 	)
 }
 
-// Generates CDKTF code for importing a ArcKubernetesProvisionedCluster resource upon running "cdktf plan <stack-name>".
-func ArcKubernetesProvisionedCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ArcKubernetesProvisionedCluster resource upon running "cdktn plan <stack-name>".
+func ArcKubernetesProvisionedCluster_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateArcKubernetesProvisionedCluster_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.arcKubernetesProvisionedCluster.ArcKubernetesProvisionedCluster",
@@ -914,11 +914,11 @@ func (a *jsiiProxy_ArcKubernetesProvisionedCluster) GetAnyMapAttribute(terraform
 	return returns
 }
 
-func (a *jsiiProxy_ArcKubernetesProvisionedCluster) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcKubernetesProvisionedCluster) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1055,7 +1055,7 @@ func (a *jsiiProxy_ArcKubernetesProvisionedCluster) HasResourceMove() interface{
 	return returns
 }
 
-func (a *jsiiProxy_ArcKubernetesProvisionedCluster) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ArcKubernetesProvisionedCluster) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1066,11 +1066,11 @@ func (a *jsiiProxy_ArcKubernetesProvisionedCluster) ImportFrom(id *string, provi
 	)
 }
 
-func (a *jsiiProxy_ArcKubernetesProvisionedCluster) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ArcKubernetesProvisionedCluster) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

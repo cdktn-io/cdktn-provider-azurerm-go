@@ -5,14 +5,14 @@ package dataazurermoracleautonomousdatabaseclonefrombackup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracleautonomousdatabaseclonefrombackup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracleautonomousdatabaseclonefrombackup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference i
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,13 +64,13 @@ type DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference i
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference i
 
 // The jsii proxy struct for DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference
 type jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOut
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -174,7 +174,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOut
 }
 
 
-func NewDataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference {
+func NewDataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -191,7 +191,7 @@ func NewDataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReferenc
 	return &j
 }
 
-func NewDataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference_Override(d DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference_Override(d DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -256,7 +256,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOut
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -296,11 +296,11 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,8 +424,8 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -437,11 +437,11 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -461,7 +461,7 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOut
 	)
 }
 
-func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackupTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

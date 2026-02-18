@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspace) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDatabricksWorkspace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

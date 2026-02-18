@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CosmosdbSqlContainerIndexingPolicyCompositeIndex:
 		value := value.(*[]*CosmosdbSqlContainerIndexingPolicyCompositeIndex)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyCompositeIndex; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyCompositeIndex; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CosmosdbSqlContainerIndexingPolicyExcludedPath:
 		value := value.(*[]*CosmosdbSqlContainerIndexingPolicyExcludedPath)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyExcludedPath; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyExcludedPath; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CosmosdbSqlContainerIndexingPolicyIncludedPath:
 		value := value.(*[]*CosmosdbSqlContainerIndexingPolicyIncludedPath)
@@ -179,7 +179,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyIncludedPath; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicyIncludedPath; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CosmosdbSqlContainerIndexingPolicySpatialIndex:
 		value := value.(*[]*CosmosdbSqlContainerIndexingPolicySpatialIndex)
@@ -210,14 +210,14 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validatePu
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicySpatialIndex; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CosmosdbSqlContainerIndexingPolicySpatialIndex; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -314,7 +314,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -322,7 +322,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyOutputReference) validateSe
 	return nil
 }
 
-func validateNewCosmosdbSqlContainerIndexingPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbSqlContainerIndexingPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

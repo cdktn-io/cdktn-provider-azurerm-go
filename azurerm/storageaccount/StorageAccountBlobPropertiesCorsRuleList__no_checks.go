@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageAccountBlobPropertiesCorsRuleList) validateGetParamete
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountBlobPropertiesCorsRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountBlobPropertiesCorsRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StorageAccountBlobPropertiesCorsRuleList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountBlobPropertiesCorsRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountBlobPropertiesCorsRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StorageAccountBlobPropertiesCorsRuleList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewStorageAccountBlobPropertiesCorsRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageAccountBlobPropertiesCorsRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

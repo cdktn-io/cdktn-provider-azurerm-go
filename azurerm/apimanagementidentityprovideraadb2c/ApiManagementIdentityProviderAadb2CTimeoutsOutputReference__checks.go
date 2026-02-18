@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) v
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -184,7 +184,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) v
 
 func (j *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ApiManagementIdentityProviderAadb2CTimeouts:
 		val := val.(*ApiManagementIdentityProviderAadb2CTimeouts)
@@ -199,7 +199,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ApiManagementIdentityProviderAadb2CTimeouts; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ApiManagementIdentityProviderAadb2CTimeouts; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderAadb2CTimeoutsOutputReference) v
 	return nil
 }
 
-func validateNewApiManagementIdentityProviderAadb2CTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementIdentityProviderAadb2CTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

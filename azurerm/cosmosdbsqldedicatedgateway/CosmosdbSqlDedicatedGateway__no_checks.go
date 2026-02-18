@@ -119,7 +119,7 @@ func (j *jsiiProxy_CosmosdbSqlDedicatedGateway) validateSetInstanceSizeParameter
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlDedicatedGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CosmosdbSqlDedicatedGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

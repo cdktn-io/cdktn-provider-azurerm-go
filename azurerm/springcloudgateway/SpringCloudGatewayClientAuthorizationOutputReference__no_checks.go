@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudGatewayClientAuthorizationOutputReference) validat
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudGatewayClientAuthorizationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudGatewayClientAuthorizationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SpringCloudGatewayClientAuthorizationOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudGatewayClientAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudGatewayClientAuthorizationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SpringCloudGatewayClientAuthorizationOutputReference) validat
 	return nil
 }
 
-func validateNewSpringCloudGatewayClientAuthorizationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudGatewayClientAuthorizationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

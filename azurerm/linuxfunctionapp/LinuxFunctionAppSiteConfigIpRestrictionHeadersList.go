@@ -5,14 +5,14 @@ package linuxfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxFunctionAppSiteConfigIpRestrictionHeadersList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type LinuxFunctionAppSiteConfigIpRestrictionHeadersList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type LinuxFunctionAppSiteConfigIpRestrictionHeadersList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) LinuxFunctionAppSiteConfigIpRestrictionHeadersOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type LinuxFunctionAppSiteConfigIpRestrictionHeadersList interface {
 
 // The jsii proxy struct for LinuxFunctionAppSiteConfigIpRestrictionHeadersList
 type jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) WrapsSet(
 }
 
 
-func NewLinuxFunctionAppSiteConfigIpRestrictionHeadersList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LinuxFunctionAppSiteConfigIpRestrictionHeadersList {
+func NewLinuxFunctionAppSiteConfigIpRestrictionHeadersList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) LinuxFunctionAppSiteConfigIpRestrictionHeadersList {
 	_init_.Initialize()
 
 	if err := validateNewLinuxFunctionAppSiteConfigIpRestrictionHeadersListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewLinuxFunctionAppSiteConfigIpRestrictionHeadersList(terraformResource cdk
 	return &j
 }
 
-func NewLinuxFunctionAppSiteConfigIpRestrictionHeadersList_Override(l LinuxFunctionAppSiteConfigIpRestrictionHeadersList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewLinuxFunctionAppSiteConfigIpRestrictionHeadersList_Override(l LinuxFunctionAppSiteConfigIpRestrictionHeadersList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList)SetWrapsSe
 	)
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (l *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := l.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		l,
@@ -231,7 +231,7 @@ func (l *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) Get(index
 	return returns
 }
 
-func (l *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxFunctionAppSiteConfigIpRestrictionHeadersList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

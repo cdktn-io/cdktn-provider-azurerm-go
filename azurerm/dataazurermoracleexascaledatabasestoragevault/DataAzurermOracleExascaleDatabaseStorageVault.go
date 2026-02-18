@@ -5,19 +5,19 @@ package dataazurermoracleexascaledatabasestoragevault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracleexascaledatabasestoragevault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracleexascaledatabasestoragevault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault}.
 type DataAzurermOracleExascaleDatabaseStorageVault interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AdditionalFlashCachePercentage() *float64
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,9 +31,9 @@ type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	Description() *string
 	DisplayName() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -43,9 +43,9 @@ type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LifecycleDetails() *string
 	LifecycleState() *string
 	Location() *string
@@ -57,16 +57,16 @@ type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	Ocid() *string
 	OciUrl() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -81,7 +81,7 @@ type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,7 +97,7 @@ type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -123,7 +123,7 @@ type DataAzurermOracleExascaleDatabaseStorageVault interface {
 
 // The jsii proxy struct for DataAzurermOracleExascaleDatabaseStorageVault
 type jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) AdditionalFlashCachePercentage() *float64 {
@@ -136,8 +136,8 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) AdditionalFlas
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -196,8 +196,8 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) DisplayName() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -256,8 +256,8 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) IdInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -346,8 +346,8 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) OciUrl() *stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -386,8 +386,8 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) ResourceGroupN
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -515,7 +515,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetDependsOn(va
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -534,7 +534,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetId(val *stri
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -556,7 +556,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetName(val *st
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -575,14 +575,14 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault)SetResourceGrou
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermOracleExascaleDatabaseStorageVault resource upon running "cdktf plan <stack-name>".
-func DataAzurermOracleExascaleDatabaseStorageVault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermOracleExascaleDatabaseStorageVault resource upon running "cdktn plan <stack-name>".
+func DataAzurermOracleExascaleDatabaseStorageVault_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermOracleExascaleDatabaseStorageVault_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermOracleExascaleDatabaseStorageVault.DataAzurermOracleExascaleDatabaseStorageVault",
@@ -705,11 +705,11 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) GetAnyMapAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -833,11 +833,11 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) GetStringMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

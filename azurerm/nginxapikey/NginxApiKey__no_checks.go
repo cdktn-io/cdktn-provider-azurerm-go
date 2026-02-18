@@ -111,7 +111,7 @@ func (j *jsiiProxy_NginxApiKey) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_NginxApiKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NginxApiKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

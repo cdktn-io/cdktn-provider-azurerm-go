@@ -5,14 +5,14 @@ package dataazurermlinuxfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermlinuxfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermlinuxfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientId() *string
 	ClientSecretSettingName() *string
 	// the index of the complex object in a list.
@@ -40,15 +40,15 @@ type DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference interface 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference interface 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference interface 
 
 // The jsii proxy struct for DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference
 type jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) ClientId() *string {
@@ -172,8 +172,8 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputRefere
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,7 +183,7 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputRefere
 }
 
 
-func NewDataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference {
+func NewDataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -200,7 +200,7 @@ func NewDataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference(terrafo
 	return &j
 }
 
-func NewDataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference_Override(d DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference_Override(d DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -254,7 +254,7 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputRefere
 	)
 }
 
-func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -294,11 +294,11 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -422,8 +422,8 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -435,11 +435,11 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -451,7 +451,7 @@ func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputRefere
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermLinuxFunctionAppAuthSettingsV2GithubV2OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

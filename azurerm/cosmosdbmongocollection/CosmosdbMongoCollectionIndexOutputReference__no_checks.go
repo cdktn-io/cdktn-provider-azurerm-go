@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbMongoCollectionIndexOutputReference) validateInterpol
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbMongoCollectionIndexOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbMongoCollectionIndexOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_CosmosdbMongoCollectionIndexOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbMongoCollectionIndexOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbMongoCollectionIndexOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CosmosdbMongoCollectionIndexOutputReference) validateSetUniqu
 	return nil
 }
 
-func validateNewCosmosdbMongoCollectionIndexOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbMongoCollectionIndexOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

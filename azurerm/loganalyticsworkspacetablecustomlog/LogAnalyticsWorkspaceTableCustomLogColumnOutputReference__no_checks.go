@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) val
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLogColumnOutputReference) val
 	return nil
 }
 
-func validateNewLogAnalyticsWorkspaceTableCustomLogColumnOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLogAnalyticsWorkspaceTableCustomLogColumnOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

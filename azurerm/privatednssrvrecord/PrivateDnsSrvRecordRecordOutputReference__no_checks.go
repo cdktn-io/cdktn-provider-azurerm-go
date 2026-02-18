@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivateDnsSrvRecordRecordOutputReference) validateInterpolati
 	return nil
 }
 
-func (p *jsiiProxy_PrivateDnsSrvRecordRecordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateDnsSrvRecordRecordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PrivateDnsSrvRecordRecordOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsSrvRecordRecordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateDnsSrvRecordRecordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PrivateDnsSrvRecordRecordOutputReference) validateSetWeightPa
 	return nil
 }
 
-func validateNewPrivateDnsSrvRecordRecordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPrivateDnsSrvRecordRecordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

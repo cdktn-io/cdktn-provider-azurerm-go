@@ -47,7 +47,7 @@ func (r *jsiiProxy_RoleManagementPolicyActiveAssignmentRulesOutputReference) val
 	return nil
 }
 
-func (r *jsiiProxy_RoleManagementPolicyActiveAssignmentRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleManagementPolicyActiveAssignmentRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_RoleManagementPolicyActiveAssignmentRulesOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_RoleManagementPolicyActiveAssignmentRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleManagementPolicyActiveAssignmentRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewRoleManagementPolicyActiveAssignmentRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRoleManagementPolicyActiveAssignmentRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservatio
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservatio
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelAlertRuleAnomalyDuplicatePrioritizedExcludeObservationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

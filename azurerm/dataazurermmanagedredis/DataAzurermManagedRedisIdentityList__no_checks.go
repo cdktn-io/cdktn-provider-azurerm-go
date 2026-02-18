@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermManagedRedisIdentityList) validateGetParameters(in
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermManagedRedisIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermManagedRedisIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisIdentityList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermManagedRedisIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermManagedRedisIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisIdentityList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewDataAzurermManagedRedisIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermManagedRedisIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

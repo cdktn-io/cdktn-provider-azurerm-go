@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualDesktopScalingPlanScheduleList) validateGetParameters(
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopScalingPlanScheduleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopScalingPlanScheduleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanScheduleList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopScalingPlanScheduleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopScalingPlanScheduleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanScheduleList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewVirtualDesktopScalingPlanScheduleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualDesktopScalingPlanScheduleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermHealthcareDicomServiceStorageOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareDicomServiceStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermHealthcareDicomServiceStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermHealthcareDicomServiceStorageOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareDicomServiceStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermHealthcareDicomServiceStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermHealthcareDicomServiceStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermHealthcareDicomServiceStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataFactoryCustomerManagedKey) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryCustomerManagedKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryCustomerManagedKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

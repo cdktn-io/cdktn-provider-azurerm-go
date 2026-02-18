@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApiManagementBackendServiceFabricClusterOutputReference) vali
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementBackendServiceFabricClusterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementBackendServiceFabricClusterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_ApiManagementBackendServiceFabricClusterOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementBackendServiceFabricClusterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementBackendServiceFabricClusterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementBackendServiceFabricClusterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementBackendServiceFabricClusterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

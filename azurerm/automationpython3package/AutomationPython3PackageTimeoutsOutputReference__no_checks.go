@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationPython3PackageTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_AutomationPython3PackageTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationPython3PackageTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationPython3PackageTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_AutomationPython3PackageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationPython3PackageTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AutomationPython3PackageTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewAutomationPython3PackageTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationPython3PackageTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

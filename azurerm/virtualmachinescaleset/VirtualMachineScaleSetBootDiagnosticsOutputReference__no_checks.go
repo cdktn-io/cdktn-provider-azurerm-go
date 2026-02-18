@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetBootDiagnosticsOutputReference) validat
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetBootDiagnosticsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetBootDiagnosticsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualMachineScaleSetBootDiagnosticsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetBootDiagnosticsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetBootDiagnosticsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetBootDiagnosticsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineScaleSetBootDiagnosticsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

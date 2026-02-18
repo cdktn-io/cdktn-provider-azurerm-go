@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) validateIn
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningInferenceClusterSslOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMachineLearningInferenceClusterSslOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningInferenceClusterSslOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

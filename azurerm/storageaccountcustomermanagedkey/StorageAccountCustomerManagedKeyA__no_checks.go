@@ -131,7 +131,7 @@ func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetKeyVersionParam
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageAccountCustomerManagedKeyA) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -51,7 +51,7 @@ func (k *jsiiProxy_KubernetesFluxConfigurationKustomizationsOutputReference) val
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationKustomizationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFluxConfigurationKustomizationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_KubernetesFluxConfigurationKustomizationsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFluxConfigurationKustomizationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFluxConfigurationKustomizationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_KubernetesFluxConfigurationKustomizationsOutputReference) val
 	return nil
 }
 
-func validateNewKubernetesFluxConfigurationKustomizationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesFluxConfigurationKustomizationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermDigitalTwinsInstance) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDigitalTwinsInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDigitalTwinsInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

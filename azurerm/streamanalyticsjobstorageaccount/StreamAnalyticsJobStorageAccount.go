@@ -5,21 +5,21 @@ package streamanalyticsjobstorageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsjobstorageaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsjobstorageaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/stream_analytics_job_storage_account azurerm_stream_analytics_job_storage_account}.
 type StreamAnalyticsJobStorageAccount interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthenticationMode() *string
 	SetAuthenticationMode(val *string)
 	AuthenticationModeInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type StreamAnalyticsJobStorageAccount interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,15 +46,15 @@ type StreamAnalyticsJobStorageAccount interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type StreamAnalyticsJobStorageAccount interface {
 	SetStreamAnalyticsJobId(val *string)
 	StreamAnalyticsJobIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type StreamAnalyticsJobStorageAccount interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type StreamAnalyticsJobStorageAccount interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -143,7 +143,7 @@ type StreamAnalyticsJobStorageAccount interface {
 
 // The jsii proxy struct for StreamAnalyticsJobStorageAccount
 type jsiiProxy_StreamAnalyticsJobStorageAccount struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) AuthenticationMode() *string {
@@ -166,8 +166,8 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) AuthenticationModeInput() *
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -216,8 +216,8 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -266,8 +266,8 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -286,8 +286,8 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -376,8 +376,8 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) StreamAnalyticsJobIdInput()
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -497,7 +497,7 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -516,7 +516,7 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -527,7 +527,7 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetLifecycle(val *cdktf.Terr
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -579,14 +579,14 @@ func (j *jsiiProxy_StreamAnalyticsJobStorageAccount)SetStreamAnalyticsJobId(val 
 	)
 }
 
-// Generates CDKTF code for importing a StreamAnalyticsJobStorageAccount resource upon running "cdktf plan <stack-name>".
-func StreamAnalyticsJobStorageAccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a StreamAnalyticsJobStorageAccount resource upon running "cdktn plan <stack-name>".
+func StreamAnalyticsJobStorageAccount_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateStreamAnalyticsJobStorageAccount_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.streamAnalyticsJobStorageAccount.StreamAnalyticsJobStorageAccount",
@@ -720,11 +720,11 @@ func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -861,7 +861,7 @@ func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) HasResourceMove() interface
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -872,11 +872,11 @@ func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) ImportFrom(id *string, prov
 	)
 }
 
-func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

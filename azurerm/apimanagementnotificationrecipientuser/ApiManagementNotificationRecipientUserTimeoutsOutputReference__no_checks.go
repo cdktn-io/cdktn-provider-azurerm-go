@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementNotificationRecipientUserTimeoutsOutputReference
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementNotificationRecipientUserTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementNotificationRecipientUserTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ApiManagementNotificationRecipientUserTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementNotificationRecipientUserTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementNotificationRecipientUserTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementNotificationRecipientUserTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementNotificationRecipientUserTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

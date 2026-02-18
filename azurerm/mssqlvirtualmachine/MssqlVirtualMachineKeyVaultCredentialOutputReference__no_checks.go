@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineKeyVaultCredentialOutputReference) validat
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineKeyVaultCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineKeyVaultCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_MssqlVirtualMachineKeyVaultCredentialOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineKeyVaultCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineKeyVaultCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlVirtualMachineKeyVaultCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualMachineKeyVaultCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

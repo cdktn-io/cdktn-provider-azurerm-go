@@ -127,7 +127,7 @@ func (j *jsiiProxy_CosmosdbCassandraTable) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CosmosdbCassandraTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

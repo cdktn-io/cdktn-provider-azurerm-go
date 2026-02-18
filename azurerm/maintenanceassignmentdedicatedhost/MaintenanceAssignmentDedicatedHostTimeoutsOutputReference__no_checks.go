@@ -47,7 +47,7 @@ func (m *jsiiProxy_MaintenanceAssignmentDedicatedHostTimeoutsOutputReference) va
 	return nil
 }
 
-func (m *jsiiProxy_MaintenanceAssignmentDedicatedHostTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MaintenanceAssignmentDedicatedHostTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MaintenanceAssignmentDedicatedHostTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentDedicatedHostTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MaintenanceAssignmentDedicatedHostTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMaintenanceAssignmentDedicatedHostTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMaintenanceAssignmentDedicatedHostTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

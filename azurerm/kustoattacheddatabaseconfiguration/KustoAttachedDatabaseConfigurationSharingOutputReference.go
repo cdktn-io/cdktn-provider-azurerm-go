@@ -5,14 +5,14 @@ package kustoattacheddatabaseconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kustoattacheddatabaseconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kustoattacheddatabaseconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KustoAttachedDatabaseConfigurationSharingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -55,15 +55,15 @@ type KustoAttachedDatabaseConfigurationSharingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -79,9 +79,9 @@ type KustoAttachedDatabaseConfigurationSharingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExternalTablesToExclude()
 	ResetExternalTablesToInclude()
 	ResetMaterializedViewsToExclude()
@@ -90,7 +90,7 @@ type KustoAttachedDatabaseConfigurationSharingOutputReference interface {
 	ResetTablesToInclude()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type KustoAttachedDatabaseConfigurationSharingOutputReference interface {
 
 // The jsii proxy struct for KustoAttachedDatabaseConfigurationSharingOutputReference
 type jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) ComplexObjectIndex() interface{} {
@@ -283,8 +283,8 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -294,7 +294,7 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Ter
 }
 
 
-func NewKustoAttachedDatabaseConfigurationSharingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KustoAttachedDatabaseConfigurationSharingOutputReference {
+func NewKustoAttachedDatabaseConfigurationSharingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KustoAttachedDatabaseConfigurationSharingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKustoAttachedDatabaseConfigurationSharingOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -311,7 +311,7 @@ func NewKustoAttachedDatabaseConfigurationSharingOutputReference(terraformResour
 	return &j
 }
 
-func NewKustoAttachedDatabaseConfigurationSharingOutputReference_Override(k KustoAttachedDatabaseConfigurationSharingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKustoAttachedDatabaseConfigurationSharingOutputReference_Override(k KustoAttachedDatabaseConfigurationSharingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -431,7 +431,7 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -471,11 +471,11 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Get
 	return returns
 }
 
-func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -599,8 +599,8 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Get
 	return returns
 }
 
-func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -612,11 +612,11 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Int
 	return returns
 }
 
-func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -676,7 +676,7 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Res
 	)
 }
 
-func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

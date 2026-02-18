@@ -127,7 +127,7 @@ func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroup) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroup) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitorAlertProcessingRuleActionGroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

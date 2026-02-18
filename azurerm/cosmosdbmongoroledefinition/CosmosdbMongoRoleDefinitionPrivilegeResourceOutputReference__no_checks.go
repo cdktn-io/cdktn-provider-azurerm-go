@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeResourceOutputReference) 
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeResourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeResourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeResourceOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeResourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbMongoRoleDefinitionPrivilegeResourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbMongoRoleDefinitionPrivilegeResourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbMongoRoleDefinitionPrivilegeResourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

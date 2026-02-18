@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingProfileList) validateGetParameters(ind
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingProfileList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingProfileList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingProfileList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingProfileList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingProfileListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorAutoscaleSettingProfileListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

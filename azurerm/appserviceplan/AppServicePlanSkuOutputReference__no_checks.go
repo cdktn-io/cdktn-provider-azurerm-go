@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServicePlanSkuOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (a *jsiiProxy_AppServicePlanSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServicePlanSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AppServicePlanSkuOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_AppServicePlanSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServicePlanSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AppServicePlanSkuOutputReference) validateSetTierParameters(v
 	return nil
 }
 
-func validateNewAppServicePlanSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServicePlanSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

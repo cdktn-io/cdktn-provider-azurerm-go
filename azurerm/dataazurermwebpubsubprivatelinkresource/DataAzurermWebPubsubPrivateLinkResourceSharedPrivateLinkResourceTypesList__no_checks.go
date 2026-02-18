@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResou
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResourceTypesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResourceTypesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResou
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResourceTypesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResourceTypesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResou
 	return nil
 }
 
-func validateNewDataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResourceTypesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermWebPubsubPrivateLinkResourceSharedPrivateLinkResourceTypesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

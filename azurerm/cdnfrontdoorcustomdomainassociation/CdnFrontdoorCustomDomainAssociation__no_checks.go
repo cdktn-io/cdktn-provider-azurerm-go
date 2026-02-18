@@ -115,7 +115,7 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

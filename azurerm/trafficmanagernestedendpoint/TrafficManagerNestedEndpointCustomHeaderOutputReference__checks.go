@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (t *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (t *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) vali
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -168,7 +168,7 @@ func (j *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) vali
 
 func (j *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *TrafficManagerNestedEndpointCustomHeader:
 		val := val.(*TrafficManagerNestedEndpointCustomHeader)
@@ -183,7 +183,7 @@ func (j *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) vali
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *TrafficManagerNestedEndpointCustomHeader; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *TrafficManagerNestedEndpointCustomHeader; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -206,7 +206,7 @@ func (j *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -222,7 +222,7 @@ func (j *jsiiProxy_TrafficManagerNestedEndpointCustomHeaderOutputReference) vali
 	return nil
 }
 
-func validateNewTrafficManagerNestedEndpointCustomHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewTrafficManagerNestedEndpointCustomHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

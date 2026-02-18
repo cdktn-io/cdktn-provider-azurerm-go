@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubscriptionCostManagementViewPivotOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementViewPivotOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionCostManagementViewPivotOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewPivotOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementViewPivotOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionCostManagementViewPivotOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SubscriptionCostManagementViewPivotOutputReference) validateS
 	return nil
 }
 
-func validateNewSubscriptionCostManagementViewPivotOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSubscriptionCostManagementViewPivotOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

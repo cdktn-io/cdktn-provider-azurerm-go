@@ -119,7 +119,7 @@ func (j *jsiiProxy_SpringCloudCertificate) validateSetKeyVaultCertificateIdParam
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudCertificate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudCertificate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

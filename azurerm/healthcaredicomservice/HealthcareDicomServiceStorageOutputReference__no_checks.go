@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareDicomServiceStorageOutputReference) validateInterpo
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceStorageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareDicomServiceStorageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_HealthcareDicomServiceStorageOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDicomServiceStorageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareDicomServiceStorageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHealthcareDicomServiceStorageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareDicomServiceStorageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

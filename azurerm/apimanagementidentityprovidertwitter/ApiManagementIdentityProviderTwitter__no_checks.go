@@ -119,7 +119,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderTwitter) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementIdentityProviderTwitter) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementIdentityProviderTwitter) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

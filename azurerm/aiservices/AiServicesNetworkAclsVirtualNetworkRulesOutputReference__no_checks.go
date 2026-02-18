@@ -47,7 +47,7 @@ func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesOutputReference) vali
 	return nil
 }
 
-func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AiServicesNetworkAclsVirtualNetworkRulesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAiServicesNetworkAclsVirtualNetworkRulesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAiServicesNetworkAclsVirtualNetworkRulesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

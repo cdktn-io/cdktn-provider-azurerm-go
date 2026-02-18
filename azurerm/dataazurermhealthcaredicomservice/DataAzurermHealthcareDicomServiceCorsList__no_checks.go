@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermHealthcareDicomServiceCorsList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareDicomServiceCorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermHealthcareDicomServiceCorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermHealthcareDicomServiceCorsList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareDicomServiceCorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermHealthcareDicomServiceCorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermHealthcareDicomServiceCorsList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAzurermHealthcareDicomServiceCorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermHealthcareDicomServiceCorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

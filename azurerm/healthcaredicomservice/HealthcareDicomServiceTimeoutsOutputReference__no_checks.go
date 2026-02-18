@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareDicomServiceTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareDicomServiceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareDicomServiceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HealthcareDicomServiceTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareDicomServiceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareDicomServiceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_HealthcareDicomServiceTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewHealthcareDicomServiceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareDicomServiceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

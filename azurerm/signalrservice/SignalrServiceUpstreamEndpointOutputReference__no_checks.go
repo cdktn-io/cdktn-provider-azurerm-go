@@ -47,7 +47,7 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointOutputReference) validateSetUse
 	return nil
 }
 
-func validateNewSignalrServiceUpstreamEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSignalrServiceUpstreamEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

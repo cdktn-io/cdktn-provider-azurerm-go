@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryDatasetJsonHttpServerLocationOutputReference) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetJsonHttpServerLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetJsonHttpServerLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_DataFactoryDatasetJsonHttpServerLocationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetJsonHttpServerLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetJsonHttpServerLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryDatasetJsonHttpServerLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryDatasetJsonHttpServerLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

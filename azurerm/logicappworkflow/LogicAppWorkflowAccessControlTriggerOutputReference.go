@@ -5,14 +5,14 @@ package logicappworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappworkflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/logicappworkflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LogicAppWorkflowAccessControlTriggerOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedCallerIpAddressRange() *[]*string
 	SetAllowedCallerIpAddressRange(val *[]*string)
 	AllowedCallerIpAddressRangeInput() *[]*string
@@ -42,15 +42,15 @@ type LogicAppWorkflowAccessControlTriggerOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,15 +66,15 @@ type LogicAppWorkflowAccessControlTriggerOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutOpenAuthenticationPolicy(value interface{})
 	ResetAllowedCallerIpAddressRange()
 	ResetOpenAuthenticationPolicy()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type LogicAppWorkflowAccessControlTriggerOutputReference interface {
 
 // The jsii proxy struct for LogicAppWorkflowAccessControlTriggerOutputReference
 type jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) AllowedCallerIpAddressRange() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) Terrafor
 }
 
 
-func NewLogicAppWorkflowAccessControlTriggerOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LogicAppWorkflowAccessControlTriggerOutputReference {
+func NewLogicAppWorkflowAccessControlTriggerOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LogicAppWorkflowAccessControlTriggerOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLogicAppWorkflowAccessControlTriggerOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewLogicAppWorkflowAccessControlTriggerOutputReference(terraformResource cd
 	return &j
 }
 
-func NewLogicAppWorkflowAccessControlTriggerOutputReference_Override(l LogicAppWorkflowAccessControlTriggerOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLogicAppWorkflowAccessControlTriggerOutputReference_Override(l LogicAppWorkflowAccessControlTriggerOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -320,11 +320,11 @@ func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) GetAnyMa
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -448,8 +448,8 @@ func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) GetStrin
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -461,11 +461,11 @@ func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) Interpol
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -504,7 +504,7 @@ func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) ResetOpe
 	)
 }
 
-func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LogicAppWorkflowAccessControlTriggerOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

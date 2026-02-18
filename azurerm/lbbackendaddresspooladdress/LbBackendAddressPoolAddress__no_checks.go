@@ -119,7 +119,7 @@ func (j *jsiiProxy_LbBackendAddressPoolAddress) validateSetIpAddressParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_LbBackendAddressPoolAddress) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbBackendAddressPoolAddress) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

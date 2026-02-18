@@ -5,21 +5,21 @@ package dataazurermautomationrunbook
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermautomationrunbook/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermautomationrunbook/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/automation_runbook azurerm_automation_runbook}.
 type DataAzurermAutomationRunbook interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AutomationAccountName() *string
 	SetAutomationAccountName(val *string)
 	AutomationAccountNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	Content() *string
@@ -33,9 +33,9 @@ type DataAzurermAutomationRunbook interface {
 	SetDependsOn(val *[]*string)
 	Description() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -44,31 +44,31 @@ type DataAzurermAutomationRunbook interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	LogActivityTraceLevel() *float64
-	LogProgress() cdktf.IResolvable
-	LogVerbose() cdktf.IResolvable
+	LogProgress() cdktn.IResolvable
+	LogVerbose() cdktn.IResolvable
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	RunbookType() *string
-	Tags() cdktf.StringMap
+	Tags() cdktn.StringMap
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type DataAzurermAutomationRunbook interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -96,7 +96,7 @@ type DataAzurermAutomationRunbook interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -122,7 +122,7 @@ type DataAzurermAutomationRunbook interface {
 
 // The jsii proxy struct for DataAzurermAutomationRunbook
 type jsiiProxy_DataAzurermAutomationRunbook struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermAutomationRunbook) AutomationAccountName() *string {
@@ -145,8 +145,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) AutomationAccountNameInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermAutomationRunbook) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) Description() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermAutomationRunbook) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -255,8 +255,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermAutomationRunbook) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -285,8 +285,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) LogActivityTraceLevel() *float6
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) LogProgress() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermAutomationRunbook) LogProgress() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"logProgress",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) LogProgress() cdktf.IResolvable
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) LogVerbose() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermAutomationRunbook) LogVerbose() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"logVerbose",
@@ -335,8 +335,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermAutomationRunbook) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -385,8 +385,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) RunbookType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) Tags() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_DataAzurermAutomationRunbook) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"tags",
@@ -395,8 +395,8 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook) Tags() cdktf.StringMap {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermAutomationRunbook) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -505,7 +505,7 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermAutomationRunbook)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -524,7 +524,7 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermAutomationRunbook)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -546,7 +546,7 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermAutomationRunbook)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermAutomationRunbook)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -565,14 +565,14 @@ func (j *jsiiProxy_DataAzurermAutomationRunbook)SetResourceGroupName(val *string
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermAutomationRunbook resource upon running "cdktf plan <stack-name>".
-func DataAzurermAutomationRunbook_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermAutomationRunbook resource upon running "cdktn plan <stack-name>".
+func DataAzurermAutomationRunbook_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermAutomationRunbook_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermAutomationRunbook.DataAzurermAutomationRunbook",
@@ -695,11 +695,11 @@ func (d *jsiiProxy_DataAzurermAutomationRunbook) GetAnyMapAttribute(terraformAtt
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermAutomationRunbook) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermAutomationRunbook) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -823,11 +823,11 @@ func (d *jsiiProxy_DataAzurermAutomationRunbook) GetStringMapAttribute(terraform
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermAutomationRunbook) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermAutomationRunbook) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

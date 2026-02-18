@@ -5,18 +5,18 @@ package dataazurermeventhubauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermeventhubauthorizationrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermeventhubauthorizationrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/eventhub_authorization_rule azurerm_eventhub_authorization_rule}.
 type DataAzurermEventhubAuthorizationRule interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -31,9 +31,9 @@ type DataAzurermEventhubAuthorizationRule interface {
 	SetEventhubName(val *string)
 	EventhubNameInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -42,9 +42,9 @@ type DataAzurermEventhubAuthorizationRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Listen() interface{}
 	SetListen(val interface{})
 	ListenInput() interface{}
@@ -63,9 +63,9 @@ type DataAzurermEventhubAuthorizationRule interface {
 	PrimaryConnectionStringAlias() *string
 	PrimaryKey() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -78,7 +78,7 @@ type DataAzurermEventhubAuthorizationRule interface {
 	SetSend(val interface{})
 	SendInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type DataAzurermEventhubAuthorizationRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -106,7 +106,7 @@ type DataAzurermEventhubAuthorizationRule interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -135,11 +135,11 @@ type DataAzurermEventhubAuthorizationRule interface {
 
 // The jsii proxy struct for DataAzurermEventhubAuthorizationRule
 type jsiiProxy_DataAzurermEventhubAuthorizationRule struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -198,8 +198,8 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) EventhubNameInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -248,8 +248,8 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -378,8 +378,8 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) PrimaryKey() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -468,8 +468,8 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) SendInput() interface{}
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -578,7 +578,7 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetEventhubName(val *str
 	)
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -597,7 +597,7 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -652,7 +652,7 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetNamespaceName(val *st
 	)
 }
 
-func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -682,14 +682,14 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule)SetSend(val interface{})
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermEventhubAuthorizationRule resource upon running "cdktf plan <stack-name>".
-func DataAzurermEventhubAuthorizationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermEventhubAuthorizationRule resource upon running "cdktn plan <stack-name>".
+func DataAzurermEventhubAuthorizationRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermEventhubAuthorizationRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermEventhubAuthorizationRule.DataAzurermEventhubAuthorizationRule",
@@ -812,11 +812,11 @@ func (d *jsiiProxy_DataAzurermEventhubAuthorizationRule) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermEventhubAuthorizationRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermEventhubAuthorizationRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -940,11 +940,11 @@ func (d *jsiiProxy_DataAzurermEventhubAuthorizationRule) GetStringMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermEventhubAuthorizationRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermEventhubAuthorizationRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

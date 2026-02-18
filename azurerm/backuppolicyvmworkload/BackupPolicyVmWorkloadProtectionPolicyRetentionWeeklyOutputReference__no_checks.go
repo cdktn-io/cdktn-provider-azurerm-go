@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputRe
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputRe
 	return nil
 }
 
-func validateNewBackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPolicyVmWorkloadProtectionPolicyRetentionWeeklyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

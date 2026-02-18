@@ -15,7 +15,7 @@ func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleList) validateGetParameters(
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorFirewallPolicyCustomRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_FrontdoorFirewallPolicyCustomRuleList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewFrontdoorFirewallPolicyCustomRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorFirewallPolicyCustomRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

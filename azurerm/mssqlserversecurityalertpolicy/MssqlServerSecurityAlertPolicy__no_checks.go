@@ -119,7 +119,7 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

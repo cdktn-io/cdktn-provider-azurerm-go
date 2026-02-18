@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermWebPubsubPrivateLinkResourceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

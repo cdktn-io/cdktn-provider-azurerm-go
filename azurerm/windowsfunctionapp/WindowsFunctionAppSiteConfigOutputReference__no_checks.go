@@ -67,7 +67,7 @@ func (w *jsiiProxy_WindowsFunctionAppSiteConfigOutputReference) validatePutScmIp
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSiteConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppSiteConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -183,7 +183,7 @@ func (j *jsiiProxy_WindowsFunctionAppSiteConfigOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppSiteConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -203,7 +203,7 @@ func (j *jsiiProxy_WindowsFunctionAppSiteConfigOutputReference) validateSetWorke
 	return nil
 }
 
-func validateNewWindowsFunctionAppSiteConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppSiteConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

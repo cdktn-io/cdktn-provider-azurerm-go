@@ -5,14 +5,14 @@ package kubernetesfluxconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetesfluxconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetesfluxconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KubernetesFluxConfigurationBlobStorageOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AccountKey() *string
 	SetAccountKey(val *string)
 	AccountKeyInput() *string
@@ -56,9 +56,9 @@ type KubernetesFluxConfigurationBlobStorageOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeoutInSeconds() *float64
 	SetTimeoutInSeconds(val *float64)
 	TimeoutInSecondsInput() *float64
@@ -67,7 +67,7 @@ type KubernetesFluxConfigurationBlobStorageOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -83,9 +83,9 @@ type KubernetesFluxConfigurationBlobStorageOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutManagedIdentity(value *KubernetesFluxConfigurationBlobStorageManagedIdentity)
 	PutServicePrincipal(value *KubernetesFluxConfigurationBlobStorageServicePrincipal)
 	ResetAccountKey()
@@ -97,7 +97,7 @@ type KubernetesFluxConfigurationBlobStorageOutputReference interface {
 	ResetTimeoutInSeconds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -107,7 +107,7 @@ type KubernetesFluxConfigurationBlobStorageOutputReference interface {
 
 // The jsii proxy struct for KubernetesFluxConfigurationBlobStorageOutputReference
 type jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) AccountKey() *string {
@@ -310,8 +310,8 @@ func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -341,7 +341,7 @@ func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) Timeou
 }
 
 
-func NewKubernetesFluxConfigurationBlobStorageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KubernetesFluxConfigurationBlobStorageOutputReference {
+func NewKubernetesFluxConfigurationBlobStorageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KubernetesFluxConfigurationBlobStorageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKubernetesFluxConfigurationBlobStorageOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -358,7 +358,7 @@ func NewKubernetesFluxConfigurationBlobStorageOutputReference(terraformResource 
 	return &j
 }
 
-func NewKubernetesFluxConfigurationBlobStorageOutputReference_Override(k KubernetesFluxConfigurationBlobStorageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKubernetesFluxConfigurationBlobStorageOutputReference_Override(k KubernetesFluxConfigurationBlobStorageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -467,7 +467,7 @@ func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -518,11 +518,11 @@ func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) GetAny
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -646,8 +646,8 @@ func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) GetStr
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -659,11 +659,11 @@ func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) Interp
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -753,7 +753,7 @@ func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) ResetT
 	)
 }
 
-func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KubernetesFluxConfigurationBlobStorageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

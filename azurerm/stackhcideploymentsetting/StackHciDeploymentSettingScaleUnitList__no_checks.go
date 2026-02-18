@@ -15,7 +15,7 @@ func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitList) validateGetParameters
 	return nil
 }
 
-func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StackHciDeploymentSettingScaleUnitList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StackHciDeploymentSettingScaleUnitList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewStackHciDeploymentSettingScaleUnitListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStackHciDeploymentSettingScaleUnitListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

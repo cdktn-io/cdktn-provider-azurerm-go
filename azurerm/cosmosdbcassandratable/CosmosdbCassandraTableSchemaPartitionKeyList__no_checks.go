@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaPartitionKeyList) validateGetPara
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaPartitionKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaPartitionKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaPartitionKeyList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTableSchemaPartitionKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbCassandraTableSchemaPartitionKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaPartitionKeyList) validateSetWrap
 	return nil
 }
 
-func validateNewCosmosdbCassandraTableSchemaPartitionKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbCassandraTableSchemaPartitionKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

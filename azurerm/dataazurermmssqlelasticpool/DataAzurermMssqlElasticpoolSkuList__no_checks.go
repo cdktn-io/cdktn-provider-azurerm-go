@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMssqlElasticpoolSkuList) validateGetParameters(ind
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMssqlElasticpoolSkuList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMssqlElasticpoolSkuList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpoolSkuList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMssqlElasticpoolSkuList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMssqlElasticpoolSkuList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMssqlElasticpoolSkuList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewDataAzurermMssqlElasticpoolSkuListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMssqlElasticpoolSkuListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

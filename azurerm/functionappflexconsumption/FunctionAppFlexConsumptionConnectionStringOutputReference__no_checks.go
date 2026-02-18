@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringOutputReference) va
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionConnectionStringOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionConnectionStringOutputReference) va
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionConnectionStringOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFunctionAppFlexConsumptionConnectionStringOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

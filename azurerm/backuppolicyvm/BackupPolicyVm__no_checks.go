@@ -139,7 +139,7 @@ func (j *jsiiProxy_BackupPolicyVm) validateSetInstantRestoreRetentionDaysParamet
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyVm) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BackupPolicyVm) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedRedisIdentityOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (m *jsiiProxy_ManagedRedisIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedRedisIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ManagedRedisIdentityOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ManagedRedisIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedRedisIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ManagedRedisIdentityOutputReference) validateSetTypeParameter
 	return nil
 }
 
-func validateNewManagedRedisIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagedRedisIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

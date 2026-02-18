@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoringTimeoutsOut
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoringTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoringTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoringTimeoutsOut
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoringTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoringTimeoutsOut
 	return nil
 }
 
-func validateNewSpringCloudElasticApplicationPerformanceMonitoringTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudElasticApplicationPerformanceMonitoringTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

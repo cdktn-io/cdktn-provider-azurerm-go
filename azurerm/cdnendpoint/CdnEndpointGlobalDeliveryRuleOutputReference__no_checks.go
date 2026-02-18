@@ -71,7 +71,7 @@ func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleOutputReference) validatePutUrlR
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointGlobalDeliveryRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,11 +91,11 @@ func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointGlobalDeliveryRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnEndpointGlobalDeliveryRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnEndpointGlobalDeliveryRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package windowswebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppAuthSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDirectory() WindowsWebAppAuthSettingsActiveDirectoryOutputReference
 	ActiveDirectoryInput() *WindowsWebAppAuthSettingsActiveDirectory
 	AdditionalLoginParameters() *map[string]*string
@@ -65,9 +65,9 @@ type WindowsWebAppAuthSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenRefreshExtensionHours() *float64
 	SetTokenRefreshExtensionHours(val *float64)
 	TokenRefreshExtensionHoursInput() *float64
@@ -84,7 +84,7 @@ type WindowsWebAppAuthSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type WindowsWebAppAuthSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutActiveDirectory(value *WindowsWebAppAuthSettingsActiveDirectory)
 	PutFacebook(value *WindowsWebAppAuthSettingsFacebook)
 	PutGithub(value *WindowsWebAppAuthSettingsGithub)
@@ -125,7 +125,7 @@ type WindowsWebAppAuthSettingsOutputReference interface {
 	ResetUnauthenticatedClientAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -135,7 +135,7 @@ type WindowsWebAppAuthSettingsOutputReference interface {
 
 // The jsii proxy struct for WindowsWebAppAuthSettingsOutputReference
 type jsiiProxy_WindowsWebAppAuthSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) ActiveDirectory() WindowsWebAppAuthSettingsActiveDirectoryOutputReference {
@@ -418,8 +418,8 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -509,7 +509,7 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) UnauthenticatedClie
 }
 
 
-func NewWindowsWebAppAuthSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsWebAppAuthSettingsOutputReference {
+func NewWindowsWebAppAuthSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsWebAppAuthSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppAuthSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -526,7 +526,7 @@ func NewWindowsWebAppAuthSettingsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewWindowsWebAppAuthSettingsOutputReference_Override(w WindowsWebAppAuthSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsWebAppAuthSettingsOutputReference_Override(w WindowsWebAppAuthSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -646,7 +646,7 @@ func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppAuthSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -719,11 +719,11 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -847,8 +847,8 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -860,11 +860,11 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -1054,7 +1054,7 @@ func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) ResetUnauthenticate
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppAuthSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

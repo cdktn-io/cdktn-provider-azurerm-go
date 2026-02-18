@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDynatraceMonitorEnvironmentPropertiesEnvironmentInfoOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

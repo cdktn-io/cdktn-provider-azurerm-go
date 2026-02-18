@@ -5,14 +5,14 @@ package dashboardgrafana
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dashboardgrafana/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dashboardgrafana/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DashboardGrafanaSmtpOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -55,9 +55,9 @@ type DashboardGrafanaSmtpOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	User() *string
 	SetUser(val *string)
 	UserInput() *string
@@ -69,7 +69,7 @@ type DashboardGrafanaSmtpOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -85,15 +85,15 @@ type DashboardGrafanaSmtpOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnabled()
 	ResetFromName()
 	ResetVerificationSkipEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -103,7 +103,7 @@ type DashboardGrafanaSmtpOutputReference interface {
 
 // The jsii proxy struct for DashboardGrafanaSmtpOutputReference
 type jsiiProxy_DashboardGrafanaSmtpOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) ComplexObjectIndex() interface{} {
@@ -286,8 +286,8 @@ func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) TerraformAttribute() *st
 	return returns
 }
 
-func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -337,7 +337,7 @@ func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference) VerificationSkipEnabledI
 }
 
 
-func NewDashboardGrafanaSmtpOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DashboardGrafanaSmtpOutputReference {
+func NewDashboardGrafanaSmtpOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DashboardGrafanaSmtpOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDashboardGrafanaSmtpOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -354,7 +354,7 @@ func NewDashboardGrafanaSmtpOutputReference(terraformResource cdktf.IInterpolati
 	return &j
 }
 
-func NewDashboardGrafanaSmtpOutputReference_Override(d DashboardGrafanaSmtpOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDashboardGrafanaSmtpOutputReference_Override(d DashboardGrafanaSmtpOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -474,7 +474,7 @@ func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference)SetTerraformAttribute(val
 	)
 }
 
-func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DashboardGrafanaSmtpOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -536,11 +536,11 @@ func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) GetAnyMapAttribute(terra
 	return returns
 }
 
-func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -664,8 +664,8 @@ func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) GetStringMapAttribute(te
 	return returns
 }
 
-func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -677,11 +677,11 @@ func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) InterpolationAsList() cd
 	return returns
 }
 
-func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -717,7 +717,7 @@ func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) ResetVerificationSkipEna
 	)
 }
 
-func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DashboardGrafanaSmtpOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

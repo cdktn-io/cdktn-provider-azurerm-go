@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventhubNamespaceAuthorizationRuleTimeoutsOutputReference) va
 	return nil
 }
 
-func (e *jsiiProxy_EventhubNamespaceAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventhubNamespaceAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EventhubNamespaceAuthorizationRuleTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_EventhubNamespaceAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventhubNamespaceAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_EventhubNamespaceAuthorizationRuleTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewEventhubNamespaceAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventhubNamespaceAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

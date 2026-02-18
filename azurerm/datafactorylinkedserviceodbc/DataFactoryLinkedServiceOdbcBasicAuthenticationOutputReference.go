@@ -5,14 +5,14 @@ package datafactorylinkedserviceodbc
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedserviceodbc/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorylinkedserviceodbc/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	SetUsername(val *string)
 	UsernameInput() *string
@@ -51,7 +51,7 @@ type DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference interface {
 
 // The jsii proxy struct for DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference
 type jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 }
 
 
-func NewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference {
+func NewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference(terraform
 	return &j
 }
 
-func NewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference_Override(d DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference_Override(d DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -457,8 +457,8 @@ func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -470,11 +470,11 @@ func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -486,7 +486,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReferenc
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataFactoryLinkedServiceOdbcBasicAuthenticationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

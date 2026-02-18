@@ -47,7 +47,7 @@ func (m *jsiiProxy_MysqlFlexibleServerMaintenanceWindowOutputReference) validate
 	return nil
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerMaintenanceWindowOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MysqlFlexibleServerMaintenanceWindowOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MysqlFlexibleServerMaintenanceWindowOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MysqlFlexibleServerMaintenanceWindowOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMysqlFlexibleServerMaintenanceWindowOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMysqlFlexibleServerMaintenanceWindowOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

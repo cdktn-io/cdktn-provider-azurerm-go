@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTa
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTagList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTa
 	return nil
 }
 
-func validateNewDataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTagListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermStorageManagementPolicyRuleFiltersMatchBlobIndexTagListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

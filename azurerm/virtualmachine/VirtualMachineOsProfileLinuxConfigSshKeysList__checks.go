@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateGetPar
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateResolv
 
 func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*VirtualMachineOsProfileLinuxConfigSshKeys:
 		val := val.(*[]*VirtualMachineOsProfileLinuxConfigSshKeys)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetInt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*VirtualMachineOsProfileLinuxConfigSshKeys; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*VirtualMachineOsProfileLinuxConfigSshKeys; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetWra
 	return nil
 }
 
-func validateNewVirtualMachineOsProfileLinuxConfigSshKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineOsProfileLinuxConfigSshKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package springcloudgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpringCloudGatewayLocalResponseCachePerInstanceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type SpringCloudGatewayLocalResponseCachePerInstanceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TimeToLive() *string
 	SetTimeToLive(val *string)
 	TimeToLiveInput() *string
@@ -51,7 +51,7 @@ type SpringCloudGatewayLocalResponseCachePerInstanceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type SpringCloudGatewayLocalResponseCachePerInstanceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetSize()
 	ResetTimeToLive()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type SpringCloudGatewayLocalResponseCachePerInstanceOutputReference interface {
 
 // The jsii proxy struct for SpringCloudGatewayLocalResponseCachePerInstanceOutputReference
 type jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) ComplexObjectIndex() interface{} {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReferenc
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReferenc
 }
 
 
-func NewSpringCloudGatewayLocalResponseCachePerInstanceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SpringCloudGatewayLocalResponseCachePerInstanceOutputReference {
+func NewSpringCloudGatewayLocalResponseCachePerInstanceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpringCloudGatewayLocalResponseCachePerInstanceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpringCloudGatewayLocalResponseCachePerInstanceOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewSpringCloudGatewayLocalResponseCachePerInstanceOutputReference(terraform
 	return &j
 }
 
-func NewSpringCloudGatewayLocalResponseCachePerInstanceOutputReference_Override(s SpringCloudGatewayLocalResponseCachePerInstanceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSpringCloudGatewayLocalResponseCachePerInstanceOutputReference_Override(s SpringCloudGatewayLocalResponseCachePerInstanceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReferenc
 	)
 }
 
-func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -459,8 +459,8 @@ func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -472,11 +472,11 @@ func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReferenc
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReferenc
 	)
 }
 
-func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpringCloudGatewayLocalResponseCachePerInstanceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

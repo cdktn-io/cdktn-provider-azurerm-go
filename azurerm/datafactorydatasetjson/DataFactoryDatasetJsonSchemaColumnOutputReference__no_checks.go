@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryDatasetJsonSchemaColumnOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetJsonSchemaColumnOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetJsonSchemaColumnOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_DataFactoryDatasetJsonSchemaColumnOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetJsonSchemaColumnOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetJsonSchemaColumnOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataFactoryDatasetJsonSchemaColumnOutputReference) validateSe
 	return nil
 }
 
-func validateNewDataFactoryDatasetJsonSchemaColumnOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataFactoryDatasetJsonSchemaColumnOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

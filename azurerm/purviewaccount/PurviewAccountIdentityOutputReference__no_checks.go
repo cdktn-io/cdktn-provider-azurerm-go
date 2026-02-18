@@ -47,7 +47,7 @@ func (p *jsiiProxy_PurviewAccountIdentityOutputReference) validateInterpolationF
 	return nil
 }
 
-func (p *jsiiProxy_PurviewAccountIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PurviewAccountIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PurviewAccountIdentityOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_PurviewAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PurviewAccountIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PurviewAccountIdentityOutputReference) validateSetTypeParamet
 	return nil
 }
 
-func validateNewPurviewAccountIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPurviewAccountIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

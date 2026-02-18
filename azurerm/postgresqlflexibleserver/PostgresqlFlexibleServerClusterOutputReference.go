@@ -5,14 +5,14 @@ package postgresqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/postgresqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/postgresqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PostgresqlFlexibleServerClusterOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type PostgresqlFlexibleServerClusterOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type PostgresqlFlexibleServerClusterOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDefaultDatabaseName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type PostgresqlFlexibleServerClusterOutputReference interface {
 
 // The jsii proxy struct for PostgresqlFlexibleServerClusterOutputReference
 type jsiiProxy_PostgresqlFlexibleServerClusterOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) TerraformReso
 }
 
 
-func NewPostgresqlFlexibleServerClusterOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PostgresqlFlexibleServerClusterOutputReference {
+func NewPostgresqlFlexibleServerClusterOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PostgresqlFlexibleServerClusterOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPostgresqlFlexibleServerClusterOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewPostgresqlFlexibleServerClusterOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewPostgresqlFlexibleServerClusterOutputReference_Override(p PostgresqlFlexibleServerClusterOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPostgresqlFlexibleServerClusterOutputReference_Override(p PostgresqlFlexibleServerClusterOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -458,8 +458,8 @@ func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) GetStringMapA
 	return returns
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -471,11 +471,11 @@ func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) Interpolation
 	return returns
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -495,7 +495,7 @@ func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) ResetDefaultD
 	)
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PostgresqlFlexibleServerClusterOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

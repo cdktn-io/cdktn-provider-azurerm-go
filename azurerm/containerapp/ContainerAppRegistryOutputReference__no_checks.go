@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppRegistryOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppRegistryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppRegistryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerAppRegistryOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppRegistryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppRegistryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ContainerAppRegistryOutputReference) validateSetUsernameParam
 	return nil
 }
 
-func validateNewContainerAppRegistryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppRegistryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

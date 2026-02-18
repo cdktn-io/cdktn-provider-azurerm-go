@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMonitorActionGroupWebhookReceiverAadAuthList) vali
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMonitorActionGroupWebhookReceiverAadAuthList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMonitorActionGroupWebhookReceiverAadAuthList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroupWebhookReceiverAadAuthList) vali
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMonitorActionGroupWebhookReceiverAadAuthList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMonitorActionGroupWebhookReceiverAadAuthList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroupWebhookReceiverAadAuthList) vali
 	return nil
 }
 
-func validateNewDataAzurermMonitorActionGroupWebhookReceiverAadAuthListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMonitorActionGroupWebhookReceiverAadAuthListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

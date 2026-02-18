@@ -47,7 +47,7 @@ func (k *jsiiProxy_KustoClusterCustomerManagedKeyTimeoutsOutputReference) valida
 	return nil
 }
 
-func (k *jsiiProxy_KustoClusterCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KustoClusterCustomerManagedKeyTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KustoClusterCustomerManagedKeyTimeoutsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_KustoClusterCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KustoClusterCustomerManagedKeyTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KustoClusterCustomerManagedKeyTimeoutsOutputReference) valida
 	return nil
 }
 
-func validateNewKustoClusterCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKustoClusterCustomerManagedKeyTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

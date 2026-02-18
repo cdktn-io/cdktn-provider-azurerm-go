@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogicAppActionCustomTimeoutsOutputReference) validateInterpol
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppActionCustomTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppActionCustomTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogicAppActionCustomTimeoutsOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppActionCustomTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppActionCustomTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LogicAppActionCustomTimeoutsOutputReference) validateSetUpdat
 	return nil
 }
 
-func validateNewLogicAppActionCustomTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogicAppActionCustomTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

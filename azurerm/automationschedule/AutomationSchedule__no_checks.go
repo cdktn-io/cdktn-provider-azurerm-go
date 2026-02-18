@@ -131,7 +131,7 @@ func (j *jsiiProxy_AutomationSchedule) validateSetIntervalParameters(val *float6
 	return nil
 }
 
-func (j *jsiiProxy_AutomationSchedule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AutomationSchedule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReference) 
 	return nil
 }
 
-func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewWorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWorkloadsSapDiscoveryVirtualInstanceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

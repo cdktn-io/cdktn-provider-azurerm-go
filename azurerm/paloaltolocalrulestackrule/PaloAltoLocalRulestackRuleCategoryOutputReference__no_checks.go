@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) validateIn
 	return nil
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaloAltoLocalRulestackRuleCategoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPaloAltoLocalRulestackRuleCategoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaloAltoLocalRulestackRuleCategoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_SentinelDataConnectorAwsS3) validateSetIdParameters(val *stri
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorAwsS3) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorAwsS3) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerGroupContainerReadinessProbeHttpGetList) validateGet
 	return nil
 }
 
-func (c *jsiiProxy_ContainerGroupContainerReadinessProbeHttpGetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerGroupContainerReadinessProbeHttpGetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerGroupContainerReadinessProbeHttpGetList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ContainerGroupContainerReadinessProbeHttpGetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerGroupContainerReadinessProbeHttpGetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerGroupContainerReadinessProbeHttpGetList) validateSet
 	return nil
 }
 
-func validateNewContainerGroupContainerReadinessProbeHttpGetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerGroupContainerReadinessProbeHttpGetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

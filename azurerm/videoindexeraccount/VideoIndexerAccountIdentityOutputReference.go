@@ -5,14 +5,14 @@ package videoindexeraccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/videoindexeraccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/videoindexeraccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type VideoIndexerAccountIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -42,9 +42,9 @@ type VideoIndexerAccountIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -53,7 +53,7 @@ type VideoIndexerAccountIdentityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,13 +69,13 @@ type VideoIndexerAccountIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIdentityIds()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type VideoIndexerAccountIdentityOutputReference interface {
 
 // The jsii proxy struct for VideoIndexerAccountIdentityOutputReference
 type jsiiProxy_VideoIndexerAccountIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) ComplexObjectIndex() interface{} {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference) TypeInput() *stri
 }
 
 
-func NewVideoIndexerAccountIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) VideoIndexerAccountIdentityOutputReference {
+func NewVideoIndexerAccountIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) VideoIndexerAccountIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewVideoIndexerAccountIdentityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewVideoIndexerAccountIdentityOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewVideoIndexerAccountIdentityOutputReference_Override(v VideoIndexerAccountIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewVideoIndexerAccountIdentityOutputReference_Override(v VideoIndexerAccountIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -301,7 +301,7 @@ func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_VideoIndexerAccountIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -352,11 +352,11 @@ func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -480,8 +480,8 @@ func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -493,11 +493,11 @@ func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -517,7 +517,7 @@ func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) ResetIdentityIds(
 	)
 }
 
-func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (v *jsiiProxy_VideoIndexerAccountIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := v.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

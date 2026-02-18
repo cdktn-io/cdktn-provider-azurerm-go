@@ -55,7 +55,7 @@ func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConsumptionBudgetResourceGroupFilterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConsumptionBudgetResourceGroupFilterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConsumptionBudgetResourceGroupFilterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConsumptionBudgetResourceGroupFilterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

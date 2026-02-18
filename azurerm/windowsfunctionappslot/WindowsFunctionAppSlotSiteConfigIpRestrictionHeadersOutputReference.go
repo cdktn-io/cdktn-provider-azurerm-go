@@ -5,14 +5,14 @@ package windowsfunctionappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsfunctionappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	XAzureFdid() *[]*string
 	SetXAzureFdid(val *[]*string)
 	XAzureFdidInput() *[]*string
@@ -57,7 +57,7 @@ type WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference interfa
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetXAzureFdid()
 	ResetXFdHealthProbe()
 	ResetXForwardedFor()
 	ResetXForwardedHost()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference interfa
 
 // The jsii proxy struct for WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference
 type jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) ComplexObjectIndex() interface{} {
@@ -155,8 +155,8 @@ func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputRef
 }
 
 
-func NewWindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference {
+func NewWindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -263,7 +263,7 @@ func NewWindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference(terr
 	return &j
 }
 
-func NewWindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference_Override(w WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference_Override(w WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -317,7 +317,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputRef
 	)
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputRef
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -529,8 +529,8 @@ func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputRef
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -542,11 +542,11 @@ func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputRef
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -590,7 +590,7 @@ func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputRef
 	)
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsFunctionAppSlotSiteConfigIpRestrictionHeadersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

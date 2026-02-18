@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbAccountGeoLocationOutputReference) validateInterpolat
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbAccountGeoLocationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbAccountGeoLocationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_CosmosdbAccountGeoLocationOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccountGeoLocationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbAccountGeoLocationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_CosmosdbAccountGeoLocationOutputReference) validateSetZoneRed
 	return nil
 }
 
-func validateNewCosmosdbAccountGeoLocationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbAccountGeoLocationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

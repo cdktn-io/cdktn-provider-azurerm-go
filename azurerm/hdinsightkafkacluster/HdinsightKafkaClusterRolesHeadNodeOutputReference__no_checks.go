@@ -51,7 +51,7 @@ func (h *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeOutputReference) validatePu
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_HdinsightKafkaClusterRolesHeadNodeOutputReference) validateSe
 	return nil
 }
 
-func validateNewHdinsightKafkaClusterRolesHeadNodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightKafkaClusterRolesHeadNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

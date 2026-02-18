@@ -47,7 +47,7 @@ func (w *jsiiProxy_WebPubsubNetworkAclPrivateEndpointOutputReference) validateIn
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubNetworkAclPrivateEndpointOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubNetworkAclPrivateEndpointOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_WebPubsubNetworkAclPrivateEndpointOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubNetworkAclPrivateEndpointOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubNetworkAclPrivateEndpointOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWebPubsubNetworkAclPrivateEndpointOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewWebPubsubNetworkAclPrivateEndpointOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

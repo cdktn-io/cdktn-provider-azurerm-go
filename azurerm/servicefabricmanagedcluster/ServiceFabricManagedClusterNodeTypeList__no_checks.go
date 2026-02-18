@@ -15,7 +15,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterNodeTypeList) validateGetParameter
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterNodeTypeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterNodeTypeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterNodeTypeList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterNodeTypeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewServiceFabricManagedClusterNodeTypeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

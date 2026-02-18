@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermRecoveryServicesVaultIdentityList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRecoveryServicesVaultIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRecoveryServicesVaultIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermRecoveryServicesVaultIdentityList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRecoveryServicesVaultIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRecoveryServicesVaultIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermRecoveryServicesVaultIdentityList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAzurermRecoveryServicesVaultIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermRecoveryServicesVaultIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

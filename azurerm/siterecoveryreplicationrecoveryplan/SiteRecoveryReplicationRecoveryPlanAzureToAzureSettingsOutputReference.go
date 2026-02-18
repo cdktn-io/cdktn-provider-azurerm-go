@@ -5,14 +5,14 @@ package siterecoveryreplicationrecoveryplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/siterecoveryreplicationrecoveryplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/siterecoveryreplicationrecoveryplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPrimaryEdgeZone()
 	ResetPrimaryZone()
 	ResetRecoveryEdgeZone()
 	ResetRecoveryZone()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference inte
 
 // The jsii proxy struct for SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference
 type jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -235,8 +235,8 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutput
 	return returns
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutput
 }
 
 
-func NewSiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference {
+func NewSiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewSiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference(t
 	return &j
 }
 
-func NewSiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference_Override(s SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference_Override(s SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -361,7 +361,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutput
 	)
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutput
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -529,8 +529,8 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutput
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -542,11 +542,11 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutput
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -590,7 +590,7 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutput
 	)
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

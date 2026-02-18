@@ -5,14 +5,14 @@ package cosmosdbcassandratable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbcassandratable/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbcassandratable/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CosmosdbCassandraTableSchemaClusterKeyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type CosmosdbCassandraTableSchemaClusterKeyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type CosmosdbCassandraTableSchemaClusterKeyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type CosmosdbCassandraTableSchemaClusterKeyOutputReference interface {
 
 // The jsii proxy struct for CosmosdbCassandraTableSchemaClusterKeyOutputReference
 type jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) ComplexObjectIndex() interface{} {
@@ -185,8 +185,8 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) Terraf
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) Terraf
 }
 
 
-func NewCosmosdbCassandraTableSchemaClusterKeyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CosmosdbCassandraTableSchemaClusterKeyOutputReference {
+func NewCosmosdbCassandraTableSchemaClusterKeyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) CosmosdbCassandraTableSchemaClusterKeyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCosmosdbCassandraTableSchemaClusterKeyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewCosmosdbCassandraTableSchemaClusterKeyOutputReference(terraformResource 
 	return &j
 }
 
-func NewCosmosdbCassandraTableSchemaClusterKeyOutputReference_Override(c CosmosdbCassandraTableSchemaClusterKeyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewCosmosdbCassandraTableSchemaClusterKeyOutputReference_Override(c CosmosdbCassandraTableSchemaClusterKeyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -289,7 +289,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference)SetTerr
 	)
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) GetAny
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -457,8 +457,8 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) GetStr
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -470,11 +470,11 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) Interp
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -486,7 +486,7 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) Interp
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaClusterKeyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

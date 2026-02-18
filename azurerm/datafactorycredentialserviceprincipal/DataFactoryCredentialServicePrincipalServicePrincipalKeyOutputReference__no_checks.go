@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryCredentialServicePrincipalServicePrincipalKeyOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryCredentialServicePrincipalServicePrincipalKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryCredentialServicePrincipalServicePrincipalKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataFactoryCredentialServicePrincipalServicePrincipalKeyOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryCredentialServicePrincipalServicePrincipalKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryCredentialServicePrincipalServicePrincipalKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryCredentialServicePrincipalServicePrincipalKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryCredentialServicePrincipalServicePrincipalKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

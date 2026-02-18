@@ -15,7 +15,7 @@ func (n *jsiiProxy_NewRelicTagRuleLogTagFilterList) validateGetParameters(index 
 	return nil
 }
 
-func (n *jsiiProxy_NewRelicTagRuleLogTagFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NewRelicTagRuleLogTagFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NewRelicTagRuleLogTagFilterList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_NewRelicTagRuleLogTagFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NewRelicTagRuleLogTagFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NewRelicTagRuleLogTagFilterList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewNewRelicTagRuleLogTagFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNewRelicTagRuleLogTagFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

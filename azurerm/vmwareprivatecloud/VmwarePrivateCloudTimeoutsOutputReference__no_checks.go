@@ -47,7 +47,7 @@ func (v *jsiiProxy_VmwarePrivateCloudTimeoutsOutputReference) validateInterpolat
 	return nil
 }
 
-func (v *jsiiProxy_VmwarePrivateCloudTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VmwarePrivateCloudTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_VmwarePrivateCloudTimeoutsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_VmwarePrivateCloudTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VmwarePrivateCloudTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VmwarePrivateCloudTimeoutsOutputReference) validateSetUpdateP
 	return nil
 }
 
-func validateNewVmwarePrivateCloudTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVmwarePrivateCloudTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

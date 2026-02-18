@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterNetworkProfileAdvancedNetworkingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterNetworkProfileAdvancedNetworkingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

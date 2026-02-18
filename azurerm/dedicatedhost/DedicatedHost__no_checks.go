@@ -119,7 +119,7 @@ func (j *jsiiProxy_DedicatedHost) validateSetLicenseTypeParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DedicatedHost) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DedicatedHost) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

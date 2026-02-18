@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbSqlRoleDefinitionPermissionsOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbSqlRoleDefinitionPermissionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbSqlRoleDefinitionPermissionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CosmosdbSqlRoleDefinitionPermissionsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbSqlRoleDefinitionPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbSqlRoleDefinitionPermissionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbSqlRoleDefinitionPermissionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCosmosdbSqlRoleDefinitionPermissionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

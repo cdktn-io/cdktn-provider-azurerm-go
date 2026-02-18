@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataboxEdgeDeviceDevicePropertiesOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DataboxEdgeDeviceDevicePropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataboxEdgeDeviceDevicePropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataboxEdgeDeviceDevicePropertiesOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataboxEdgeDeviceDevicePropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataboxEdgeDeviceDevicePropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataboxEdgeDeviceDevicePropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataboxEdgeDeviceDevicePropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

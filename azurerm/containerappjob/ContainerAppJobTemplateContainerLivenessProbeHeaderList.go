@@ -5,14 +5,14 @@ package containerappjob
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/containerappjob/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerappjob/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ContainerAppJobTemplateContainerLivenessProbeHeaderList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type ContainerAppJobTemplateContainerLivenessProbeHeaderList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type ContainerAppJobTemplateContainerLivenessProbeHeaderList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) ContainerAppJobTemplateContainerLivenessProbeHeaderOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type ContainerAppJobTemplateContainerLivenessProbeHeaderList interface {
 
 // The jsii proxy struct for ContainerAppJobTemplateContainerLivenessProbeHeaderList
 type jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) Terr
 	return returns
 }
 
-func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) Wrap
 }
 
 
-func NewContainerAppJobTemplateContainerLivenessProbeHeaderList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ContainerAppJobTemplateContainerLivenessProbeHeaderList {
+func NewContainerAppJobTemplateContainerLivenessProbeHeaderList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) ContainerAppJobTemplateContainerLivenessProbeHeaderList {
 	_init_.Initialize()
 
 	if err := validateNewContainerAppJobTemplateContainerLivenessProbeHeaderListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewContainerAppJobTemplateContainerLivenessProbeHeaderList(terraformResourc
 	return &j
 }
 
-func NewContainerAppJobTemplateContainerLivenessProbeHeaderList_Override(c ContainerAppJobTemplateContainerLivenessProbeHeaderList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewContainerAppJobTemplateContainerLivenessProbeHeaderList_Override(c ContainerAppJobTemplateContainerLivenessProbeHeaderList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList)SetTe
 	)
 }
 
-func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList)SetWr
 	)
 }
 
-func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -231,7 +231,7 @@ func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) Get(
 	return returns
 }
 
-func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ContainerAppJobTemplateContainerLivenessProbeHeaderList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

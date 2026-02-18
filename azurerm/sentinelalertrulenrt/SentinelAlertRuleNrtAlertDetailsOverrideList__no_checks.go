@@ -15,7 +15,7 @@ func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideList) validateGetPara
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideList) validateSetWrap
 	return nil
 }
 
-func validateNewSentinelAlertRuleNrtAlertDetailsOverrideListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSentinelAlertRuleNrtAlertDetailsOverrideListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

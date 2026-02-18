@@ -115,7 +115,7 @@ func (j *jsiiProxy_IotcentralApplication) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_IotcentralApplication) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IotcentralApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

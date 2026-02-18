@@ -191,7 +191,7 @@ func (j *jsiiProxy_CosmosdbAccount) validateSetKindParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CosmosdbAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

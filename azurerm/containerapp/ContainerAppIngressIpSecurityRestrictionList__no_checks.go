@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppIngressIpSecurityRestrictionList) validateGetPara
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppIngressIpSecurityRestrictionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppIngressIpSecurityRestrictionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppIngressIpSecurityRestrictionList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppIngressIpSecurityRestrictionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppIngressIpSecurityRestrictionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppIngressIpSecurityRestrictionList) validateSetWrap
 	return nil
 }
 
-func validateNewContainerAppIngressIpSecurityRestrictionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppIngressIpSecurityRestrictionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (e *jsiiProxy_ExtendedLocationCustomLocationAuthenticationOutputReference) 
 	return nil
 }
 
-func (e *jsiiProxy_ExtendedLocationCustomLocationAuthenticationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ExtendedLocationCustomLocationAuthenticationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_ExtendedLocationCustomLocationAuthenticationOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_ExtendedLocationCustomLocationAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ExtendedLocationCustomLocationAuthenticationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ExtendedLocationCustomLocationAuthenticationOutputReference) 
 	return nil
 }
 
-func validateNewExtendedLocationCustomLocationAuthenticationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewExtendedLocationCustomLocationAuthenticationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

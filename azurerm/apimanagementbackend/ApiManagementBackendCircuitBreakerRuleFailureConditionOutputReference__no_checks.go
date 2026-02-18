@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleFailureConditionOutputR
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleFailureConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementBackendCircuitBreakerRuleFailureConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleFailureConditionOutputR
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleFailureConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementBackendCircuitBreakerRuleFailureConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementBackendCircuitBreakerRuleFailureConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementBackendCircuitBreakerRuleFailureConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

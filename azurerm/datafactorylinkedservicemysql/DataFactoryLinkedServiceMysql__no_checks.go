@@ -131,7 +131,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetIntegrationRuntimeN
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

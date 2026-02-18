@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareMedtechServiceTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareMedtechServiceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareMedtechServiceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HealthcareMedtechServiceTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareMedtechServiceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareMedtechServiceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_HealthcareMedtechServiceTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewHealthcareMedtechServiceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareMedtechServiceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

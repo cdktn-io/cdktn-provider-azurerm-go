@@ -107,7 +107,7 @@ func (j *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateSetIdParam
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

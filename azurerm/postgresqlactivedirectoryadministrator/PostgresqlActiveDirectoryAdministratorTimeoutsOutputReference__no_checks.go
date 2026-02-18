@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PostgresqlActiveDirectoryAdministratorTimeoutsOutputReference
 	return nil
 }
 
-func validateNewPostgresqlActiveDirectoryAdministratorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlActiveDirectoryAdministratorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCosmosdbAccountGeoLocationList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbAccountGeoLocationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCosmosdbAccountGeoLocationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbAccountGeoLocationList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbAccountGeoLocationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCosmosdbAccountGeoLocationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbAccountGeoLocationList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAzurermCosmosdbAccountGeoLocationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCosmosdbAccountGeoLocationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

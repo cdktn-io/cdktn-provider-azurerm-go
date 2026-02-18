@@ -107,7 +107,7 @@ func (j *jsiiProxy_SentinelDataConnectorDynamics365) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorDynamics365) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SentinelDataConnectorDynamics365) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

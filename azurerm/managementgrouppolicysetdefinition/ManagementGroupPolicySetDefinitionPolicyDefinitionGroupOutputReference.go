@@ -5,14 +5,14 @@ package managementgrouppolicysetdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/managementgrouppolicysetdefinition/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/managementgrouppolicysetdefinition/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdditionalMetadataResourceId() *string
 	SetAdditionalMetadataResourceId(val *string)
 	AdditionalMetadataResourceIdInput() *string
@@ -52,15 +52,15 @@ type ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,16 +76,16 @@ type ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdditionalMetadataResourceId()
 	ResetCategory()
 	ResetDescription()
 	ResetDisplayName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference inte
 
 // The jsii proxy struct for ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference
 type jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) AdditionalMetadataResourceId() *string {
@@ -258,8 +258,8 @@ func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutput
 	return returns
 }
 
-func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutput
 }
 
 
-func NewManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference {
+func NewManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -286,7 +286,7 @@ func NewManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference(t
 	return &j
 }
 
-func NewManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference_Override(m ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference_Override(m ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -395,7 +395,7 @@ func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutput
 	)
 }
 
-func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutput
 	return returns
 }
 
-func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -563,8 +563,8 @@ func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutput
 	return returns
 }
 
-func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -576,11 +576,11 @@ func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutput
 	return returns
 }
 
-func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -624,7 +624,7 @@ func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutput
 	)
 }
 
-func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_ManagementGroupPolicySetDefinitionPolicyDefinitionGroupOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

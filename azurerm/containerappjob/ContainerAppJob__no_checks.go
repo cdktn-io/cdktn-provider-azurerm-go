@@ -139,7 +139,7 @@ func (j *jsiiProxy_ContainerAppJob) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJob) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ContainerAppJob) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

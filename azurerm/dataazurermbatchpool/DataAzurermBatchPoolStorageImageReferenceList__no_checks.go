@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolStorageImageReferenceList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolStorageImageReferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolStorageImageReferenceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolStorageImageReferenceList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolStorageImageReferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolStorageImageReferenceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolStorageImageReferenceList) validateSetWra
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolStorageImageReferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchPoolStorageImageReferenceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

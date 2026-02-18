@@ -5,21 +5,21 @@ package netappsnapshotpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/netappsnapshotpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/netappsnapshotpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/netapp_snapshot_policy azurerm_netapp_snapshot_policy}.
 type NetappSnapshotPolicy interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccountName() *string
 	SetAccountName(val *string)
 	AccountNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type NetappSnapshotPolicy interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -53,9 +53,9 @@ type NetappSnapshotPolicy interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -67,9 +67,9 @@ type NetappSnapshotPolicy interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -83,7 +83,7 @@ type NetappSnapshotPolicy interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type NetappSnapshotPolicy interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type NetappSnapshotPolicy interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -165,7 +165,7 @@ type NetappSnapshotPolicy interface {
 
 // The jsii proxy struct for NetappSnapshotPolicy
 type jsiiProxy_NetappSnapshotPolicy struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NetappSnapshotPolicy) AccountName() *string {
@@ -188,8 +188,8 @@ func (j *jsiiProxy_NetappSnapshotPolicy) AccountNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NetappSnapshotPolicy) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -278,8 +278,8 @@ func (j *jsiiProxy_NetappSnapshotPolicy) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NetappSnapshotPolicy) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -348,8 +348,8 @@ func (j *jsiiProxy_NetappSnapshotPolicy) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NetappSnapshotPolicy) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -428,8 +428,8 @@ func (j *jsiiProxy_NetappSnapshotPolicy) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NetappSnapshotPolicy) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -498,8 +498,8 @@ func (j *jsiiProxy_NetappSnapshotPolicy) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NetappSnapshotPolicy) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -650,7 +650,7 @@ func (j *jsiiProxy_NetappSnapshotPolicy)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NetappSnapshotPolicy)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -669,7 +669,7 @@ func (j *jsiiProxy_NetappSnapshotPolicy)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NetappSnapshotPolicy)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -702,7 +702,7 @@ func (j *jsiiProxy_NetappSnapshotPolicy)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NetappSnapshotPolicy)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NetappSnapshotPolicy)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -743,14 +743,14 @@ func (j *jsiiProxy_NetappSnapshotPolicy)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a NetappSnapshotPolicy resource upon running "cdktf plan <stack-name>".
-func NetappSnapshotPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NetappSnapshotPolicy resource upon running "cdktn plan <stack-name>".
+func NetappSnapshotPolicy_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNetappSnapshotPolicy_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.netappSnapshotPolicy.NetappSnapshotPolicy",
@@ -884,11 +884,11 @@ func (n *jsiiProxy_NetappSnapshotPolicy) GetAnyMapAttribute(terraformAttribute *
 	return returns
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicy) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappSnapshotPolicy) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -1025,7 +1025,7 @@ func (n *jsiiProxy_NetappSnapshotPolicy) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicy) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NetappSnapshotPolicy) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1036,11 +1036,11 @@ func (n *jsiiProxy_NetappSnapshotPolicy) ImportFrom(id *string, provider cdktf.T
 	)
 }
 
-func (n *jsiiProxy_NetappSnapshotPolicy) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetappSnapshotPolicy) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

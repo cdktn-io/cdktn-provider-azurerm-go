@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validatePutS
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FirewallPolicyIntrusionDetectionSignatureOverrides:
 		value := value.(*[]*FirewallPolicyIntrusionDetectionSignatureOverrides)
@@ -117,7 +117,7 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validatePutS
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*FirewallPolicyIntrusionDetectionSignatureOverrides; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*FirewallPolicyIntrusionDetectionSignatureOverrides; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validatePutT
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FirewallPolicyIntrusionDetectionTrafficBypass:
 		value := value.(*[]*FirewallPolicyIntrusionDetectionTrafficBypass)
@@ -148,14 +148,14 @@ func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validatePutT
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*FirewallPolicyIntrusionDetectionTrafficBypass; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*FirewallPolicyIntrusionDetectionTrafficBypass; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -260,7 +260,7 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -268,7 +268,7 @@ func (j *jsiiProxy_FirewallPolicyIntrusionDetectionOutputReference) validateSetT
 	return nil
 }
 
-func validateNewFirewallPolicyIntrusionDetectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFirewallPolicyIntrusionDetectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

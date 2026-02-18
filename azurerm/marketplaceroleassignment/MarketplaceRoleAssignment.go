@@ -5,18 +5,18 @@ package marketplaceroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/marketplaceroleassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/marketplaceroleassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/marketplace_role_assignment azurerm_marketplace_role_assignment}.
 type MarketplaceRoleAssignment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	Condition() *string
 	SetCondition(val *string)
 	ConditionInput() *string
@@ -44,9 +44,9 @@ type MarketplaceRoleAssignment interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -55,9 +55,9 @@ type MarketplaceRoleAssignment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -68,9 +68,9 @@ type MarketplaceRoleAssignment interface {
 	PrincipalIdInput() *string
 	PrincipalType() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type MarketplaceRoleAssignment interface {
 	SetSkipServicePrincipalAadCheck(val interface{})
 	SkipServicePrincipalAadCheckInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -102,7 +102,7 @@ type MarketplaceRoleAssignment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -120,9 +120,9 @@ type MarketplaceRoleAssignment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -166,11 +166,11 @@ type MarketplaceRoleAssignment interface {
 
 // The jsii proxy struct for MarketplaceRoleAssignment
 type jsiiProxy_MarketplaceRoleAssignment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_MarketplaceRoleAssignment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_MarketplaceRoleAssignment) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_MarketplaceRoleAssignment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -349,8 +349,8 @@ func (j *jsiiProxy_MarketplaceRoleAssignment) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_MarketplaceRoleAssignment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -419,8 +419,8 @@ func (j *jsiiProxy_MarketplaceRoleAssignment) PrincipalType() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_MarketplaceRoleAssignment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -509,8 +509,8 @@ func (j *jsiiProxy_MarketplaceRoleAssignment) SkipServicePrincipalAadCheckInput(
 	return returns
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_MarketplaceRoleAssignment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -663,7 +663,7 @@ func (j *jsiiProxy_MarketplaceRoleAssignment)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_MarketplaceRoleAssignment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -682,7 +682,7 @@ func (j *jsiiProxy_MarketplaceRoleAssignment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_MarketplaceRoleAssignment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -715,7 +715,7 @@ func (j *jsiiProxy_MarketplaceRoleAssignment)SetPrincipalId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MarketplaceRoleAssignment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_MarketplaceRoleAssignment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -767,14 +767,14 @@ func (j *jsiiProxy_MarketplaceRoleAssignment)SetSkipServicePrincipalAadCheck(val
 	)
 }
 
-// Generates CDKTF code for importing a MarketplaceRoleAssignment resource upon running "cdktf plan <stack-name>".
-func MarketplaceRoleAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a MarketplaceRoleAssignment resource upon running "cdktn plan <stack-name>".
+func MarketplaceRoleAssignment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMarketplaceRoleAssignment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.marketplaceRoleAssignment.MarketplaceRoleAssignment",
@@ -908,11 +908,11 @@ func (m *jsiiProxy_MarketplaceRoleAssignment) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (m *jsiiProxy_MarketplaceRoleAssignment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MarketplaceRoleAssignment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1049,7 +1049,7 @@ func (m *jsiiProxy_MarketplaceRoleAssignment) HasResourceMove() interface{} {
 	return returns
 }
 
-func (m *jsiiProxy_MarketplaceRoleAssignment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_MarketplaceRoleAssignment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1060,11 +1060,11 @@ func (m *jsiiProxy_MarketplaceRoleAssignment) ImportFrom(id *string, provider cd
 	)
 }
 
-func (m *jsiiProxy_MarketplaceRoleAssignment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MarketplaceRoleAssignment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

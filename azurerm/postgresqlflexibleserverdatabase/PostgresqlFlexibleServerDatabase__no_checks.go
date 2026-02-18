@@ -115,7 +115,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerDatabase) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerDatabase) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PostgresqlFlexibleServerDatabase) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

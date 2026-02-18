@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterKubeAdminConfigList) validateGetParameters(i
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterKubeAdminConfigList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterKubeAdminConfigList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_KubernetesClusterKubeAdminConfigList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterKubeAdminConfigList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterKubeAdminConfigList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_KubernetesClusterKubeAdminConfigList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewKubernetesClusterKubeAdminConfigListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterKubeAdminConfigListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

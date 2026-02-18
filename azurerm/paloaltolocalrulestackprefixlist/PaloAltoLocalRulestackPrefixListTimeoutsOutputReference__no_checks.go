@@ -47,7 +47,7 @@ func (p *jsiiProxy_PaloAltoLocalRulestackPrefixListTimeoutsOutputReference) vali
 	return nil
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackPrefixListTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PaloAltoLocalRulestackPrefixListTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixListTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackPrefixListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PaloAltoLocalRulestackPrefixListTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackPrefixListTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewPaloAltoLocalRulestackPrefixListTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPaloAltoLocalRulestackPrefixListTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

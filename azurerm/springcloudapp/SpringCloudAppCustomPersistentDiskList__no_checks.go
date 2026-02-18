@@ -15,7 +15,7 @@ func (s *jsiiProxy_SpringCloudAppCustomPersistentDiskList) validateGetParameters
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudAppCustomPersistentDiskList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudAppCustomPersistentDiskList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SpringCloudAppCustomPersistentDiskList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudAppCustomPersistentDiskList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudAppCustomPersistentDiskList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SpringCloudAppCustomPersistentDiskList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewSpringCloudAppCustomPersistentDiskListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSpringCloudAppCustomPersistentDiskListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayBgpSettingsList) validateSetW
 	return nil
 }
 
-func validateNewDataAzurermVirtualNetworkGatewayBgpSettingsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVirtualNetworkGatewayBgpSettingsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

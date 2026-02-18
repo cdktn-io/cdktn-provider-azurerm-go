@@ -5,14 +5,14 @@ package hdinsightsparkcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsightsparkcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsightsparkcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightSparkClusterRolesZookeeperNodeScriptActionsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type HdinsightSparkClusterRolesZookeeperNodeScriptActionsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type HdinsightSparkClusterRolesZookeeperNodeScriptActionsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) HdinsightSparkClusterRolesZookeeperNodeScriptActionsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type HdinsightSparkClusterRolesZookeeperNodeScriptActionsList interface {
 
 // The jsii proxy struct for HdinsightSparkClusterRolesZookeeperNodeScriptActionsList
 type jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) Ter
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) Wra
 }
 
 
-func NewHdinsightSparkClusterRolesZookeeperNodeScriptActionsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) HdinsightSparkClusterRolesZookeeperNodeScriptActionsList {
+func NewHdinsightSparkClusterRolesZookeeperNodeScriptActionsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) HdinsightSparkClusterRolesZookeeperNodeScriptActionsList {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightSparkClusterRolesZookeeperNodeScriptActionsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewHdinsightSparkClusterRolesZookeeperNodeScriptActionsList(terraformResour
 	return &j
 }
 
-func NewHdinsightSparkClusterRolesZookeeperNodeScriptActionsList_Override(h HdinsightSparkClusterRolesZookeeperNodeScriptActionsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewHdinsightSparkClusterRolesZookeeperNodeScriptActionsList_Override(h HdinsightSparkClusterRolesZookeeperNodeScriptActionsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList)SetT
 	)
 }
 
-func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList)SetW
 	)
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (h *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := h.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		h,
@@ -231,7 +231,7 @@ func (h *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) Get
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightSparkClusterRolesZookeeperNodeScriptActionsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

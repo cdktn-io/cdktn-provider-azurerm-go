@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApiManagementApiOperationTag) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiOperationTag) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementApiOperationTag) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_PrivateDnsZone) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsZone) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PrivateDnsZone) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

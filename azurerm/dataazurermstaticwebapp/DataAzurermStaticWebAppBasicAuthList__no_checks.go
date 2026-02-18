@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermStaticWebAppBasicAuthList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStaticWebAppBasicAuthList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStaticWebAppBasicAuthList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermStaticWebAppBasicAuthList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStaticWebAppBasicAuthList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStaticWebAppBasicAuthList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermStaticWebAppBasicAuthList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataAzurermStaticWebAppBasicAuthListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermStaticWebAppBasicAuthListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

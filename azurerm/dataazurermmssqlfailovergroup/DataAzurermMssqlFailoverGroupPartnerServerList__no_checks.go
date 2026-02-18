@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMssqlFailoverGroupPartnerServerList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMssqlFailoverGroupPartnerServerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMssqlFailoverGroupPartnerServerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMssqlFailoverGroupPartnerServerList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMssqlFailoverGroupPartnerServerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMssqlFailoverGroupPartnerServerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMssqlFailoverGroupPartnerServerList) validateSetWr
 	return nil
 }
 
-func validateNewDataAzurermMssqlFailoverGroupPartnerServerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMssqlFailoverGroupPartnerServerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

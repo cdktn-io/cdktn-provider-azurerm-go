@@ -5,14 +5,14 @@ package eventgrideventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgrideventsubscription/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventgrideventsubscription/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,9 +40,9 @@ type EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *float64
 	SetValue(val *float64)
 	ValueInput() *float64
@@ -51,7 +51,7 @@ type EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference in
 
 // The jsii proxy struct for EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference
 type jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) ComplexObjectIndex() interface{} {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutp
 	return returns
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutp
 }
 
 
-func NewEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference {
+func NewEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -213,7 +213,7 @@ func NewEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference
 	return &j
 }
 
-func NewEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference_Override(e EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference_Override(e EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -278,7 +278,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutp
 	)
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -329,11 +329,11 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutp
 	return returns
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -457,8 +457,8 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutp
 	return returns
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -470,11 +470,11 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutp
 	return returns
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -486,7 +486,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutp
 	return returns
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EventgridEventSubscriptionAdvancedFilterNumberGreaterThanOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

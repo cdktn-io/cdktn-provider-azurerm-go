@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterNodePoolKubeletConfigOutputReference) valida
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolKubeletConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterNodePoolKubeletConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolKubeletConfigOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolKubeletConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterNodePoolKubeletConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolKubeletConfigOutputReference) valida
 	return nil
 }
 
-func validateNewKubernetesClusterNodePoolKubeletConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterNodePoolKubeletConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

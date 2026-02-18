@@ -47,7 +47,7 @@ func (p *jsiiProxy_ProximityPlacementGroupTimeoutsOutputReference) validateInter
 	return nil
 }
 
-func (p *jsiiProxy_ProximityPlacementGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_ProximityPlacementGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ProximityPlacementGroupTimeoutsOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_ProximityPlacementGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ProximityPlacementGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ProximityPlacementGroupTimeoutsOutputReference) validateSetUp
 	return nil
 }
 
-func validateNewProximityPlacementGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewProximityPlacementGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

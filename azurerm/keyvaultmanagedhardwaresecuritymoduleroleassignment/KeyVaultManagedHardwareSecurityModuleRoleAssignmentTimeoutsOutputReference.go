@@ -5,14 +5,14 @@ package keyvaultmanagedhardwaresecuritymoduleroleassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultmanagedhardwaresecuritymoduleroleassignment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/keyvaultmanagedhardwaresecuritymoduleroleassignment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference 
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference 
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference 
 
 // The jsii proxy struct for KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference
 type jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOu
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOu
 }
 
 
-func NewKeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference {
+func NewKeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewKeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReferen
 	return &j
 }
 
-func NewKeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference_Override(k KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference_Override(k KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOu
 	)
 }
 
-func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOu
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -494,8 +494,8 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOu
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -507,11 +507,11 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOu
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -547,7 +547,7 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOu
 	)
 }
 
-func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

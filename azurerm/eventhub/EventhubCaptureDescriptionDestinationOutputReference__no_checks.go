@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validat
 	return nil
 }
 
-func (e *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventhubCaptureDescriptionDestinationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventhubCaptureDescriptionDestinationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) vali
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountGen2OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterStorageAccountGen2OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterStorageAccountGen2OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

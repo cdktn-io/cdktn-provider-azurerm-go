@@ -119,7 +119,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderGoogle) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementIdentityProviderGoogle) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementIdentityProviderGoogle) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnEndpointDeliveryRuleDeviceConditionOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointDeliveryRuleDeviceConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointDeliveryRuleDeviceConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleDeviceConditionOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointDeliveryRuleDeviceConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointDeliveryRuleDeviceConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCdnEndpointDeliveryRuleDeviceConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnEndpointDeliveryRuleDeviceConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -135,7 +135,7 @@ func (j *jsiiProxy_IotSecuritySolution) validateSetIothubIdsParameters(val *[]*s
 	return nil
 }
 
-func (j *jsiiProxy_IotSecuritySolution) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IotSecuritySolution) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_SentinelAlertRuleScheduledAlertDetailsOverrideDynamicProperty
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleScheduledAlertDetailsOverrideDynamicPropertyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleScheduledAlertDetailsOverrideDynamicPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SentinelAlertRuleScheduledAlertDetailsOverrideDynamicProperty
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleScheduledAlertDetailsOverrideDynamicPropertyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleScheduledAlertDetailsOverrideDynamicPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SentinelAlertRuleScheduledAlertDetailsOverrideDynamicProperty
 	return nil
 }
 
-func validateNewSentinelAlertRuleScheduledAlertDetailsOverrideDynamicPropertyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSentinelAlertRuleScheduledAlertDetailsOverrideDynamicPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

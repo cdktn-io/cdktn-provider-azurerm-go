@@ -139,7 +139,7 @@ func (j *jsiiProxy_DataFactoryTriggerCustomEvent) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerCustomEvent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryTriggerCustomEvent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

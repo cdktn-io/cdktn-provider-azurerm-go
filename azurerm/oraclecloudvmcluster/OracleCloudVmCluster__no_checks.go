@@ -167,7 +167,7 @@ func (j *jsiiProxy_OracleCloudVmCluster) validateSetLicenseModelParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_OracleCloudVmCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_OracleCloudVmCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

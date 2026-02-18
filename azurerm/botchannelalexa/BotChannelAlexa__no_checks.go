@@ -111,7 +111,7 @@ func (j *jsiiProxy_BotChannelAlexa) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelAlexa) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BotChannelAlexa) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

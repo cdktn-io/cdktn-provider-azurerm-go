@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataShareSnapshotScheduleOutputReference) validateInterpolati
 	return nil
 }
 
-func (d *jsiiProxy_DataShareSnapshotScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataShareSnapshotScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_DataShareSnapshotScheduleOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataShareSnapshotScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataShareSnapshotScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataShareSnapshotScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataShareSnapshotScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

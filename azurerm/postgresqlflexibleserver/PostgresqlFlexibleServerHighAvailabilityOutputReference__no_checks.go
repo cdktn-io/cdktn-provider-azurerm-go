@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlFlexibleServerHighAvailabilityOutputReference) vali
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerHighAvailabilityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlFlexibleServerHighAvailabilityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_PostgresqlFlexibleServerHighAvailabilityOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerHighAvailabilityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlFlexibleServerHighAvailabilityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewPostgresqlFlexibleServerHighAvailabilityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlFlexibleServerHighAvailabilityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

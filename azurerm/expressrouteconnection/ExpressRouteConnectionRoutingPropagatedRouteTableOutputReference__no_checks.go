@@ -47,7 +47,7 @@ func (e *jsiiProxy_ExpressRouteConnectionRoutingPropagatedRouteTableOutputRefere
 	return nil
 }
 
-func (e *jsiiProxy_ExpressRouteConnectionRoutingPropagatedRouteTableOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ExpressRouteConnectionRoutingPropagatedRouteTableOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ExpressRouteConnectionRoutingPropagatedRouteTableOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteConnectionRoutingPropagatedRouteTableOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ExpressRouteConnectionRoutingPropagatedRouteTableOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewExpressRouteConnectionRoutingPropagatedRouteTableOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewExpressRouteConnectionRoutingPropagatedRouteTableOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

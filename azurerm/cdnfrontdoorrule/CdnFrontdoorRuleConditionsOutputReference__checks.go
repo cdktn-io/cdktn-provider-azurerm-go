@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutClientP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsClientPortCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsClientPortCondition)
@@ -117,7 +117,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutClientP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsClientPortCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsClientPortCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutCookies
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsCookiesCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsCookiesCondition)
@@ -148,7 +148,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutCookies
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsCookiesCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsCookiesCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHostNam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsHostNameCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsHostNameCondition)
@@ -179,7 +179,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHostNam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsHostNameCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsHostNameCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -191,7 +191,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHttpVer
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsHttpVersionCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsHttpVersionCondition)
@@ -210,7 +210,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutHttpVer
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsHttpVersionCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsHttpVersionCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -222,7 +222,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutIsDevic
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsIsDeviceCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsIsDeviceCondition)
@@ -241,7 +241,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutIsDevic
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsIsDeviceCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsIsDeviceCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -253,7 +253,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutPostArg
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsPostArgsCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsPostArgsCondition)
@@ -272,7 +272,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutPostArg
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsPostArgsCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsPostArgsCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -284,7 +284,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutQuerySt
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsQueryStringCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsQueryStringCondition)
@@ -303,7 +303,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutQuerySt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsQueryStringCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsQueryStringCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -315,7 +315,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRemoteA
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsRemoteAddressCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsRemoteAddressCondition)
@@ -334,7 +334,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRemoteA
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsRemoteAddressCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRemoteAddressCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -346,7 +346,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsRequestBodyCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsRequestBodyCondition)
@@ -365,7 +365,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestBodyCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestBodyCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -377,7 +377,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsRequestHeaderCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsRequestHeaderCondition)
@@ -396,7 +396,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestHeaderCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestHeaderCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -408,7 +408,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsRequestMethodCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsRequestMethodCondition)
@@ -427,7 +427,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestMethodCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestMethodCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -439,7 +439,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsRequestSchemeCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsRequestSchemeCondition)
@@ -458,7 +458,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestSchemeCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestSchemeCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -470,7 +470,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsRequestUriCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsRequestUriCondition)
@@ -489,7 +489,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutRequest
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestUriCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsRequestUriCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -501,7 +501,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutServerP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsServerPortCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsServerPortCondition)
@@ -520,7 +520,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutServerP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsServerPortCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsServerPortCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -532,7 +532,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSocketA
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsSocketAddressCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsSocketAddressCondition)
@@ -551,7 +551,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSocketA
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsSocketAddressCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsSocketAddressCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -563,7 +563,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSslProt
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsSslProtocolCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsSslProtocolCondition)
@@ -582,7 +582,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutSslProt
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsSslProtocolCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsSslProtocolCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -594,7 +594,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFile
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition)
@@ -613,7 +613,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFile
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlFileExtensionCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -625,7 +625,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFile
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsUrlFilenameCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsUrlFilenameCondition)
@@ -644,7 +644,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlFile
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlFilenameCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlFilenameCondition; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -656,7 +656,7 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlPath
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*CdnFrontdoorRuleConditionsUrlPathCondition:
 		value := value.(*[]*CdnFrontdoorRuleConditionsUrlPathCondition)
@@ -675,14 +675,14 @@ func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validatePutUrlPath
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlPathCondition; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*CdnFrontdoorRuleConditionsUrlPathCondition; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -771,7 +771,7 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -779,7 +779,7 @@ func (j *jsiiProxy_CdnFrontdoorRuleConditionsOutputReference) validateSetTerrafo
 	return nil
 }
 
-func validateNewCdnFrontdoorRuleConditionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCdnFrontdoorRuleConditionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

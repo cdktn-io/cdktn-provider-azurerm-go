@@ -5,14 +5,14 @@ package manageddisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/manageddisk/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/manageddisk/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ManagedDiskEncryptionSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type ManagedDiskEncryptionSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,15 +65,15 @@ type ManagedDiskEncryptionSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDiskEncryptionKey(value *ManagedDiskEncryptionSettingsDiskEncryptionKey)
 	PutKeyEncryptionKey(value *ManagedDiskEncryptionSettingsKeyEncryptionKey)
 	ResetKeyEncryptionKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ManagedDiskEncryptionSettingsOutputReference interface {
 
 // The jsii proxy struct for ManagedDiskEncryptionSettingsOutputReference
 type jsiiProxy_ManagedDiskEncryptionSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) TerraformResour
 }
 
 
-func NewManagedDiskEncryptionSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ManagedDiskEncryptionSettingsOutputReference {
+func NewManagedDiskEncryptionSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ManagedDiskEncryptionSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewManagedDiskEncryptionSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewManagedDiskEncryptionSettingsOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewManagedDiskEncryptionSettingsOutputReference_Override(m ManagedDiskEncryptionSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewManagedDiskEncryptionSettingsOutputReference_Override(m ManagedDiskEncryptionSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -268,7 +268,7 @@ func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -308,11 +308,11 @@ func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -436,8 +436,8 @@ func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -449,11 +449,11 @@ func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) InterpolationAs
 	return returns
 }
 
-func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -495,7 +495,7 @@ func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) ResetKeyEncrypt
 	)
 }
 
-func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_ManagedDiskEncryptionSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

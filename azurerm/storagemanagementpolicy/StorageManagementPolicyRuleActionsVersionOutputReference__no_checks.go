@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageManagementPolicyRuleActionsVersionOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_StorageManagementPolicyRuleActionsVersionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageManagementPolicyRuleActionsVersionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleActionsVersionOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_StorageManagementPolicyRuleActionsVersionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageManagementPolicyRuleActionsVersionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_StorageManagementPolicyRuleActionsVersionOutputReference) val
 	return nil
 }
 
-func validateNewStorageManagementPolicyRuleActionsVersionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageManagementPolicyRuleActionsVersionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

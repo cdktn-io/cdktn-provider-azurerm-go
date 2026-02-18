@@ -5,14 +5,14 @@ package storageblobinventorypolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageblobinventorypolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storageblobinventorypolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StorageBlobInventoryPolicyRulesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -57,15 +57,15 @@ type StorageBlobInventoryPolicyRulesOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,14 +81,14 @@ type StorageBlobInventoryPolicyRulesOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutFilter(value *StorageBlobInventoryPolicyRulesFilter)
 	ResetFilter()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type StorageBlobInventoryPolicyRulesOutputReference interface {
 
 // The jsii proxy struct for StorageBlobInventoryPolicyRulesOutputReference
 type jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) ComplexObjectIndex() interface{} {
@@ -301,8 +301,8 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) TerraformAttr
 	return returns
 }
 
-func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -312,7 +312,7 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) TerraformReso
 }
 
 
-func NewStorageBlobInventoryPolicyRulesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StorageBlobInventoryPolicyRulesOutputReference {
+func NewStorageBlobInventoryPolicyRulesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StorageBlobInventoryPolicyRulesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStorageBlobInventoryPolicyRulesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -329,7 +329,7 @@ func NewStorageBlobInventoryPolicyRulesOutputReference(terraformResource cdktf.I
 	return &j
 }
 
-func NewStorageBlobInventoryPolicyRulesOutputReference_Override(s StorageBlobInventoryPolicyRulesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewStorageBlobInventoryPolicyRulesOutputReference_Override(s StorageBlobInventoryPolicyRulesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -449,7 +449,7 @@ func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference)SetTerraformAt
 	)
 }
 
-func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -489,11 +489,11 @@ func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) GetAnyMapAttr
 	return returns
 }
 
-func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -617,8 +617,8 @@ func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) GetStringMapA
 	return returns
 }
 
-func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -630,11 +630,11 @@ func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) Interpolation
 	return returns
 }
 
-func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -665,7 +665,7 @@ func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) ResetFilter()
 	)
 }
 
-func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StorageBlobInventoryPolicyRulesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (f *jsiiProxy_FabricCapacitySkuOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (f *jsiiProxy_FabricCapacitySkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FabricCapacitySkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_FabricCapacitySkuOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_FabricCapacitySkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FabricCapacitySkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FabricCapacitySkuOutputReference) validateSetTierParameters(v
 	return nil
 }
 
-func validateNewFabricCapacitySkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFabricCapacitySkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

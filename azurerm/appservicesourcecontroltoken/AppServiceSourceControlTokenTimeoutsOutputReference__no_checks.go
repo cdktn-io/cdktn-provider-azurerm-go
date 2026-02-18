@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceSourceControlTokenTimeoutsOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSourceControlTokenTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSourceControlTokenTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AppServiceSourceControlTokenTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSourceControlTokenTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSourceControlTokenTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AppServiceSourceControlTokenTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewAppServiceSourceControlTokenTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceSourceControlTokenTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermDatabricksAccessConnectorTimeoutsOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksAccessConnectorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDatabricksAccessConnectorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermDatabricksAccessConnectorTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksAccessConnectorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDatabricksAccessConnectorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermDatabricksAccessConnectorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermDatabricksAccessConnectorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

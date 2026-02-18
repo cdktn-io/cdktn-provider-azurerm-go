@@ -47,7 +47,7 @@ func (p *jsiiProxy_PrivateDnsResolverOutboundEndpointTimeoutsOutputReference) va
 	return nil
 }
 
-func (p *jsiiProxy_PrivateDnsResolverOutboundEndpointTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateDnsResolverOutboundEndpointTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PrivateDnsResolverOutboundEndpointTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_PrivateDnsResolverOutboundEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateDnsResolverOutboundEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PrivateDnsResolverOutboundEndpointTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewPrivateDnsResolverOutboundEndpointTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPrivateDnsResolverOutboundEndpointTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

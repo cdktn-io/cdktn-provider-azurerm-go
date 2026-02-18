@@ -15,7 +15,7 @@ func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrich
 	return nil
 }
 
-func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrich
 	return nil
 }
 
-func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrich
 	return nil
 }
 
-func validateNewEventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventgridNamespaceTopicSpacesConfigurationStaticRoutingEnrichmentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

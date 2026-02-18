@@ -119,7 +119,7 @@ func (j *jsiiProxy_SpringCloudGatewayRouteConfig) validateSetIdParameters(val *s
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudGatewayRouteConfig) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudGatewayRouteConfig) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

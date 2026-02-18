@@ -5,14 +5,14 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orchestratedvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/orchestratedvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrchestratedVirtualMachineScaleSetPriorityMixOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BaseRegularCount() *float64
 	SetBaseRegularCount(val *float64)
 	BaseRegularCountInput() *float64
@@ -43,15 +43,15 @@ type OrchestratedVirtualMachineScaleSetPriorityMixOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type OrchestratedVirtualMachineScaleSetPriorityMixOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBaseRegularCount()
 	ResetRegularPercentageAboveBase()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type OrchestratedVirtualMachineScaleSetPriorityMixOutputReference interface {
 
 // The jsii proxy struct for OrchestratedVirtualMachineScaleSetPriorityMixOutputReference
 type jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) BaseRegularCount() *float64 {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	return returns
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 }
 
 
-func NewOrchestratedVirtualMachineScaleSetPriorityMixOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OrchestratedVirtualMachineScaleSetPriorityMixOutputReference {
+func NewOrchestratedVirtualMachineScaleSetPriorityMixOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OrchestratedVirtualMachineScaleSetPriorityMixOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOrchestratedVirtualMachineScaleSetPriorityMixOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewOrchestratedVirtualMachineScaleSetPriorityMixOutputReference(terraformRe
 	return &j
 }
 
-func NewOrchestratedVirtualMachineScaleSetPriorityMixOutputReference_Override(o OrchestratedVirtualMachineScaleSetPriorityMixOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOrchestratedVirtualMachineScaleSetPriorityMixOutputReference_Override(o OrchestratedVirtualMachineScaleSetPriorityMixOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	)
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -459,8 +459,8 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -472,11 +472,11 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -504,7 +504,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference)
 	)
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetPriorityMixOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

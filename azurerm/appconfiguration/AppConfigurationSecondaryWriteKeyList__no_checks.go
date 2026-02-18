@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppConfigurationSecondaryWriteKeyList) validateGetParameters(
 	return nil
 }
 
-func (a *jsiiProxy_AppConfigurationSecondaryWriteKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppConfigurationSecondaryWriteKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AppConfigurationSecondaryWriteKeyList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationSecondaryWriteKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppConfigurationSecondaryWriteKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AppConfigurationSecondaryWriteKeyList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewAppConfigurationSecondaryWriteKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppConfigurationSecondaryWriteKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

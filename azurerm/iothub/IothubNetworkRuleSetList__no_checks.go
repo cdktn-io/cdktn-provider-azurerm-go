@@ -15,7 +15,7 @@ func (i *jsiiProxy_IothubNetworkRuleSetList) validateGetParameters(index *float6
 	return nil
 }
 
-func (i *jsiiProxy_IothubNetworkRuleSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubNetworkRuleSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IothubNetworkRuleSetList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewIothubNetworkRuleSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIothubNetworkRuleSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

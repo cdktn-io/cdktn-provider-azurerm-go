@@ -5,14 +5,14 @@ package storageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storageaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storageaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StorageAccountImmutabilityPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowProtectedAppendWrites() interface{}
 	SetAllowProtectedAppendWrites(val interface{})
 	AllowProtectedAppendWritesInput() interface{}
@@ -46,15 +46,15 @@ type StorageAccountImmutabilityPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type StorageAccountImmutabilityPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type StorageAccountImmutabilityPolicyOutputReference interface {
 
 // The jsii proxy struct for StorageAccountImmutabilityPolicyOutputReference
 type jsiiProxy_StorageAccountImmutabilityPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) AllowProtectedAppendWrites() interface{} {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) TerraformRes
 }
 
 
-func NewStorageAccountImmutabilityPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StorageAccountImmutabilityPolicyOutputReference {
+func NewStorageAccountImmutabilityPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StorageAccountImmutabilityPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStorageAccountImmutabilityPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewStorageAccountImmutabilityPolicyOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewStorageAccountImmutabilityPolicyOutputReference_Override(s StorageAccountImmutabilityPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStorageAccountImmutabilityPolicyOutputReference_Override(s StorageAccountImmutabilityPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -491,8 +491,8 @@ func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) GetStringMap
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,11 +504,11 @@ func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) Interpolatio
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -520,7 +520,7 @@ func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) Interpolatio
 	return returns
 }
 
-func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StorageAccountImmutabilityPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

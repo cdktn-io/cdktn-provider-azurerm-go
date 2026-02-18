@@ -5,14 +5,14 @@ package servicefabriccluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/servicefabriccluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicefabriccluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ServiceFabricClusterDiagnosticsConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BlobEndpoint() *string
 	SetBlobEndpoint(val *string)
 	BlobEndpointInput() *string
@@ -52,15 +52,15 @@ type ServiceFabricClusterDiagnosticsConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,12 +76,12 @@ type ServiceFabricClusterDiagnosticsConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type ServiceFabricClusterDiagnosticsConfigOutputReference interface {
 
 // The jsii proxy struct for ServiceFabricClusterDiagnosticsConfigOutputReference
 type jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) BlobEndpoint() *string {
@@ -254,8 +254,8 @@ func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -265,7 +265,7 @@ func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) Terrafo
 }
 
 
-func NewServiceFabricClusterDiagnosticsConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ServiceFabricClusterDiagnosticsConfigOutputReference {
+func NewServiceFabricClusterDiagnosticsConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ServiceFabricClusterDiagnosticsConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewServiceFabricClusterDiagnosticsConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -282,7 +282,7 @@ func NewServiceFabricClusterDiagnosticsConfigOutputReference(terraformResource c
 	return &j
 }
 
-func NewServiceFabricClusterDiagnosticsConfigOutputReference_Override(s ServiceFabricClusterDiagnosticsConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewServiceFabricClusterDiagnosticsConfigOutputReference_Override(s ServiceFabricClusterDiagnosticsConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -391,7 +391,7 @@ func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -431,11 +431,11 @@ func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) GetAnyM
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -559,8 +559,8 @@ func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) GetStri
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -572,11 +572,11 @@ func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) Interpo
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -588,7 +588,7 @@ func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) Interpo
 	return returns
 }
 
-func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_ServiceFabricClusterDiagnosticsConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

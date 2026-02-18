@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputRefer
 	return nil
 }
 
-func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputRefer
 	return nil
 }
 
-func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewEventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewEventhubNamespaceNetworkRulesetsVirtualNetworkRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

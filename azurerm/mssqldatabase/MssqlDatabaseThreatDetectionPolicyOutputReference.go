@@ -5,14 +5,14 @@ package mssqldatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqldatabase/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqldatabase/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MssqlDatabaseThreatDetectionPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -58,15 +58,15 @@ type MssqlDatabaseThreatDetectionPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,9 +82,9 @@ type MssqlDatabaseThreatDetectionPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDisabledAlerts()
 	ResetEmailAccountAdmins()
 	ResetEmailAddresses()
@@ -94,7 +94,7 @@ type MssqlDatabaseThreatDetectionPolicyOutputReference interface {
 	ResetStorageEndpoint()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -104,7 +104,7 @@ type MssqlDatabaseThreatDetectionPolicyOutputReference interface {
 
 // The jsii proxy struct for MssqlDatabaseThreatDetectionPolicyOutputReference
 type jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -307,8 +307,8 @@ func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -318,7 +318,7 @@ func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) TerraformR
 }
 
 
-func NewMssqlDatabaseThreatDetectionPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MssqlDatabaseThreatDetectionPolicyOutputReference {
+func NewMssqlDatabaseThreatDetectionPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MssqlDatabaseThreatDetectionPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMssqlDatabaseThreatDetectionPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -335,7 +335,7 @@ func NewMssqlDatabaseThreatDetectionPolicyOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewMssqlDatabaseThreatDetectionPolicyOutputReference_Override(m MssqlDatabaseThreatDetectionPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMssqlDatabaseThreatDetectionPolicyOutputReference_Override(m MssqlDatabaseThreatDetectionPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -466,7 +466,7 @@ func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -506,11 +506,11 @@ func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) GetAnyMapA
 	return returns
 }
 
-func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -634,8 +634,8 @@ func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) GetStringM
 	return returns
 }
 
-func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -647,11 +647,11 @@ func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) Interpolat
 	return returns
 }
 
-func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -719,7 +719,7 @@ func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) ResetStora
 	)
 }
 
-func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MssqlDatabaseThreatDetectionPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

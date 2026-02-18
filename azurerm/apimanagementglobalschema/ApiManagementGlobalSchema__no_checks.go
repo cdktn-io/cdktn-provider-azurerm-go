@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApiManagementGlobalSchema) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementGlobalSchema) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementGlobalSchema) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

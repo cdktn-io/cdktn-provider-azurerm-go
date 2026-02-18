@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlFlexibleServerFirewallRuleTimeoutsOutputReference) 
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerFirewallRuleTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlFlexibleServerFirewallRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerFirewallRuleTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewPostgresqlFlexibleServerFirewallRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlFlexibleServerFirewallRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

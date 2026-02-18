@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermContainerAppTemplateVolumeList) validateGetParamet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermContainerAppTemplateVolumeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermContainerAppTemplateVolumeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateVolumeList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermContainerAppTemplateVolumeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermContainerAppTemplateVolumeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateVolumeList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewDataAzurermContainerAppTemplateVolumeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermContainerAppTemplateVolumeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

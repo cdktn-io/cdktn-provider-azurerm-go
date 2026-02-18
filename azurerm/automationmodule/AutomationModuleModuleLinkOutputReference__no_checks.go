@@ -51,7 +51,7 @@ func (a *jsiiProxy_AutomationModuleModuleLinkOutputReference) validatePutHashPar
 	return nil
 }
 
-func (a *jsiiProxy_AutomationModuleModuleLinkOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationModuleModuleLinkOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AutomationModuleModuleLinkOutputReference) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_AutomationModuleModuleLinkOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationModuleModuleLinkOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationModuleModuleLinkOutputReference) validateSetUriPara
 	return nil
 }
 
-func validateNewAutomationModuleModuleLinkOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationModuleModuleLinkOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

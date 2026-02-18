@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -93,7 +93,7 @@ func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -192,7 +192,7 @@ func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validate
 
 func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ApplicationGatewayUrlPathMapPathRule:
 		val := val.(*ApplicationGatewayUrlPathMapPathRule)
@@ -207,7 +207,7 @@ func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ApplicationGatewayUrlPathMapPathRule; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ApplicationGatewayUrlPathMapPathRule; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -254,7 +254,7 @@ func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -262,7 +262,7 @@ func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleOutputReference) validate
 	return nil
 }
 
-func validateNewApplicationGatewayUrlPathMapPathRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationGatewayUrlPathMapPathRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

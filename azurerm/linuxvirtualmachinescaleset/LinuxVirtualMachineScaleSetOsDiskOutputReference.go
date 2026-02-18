@@ -5,14 +5,14 @@ package linuxvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxVirtualMachineScaleSetOsDiskOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Caching() *string
 	SetCaching(val *string)
 	CachingInput() *string
@@ -57,9 +57,9 @@ type LinuxVirtualMachineScaleSetOsDiskOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WriteAcceleratorEnabled() interface{}
 	SetWriteAcceleratorEnabled(val interface{})
 	WriteAcceleratorEnabledInput() interface{}
@@ -68,7 +68,7 @@ type LinuxVirtualMachineScaleSetOsDiskOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -84,9 +84,9 @@ type LinuxVirtualMachineScaleSetOsDiskOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDiffDiskSettings(value *LinuxVirtualMachineScaleSetOsDiskDiffDiskSettings)
 	ResetDiffDiskSettings()
 	ResetDiskEncryptionSetId()
@@ -96,7 +96,7 @@ type LinuxVirtualMachineScaleSetOsDiskOutputReference interface {
 	ResetWriteAcceleratorEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -106,7 +106,7 @@ type LinuxVirtualMachineScaleSetOsDiskOutputReference interface {
 
 // The jsii proxy struct for LinuxVirtualMachineScaleSetOsDiskOutputReference
 type jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) Caching() *string {
@@ -309,8 +309,8 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -340,7 +340,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) WriteAccele
 }
 
 
-func NewLinuxVirtualMachineScaleSetOsDiskOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxVirtualMachineScaleSetOsDiskOutputReference {
+func NewLinuxVirtualMachineScaleSetOsDiskOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxVirtualMachineScaleSetOsDiskOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxVirtualMachineScaleSetOsDiskOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -357,7 +357,7 @@ func NewLinuxVirtualMachineScaleSetOsDiskOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewLinuxVirtualMachineScaleSetOsDiskOutputReference_Override(l LinuxVirtualMachineScaleSetOsDiskOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxVirtualMachineScaleSetOsDiskOutputReference_Override(l LinuxVirtualMachineScaleSetOsDiskOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -477,7 +477,7 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -528,11 +528,11 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -656,8 +656,8 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) GetStringMa
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -669,11 +669,11 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) Interpolati
 	return returns
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -744,7 +744,7 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) ResetWriteA
 	)
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetOsDiskOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

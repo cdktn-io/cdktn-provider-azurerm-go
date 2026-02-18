@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppDaprOutputReference) validateInterpolationForAttr
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppDaprOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppDaprOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ContainerAppDaprOutputReference) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppDaprOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppDaprOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAppDaprOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAppDaprOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

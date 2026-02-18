@@ -167,7 +167,7 @@ func (j *jsiiProxy_KubernetesClusterNodePool) validateSetKubernetesClusterIdPara
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KubernetesClusterNodePool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogAnalyticsSolutionPlanOutputReference) validateInterpolatio
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsSolutionPlanOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsSolutionPlanOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_LogAnalyticsSolutionPlanOutputReference) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsSolutionPlanOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsSolutionPlanOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewLogAnalyticsSolutionPlanOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogAnalyticsSolutionPlanOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

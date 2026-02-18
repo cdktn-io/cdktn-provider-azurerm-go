@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelAlertRuleThreatIntelligenceTimeoutsOutputReference) v
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleThreatIntelligenceTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleThreatIntelligenceTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelAlertRuleThreatIntelligenceTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleThreatIntelligenceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleThreatIntelligenceTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SentinelAlertRuleThreatIntelligenceTimeoutsOutputReference) v
 	return nil
 }
 
-func validateNewSentinelAlertRuleThreatIntelligenceTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelAlertRuleThreatIntelligenceTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

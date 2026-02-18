@@ -47,7 +47,7 @@ func (c *jsiiProxy_CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_CdnEndpointDeliveryRuleUrlFileNameConditionOutputReference) v
 	return nil
 }
 
-func validateNewCdnEndpointDeliveryRuleUrlFileNameConditionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewCdnEndpointDeliveryRuleUrlFileNameConditionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

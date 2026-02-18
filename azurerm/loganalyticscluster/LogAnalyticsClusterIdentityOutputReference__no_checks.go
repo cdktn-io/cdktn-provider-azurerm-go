@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogAnalyticsClusterIdentityOutputReference) validateInterpola
 	return nil
 }
 
-func (l *jsiiProxy_LogAnalyticsClusterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogAnalyticsClusterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LogAnalyticsClusterIdentityOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogAnalyticsClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogAnalyticsClusterIdentityOutputReference) validateSetTypePa
 	return nil
 }
 
-func validateNewLogAnalyticsClusterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogAnalyticsClusterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

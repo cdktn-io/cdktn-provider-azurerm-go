@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupPolicyDiskRetentionRuleCriteriaOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

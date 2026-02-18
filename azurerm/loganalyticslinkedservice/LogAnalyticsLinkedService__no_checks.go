@@ -107,7 +107,7 @@ func (j *jsiiProxy_LogAnalyticsLinkedService) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsLinkedService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogAnalyticsLinkedService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

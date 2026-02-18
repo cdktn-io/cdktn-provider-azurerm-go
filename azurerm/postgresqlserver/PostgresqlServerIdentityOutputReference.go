@@ -5,14 +5,14 @@ package postgresqlserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/postgresqlserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/postgresqlserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type PostgresqlServerIdentityOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -39,9 +39,9 @@ type PostgresqlServerIdentityOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -50,7 +50,7 @@ type PostgresqlServerIdentityOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -66,12 +66,12 @@ type PostgresqlServerIdentityOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -81,7 +81,7 @@ type PostgresqlServerIdentityOutputReference interface {
 
 // The jsii proxy struct for PostgresqlServerIdentityOutputReference
 type jsiiProxy_PostgresqlServerIdentityOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) ComplexObjectIndex() interface{} {
@@ -164,8 +164,8 @@ func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) TerraformAttribute()
 	return returns
 }
 
-func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -195,7 +195,7 @@ func (j *jsiiProxy_PostgresqlServerIdentityOutputReference) TypeInput() *string 
 }
 
 
-func NewPostgresqlServerIdentityOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) PostgresqlServerIdentityOutputReference {
+func NewPostgresqlServerIdentityOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) PostgresqlServerIdentityOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewPostgresqlServerIdentityOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -212,7 +212,7 @@ func NewPostgresqlServerIdentityOutputReference(terraformResource cdktf.IInterpo
 	return &j
 }
 
-func NewPostgresqlServerIdentityOutputReference_Override(p PostgresqlServerIdentityOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewPostgresqlServerIdentityOutputReference_Override(p PostgresqlServerIdentityOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -266,7 +266,7 @@ func (j *jsiiProxy_PostgresqlServerIdentityOutputReference)SetTerraformAttribute
 	)
 }
 
-func (j *jsiiProxy_PostgresqlServerIdentityOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_PostgresqlServerIdentityOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -317,11 +317,11 @@ func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) GetAnyMapAttribute(t
 	return returns
 }
 
-func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -445,8 +445,8 @@ func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) GetStringMapAttribut
 	return returns
 }
 
-func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -458,11 +458,11 @@ func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) InterpolationAsList(
 	return returns
 }
 
-func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -474,7 +474,7 @@ func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) InterpolationForAttr
 	return returns
 }
 
-func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (p *jsiiProxy_PostgresqlServerIdentityOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := p.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

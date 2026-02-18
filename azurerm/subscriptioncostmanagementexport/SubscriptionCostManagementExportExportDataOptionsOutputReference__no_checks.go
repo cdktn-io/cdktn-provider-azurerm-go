@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubscriptionCostManagementExportExportDataOptionsOutputRefere
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionCostManagementExportExportDataOptionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionCostManagementExportExportDataOptionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_SubscriptionCostManagementExportExportDataOptionsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementExportExportDataOptionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionCostManagementExportExportDataOptionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SubscriptionCostManagementExportExportDataOptionsOutputRefere
 	return nil
 }
 
-func validateNewSubscriptionCostManagementExportExportDataOptionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSubscriptionCostManagementExportExportDataOptionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -11,7 +11,7 @@ import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApplicationGateway) validateAddMoveTargetParameters(moveTarget *string) error {
@@ -212,7 +212,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutAuthenticationCertificateParam
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayAuthenticationCertificate:
 		value := value.(*[]*ApplicationGatewayAuthenticationCertificate)
@@ -231,7 +231,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutAuthenticationCertificateParam
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayAuthenticationCertificate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayAuthenticationCertificate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -254,7 +254,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutBackendAddressPoolParameters(v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayBackendAddressPool:
 		value := value.(*[]*ApplicationGatewayBackendAddressPool)
@@ -273,7 +273,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutBackendAddressPoolParameters(v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayBackendAddressPool; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayBackendAddressPool; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -285,7 +285,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutBackendHttpSettingsParameters(
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayBackendHttpSettings:
 		value := value.(*[]*ApplicationGatewayBackendHttpSettings)
@@ -304,7 +304,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutBackendHttpSettingsParameters(
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayBackendHttpSettings; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayBackendHttpSettings; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -316,7 +316,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutCustomErrorConfigurationParame
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayCustomErrorConfiguration:
 		value := value.(*[]*ApplicationGatewayCustomErrorConfiguration)
@@ -335,7 +335,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutCustomErrorConfigurationParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayCustomErrorConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayCustomErrorConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -347,7 +347,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutFrontendIpConfigurationParamet
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayFrontendIpConfiguration:
 		value := value.(*[]*ApplicationGatewayFrontendIpConfiguration)
@@ -366,7 +366,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutFrontendIpConfigurationParamet
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayFrontendIpConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayFrontendIpConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -378,7 +378,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutFrontendPortParameters(value i
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayFrontendPort:
 		value := value.(*[]*ApplicationGatewayFrontendPort)
@@ -397,7 +397,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutFrontendPortParameters(value i
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayFrontendPort; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayFrontendPort; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -409,7 +409,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutGatewayIpConfigurationParamete
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayGatewayIpConfiguration:
 		value := value.(*[]*ApplicationGatewayGatewayIpConfiguration)
@@ -428,7 +428,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutGatewayIpConfigurationParamete
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayGatewayIpConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayGatewayIpConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -451,7 +451,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutHttpListenerParameters(value i
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayHttpListener:
 		value := value.(*[]*ApplicationGatewayHttpListener)
@@ -470,7 +470,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutHttpListenerParameters(value i
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayHttpListener; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayHttpListener; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -493,7 +493,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutPrivateLinkConfigurationParame
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayPrivateLinkConfiguration:
 		value := value.(*[]*ApplicationGatewayPrivateLinkConfiguration)
@@ -512,7 +512,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutPrivateLinkConfigurationParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayPrivateLinkConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayPrivateLinkConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -524,7 +524,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutProbeParameters(value interfac
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayProbe:
 		value := value.(*[]*ApplicationGatewayProbe)
@@ -543,7 +543,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutProbeParameters(value interfac
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayProbe; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayProbe; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -555,7 +555,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutRedirectConfigurationParameter
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayRedirectConfiguration:
 		value := value.(*[]*ApplicationGatewayRedirectConfiguration)
@@ -574,7 +574,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutRedirectConfigurationParameter
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayRedirectConfiguration; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayRedirectConfiguration; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -586,7 +586,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutRequestRoutingRuleParameters(v
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayRequestRoutingRule:
 		value := value.(*[]*ApplicationGatewayRequestRoutingRule)
@@ -605,7 +605,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutRequestRoutingRuleParameters(v
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayRequestRoutingRule; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayRequestRoutingRule; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -617,7 +617,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutRewriteRuleSetParameters(value
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayRewriteRuleSet:
 		value := value.(*[]*ApplicationGatewayRewriteRuleSet)
@@ -636,7 +636,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutRewriteRuleSetParameters(value
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayRewriteRuleSet; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayRewriteRuleSet; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -659,7 +659,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutSslCertificateParameters(value
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewaySslCertificate:
 		value := value.(*[]*ApplicationGatewaySslCertificate)
@@ -678,7 +678,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutSslCertificateParameters(value
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewaySslCertificate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewaySslCertificate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -701,7 +701,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutSslProfileParameters(value int
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewaySslProfile:
 		value := value.(*[]*ApplicationGatewaySslProfile)
@@ -720,7 +720,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutSslProfileParameters(value int
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewaySslProfile; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewaySslProfile; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -743,7 +743,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutTrustedClientCertificateParame
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayTrustedClientCertificate:
 		value := value.(*[]*ApplicationGatewayTrustedClientCertificate)
@@ -762,7 +762,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutTrustedClientCertificateParame
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayTrustedClientCertificate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayTrustedClientCertificate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -774,7 +774,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutTrustedRootCertificateParamete
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayTrustedRootCertificate:
 		value := value.(*[]*ApplicationGatewayTrustedRootCertificate)
@@ -793,7 +793,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutTrustedRootCertificateParamete
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayTrustedRootCertificate; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayTrustedRootCertificate; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -805,7 +805,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutUrlPathMapParameters(value int
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApplicationGatewayUrlPathMap:
 		value := value.(*[]*ApplicationGatewayUrlPathMap)
@@ -824,7 +824,7 @@ func (a *jsiiProxy_ApplicationGateway) validatePutUrlPathMapParameters(value int
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApplicationGatewayUrlPathMap; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApplicationGatewayUrlPathMap; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -884,31 +884,31 @@ func validateApplicationGateway_IsTerraformResourceParameters(x interface{}) err
 
 func (j *jsiiProxy_ApplicationGateway) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
-	case *cdktf.SSHProvisionerConnection:
-		val := val.(*cdktf.SSHProvisionerConnection)
+	case *cdktn.SSHProvisionerConnection:
+		val := val.(*cdktn.SSHProvisionerConnection)
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case cdktf.SSHProvisionerConnection:
-		val_ := val.(cdktf.SSHProvisionerConnection)
+	case cdktn.SSHProvisionerConnection:
+		val_ := val.(cdktn.SSHProvisionerConnection)
 		val := &val_
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case *cdktf.WinrmProvisionerConnection:
-		val := val.(*cdktf.WinrmProvisionerConnection)
+	case *cdktn.WinrmProvisionerConnection:
+		val := val.(*cdktn.WinrmProvisionerConnection)
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
-	case cdktf.WinrmProvisionerConnection:
-		val_ := val.(cdktf.WinrmProvisionerConnection)
+	case cdktn.WinrmProvisionerConnection:
+		val_ := val.(cdktn.WinrmProvisionerConnection)
 		val := &val_
 		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 			return err
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *cdktf.SSHProvisionerConnection, *cdktf.WinrmProvisionerConnection; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *cdktn.SSHProvisionerConnection, *cdktn.WinrmProvisionerConnection; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -961,11 +961,11 @@ func (j *jsiiProxy_ApplicationGateway) validateSetCountParameters(val interface{
 		// ok
 	case uint64:
 		// ok
-	case cdktf.TerraformCount:
+	case cdktn.TerraformCount:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktf.TerraformCount; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *float64, cdktn.TerraformCount; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -981,11 +981,11 @@ func (j *jsiiProxy_ApplicationGateway) validateSetEnableHttp2Parameters(val inte
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -1001,11 +1001,11 @@ func (j *jsiiProxy_ApplicationGateway) validateSetFipsEnabledParameters(val inte
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -1029,11 +1029,11 @@ func (j *jsiiProxy_ApplicationGateway) validateSetForceFirewallPolicyAssociation
 		// ok
 	case bool:
 		// ok
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktf.IResolvable; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -1048,7 +1048,7 @@ func (j *jsiiProxy_ApplicationGateway) validateSetIdParameters(val *string) erro
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGateway) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApplicationGateway) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err
 	}
@@ -1075,42 +1075,42 @@ func (j *jsiiProxy_ApplicationGateway) validateSetNameParameters(val *string) er
 func (j *jsiiProxy_ApplicationGateway) validateSetProvisionersParameters(val *[]interface{}) error {
 	for idx_97dfc6, v := range *val {
 		switch v.(type) {
-		case *cdktf.FileProvisioner:
-			v := v.(*cdktf.FileProvisioner)
+		case *cdktn.FileProvisioner:
+			v := v.(*cdktn.FileProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.FileProvisioner:
-			v_ := v.(cdktf.FileProvisioner)
+		case cdktn.FileProvisioner:
+			v_ := v.(cdktn.FileProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case *cdktf.LocalExecProvisioner:
-			v := v.(*cdktf.LocalExecProvisioner)
+		case *cdktn.LocalExecProvisioner:
+			v := v.(*cdktn.LocalExecProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.LocalExecProvisioner:
-			v_ := v.(cdktf.LocalExecProvisioner)
+		case cdktn.LocalExecProvisioner:
+			v_ := v.(cdktn.LocalExecProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case *cdktf.RemoteExecProvisioner:
-			v := v.(*cdktf.RemoteExecProvisioner)
+		case *cdktn.RemoteExecProvisioner:
+			v := v.(*cdktn.RemoteExecProvisioner)
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
-		case cdktf.RemoteExecProvisioner:
-			v_ := v.(cdktf.RemoteExecProvisioner)
+		case cdktn.RemoteExecProvisioner:
+			v_ := v.(cdktn.RemoteExecProvisioner)
 			v := &v_
 			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
 				return err
 			}
 		default:
 			if !_jsii_.IsAnonymousProxy(v) {
-				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktf.FileProvisioner, *cdktf.LocalExecProvisioner, *cdktf.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
+				return fmt.Errorf("parameter val[%#v] must be one of the allowed types: *cdktn.FileProvisioner, *cdktn.LocalExecProvisioner, *cdktn.RemoteExecProvisioner; received %#v (a %T)", idx_97dfc6, v, v)
 			}
 		}
 	}

@@ -51,7 +51,7 @@ func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference)
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_KubernetesClusterMaintenanceWindowAutoUpgradeOutputReference)
 	return nil
 }
 
-func validateNewKubernetesClusterMaintenanceWindowAutoUpgradeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterMaintenanceWindowAutoUpgradeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

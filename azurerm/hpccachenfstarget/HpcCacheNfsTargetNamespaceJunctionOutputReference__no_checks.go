@@ -47,7 +47,7 @@ func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionOutputReference) validateIn
 	return nil
 }
 
-func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HpcCacheNfsTargetNamespaceJunctionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHpcCacheNfsTargetNamespaceJunctionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewHpcCacheNfsTargetNamespaceJunctionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

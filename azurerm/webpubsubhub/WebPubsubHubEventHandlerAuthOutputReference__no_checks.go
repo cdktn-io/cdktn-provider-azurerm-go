@@ -47,7 +47,7 @@ func (w *jsiiProxy_WebPubsubHubEventHandlerAuthOutputReference) validateInterpol
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubHubEventHandlerAuthOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubHubEventHandlerAuthOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_WebPubsubHubEventHandlerAuthOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubHubEventHandlerAuthOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubHubEventHandlerAuthOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewWebPubsubHubEventHandlerAuthOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWebPubsubHubEventHandlerAuthOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

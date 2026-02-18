@@ -123,7 +123,7 @@ func (j *jsiiProxy_NetappVolumeGroupSapHana) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHana) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetappVolumeGroupSapHana) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

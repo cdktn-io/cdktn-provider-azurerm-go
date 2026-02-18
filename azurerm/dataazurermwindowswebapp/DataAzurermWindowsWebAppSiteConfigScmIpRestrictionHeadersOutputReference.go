@@ -5,14 +5,14 @@ package dataazurermwindowswebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwindowswebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwindowswebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference in
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	XAzureFdid() *[]*string
 	XFdHealthProbe() *[]*string
 	XForwardedFor() *[]*string
@@ -49,7 +49,7 @@ type DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference in
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference in
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference in
 
 // The jsii proxy struct for DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference
 type jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) ComplexObjectIndex() interface{} {
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutp
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutp
 }
 
 
-func NewDataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference {
+func NewDataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference
 	return &j
 }
 
-func NewDataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference_Override(d DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference_Override(d DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutp
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutp
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutp
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutp
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutp
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermWindowsWebAppSiteConfigScmIpRestrictionHeadersOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

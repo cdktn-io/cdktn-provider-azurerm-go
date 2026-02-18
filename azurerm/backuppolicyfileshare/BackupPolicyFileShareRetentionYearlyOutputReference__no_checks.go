@@ -47,7 +47,7 @@ func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) validate
 	return nil
 }
 
-func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_BackupPolicyFileShareRetentionYearlyOutputReference) validate
 	return nil
 }
 
-func validateNewBackupPolicyFileShareRetentionYearlyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBackupPolicyFileShareRetentionYearlyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookTemplate) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsightsWorkbookTemplate) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApplicationInsightsWorkbookTemplate) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

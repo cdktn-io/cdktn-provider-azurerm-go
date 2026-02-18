@@ -51,7 +51,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesZookeeperNodeOutputReference) vali
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesZookeeperNodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesZookeeperNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesZookeeperNodeOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterRolesZookeeperNodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterRolesZookeeperNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesZookeeperNodeOutputReference) vali
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterRolesZookeeperNodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterRolesZookeeperNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

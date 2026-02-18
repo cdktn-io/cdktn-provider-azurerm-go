@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList) validateGetParameter
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList) validateSetTerraform
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupRuleList) validateSetWrapsSetP
 	return nil
 }
 
-func validateNewMonitorAlertPrometheusRuleGroupRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorAlertPrometheusRuleGroupRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

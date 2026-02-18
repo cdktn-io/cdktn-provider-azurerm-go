@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermDataProtectionBackupVaultIdentityList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermDataProtectionBackupVaultIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermDataProtectionBackupVaultIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

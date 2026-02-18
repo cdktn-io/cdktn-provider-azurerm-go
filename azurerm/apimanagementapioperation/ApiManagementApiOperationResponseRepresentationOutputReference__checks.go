@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (a *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (a *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApiManagementApiOperationResponseRepresentationExample:
 		value := value.(*[]*ApiManagementApiOperationResponseRepresentationExample)
@@ -117,7 +117,7 @@ func (a *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApiManagementApiOperationResponseRepresentationExample; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApiManagementApiOperationResponseRepresentationExample; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (a *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*ApiManagementApiOperationResponseRepresentationFormParameter:
 		value := value.(*[]*ApiManagementApiOperationResponseRepresentationFormParameter)
@@ -148,14 +148,14 @@ func (a *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*ApiManagementApiOperationResponseRepresentationFormParameter; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*ApiManagementApiOperationResponseRepresentationFormParameter; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -238,7 +238,7 @@ func (j *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 
 func (j *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *ApiManagementApiOperationResponseRepresentation:
 		val := val.(*ApiManagementApiOperationResponseRepresentation)
@@ -253,7 +253,7 @@ func (j *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *ApiManagementApiOperationResponseRepresentation; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *ApiManagementApiOperationResponseRepresentation; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -276,7 +276,7 @@ func (j *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -292,7 +292,7 @@ func (j *jsiiProxy_ApiManagementApiOperationResponseRepresentationOutputReferenc
 	return nil
 }
 
-func validateNewApiManagementApiOperationResponseRepresentationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiManagementApiOperationResponseRepresentationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

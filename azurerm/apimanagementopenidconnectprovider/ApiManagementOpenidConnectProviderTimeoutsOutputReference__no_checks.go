@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementOpenidConnectProviderTimeoutsOutputReference) va
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementOpenidConnectProviderTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementOpenidConnectProviderTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementOpenidConnectProviderTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementOpenidConnectProviderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementOpenidConnectProviderTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementOpenidConnectProviderTimeoutsOutputReference) va
 	return nil
 }
 
-func validateNewApiManagementOpenidConnectProviderTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementOpenidConnectProviderTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

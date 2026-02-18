@@ -5,14 +5,14 @@ package maintenanceassignmentdynamicscope
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/maintenanceassignmentdynamicscope/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/maintenanceassignmentdynamicscope/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MaintenanceAssignmentDynamicScopeFilterTagsList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type MaintenanceAssignmentDynamicScopeFilterTagsList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type MaintenanceAssignmentDynamicScopeFilterTagsList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) MaintenanceAssignmentDynamicScopeFilterTagsOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type MaintenanceAssignmentDynamicScopeFilterTagsList interface {
 
 // The jsii proxy struct for MaintenanceAssignmentDynamicScopeFilterTagsList
 type jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) WrapsSet() *
 }
 
 
-func NewMaintenanceAssignmentDynamicScopeFilterTagsList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MaintenanceAssignmentDynamicScopeFilterTagsList {
+func NewMaintenanceAssignmentDynamicScopeFilterTagsList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) MaintenanceAssignmentDynamicScopeFilterTagsList {
 	_init_.Initialize()
 
 	if err := validateNewMaintenanceAssignmentDynamicScopeFilterTagsListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewMaintenanceAssignmentDynamicScopeFilterTagsList(terraformResource cdktf.
 	return &j
 }
 
-func NewMaintenanceAssignmentDynamicScopeFilterTagsList_Override(m MaintenanceAssignmentDynamicScopeFilterTagsList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewMaintenanceAssignmentDynamicScopeFilterTagsList_Override(m MaintenanceAssignmentDynamicScopeFilterTagsList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList)SetWrapsSet(v
 	)
 }
 
-func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := m.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		m,
@@ -231,7 +231,7 @@ func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) Get(index *f
 	return returns
 }
 
-func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MaintenanceAssignmentDynamicScopeFilterTagsList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

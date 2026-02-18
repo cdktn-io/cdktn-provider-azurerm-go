@@ -47,7 +47,7 @@ func (a *jsiiProxy_AppServiceSourceControlSlotGithubActionConfigurationCodeConfi
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSourceControlSlotGithubActionConfigurationCodeConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSourceControlSlotGithubActionConfigurationCodeConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppServiceSourceControlSlotGithubActionConfigurationCodeConfi
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSourceControlSlotGithubActionConfigurationCodeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSourceControlSlotGithubActionConfigurationCodeConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppServiceSourceControlSlotGithubActionConfigurationCodeConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceSourceControlSlotGithubActionConfigurationCodeConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

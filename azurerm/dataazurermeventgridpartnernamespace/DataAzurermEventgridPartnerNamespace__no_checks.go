@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermEventgridPartnerNamespace) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermEventgridPartnerNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermEventgridPartnerNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

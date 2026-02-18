@@ -5,14 +5,14 @@ package orbitalcontactprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orbitalcontactprofile/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/orbitalcontactprofile/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrbitalContactProfileLinksChannelsEndPointOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,15 +49,15 @@ type OrbitalContactProfileLinksChannelsEndPointOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,13 +73,13 @@ type OrbitalContactProfileLinksChannelsEndPointOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIpAddress()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type OrbitalContactProfileLinksChannelsEndPointOutputReference interface {
 
 // The jsii proxy struct for OrbitalContactProfileLinksChannelsEndPointOutputReference
 type jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) ComplexObjectIndex() interface{} {
@@ -232,8 +232,8 @@ func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -243,7 +243,7 @@ func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) Te
 }
 
 
-func NewOrbitalContactProfileLinksChannelsEndPointOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OrbitalContactProfileLinksChannelsEndPointOutputReference {
+func NewOrbitalContactProfileLinksChannelsEndPointOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) OrbitalContactProfileLinksChannelsEndPointOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOrbitalContactProfileLinksChannelsEndPointOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -260,7 +260,7 @@ func NewOrbitalContactProfileLinksChannelsEndPointOutputReference(terraformResou
 	return &j
 }
 
-func NewOrbitalContactProfileLinksChannelsEndPointOutputReference_Override(o OrbitalContactProfileLinksChannelsEndPointOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewOrbitalContactProfileLinksChannelsEndPointOutputReference_Override(o OrbitalContactProfileLinksChannelsEndPointOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -358,7 +358,7 @@ func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -398,11 +398,11 @@ func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) Ge
 	return returns
 }
 
-func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -526,8 +526,8 @@ func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) Ge
 	return returns
 }
 
-func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -539,11 +539,11 @@ func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) In
 	return returns
 }
 
-func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -563,7 +563,7 @@ func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) Re
 	)
 }
 
-func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrbitalContactProfileLinksChannelsEndPointOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

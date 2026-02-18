@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateGetParamet
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateResolvePar
 
 func (j *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FunctionAppFlexConsumptionAlwaysReady:
 		val := val.(*[]*FunctionAppFlexConsumptionAlwaysReady)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateSetInterna
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FunctionAppFlexConsumptionAlwaysReady; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FunctionAppFlexConsumptionAlwaysReady; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionAlwaysReadyList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionAlwaysReadyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFunctionAppFlexConsumptionAlwaysReadyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

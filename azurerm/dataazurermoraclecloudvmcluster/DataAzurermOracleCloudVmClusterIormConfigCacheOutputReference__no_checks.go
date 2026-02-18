@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheOutputReference
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleCloudVmClusterIormConfigCacheOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermOracleCloudVmClusterIormConfigCacheOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermOracleCloudVmClusterIormConfigCacheOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

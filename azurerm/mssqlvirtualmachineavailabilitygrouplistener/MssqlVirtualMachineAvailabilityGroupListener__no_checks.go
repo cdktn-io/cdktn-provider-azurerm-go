@@ -123,7 +123,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validateSetIdPa
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

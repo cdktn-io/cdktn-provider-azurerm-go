@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinition) validateSetIdParameters
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinition) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermCosmosdbSqlRoleDefinition) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

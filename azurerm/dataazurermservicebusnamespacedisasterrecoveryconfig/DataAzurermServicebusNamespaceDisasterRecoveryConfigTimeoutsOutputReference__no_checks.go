@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsO
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsO
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermServicebusNamespaceDisasterRecoveryConfigTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

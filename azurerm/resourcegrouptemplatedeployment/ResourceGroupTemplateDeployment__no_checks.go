@@ -115,7 +115,7 @@ func (j *jsiiProxy_ResourceGroupTemplateDeployment) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupTemplateDeployment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ResourceGroupTemplateDeployment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

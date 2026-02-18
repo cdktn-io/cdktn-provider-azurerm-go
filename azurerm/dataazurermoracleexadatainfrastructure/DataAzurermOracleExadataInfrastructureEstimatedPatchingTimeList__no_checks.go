@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeLi
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeLi
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructureEstimatedPatchingTimeLi
 	return nil
 }
 
-func validateNewDataAzurermOracleExadataInfrastructureEstimatedPatchingTimeListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermOracleExadataInfrastructureEstimatedPatchingTimeListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

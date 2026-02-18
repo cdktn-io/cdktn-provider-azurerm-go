@@ -47,7 +47,7 @@ func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderOutputReference) v
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_FrontdoorRulesEngineRuleActionRequestHeaderOutputReference) v
 	return nil
 }
 
-func validateNewFrontdoorRulesEngineRuleActionRequestHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewFrontdoorRulesEngineRuleActionRequestHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -131,7 +131,7 @@ func (j *jsiiProxy_ExpressRouteConnection) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ExpressRouteConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

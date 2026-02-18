@@ -139,7 +139,7 @@ func (j *jsiiProxy_HealthcareService) validateSetKindParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareService) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HealthcareService) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

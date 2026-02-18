@@ -15,7 +15,7 @@ func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateGetParameters(ind
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceUpstreamEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SignalrServiceUpstreamEndpointList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewSignalrServiceUpstreamEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSignalrServiceUpstreamEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

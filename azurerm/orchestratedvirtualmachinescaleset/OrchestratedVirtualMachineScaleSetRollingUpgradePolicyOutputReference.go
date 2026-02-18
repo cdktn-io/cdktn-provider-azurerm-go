@@ -5,14 +5,14 @@ package orchestratedvirtualmachinescaleset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/orchestratedvirtualmachinescaleset/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/orchestratedvirtualmachinescaleset/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -58,15 +58,15 @@ type OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,15 +82,15 @@ type OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCrossZoneUpgradesEnabled()
 	ResetMaximumSurgeInstancesEnabled()
 	ResetPrioritizeUnhealthyInstancesEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference inter
 
 // The jsii proxy struct for OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference
 type jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -303,8 +303,8 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputR
 	return returns
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -314,7 +314,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputR
 }
 
 
-func NewOrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference {
+func NewOrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewOrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -331,7 +331,7 @@ func NewOrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference(te
 	return &j
 }
 
-func NewOrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference_Override(o OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewOrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference_Override(o OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -462,7 +462,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputR
 	)
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -502,11 +502,11 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputR
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -630,8 +630,8 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputR
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -643,11 +643,11 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputR
 	return returns
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := o.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		o,
@@ -683,7 +683,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputR
 	)
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetRollingUpgradePolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := o.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

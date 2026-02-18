@@ -51,7 +51,7 @@ func (a *jsiiProxy_ApiManagementSignUpOutputReference) validatePutTermsOfService
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementSignUpOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementSignUpOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApiManagementSignUpOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementSignUpOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementSignUpOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementSignUpOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementSignUpOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

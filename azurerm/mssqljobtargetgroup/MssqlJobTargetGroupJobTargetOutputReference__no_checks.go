@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateInterpol
 	return nil
 }
 
-func (m *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlJobTargetGroupJobTargetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlJobTargetGroupJobTargetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMssqlJobTargetGroupJobTargetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

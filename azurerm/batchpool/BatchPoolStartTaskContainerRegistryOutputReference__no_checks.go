@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolStartTaskContainerRegistryOutputReference) validateI
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolStartTaskContainerRegistryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolStartTaskContainerRegistryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_BatchPoolStartTaskContainerRegistryOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolStartTaskContainerRegistryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolStartTaskContainerRegistryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_BatchPoolStartTaskContainerRegistryOutputReference) validateS
 	return nil
 }
 
-func validateNewBatchPoolStartTaskContainerRegistryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchPoolStartTaskContainerRegistryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

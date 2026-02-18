@@ -47,7 +47,7 @@ func (d *jsiiProxy_DynatraceMonitorUserOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (d *jsiiProxy_DynatraceMonitorUserOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DynatraceMonitorUserOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_DynatraceMonitorUserOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_DynatraceMonitorUserOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DynatraceMonitorUserOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDynatraceMonitorUserOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDynatraceMonitorUserOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

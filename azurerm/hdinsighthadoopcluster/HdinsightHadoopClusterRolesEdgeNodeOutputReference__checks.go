@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*HdinsightHadoopClusterRolesEdgeNodeHttpsEndpoints:
 		value := value.(*[]*HdinsightHadoopClusterRolesEdgeNodeHttpsEndpoints)
@@ -117,7 +117,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*HdinsightHadoopClusterRolesEdgeNodeHttpsEndpoints; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*HdinsightHadoopClusterRolesEdgeNodeHttpsEndpoints; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -129,7 +129,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*HdinsightHadoopClusterRolesEdgeNodeInstallScriptAction:
 		value := value.(*[]*HdinsightHadoopClusterRolesEdgeNodeInstallScriptAction)
@@ -148,7 +148,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*HdinsightHadoopClusterRolesEdgeNodeInstallScriptAction; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*HdinsightHadoopClusterRolesEdgeNodeInstallScriptAction; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -160,7 +160,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateP
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActions:
 		value := value.(*[]*HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActions)
@@ -179,14 +179,14 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateP
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActions; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*HdinsightHadoopClusterRolesEdgeNodeUninstallScriptActions; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -283,7 +283,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -299,7 +299,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesEdgeNodeOutputReference) validateS
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterRolesEdgeNodeOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterRolesEdgeNodeOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

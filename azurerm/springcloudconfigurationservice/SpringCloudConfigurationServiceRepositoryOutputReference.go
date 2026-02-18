@@ -5,14 +5,14 @@ package springcloudconfigurationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudconfigurationservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudconfigurationservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpringCloudConfigurationServiceRepositoryOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CaCertificateId() *string
 	SetCaCertificateId(val *string)
 	CaCertificateIdInput() *string
@@ -67,9 +67,9 @@ type SpringCloudConfigurationServiceRepositoryOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	SetUri(val *string)
 	UriInput() *string
@@ -81,7 +81,7 @@ type SpringCloudConfigurationServiceRepositoryOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -97,9 +97,9 @@ type SpringCloudConfigurationServiceRepositoryOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCaCertificateId()
 	ResetHostKey()
 	ResetHostKeyAlgorithm()
@@ -110,7 +110,7 @@ type SpringCloudConfigurationServiceRepositoryOutputReference interface {
 	ResetUsername()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -120,7 +120,7 @@ type SpringCloudConfigurationServiceRepositoryOutputReference interface {
 
 // The jsii proxy struct for SpringCloudConfigurationServiceRepositoryOutputReference
 type jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) CaCertificateId() *string {
@@ -383,8 +383,8 @@ func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -434,7 +434,7 @@ func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Use
 }
 
 
-func NewSpringCloudConfigurationServiceRepositoryOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SpringCloudConfigurationServiceRepositoryOutputReference {
+func NewSpringCloudConfigurationServiceRepositoryOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SpringCloudConfigurationServiceRepositoryOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpringCloudConfigurationServiceRepositoryOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -451,7 +451,7 @@ func NewSpringCloudConfigurationServiceRepositoryOutputReference(terraformResour
 	return &j
 }
 
-func NewSpringCloudConfigurationServiceRepositoryOutputReference_Override(s SpringCloudConfigurationServiceRepositoryOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSpringCloudConfigurationServiceRepositoryOutputReference_Override(s SpringCloudConfigurationServiceRepositoryOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -615,7 +615,7 @@ func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -677,11 +677,11 @@ func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -805,8 +805,8 @@ func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Get
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -818,11 +818,11 @@ func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Int
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -898,7 +898,7 @@ func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Res
 	)
 }
 
-func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpringCloudConfigurationServiceRepositoryOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

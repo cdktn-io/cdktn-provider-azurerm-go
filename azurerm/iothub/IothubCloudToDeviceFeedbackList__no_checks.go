@@ -15,7 +15,7 @@ func (i *jsiiProxy_IothubCloudToDeviceFeedbackList) validateGetParameters(index 
 	return nil
 }
 
-func (i *jsiiProxy_IothubCloudToDeviceFeedbackList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubCloudToDeviceFeedbackList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_IothubCloudToDeviceFeedbackList) validateSetTerraformAttribut
 	return nil
 }
 
-func (j *jsiiProxy_IothubCloudToDeviceFeedbackList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubCloudToDeviceFeedbackList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_IothubCloudToDeviceFeedbackList) validateSetWrapsSetParameter
 	return nil
 }
 
-func validateNewIothubCloudToDeviceFeedbackListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIothubCloudToDeviceFeedbackListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

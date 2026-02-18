@@ -5,16 +5,16 @@ package datafactorylinkedcustomservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datafactorylinkedcustomservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorylinkedcustomservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_linked_custom_service azurerm_data_factory_linked_custom_service}.
 type DataFactoryLinkedCustomService interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
 	SetAdditionalProperties(val *map[string]*string)
 	AdditionalPropertiesInput() *map[string]*string
@@ -22,7 +22,7 @@ type DataFactoryLinkedCustomService interface {
 	SetAnnotations(val *[]*string)
 	AnnotationsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type DataFactoryLinkedCustomService interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -57,9 +57,9 @@ type DataFactoryLinkedCustomService interface {
 	IntegrationRuntime() DataFactoryLinkedCustomServiceIntegrationRuntimeOutputReference
 	IntegrationRuntimeInput() *DataFactoryLinkedCustomServiceIntegrationRuntime
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -69,9 +69,9 @@ type DataFactoryLinkedCustomService interface {
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type DataFactoryLinkedCustomService interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type DataFactoryLinkedCustomService interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type DataFactoryLinkedCustomService interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -162,7 +162,7 @@ type DataFactoryLinkedCustomService interface {
 
 // The jsii proxy struct for DataFactoryLinkedCustomService
 type jsiiProxy_DataFactoryLinkedCustomService struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataFactoryLinkedCustomService) AdditionalProperties() *map[string]*string {
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService) AnnotationsInput() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataFactoryLinkedCustomService) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -295,8 +295,8 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService) DescriptionInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataFactoryLinkedCustomService) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -365,8 +365,8 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService) IntegrationRuntimeInput() *Da
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataFactoryLinkedCustomService) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -425,8 +425,8 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService) ParametersInput() *map[string
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataFactoryLinkedCustomService) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -455,8 +455,8 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataFactoryLinkedCustomService) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -649,7 +649,7 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService)SetDescription(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataFactoryLinkedCustomService)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -668,7 +668,7 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataFactoryLinkedCustomService)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -701,7 +701,7 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService)SetParameters(val *map[string]
 	)
 }
 
-func (j *jsiiProxy_DataFactoryLinkedCustomService)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataFactoryLinkedCustomService)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -742,14 +742,14 @@ func (j *jsiiProxy_DataFactoryLinkedCustomService)SetTypePropertiesJson(val *str
 	)
 }
 
-// Generates CDKTF code for importing a DataFactoryLinkedCustomService resource upon running "cdktf plan <stack-name>".
-func DataFactoryLinkedCustomService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataFactoryLinkedCustomService resource upon running "cdktn plan <stack-name>".
+func DataFactoryLinkedCustomService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataFactoryLinkedCustomService_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataFactoryLinkedCustomService.DataFactoryLinkedCustomService",
@@ -883,11 +883,11 @@ func (d *jsiiProxy_DataFactoryLinkedCustomService) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedCustomService) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedCustomService) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -1024,7 +1024,7 @@ func (d *jsiiProxy_DataFactoryLinkedCustomService) HasResourceMove() interface{}
 	return returns
 }
 
-func (d *jsiiProxy_DataFactoryLinkedCustomService) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataFactoryLinkedCustomService) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1035,11 +1035,11 @@ func (d *jsiiProxy_DataFactoryLinkedCustomService) ImportFrom(id *string, provid
 	)
 }
 
-func (d *jsiiProxy_DataFactoryLinkedCustomService) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataFactoryLinkedCustomService) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

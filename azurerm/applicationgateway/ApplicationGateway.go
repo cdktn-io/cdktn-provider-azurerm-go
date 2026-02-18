@@ -5,16 +5,16 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/application_gateway azurerm_application_gateway}.
 type ApplicationGateway interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthenticationCertificate() ApplicationGatewayAuthenticationCertificateList
 	AuthenticationCertificateInput() interface{}
 	AutoscaleConfiguration() ApplicationGatewayAutoscaleConfigurationOutputReference
@@ -24,7 +24,7 @@ type ApplicationGateway interface {
 	BackendHttpSettings() ApplicationGatewayBackendHttpSettingsList
 	BackendHttpSettingsInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -54,9 +54,9 @@ type ApplicationGateway interface {
 	SetForceFirewallPolicyAssociation(val interface{})
 	ForceFirewallPolicyAssociationInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -77,9 +77,9 @@ type ApplicationGateway interface {
 	IdentityInput() *ApplicationGatewayIdentity
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -94,9 +94,9 @@ type ApplicationGateway interface {
 	Probe() ApplicationGatewayProbeList
 	ProbeInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -124,7 +124,7 @@ type ApplicationGateway interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -150,7 +150,7 @@ type ApplicationGateway interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -168,9 +168,9 @@ type ApplicationGateway interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -252,7 +252,7 @@ type ApplicationGateway interface {
 
 // The jsii proxy struct for ApplicationGateway
 type jsiiProxy_ApplicationGateway struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ApplicationGateway) AuthenticationCertificate() ApplicationGatewayAuthenticationCertificateList {
@@ -335,8 +335,8 @@ func (j *jsiiProxy_ApplicationGateway) BackendHttpSettingsInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGateway) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ApplicationGateway) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -485,8 +485,8 @@ func (j *jsiiProxy_ApplicationGateway) ForceFirewallPolicyAssociationInput() int
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGateway) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ApplicationGateway) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -655,8 +655,8 @@ func (j *jsiiProxy_ApplicationGateway) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGateway) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ApplicationGateway) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -765,8 +765,8 @@ func (j *jsiiProxy_ApplicationGateway) ProbeInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGateway) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ApplicationGateway) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -975,8 +975,8 @@ func (j *jsiiProxy_ApplicationGateway) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGateway) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ApplicationGateway) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1229,7 +1229,7 @@ func (j *jsiiProxy_ApplicationGateway)SetForceFirewallPolicyAssociation(val inte
 	)
 }
 
-func (j *jsiiProxy_ApplicationGateway)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ApplicationGateway)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1248,7 +1248,7 @@ func (j *jsiiProxy_ApplicationGateway)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationGateway)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ApplicationGateway)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1281,7 +1281,7 @@ func (j *jsiiProxy_ApplicationGateway)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ApplicationGateway)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ApplicationGateway)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1333,14 +1333,14 @@ func (j *jsiiProxy_ApplicationGateway)SetZones(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a ApplicationGateway resource upon running "cdktf plan <stack-name>".
-func ApplicationGateway_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ApplicationGateway resource upon running "cdktn plan <stack-name>".
+func ApplicationGateway_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateApplicationGateway_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.applicationGateway.ApplicationGateway",
@@ -1474,11 +1474,11 @@ func (a *jsiiProxy_ApplicationGateway) GetAnyMapAttribute(terraformAttribute *st
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGateway) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGateway) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1615,7 +1615,7 @@ func (a *jsiiProxy_ApplicationGateway) HasResourceMove() interface{} {
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGateway) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (a *jsiiProxy_ApplicationGateway) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := a.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1626,11 +1626,11 @@ func (a *jsiiProxy_ApplicationGateway) ImportFrom(id *string, provider cdktf.Ter
 	)
 }
 
-func (a *jsiiProxy_ApplicationGateway) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGateway) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,

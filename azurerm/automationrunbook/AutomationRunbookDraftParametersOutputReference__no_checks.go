@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationRunbookDraftParametersOutputReference) validateInte
 	return nil
 }
 
-func (a *jsiiProxy_AutomationRunbookDraftParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationRunbookDraftParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AutomationRunbookDraftParametersOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_AutomationRunbookDraftParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationRunbookDraftParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_AutomationRunbookDraftParametersOutputReference) validateSetT
 	return nil
 }
 
-func validateNewAutomationRunbookDraftParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewAutomationRunbookDraftParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

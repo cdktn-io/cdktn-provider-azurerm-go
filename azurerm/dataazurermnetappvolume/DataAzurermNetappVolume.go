@@ -5,22 +5,22 @@ package dataazurermnetappvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnetappvolume/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermnetappvolume/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/netapp_volume azurerm_netapp_volume}.
 type DataAzurermNetappVolume interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	AcceptGrowCapacityPoolForShortTermCloneSplit() *string
 	AccountName() *string
 	SetAccountName(val *string)
 	AccountNameInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type DataAzurermNetappVolume interface {
 	SetDependsOn(val *[]*string)
 	EncryptionKeySource() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,11 +46,11 @@ type DataAzurermNetappVolume interface {
 	SetId(val *string)
 	IdInput() *string
 	KeyVaultPrivateEndpointId() *string
-	LargeVolumeEnabled() cdktf.IResolvable
+	LargeVolumeEnabled() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	MountIpAddresses() *[]*string
 	Name() *string
@@ -64,9 +64,9 @@ type DataAzurermNetappVolume interface {
 	PoolNameInput() *string
 	Protocols() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -76,12 +76,12 @@ type DataAzurermNetappVolume interface {
 	SetSecurityStyle(val *string)
 	SecurityStyleInput() *string
 	ServiceLevel() *string
-	SmbAccessBasedEnumerationEnabled() cdktf.IResolvable
-	SmbNonBrowsableEnabled() cdktf.IResolvable
+	SmbAccessBasedEnumerationEnabled() cdktn.IResolvable
+	SmbNonBrowsableEnabled() cdktn.IResolvable
 	StorageQuotaInGb() *float64
 	SubnetId() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type DataAzurermNetappVolume interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,7 +111,7 @@ type DataAzurermNetappVolume interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -138,7 +138,7 @@ type DataAzurermNetappVolume interface {
 
 // The jsii proxy struct for DataAzurermNetappVolume
 type jsiiProxy_DataAzurermNetappVolume struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
 func (j *jsiiProxy_DataAzurermNetappVolume) AcceptGrowCapacityPoolForShortTermCloneSplit() *string {
@@ -171,8 +171,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) AccountNameInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermNetappVolume) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -241,8 +241,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) EncryptionKeySource() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermNetappVolume) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) KeyVaultPrivateEndpointId() *string 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) LargeVolumeEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermNetappVolume) LargeVolumeEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"largeVolumeEnabled",
@@ -311,8 +311,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) LargeVolumeEnabled() cdktf.IResolvab
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermNetappVolume) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -411,8 +411,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) Protocols() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermNetappVolume) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -481,8 +481,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) ServiceLevel() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) SmbAccessBasedEnumerationEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermNetappVolume) SmbAccessBasedEnumerationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"smbAccessBasedEnumerationEnabled",
@@ -491,8 +491,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) SmbAccessBasedEnumerationEnabled() c
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) SmbNonBrowsableEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermNetappVolume) SmbNonBrowsableEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"smbNonBrowsableEnabled",
@@ -521,8 +521,8 @@ func (j *jsiiProxy_DataAzurermNetappVolume) SubnetId() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermNetappVolume) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -651,7 +651,7 @@ func (j *jsiiProxy_DataAzurermNetappVolume)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermNetappVolume)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -670,7 +670,7 @@ func (j *jsiiProxy_DataAzurermNetappVolume)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermNetappVolume)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -703,7 +703,7 @@ func (j *jsiiProxy_DataAzurermNetappVolume)SetPoolName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNetappVolume)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermNetappVolume)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -733,14 +733,14 @@ func (j *jsiiProxy_DataAzurermNetappVolume)SetSecurityStyle(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermNetappVolume resource upon running "cdktf plan <stack-name>".
-func DataAzurermNetappVolume_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermNetappVolume resource upon running "cdktn plan <stack-name>".
+func DataAzurermNetappVolume_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermNetappVolume_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermNetappVolume.DataAzurermNetappVolume",
@@ -863,11 +863,11 @@ func (d *jsiiProxy_DataAzurermNetappVolume) GetAnyMapAttribute(terraformAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetappVolume) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermNetappVolume) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -991,11 +991,11 @@ func (d *jsiiProxy_DataAzurermNetappVolume) GetStringMapAttribute(terraformAttri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetappVolume) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermNetappVolume) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -51,7 +51,7 @@ func (v *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) v
 	return nil
 }
 
-func (v *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_VirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) v
 	return nil
 }
 
-func validateNewVirtualDesktopHostPoolScheduledAgentUpdatesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualDesktopHostPoolScheduledAgentUpdatesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

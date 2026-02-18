@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionOutputRe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAutomationAccountPrivateEndpointConnectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermAutomationAccountPrivateEndpointConnectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermAutomationAccountPrivateEndpointConnectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

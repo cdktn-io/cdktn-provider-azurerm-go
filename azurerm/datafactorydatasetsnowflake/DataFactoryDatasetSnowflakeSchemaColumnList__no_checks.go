@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataFactoryDatasetSnowflakeSchemaColumnList) validateGetParam
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryDatasetSnowflakeSchemaColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryDatasetSnowflakeSchemaColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DataFactoryDatasetSnowflakeSchemaColumnList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetSnowflakeSchemaColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryDatasetSnowflakeSchemaColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DataFactoryDatasetSnowflakeSchemaColumnList) validateSetWraps
 	return nil
 }
 
-func validateNewDataFactoryDatasetSnowflakeSchemaColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataFactoryDatasetSnowflakeSchemaColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

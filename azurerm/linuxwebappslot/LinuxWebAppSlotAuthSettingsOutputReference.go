@@ -5,14 +5,14 @@ package linuxwebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxWebAppSlotAuthSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDirectory() LinuxWebAppSlotAuthSettingsActiveDirectoryOutputReference
 	ActiveDirectoryInput() *LinuxWebAppSlotAuthSettingsActiveDirectory
 	AdditionalLoginParameters() *map[string]*string
@@ -65,9 +65,9 @@ type LinuxWebAppSlotAuthSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenRefreshExtensionHours() *float64
 	SetTokenRefreshExtensionHours(val *float64)
 	TokenRefreshExtensionHoursInput() *float64
@@ -84,7 +84,7 @@ type LinuxWebAppSlotAuthSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -100,9 +100,9 @@ type LinuxWebAppSlotAuthSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutActiveDirectory(value *LinuxWebAppSlotAuthSettingsActiveDirectory)
 	PutFacebook(value *LinuxWebAppSlotAuthSettingsFacebook)
 	PutGithub(value *LinuxWebAppSlotAuthSettingsGithub)
@@ -125,7 +125,7 @@ type LinuxWebAppSlotAuthSettingsOutputReference interface {
 	ResetUnauthenticatedClientAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -135,7 +135,7 @@ type LinuxWebAppSlotAuthSettingsOutputReference interface {
 
 // The jsii proxy struct for LinuxWebAppSlotAuthSettingsOutputReference
 type jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) ActiveDirectory() LinuxWebAppSlotAuthSettingsActiveDirectoryOutputReference {
@@ -418,8 +418,8 @@ func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) TerraformAttribut
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -509,7 +509,7 @@ func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) UnauthenticatedCl
 }
 
 
-func NewLinuxWebAppSlotAuthSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxWebAppSlotAuthSettingsOutputReference {
+func NewLinuxWebAppSlotAuthSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxWebAppSlotAuthSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxWebAppSlotAuthSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -526,7 +526,7 @@ func NewLinuxWebAppSlotAuthSettingsOutputReference(terraformResource cdktf.IInte
 	return &j
 }
 
-func NewLinuxWebAppSlotAuthSettingsOutputReference_Override(l LinuxWebAppSlotAuthSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxWebAppSlotAuthSettingsOutputReference_Override(l LinuxWebAppSlotAuthSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -646,7 +646,7 @@ func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference)SetTerraformAttrib
 	)
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -719,11 +719,11 @@ func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) GetAnyMapAttribut
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -847,8 +847,8 @@ func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) GetStringMapAttri
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -860,11 +860,11 @@ func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) InterpolationAsLi
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1054,7 +1054,7 @@ func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) ResetUnauthentica
 	)
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxWebAppSlotAuthSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

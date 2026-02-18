@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingNotificationWebhookList) validateGetPa
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingNotificationWebhookList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingNotificationWebhookList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingNotificationWebhookList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingNotificationWebhookList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingNotificationWebhookList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingNotificationWebhookList) validateSetWr
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingNotificationWebhookListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorAutoscaleSettingNotificationWebhookListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

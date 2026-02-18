@@ -5,14 +5,14 @@ package windowswebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppLogsHttpLogsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AzureBlobStorage() WindowsWebAppLogsHttpLogsAzureBlobStorageOutputReference
 	AzureBlobStorageInput() *WindowsWebAppLogsHttpLogsAzureBlobStorage
 	// the index of the complex object in a list.
@@ -41,15 +41,15 @@ type WindowsWebAppLogsHttpLogsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type WindowsWebAppLogsHttpLogsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAzureBlobStorage(value *WindowsWebAppLogsHttpLogsAzureBlobStorage)
 	PutFileSystem(value *WindowsWebAppLogsHttpLogsFileSystem)
 	ResetAzureBlobStorage()
 	ResetFileSystem()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type WindowsWebAppLogsHttpLogsOutputReference interface {
 
 // The jsii proxy struct for WindowsWebAppLogsHttpLogsOutputReference
 type jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) AzureBlobStorage() WindowsWebAppLogsHttpLogsAzureBlobStorageOutputReference {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) TerraformResource()
 }
 
 
-func NewWindowsWebAppLogsHttpLogsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsWebAppLogsHttpLogsOutputReference {
+func NewWindowsWebAppLogsHttpLogsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsWebAppLogsHttpLogsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppLogsHttpLogsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewWindowsWebAppLogsHttpLogsOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewWindowsWebAppLogsHttpLogsOutputReference_Override(w WindowsWebAppLogsHttpLogsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsWebAppLogsHttpLogsOutputReference_Override(w WindowsWebAppLogsHttpLogsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -437,8 +437,8 @@ func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -450,11 +450,11 @@ func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) InterpolationAsList
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -504,7 +504,7 @@ func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) ResetFileSystem() {
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppLogsHttpLogsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

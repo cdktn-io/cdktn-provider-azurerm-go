@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBindingTimeoutsOutputRefere
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBindingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBindingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KubernetesClusterTrustedAccessRoleBindingTimeoutsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterTrustedAccessRoleBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterTrustedAccessRoleBindingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KubernetesClusterTrustedAccessRoleBindingTimeoutsOutputRefere
 	return nil
 }
 
-func validateNewKubernetesClusterTrustedAccessRoleBindingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterTrustedAccessRoleBindingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

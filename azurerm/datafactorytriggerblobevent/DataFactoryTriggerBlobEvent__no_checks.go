@@ -147,7 +147,7 @@ func (j *jsiiProxy_DataFactoryTriggerBlobEvent) validateSetIgnoreEmptyBlobsParam
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryTriggerBlobEvent) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryTriggerBlobEvent) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

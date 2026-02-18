@@ -111,7 +111,7 @@ func (j *jsiiProxy_SpringCloudCustomDomain) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudCustomDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudCustomDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

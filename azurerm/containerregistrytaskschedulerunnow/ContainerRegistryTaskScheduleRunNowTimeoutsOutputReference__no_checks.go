@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNowTimeoutsOutputReference) v
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNowTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNowTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ContainerRegistryTaskScheduleRunNowTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskScheduleRunNowTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryTaskScheduleRunNowTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerRegistryTaskScheduleRunNowTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerRegistryTaskScheduleRunNowTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

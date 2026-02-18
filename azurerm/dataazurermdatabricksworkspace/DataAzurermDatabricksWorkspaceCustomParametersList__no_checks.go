@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceCustomParametersList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceCustomParametersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceCustomParametersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceCustomParametersList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceCustomParametersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceCustomParametersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceCustomParametersList) validateS
 	return nil
 }
 
-func validateNewDataAzurermDatabricksWorkspaceCustomParametersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermDatabricksWorkspaceCustomParametersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

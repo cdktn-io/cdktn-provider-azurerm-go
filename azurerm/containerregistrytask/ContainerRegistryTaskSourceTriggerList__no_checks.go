@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerList) validateGetParameters
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryTaskSourceTriggerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerRegistryTaskSourceTriggerList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewContainerRegistryTaskSourceTriggerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerRegistryTaskSourceTriggerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

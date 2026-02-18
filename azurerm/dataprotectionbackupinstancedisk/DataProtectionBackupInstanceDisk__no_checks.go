@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceDisk) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupInstanceDisk) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupInstanceDisk) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

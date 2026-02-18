@@ -47,7 +47,7 @@ func (v *jsiiProxy_VpnSiteLinkBgpOutputReference) validateInterpolationForAttrib
 	return nil
 }
 
-func (v *jsiiProxy_VpnSiteLinkBgpOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnSiteLinkBgpOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VpnSiteLinkBgpOutputReference) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_VpnSiteLinkBgpOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnSiteLinkBgpOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVpnSiteLinkBgpOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVpnSiteLinkBgpOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

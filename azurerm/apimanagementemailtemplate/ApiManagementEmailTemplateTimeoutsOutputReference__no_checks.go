@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementEmailTemplateTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementEmailTemplateTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementEmailTemplateTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApiManagementEmailTemplateTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementEmailTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementEmailTemplateTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApiManagementEmailTemplateTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewApiManagementEmailTemplateTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementEmailTemplateTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

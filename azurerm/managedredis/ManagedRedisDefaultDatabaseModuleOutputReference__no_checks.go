@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagedRedisDefaultDatabaseModuleOutputReference) validateInt
 	return nil
 }
 
-func (m *jsiiProxy_ManagedRedisDefaultDatabaseModuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagedRedisDefaultDatabaseModuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ManagedRedisDefaultDatabaseModuleOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ManagedRedisDefaultDatabaseModuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagedRedisDefaultDatabaseModuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagedRedisDefaultDatabaseModuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewManagedRedisDefaultDatabaseModuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

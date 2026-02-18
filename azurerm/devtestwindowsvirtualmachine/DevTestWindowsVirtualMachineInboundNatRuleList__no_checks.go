@@ -15,7 +15,7 @@ func (d *jsiiProxy_DevTestWindowsVirtualMachineInboundNatRuleList) validateGetPa
 	return nil
 }
 
-func (d *jsiiProxy_DevTestWindowsVirtualMachineInboundNatRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestWindowsVirtualMachineInboundNatRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_DevTestWindowsVirtualMachineInboundNatRuleList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_DevTestWindowsVirtualMachineInboundNatRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestWindowsVirtualMachineInboundNatRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_DevTestWindowsVirtualMachineInboundNatRuleList) validateSetWr
 	return nil
 }
 
-func validateNewDevTestWindowsVirtualMachineInboundNatRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDevTestWindowsVirtualMachineInboundNatRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SubnetServiceEndpointStoragePolicyDefinitionOutputReference) 
 	return nil
 }
 
-func (s *jsiiProxy_SubnetServiceEndpointStoragePolicyDefinitionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubnetServiceEndpointStoragePolicyDefinitionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_SubnetServiceEndpointStoragePolicyDefinitionOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_SubnetServiceEndpointStoragePolicyDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubnetServiceEndpointStoragePolicyDefinitionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSubnetServiceEndpointStoragePolicyDefinitionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSubnetServiceEndpointStoragePolicyDefinitionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

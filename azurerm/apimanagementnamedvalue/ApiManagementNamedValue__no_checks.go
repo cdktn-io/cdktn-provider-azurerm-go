@@ -119,7 +119,7 @@ func (j *jsiiProxy_ApiManagementNamedValue) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementNamedValue) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementNamedValue) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

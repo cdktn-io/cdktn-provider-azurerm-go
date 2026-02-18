@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineStorageImageReferenceOutputReference) validateI
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineStorageImageReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineStorageImageReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_VirtualMachineStorageImageReferenceOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineStorageImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineStorageImageReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_VirtualMachineStorageImageReferenceOutputReference) validateS
 	return nil
 }
 
-func validateNewVirtualMachineStorageImageReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineStorageImageReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

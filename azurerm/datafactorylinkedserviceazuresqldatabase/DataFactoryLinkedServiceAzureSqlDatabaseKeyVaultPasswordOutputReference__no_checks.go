@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataFactoryLinkedServiceAzureSqlDatabaseKeyVaultPasswordOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

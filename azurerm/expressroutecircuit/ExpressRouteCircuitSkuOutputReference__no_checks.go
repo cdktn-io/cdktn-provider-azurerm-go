@@ -47,7 +47,7 @@ func (e *jsiiProxy_ExpressRouteCircuitSkuOutputReference) validateInterpolationF
 	return nil
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ExpressRouteCircuitSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ExpressRouteCircuitSkuOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteCircuitSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ExpressRouteCircuitSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ExpressRouteCircuitSkuOutputReference) validateSetTierParamet
 	return nil
 }
 
-func validateNewExpressRouteCircuitSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewExpressRouteCircuitSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppSlotAuthSettingsGithubOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -49,15 +49,15 @@ type WindowsWebAppSlotAuthSettingsGithubOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,15 +73,15 @@ type WindowsWebAppSlotAuthSettingsGithubOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetClientSecret()
 	ResetClientSecretSettingName()
 	ResetOauthScopes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -91,7 +91,7 @@ type WindowsWebAppSlotAuthSettingsGithubOutputReference interface {
 
 // The jsii proxy struct for WindowsWebAppSlotAuthSettingsGithubOutputReference
 type jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) ClientId() *string {
@@ -234,8 +234,8 @@ func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -245,7 +245,7 @@ func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) Terraform
 }
 
 
-func NewWindowsWebAppSlotAuthSettingsGithubOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsWebAppSlotAuthSettingsGithubOutputReference {
+func NewWindowsWebAppSlotAuthSettingsGithubOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsWebAppSlotAuthSettingsGithubOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppSlotAuthSettingsGithubOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -262,7 +262,7 @@ func NewWindowsWebAppSlotAuthSettingsGithubOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewWindowsWebAppSlotAuthSettingsGithubOutputReference_Override(w WindowsWebAppSlotAuthSettingsGithubOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsWebAppSlotAuthSettingsGithubOutputReference_Override(w WindowsWebAppSlotAuthSettingsGithubOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -360,7 +360,7 @@ func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -400,11 +400,11 @@ func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) GetAnyMap
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -528,8 +528,8 @@ func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) GetString
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -541,11 +541,11 @@ func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) Interpola
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -581,7 +581,7 @@ func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) ResetOaut
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppSlotAuthSettingsGithubOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

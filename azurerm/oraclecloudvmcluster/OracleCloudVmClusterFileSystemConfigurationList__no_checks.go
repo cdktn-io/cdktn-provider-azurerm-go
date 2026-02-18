@@ -15,7 +15,7 @@ func (o *jsiiProxy_OracleCloudVmClusterFileSystemConfigurationList) validateGetP
 	return nil
 }
 
-func (o *jsiiProxy_OracleCloudVmClusterFileSystemConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OracleCloudVmClusterFileSystemConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_OracleCloudVmClusterFileSystemConfigurationList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_OracleCloudVmClusterFileSystemConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OracleCloudVmClusterFileSystemConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_OracleCloudVmClusterFileSystemConfigurationList) validateSetW
 	return nil
 }
 
-func validateNewOracleCloudVmClusterFileSystemConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewOracleCloudVmClusterFileSystemConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

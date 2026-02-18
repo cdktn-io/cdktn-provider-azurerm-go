@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConsumptionBudgetSubscriptionTimePeriodOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_ConsumptionBudgetSubscriptionTimePeriodOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConsumptionBudgetSubscriptionTimePeriodOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ConsumptionBudgetSubscriptionTimePeriodOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ConsumptionBudgetSubscriptionTimePeriodOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConsumptionBudgetSubscriptionTimePeriodOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewConsumptionBudgetSubscriptionTimePeriodOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConsumptionBudgetSubscriptionTimePeriodOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

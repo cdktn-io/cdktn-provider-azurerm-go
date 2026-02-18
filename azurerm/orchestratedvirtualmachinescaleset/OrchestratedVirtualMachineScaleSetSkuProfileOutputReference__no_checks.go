@@ -47,7 +47,7 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	return nil
 }
 
-func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	return nil
 }
 
-func validateNewOrchestratedVirtualMachineScaleSetSkuProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewOrchestratedVirtualMachineScaleSetSkuProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package consumptionbudgetmanagementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/consumptionbudgetmanagementgroup/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/consumptionbudgetmanagementgroup/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ConsumptionBudgetManagementGroupTimePeriodOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type ConsumptionBudgetManagementGroupTimePeriodOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,13 +67,13 @@ type ConsumptionBudgetManagementGroupTimePeriodOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEndDate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -83,7 +83,7 @@ type ConsumptionBudgetManagementGroupTimePeriodOutputReference interface {
 
 // The jsii proxy struct for ConsumptionBudgetManagementGroupTimePeriodOutputReference
 type jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) ComplexObjectIndex() interface{} {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -197,7 +197,7 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) Te
 }
 
 
-func NewConsumptionBudgetManagementGroupTimePeriodOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ConsumptionBudgetManagementGroupTimePeriodOutputReference {
+func NewConsumptionBudgetManagementGroupTimePeriodOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ConsumptionBudgetManagementGroupTimePeriodOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewConsumptionBudgetManagementGroupTimePeriodOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -214,7 +214,7 @@ func NewConsumptionBudgetManagementGroupTimePeriodOutputReference(terraformResou
 	return &j
 }
 
-func NewConsumptionBudgetManagementGroupTimePeriodOutputReference_Override(c ConsumptionBudgetManagementGroupTimePeriodOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewConsumptionBudgetManagementGroupTimePeriodOutputReference_Override(c ConsumptionBudgetManagementGroupTimePeriodOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -290,7 +290,7 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -330,11 +330,11 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) Ge
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -458,8 +458,8 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) Ge
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -471,11 +471,11 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) In
 	return returns
 }
 
-func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -495,7 +495,7 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) Re
 	)
 }
 
-func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_ConsumptionBudgetManagementGroupTimePeriodOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

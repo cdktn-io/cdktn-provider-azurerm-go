@@ -5,16 +5,16 @@ package linuxwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/linux_web_app azurerm_linux_web_app}.
 type LinuxWebApp interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AppSettings() *map[string]*string
 	SetAppSettings(val *map[string]*string)
 	AppSettingsInput() *map[string]*string
@@ -25,7 +25,7 @@ type LinuxWebApp interface {
 	Backup() LinuxWebAppBackupOutputReference
 	BackupInput() *LinuxWebAppBackup
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientAffinityEnabled() interface{}
 	SetClientAffinityEnabled(val interface{})
 	ClientAffinityEnabledInput() interface{}
@@ -60,9 +60,9 @@ type LinuxWebApp interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -84,9 +84,9 @@ type LinuxWebApp interface {
 	KeyVaultReferenceIdentityIdInput() *string
 	Kind() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -102,9 +102,9 @@ type LinuxWebApp interface {
 	PossibleOutboundIpAddresses() *string
 	PossibleOutboundIpAddressList() *[]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -131,7 +131,7 @@ type LinuxWebApp interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -161,7 +161,7 @@ type LinuxWebApp interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -179,9 +179,9 @@ type LinuxWebApp interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -250,7 +250,7 @@ type LinuxWebApp interface {
 
 // The jsii proxy struct for LinuxWebApp
 type jsiiProxy_LinuxWebApp struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LinuxWebApp) AppSettings() *map[string]*string {
@@ -333,8 +333,8 @@ func (j *jsiiProxy_LinuxWebApp) BackupInput() *LinuxWebAppBackup {
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebApp) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LinuxWebApp) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -523,8 +523,8 @@ func (j *jsiiProxy_LinuxWebApp) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebApp) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LinuxWebApp) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -673,8 +673,8 @@ func (j *jsiiProxy_LinuxWebApp) Kind() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebApp) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LinuxWebApp) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -793,8 +793,8 @@ func (j *jsiiProxy_LinuxWebApp) PossibleOutboundIpAddressList() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebApp) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LinuxWebApp) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -973,8 +973,8 @@ func (j *jsiiProxy_LinuxWebApp) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebApp) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LinuxWebApp) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1249,7 +1249,7 @@ func (j *jsiiProxy_LinuxWebApp)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LinuxWebApp)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LinuxWebApp)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1301,7 +1301,7 @@ func (j *jsiiProxy_LinuxWebApp)SetKeyVaultReferenceIdentityId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LinuxWebApp)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LinuxWebApp)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1334,7 +1334,7 @@ func (j *jsiiProxy_LinuxWebApp)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_LinuxWebApp)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LinuxWebApp)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1452,14 +1452,14 @@ func (j *jsiiProxy_LinuxWebApp)SetZipDeployFile(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a LinuxWebApp resource upon running "cdktf plan <stack-name>".
-func LinuxWebApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LinuxWebApp resource upon running "cdktn plan <stack-name>".
+func LinuxWebApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLinuxWebApp_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.linuxWebApp.LinuxWebApp",
@@ -1593,11 +1593,11 @@ func (l *jsiiProxy_LinuxWebApp) GetAnyMapAttribute(terraformAttribute *string) *
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebApp) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebApp) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1734,7 +1734,7 @@ func (l *jsiiProxy_LinuxWebApp) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebApp) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LinuxWebApp) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1745,11 +1745,11 @@ func (l *jsiiProxy_LinuxWebApp) ImportFrom(id *string, provider cdktf.TerraformP
 	)
 }
 
-func (l *jsiiProxy_LinuxWebApp) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebApp) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

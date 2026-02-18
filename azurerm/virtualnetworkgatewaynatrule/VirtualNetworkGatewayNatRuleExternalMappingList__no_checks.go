@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualNetworkGatewayNatRuleExternalMappingList) validateGetP
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkGatewayNatRuleExternalMappingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkGatewayNatRuleExternalMappingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayNatRuleExternalMappingList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkGatewayNatRuleExternalMappingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkGatewayNatRuleExternalMappingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayNatRuleExternalMappingList) validateSetW
 	return nil
 }
 
-func validateNewVirtualNetworkGatewayNatRuleExternalMappingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualNetworkGatewayNatRuleExternalMappingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

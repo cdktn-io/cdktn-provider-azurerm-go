@@ -123,7 +123,7 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomain) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorCustomDomain) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CdnFrontdoorCustomDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

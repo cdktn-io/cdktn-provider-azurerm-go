@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAutoPatchingOutputReference) validateInter
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAutoPatchingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineAutoPatchingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_MssqlVirtualMachineAutoPatchingOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAutoPatchingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineAutoPatchingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlVirtualMachineAutoPatchingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualMachineAutoPatchingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

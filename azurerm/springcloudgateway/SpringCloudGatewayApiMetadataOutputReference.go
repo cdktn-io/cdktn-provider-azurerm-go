@@ -5,14 +5,14 @@ package springcloudgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SpringCloudGatewayApiMetadataOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type SpringCloudGatewayApiMetadataOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Title() *string
 	SetTitle(val *string)
 	TitleInput() *string
@@ -60,7 +60,7 @@ type SpringCloudGatewayApiMetadataOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,9 +76,9 @@ type SpringCloudGatewayApiMetadataOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDescription()
 	ResetDocumentationUrl()
 	ResetServerUrl()
@@ -86,7 +86,7 @@ type SpringCloudGatewayApiMetadataOutputReference interface {
 	ResetVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type SpringCloudGatewayApiMetadataOutputReference interface {
 
 // The jsii proxy struct for SpringCloudGatewayApiMetadataOutputReference
 type jsiiProxy_SpringCloudGatewayApiMetadataOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) ComplexObjectIndex() interface{} {
@@ -219,8 +219,8 @@ func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) TerraformAttrib
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) VersionInput() 
 }
 
 
-func NewSpringCloudGatewayApiMetadataOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SpringCloudGatewayApiMetadataOutputReference {
+func NewSpringCloudGatewayApiMetadataOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SpringCloudGatewayApiMetadataOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSpringCloudGatewayApiMetadataOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -287,7 +287,7 @@ func NewSpringCloudGatewayApiMetadataOutputReference(terraformResource cdktf.IIn
 	return &j
 }
 
-func NewSpringCloudGatewayApiMetadataOutputReference_Override(s SpringCloudGatewayApiMetadataOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSpringCloudGatewayApiMetadataOutputReference_Override(s SpringCloudGatewayApiMetadataOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -374,7 +374,7 @@ func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference)SetTerraformAttr
 	)
 }
 
-func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -436,11 +436,11 @@ func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) GetAnyMapAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -564,8 +564,8 @@ func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) GetStringMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -577,11 +577,11 @@ func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) InterpolationAs
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -633,7 +633,7 @@ func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) ResetVersion() 
 	)
 }
 
-func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SpringCloudGatewayApiMetadataOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

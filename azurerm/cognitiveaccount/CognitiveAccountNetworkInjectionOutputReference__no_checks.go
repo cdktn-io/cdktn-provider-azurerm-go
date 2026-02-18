@@ -47,7 +47,7 @@ func (c *jsiiProxy_CognitiveAccountNetworkInjectionOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CognitiveAccountNetworkInjectionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitiveAccountNetworkInjectionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CognitiveAccountNetworkInjectionOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountNetworkInjectionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitiveAccountNetworkInjectionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCognitiveAccountNetworkInjectionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCognitiveAccountNetworkInjectionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

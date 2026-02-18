@@ -47,7 +47,7 @@ func (c *jsiiProxy_CapacityReservationSkuOutputReference) validateInterpolationF
 	return nil
 }
 
-func (c *jsiiProxy_CapacityReservationSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CapacityReservationSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_CapacityReservationSkuOutputReference) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_CapacityReservationSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CapacityReservationSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCapacityReservationSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCapacityReservationSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

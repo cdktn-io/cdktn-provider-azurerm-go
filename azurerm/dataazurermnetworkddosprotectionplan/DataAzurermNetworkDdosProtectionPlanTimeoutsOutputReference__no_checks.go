@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlanTimeoutsOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlanTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlanTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlanTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlanTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermNetworkDdosProtectionPlanTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermNetworkDdosProtectionPlanTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermNetworkDdosProtectionPlanTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

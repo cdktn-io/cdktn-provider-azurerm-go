@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabricksWorkspaceCustomParametersOutputReference) validateI
 	return nil
 }
 
-func (d *jsiiProxy_DatabricksWorkspaceCustomParametersOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabricksWorkspaceCustomParametersOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_DatabricksWorkspaceCustomParametersOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DatabricksWorkspaceCustomParametersOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabricksWorkspaceCustomParametersOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -119,7 +119,7 @@ func (j *jsiiProxy_DatabricksWorkspaceCustomParametersOutputReference) validateS
 	return nil
 }
 
-func validateNewDatabricksWorkspaceCustomParametersOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabricksWorkspaceCustomParametersOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

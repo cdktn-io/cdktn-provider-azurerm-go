@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressLis
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressLis
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressLis
 	return nil
 }
 
-func validateNewDataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVpnGatewayBgpSettingsInstance0BgpPeeringAddressListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

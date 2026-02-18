@@ -111,7 +111,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateSetIdPara
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

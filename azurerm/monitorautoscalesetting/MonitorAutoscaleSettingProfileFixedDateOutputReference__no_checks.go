@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingProfileFixedDateOutputReference) valid
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingProfileFixedDateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingProfileFixedDateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileFixedDateOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingProfileFixedDateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingProfileFixedDateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_MonitorAutoscaleSettingProfileFixedDateOutputReference) valid
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingProfileFixedDateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorAutoscaleSettingProfileFixedDateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

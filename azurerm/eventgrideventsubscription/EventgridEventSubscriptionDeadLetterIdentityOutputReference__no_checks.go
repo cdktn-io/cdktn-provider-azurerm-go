@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionDeadLetterIdentityOutputReference) 
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionDeadLetterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionDeadLetterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,7 +67,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionDeadLetterIdentityOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionDeadLetterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionDeadLetterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionDeadLetterIdentityOutputReference) 
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionDeadLetterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridEventSubscriptionDeadLetterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

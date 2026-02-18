@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroupFilterDimensionOutputReferenc
 	return nil
 }
 
-func (c *jsiiProxy_ConsumptionBudgetManagementGroupFilterDimensionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConsumptionBudgetManagementGroupFilterDimensionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroupFilterDimensionOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_ConsumptionBudgetManagementGroupFilterDimensionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConsumptionBudgetManagementGroupFilterDimensionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroupFilterDimensionOutputReferenc
 	return nil
 }
 
-func validateNewConsumptionBudgetManagementGroupFilterDimensionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewConsumptionBudgetManagementGroupFilterDimensionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

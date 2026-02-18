@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesFleetUpdateRunStageGroupList) validateGetParameters
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFleetUpdateRunStageGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFleetUpdateRunStageGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateRunStageGroupList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFleetUpdateRunStageGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFleetUpdateRunStageGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateRunStageGroupList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewKubernetesFleetUpdateRunStageGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesFleetUpdateRunStageGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

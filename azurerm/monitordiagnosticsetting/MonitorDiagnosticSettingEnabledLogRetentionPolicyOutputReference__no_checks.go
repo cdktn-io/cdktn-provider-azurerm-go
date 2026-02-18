@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputRefere
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorDiagnosticSettingEnabledLogRetentionPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -119,7 +119,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderFacebook) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementIdentityProviderFacebook) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementIdentityProviderFacebook) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

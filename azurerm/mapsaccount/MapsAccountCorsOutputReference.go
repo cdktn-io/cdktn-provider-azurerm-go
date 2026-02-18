@@ -5,14 +5,14 @@ package mapsaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mapsaccount/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mapsaccount/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MapsAccountCorsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedOrigins() *[]*string
 	SetAllowedOrigins(val *[]*string)
 	AllowedOriginsInput() *[]*string
@@ -40,15 +40,15 @@ type MapsAccountCorsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type MapsAccountCorsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type MapsAccountCorsOutputReference interface {
 
 // The jsii proxy struct for MapsAccountCorsOutputReference
 type jsiiProxy_MapsAccountCorsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MapsAccountCorsOutputReference) AllowedOrigins() *[]*string {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_MapsAccountCorsOutputReference) TerraformAttribute() *string 
 	return returns
 }
 
-func (j *jsiiProxy_MapsAccountCorsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MapsAccountCorsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_MapsAccountCorsOutputReference) TerraformResource() cdktf.IIn
 }
 
 
-func NewMapsAccountCorsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MapsAccountCorsOutputReference {
+func NewMapsAccountCorsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MapsAccountCorsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMapsAccountCorsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewMapsAccountCorsOutputReference(terraformResource cdktf.IInterpolatingPar
 	return &j
 }
 
-func NewMapsAccountCorsOutputReference_Override(m MapsAccountCorsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMapsAccountCorsOutputReference_Override(m MapsAccountCorsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_MapsAccountCorsOutputReference)SetTerraformAttribute(val *str
 	)
 }
 
-func (j *jsiiProxy_MapsAccountCorsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MapsAccountCorsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (m *jsiiProxy_MapsAccountCorsOutputReference) GetAnyMapAttribute(terraformA
 	return returns
 }
 
-func (m *jsiiProxy_MapsAccountCorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MapsAccountCorsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -423,8 +423,8 @@ func (m *jsiiProxy_MapsAccountCorsOutputReference) GetStringMapAttribute(terrafo
 	return returns
 }
 
-func (m *jsiiProxy_MapsAccountCorsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MapsAccountCorsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -436,11 +436,11 @@ func (m *jsiiProxy_MapsAccountCorsOutputReference) InterpolationAsList() cdktf.I
 	return returns
 }
 
-func (m *jsiiProxy_MapsAccountCorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MapsAccountCorsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -452,7 +452,7 @@ func (m *jsiiProxy_MapsAccountCorsOutputReference) InterpolationForAttribute(ter
 	return returns
 }
 
-func (m *jsiiProxy_MapsAccountCorsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MapsAccountCorsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

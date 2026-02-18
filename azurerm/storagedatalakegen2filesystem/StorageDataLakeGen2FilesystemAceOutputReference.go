@@ -5,14 +5,14 @@ package storagedatalakegen2filesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/storagedatalakegen2filesystem/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storagedatalakegen2filesystem/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StorageDataLakeGen2FilesystemAceOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type StorageDataLakeGen2FilesystemAceOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Type() *string
 	SetType(val *string)
 	TypeInput() *string
@@ -57,7 +57,7 @@ type StorageDataLakeGen2FilesystemAceOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,14 +73,14 @@ type StorageDataLakeGen2FilesystemAceOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetId()
 	ResetScope()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -90,7 +90,7 @@ type StorageDataLakeGen2FilesystemAceOutputReference interface {
 
 // The jsii proxy struct for StorageDataLakeGen2FilesystemAceOutputReference
 type jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) ComplexObjectIndex() interface{} {
@@ -213,8 +213,8 @@ func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -244,7 +244,7 @@ func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) TypeInput() 
 }
 
 
-func NewStorageDataLakeGen2FilesystemAceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StorageDataLakeGen2FilesystemAceOutputReference {
+func NewStorageDataLakeGen2FilesystemAceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) StorageDataLakeGen2FilesystemAceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStorageDataLakeGen2FilesystemAceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -261,7 +261,7 @@ func NewStorageDataLakeGen2FilesystemAceOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewStorageDataLakeGen2FilesystemAceOutputReference_Override(s StorageDataLakeGen2FilesystemAceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewStorageDataLakeGen2FilesystemAceOutputReference_Override(s StorageDataLakeGen2FilesystemAceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -348,7 +348,7 @@ func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -399,11 +399,11 @@ func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -527,8 +527,8 @@ func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) GetStringMap
 	return returns
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -540,11 +540,11 @@ func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) Interpolatio
 	return returns
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -572,7 +572,7 @@ func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) ResetScope()
 	)
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

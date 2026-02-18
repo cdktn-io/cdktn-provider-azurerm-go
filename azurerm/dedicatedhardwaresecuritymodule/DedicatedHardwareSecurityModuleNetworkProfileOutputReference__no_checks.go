@@ -47,7 +47,7 @@ func (d *jsiiProxy_DedicatedHardwareSecurityModuleNetworkProfileOutputReference)
 	return nil
 }
 
-func (d *jsiiProxy_DedicatedHardwareSecurityModuleNetworkProfileOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DedicatedHardwareSecurityModuleNetworkProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_DedicatedHardwareSecurityModuleNetworkProfileOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_DedicatedHardwareSecurityModuleNetworkProfileOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DedicatedHardwareSecurityModuleNetworkProfileOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDedicatedHardwareSecurityModuleNetworkProfileOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDedicatedHardwareSecurityModuleNetworkProfileOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

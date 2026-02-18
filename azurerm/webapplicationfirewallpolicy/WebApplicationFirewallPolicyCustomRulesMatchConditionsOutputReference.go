@@ -5,14 +5,14 @@ package webapplicationfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webapplicationfirewallpolicy/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webapplicationfirewallpolicy/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -48,9 +48,9 @@ type WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Transforms() *[]*string
 	SetTransforms(val *[]*string)
 	TransformsInput() *[]*string
@@ -59,7 +59,7 @@ type WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference inter
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,16 +75,16 @@ type WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutMatchVariables(value interface{})
 	ResetMatchValues()
 	ResetNegationCondition()
 	ResetTransforms()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -94,7 +94,7 @@ type WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference inter
 
 // The jsii proxy struct for WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference
 type jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) ComplexObjectIndex() interface{} {
@@ -237,8 +237,8 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputR
 	return returns
 }
 
-func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -268,7 +268,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputR
 }
 
 
-func NewWebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference {
+func NewWebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -285,7 +285,7 @@ func NewWebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference(te
 	return &j
 }
 
-func NewWebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference_Override(w WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference_Override(w WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -372,7 +372,7 @@ func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputR
 	)
 }
 
-func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -423,11 +423,11 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputR
 	return returns
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -551,8 +551,8 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputR
 	return returns
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -564,11 +564,11 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputR
 	return returns
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -615,7 +615,7 @@ func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputR
 	)
 }
 
-func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WebApplicationFirewallPolicyCustomRulesMatchConditionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

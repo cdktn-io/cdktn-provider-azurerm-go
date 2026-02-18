@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlVirtualMachineAssessmentScheduleOutputReference) validat
 	return nil
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineAssessmentScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlVirtualMachineAssessmentScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAssessmentScheduleOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineAssessmentScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlVirtualMachineAssessmentScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAssessmentScheduleOutputReference) validat
 	return nil
 }
 
-func validateNewMssqlVirtualMachineAssessmentScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlVirtualMachineAssessmentScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

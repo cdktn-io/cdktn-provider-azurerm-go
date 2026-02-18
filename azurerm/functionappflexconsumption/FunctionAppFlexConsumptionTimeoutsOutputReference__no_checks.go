@@ -47,7 +47,7 @@ func (f *jsiiProxy_FunctionAppFlexConsumptionTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (f *jsiiProxy_FunctionAppFlexConsumptionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FunctionAppFlexConsumptionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_FunctionAppFlexConsumptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FunctionAppFlexConsumptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_FunctionAppFlexConsumptionTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewFunctionAppFlexConsumptionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewFunctionAppFlexConsumptionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

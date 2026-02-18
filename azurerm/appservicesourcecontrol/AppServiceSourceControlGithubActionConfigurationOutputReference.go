@@ -5,14 +5,14 @@ package appservicesourcecontrol
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appservicesourcecontrol/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appservicesourcecontrol/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppServiceSourceControlGithubActionConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	CodeConfiguration() AppServiceSourceControlGithubActionConfigurationCodeConfigurationOutputReference
 	CodeConfigurationInput() *AppServiceSourceControlGithubActionConfigurationCodeConfiguration
 	// the index of the complex object in a list.
@@ -39,21 +39,21 @@ type AppServiceSourceControlGithubActionConfigurationOutputReference interface {
 	GenerateWorkflowFileInput() interface{}
 	InternalValue() *AppServiceSourceControlGithubActionConfiguration
 	SetInternalValue(val *AppServiceSourceControlGithubActionConfiguration)
-	LinuxAction() cdktf.IResolvable
+	LinuxAction() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,9 +69,9 @@ type AppServiceSourceControlGithubActionConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCodeConfiguration(value *AppServiceSourceControlGithubActionConfigurationCodeConfiguration)
 	PutContainerConfiguration(value *AppServiceSourceControlGithubActionConfigurationContainerConfiguration)
 	ResetCodeConfiguration()
@@ -79,7 +79,7 @@ type AppServiceSourceControlGithubActionConfigurationOutputReference interface {
 	ResetGenerateWorkflowFile()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -89,7 +89,7 @@ type AppServiceSourceControlGithubActionConfigurationOutputReference interface {
 
 // The jsii proxy struct for AppServiceSourceControlGithubActionConfigurationOutputReference
 type jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) CodeConfiguration() AppServiceSourceControlGithubActionConfigurationCodeConfigurationOutputReference {
@@ -202,8 +202,8 @@ func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) LinuxAction() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) LinuxAction() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"linuxAction",
@@ -222,8 +222,8 @@ func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -233,7 +233,7 @@ func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 }
 
 
-func NewAppServiceSourceControlGithubActionConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppServiceSourceControlGithubActionConfigurationOutputReference {
+func NewAppServiceSourceControlGithubActionConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppServiceSourceControlGithubActionConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppServiceSourceControlGithubActionConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -250,7 +250,7 @@ func NewAppServiceSourceControlGithubActionConfigurationOutputReference(terrafor
 	return &j
 }
 
-func NewAppServiceSourceControlGithubActionConfigurationOutputReference_Override(a AppServiceSourceControlGithubActionConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppServiceSourceControlGithubActionConfigurationOutputReference_Override(a AppServiceSourceControlGithubActionConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -315,7 +315,7 @@ func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 	)
 }
 
-func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -355,11 +355,11 @@ func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -483,8 +483,8 @@ func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -496,11 +496,11 @@ func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -558,7 +558,7 @@ func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReferen
 	)
 }
 
-func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppServiceSourceControlGithubActionConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

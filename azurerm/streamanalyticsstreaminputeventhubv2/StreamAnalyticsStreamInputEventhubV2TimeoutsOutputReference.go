@@ -5,14 +5,14 @@ package streamanalyticsstreaminputeventhubv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/streamanalyticsstreaminputeventhubv2/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsstreaminputeventhubv2/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference interface {
 
 // The jsii proxy struct for StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference
 type jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) 
 }
 
 
-func NewStreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference {
+func NewStreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewStreamAnalyticsStreamInputEventhubV2TimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewStreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference(terraformRes
 	return &j
 }
 
-func NewStreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference_Override(s StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewStreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference_Override(s StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) 
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -529,8 +529,8 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) 
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -542,11 +542,11 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) 
 	return returns
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -590,7 +590,7 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) 
 	)
 }
 
-func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2TimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

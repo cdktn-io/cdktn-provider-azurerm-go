@@ -107,7 +107,7 @@ func (j *jsiiProxy_AppServiceSourceControlToken) validateSetIdParameters(val *st
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSourceControlToken) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppServiceSourceControlToken) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

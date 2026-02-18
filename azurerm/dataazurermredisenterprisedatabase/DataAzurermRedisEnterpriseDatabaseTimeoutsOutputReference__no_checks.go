@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermRedisEnterpriseDatabaseTimeoutsOutputReference) va
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermRedisEnterpriseDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermRedisEnterpriseDatabaseTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermRedisEnterpriseDatabaseTimeoutsOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermRedisEnterpriseDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermRedisEnterpriseDatabaseTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermRedisEnterpriseDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermRedisEnterpriseDatabaseTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

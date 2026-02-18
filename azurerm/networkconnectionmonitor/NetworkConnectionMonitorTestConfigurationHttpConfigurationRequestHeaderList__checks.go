@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationReq
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationReq
 
 func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeader:
 		val := val.(*[]*NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeader)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationReq
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeader; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeader; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationReq
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestConfigurationHttpConfigurationReq
 	return nil
 }
 
-func validateNewNetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkConnectionMonitorTestConfigurationHttpConfigurationRequestHeaderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

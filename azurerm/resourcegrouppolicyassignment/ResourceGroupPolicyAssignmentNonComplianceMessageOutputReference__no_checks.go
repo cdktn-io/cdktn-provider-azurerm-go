@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceGroupPolicyAssignmentNonComplianceMessageOutputRefere
 	return nil
 }
 
-func (r *jsiiProxy_ResourceGroupPolicyAssignmentNonComplianceMessageOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceGroupPolicyAssignmentNonComplianceMessageOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ResourceGroupPolicyAssignmentNonComplianceMessageOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupPolicyAssignmentNonComplianceMessageOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceGroupPolicyAssignmentNonComplianceMessageOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewResourceGroupPolicyAssignmentNonComplianceMessageOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewResourceGroupPolicyAssignmentNonComplianceMessageOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -79,7 +79,7 @@ func (j *jsiiProxy_DataAzurermStorageTable) validateSetCountParameters(val inter
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageTable) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermStorageTable) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAzurermCdnFrontdoorCustomDomainTlsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCdnFrontdoorCustomDomainTlsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

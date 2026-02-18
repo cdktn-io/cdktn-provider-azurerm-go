@@ -123,7 +123,7 @@ func (j *jsiiProxy_SpringCloudJavaDeployment) validateSetJvmOptionsParameters(va
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudJavaDeployment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

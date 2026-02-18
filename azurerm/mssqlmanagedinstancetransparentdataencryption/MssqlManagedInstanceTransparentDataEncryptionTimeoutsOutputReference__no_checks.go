@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputRe
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputRe
 	return nil
 }
 
-func validateNewMssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMssqlManagedInstanceTransparentDataEncryptionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

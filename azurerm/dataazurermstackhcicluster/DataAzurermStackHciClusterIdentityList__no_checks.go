@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermStackHciClusterIdentityList) validateGetParameters
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStackHciClusterIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStackHciClusterIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermStackHciClusterIdentityList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStackHciClusterIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStackHciClusterIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermStackHciClusterIdentityList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewDataAzurermStackHciClusterIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermStackHciClusterIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

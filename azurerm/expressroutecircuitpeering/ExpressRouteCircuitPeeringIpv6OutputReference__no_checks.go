@@ -51,7 +51,7 @@ func (e *jsiiProxy_ExpressRouteCircuitPeeringIpv6OutputReference) validatePutMic
 	return nil
 }
 
-func (e *jsiiProxy_ExpressRouteCircuitPeeringIpv6OutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ExpressRouteCircuitPeeringIpv6OutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_ExpressRouteCircuitPeeringIpv6OutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_ExpressRouteCircuitPeeringIpv6OutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ExpressRouteCircuitPeeringIpv6OutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewExpressRouteCircuitPeeringIpv6OutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewExpressRouteCircuitPeeringIpv6OutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

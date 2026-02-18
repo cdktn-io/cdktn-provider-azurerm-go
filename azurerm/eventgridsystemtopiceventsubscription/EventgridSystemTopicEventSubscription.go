@@ -5,16 +5,16 @@ package eventgridsystemtopiceventsubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/eventgridsystemtopiceventsubscription/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventgridsystemtopiceventsubscription/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/eventgrid_system_topic_event_subscription azurerm_eventgrid_system_topic_event_subscription}.
 type EventgridSystemTopicEventSubscription interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AdvancedFilter() EventgridSystemTopicEventSubscriptionAdvancedFilterOutputReference
 	AdvancedFilteringOnArraysEnabled() interface{}
 	SetAdvancedFilteringOnArraysEnabled(val interface{})
@@ -23,7 +23,7 @@ type EventgridSystemTopicEventSubscription interface {
 	AzureFunctionEndpoint() EventgridSystemTopicEventSubscriptionAzureFunctionEndpointOutputReference
 	AzureFunctionEndpointInput() *EventgridSystemTopicEventSubscriptionAzureFunctionEndpoint
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -54,9 +54,9 @@ type EventgridSystemTopicEventSubscription interface {
 	SetExpirationTimeUtc(val *string)
 	ExpirationTimeUtcInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -74,18 +74,18 @@ type EventgridSystemTopicEventSubscription interface {
 	SetLabels(val *[]*string)
 	LabelsInput() *[]*string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -113,7 +113,7 @@ type EventgridSystemTopicEventSubscription interface {
 	SetSystemTopic(val *string)
 	SystemTopicInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -130,7 +130,7 @@ type EventgridSystemTopicEventSubscription interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -148,9 +148,9 @@ type EventgridSystemTopicEventSubscription interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -215,7 +215,7 @@ type EventgridSystemTopicEventSubscription interface {
 
 // The jsii proxy struct for EventgridSystemTopicEventSubscription
 type jsiiProxy_EventgridSystemTopicEventSubscription struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_EventgridSystemTopicEventSubscription) AdvancedFilter() EventgridSystemTopicEventSubscriptionAdvancedFilterOutputReference {
@@ -278,8 +278,8 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) AzureFunctionEndpointI
 	return returns
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -448,8 +448,8 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) ExpirationTimeUtcInput
 	return returns
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -558,8 +558,8 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) LabelsInput() *[]*stri
 	return returns
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -598,8 +598,8 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) Node() constructs.Node
 	return returns
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -788,8 +788,8 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription) SystemTopicInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -962,7 +962,7 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetExpirationTimeUtc(va
 	)
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1014,7 +1014,7 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetLabels(val *[]*strin
 	)
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1036,7 +1036,7 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1099,14 +1099,14 @@ func (j *jsiiProxy_EventgridSystemTopicEventSubscription)SetSystemTopic(val *str
 	)
 }
 
-// Generates CDKTF code for importing a EventgridSystemTopicEventSubscription resource upon running "cdktf plan <stack-name>".
-func EventgridSystemTopicEventSubscription_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a EventgridSystemTopicEventSubscription resource upon running "cdktn plan <stack-name>".
+func EventgridSystemTopicEventSubscription_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateEventgridSystemTopicEventSubscription_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.eventgridSystemTopicEventSubscription.EventgridSystemTopicEventSubscription",
@@ -1240,11 +1240,11 @@ func (e *jsiiProxy_EventgridSystemTopicEventSubscription) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (e *jsiiProxy_EventgridSystemTopicEventSubscription) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridSystemTopicEventSubscription) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1381,7 +1381,7 @@ func (e *jsiiProxy_EventgridSystemTopicEventSubscription) HasResourceMove() inte
 	return returns
 }
 
-func (e *jsiiProxy_EventgridSystemTopicEventSubscription) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_EventgridSystemTopicEventSubscription) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1392,11 +1392,11 @@ func (e *jsiiProxy_EventgridSystemTopicEventSubscription) ImportFrom(id *string,
 	)
 }
 
-func (e *jsiiProxy_EventgridSystemTopicEventSubscription) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EventgridSystemTopicEventSubscription) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

@@ -55,7 +55,7 @@ func (s *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositoryOutputReference)
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositoryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositoryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositoryOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositoryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_SpringCloudCustomizedAcceleratorGitRepositoryOutputReference)
 	return nil
 }
 
-func validateNewSpringCloudCustomizedAcceleratorGitRepositoryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSpringCloudCustomizedAcceleratorGitRepositoryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_SignalrServiceCorsList) validateGetParameters(index *float64)
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceCorsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceCorsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SignalrServiceCorsList) validateSetTerraformAttributeParamete
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceCorsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceCorsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SignalrServiceCorsList) validateSetWrapsSetParameters(val *bo
 	return nil
 }
 
-func validateNewSignalrServiceCorsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSignalrServiceCorsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

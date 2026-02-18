@@ -5,14 +5,14 @@ package monitormetricalert
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitormetricalert/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitormetricalert/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorMetricAlertCriteriaOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Aggregation() *string
 	SetAggregation(val *string)
 	AggregationInput() *string
@@ -54,9 +54,9 @@ type MonitorMetricAlertCriteriaOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Threshold() *float64
 	SetThreshold(val *float64)
 	ThresholdInput() *float64
@@ -65,7 +65,7 @@ type MonitorMetricAlertCriteriaOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,15 +81,15 @@ type MonitorMetricAlertCriteriaOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDimension(value interface{})
 	ResetDimension()
 	ResetSkipMetricValidation()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type MonitorMetricAlertCriteriaOutputReference interface {
 
 // The jsii proxy struct for MonitorMetricAlertCriteriaOutputReference
 type jsiiProxy_MonitorMetricAlertCriteriaOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) Aggregation() *string {
@@ -282,8 +282,8 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -313,7 +313,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) ThresholdInput() *
 }
 
 
-func NewMonitorMetricAlertCriteriaOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorMetricAlertCriteriaOutputReference {
+func NewMonitorMetricAlertCriteriaOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) MonitorMetricAlertCriteriaOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorMetricAlertCriteriaOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -330,7 +330,7 @@ func NewMonitorMetricAlertCriteriaOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewMonitorMetricAlertCriteriaOutputReference_Override(m MonitorMetricAlertCriteriaOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewMonitorMetricAlertCriteriaOutputReference_Override(m MonitorMetricAlertCriteriaOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -439,7 +439,7 @@ func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorMetricAlertCriteriaOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -490,11 +490,11 @@ func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -618,8 +618,8 @@ func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -631,11 +631,11 @@ func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -674,7 +674,7 @@ func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) ResetSkipMetricVal
 	)
 }
 
-func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorMetricAlertCriteriaOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -47,7 +47,7 @@ func (w *jsiiProxy_WindowsFunctionAppSlotTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WindowsFunctionAppSlotTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WindowsFunctionAppSlotTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewWindowsFunctionAppSlotTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewWindowsFunctionAppSlotTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

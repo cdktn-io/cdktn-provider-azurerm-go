@@ -5,14 +5,14 @@ package hdinsighthadoopcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsighthadoopcluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsighthadoopcluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightHadoopClusterRolesWorkerNodeOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Autoscale() HdinsightHadoopClusterRolesWorkerNodeAutoscaleOutputReference
 	AutoscaleInput() *HdinsightHadoopClusterRolesWorkerNodeAutoscale
 	// the index of the complex object in a list.
@@ -53,9 +53,9 @@ type HdinsightHadoopClusterRolesWorkerNodeOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	SetUsername(val *string)
 	UsernameInput() *string
@@ -70,7 +70,7 @@ type HdinsightHadoopClusterRolesWorkerNodeOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -86,9 +86,9 @@ type HdinsightHadoopClusterRolesWorkerNodeOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAutoscale(value *HdinsightHadoopClusterRolesWorkerNodeAutoscale)
 	PutScriptActions(value interface{})
 	ResetAutoscale()
@@ -99,7 +99,7 @@ type HdinsightHadoopClusterRolesWorkerNodeOutputReference interface {
 	ResetVirtualNetworkId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -109,7 +109,7 @@ type HdinsightHadoopClusterRolesWorkerNodeOutputReference interface {
 
 // The jsii proxy struct for HdinsightHadoopClusterRolesWorkerNodeOutputReference
 type jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) Autoscale() HdinsightHadoopClusterRolesWorkerNodeAutoscaleOutputReference {
@@ -292,8 +292,8 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -363,7 +363,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) VmSizeI
 }
 
 
-func NewHdinsightHadoopClusterRolesWorkerNodeOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HdinsightHadoopClusterRolesWorkerNodeOutputReference {
+func NewHdinsightHadoopClusterRolesWorkerNodeOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HdinsightHadoopClusterRolesWorkerNodeOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightHadoopClusterRolesWorkerNodeOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -380,7 +380,7 @@ func NewHdinsightHadoopClusterRolesWorkerNodeOutputReference(terraformResource c
 	return &j
 }
 
-func NewHdinsightHadoopClusterRolesWorkerNodeOutputReference_Override(h HdinsightHadoopClusterRolesWorkerNodeOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHdinsightHadoopClusterRolesWorkerNodeOutputReference_Override(h HdinsightHadoopClusterRolesWorkerNodeOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -478,7 +478,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -551,11 +551,11 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) GetAnyM
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -679,8 +679,8 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) GetStri
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -692,11 +692,11 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) Interpo
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -778,7 +778,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) ResetVi
 	)
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightHadoopClusterRolesWorkerNodeOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

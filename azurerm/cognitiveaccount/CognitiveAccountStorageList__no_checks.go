@@ -15,7 +15,7 @@ func (c *jsiiProxy_CognitiveAccountStorageList) validateGetParameters(index *flo
 	return nil
 }
 
-func (c *jsiiProxy_CognitiveAccountStorageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CognitiveAccountStorageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CognitiveAccountStorageList) validateSetTerraformAttributePar
 	return nil
 }
 
-func (j *jsiiProxy_CognitiveAccountStorageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CognitiveAccountStorageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CognitiveAccountStorageList) validateSetWrapsSetParameters(va
 	return nil
 }
 
-func validateNewCognitiveAccountStorageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCognitiveAccountStorageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

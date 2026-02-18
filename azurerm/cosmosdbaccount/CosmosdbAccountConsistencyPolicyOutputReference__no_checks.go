@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbAccountConsistencyPolicyOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbAccountConsistencyPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbAccountConsistencyPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_CosmosdbAccountConsistencyPolicyOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbAccountConsistencyPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbAccountConsistencyPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbAccountConsistencyPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbAccountConsistencyPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

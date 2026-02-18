@@ -15,7 +15,7 @@ func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateGetPar
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VirtualMachineOsProfileLinuxConfigSshKeysList) validateSetWra
 	return nil
 }
 
-func validateNewVirtualMachineOsProfileLinuxConfigSshKeysListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVirtualMachineOsProfileLinuxConfigSshKeysListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

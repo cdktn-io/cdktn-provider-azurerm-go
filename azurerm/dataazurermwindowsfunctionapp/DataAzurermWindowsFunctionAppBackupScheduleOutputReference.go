@@ -5,14 +5,14 @@ package dataazurermwindowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermwindowsfunctionapp/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwindowsfunctionapp/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermWindowsFunctionAppBackupScheduleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -34,7 +34,7 @@ type DataAzurermWindowsFunctionAppBackupScheduleOutputReference interface {
 	FrequencyUnit() *string
 	InternalValue() *DataAzurermWindowsFunctionAppBackupSchedule
 	SetInternalValue(val *DataAzurermWindowsFunctionAppBackupSchedule)
-	KeepAtLeastOneBackup() cdktf.IResolvable
+	KeepAtLeastOneBackup() cdktn.IResolvable
 	LastExecutionTime() *string
 	RetentionPeriodDays() *float64
 	StartTime() *string
@@ -43,15 +43,15 @@ type DataAzurermWindowsFunctionAppBackupScheduleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,12 +67,12 @@ type DataAzurermWindowsFunctionAppBackupScheduleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type DataAzurermWindowsFunctionAppBackupScheduleOutputReference interface {
 
 // The jsii proxy struct for DataAzurermWindowsFunctionAppBackupScheduleOutputReference
 type jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) ComplexObjectIndex() interface{} {
@@ -155,8 +155,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) I
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) KeepAtLeastOneBackup() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) KeepAtLeastOneBackup() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"keepAtLeastOneBackup",
@@ -205,8 +205,8 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -216,7 +216,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) T
 }
 
 
-func NewDataAzurermWindowsFunctionAppBackupScheduleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermWindowsFunctionAppBackupScheduleOutputReference {
+func NewDataAzurermWindowsFunctionAppBackupScheduleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermWindowsFunctionAppBackupScheduleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermWindowsFunctionAppBackupScheduleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -233,7 +233,7 @@ func NewDataAzurermWindowsFunctionAppBackupScheduleOutputReference(terraformReso
 	return &j
 }
 
-func NewDataAzurermWindowsFunctionAppBackupScheduleOutputReference_Override(d DataAzurermWindowsFunctionAppBackupScheduleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermWindowsFunctionAppBackupScheduleOutputReference_Override(d DataAzurermWindowsFunctionAppBackupScheduleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -287,7 +287,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -327,11 +327,11 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -455,8 +455,8 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) G
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -468,11 +468,11 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -484,7 +484,7 @@ func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) I
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermWindowsFunctionAppBackupScheduleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

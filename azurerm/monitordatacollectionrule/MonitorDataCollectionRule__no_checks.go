@@ -139,7 +139,7 @@ func (j *jsiiProxy_MonitorDataCollectionRule) validateSetKindParameters(val *str
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MonitorDataCollectionRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

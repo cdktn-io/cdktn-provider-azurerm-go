@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualNetworkDdosProtectionPlanOutputReference) validateInte
 	return nil
 }
 
-func (v *jsiiProxy_VirtualNetworkDdosProtectionPlanOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualNetworkDdosProtectionPlanOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualNetworkDdosProtectionPlanOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_VirtualNetworkDdosProtectionPlanOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualNetworkDdosProtectionPlanOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualNetworkDdosProtectionPlanOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualNetworkDdosProtectionPlanOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

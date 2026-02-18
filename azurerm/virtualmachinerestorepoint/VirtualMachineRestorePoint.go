@@ -5,18 +5,18 @@ package virtualmachinerestorepoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachinerestorepoint/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualmachinerestorepoint/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/virtual_machine_restore_point azurerm_virtual_machine_restore_point}.
 type VirtualMachineRestorePoint interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type VirtualMachineRestorePoint interface {
 	SetExcludedDisks(val *[]*string)
 	ExcludedDisksInput() *[]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,18 +49,18 @@ type VirtualMachineRestorePoint interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -68,7 +68,7 @@ type VirtualMachineRestorePoint interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -86,7 +86,7 @@ type VirtualMachineRestorePoint interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -104,9 +104,9 @@ type VirtualMachineRestorePoint interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -144,11 +144,11 @@ type VirtualMachineRestorePoint interface {
 
 // The jsii proxy struct for VirtualMachineRestorePoint
 type jsiiProxy_VirtualMachineRestorePoint struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VirtualMachineRestorePoint) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -237,8 +237,8 @@ func (j *jsiiProxy_VirtualMachineRestorePoint) ExcludedDisksInput() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VirtualMachineRestorePoint) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -287,8 +287,8 @@ func (j *jsiiProxy_VirtualMachineRestorePoint) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VirtualMachineRestorePoint) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -327,8 +327,8 @@ func (j *jsiiProxy_VirtualMachineRestorePoint) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VirtualMachineRestorePoint) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -357,8 +357,8 @@ func (j *jsiiProxy_VirtualMachineRestorePoint) RawOverrides() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VirtualMachineRestorePoint) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -509,7 +509,7 @@ func (j *jsiiProxy_VirtualMachineRestorePoint)SetExcludedDisks(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VirtualMachineRestorePoint)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -528,7 +528,7 @@ func (j *jsiiProxy_VirtualMachineRestorePoint)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VirtualMachineRestorePoint)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -550,7 +550,7 @@ func (j *jsiiProxy_VirtualMachineRestorePoint)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineRestorePoint)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VirtualMachineRestorePoint)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -580,14 +580,14 @@ func (j *jsiiProxy_VirtualMachineRestorePoint)SetVirtualMachineRestorePointColle
 	)
 }
 
-// Generates CDKTF code for importing a VirtualMachineRestorePoint resource upon running "cdktf plan <stack-name>".
-func VirtualMachineRestorePoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VirtualMachineRestorePoint resource upon running "cdktn plan <stack-name>".
+func VirtualMachineRestorePoint_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVirtualMachineRestorePoint_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.virtualMachineRestorePoint.VirtualMachineRestorePoint",
@@ -721,11 +721,11 @@ func (v *jsiiProxy_VirtualMachineRestorePoint) GetAnyMapAttribute(terraformAttri
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineRestorePoint) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineRestorePoint) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -862,7 +862,7 @@ func (v *jsiiProxy_VirtualMachineRestorePoint) HasResourceMove() interface{} {
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineRestorePoint) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VirtualMachineRestorePoint) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -873,11 +873,11 @@ func (v *jsiiProxy_VirtualMachineRestorePoint) ImportFrom(id *string, provider c
 	)
 }
 
-func (v *jsiiProxy_VirtualMachineRestorePoint) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineRestorePoint) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

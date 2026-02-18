@@ -5,14 +5,14 @@ package cosmosdbsqlcontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbsqlcontainer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbsqlcontainer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CosmosdbSqlContainerIndexingPolicyCompositeIndexList interface {
-	cdktf.ComplexList
+	cdktn.ComplexList
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
@@ -26,8 +26,8 @@ type CosmosdbSqlContainerIndexingPolicyCompositeIndexList interface {
 	TerraformAttribute() *string
 	SetTerraformAttribute(val *string)
 	// The parent resource.
-	TerraformResource() cdktf.IInterpolatingParent
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	TerraformResource() cdktn.IInterpolatingParent
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
 	WrapsSet() *bool
 	SetWrapsSet(val *bool)
@@ -35,13 +35,13 @@ type CosmosdbSqlContainerIndexingPolicyCompositeIndexList interface {
 	//
 	// The list will be converted into a map with the mapKeyAttributeName as the key.
 	// Experimental.
-	AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
 	// Experimental.
 	ComputeFqn() *string
 	Get(index *float64) CosmosdbSqlContainerIndexingPolicyCompositeIndexOutputReference
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -51,7 +51,7 @@ type CosmosdbSqlContainerIndexingPolicyCompositeIndexList interface {
 
 // The jsii proxy struct for CosmosdbSqlContainerIndexingPolicyCompositeIndexList
 type jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList struct {
-	internal.Type__cdktfComplexList
+	internal.Type__cdktnComplexList
 }
 
 func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) CreationStack() *[]*string {
@@ -94,8 +94,8 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -115,7 +115,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) WrapsSe
 }
 
 
-func NewCosmosdbSqlContainerIndexingPolicyCompositeIndexList(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CosmosdbSqlContainerIndexingPolicyCompositeIndexList {
+func NewCosmosdbSqlContainerIndexingPolicyCompositeIndexList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) CosmosdbSqlContainerIndexingPolicyCompositeIndexList {
 	_init_.Initialize()
 
 	if err := validateNewCosmosdbSqlContainerIndexingPolicyCompositeIndexListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
@@ -132,7 +132,7 @@ func NewCosmosdbSqlContainerIndexingPolicyCompositeIndexList(terraformResource c
 	return &j
 }
 
-func NewCosmosdbSqlContainerIndexingPolicyCompositeIndexList_Override(c CosmosdbSqlContainerIndexingPolicyCompositeIndexList, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+func NewCosmosdbSqlContainerIndexingPolicyCompositeIndexList_Override(c CosmosdbSqlContainerIndexingPolicyCompositeIndexList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -164,7 +164,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList)SetTerra
 	)
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -186,11 +186,11 @@ func (j *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList)SetWraps
 	)
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) AllWithMapKey(mapKeyAttributeName *string) cdktf.DynamicListTerraformIterator {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
 	if err := c.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
 		panic(err)
 	}
-	var returns cdktf.DynamicListTerraformIterator
+	var returns cdktn.DynamicListTerraformIterator
 
 	_jsii_.Invoke(
 		c,
@@ -231,7 +231,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) Get(ind
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CosmosdbSqlContainerIndexingPolicyCompositeIndexList) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

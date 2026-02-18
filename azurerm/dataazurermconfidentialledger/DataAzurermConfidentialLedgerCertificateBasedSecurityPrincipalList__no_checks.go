@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermConfidentialLedgerCertificateBasedSecurityPrincipa
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermConfidentialLedgerCertificateBasedSecurityPrincipalList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermConfidentialLedgerCertificateBasedSecurityPrincipalList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermConfidentialLedgerCertificateBasedSecurityPrincipa
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermConfidentialLedgerCertificateBasedSecurityPrincipalList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermConfidentialLedgerCertificateBasedSecurityPrincipalList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermConfidentialLedgerCertificateBasedSecurityPrincipa
 	return nil
 }
 
-func validateNewDataAzurermConfidentialLedgerCertificateBasedSecurityPrincipalListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermConfidentialLedgerCertificateBasedSecurityPrincipalListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

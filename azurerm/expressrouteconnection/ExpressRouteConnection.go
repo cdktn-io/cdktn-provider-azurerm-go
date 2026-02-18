@@ -5,21 +5,21 @@ package expressrouteconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/expressrouteconnection/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/expressrouteconnection/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/express_route_connection azurerm_express_route_connection}.
 type ExpressRouteConnection interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthorizationKey() *string
 	SetAuthorizationKey(val *string)
 	AuthorizationKeyInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -47,9 +47,9 @@ type ExpressRouteConnection interface {
 	SetExpressRouteGatewayId(val *string)
 	ExpressRouteGatewayIdInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -58,9 +58,9 @@ type ExpressRouteConnection interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -70,9 +70,9 @@ type ExpressRouteConnection interface {
 	SetPrivateLinkFastPathEnabled(val interface{})
 	PrivateLinkFastPathEnabledInput() interface{}
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -85,7 +85,7 @@ type ExpressRouteConnection interface {
 	SetRoutingWeight(val *float64)
 	RoutingWeightInput() *float64
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -100,7 +100,7 @@ type ExpressRouteConnection interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -118,9 +118,9 @@ type ExpressRouteConnection interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -163,7 +163,7 @@ type ExpressRouteConnection interface {
 
 // The jsii proxy struct for ExpressRouteConnection
 type jsiiProxy_ExpressRouteConnection struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_ExpressRouteConnection) AuthorizationKey() *string {
@@ -186,8 +186,8 @@ func (j *jsiiProxy_ExpressRouteConnection) AuthorizationKeyInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_ExpressRouteConnection) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -316,8 +316,8 @@ func (j *jsiiProxy_ExpressRouteConnection) ExpressRouteGatewayIdInput() *string 
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_ExpressRouteConnection) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -366,8 +366,8 @@ func (j *jsiiProxy_ExpressRouteConnection) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_ExpressRouteConnection) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -426,8 +426,8 @@ func (j *jsiiProxy_ExpressRouteConnection) PrivateLinkFastPathEnabledInput() int
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_ExpressRouteConnection) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -496,8 +496,8 @@ func (j *jsiiProxy_ExpressRouteConnection) RoutingWeightInput() *float64 {
 	return returns
 }
 
-func (j *jsiiProxy_ExpressRouteConnection) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_ExpressRouteConnection) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -661,7 +661,7 @@ func (j *jsiiProxy_ExpressRouteConnection)SetExpressRouteGatewayId(val *string) 
 	)
 }
 
-func (j *jsiiProxy_ExpressRouteConnection)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_ExpressRouteConnection)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -680,7 +680,7 @@ func (j *jsiiProxy_ExpressRouteConnection)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_ExpressRouteConnection)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_ExpressRouteConnection)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -713,7 +713,7 @@ func (j *jsiiProxy_ExpressRouteConnection)SetPrivateLinkFastPathEnabled(val inte
 	)
 }
 
-func (j *jsiiProxy_ExpressRouteConnection)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_ExpressRouteConnection)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -743,14 +743,14 @@ func (j *jsiiProxy_ExpressRouteConnection)SetRoutingWeight(val *float64) {
 	)
 }
 
-// Generates CDKTF code for importing a ExpressRouteConnection resource upon running "cdktf plan <stack-name>".
-func ExpressRouteConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a ExpressRouteConnection resource upon running "cdktn plan <stack-name>".
+func ExpressRouteConnection_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateExpressRouteConnection_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.expressRouteConnection.ExpressRouteConnection",
@@ -884,11 +884,11 @@ func (e *jsiiProxy_ExpressRouteConnection) GetAnyMapAttribute(terraformAttribute
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteConnection) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExpressRouteConnection) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -1025,7 +1025,7 @@ func (e *jsiiProxy_ExpressRouteConnection) HasResourceMove() interface{} {
 	return returns
 }
 
-func (e *jsiiProxy_ExpressRouteConnection) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (e *jsiiProxy_ExpressRouteConnection) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := e.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1036,11 +1036,11 @@ func (e *jsiiProxy_ExpressRouteConnection) ImportFrom(id *string, provider cdktf
 	)
 }
 
-func (e *jsiiProxy_ExpressRouteConnection) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_ExpressRouteConnection) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,

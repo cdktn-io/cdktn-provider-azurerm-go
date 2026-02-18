@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCognitiveAccountNetworkInjectionList) validateGetP
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCognitiveAccountNetworkInjectionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCognitiveAccountNetworkInjectionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCognitiveAccountNetworkInjectionList) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCognitiveAccountNetworkInjectionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCognitiveAccountNetworkInjectionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCognitiveAccountNetworkInjectionList) validateSetW
 	return nil
 }
 
-func validateNewDataAzurermCognitiveAccountNetworkInjectionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCognitiveAccountNetworkInjectionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

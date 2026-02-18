@@ -119,7 +119,7 @@ func (j *jsiiProxy_StorageShare) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_StorageShare) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StorageShare) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference)
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracleVolumeExportPolicyRuleOutputReference)
 	return nil
 }
 
-func validateNewNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewNetappVolumeGroupOracleVolumeExportPolicyRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

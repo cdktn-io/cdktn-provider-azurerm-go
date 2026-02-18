@@ -15,7 +15,7 @@ func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateGetParameters(in
 	return nil
 }
 
-func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_EventgridNamespaceInboundIpRuleList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewEventgridNamespaceInboundIpRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventgridNamespaceInboundIpRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

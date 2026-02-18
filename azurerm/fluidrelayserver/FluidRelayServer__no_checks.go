@@ -115,7 +115,7 @@ func (j *jsiiProxy_FluidRelayServer) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_FluidRelayServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_FluidRelayServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

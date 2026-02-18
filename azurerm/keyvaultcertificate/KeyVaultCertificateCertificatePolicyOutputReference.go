@@ -5,14 +5,14 @@ package keyvaultcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/keyvaultcertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/keyvaultcertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type KeyVaultCertificateCertificatePolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,9 +45,9 @@ type KeyVaultCertificateCertificatePolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	X509CertificateProperties() KeyVaultCertificateCertificatePolicyX509CertificatePropertiesOutputReference
 	X509CertificatePropertiesInput() *KeyVaultCertificateCertificatePolicyX509CertificateProperties
 	// Experimental.
@@ -55,7 +55,7 @@ type KeyVaultCertificateCertificatePolicyOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -71,9 +71,9 @@ type KeyVaultCertificateCertificatePolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutIssuerParameters(value *KeyVaultCertificateCertificatePolicyIssuerParameters)
 	PutKeyProperties(value *KeyVaultCertificateCertificatePolicyKeyProperties)
 	PutLifetimeAction(value interface{})
@@ -83,7 +83,7 @@ type KeyVaultCertificateCertificatePolicyOutputReference interface {
 	ResetX509CertificateProperties()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -93,7 +93,7 @@ type KeyVaultCertificateCertificatePolicyOutputReference interface {
 
 // The jsii proxy struct for KeyVaultCertificateCertificatePolicyOutputReference
 type jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -236,8 +236,8 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) Terrafor
 	return returns
 }
 
-func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -267,7 +267,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) X509Cert
 }
 
 
-func NewKeyVaultCertificateCertificatePolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) KeyVaultCertificateCertificatePolicyOutputReference {
+func NewKeyVaultCertificateCertificatePolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) KeyVaultCertificateCertificatePolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewKeyVaultCertificateCertificatePolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -284,7 +284,7 @@ func NewKeyVaultCertificateCertificatePolicyOutputReference(terraformResource cd
 	return &j
 }
 
-func NewKeyVaultCertificateCertificatePolicyOutputReference_Override(k KeyVaultCertificateCertificatePolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewKeyVaultCertificateCertificatePolicyOutputReference_Override(k KeyVaultCertificateCertificatePolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -338,7 +338,7 @@ func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference)SetTerraf
 	)
 }
 
-func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -378,11 +378,11 @@ func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) GetAnyMa
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -506,8 +506,8 @@ func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) GetStrin
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -519,11 +519,11 @@ func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) Interpol
 	return returns
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -606,7 +606,7 @@ func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) ResetX50
 	)
 }
 
-func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (k *jsiiProxy_KeyVaultCertificateCertificatePolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := k.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

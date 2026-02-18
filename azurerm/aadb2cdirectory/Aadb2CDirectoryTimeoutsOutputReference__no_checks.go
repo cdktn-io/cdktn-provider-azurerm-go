@@ -47,7 +47,7 @@ func (a *jsiiProxy_Aadb2CDirectoryTimeoutsOutputReference) validateInterpolation
 	return nil
 }
 
-func (a *jsiiProxy_Aadb2CDirectoryTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_Aadb2CDirectoryTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_Aadb2CDirectoryTimeoutsOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_Aadb2CDirectoryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_Aadb2CDirectoryTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_Aadb2CDirectoryTimeoutsOutputReference) validateSetUpdatePara
 	return nil
 }
 
-func validateNewAadb2CDirectoryTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAadb2CDirectoryTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

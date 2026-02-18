@@ -5,14 +5,14 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -49,9 +49,9 @@ type ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Url() ApplicationGatewayRewriteRuleSetRewriteRuleUrlOutputReference
 	UrlInput() *ApplicationGatewayRewriteRuleSetRewriteRuleUrl
 	// Experimental.
@@ -59,7 +59,7 @@ type ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutCondition(value interface{})
 	PutRequestHeaderConfiguration(value interface{})
 	PutResponseHeaderConfiguration(value interface{})
@@ -88,7 +88,7 @@ type ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference interface {
 	ResetUrl()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -98,7 +98,7 @@ type ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference interface {
 
 // The jsii proxy struct for ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference
 type jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) ComplexObjectIndex() interface{} {
@@ -261,8 +261,8 @@ func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -292,7 +292,7 @@ func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) U
 }
 
 
-func NewApplicationGatewayRewriteRuleSetRewriteRuleOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference {
+func NewApplicationGatewayRewriteRuleSetRewriteRuleOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApplicationGatewayRewriteRuleSetRewriteRuleOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -309,7 +309,7 @@ func NewApplicationGatewayRewriteRuleSetRewriteRuleOutputReference(terraformReso
 	return &j
 }
 
-func NewApplicationGatewayRewriteRuleSetRewriteRuleOutputReference_Override(a ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApplicationGatewayRewriteRuleSetRewriteRuleOutputReference_Override(a ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -425,11 +425,11 @@ func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -553,8 +553,8 @@ func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -566,11 +566,11 @@ func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) I
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -658,7 +658,7 @@ func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) R
 	)
 }
 
-func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationGatewayRewriteRuleSetRewriteRuleOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

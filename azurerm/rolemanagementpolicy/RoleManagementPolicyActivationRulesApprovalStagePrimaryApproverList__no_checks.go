@@ -15,7 +15,7 @@ func (r *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApprov
 	return nil
 }
 
-func (r *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApprov
 	return nil
 }
 
-func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApproverList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RoleManagementPolicyActivationRulesApprovalStagePrimaryApprov
 	return nil
 }
 
-func validateNewRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoleManagementPolicyActivationRulesApprovalStagePrimaryApproverListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

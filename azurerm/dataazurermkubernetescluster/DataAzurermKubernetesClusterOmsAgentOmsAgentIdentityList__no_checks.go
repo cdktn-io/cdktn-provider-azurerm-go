@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList) val
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList) val
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentOmsAgentIdentityList) val
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterOmsAgentOmsAgentIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterOmsAgentOmsAgentIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

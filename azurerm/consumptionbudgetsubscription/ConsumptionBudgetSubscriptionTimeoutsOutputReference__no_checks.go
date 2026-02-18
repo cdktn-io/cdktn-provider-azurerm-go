@@ -47,7 +47,7 @@ func (c *jsiiProxy_ConsumptionBudgetSubscriptionTimeoutsOutputReference) validat
 	return nil
 }
 
-func (c *jsiiProxy_ConsumptionBudgetSubscriptionTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ConsumptionBudgetSubscriptionTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ConsumptionBudgetSubscriptionTimeoutsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_ConsumptionBudgetSubscriptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ConsumptionBudgetSubscriptionTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ConsumptionBudgetSubscriptionTimeoutsOutputReference) validat
 	return nil
 }
 
-func validateNewConsumptionBudgetSubscriptionTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewConsumptionBudgetSubscriptionTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

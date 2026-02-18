@@ -47,7 +47,7 @@ func (p *jsiiProxy_PostgresqlVirtualNetworkRuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func (p *jsiiProxy_PostgresqlVirtualNetworkRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PostgresqlVirtualNetworkRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PostgresqlVirtualNetworkRuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_PostgresqlVirtualNetworkRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PostgresqlVirtualNetworkRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_PostgresqlVirtualNetworkRuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewPostgresqlVirtualNetworkRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewPostgresqlVirtualNetworkRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterOmsAgentList) validateGetParamete
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterOmsAgentList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterOmsAgentList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterOmsAgentList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterOmsAgentListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermKubernetesClusterOmsAgentListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

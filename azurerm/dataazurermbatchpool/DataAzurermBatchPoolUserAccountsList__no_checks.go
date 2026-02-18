@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolUserAccountsList) validateGetParameters(i
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolUserAccountsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolUserAccountsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolUserAccountsList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolUserAccountsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolUserAccountsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolUserAccountsList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolUserAccountsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchPoolUserAccountsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

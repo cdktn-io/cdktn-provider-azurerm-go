@@ -47,7 +47,7 @@ func (m *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleOutputReference)
 	return nil
 }
 
-func (m *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,11 +83,11 @@ func (j *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlManagedInstanceStartStopScheduleScheduleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMssqlManagedInstanceStartStopScheduleScheduleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewMssqlManagedInstanceStartStopScheduleScheduleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

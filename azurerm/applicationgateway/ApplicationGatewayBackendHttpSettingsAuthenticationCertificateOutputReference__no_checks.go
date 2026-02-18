@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificat
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificat
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApplicationGatewayBackendHttpSettingsAuthenticationCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

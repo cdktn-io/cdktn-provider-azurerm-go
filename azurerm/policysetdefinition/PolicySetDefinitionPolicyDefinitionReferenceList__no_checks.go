@@ -15,7 +15,7 @@ func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceList) validateGet
 	return nil
 }
 
-func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_PolicySetDefinitionPolicyDefinitionReferenceList) validateSet
 	return nil
 }
 
-func validateNewPolicySetDefinitionPolicyDefinitionReferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPolicySetDefinitionPolicyDefinitionReferenceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

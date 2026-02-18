@@ -119,7 +119,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCapture) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

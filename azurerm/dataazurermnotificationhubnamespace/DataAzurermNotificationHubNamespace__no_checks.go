@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermNotificationHubNamespace) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNotificationHubNamespace) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermNotificationHubNamespace) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

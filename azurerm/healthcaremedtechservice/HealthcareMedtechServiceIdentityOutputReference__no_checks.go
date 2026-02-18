@@ -47,7 +47,7 @@ func (h *jsiiProxy_HealthcareMedtechServiceIdentityOutputReference) validateInte
 	return nil
 }
 
-func (h *jsiiProxy_HealthcareMedtechServiceIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HealthcareMedtechServiceIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_HealthcareMedtechServiceIdentityOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_HealthcareMedtechServiceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HealthcareMedtechServiceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_HealthcareMedtechServiceIdentityOutputReference) validateSetT
 	return nil
 }
 
-func validateNewHealthcareMedtechServiceIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHealthcareMedtechServiceIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

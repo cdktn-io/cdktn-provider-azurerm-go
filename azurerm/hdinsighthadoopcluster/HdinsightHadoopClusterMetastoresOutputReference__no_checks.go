@@ -59,7 +59,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterMetastoresOutputReference) validatePutO
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterMetastoresOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterMetastoresOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_HdinsightHadoopClusterMetastoresOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterMetastoresOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterMetastoresOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterMetastoresOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewHdinsightHadoopClusterMetastoresOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

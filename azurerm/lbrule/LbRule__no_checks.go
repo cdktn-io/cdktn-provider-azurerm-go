@@ -143,7 +143,7 @@ func (j *jsiiProxy_LbRule) validateSetIdleTimeoutInMinutesParameters(val *float6
 	return nil
 }
 
-func (j *jsiiProxy_LbRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LbRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

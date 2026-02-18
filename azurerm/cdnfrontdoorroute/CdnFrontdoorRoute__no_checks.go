@@ -147,7 +147,7 @@ func (j *jsiiProxy_CdnFrontdoorRoute) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_CdnFrontdoorRoute) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CdnFrontdoorRoute) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

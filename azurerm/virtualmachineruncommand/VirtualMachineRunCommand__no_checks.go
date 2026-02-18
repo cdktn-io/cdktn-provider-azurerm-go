@@ -131,7 +131,7 @@ func (j *jsiiProxy_VirtualMachineRunCommand) validateSetIdParameters(val *string
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineRunCommand) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_VirtualMachineRunCommand) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

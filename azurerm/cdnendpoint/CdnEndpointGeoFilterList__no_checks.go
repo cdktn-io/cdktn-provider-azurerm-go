@@ -15,7 +15,7 @@ func (c *jsiiProxy_CdnEndpointGeoFilterList) validateGetParameters(index *float6
 	return nil
 }
 
-func (c *jsiiProxy_CdnEndpointGeoFilterList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CdnEndpointGeoFilterList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CdnEndpointGeoFilterList) validateSetTerraformAttributeParame
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpointGeoFilterList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CdnEndpointGeoFilterList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CdnEndpointGeoFilterList) validateSetWrapsSetParameters(val *
 	return nil
 }
 
-func validateNewCdnEndpointGeoFilterListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCdnEndpointGeoFilterListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountList) validateGetParamete
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterStorageAccountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterStorageAccountList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterStorageAccountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHdinsightHadoopClusterStorageAccountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterNodePoolUpgradeSettingsOutputReference) vali
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolUpgradeSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterNodePoolUpgradeSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolUpgradeSettingsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolUpgradeSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterNodePoolUpgradeSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_KubernetesClusterNodePoolUpgradeSettingsOutputReference) vali
 	return nil
 }
 
-func validateNewKubernetesClusterNodePoolUpgradeSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesClusterNodePoolUpgradeSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

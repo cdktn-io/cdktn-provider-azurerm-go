@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationExampleOutputRe
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationExampleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiOperationRequestRepresentationExampleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationExampleOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationExampleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationExampleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ApiManagementApiOperationRequestRepresentationExampleOutputRe
 	return nil
 }
 
-func validateNewApiManagementApiOperationRequestRepresentationExampleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiManagementApiOperationRequestRepresentationExampleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

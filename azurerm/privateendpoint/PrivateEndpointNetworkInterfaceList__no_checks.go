@@ -15,7 +15,7 @@ func (p *jsiiProxy_PrivateEndpointNetworkInterfaceList) validateGetParameters(in
 	return nil
 }
 
-func (p *jsiiProxy_PrivateEndpointNetworkInterfaceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PrivateEndpointNetworkInterfaceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_PrivateEndpointNetworkInterfaceList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_PrivateEndpointNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PrivateEndpointNetworkInterfaceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_PrivateEndpointNetworkInterfaceList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewPrivateEndpointNetworkInterfaceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPrivateEndpointNetworkInterfaceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

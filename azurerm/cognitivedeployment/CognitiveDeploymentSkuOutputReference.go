@@ -5,14 +5,14 @@ package cognitivedeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cognitivedeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cognitivedeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CognitiveDeploymentSkuOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Capacity() *float64
 	SetCapacity(val *float64)
 	CapacityInput() *float64
@@ -49,9 +49,9 @@ type CognitiveDeploymentSkuOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Tier() *string
 	SetTier(val *string)
 	TierInput() *string
@@ -60,7 +60,7 @@ type CognitiveDeploymentSkuOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,16 +76,16 @@ type CognitiveDeploymentSkuOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCapacity()
 	ResetFamily()
 	ResetSize()
 	ResetTier()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -95,7 +95,7 @@ type CognitiveDeploymentSkuOutputReference interface {
 
 // The jsii proxy struct for CognitiveDeploymentSkuOutputReference
 type jsiiProxy_CognitiveDeploymentSkuOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) Capacity() *float64 {
@@ -238,8 +238,8 @@ func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) TerraformAttribute() *
 	return returns
 }
 
-func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -269,7 +269,7 @@ func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference) TierInput() *string {
 }
 
 
-func NewCognitiveDeploymentSkuOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CognitiveDeploymentSkuOutputReference {
+func NewCognitiveDeploymentSkuOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CognitiveDeploymentSkuOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCognitiveDeploymentSkuOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -286,7 +286,7 @@ func NewCognitiveDeploymentSkuOutputReference(terraformResource cdktf.IInterpola
 	return &j
 }
 
-func NewCognitiveDeploymentSkuOutputReference_Override(c CognitiveDeploymentSkuOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCognitiveDeploymentSkuOutputReference_Override(c CognitiveDeploymentSkuOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -384,7 +384,7 @@ func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference)SetTerraformAttribute(v
 	)
 }
 
-func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CognitiveDeploymentSkuOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -435,11 +435,11 @@ func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -563,8 +563,8 @@ func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) GetStringMapAttribute(
 	return returns
 }
 
-func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -576,11 +576,11 @@ func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) InterpolationAsList() 
 	return returns
 }
 
-func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -624,7 +624,7 @@ func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) ResetTier() {
 	)
 }
 
-func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CognitiveDeploymentSkuOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

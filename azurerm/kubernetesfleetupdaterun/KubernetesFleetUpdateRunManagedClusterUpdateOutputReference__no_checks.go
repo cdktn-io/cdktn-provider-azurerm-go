@@ -55,7 +55,7 @@ func (k *jsiiProxy_KubernetesFleetUpdateRunManagedClusterUpdateOutputReference) 
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFleetUpdateRunManagedClusterUpdateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFleetUpdateRunManagedClusterUpdateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_KubernetesFleetUpdateRunManagedClusterUpdateOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFleetUpdateRunManagedClusterUpdateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFleetUpdateRunManagedClusterUpdateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesFleetUpdateRunManagedClusterUpdateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKubernetesFleetUpdateRunManagedClusterUpdateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

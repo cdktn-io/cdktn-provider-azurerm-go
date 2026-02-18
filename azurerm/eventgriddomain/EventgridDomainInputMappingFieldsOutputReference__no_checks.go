@@ -47,7 +47,7 @@ func (e *jsiiProxy_EventgridDomainInputMappingFieldsOutputReference) validateInt
 	return nil
 }
 
-func (e *jsiiProxy_EventgridDomainInputMappingFieldsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridDomainInputMappingFieldsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_EventgridDomainInputMappingFieldsOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_EventgridDomainInputMappingFieldsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridDomainInputMappingFieldsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -95,7 +95,7 @@ func (j *jsiiProxy_EventgridDomainInputMappingFieldsOutputReference) validateSet
 	return nil
 }
 
-func validateNewEventgridDomainInputMappingFieldsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewEventgridDomainInputMappingFieldsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

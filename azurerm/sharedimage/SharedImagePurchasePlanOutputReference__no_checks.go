@@ -47,7 +47,7 @@ func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) validateInterpolation
 	return nil
 }
 
-func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SharedImagePurchasePlanOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SharedImagePurchasePlanOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSharedImagePurchasePlanOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSharedImagePurchasePlanOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

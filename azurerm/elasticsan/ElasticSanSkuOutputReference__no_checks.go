@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticSanSkuOutputReference) validateInterpolationForAttribu
 	return nil
 }
 
-func (e *jsiiProxy_ElasticSanSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticSanSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ElasticSanSkuOutputReference) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_ElasticSanSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticSanSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ElasticSanSkuOutputReference) validateSetTierParameters(val *
 	return nil
 }
 
-func validateNewElasticSanSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticSanSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

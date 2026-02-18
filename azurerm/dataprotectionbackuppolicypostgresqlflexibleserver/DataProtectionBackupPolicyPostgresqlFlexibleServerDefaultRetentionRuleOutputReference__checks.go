@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRete
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleLifeCycle:
 		value := value.(*[]*DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleLifeCycle)
@@ -117,14 +117,14 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRete
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleLifeCycle; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleLifeCycle; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -213,7 +213,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRete
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -221,7 +221,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRete
 	return nil
 }
 
-func validateNewDataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataProtectionBackupPolicyPostgresqlFlexibleServerDefaultRetentionRuleOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

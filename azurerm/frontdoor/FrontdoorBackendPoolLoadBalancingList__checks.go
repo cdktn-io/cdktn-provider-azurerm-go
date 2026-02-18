@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateGetParameters(
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (f *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateResolveParamet
 
 func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*FrontdoorBackendPoolLoadBalancing:
 		val := val.(*[]*FrontdoorBackendPoolLoadBalancing)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateSetInternalVal
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*FrontdoorBackendPoolLoadBalancing; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*FrontdoorBackendPoolLoadBalancing; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_FrontdoorBackendPoolLoadBalancingList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewFrontdoorBackendPoolLoadBalancingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorBackendPoolLoadBalancingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

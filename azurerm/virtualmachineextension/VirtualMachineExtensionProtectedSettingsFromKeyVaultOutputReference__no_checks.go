@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputRef
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineExtensionProtectedSettingsFromKeyVaultOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

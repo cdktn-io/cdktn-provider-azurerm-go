@@ -15,7 +15,7 @@ func (m *jsiiProxy_MssqlFailoverGroupPartnerServerList) validateGetParameters(in
 	return nil
 }
 
-func (m *jsiiProxy_MssqlFailoverGroupPartnerServerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MssqlFailoverGroupPartnerServerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MssqlFailoverGroupPartnerServerList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_MssqlFailoverGroupPartnerServerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MssqlFailoverGroupPartnerServerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MssqlFailoverGroupPartnerServerList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewMssqlFailoverGroupPartnerServerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMssqlFailoverGroupPartnerServerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

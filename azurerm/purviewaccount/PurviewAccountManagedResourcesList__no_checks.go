@@ -15,7 +15,7 @@ func (p *jsiiProxy_PurviewAccountManagedResourcesList) validateGetParameters(ind
 	return nil
 }
 
-func (p *jsiiProxy_PurviewAccountManagedResourcesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PurviewAccountManagedResourcesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_PurviewAccountManagedResourcesList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_PurviewAccountManagedResourcesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PurviewAccountManagedResourcesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_PurviewAccountManagedResourcesList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewPurviewAccountManagedResourcesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewPurviewAccountManagedResourcesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

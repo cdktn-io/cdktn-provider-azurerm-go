@@ -131,7 +131,7 @@ func (j *jsiiProxy_DataFactoryDatasetMysql) validateSetIdParameters(val *string)
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryDatasetMysql) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryDatasetMysql) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

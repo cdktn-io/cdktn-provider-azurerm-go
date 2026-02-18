@@ -5,14 +5,14 @@ package webpubsubnetworkacl
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/webpubsubnetworkacl/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webpubsubnetworkacl/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WebPubsubNetworkAclPublicNetworkOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllowedRequestTypes() *[]*string
 	SetAllowedRequestTypes(val *[]*string)
 	AllowedRequestTypesInput() *[]*string
@@ -43,15 +43,15 @@ type WebPubsubNetworkAclPublicNetworkOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type WebPubsubNetworkAclPublicNetworkOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAllowedRequestTypes()
 	ResetDeniedRequestTypes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type WebPubsubNetworkAclPublicNetworkOutputReference interface {
 
 // The jsii proxy struct for WebPubsubNetworkAclPublicNetworkOutputReference
 type jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) AllowedRequestTypes() *[]*string {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) TerraformRes
 }
 
 
-func NewWebPubsubNetworkAclPublicNetworkOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WebPubsubNetworkAclPublicNetworkOutputReference {
+func NewWebPubsubNetworkAclPublicNetworkOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WebPubsubNetworkAclPublicNetworkOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWebPubsubNetworkAclPublicNetworkOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewWebPubsubNetworkAclPublicNetworkOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewWebPubsubNetworkAclPublicNetworkOutputReference_Override(w WebPubsubNetworkAclPublicNetworkOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWebPubsubNetworkAclPublicNetworkOutputReference_Override(w WebPubsubNetworkAclPublicNetworkOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -459,8 +459,8 @@ func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) GetStringMap
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -472,11 +472,11 @@ func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) Interpolatio
 	return returns
 }
 
-func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -504,7 +504,7 @@ func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) ResetDeniedR
 	)
 }
 
-func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WebPubsubNetworkAclPublicNetworkOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

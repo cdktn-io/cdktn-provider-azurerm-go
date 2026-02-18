@@ -131,7 +131,7 @@ func (j *jsiiProxy_RedisCache) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_RedisCache) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_RedisCache) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -5,18 +5,18 @@ package dataazurermoracledatabasesystemversions
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracledatabasesystemversions/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracledatabasesystemversions/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/oracle_database_system_versions azurerm_oracle_database_system_versions}.
 type DataAzurermOracleDatabaseSystemVersions interface {
-	cdktf.TerraformDataSource
+	cdktn.TerraformDataSource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -34,9 +34,9 @@ type DataAzurermOracleDatabaseSystemVersions interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -45,18 +45,18 @@ type DataAzurermOracleDatabaseSystemVersions interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	RawOverrides() interface{}
 	ShapeFamily() *string
@@ -66,7 +66,7 @@ type DataAzurermOracleDatabaseSystemVersions interface {
 	SetStorageManagement(val *string)
 	StorageManagementInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -82,7 +82,7 @@ type DataAzurermOracleDatabaseSystemVersions interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,7 +98,7 @@ type DataAzurermOracleDatabaseSystemVersions interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
@@ -129,11 +129,11 @@ type DataAzurermOracleDatabaseSystemVersions interface {
 
 // The jsii proxy struct for DataAzurermOracleDatabaseSystemVersions
 type jsiiProxy_DataAzurermOracleDatabaseSystemVersions struct {
-	internal.Type__cdktfTerraformDataSource
+	internal.Type__cdktnTerraformDataSource
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -212,8 +212,8 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) DependsOn() *[]*stri
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -262,8 +262,8 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -302,8 +302,8 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) Node() constructs.No
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -362,8 +362,8 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) StorageManagementInp
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -513,7 +513,7 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetDependsOn(val *[]*
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -554,7 +554,7 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetLocation(val *stri
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -595,14 +595,14 @@ func (j *jsiiProxy_DataAzurermOracleDatabaseSystemVersions)SetUpgradeSupported(v
 	)
 }
 
-// Generates CDKTF code for importing a DataAzurermOracleDatabaseSystemVersions resource upon running "cdktf plan <stack-name>".
-func DataAzurermOracleDatabaseSystemVersions_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataAzurermOracleDatabaseSystemVersions resource upon running "cdktn plan <stack-name>".
+func DataAzurermOracleDatabaseSystemVersions_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataAzurermOracleDatabaseSystemVersions_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataAzurermOracleDatabaseSystemVersions.DataAzurermOracleDatabaseSystemVersions",
@@ -725,11 +725,11 @@ func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) GetAnyMapAttribute(t
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -853,11 +853,11 @@ func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) GetStringMapAttribut
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleDatabaseSystemVersions) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSetTimeoutsOutputReference) v
 	return nil
 }
 
-func (i *jsiiProxy_IotcentralApplicationNetworkRuleSetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSetTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_IotcentralApplicationNetworkRuleSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotcentralApplicationNetworkRuleSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSetTimeoutsOutputReference) v
 	return nil
 }
 
-func validateNewIotcentralApplicationNetworkRuleSetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewIotcentralApplicationNetworkRuleSetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

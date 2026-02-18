@@ -5,14 +5,14 @@ package datadogmonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/datadogmonitor/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datadogmonitor/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DatadogMonitorDatadogOrganizationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApiKey() *string
 	SetApiKey(val *string)
 	ApiKeyInput() *string
@@ -57,15 +57,15 @@ type DatadogMonitorDatadogOrganizationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -81,16 +81,16 @@ type DatadogMonitorDatadogOrganizationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetEnterpriseAppId()
 	ResetLinkingAuthCode()
 	ResetLinkingClientId()
 	ResetRedirectUri()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -100,7 +100,7 @@ type DatadogMonitorDatadogOrganizationOutputReference interface {
 
 // The jsii proxy struct for DatadogMonitorDatadogOrganizationOutputReference
 type jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) ApiKey() *string {
@@ -303,8 +303,8 @@ func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) TerraformAt
 	return returns
 }
 
-func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -314,7 +314,7 @@ func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) TerraformRe
 }
 
 
-func NewDatadogMonitorDatadogOrganizationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) DatadogMonitorDatadogOrganizationOutputReference {
+func NewDatadogMonitorDatadogOrganizationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) DatadogMonitorDatadogOrganizationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDatadogMonitorDatadogOrganizationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -331,7 +331,7 @@ func NewDatadogMonitorDatadogOrganizationOutputReference(terraformResource cdktf
 	return &j
 }
 
-func NewDatadogMonitorDatadogOrganizationOutputReference_Override(d DatadogMonitorDatadogOrganizationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewDatadogMonitorDatadogOrganizationOutputReference_Override(d DatadogMonitorDatadogOrganizationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -451,7 +451,7 @@ func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference)SetTerraform
 	)
 }
 
-func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,11 +491,11 @@ func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) GetAnyMapAt
 	return returns
 }
 
-func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -619,8 +619,8 @@ func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) GetStringMa
 	return returns
 }
 
-func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -632,11 +632,11 @@ func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) Interpolati
 	return returns
 }
 
-func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -680,7 +680,7 @@ func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) ResetRedire
 	)
 }
 
-func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DatadogMonitorDatadogOrganizationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

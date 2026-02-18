@@ -5,14 +5,14 @@ package appserviceslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/appserviceslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appserviceslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AppServiceSlotAuthSettingsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ActiveDirectory() AppServiceSlotAuthSettingsActiveDirectoryOutputReference
 	ActiveDirectoryInput() *AppServiceSlotAuthSettingsActiveDirectory
 	AdditionalLoginParams() *map[string]*string
@@ -63,9 +63,9 @@ type AppServiceSlotAuthSettingsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenRefreshExtensionHours() *float64
 	SetTokenRefreshExtensionHours(val *float64)
 	TokenRefreshExtensionHoursInput() *float64
@@ -82,7 +82,7 @@ type AppServiceSlotAuthSettingsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,9 +98,9 @@ type AppServiceSlotAuthSettingsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutActiveDirectory(value *AppServiceSlotAuthSettingsActiveDirectory)
 	PutFacebook(value *AppServiceSlotAuthSettingsFacebook)
 	PutGoogle(value *AppServiceSlotAuthSettingsGoogle)
@@ -121,7 +121,7 @@ type AppServiceSlotAuthSettingsOutputReference interface {
 	ResetUnauthenticatedClientAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -131,7 +131,7 @@ type AppServiceSlotAuthSettingsOutputReference interface {
 
 // The jsii proxy struct for AppServiceSlotAuthSettingsOutputReference
 type jsiiProxy_AppServiceSlotAuthSettingsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) ActiveDirectory() AppServiceSlotAuthSettingsActiveDirectoryOutputReference {
@@ -394,8 +394,8 @@ func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) TerraformAttribute
 	return returns
 }
 
-func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -485,7 +485,7 @@ func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) UnauthenticatedCli
 }
 
 
-func NewAppServiceSlotAuthSettingsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AppServiceSlotAuthSettingsOutputReference {
+func NewAppServiceSlotAuthSettingsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AppServiceSlotAuthSettingsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAppServiceSlotAuthSettingsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -502,7 +502,7 @@ func NewAppServiceSlotAuthSettingsOutputReference(terraformResource cdktf.IInter
 	return &j
 }
 
-func NewAppServiceSlotAuthSettingsOutputReference_Override(a AppServiceSlotAuthSettingsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAppServiceSlotAuthSettingsOutputReference_Override(a AppServiceSlotAuthSettingsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -622,7 +622,7 @@ func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference)SetTerraformAttribu
 	)
 }
 
-func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AppServiceSlotAuthSettingsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -695,11 +695,11 @@ func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) GetAnyMapAttribute
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -823,8 +823,8 @@ func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) GetStringMapAttrib
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -836,11 +836,11 @@ func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) InterpolationAsLis
 	return returns
 }
 
-func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -1011,7 +1011,7 @@ func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) ResetUnauthenticat
 	)
 }
 
-func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AppServiceSlotAuthSettingsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

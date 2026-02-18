@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkInterfaceIpConfigurationList) validateGetParameters(in
 	return nil
 }
 
-func (n *jsiiProxy_NetworkInterfaceIpConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkInterfaceIpConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkInterfaceIpConfigurationList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_NetworkInterfaceIpConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkInterfaceIpConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkInterfaceIpConfigurationList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewNetworkInterfaceIpConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkInterfaceIpConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -107,7 +107,7 @@ func (j *jsiiProxy_PaloAltoVirtualNetworkAppliance) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_PaloAltoVirtualNetworkAppliance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PaloAltoVirtualNetworkAppliance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

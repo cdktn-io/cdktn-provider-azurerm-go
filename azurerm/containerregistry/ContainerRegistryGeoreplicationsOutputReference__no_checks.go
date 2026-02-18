@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateInte
 	return nil
 }
 
-func (c *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ContainerRegistryGeoreplicationsOutputReference) validateSetZ
 	return nil
 }
 
-func validateNewContainerRegistryGeoreplicationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerRegistryGeoreplicationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

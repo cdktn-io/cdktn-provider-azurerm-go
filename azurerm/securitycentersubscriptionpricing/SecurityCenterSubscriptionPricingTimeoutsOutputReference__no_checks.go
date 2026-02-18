@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityCenterSubscriptionPricingTimeoutsOutputReference) val
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterSubscriptionPricingTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterSubscriptionPricingTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SecurityCenterSubscriptionPricingTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterSubscriptionPricingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterSubscriptionPricingTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SecurityCenterSubscriptionPricingTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewSecurityCenterSubscriptionPricingTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSecurityCenterSubscriptionPricingTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

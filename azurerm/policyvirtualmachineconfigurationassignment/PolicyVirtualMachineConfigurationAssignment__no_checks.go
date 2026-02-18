@@ -111,7 +111,7 @@ func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignment) validateSetIdPar
 	return nil
 }
 
-func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_BotChannelDirectline) validateSetIdParameters(val *string) er
 	return nil
 }
 
-func (j *jsiiProxy_BotChannelDirectline) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_BotChannelDirectline) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

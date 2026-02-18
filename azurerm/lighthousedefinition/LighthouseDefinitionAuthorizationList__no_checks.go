@@ -15,7 +15,7 @@ func (l *jsiiProxy_LighthouseDefinitionAuthorizationList) validateGetParameters(
 	return nil
 }
 
-func (l *jsiiProxy_LighthouseDefinitionAuthorizationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LighthouseDefinitionAuthorizationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LighthouseDefinitionAuthorizationList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_LighthouseDefinitionAuthorizationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LighthouseDefinitionAuthorizationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LighthouseDefinitionAuthorizationList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewLighthouseDefinitionAuthorizationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLighthouseDefinitionAuthorizationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_StreamAnalyticsJobScheduleTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_StreamAnalyticsJobScheduleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StreamAnalyticsJobScheduleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_StreamAnalyticsJobScheduleTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_StreamAnalyticsJobScheduleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StreamAnalyticsJobScheduleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_StreamAnalyticsJobScheduleTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewStreamAnalyticsJobScheduleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStreamAnalyticsJobScheduleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

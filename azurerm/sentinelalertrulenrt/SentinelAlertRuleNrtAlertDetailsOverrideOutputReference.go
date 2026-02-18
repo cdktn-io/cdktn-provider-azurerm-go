@@ -5,14 +5,14 @@ package sentinelalertrulenrt
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelalertrulenrt/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/sentinelalertrulenrt/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SentinelAlertRuleNrtAlertDetailsOverrideOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -51,15 +51,15 @@ type SentinelAlertRuleNrtAlertDetailsOverrideOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -75,9 +75,9 @@ type SentinelAlertRuleNrtAlertDetailsOverrideOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDynamicProperty(value interface{})
 	ResetDescriptionFormat()
 	ResetDisplayNameFormat()
@@ -86,7 +86,7 @@ type SentinelAlertRuleNrtAlertDetailsOverrideOutputReference interface {
 	ResetTacticsColumnName()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -96,7 +96,7 @@ type SentinelAlertRuleNrtAlertDetailsOverrideOutputReference interface {
 
 // The jsii proxy struct for SentinelAlertRuleNrtAlertDetailsOverrideOutputReference
 type jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) ComplexObjectIndex() interface{} {
@@ -259,8 +259,8 @@ func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -270,7 +270,7 @@ func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) Terr
 }
 
 
-func NewSentinelAlertRuleNrtAlertDetailsOverrideOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelAlertRuleNrtAlertDetailsOverrideOutputReference {
+func NewSentinelAlertRuleNrtAlertDetailsOverrideOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelAlertRuleNrtAlertDetailsOverrideOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSentinelAlertRuleNrtAlertDetailsOverrideOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -287,7 +287,7 @@ func NewSentinelAlertRuleNrtAlertDetailsOverrideOutputReference(terraformResourc
 	return &j
 }
 
-func NewSentinelAlertRuleNrtAlertDetailsOverrideOutputReference_Override(s SentinelAlertRuleNrtAlertDetailsOverrideOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSentinelAlertRuleNrtAlertDetailsOverrideOutputReference_Override(s SentinelAlertRuleNrtAlertDetailsOverrideOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -385,7 +385,7 @@ func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -425,11 +425,11 @@ func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) GetA
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -553,8 +553,8 @@ func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) GetS
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -566,11 +566,11 @@ func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) Inte
 	return returns
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -633,7 +633,7 @@ func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) Rese
 	)
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SentinelAlertRuleNrtAlertDetailsOverrideOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

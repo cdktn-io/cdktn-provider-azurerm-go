@@ -5,14 +5,14 @@ package dataazurermvirtualdesktophostpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvirtualdesktophostpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermvirtualdesktophostpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -28,7 +28,7 @@ type DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference inter
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	Enabled() cdktf.IResolvable
+	Enabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermVirtualDesktopHostPoolScheduledAgentUpdates
@@ -39,17 +39,17 @@ type DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference inter
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Timezone() *string
-	UseSessionHostTimezone() cdktf.IResolvable
+	UseSessionHostTimezone() cdktn.IResolvable
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference inter
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference inter
 
 // The jsii proxy struct for DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference
 type jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) ComplexObjectIndex() interface{} {
@@ -113,8 +113,8 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) Enabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) Enabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enabled",
@@ -163,8 +163,8 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) UseSessionHostTimezone() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) UseSessionHostTimezone() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"useSessionHostTimezone",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 }
 
 
-func NewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference {
+func NewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference(te
 	return &j
 }
 
-func NewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference_Override(d DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference_Override(d DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	)
 }
 
-func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputR
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermVirtualDesktopHostPoolScheduledAgentUpdatesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

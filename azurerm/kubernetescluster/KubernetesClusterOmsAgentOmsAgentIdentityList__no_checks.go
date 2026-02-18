@@ -15,7 +15,7 @@ func (k *jsiiProxy_KubernetesClusterOmsAgentOmsAgentIdentityList) validateGetPar
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterOmsAgentOmsAgentIdentityList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterOmsAgentOmsAgentIdentityList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_KubernetesClusterOmsAgentOmsAgentIdentityList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterOmsAgentOmsAgentIdentityList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterOmsAgentOmsAgentIdentityList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_KubernetesClusterOmsAgentOmsAgentIdentityList) validateSetWra
 	return nil
 }
 
-func validateNewKubernetesClusterOmsAgentOmsAgentIdentityListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesClusterOmsAgentOmsAgentIdentityListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -167,7 +167,7 @@ func (j *jsiiProxy_HdinsightSparkCluster) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightSparkCluster) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_HdinsightSparkCluster) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

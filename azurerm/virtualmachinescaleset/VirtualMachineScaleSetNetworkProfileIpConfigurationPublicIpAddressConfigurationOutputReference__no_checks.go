@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAd
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAddressConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAddressConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAd
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAddressConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAddressConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAddressConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineScaleSetNetworkProfileIpConfigurationPublicIpAddressConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

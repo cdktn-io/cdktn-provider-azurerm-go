@@ -5,14 +5,14 @@ package dataazurermnetworkinterface
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermnetworkinterface/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermnetworkinterface/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermNetworkInterfaceIpConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ApplicationGatewayBackendAddressPoolsIds() *[]*string
 	ApplicationSecurityGroupIds() *[]*string
 	// the index of the complex object in a list.
@@ -38,7 +38,7 @@ type DataAzurermNetworkInterfaceIpConfigurationOutputReference interface {
 	LoadBalancerBackendAddressPoolsIds() *[]*string
 	LoadBalancerInboundNatRulesIds() *[]*string
 	Name() *string
-	Primary() cdktf.IResolvable
+	Primary() cdktn.IResolvable
 	PrivateIpAddress() *string
 	PrivateIpAddressAllocation() *string
 	PrivateIpAddressVersion() *string
@@ -49,15 +49,15 @@ type DataAzurermNetworkInterfaceIpConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,12 +73,12 @@ type DataAzurermNetworkInterfaceIpConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type DataAzurermNetworkInterfaceIpConfigurationOutputReference interface {
 
 // The jsii proxy struct for DataAzurermNetworkInterfaceIpConfigurationOutputReference
 type jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) ApplicationGatewayBackendAddressPoolsIds() *[]*string {
@@ -201,8 +201,8 @@ func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Na
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Primary() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Primary() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"primary",
@@ -271,8 +271,8 @@ func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -282,7 +282,7 @@ func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Te
 }
 
 
-func NewDataAzurermNetworkInterfaceIpConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermNetworkInterfaceIpConfigurationOutputReference {
+func NewDataAzurermNetworkInterfaceIpConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermNetworkInterfaceIpConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermNetworkInterfaceIpConfigurationOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -299,7 +299,7 @@ func NewDataAzurermNetworkInterfaceIpConfigurationOutputReference(terraformResou
 	return &j
 }
 
-func NewDataAzurermNetworkInterfaceIpConfigurationOutputReference_Override(d DataAzurermNetworkInterfaceIpConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermNetworkInterfaceIpConfigurationOutputReference_Override(d DataAzurermNetworkInterfaceIpConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -353,7 +353,7 @@ func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -393,11 +393,11 @@ func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -521,8 +521,8 @@ func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Ge
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -534,11 +534,11 @@ func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -550,7 +550,7 @@ func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) In
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermNetworkInterfaceIpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

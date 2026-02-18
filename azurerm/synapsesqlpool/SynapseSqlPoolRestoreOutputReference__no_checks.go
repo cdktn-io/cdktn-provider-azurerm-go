@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseSqlPoolRestoreOutputReference) validateInterpolationFo
 	return nil
 }
 
-func (s *jsiiProxy_SynapseSqlPoolRestoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseSqlPoolRestoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SynapseSqlPoolRestoreOutputReference) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_SynapseSqlPoolRestoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseSqlPoolRestoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSynapseSqlPoolRestoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseSqlPoolRestoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

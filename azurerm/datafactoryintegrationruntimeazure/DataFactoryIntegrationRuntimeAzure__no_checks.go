@@ -127,7 +127,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateSetIdParameters(v
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

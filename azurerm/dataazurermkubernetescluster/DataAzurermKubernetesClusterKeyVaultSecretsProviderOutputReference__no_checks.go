@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderOutputRefe
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderOutputRefe
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermKubernetesClusterKeyVaultSecretsProviderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermKubernetesClusterKeyVaultSecretsProviderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermKubernetesClusterKeyVaultSecretsProviderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

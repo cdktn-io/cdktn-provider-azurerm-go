@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorAutoscaleSettingPredictiveOutputReference) validateInt
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAutoscaleSettingPredictiveOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAutoscaleSettingPredictiveOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MonitorAutoscaleSettingPredictiveOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAutoscaleSettingPredictiveOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAutoscaleSettingPredictiveOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMonitorAutoscaleSettingPredictiveOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorAutoscaleSettingPredictiveOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

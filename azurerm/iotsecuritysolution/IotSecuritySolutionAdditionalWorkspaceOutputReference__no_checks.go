@@ -47,7 +47,7 @@ func (i *jsiiProxy_IotSecuritySolutionAdditionalWorkspaceOutputReference) valida
 	return nil
 }
 
-func (i *jsiiProxy_IotSecuritySolutionAdditionalWorkspaceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IotSecuritySolutionAdditionalWorkspaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_IotSecuritySolutionAdditionalWorkspaceOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_IotSecuritySolutionAdditionalWorkspaceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IotSecuritySolutionAdditionalWorkspaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_IotSecuritySolutionAdditionalWorkspaceOutputReference) valida
 	return nil
 }
 
-func validateNewIotSecuritySolutionAdditionalWorkspaceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewIotSecuritySolutionAdditionalWorkspaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

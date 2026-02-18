@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleAssociationTimeoutsOutputReference) 
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleAssociationTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleAssociationTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorDataCollectionRuleAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermEventgridDomainInputMappingFieldsList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermEventgridDomainInputMappingFieldsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermEventgridDomainInputMappingFieldsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermEventgridDomainInputMappingFieldsList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermEventgridDomainInputMappingFieldsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermEventgridDomainInputMappingFieldsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermEventgridDomainInputMappingFieldsList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermEventgridDomainInputMappingFieldsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermEventgridDomainInputMappingFieldsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceList) validateGetParameters(i
 	return nil
 }
 
-func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageDataLakeGen2FilesystemAceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceList) validateSetTerraformAtt
 	return nil
 }
 
-func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_StorageDataLakeGen2FilesystemAceList) validateSetWrapsSetPara
 	return nil
 }
 
-func validateNewStorageDataLakeGen2FilesystemAceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewStorageDataLakeGen2FilesystemAceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package siterecoveryreplicationrecoveryplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/siterecoveryreplicationrecoveryplan/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/siterecoveryreplicationrecoveryplan/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,15 +41,15 @@ type SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutPostAction(value interface{})
 	PutPreAction(value interface{})
 	ResetPostAction()
 	ResetPreAction()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference int
 
 // The jsii proxy struct for SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference
 type jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	return returns
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 }
 
 
-func NewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference {
+func NewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference(
 	return &j
 }
 
-func NewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference_Override(s SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference_Override(s SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	)
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -437,8 +437,8 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -450,11 +450,11 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	return returns
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -504,7 +504,7 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutpu
 	)
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlanFailoverRecoveryGroupOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

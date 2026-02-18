@@ -115,7 +115,7 @@ func (j *jsiiProxy_AppServiceSlotCustomHostnameBinding) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotCustomHostnameBinding) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_AppServiceSlotCustomHostnameBinding) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

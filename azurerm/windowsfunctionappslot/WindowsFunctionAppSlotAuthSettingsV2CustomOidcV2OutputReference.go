@@ -5,14 +5,14 @@ package windowsfunctionappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowsfunctionappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowsfunctionappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AuthorisationEndpoint() *string
 	CertificationUri() *string
 	ClientCredentialMethod() *string
@@ -57,16 +57,16 @@ type WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TokenEndpoint() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -82,14 +82,14 @@ type WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetNameClaimType()
 	ResetScopes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -99,7 +99,7 @@ type WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference interface {
 
 // The jsii proxy struct for WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference
 type jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) AuthorisationEndpoint() *string {
@@ -312,8 +312,8 @@ func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferen
 	return returns
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -333,7 +333,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferen
 }
 
 
-func NewWindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference {
+func NewWindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -350,7 +350,7 @@ func NewWindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference(terrafor
 	return &j
 }
 
-func NewWindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference_Override(w WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewWindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference_Override(w WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -459,7 +459,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferen
 	)
 }
 
-func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -499,11 +499,11 @@ func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferen
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -627,8 +627,8 @@ func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferen
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -640,11 +640,11 @@ func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferen
 	return returns
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -672,7 +672,7 @@ func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReferen
 	)
 }
 
-func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsFunctionAppSlotAuthSettingsV2CustomOidcV2OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

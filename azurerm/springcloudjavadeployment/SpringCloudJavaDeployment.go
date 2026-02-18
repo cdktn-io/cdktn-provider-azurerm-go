@@ -5,18 +5,18 @@ package springcloudjavadeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/springcloudjavadeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudjavadeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment}.
 type SpringCloudJavaDeployment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -35,9 +35,9 @@ type SpringCloudJavaDeployment interface {
 	SetEnvironmentVariables(val *map[string]*string)
 	EnvironmentVariablesInput() *map[string]*string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type SpringCloudJavaDeployment interface {
 	SetJvmOptions(val *string)
 	JvmOptionsInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -79,7 +79,7 @@ type SpringCloudJavaDeployment interface {
 	SetSpringCloudAppId(val *string)
 	SpringCloudAppIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -94,7 +94,7 @@ type SpringCloudJavaDeployment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -112,9 +112,9 @@ type SpringCloudJavaDeployment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -156,11 +156,11 @@ type SpringCloudJavaDeployment interface {
 
 // The jsii proxy struct for SpringCloudJavaDeployment
 type jsiiProxy_SpringCloudJavaDeployment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SpringCloudJavaDeployment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -229,8 +229,8 @@ func (j *jsiiProxy_SpringCloudJavaDeployment) EnvironmentVariablesInput() *map[s
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SpringCloudJavaDeployment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -319,8 +319,8 @@ func (j *jsiiProxy_SpringCloudJavaDeployment) JvmOptionsInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SpringCloudJavaDeployment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -359,8 +359,8 @@ func (j *jsiiProxy_SpringCloudJavaDeployment) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SpringCloudJavaDeployment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -449,8 +449,8 @@ func (j *jsiiProxy_SpringCloudJavaDeployment) SpringCloudAppIdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SpringCloudJavaDeployment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -570,7 +570,7 @@ func (j *jsiiProxy_SpringCloudJavaDeployment)SetEnvironmentVariables(val *map[st
 	)
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SpringCloudJavaDeployment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -611,7 +611,7 @@ func (j *jsiiProxy_SpringCloudJavaDeployment)SetJvmOptions(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SpringCloudJavaDeployment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -633,7 +633,7 @@ func (j *jsiiProxy_SpringCloudJavaDeployment)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SpringCloudJavaDeployment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SpringCloudJavaDeployment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -674,14 +674,14 @@ func (j *jsiiProxy_SpringCloudJavaDeployment)SetSpringCloudAppId(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a SpringCloudJavaDeployment resource upon running "cdktf plan <stack-name>".
-func SpringCloudJavaDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SpringCloudJavaDeployment resource upon running "cdktn plan <stack-name>".
+func SpringCloudJavaDeployment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSpringCloudJavaDeployment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.springCloudJavaDeployment.SpringCloudJavaDeployment",
@@ -815,11 +815,11 @@ func (s *jsiiProxy_SpringCloudJavaDeployment) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudJavaDeployment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudJavaDeployment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -956,7 +956,7 @@ func (s *jsiiProxy_SpringCloudJavaDeployment) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SpringCloudJavaDeployment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SpringCloudJavaDeployment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -967,11 +967,11 @@ func (s *jsiiProxy_SpringCloudJavaDeployment) ImportFrom(id *string, provider cd
 	)
 }
 
-func (s *jsiiProxy_SpringCloudJavaDeployment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SpringCloudJavaDeployment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

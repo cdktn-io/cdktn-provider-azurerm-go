@@ -47,7 +47,7 @@ func (m *jsiiProxy_MongoClusterRestoreOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (m *jsiiProxy_MongoClusterRestoreOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MongoClusterRestoreOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_MongoClusterRestoreOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_MongoClusterRestoreOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MongoClusterRestoreOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewMongoClusterRestoreOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMongoClusterRestoreOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

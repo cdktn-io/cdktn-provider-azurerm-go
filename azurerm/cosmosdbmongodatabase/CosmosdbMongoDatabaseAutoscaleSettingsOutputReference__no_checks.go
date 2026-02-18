@@ -47,7 +47,7 @@ func (c *jsiiProxy_CosmosdbMongoDatabaseAutoscaleSettingsOutputReference) valida
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbMongoDatabaseAutoscaleSettingsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbMongoDatabaseAutoscaleSettingsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_CosmosdbMongoDatabaseAutoscaleSettingsOutputReference) valida
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbMongoDatabaseAutoscaleSettingsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbMongoDatabaseAutoscaleSettingsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewCosmosdbMongoDatabaseAutoscaleSettingsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewCosmosdbMongoDatabaseAutoscaleSettingsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

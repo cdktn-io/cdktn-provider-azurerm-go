@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppConfigurationPrimaryReadKeyList) validateGetParameters(ind
 	return nil
 }
 
-func (a *jsiiProxy_AppConfigurationPrimaryReadKeyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppConfigurationPrimaryReadKeyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_AppConfigurationPrimaryReadKeyList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_AppConfigurationPrimaryReadKeyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppConfigurationPrimaryReadKeyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_AppConfigurationPrimaryReadKeyList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewAppConfigurationPrimaryReadKeyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppConfigurationPrimaryReadKeyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

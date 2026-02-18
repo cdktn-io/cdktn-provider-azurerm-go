@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) validateSetIdParamete
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermOracleExadataInfrastructure) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

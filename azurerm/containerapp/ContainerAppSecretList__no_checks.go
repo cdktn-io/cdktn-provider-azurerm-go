@@ -15,7 +15,7 @@ func (c *jsiiProxy_ContainerAppSecretList) validateGetParameters(index *float64)
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppSecretList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppSecretList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ContainerAppSecretList) validateSetTerraformAttributeParamete
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppSecretList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppSecretList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ContainerAppSecretList) validateSetWrapsSetParameters(val *bo
 	return nil
 }
 
-func validateNewContainerAppSecretListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewContainerAppSecretListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

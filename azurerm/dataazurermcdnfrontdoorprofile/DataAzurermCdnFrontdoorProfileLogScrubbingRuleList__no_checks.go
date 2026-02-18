@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorProfileLogScrubbingRuleList) validateG
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorProfileLogScrubbingRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCdnFrontdoorProfileLogScrubbingRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorProfileLogScrubbingRuleList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCdnFrontdoorProfileLogScrubbingRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCdnFrontdoorProfileLogScrubbingRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorProfileLogScrubbingRuleList) validateS
 	return nil
 }
 
-func validateNewDataAzurermCdnFrontdoorProfileLogScrubbingRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCdnFrontdoorProfileLogScrubbingRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

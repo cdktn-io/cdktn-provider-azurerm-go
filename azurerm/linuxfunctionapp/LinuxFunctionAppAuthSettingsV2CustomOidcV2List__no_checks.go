@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2CustomOidcV2List) validateGetPa
 	return nil
 }
 
-func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2CustomOidcV2List) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxFunctionAppAuthSettingsV2CustomOidcV2List) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2CustomOidcV2List) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2CustomOidcV2List) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2CustomOidcV2List) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxFunctionAppAuthSettingsV2CustomOidcV2List) validateSetWr
 	return nil
 }
 
-func validateNewLinuxFunctionAppAuthSettingsV2CustomOidcV2ListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxFunctionAppAuthSettingsV2CustomOidcV2ListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

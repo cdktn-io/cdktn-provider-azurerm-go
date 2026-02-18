@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationList) validateGetParamet
 	return nil
 }
 
-func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxVirtualMachineGalleryApplicationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxVirtualMachineGalleryApplicationList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewLinuxVirtualMachineGalleryApplicationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxVirtualMachineGalleryApplicationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

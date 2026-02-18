@@ -47,7 +47,7 @@ func (n *jsiiProxy_NotificationHubBrowserCredentialOutputReference) validateInte
 	return nil
 }
 
-func (n *jsiiProxy_NotificationHubBrowserCredentialOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NotificationHubBrowserCredentialOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_NotificationHubBrowserCredentialOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_NotificationHubBrowserCredentialOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NotificationHubBrowserCredentialOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_NotificationHubBrowserCredentialOutputReference) validateSetV
 	return nil
 }
 
-func validateNewNotificationHubBrowserCredentialOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNotificationHubBrowserCredentialOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

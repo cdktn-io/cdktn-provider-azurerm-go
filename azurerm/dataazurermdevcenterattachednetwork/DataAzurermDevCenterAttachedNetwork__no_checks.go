@@ -87,7 +87,7 @@ func (j *jsiiProxy_DataAzurermDevCenterAttachedNetwork) validateSetIdParameters(
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterAttachedNetwork) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermDevCenterAttachedNetwork) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_LogAnalyticsLinkedStorageAccount) validateSetIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_LogAnalyticsLinkedStorageAccount) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_LogAnalyticsLinkedStorageAccount) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

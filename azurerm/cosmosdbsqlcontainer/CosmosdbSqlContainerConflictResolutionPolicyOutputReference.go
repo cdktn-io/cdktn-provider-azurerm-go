@@ -5,14 +5,14 @@ package cosmosdbsqlcontainer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/cosmosdbsqlcontainer/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbsqlcontainer/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type CosmosdbSqlContainerConflictResolutionPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,15 +46,15 @@ type CosmosdbSqlContainerConflictResolutionPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,14 +70,14 @@ type CosmosdbSqlContainerConflictResolutionPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetConflictResolutionPath()
 	ResetConflictResolutionProcedure()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -87,7 +87,7 @@ type CosmosdbSqlContainerConflictResolutionPolicyOutputReference interface {
 
 // The jsii proxy struct for CosmosdbSqlContainerConflictResolutionPolicyOutputReference
 type jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -210,8 +210,8 @@ func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -221,7 +221,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) 
 }
 
 
-func NewCosmosdbSqlContainerConflictResolutionPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) CosmosdbSqlContainerConflictResolutionPolicyOutputReference {
+func NewCosmosdbSqlContainerConflictResolutionPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) CosmosdbSqlContainerConflictResolutionPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewCosmosdbSqlContainerConflictResolutionPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -238,7 +238,7 @@ func NewCosmosdbSqlContainerConflictResolutionPolicyOutputReference(terraformRes
 	return &j
 }
 
-func NewCosmosdbSqlContainerConflictResolutionPolicyOutputReference_Override(c CosmosdbSqlContainerConflictResolutionPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewCosmosdbSqlContainerConflictResolutionPolicyOutputReference_Override(c CosmosdbSqlContainerConflictResolutionPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -325,7 +325,7 @@ func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -365,11 +365,11 @@ func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) 
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -493,8 +493,8 @@ func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) 
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -506,11 +506,11 @@ func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) 
 	return returns
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := c.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		c,
@@ -538,7 +538,7 @@ func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) 
 	)
 }
 
-func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (c *jsiiProxy_CosmosdbSqlContainerConflictResolutionPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := c.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

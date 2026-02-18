@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkWatcherFlowLogTimeoutsOutputReference) validateInterpo
 	return nil
 }
 
-func (n *jsiiProxy_NetworkWatcherFlowLogTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkWatcherFlowLogTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLogTimeoutsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_NetworkWatcherFlowLogTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkWatcherFlowLogTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLogTimeoutsOutputReference) validateSetUpda
 	return nil
 }
 
-func validateNewNetworkWatcherFlowLogTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkWatcherFlowLogTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

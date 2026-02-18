@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutpu
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutpu
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermPrivateLinkServiceEndpointConnectionsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

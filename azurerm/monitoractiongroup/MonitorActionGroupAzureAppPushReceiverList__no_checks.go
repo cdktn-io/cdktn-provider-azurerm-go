@@ -15,7 +15,7 @@ func (m *jsiiProxy_MonitorActionGroupAzureAppPushReceiverList) validateGetParame
 	return nil
 }
 
-func (m *jsiiProxy_MonitorActionGroupAzureAppPushReceiverList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorActionGroupAzureAppPushReceiverList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_MonitorActionGroupAzureAppPushReceiverList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_MonitorActionGroupAzureAppPushReceiverList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorActionGroupAzureAppPushReceiverList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_MonitorActionGroupAzureAppPushReceiverList) validateSetWrapsS
 	return nil
 }
 
-func validateNewMonitorActionGroupAzureAppPushReceiverListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewMonitorActionGroupAzureAppPushReceiverListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

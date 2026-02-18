@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateGetPa
 	return nil
 }
 
-func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (e *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateResol
 
 func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*EventgridEventSubscriptionDeliveryProperty:
 		val := val.(*[]*EventgridEventSubscriptionDeliveryProperty)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetIn
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*EventgridEventSubscriptionDeliveryProperty; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*EventgridEventSubscriptionDeliveryProperty; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_EventgridEventSubscriptionDeliveryPropertyList) validateSetWr
 	return nil
 }
 
-func validateNewEventgridEventSubscriptionDeliveryPropertyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewEventgridEventSubscriptionDeliveryPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

@@ -5,14 +5,14 @@ package activedirectorydomainservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/activedirectorydomainservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/activedirectorydomainservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ActiveDirectoryDomainServiceNotificationsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AdditionalRecipients() *[]*string
 	SetAdditionalRecipients(val *[]*string)
 	AdditionalRecipientsInput() *[]*string
@@ -46,15 +46,15 @@ type ActiveDirectoryDomainServiceNotificationsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,15 +70,15 @@ type ActiveDirectoryDomainServiceNotificationsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetAdditionalRecipients()
 	ResetNotifyDcAdmins()
 	ResetNotifyGlobalAdmins()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type ActiveDirectoryDomainServiceNotificationsOutputReference interface {
 
 // The jsii proxy struct for ActiveDirectoryDomainServiceNotificationsOutputReference
 type jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) AdditionalRecipients() *[]*string {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -222,7 +222,7 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Ter
 }
 
 
-func NewActiveDirectoryDomainServiceNotificationsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ActiveDirectoryDomainServiceNotificationsOutputReference {
+func NewActiveDirectoryDomainServiceNotificationsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ActiveDirectoryDomainServiceNotificationsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewActiveDirectoryDomainServiceNotificationsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -239,7 +239,7 @@ func NewActiveDirectoryDomainServiceNotificationsOutputReference(terraformResour
 	return &j
 }
 
-func NewActiveDirectoryDomainServiceNotificationsOutputReference_Override(a ActiveDirectoryDomainServiceNotificationsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewActiveDirectoryDomainServiceNotificationsOutputReference_Override(a ActiveDirectoryDomainServiceNotificationsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -326,7 +326,7 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -366,11 +366,11 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Get
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -494,8 +494,8 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Get
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -507,11 +507,11 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Int
 	return returns
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -547,7 +547,7 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Res
 	)
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ActiveDirectoryDomainServiceNotificationsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

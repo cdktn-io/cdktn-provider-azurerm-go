@@ -47,7 +47,7 @@ func (t *jsiiProxy_TrafficManagerNestedEndpointTimeoutsOutputReference) validate
 	return nil
 }
 
-func (t *jsiiProxy_TrafficManagerNestedEndpointTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (t *jsiiProxy_TrafficManagerNestedEndpointTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_TrafficManagerNestedEndpointTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_TrafficManagerNestedEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_TrafficManagerNestedEndpointTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_TrafficManagerNestedEndpointTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewTrafficManagerNestedEndpointTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewTrafficManagerNestedEndpointTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

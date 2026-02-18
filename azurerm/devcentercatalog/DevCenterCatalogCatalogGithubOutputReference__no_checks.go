@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevCenterCatalogCatalogGithubOutputReference) validateInterpo
 	return nil
 }
 
-func (d *jsiiProxy_DevCenterCatalogCatalogGithubOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevCenterCatalogCatalogGithubOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DevCenterCatalogCatalogGithubOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DevCenterCatalogCatalogGithubOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevCenterCatalogCatalogGithubOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DevCenterCatalogCatalogGithubOutputReference) validateSetUriP
 	return nil
 }
 
-func validateNewDevCenterCatalogCatalogGithubOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevCenterCatalogCatalogGithubOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

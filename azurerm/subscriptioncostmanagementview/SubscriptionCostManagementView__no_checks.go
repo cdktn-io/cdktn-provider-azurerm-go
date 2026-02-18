@@ -131,7 +131,7 @@ func (j *jsiiProxy_SubscriptionCostManagementView) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionCostManagementView) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SubscriptionCostManagementView) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

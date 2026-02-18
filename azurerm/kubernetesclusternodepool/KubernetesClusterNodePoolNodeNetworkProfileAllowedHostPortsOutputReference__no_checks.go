@@ -47,7 +47,7 @@ func (k *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOu
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOu
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewKubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewKubernetesClusterNodePoolNodeNetworkProfileAllowedHostPortsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

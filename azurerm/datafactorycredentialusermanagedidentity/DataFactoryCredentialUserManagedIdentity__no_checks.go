@@ -123,7 +123,7 @@ func (j *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateSetIdentity
 	return nil
 }
 
-func (j *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

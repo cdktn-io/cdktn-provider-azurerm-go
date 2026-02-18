@@ -123,7 +123,7 @@ func (j *jsiiProxy_IothubDeviceUpdateInstance) validateSetIothubIdParameters(val
 	return nil
 }
 
-func (j *jsiiProxy_IothubDeviceUpdateInstance) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_IothubDeviceUpdateInstance) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

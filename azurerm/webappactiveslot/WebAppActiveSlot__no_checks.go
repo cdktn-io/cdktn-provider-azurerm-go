@@ -107,7 +107,7 @@ func (j *jsiiProxy_WebAppActiveSlot) validateSetIdParameters(val *string) error 
 	return nil
 }
 
-func (j *jsiiProxy_WebAppActiveSlot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_WebAppActiveSlot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

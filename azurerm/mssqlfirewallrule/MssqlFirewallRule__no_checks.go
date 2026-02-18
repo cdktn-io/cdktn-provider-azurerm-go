@@ -111,7 +111,7 @@ func (j *jsiiProxy_MssqlFirewallRule) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_MssqlFirewallRule) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MssqlFirewallRule) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

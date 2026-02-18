@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermNginxApiKey) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermNginxApiKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermNginxApiKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

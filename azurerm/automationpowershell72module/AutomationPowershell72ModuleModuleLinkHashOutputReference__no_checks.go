@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationPowershell72ModuleModuleLinkHashOutputReference) va
 	return nil
 }
 
-func (a *jsiiProxy_AutomationPowershell72ModuleModuleLinkHashOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationPowershell72ModuleModuleLinkHashOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_AutomationPowershell72ModuleModuleLinkHashOutputReference) va
 	return nil
 }
 
-func (j *jsiiProxy_AutomationPowershell72ModuleModuleLinkHashOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationPowershell72ModuleModuleLinkHashOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationPowershell72ModuleModuleLinkHashOutputReference) va
 	return nil
 }
 
-func validateNewAutomationPowershell72ModuleModuleLinkHashOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationPowershell72ModuleModuleLinkHashOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -5,21 +5,21 @@ package dataprotectionbackuppolicypostgresqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataprotectionbackuppolicypostgresqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataprotectionbackuppolicypostgresqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server}.
 type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	BackupRepeatingTimeIntervals() *[]*string
 	SetBackupRepeatingTimeIntervals(val *[]*string)
 	BackupRepeatingTimeIntervalsInput() *[]*string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -37,9 +37,9 @@ type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -48,18 +48,18 @@ type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -69,7 +69,7 @@ type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	RetentionRule() DataProtectionBackupPolicyPostgresqlFlexibleServerRetentionRuleList
 	RetentionRuleInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -108,9 +108,9 @@ type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -150,7 +150,7 @@ type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 
 // The jsii proxy struct for DataProtectionBackupPolicyPostgresqlFlexibleServer
 type jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) BackupRepeatingTimeIntervals() *[]*string {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) BackupRep
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -243,8 +243,8 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) DependsOn
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) IdInput()
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -333,8 +333,8 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) Node() co
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) Retention
 	return returns
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -544,7 +544,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetDepends
 	)
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -563,7 +563,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetId(val 
 	)
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -585,7 +585,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetName(va
 	)
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -626,14 +626,14 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer)SetVaultId
 	)
 }
 
-// Generates CDKTF code for importing a DataProtectionBackupPolicyPostgresqlFlexibleServer resource upon running "cdktf plan <stack-name>".
-func DataProtectionBackupPolicyPostgresqlFlexibleServer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a DataProtectionBackupPolicyPostgresqlFlexibleServer resource upon running "cdktn plan <stack-name>".
+func DataProtectionBackupPolicyPostgresqlFlexibleServer_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateDataProtectionBackupPolicyPostgresqlFlexibleServer_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.dataProtectionBackupPolicyPostgresqlFlexibleServer.DataProtectionBackupPolicyPostgresqlFlexibleServer",
@@ -767,11 +767,11 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) GetAnyMap
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -908,7 +908,7 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) HasResour
 	return returns
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := d.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -919,11 +919,11 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) ImportFro
 	)
 }
 
-func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,

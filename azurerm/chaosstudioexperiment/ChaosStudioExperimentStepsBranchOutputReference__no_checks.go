@@ -51,7 +51,7 @@ func (c *jsiiProxy_ChaosStudioExperimentStepsBranchOutputReference) validatePutA
 	return nil
 }
 
-func (c *jsiiProxy_ChaosStudioExperimentStepsBranchOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ChaosStudioExperimentStepsBranchOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ChaosStudioExperimentStepsBranchOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_ChaosStudioExperimentStepsBranchOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ChaosStudioExperimentStepsBranchOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewChaosStudioExperimentStepsBranchOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewChaosStudioExperimentStepsBranchOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

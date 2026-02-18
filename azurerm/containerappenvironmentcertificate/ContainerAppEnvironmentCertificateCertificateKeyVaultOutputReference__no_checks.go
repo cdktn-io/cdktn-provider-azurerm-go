@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppEnvironmentCertificateCertificateKeyVaultOutputRe
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppEnvironmentCertificateCertificateKeyVaultOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppEnvironmentCertificateCertificateKeyVaultOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ContainerAppEnvironmentCertificateCertificateKeyVaultOutputRe
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppEnvironmentCertificateCertificateKeyVaultOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppEnvironmentCertificateCertificateKeyVaultOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAppEnvironmentCertificateCertificateKeyVaultOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAppEnvironmentCertificateCertificateKeyVaultOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

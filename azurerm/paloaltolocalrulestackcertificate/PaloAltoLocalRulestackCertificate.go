@@ -5,21 +5,21 @@ package paloaltolocalrulestackcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/paloaltolocalrulestackcertificate/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/paloaltolocalrulestackcertificate/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/palo_alto_local_rulestack_certificate azurerm_palo_alto_local_rulestack_certificate}.
 type PaloAltoLocalRulestackCertificate interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuditComment() *string
 	SetAuditComment(val *string)
 	AuditCommentInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type PaloAltoLocalRulestackCertificate interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -52,18 +52,18 @@ type PaloAltoLocalRulestackCertificate interface {
 	SetKeyVaultCertificateId(val *string)
 	KeyVaultCertificateIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -77,7 +77,7 @@ type PaloAltoLocalRulestackCertificate interface {
 	SetSelfSigned(val interface{})
 	SelfSignedInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type PaloAltoLocalRulestackCertificate interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type PaloAltoLocalRulestackCertificate interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -152,7 +152,7 @@ type PaloAltoLocalRulestackCertificate interface {
 
 // The jsii proxy struct for PaloAltoLocalRulestackCertificate
 type jsiiProxy_PaloAltoLocalRulestackCertificate struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) AuditComment() *string {
@@ -175,8 +175,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) AuditCommentInput() *strin
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -245,8 +245,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) DescriptionInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -315,8 +315,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) KeyVaultCertificateIdInput
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -355,8 +355,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -425,8 +425,8 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) SelfSignedInput() interfac
 	return returns
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -557,7 +557,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetDescription(val *string)
 	)
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -587,7 +587,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetKeyVaultCertificateId(va
 	)
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -609,7 +609,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -650,14 +650,14 @@ func (j *jsiiProxy_PaloAltoLocalRulestackCertificate)SetSelfSigned(val interface
 	)
 }
 
-// Generates CDKTF code for importing a PaloAltoLocalRulestackCertificate resource upon running "cdktf plan <stack-name>".
-func PaloAltoLocalRulestackCertificate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a PaloAltoLocalRulestackCertificate resource upon running "cdktn plan <stack-name>".
+func PaloAltoLocalRulestackCertificate_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validatePaloAltoLocalRulestackCertificate_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.paloAltoLocalRulestackCertificate.PaloAltoLocalRulestackCertificate",
@@ -791,11 +791,11 @@ func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) GetAnyMapAttribute(terrafo
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,
@@ -932,7 +932,7 @@ func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) HasResourceMove() interfac
 	return returns
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := p.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -943,11 +943,11 @@ func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) ImportFrom(id *string, pro
 	)
 }
 
-func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (p *jsiiProxy_PaloAltoLocalRulestackCertificate) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := p.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		p,

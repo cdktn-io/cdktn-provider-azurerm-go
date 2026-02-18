@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationInsightsSmartDetectionRuleTimeoutsOutputReference)
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationInsightsSmartDetectionRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationInsightsSmartDetectionRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRuleTimeoutsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationInsightsSmartDetectionRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationInsightsSmartDetectionRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ApplicationInsightsSmartDetectionRuleTimeoutsOutputReference)
 	return nil
 }
 
-func validateNewApplicationInsightsSmartDetectionRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationInsightsSmartDetectionRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

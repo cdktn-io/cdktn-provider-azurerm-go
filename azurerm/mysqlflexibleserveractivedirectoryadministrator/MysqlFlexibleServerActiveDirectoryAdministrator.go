@@ -5,18 +5,18 @@ package mysqlflexibleserveractivedirectoryadministrator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mysqlflexibleserveractivedirectoryadministrator/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mysqlflexibleserveractivedirectoryadministrator/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/mysql_flexible_server_active_directory_administrator azurerm_mysql_flexible_server_active_directory_administrator}.
 type MysqlFlexibleServerActiveDirectoryAdministrator interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,9 +46,9 @@ type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 	IdentityIdInput() *string
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Login() *string
 	SetLogin(val *string)
 	LoginInput() *string
@@ -58,9 +58,9 @@ type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 	SetObjectId(val *string)
 	ObjectIdInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -74,7 +74,7 @@ type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 	SetTenantId(val *string)
 	TenantIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -89,7 +89,7 @@ type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -107,9 +107,9 @@ type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -145,11 +145,11 @@ type MysqlFlexibleServerActiveDirectoryAdministrator interface {
 
 // The jsii proxy struct for MysqlFlexibleServerActiveDirectoryAdministrator
 type jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -198,8 +198,8 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) DependsOn() 
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -268,8 +268,8 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) IdInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -328,8 +328,8 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) ObjectIdInpu
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -398,8 +398,8 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) TenantIdInpu
 	return returns
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -508,7 +508,7 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetDependsOn(
 	)
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -538,7 +538,7 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetIdentityId
 	)
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -571,7 +571,7 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetObjectId(v
 	)
 }
 
-func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -612,14 +612,14 @@ func (j *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator)SetTenantId(v
 	)
 }
 
-// Generates CDKTF code for importing a MysqlFlexibleServerActiveDirectoryAdministrator resource upon running "cdktf plan <stack-name>".
-func MysqlFlexibleServerActiveDirectoryAdministrator_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a MysqlFlexibleServerActiveDirectoryAdministrator resource upon running "cdktn plan <stack-name>".
+func MysqlFlexibleServerActiveDirectoryAdministrator_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMysqlFlexibleServerActiveDirectoryAdministrator_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.mysqlFlexibleServerActiveDirectoryAdministrator.MysqlFlexibleServerActiveDirectoryAdministrator",
@@ -753,11 +753,11 @@ func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) GetAnyMapAtt
 	return returns
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -894,7 +894,7 @@ func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) HasResourceM
 	return returns
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -905,11 +905,11 @@ func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) ImportFrom(i
 	)
 }
 
-func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

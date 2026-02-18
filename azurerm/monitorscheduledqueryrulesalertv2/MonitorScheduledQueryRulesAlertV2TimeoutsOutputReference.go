@@ -5,14 +5,14 @@ package monitorscheduledqueryrulesalertv2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitorscheduledqueryrulesalertv2/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitorscheduledqueryrulesalertv2/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Update() *string
 	SetUpdate(val *string)
 	UpdateInput() *string
@@ -57,7 +57,7 @@ type MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,16 +73,16 @@ type MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreate()
 	ResetDelete()
 	ResetRead()
 	ResetUpdate()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference interface {
 
 // The jsii proxy struct for MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference
 type jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) ComplexObjectIndex() interface{} {
@@ -215,8 +215,8 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Ter
 	return returns
 }
 
-func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -246,7 +246,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Upd
 }
 
 
-func NewMonitorScheduledQueryRulesAlertV2TimeoutsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference {
+func NewMonitorScheduledQueryRulesAlertV2TimeoutsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorScheduledQueryRulesAlertV2TimeoutsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -263,7 +263,7 @@ func NewMonitorScheduledQueryRulesAlertV2TimeoutsOutputReference(terraformResour
 	return &j
 }
 
-func NewMonitorScheduledQueryRulesAlertV2TimeoutsOutputReference_Override(m MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitorScheduledQueryRulesAlertV2TimeoutsOutputReference_Override(m MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -350,7 +350,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference)SetT
 	)
 }
 
-func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -401,11 +401,11 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Get
 	return returns
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -529,8 +529,8 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Get
 	return returns
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -542,11 +542,11 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Int
 	return returns
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -590,7 +590,7 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Res
 	)
 }
 
-func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2TimeoutsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

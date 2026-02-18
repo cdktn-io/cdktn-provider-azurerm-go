@@ -15,7 +15,7 @@ func (r *jsiiProxy_ResourcePolicyAssignmentOverridesList) validateGetParameters(
 	return nil
 }
 
-func (r *jsiiProxy_ResourcePolicyAssignmentOverridesList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourcePolicyAssignmentOverridesList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ResourcePolicyAssignmentOverridesList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_ResourcePolicyAssignmentOverridesList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourcePolicyAssignmentOverridesList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ResourcePolicyAssignmentOverridesList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewResourcePolicyAssignmentOverridesListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewResourcePolicyAssignmentOverridesListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

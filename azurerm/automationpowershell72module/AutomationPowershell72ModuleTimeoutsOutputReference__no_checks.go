@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func (a *jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AutomationPowershell72ModuleTimeoutsOutputReference) validate
 	return nil
 }
 
-func validateNewAutomationPowershell72ModuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationPowershell72ModuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

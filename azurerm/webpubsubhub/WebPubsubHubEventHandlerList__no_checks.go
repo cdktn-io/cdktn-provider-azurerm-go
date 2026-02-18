@@ -15,7 +15,7 @@ func (w *jsiiProxy_WebPubsubHubEventHandlerList) validateGetParameters(index *fl
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubHubEventHandlerList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubHubEventHandlerList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WebPubsubHubEventHandlerList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubHubEventHandlerList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubHubEventHandlerList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WebPubsubHubEventHandlerList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewWebPubsubHubEventHandlerListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWebPubsubHubEventHandlerListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

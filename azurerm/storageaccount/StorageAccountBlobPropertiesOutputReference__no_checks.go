@@ -63,7 +63,7 @@ func (s *jsiiProxy_StorageAccountBlobPropertiesOutputReference) validatePutResto
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountBlobPropertiesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountBlobPropertiesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_StorageAccountBlobPropertiesOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountBlobPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountBlobPropertiesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -107,7 +107,7 @@ func (j *jsiiProxy_StorageAccountBlobPropertiesOutputReference) validateSetVersi
 	return nil
 }
 
-func validateNewStorageAccountBlobPropertiesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountBlobPropertiesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

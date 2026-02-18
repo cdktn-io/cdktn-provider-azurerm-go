@@ -15,7 +15,7 @@ func (c *jsiiProxy_CosmosdbCassandraTableSchemaColumnList) validateGetParameters
 	return nil
 }
 
-func (c *jsiiProxy_CosmosdbCassandraTableSchemaColumnList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_CosmosdbCassandraTableSchemaColumnList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_CosmosdbCassandraTableSchemaColumnList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewCosmosdbCassandraTableSchemaColumnListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewCosmosdbCassandraTableSchemaColumnListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

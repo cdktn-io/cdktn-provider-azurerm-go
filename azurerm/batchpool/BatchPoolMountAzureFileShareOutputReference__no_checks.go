@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolMountAzureFileShareOutputReference) validateInterpol
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolMountAzureFileShareOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolMountAzureFileShareOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -87,11 +87,11 @@ func (j *jsiiProxy_BatchPoolMountAzureFileShareOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolMountAzureFileShareOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolMountAzureFileShareOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewBatchPoolMountAzureFileShareOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewBatchPoolMountAzureFileShareOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

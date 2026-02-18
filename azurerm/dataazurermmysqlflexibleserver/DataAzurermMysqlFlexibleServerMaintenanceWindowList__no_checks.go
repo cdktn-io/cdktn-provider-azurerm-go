@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermMysqlFlexibleServerMaintenanceWindowList) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermMysqlFlexibleServerMaintenanceWindowList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermMysqlFlexibleServerMaintenanceWindowList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerMaintenanceWindowList) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermMysqlFlexibleServerMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermMysqlFlexibleServerMaintenanceWindowList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerMaintenanceWindowList) validate
 	return nil
 }
 
-func validateNewDataAzurermMysqlFlexibleServerMaintenanceWindowListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermMysqlFlexibleServerMaintenanceWindowListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

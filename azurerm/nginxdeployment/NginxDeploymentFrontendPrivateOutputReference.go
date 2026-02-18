@@ -5,14 +5,14 @@ package nginxdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/nginxdeployment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/nginxdeployment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NginxDeploymentFrontendPrivateOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AllocationMethod() *string
 	SetAllocationMethod(val *string)
 	AllocationMethodInput() *string
@@ -46,15 +46,15 @@ type NginxDeploymentFrontendPrivateOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type NginxDeploymentFrontendPrivateOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type NginxDeploymentFrontendPrivateOutputReference interface {
 
 // The jsii proxy struct for NginxDeploymentFrontendPrivateOutputReference
 type jsiiProxy_NginxDeploymentFrontendPrivateOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) AllocationMethod() *string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) TerraformAttri
 	return returns
 }
 
-func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) TerraformResou
 }
 
 
-func NewNginxDeploymentFrontendPrivateOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NginxDeploymentFrontendPrivateOutputReference {
+func NewNginxDeploymentFrontendPrivateOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) NginxDeploymentFrontendPrivateOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNginxDeploymentFrontendPrivateOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -236,7 +236,7 @@ func NewNginxDeploymentFrontendPrivateOutputReference(terraformResource cdktf.II
 	return &j
 }
 
-func NewNginxDeploymentFrontendPrivateOutputReference_Override(n NginxDeploymentFrontendPrivateOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewNginxDeploymentFrontendPrivateOutputReference_Override(n NginxDeploymentFrontendPrivateOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference)SetTerraformAtt
 	)
 }
 
-func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) GetAnyMapAttri
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -491,8 +491,8 @@ func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) GetStringMapAt
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -504,11 +504,11 @@ func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) InterpolationA
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -520,7 +520,7 @@ func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) InterpolationF
 	return returns
 }
 
-func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NginxDeploymentFrontendPrivateOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

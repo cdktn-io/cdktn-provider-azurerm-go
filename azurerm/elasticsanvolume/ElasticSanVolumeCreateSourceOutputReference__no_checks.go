@@ -47,7 +47,7 @@ func (e *jsiiProxy_ElasticSanVolumeCreateSourceOutputReference) validateInterpol
 	return nil
 }
 
-func (e *jsiiProxy_ElasticSanVolumeCreateSourceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (e *jsiiProxy_ElasticSanVolumeCreateSourceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ElasticSanVolumeCreateSourceOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_ElasticSanVolumeCreateSourceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ElasticSanVolumeCreateSourceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewElasticSanVolumeCreateSourceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewElasticSanVolumeCreateSourceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

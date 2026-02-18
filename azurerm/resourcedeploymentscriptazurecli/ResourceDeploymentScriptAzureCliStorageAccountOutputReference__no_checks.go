@@ -47,7 +47,7 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzureCliStorageAccountOutputReference
 	return nil
 }
 
-func (r *jsiiProxy_ResourceDeploymentScriptAzureCliStorageAccountOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceDeploymentScriptAzureCliStorageAccountOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzureCliStorageAccountOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ResourceDeploymentScriptAzureCliStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceDeploymentScriptAzureCliStorageAccountOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewResourceDeploymentScriptAzureCliStorageAccountOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewResourceDeploymentScriptAzureCliStorageAccountOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

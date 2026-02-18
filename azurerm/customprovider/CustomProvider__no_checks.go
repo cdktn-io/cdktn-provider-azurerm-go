@@ -119,7 +119,7 @@ func (j *jsiiProxy_CustomProvider) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_CustomProvider) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CustomProvider) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

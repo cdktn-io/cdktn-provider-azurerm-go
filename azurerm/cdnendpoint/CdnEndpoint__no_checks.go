@@ -139,7 +139,7 @@ func (j *jsiiProxy_CdnEndpoint) validateSetIsHttpsAllowedParameters(val interfac
 	return nil
 }
 
-func (j *jsiiProxy_CdnEndpoint) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_CdnEndpoint) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

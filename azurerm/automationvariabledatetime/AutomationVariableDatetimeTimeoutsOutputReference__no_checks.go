@@ -47,7 +47,7 @@ func (a *jsiiProxy_AutomationVariableDatetimeTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (a *jsiiProxy_AutomationVariableDatetimeTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AutomationVariableDatetimeTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_AutomationVariableDatetimeTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_AutomationVariableDatetimeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AutomationVariableDatetimeTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_AutomationVariableDatetimeTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewAutomationVariableDatetimeTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAutomationVariableDatetimeTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

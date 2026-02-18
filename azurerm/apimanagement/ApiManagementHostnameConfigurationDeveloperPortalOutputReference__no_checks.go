@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputRefere
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -95,11 +95,11 @@ func (j *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementHostnameConfigurationDeveloperPortalOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementHostnameConfigurationDeveloperPortalOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewApiManagementHostnameConfigurationDeveloperPortalOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

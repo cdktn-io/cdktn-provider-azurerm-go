@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (s *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -98,7 +98,7 @@ func (s *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference)
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*SubscriptionPolicyAssignmentResourceSelectorsSelectors:
 		value := value.(*[]*SubscriptionPolicyAssignmentResourceSelectorsSelectors)
@@ -117,14 +117,14 @@ func (s *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*SubscriptionPolicyAssignmentResourceSelectorsSelectors; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SubscriptionPolicyAssignmentResourceSelectorsSelectors; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (s *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -199,7 +199,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference)
 
 func (j *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *SubscriptionPolicyAssignmentResourceSelectors:
 		val := val.(*SubscriptionPolicyAssignmentResourceSelectors)
@@ -214,7 +214,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference)
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *SubscriptionPolicyAssignmentResourceSelectors; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *SubscriptionPolicyAssignmentResourceSelectors; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -237,7 +237,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -245,7 +245,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignmentResourceSelectorsOutputReference)
 	return nil
 }
 
-func validateNewSubscriptionPolicyAssignmentResourceSelectorsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSubscriptionPolicyAssignmentResourceSelectorsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

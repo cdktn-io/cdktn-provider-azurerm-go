@@ -15,7 +15,7 @@ func (r *jsiiProxy_RoleDefinitionPermissionsList) validateGetParameters(index *f
 	return nil
 }
 
-func (r *jsiiProxy_RoleDefinitionPermissionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RoleDefinitionPermissionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_RoleDefinitionPermissionsList) validateSetTerraformAttributeP
 	return nil
 }
 
-func (j *jsiiProxy_RoleDefinitionPermissionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RoleDefinitionPermissionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_RoleDefinitionPermissionsList) validateSetWrapsSetParameters(
 	return nil
 }
 
-func validateNewRoleDefinitionPermissionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewRoleDefinitionPermissionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

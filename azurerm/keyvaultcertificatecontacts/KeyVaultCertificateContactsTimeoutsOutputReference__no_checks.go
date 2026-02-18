@@ -47,7 +47,7 @@ func (k *jsiiProxy_KeyVaultCertificateContactsTimeoutsOutputReference) validateI
 	return nil
 }
 
-func (k *jsiiProxy_KeyVaultCertificateContactsTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KeyVaultCertificateContactsTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_KeyVaultCertificateContactsTimeoutsOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultCertificateContactsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KeyVaultCertificateContactsTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_KeyVaultCertificateContactsTimeoutsOutputReference) validateS
 	return nil
 }
 
-func validateNewKeyVaultCertificateContactsTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewKeyVaultCertificateContactsTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

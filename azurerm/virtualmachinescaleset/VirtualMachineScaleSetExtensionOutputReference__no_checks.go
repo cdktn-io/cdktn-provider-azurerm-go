@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetExtensionOutputReference) validateInter
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetExtensionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetExtensionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetExtensionOutputReference) validateSetTe
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetExtensionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetExtensionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -103,7 +103,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetExtensionOutputReference) validateSetTy
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetExtensionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewVirtualMachineScaleSetExtensionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

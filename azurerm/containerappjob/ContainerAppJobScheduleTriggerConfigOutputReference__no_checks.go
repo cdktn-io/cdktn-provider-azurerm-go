@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppJobScheduleTriggerConfigOutputReference) validate
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobScheduleTriggerConfigOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobScheduleTriggerConfigOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ContainerAppJobScheduleTriggerConfigOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobScheduleTriggerConfigOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobScheduleTriggerConfigOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewContainerAppJobScheduleTriggerConfigOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewContainerAppJobScheduleTriggerConfigOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

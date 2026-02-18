@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermExpressRouteCircuit) validateSetIdParameters(val *
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermExpressRouteCircuit) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermExpressRouteCircuit) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

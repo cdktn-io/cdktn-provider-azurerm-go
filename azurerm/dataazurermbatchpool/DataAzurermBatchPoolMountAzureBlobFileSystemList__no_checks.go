@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermBatchPoolMountAzureBlobFileSystemList) validateGet
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermBatchPoolMountAzureBlobFileSystemList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermBatchPoolMountAzureBlobFileSystemList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolMountAzureBlobFileSystemList) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermBatchPoolMountAzureBlobFileSystemList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermBatchPoolMountAzureBlobFileSystemList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermBatchPoolMountAzureBlobFileSystemList) validateSet
 	return nil
 }
 
-func validateNewDataAzurermBatchPoolMountAzureBlobFileSystemListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermBatchPoolMountAzureBlobFileSystemListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

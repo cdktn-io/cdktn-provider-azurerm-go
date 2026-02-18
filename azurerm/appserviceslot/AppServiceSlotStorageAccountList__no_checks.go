@@ -15,7 +15,7 @@ func (a *jsiiProxy_AppServiceSlotStorageAccountList) validateGetParameters(index
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceSlotStorageAccountList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceSlotStorageAccountList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_AppServiceSlotStorageAccountList) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceSlotStorageAccountList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceSlotStorageAccountList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_AppServiceSlotStorageAccountList) validateSetWrapsSetParamete
 	return nil
 }
 
-func validateNewAppServiceSlotStorageAccountListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewAppServiceSlotStorageAccountListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

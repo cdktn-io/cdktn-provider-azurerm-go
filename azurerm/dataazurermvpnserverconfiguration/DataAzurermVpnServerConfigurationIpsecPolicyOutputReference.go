@@ -5,14 +5,14 @@ package dataazurermvpnserverconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermvpnserverconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermvpnserverconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermVpnServerConfigurationIpsecPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -45,15 +45,15 @@ type DataAzurermVpnServerConfigurationIpsecPolicyOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -69,12 +69,12 @@ type DataAzurermVpnServerConfigurationIpsecPolicyOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DataAzurermVpnServerConfigurationIpsecPolicyOutputReference interface {
 
 // The jsii proxy struct for DataAzurermVpnServerConfigurationIpsecPolicyOutputReference
 type jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -227,8 +227,8 @@ func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -238,7 +238,7 @@ func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) 
 }
 
 
-func NewDataAzurermVpnServerConfigurationIpsecPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermVpnServerConfigurationIpsecPolicyOutputReference {
+func NewDataAzurermVpnServerConfigurationIpsecPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermVpnServerConfigurationIpsecPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermVpnServerConfigurationIpsecPolicyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -255,7 +255,7 @@ func NewDataAzurermVpnServerConfigurationIpsecPolicyOutputReference(terraformRes
 	return &j
 }
 
-func NewDataAzurermVpnServerConfigurationIpsecPolicyOutputReference_Override(d DataAzurermVpnServerConfigurationIpsecPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermVpnServerConfigurationIpsecPolicyOutputReference_Override(d DataAzurermVpnServerConfigurationIpsecPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -309,7 +309,7 @@ func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference)S
 	)
 }
 
-func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -349,11 +349,11 @@ func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -477,8 +477,8 @@ func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -490,11 +490,11 @@ func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -506,7 +506,7 @@ func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) 
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermVpnServerConfigurationIpsecPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

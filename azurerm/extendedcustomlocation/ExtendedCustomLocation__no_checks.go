@@ -127,7 +127,7 @@ func (j *jsiiProxy_ExtendedCustomLocation) validateSetIdParameters(val *string) 
 	return nil
 }
 
-func (j *jsiiProxy_ExtendedCustomLocation) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ExtendedCustomLocation) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -115,7 +115,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorage) validateSetIdParameter
 	return nil
 }
 
-func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorage) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataProtectionBackupPolicyBlobStorage) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

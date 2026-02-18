@@ -5,14 +5,14 @@ package apimanagementcustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/apimanagementcustomdomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementcustomdomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApiManagementCustomDomainGatewayOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Certificate() *string
 	SetCertificate(val *string)
 	CertificateInput() *string
@@ -65,16 +65,16 @@ type ApiManagementCustomDomainGatewayOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Thumbprint() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -90,9 +90,9 @@ type ApiManagementCustomDomainGatewayOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCertificate()
 	ResetCertificatePassword()
 	ResetDefaultSslBinding()
@@ -102,7 +102,7 @@ type ApiManagementCustomDomainGatewayOutputReference interface {
 	ResetSslKeyvaultIdentityClientId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -112,7 +112,7 @@ type ApiManagementCustomDomainGatewayOutputReference interface {
 
 // The jsii proxy struct for ApiManagementCustomDomainGatewayOutputReference
 type jsiiProxy_ApiManagementCustomDomainGatewayOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) Certificate() *string {
@@ -375,8 +375,8 @@ func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) TerraformAtt
 	return returns
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -396,7 +396,7 @@ func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) Thumbprint()
 }
 
 
-func NewApiManagementCustomDomainGatewayOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApiManagementCustomDomainGatewayOutputReference {
+func NewApiManagementCustomDomainGatewayOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) ApiManagementCustomDomainGatewayOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApiManagementCustomDomainGatewayOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -413,7 +413,7 @@ func NewApiManagementCustomDomainGatewayOutputReference(terraformResource cdktf.
 	return &j
 }
 
-func NewApiManagementCustomDomainGatewayOutputReference_Override(a ApiManagementCustomDomainGatewayOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewApiManagementCustomDomainGatewayOutputReference_Override(a ApiManagementCustomDomainGatewayOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -555,7 +555,7 @@ func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference)SetTerraformA
 	)
 }
 
-func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -595,11 +595,11 @@ func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) GetAnyMapAtt
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -723,8 +723,8 @@ func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) GetStringMap
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -736,11 +736,11 @@ func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) Interpolatio
 	return returns
 }
 
-func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -808,7 +808,7 @@ func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) ResetSslKeyv
 	)
 }
 
-func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApiManagementCustomDomainGatewayOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -109,7 +109,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesExtension:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesExtension)
@@ -128,7 +128,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesExtension; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesExtension; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -140,7 +140,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesIisLog:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesIisLog)
@@ -159,7 +159,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesIisLog; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesIisLog; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -171,7 +171,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesLogFile:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesLogFile)
@@ -190,7 +190,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesLogFile; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesLogFile; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -202,7 +202,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesPerformanceCounter:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesPerformanceCounter)
@@ -221,7 +221,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesPerformanceCounter; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesPerformanceCounter; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -233,7 +233,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesPlatformTelemetry:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesPlatformTelemetry)
@@ -252,7 +252,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesPlatformTelemetry; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesPlatformTelemetry; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -264,7 +264,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesPrometheusForwarder:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesPrometheusForwarder)
@@ -283,7 +283,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesPrometheusForwarder; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesPrometheusForwarder; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -295,7 +295,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesSyslog:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesSyslog)
@@ -314,7 +314,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesSyslog; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesSyslog; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -326,7 +326,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesWindowsEventLog:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesWindowsEventLog)
@@ -345,7 +345,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesWindowsEventLog; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesWindowsEventLog; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -357,7 +357,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDataSourcesWindowsFirewallLog:
 		value := value.(*[]*MonitorDataCollectionRuleDataSourcesWindowsFirewallLog)
@@ -376,14 +376,14 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesWindowsFirewallLog; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDataSourcesWindowsFirewallLog; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -472,7 +472,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -480,7 +480,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDataSourcesOutputReference) validate
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleDataSourcesOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorDataCollectionRuleDataSourcesOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

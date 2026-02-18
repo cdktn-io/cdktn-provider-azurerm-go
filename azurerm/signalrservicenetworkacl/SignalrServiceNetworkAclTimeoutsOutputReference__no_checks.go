@@ -47,7 +47,7 @@ func (s *jsiiProxy_SignalrServiceNetworkAclTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceNetworkAclTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceNetworkAclTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceNetworkAclTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceNetworkAclTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewSignalrServiceNetworkAclTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSignalrServiceNetworkAclTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

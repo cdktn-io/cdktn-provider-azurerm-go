@@ -5,14 +5,14 @@ package linuxwebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/linuxwebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/linuxwebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type LinuxWebAppSlotSiteConfigOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AlwaysOn() interface{}
 	SetAlwaysOn(val interface{})
 	AlwaysOnInput() interface{}
@@ -58,7 +58,7 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 	DefaultDocuments() *[]*string
 	SetDefaultDocuments(val *[]*string)
 	DefaultDocumentsInput() *[]*string
-	DetailedErrorLoggingEnabled() cdktf.IResolvable
+	DetailedErrorLoggingEnabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	FtpsState() *string
@@ -116,9 +116,9 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Use32BitWorker() interface{}
 	SetUse32BitWorker(val interface{})
 	Use32BitWorkerInput() interface{}
@@ -136,7 +136,7 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -152,9 +152,9 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutApplicationStack(value *LinuxWebAppSlotSiteConfigApplicationStack)
 	PutAutoHealSetting(value *LinuxWebAppSlotSiteConfigAutoHealSetting)
 	PutCors(value *LinuxWebAppSlotSiteConfigCors)
@@ -193,7 +193,7 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 	ResetWorkerCount()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -203,7 +203,7 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 
 // The jsii proxy struct for LinuxWebAppSlotSiteConfigOutputReference
 type jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) AlwaysOn() interface{} {
@@ -456,8 +456,8 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) DefaultDocumentsInp
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) DetailedErrorLoggingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) DetailedErrorLoggingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"detailedErrorLoggingEnabled",
@@ -836,8 +836,8 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -927,7 +927,7 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) WorkerCountInput() 
 }
 
 
-func NewLinuxWebAppSlotSiteConfigOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) LinuxWebAppSlotSiteConfigOutputReference {
+func NewLinuxWebAppSlotSiteConfigOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) LinuxWebAppSlotSiteConfigOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewLinuxWebAppSlotSiteConfigOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -944,7 +944,7 @@ func NewLinuxWebAppSlotSiteConfigOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewLinuxWebAppSlotSiteConfigOutputReference_Override(l LinuxWebAppSlotSiteConfigOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewLinuxWebAppSlotSiteConfigOutputReference_Override(l LinuxWebAppSlotSiteConfigOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -1240,7 +1240,7 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -1324,11 +1324,11 @@ func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1452,8 +1452,8 @@ func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1465,11 +1465,11 @@ func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) InterpolationAsList
 	return returns
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1784,7 +1784,7 @@ func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) ResetWorkerCount() 
 	)
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := l.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

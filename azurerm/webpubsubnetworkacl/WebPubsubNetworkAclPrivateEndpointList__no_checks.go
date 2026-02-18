@@ -15,7 +15,7 @@ func (w *jsiiProxy_WebPubsubNetworkAclPrivateEndpointList) validateGetParameters
 	return nil
 }
 
-func (w *jsiiProxy_WebPubsubNetworkAclPrivateEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (w *jsiiProxy_WebPubsubNetworkAclPrivateEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_WebPubsubNetworkAclPrivateEndpointList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_WebPubsubNetworkAclPrivateEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_WebPubsubNetworkAclPrivateEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_WebPubsubNetworkAclPrivateEndpointList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewWebPubsubNetworkAclPrivateEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewWebPubsubNetworkAclPrivateEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

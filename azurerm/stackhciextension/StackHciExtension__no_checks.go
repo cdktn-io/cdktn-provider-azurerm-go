@@ -119,7 +119,7 @@ func (j *jsiiProxy_StackHciExtension) validateSetIdParameters(val *string) error
 	return nil
 }
 
-func (j *jsiiProxy_StackHciExtension) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_StackHciExtension) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

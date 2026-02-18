@@ -47,7 +47,7 @@ func (s *jsiiProxy_SecurityCenterAutomationActionOutputReference) validateInterp
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterAutomationActionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterAutomationActionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SecurityCenterAutomationActionOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterAutomationActionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterAutomationActionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SecurityCenterAutomationActionOutputReference) validateSetTyp
 	return nil
 }
 
-func validateNewSecurityCenterAutomationActionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSecurityCenterAutomationActionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

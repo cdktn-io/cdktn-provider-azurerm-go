@@ -5,14 +5,14 @@ package synapsesparkpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/synapsesparkpool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/synapsesparkpool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SynapseSparkPoolAutoPauseOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -40,15 +40,15 @@ type SynapseSparkPoolAutoPauseOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -64,12 +64,12 @@ type SynapseSparkPoolAutoPauseOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -79,7 +79,7 @@ type SynapseSparkPoolAutoPauseOutputReference interface {
 
 // The jsii proxy struct for SynapseSparkPoolAutoPauseOutputReference
 type jsiiProxy_SynapseSparkPoolAutoPauseOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) ComplexObjectIndex() interface{} {
@@ -162,8 +162,8 @@ func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) TerraformAttribute(
 	return returns
 }
 
-func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -173,7 +173,7 @@ func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) TerraformResource()
 }
 
 
-func NewSynapseSparkPoolAutoPauseOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) SynapseSparkPoolAutoPauseOutputReference {
+func NewSynapseSparkPoolAutoPauseOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) SynapseSparkPoolAutoPauseOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSynapseSparkPoolAutoPauseOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -190,7 +190,7 @@ func NewSynapseSparkPoolAutoPauseOutputReference(terraformResource cdktf.IInterp
 	return &j
 }
 
-func NewSynapseSparkPoolAutoPauseOutputReference_Override(s SynapseSparkPoolAutoPauseOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewSynapseSparkPoolAutoPauseOutputReference_Override(s SynapseSparkPoolAutoPauseOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -255,7 +255,7 @@ func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference)SetTerraformAttribut
 	)
 }
 
-func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -295,11 +295,11 @@ func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) GetAnyMapAttribute(
 	return returns
 }
 
-func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -423,8 +423,8 @@ func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) GetStringMapAttribu
 	return returns
 }
 
-func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -436,11 +436,11 @@ func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) InterpolationAsList
 	return returns
 }
 
-func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -452,7 +452,7 @@ func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) InterpolationForAtt
 	return returns
 }
 
-func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SynapseSparkPoolAutoPauseOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

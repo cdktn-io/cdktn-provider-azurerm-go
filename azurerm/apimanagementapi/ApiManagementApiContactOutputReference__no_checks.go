@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementApiContactOutputReference) validateInterpolation
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementApiContactOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementApiContactOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ApiManagementApiContactOutputReference) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementApiContactOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementApiContactOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ApiManagementApiContactOutputReference) validateSetUrlParamet
 	return nil
 }
 
-func validateNewApiManagementApiContactOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementApiContactOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

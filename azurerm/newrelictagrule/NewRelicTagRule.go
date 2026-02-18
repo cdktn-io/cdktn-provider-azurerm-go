@@ -5,16 +5,16 @@ package newrelictagrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/newrelictagrule/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/newrelictagrule/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/new_relic_tag_rule azurerm_new_relic_tag_rule}.
 type NewRelicTagRule interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	ActivityLogEnabled() interface{}
 	SetActivityLogEnabled(val interface{})
 	ActivityLogEnabledInput() interface{}
@@ -22,7 +22,7 @@ type NewRelicTagRule interface {
 	SetAzureActiveDirectoryLogEnabled(val interface{})
 	AzureActiveDirectoryLogEnabledInput() interface{}
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type NewRelicTagRule interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type NewRelicTagRule interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogTagFilter() NewRelicTagRuleLogTagFilterList
 	LogTagFilterInput() interface{}
 	MetricEnabled() interface{}
@@ -65,9 +65,9 @@ type NewRelicTagRule interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -78,7 +78,7 @@ type NewRelicTagRule interface {
 	SetSubscriptionLogEnabled(val interface{})
 	SubscriptionLogEnabledInput() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -93,7 +93,7 @@ type NewRelicTagRule interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -111,9 +111,9 @@ type NewRelicTagRule interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -157,7 +157,7 @@ type NewRelicTagRule interface {
 
 // The jsii proxy struct for NewRelicTagRule
 type jsiiProxy_NewRelicTagRule struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_NewRelicTagRule) ActivityLogEnabled() interface{} {
@@ -200,8 +200,8 @@ func (j *jsiiProxy_NewRelicTagRule) AzureActiveDirectoryLogEnabledInput() interf
 	return returns
 }
 
-func (j *jsiiProxy_NewRelicTagRule) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_NewRelicTagRule) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -250,8 +250,8 @@ func (j *jsiiProxy_NewRelicTagRule) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_NewRelicTagRule) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_NewRelicTagRule) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -300,8 +300,8 @@ func (j *jsiiProxy_NewRelicTagRule) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_NewRelicTagRule) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_NewRelicTagRule) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -400,8 +400,8 @@ func (j *jsiiProxy_NewRelicTagRule) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_NewRelicTagRule) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_NewRelicTagRule) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -450,8 +450,8 @@ func (j *jsiiProxy_NewRelicTagRule) SubscriptionLogEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_NewRelicTagRule) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_NewRelicTagRule) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -582,7 +582,7 @@ func (j *jsiiProxy_NewRelicTagRule)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_NewRelicTagRule)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_NewRelicTagRule)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -601,7 +601,7 @@ func (j *jsiiProxy_NewRelicTagRule)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NewRelicTagRule)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_NewRelicTagRule)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -634,7 +634,7 @@ func (j *jsiiProxy_NewRelicTagRule)SetMonitorId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_NewRelicTagRule)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_NewRelicTagRule)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -664,14 +664,14 @@ func (j *jsiiProxy_NewRelicTagRule)SetSubscriptionLogEnabled(val interface{}) {
 	)
 }
 
-// Generates CDKTF code for importing a NewRelicTagRule resource upon running "cdktf plan <stack-name>".
-func NewRelicTagRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a NewRelicTagRule resource upon running "cdktn plan <stack-name>".
+func NewRelicTagRule_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateNewRelicTagRule_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.newRelicTagRule.NewRelicTagRule",
@@ -805,11 +805,11 @@ func (n *jsiiProxy_NewRelicTagRule) GetAnyMapAttribute(terraformAttribute *strin
 	return returns
 }
 
-func (n *jsiiProxy_NewRelicTagRule) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NewRelicTagRule) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -946,7 +946,7 @@ func (n *jsiiProxy_NewRelicTagRule) HasResourceMove() interface{} {
 	return returns
 }
 
-func (n *jsiiProxy_NewRelicTagRule) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (n *jsiiProxy_NewRelicTagRule) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := n.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -957,11 +957,11 @@ func (n *jsiiProxy_NewRelicTagRule) ImportFrom(id *string, provider cdktf.Terraf
 	)
 }
 
-func (n *jsiiProxy_NewRelicTagRule) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NewRelicTagRule) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,

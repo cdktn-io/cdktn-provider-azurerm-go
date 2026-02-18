@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermAppServiceEnvironmentV3ClusterSettingOutputReferen
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermAppServiceEnvironmentV3ClusterSettingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermAppServiceEnvironmentV3ClusterSettingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermAppServiceEnvironmentV3ClusterSettingOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermAppServiceEnvironmentV3ClusterSettingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermAppServiceEnvironmentV3ClusterSettingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermAppServiceEnvironmentV3ClusterSettingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermAppServiceEnvironmentV3ClusterSettingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

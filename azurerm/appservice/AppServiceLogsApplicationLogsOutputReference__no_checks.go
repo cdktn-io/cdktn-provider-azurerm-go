@@ -51,7 +51,7 @@ func (a *jsiiProxy_AppServiceLogsApplicationLogsOutputReference) validatePutAzur
 	return nil
 }
 
-func (a *jsiiProxy_AppServiceLogsApplicationLogsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AppServiceLogsApplicationLogsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_AppServiceLogsApplicationLogsOutputReference) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_AppServiceLogsApplicationLogsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AppServiceLogsApplicationLogsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewAppServiceLogsApplicationLogsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAppServiceLogsApplicationLogsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

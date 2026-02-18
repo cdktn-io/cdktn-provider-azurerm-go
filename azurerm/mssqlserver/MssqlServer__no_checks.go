@@ -139,7 +139,7 @@ func (j *jsiiProxy_MssqlServer) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_MssqlServer) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_MssqlServer) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

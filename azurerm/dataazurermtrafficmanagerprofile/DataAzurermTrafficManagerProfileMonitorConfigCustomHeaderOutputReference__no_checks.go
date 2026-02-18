@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutp
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutp
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermTrafficManagerProfileMonitorConfigCustomHeaderOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

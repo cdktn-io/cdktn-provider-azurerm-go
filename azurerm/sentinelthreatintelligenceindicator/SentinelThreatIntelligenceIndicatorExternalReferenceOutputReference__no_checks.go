@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorExternalReferenceOutputRef
 	return nil
 }
 
-func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorExternalReferenceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorExternalReferenceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorExternalReferenceOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorExternalReferenceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorExternalReferenceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorExternalReferenceOutputRef
 	return nil
 }
 
-func validateNewSentinelThreatIntelligenceIndicatorExternalReferenceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelThreatIntelligenceIndicatorExternalReferenceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

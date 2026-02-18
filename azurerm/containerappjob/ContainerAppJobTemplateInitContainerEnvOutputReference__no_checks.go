@@ -47,7 +47,7 @@ func (c *jsiiProxy_ContainerAppJobTemplateInitContainerEnvOutputReference) valid
 	return nil
 }
 
-func (c *jsiiProxy_ContainerAppJobTemplateInitContainerEnvOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (c *jsiiProxy_ContainerAppJobTemplateInitContainerEnvOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateInitContainerEnvOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_ContainerAppJobTemplateInitContainerEnvOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ContainerAppJobTemplateInitContainerEnvOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ContainerAppJobTemplateInitContainerEnvOutputReference) valid
 	return nil
 }
 
-func validateNewContainerAppJobTemplateInitContainerEnvOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewContainerAppJobTemplateInitContainerEnvOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

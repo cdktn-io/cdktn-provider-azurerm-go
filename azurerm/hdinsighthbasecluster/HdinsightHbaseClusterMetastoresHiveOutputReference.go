@@ -5,14 +5,14 @@ package hdinsighthbasecluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/hdinsighthbasecluster/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hdinsighthbasecluster/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type HdinsightHbaseClusterMetastoresHiveOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -46,9 +46,9 @@ type HdinsightHbaseClusterMetastoresHiveOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Username() *string
 	SetUsername(val *string)
 	UsernameInput() *string
@@ -57,7 +57,7 @@ type HdinsightHbaseClusterMetastoresHiveOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -73,12 +73,12 @@ type HdinsightHbaseClusterMetastoresHiveOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -88,7 +88,7 @@ type HdinsightHbaseClusterMetastoresHiveOutputReference interface {
 
 // The jsii proxy struct for HdinsightHbaseClusterMetastoresHiveOutputReference
 type jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) ComplexObjectIndex() interface{} {
@@ -211,8 +211,8 @@ func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) Terraform
 	return returns
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -242,7 +242,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) UsernameI
 }
 
 
-func NewHdinsightHbaseClusterMetastoresHiveOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) HdinsightHbaseClusterMetastoresHiveOutputReference {
+func NewHdinsightHbaseClusterMetastoresHiveOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) HdinsightHbaseClusterMetastoresHiveOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewHdinsightHbaseClusterMetastoresHiveOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -259,7 +259,7 @@ func NewHdinsightHbaseClusterMetastoresHiveOutputReference(terraformResource cdk
 	return &j
 }
 
-func NewHdinsightHbaseClusterMetastoresHiveOutputReference_Override(h HdinsightHbaseClusterMetastoresHiveOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewHdinsightHbaseClusterMetastoresHiveOutputReference_Override(h HdinsightHbaseClusterMetastoresHiveOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -346,7 +346,7 @@ func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference)SetTerrafo
 	)
 }
 
-func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -397,11 +397,11 @@ func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) GetAnyMap
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -525,8 +525,8 @@ func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) GetString
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -538,11 +538,11 @@ func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) Interpola
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -554,7 +554,7 @@ func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) Interpola
 	return returns
 }
 
-func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (h *jsiiProxy_HdinsightHbaseClusterMetastoresHiveOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := h.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

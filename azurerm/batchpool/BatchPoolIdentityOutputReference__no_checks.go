@@ -47,7 +47,7 @@ func (b *jsiiProxy_BatchPoolIdentityOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (b *jsiiProxy_BatchPoolIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (b *jsiiProxy_BatchPoolIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_BatchPoolIdentityOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_BatchPoolIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_BatchPoolIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_BatchPoolIdentityOutputReference) validateSetTypeParameters(v
 	return nil
 }
 
-func validateNewBatchPoolIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewBatchPoolIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

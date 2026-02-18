@@ -83,7 +83,7 @@ func (j *jsiiProxy_DataAzurermLbBackendAddressPool) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLbBackendAddressPool) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DataAzurermLbBackendAddressPool) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

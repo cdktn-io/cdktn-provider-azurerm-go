@@ -15,7 +15,7 @@ func (l *jsiiProxy_LinuxWebAppSlotConnectionStringList) validateGetParameters(in
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppSlotConnectionStringList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppSlotConnectionStringList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_LinuxWebAppSlotConnectionStringList) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppSlotConnectionStringList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppSlotConnectionStringList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_LinuxWebAppSlotConnectionStringList) validateSetWrapsSetParam
 	return nil
 }
 
-func validateNewLinuxWebAppSlotConnectionStringListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewLinuxWebAppSlotConnectionStringListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

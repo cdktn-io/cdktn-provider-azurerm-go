@@ -5,14 +5,14 @@ package networkwatcherflowlog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/networkwatcherflowlog/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkwatcherflowlog/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type NetworkWatcherFlowLogTrafficAnalyticsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,9 +43,9 @@ type NetworkWatcherFlowLogTrafficAnalyticsOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	WorkspaceId() *string
 	SetWorkspaceId(val *string)
 	WorkspaceIdInput() *string
@@ -60,7 +60,7 @@ type NetworkWatcherFlowLogTrafficAnalyticsOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -76,13 +76,13 @@ type NetworkWatcherFlowLogTrafficAnalyticsOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetIntervalInMinutes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -92,7 +92,7 @@ type NetworkWatcherFlowLogTrafficAnalyticsOutputReference interface {
 
 // The jsii proxy struct for NetworkWatcherFlowLogTrafficAnalyticsOutputReference
 type jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) ComplexObjectIndex() interface{} {
@@ -195,8 +195,8 @@ func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -266,7 +266,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) Workspa
 }
 
 
-func NewNetworkWatcherFlowLogTrafficAnalyticsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) NetworkWatcherFlowLogTrafficAnalyticsOutputReference {
+func NewNetworkWatcherFlowLogTrafficAnalyticsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) NetworkWatcherFlowLogTrafficAnalyticsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewNetworkWatcherFlowLogTrafficAnalyticsOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -283,7 +283,7 @@ func NewNetworkWatcherFlowLogTrafficAnalyticsOutputReference(terraformResource c
 	return &j
 }
 
-func NewNetworkWatcherFlowLogTrafficAnalyticsOutputReference_Override(n NetworkWatcherFlowLogTrafficAnalyticsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewNetworkWatcherFlowLogTrafficAnalyticsOutputReference_Override(n NetworkWatcherFlowLogTrafficAnalyticsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -359,7 +359,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -432,11 +432,11 @@ func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) GetAnyM
 	return returns
 }
 
-func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -560,8 +560,8 @@ func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) GetStri
 	return returns
 }
 
-func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -573,11 +573,11 @@ func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) Interpo
 	return returns
 }
 
-func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := n.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		n,
@@ -597,7 +597,7 @@ func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) ResetIn
 	)
 }
 
-func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (n *jsiiProxy_NetworkWatcherFlowLogTrafficAnalyticsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := n.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

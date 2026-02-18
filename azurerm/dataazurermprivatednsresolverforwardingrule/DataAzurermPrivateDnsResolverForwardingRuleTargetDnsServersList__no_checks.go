@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersLi
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersLi
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersLi
 	return nil
 }
 
-func validateNewDataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermPrivateDnsResolverForwardingRuleTargetDnsServersListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

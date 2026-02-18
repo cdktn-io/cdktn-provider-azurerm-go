@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineScaleSetPacketCaptureTimeoutsOutputReference) v
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineScaleSetPacketCaptureTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineScaleSetPacketCaptureTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_VirtualMachineScaleSetPacketCaptureTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineScaleSetPacketCaptureTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineScaleSetPacketCaptureTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewVirtualMachineScaleSetPacketCaptureTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineScaleSetPacketCaptureTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

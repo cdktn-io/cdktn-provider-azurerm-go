@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermStorageManagementPolicyRuleActionsVersionOutputRef
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermStorageManagementPolicyRuleActionsVersionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermStorageManagementPolicyRuleActionsVersionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermStorageManagementPolicyRuleActionsVersionOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermStorageManagementPolicyRuleActionsVersionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermStorageManagementPolicyRuleActionsVersionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermStorageManagementPolicyRuleActionsVersionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermStorageManagementPolicyRuleActionsVersionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

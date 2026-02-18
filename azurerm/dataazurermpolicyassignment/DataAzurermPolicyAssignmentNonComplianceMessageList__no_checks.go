@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageList) validate
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageList) validate
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermPolicyAssignmentNonComplianceMessageList) validate
 	return nil
 }
 
-func validateNewDataAzurermPolicyAssignmentNonComplianceMessageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermPolicyAssignmentNonComplianceMessageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

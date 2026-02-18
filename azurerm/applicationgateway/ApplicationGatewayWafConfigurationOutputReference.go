@@ -5,14 +5,14 @@ package applicationgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/applicationgateway/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationgateway/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type ApplicationGatewayWafConfigurationOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -62,15 +62,15 @@ type ApplicationGatewayWafConfigurationOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -86,9 +86,9 @@ type ApplicationGatewayWafConfigurationOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutDisabledRuleGroup(value interface{})
 	PutExclusion(value interface{})
 	ResetDisabledRuleGroup()
@@ -99,7 +99,7 @@ type ApplicationGatewayWafConfigurationOutputReference interface {
 	ResetRuleSetType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -109,7 +109,7 @@ type ApplicationGatewayWafConfigurationOutputReference interface {
 
 // The jsii proxy struct for ApplicationGatewayWafConfigurationOutputReference
 type jsiiProxy_ApplicationGatewayWafConfigurationOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) ComplexObjectIndex() interface{} {
@@ -352,8 +352,8 @@ func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) TerraformA
 	return returns
 }
 
-func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -363,7 +363,7 @@ func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) TerraformR
 }
 
 
-func NewApplicationGatewayWafConfigurationOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) ApplicationGatewayWafConfigurationOutputReference {
+func NewApplicationGatewayWafConfigurationOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) ApplicationGatewayWafConfigurationOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewApplicationGatewayWafConfigurationOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -380,7 +380,7 @@ func NewApplicationGatewayWafConfigurationOutputReference(terraformResource cdkt
 	return &j
 }
 
-func NewApplicationGatewayWafConfigurationOutputReference_Override(a ApplicationGatewayWafConfigurationOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewApplicationGatewayWafConfigurationOutputReference_Override(a ApplicationGatewayWafConfigurationOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -511,7 +511,7 @@ func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference)SetTerrafor
 	)
 }
 
-func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -551,11 +551,11 @@ func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) GetAnyMapA
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -679,8 +679,8 @@ func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) GetStringM
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -692,11 +692,11 @@ func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) Interpolat
 	return returns
 }
 
-func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -778,7 +778,7 @@ func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) ResetRuleS
 	)
 }
 
-func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_ApplicationGatewayWafConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

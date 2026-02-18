@@ -15,7 +15,7 @@ func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActio
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActionsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActionsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActio
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActionsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActionsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActio
 	return nil
 }
 
-func validateNewHdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActionsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHdinsightInteractiveQueryClusterRolesZookeeperNodeScriptActionsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

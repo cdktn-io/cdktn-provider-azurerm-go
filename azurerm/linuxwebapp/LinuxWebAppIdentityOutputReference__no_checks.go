@@ -47,7 +47,7 @@ func (l *jsiiProxy_LinuxWebAppIdentityOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (l *jsiiProxy_LinuxWebAppIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LinuxWebAppIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LinuxWebAppIdentityOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_LinuxWebAppIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LinuxWebAppIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LinuxWebAppIdentityOutputReference) validateSetTypeParameters
 	return nil
 }
 
-func validateNewLinuxWebAppIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLinuxWebAppIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

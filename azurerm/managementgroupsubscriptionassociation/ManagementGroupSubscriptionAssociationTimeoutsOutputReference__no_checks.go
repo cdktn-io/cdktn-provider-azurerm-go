@@ -47,7 +47,7 @@ func (m *jsiiProxy_ManagementGroupSubscriptionAssociationTimeoutsOutputReference
 	return nil
 }
 
-func (m *jsiiProxy_ManagementGroupSubscriptionAssociationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_ManagementGroupSubscriptionAssociationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ManagementGroupSubscriptionAssociationTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ManagementGroupSubscriptionAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ManagementGroupSubscriptionAssociationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewManagementGroupSubscriptionAssociationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewManagementGroupSubscriptionAssociationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

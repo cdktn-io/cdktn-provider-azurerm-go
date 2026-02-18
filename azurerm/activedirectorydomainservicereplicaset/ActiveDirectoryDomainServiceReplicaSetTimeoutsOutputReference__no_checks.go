@@ -47,7 +47,7 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReference
 	return nil
 }
 
-func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_ActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReference
 	return nil
 }
 
-func (j *jsiiProxy_ActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewActiveDirectoryDomainServiceReplicaSetTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

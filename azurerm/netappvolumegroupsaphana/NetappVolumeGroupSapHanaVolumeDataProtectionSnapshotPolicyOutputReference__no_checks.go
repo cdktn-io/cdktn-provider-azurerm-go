@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOut
 	return nil
 }
 
-func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOut
 	return nil
 }
 
-func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetappVolumeGroupSapHanaVolumeDataProtectionSnapshotPolicyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

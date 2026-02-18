@@ -5,14 +5,14 @@ package devtestvirtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/devtestvirtualnetwork/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/devtestvirtualnetwork/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	BackendPort() *float64
 	SetBackendPort(val *float64)
 	BackendPortInput() *float64
@@ -40,9 +40,9 @@ type DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TransportProtocol() *string
 	SetTransportProtocol(val *string)
 	TransportProtocolInput() *string
@@ -51,7 +51,7 @@ type DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetBackendPort()
 	ResetTransportProtocol()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference
 
 // The jsii proxy struct for DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference
 type jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) BackendPort() *float64 {
@@ -167,8 +167,8 @@ func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsO
 	return returns
 }
 
-func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsO
 }
 
 
-func NewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference {
+func NewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -215,7 +215,7 @@ func NewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputRefere
 	return &j
 }
 
-func NewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference_Override(d DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference_Override(d DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -280,7 +280,7 @@ func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsO
 	)
 }
 
-func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsO
 	return returns
 }
 
-func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -459,8 +459,8 @@ func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsO
 	return returns
 }
 
-func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -472,11 +472,11 @@ func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsO
 	return returns
 }
 
-func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -504,7 +504,7 @@ func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsO
 	)
 }
 
-func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DevTestVirtualNetworkSubnetSharedPublicIpAddressAllowedPortsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

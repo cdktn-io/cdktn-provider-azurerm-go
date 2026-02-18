@@ -147,7 +147,7 @@ func (j *jsiiProxy_SpringCloudNewRelicApplicationPerformanceMonitoring) validate
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudNewRelicApplicationPerformanceMonitoring) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_SpringCloudNewRelicApplicationPerformanceMonitoring) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

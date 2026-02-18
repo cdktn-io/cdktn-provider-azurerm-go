@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorab
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorableLocationsList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorableLocationsList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorab
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorableLocationsList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorableLocationsList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorab
 	return nil
 }
 
-func validateNewDataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorableLocationsListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermCosmosdbRestorableDatabaseAccountsAccountsRestorableLocationsListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApplicationGatewayAutoscaleConfigurationOutputReference) vali
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayAutoscaleConfigurationOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayAutoscaleConfigurationOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApplicationGatewayAutoscaleConfigurationOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayAutoscaleConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayAutoscaleConfigurationOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApplicationGatewayAutoscaleConfigurationOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApplicationGatewayAutoscaleConfigurationOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

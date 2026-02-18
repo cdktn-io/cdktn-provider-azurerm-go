@@ -123,7 +123,7 @@ func (j *jsiiProxy_ApiManagementGatewayCertificateAuthority) validateSetIsTruste
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementGatewayCertificateAuthority) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_ApiManagementGatewayCertificateAuthority) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyList) validateGetPar
 	return nil
 }
 
-func (v *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpnGatewayConnectionTrafficSelectorPolicyList) validateSetWra
 	return nil
 }
 
-func validateNewVpnGatewayConnectionTrafficSelectorPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpnGatewayConnectionTrafficSelectorPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

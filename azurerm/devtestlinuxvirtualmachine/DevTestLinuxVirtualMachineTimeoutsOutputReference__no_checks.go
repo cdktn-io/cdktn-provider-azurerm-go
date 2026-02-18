@@ -47,7 +47,7 @@ func (d *jsiiProxy_DevTestLinuxVirtualMachineTimeoutsOutputReference) validateIn
 	return nil
 }
 
-func (d *jsiiProxy_DevTestLinuxVirtualMachineTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DevTestLinuxVirtualMachineTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DevTestLinuxVirtualMachineTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_DevTestLinuxVirtualMachineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DevTestLinuxVirtualMachineTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_DevTestLinuxVirtualMachineTimeoutsOutputReference) validateSe
 	return nil
 }
 
-func validateNewDevTestLinuxVirtualMachineTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDevTestLinuxVirtualMachineTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

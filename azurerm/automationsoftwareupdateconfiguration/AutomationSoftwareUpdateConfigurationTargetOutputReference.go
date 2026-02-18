@@ -5,14 +5,14 @@ package automationsoftwareupdateconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/automationsoftwareupdateconfiguration/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationsoftwareupdateconfiguration/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type AutomationSoftwareUpdateConfigurationTargetOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AzureQuery() AutomationSoftwareUpdateConfigurationTargetAzureQueryList
 	AzureQueryInput() interface{}
 	// the index of the complex object in a list.
@@ -41,15 +41,15 @@ type AutomationSoftwareUpdateConfigurationTargetOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,16 +65,16 @@ type AutomationSoftwareUpdateConfigurationTargetOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAzureQuery(value interface{})
 	PutNonAzureQuery(value interface{})
 	ResetAzureQuery()
 	ResetNonAzureQuery()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type AutomationSoftwareUpdateConfigurationTargetOutputReference interface {
 
 // The jsii proxy struct for AutomationSoftwareUpdateConfigurationTargetOutputReference
 type jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) AzureQuery() AutomationSoftwareUpdateConfigurationTargetAzureQueryList {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) T
 	return returns
 }
 
-func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) T
 }
 
 
-func NewAutomationSoftwareUpdateConfigurationTargetOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) AutomationSoftwareUpdateConfigurationTargetOutputReference {
+func NewAutomationSoftwareUpdateConfigurationTargetOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AutomationSoftwareUpdateConfigurationTargetOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewAutomationSoftwareUpdateConfigurationTargetOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewAutomationSoftwareUpdateConfigurationTargetOutputReference(terraformReso
 	return &j
 }
 
-func NewAutomationSoftwareUpdateConfigurationTargetOutputReference_Override(a AutomationSoftwareUpdateConfigurationTargetOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewAutomationSoftwareUpdateConfigurationTargetOutputReference_Override(a AutomationSoftwareUpdateConfigurationTargetOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -269,7 +269,7 @@ func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference)Se
 	)
 }
 
-func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -309,11 +309,11 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -437,8 +437,8 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) G
 	return returns
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -450,11 +450,11 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) I
 	return returns
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		a,
@@ -504,7 +504,7 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) R
 	)
 }
 
-func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (a *jsiiProxy_AutomationSoftwareUpdateConfigurationTargetOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := a.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

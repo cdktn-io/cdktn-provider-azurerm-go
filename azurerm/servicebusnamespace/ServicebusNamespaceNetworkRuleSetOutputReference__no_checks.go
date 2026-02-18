@@ -51,7 +51,7 @@ func (s *jsiiProxy_ServicebusNamespaceNetworkRuleSetOutputReference) validatePut
 	return nil
 }
 
-func (s *jsiiProxy_ServicebusNamespaceNetworkRuleSetOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicebusNamespaceNetworkRuleSetOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ServicebusNamespaceNetworkRuleSetOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusNamespaceNetworkRuleSetOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicebusNamespaceNetworkRuleSetOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_ServicebusNamespaceNetworkRuleSetOutputReference) validateSet
 	return nil
 }
 
-func validateNewServicebusNamespaceNetworkRuleSetOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServicebusNamespaceNetworkRuleSetOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

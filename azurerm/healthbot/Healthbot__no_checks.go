@@ -107,7 +107,7 @@ func (j *jsiiProxy_Healthbot) validateSetIdParameters(val *string) error {
 	return nil
 }
 
-func (j *jsiiProxy_Healthbot) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_Healthbot) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

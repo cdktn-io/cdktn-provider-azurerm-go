@@ -5,18 +5,18 @@ package loganalyticsclustercustomermanagedkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/loganalyticsclustercustomermanagedkey/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/loganalyticsclustercustomermanagedkey/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/log_analytics_cluster_customer_managed_key azurerm_log_analytics_cluster_customer_managed_key}.
 type LogAnalyticsClusterCustomerManagedKey interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -32,9 +32,9 @@ type LogAnalyticsClusterCustomerManagedKey interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -46,18 +46,18 @@ type LogAnalyticsClusterCustomerManagedKey interface {
 	SetKeyVaultKeyId(val *string)
 	KeyVaultKeyIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LogAnalyticsClusterId() *string
 	SetLogAnalyticsClusterId(val *string)
 	LogAnalyticsClusterIdInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -65,7 +65,7 @@ type LogAnalyticsClusterCustomerManagedKey interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -80,7 +80,7 @@ type LogAnalyticsClusterCustomerManagedKey interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -98,9 +98,9 @@ type LogAnalyticsClusterCustomerManagedKey interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -136,11 +136,11 @@ type LogAnalyticsClusterCustomerManagedKey interface {
 
 // The jsii proxy struct for LogAnalyticsClusterCustomerManagedKey
 type jsiiProxy_LogAnalyticsClusterCustomerManagedKey struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -189,8 +189,8 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) DependsOn() *[]*string
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -259,8 +259,8 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) KeyVaultKeyIdInput() *
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -299,8 +299,8 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) Node() constructs.Node
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -329,8 +329,8 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) RawOverrides() interfa
 	return returns
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -439,7 +439,7 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetDependsOn(val *[]*st
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -469,7 +469,7 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetKeyVaultKeyId(val *s
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -491,7 +491,7 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetLogAnalyticsClusterI
 	)
 }
 
-func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -510,14 +510,14 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey)SetProvisioners(val *[]
 	)
 }
 
-// Generates CDKTF code for importing a LogAnalyticsClusterCustomerManagedKey resource upon running "cdktf plan <stack-name>".
-func LogAnalyticsClusterCustomerManagedKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LogAnalyticsClusterCustomerManagedKey resource upon running "cdktn plan <stack-name>".
+func LogAnalyticsClusterCustomerManagedKey_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLogAnalyticsClusterCustomerManagedKey_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.logAnalyticsClusterCustomerManagedKey.LogAnalyticsClusterCustomerManagedKey",
@@ -651,11 +651,11 @@ func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) GetAnyMapAttribute(ter
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -792,7 +792,7 @@ func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) HasResourceMove() inte
 	return returns
 }
 
-func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -803,11 +803,11 @@ func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) ImportFrom(id *string,
 	)
 }
 
-func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

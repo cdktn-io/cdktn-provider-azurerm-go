@@ -15,7 +15,7 @@ func (h *jsiiProxy_HdinsightHadoopClusterDiskEncryptionList) validateGetParamete
 	return nil
 }
 
-func (h *jsiiProxy_HdinsightHadoopClusterDiskEncryptionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (h *jsiiProxy_HdinsightHadoopClusterDiskEncryptionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterDiskEncryptionList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_HdinsightHadoopClusterDiskEncryptionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_HdinsightHadoopClusterDiskEncryptionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_HdinsightHadoopClusterDiskEncryptionList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewHdinsightHadoopClusterDiskEncryptionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewHdinsightHadoopClusterDiskEncryptionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

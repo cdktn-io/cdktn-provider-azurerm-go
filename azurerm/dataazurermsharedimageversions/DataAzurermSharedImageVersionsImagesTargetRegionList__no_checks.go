@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermSharedImageVersionsImagesTargetRegionList) validat
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermSharedImageVersionsImagesTargetRegionList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermSharedImageVersionsImagesTargetRegionList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermSharedImageVersionsImagesTargetRegionList) validat
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermSharedImageVersionsImagesTargetRegionList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermSharedImageVersionsImagesTargetRegionList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermSharedImageVersionsImagesTargetRegionList) validat
 	return nil
 }
 
-func validateNewDataAzurermSharedImageVersionsImagesTargetRegionListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermSharedImageVersionsImagesTargetRegionListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -5,14 +5,14 @@ package mssqlvirtualmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/mssqlvirtualmachine/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqlvirtualmachine/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MssqlVirtualMachineWsfcDomainCredentialOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	ClusterBootstrapAccountPassword() *string
 	SetClusterBootstrapAccountPassword(val *string)
 	ClusterBootstrapAccountPasswordInput() *string
@@ -46,15 +46,15 @@ type MssqlVirtualMachineWsfcDomainCredentialOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -70,12 +70,12 @@ type MssqlVirtualMachineWsfcDomainCredentialOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -85,7 +85,7 @@ type MssqlVirtualMachineWsfcDomainCredentialOutputReference interface {
 
 // The jsii proxy struct for MssqlVirtualMachineWsfcDomainCredentialOutputReference
 type jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) ClusterBootstrapAccountPassword() *string {
@@ -208,8 +208,8 @@ func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) Terra
 	return returns
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -219,7 +219,7 @@ func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) Terra
 }
 
 
-func NewMssqlVirtualMachineWsfcDomainCredentialOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MssqlVirtualMachineWsfcDomainCredentialOutputReference {
+func NewMssqlVirtualMachineWsfcDomainCredentialOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MssqlVirtualMachineWsfcDomainCredentialOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMssqlVirtualMachineWsfcDomainCredentialOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -236,7 +236,7 @@ func NewMssqlVirtualMachineWsfcDomainCredentialOutputReference(terraformResource
 	return &j
 }
 
-func NewMssqlVirtualMachineWsfcDomainCredentialOutputReference_Override(m MssqlVirtualMachineWsfcDomainCredentialOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMssqlVirtualMachineWsfcDomainCredentialOutputReference_Override(m MssqlVirtualMachineWsfcDomainCredentialOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -323,7 +323,7 @@ func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference)SetTer
 	)
 }
 
-func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -363,11 +363,11 @@ func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) GetAn
 	return returns
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -491,8 +491,8 @@ func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) GetSt
 	return returns
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,11 +504,11 @@ func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) Inter
 	return returns
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -520,7 +520,7 @@ func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) Inter
 	return returns
 }
 
-func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MssqlVirtualMachineWsfcDomainCredentialOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

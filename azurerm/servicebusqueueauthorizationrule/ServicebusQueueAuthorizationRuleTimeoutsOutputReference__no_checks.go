@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServicebusQueueAuthorizationRuleTimeoutsOutputReference) vali
 	return nil
 }
 
-func (s *jsiiProxy_ServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_ServicebusQueueAuthorizationRuleTimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_ServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServicebusQueueAuthorizationRuleTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_ServicebusQueueAuthorizationRuleTimeoutsOutputReference) vali
 	return nil
 }
 
-func validateNewServicebusQueueAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewServicebusQueueAuthorizationRuleTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -15,7 +15,7 @@ func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateGetParam
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAclPrivateEndpointList) validateSetWraps
 	return nil
 }
 
-func validateNewSignalrServiceNetworkAclPrivateEndpointListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSignalrServiceNetworkAclPrivateEndpointListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

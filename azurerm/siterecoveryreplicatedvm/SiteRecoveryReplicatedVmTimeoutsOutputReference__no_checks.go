@@ -47,7 +47,7 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) validateInte
 	return nil
 }
 
-func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) validateSetT
 	return nil
 }
 
-func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SiteRecoveryReplicatedVmTimeoutsOutputReference) validateSetU
 	return nil
 }
 
-func validateNewSiteRecoveryReplicatedVmTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSiteRecoveryReplicatedVmTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

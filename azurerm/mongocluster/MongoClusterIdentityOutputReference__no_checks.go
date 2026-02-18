@@ -47,7 +47,7 @@ func (m *jsiiProxy_MongoClusterIdentityOutputReference) validateInterpolationFor
 	return nil
 }
 
-func (m *jsiiProxy_MongoClusterIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MongoClusterIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_MongoClusterIdentityOutputReference) validateSetTerraformAttr
 	return nil
 }
 
-func (j *jsiiProxy_MongoClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MongoClusterIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MongoClusterIdentityOutputReference) validateSetTypeParameter
 	return nil
 }
 
-func validateNewMongoClusterIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMongoClusterIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

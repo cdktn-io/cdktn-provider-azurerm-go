@@ -5,23 +5,23 @@ package synapseworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/synapseworkspace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/synapseworkspace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/synapse_workspace azurerm_synapse_workspace}.
 type SynapseWorkspace interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AzureadAuthenticationOnly() interface{}
 	SetAzureadAuthenticationOnly(val interface{})
 	AzureadAuthenticationOnlyInput() interface{}
 	AzureDevopsRepo() SynapseWorkspaceAzureDevopsRepoOutputReference
 	AzureDevopsRepoInput() *SynapseWorkspaceAzureDevopsRepo
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ComputeSubnetId() *string
 	SetComputeSubnetId(val *string)
 	ComputeSubnetIdInput() *string
@@ -29,7 +29,7 @@ type SynapseWorkspace interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
-	ConnectivityEndpoints() cdktf.StringMap
+	ConnectivityEndpoints() cdktn.StringMap
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -46,9 +46,9 @@ type SynapseWorkspace interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -61,9 +61,9 @@ type SynapseWorkspace interface {
 	IdentityInput() *SynapseWorkspaceIdentity
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LinkingAllowedForAadTenantIds() *[]*string
 	SetLinkingAllowedForAadTenantIds(val *[]*string)
 	LinkingAllowedForAadTenantIdsInput() *[]*string
@@ -82,9 +82,9 @@ type SynapseWorkspace interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -116,7 +116,7 @@ type SynapseWorkspace interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -131,7 +131,7 @@ type SynapseWorkspace interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -149,9 +149,9 @@ type SynapseWorkspace interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -207,7 +207,7 @@ type SynapseWorkspace interface {
 
 // The jsii proxy struct for SynapseWorkspace
 type jsiiProxy_SynapseWorkspace struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_SynapseWorkspace) AzureadAuthenticationOnly() interface{} {
@@ -250,8 +250,8 @@ func (j *jsiiProxy_SynapseWorkspace) AzureDevopsRepoInput() *SynapseWorkspaceAzu
 	return returns
 }
 
-func (j *jsiiProxy_SynapseWorkspace) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_SynapseWorkspace) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -290,8 +290,8 @@ func (j *jsiiProxy_SynapseWorkspace) Connection() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_SynapseWorkspace) ConnectivityEndpoints() cdktf.StringMap {
-	var returns cdktf.StringMap
+func (j *jsiiProxy_SynapseWorkspace) ConnectivityEndpoints() cdktn.StringMap {
+	var returns cdktn.StringMap
 	_jsii_.Get(
 		j,
 		"connectivityEndpoints",
@@ -370,8 +370,8 @@ func (j *jsiiProxy_SynapseWorkspace) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SynapseWorkspace) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_SynapseWorkspace) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -460,8 +460,8 @@ func (j *jsiiProxy_SynapseWorkspace) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_SynapseWorkspace) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_SynapseWorkspace) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -580,8 +580,8 @@ func (j *jsiiProxy_SynapseWorkspace) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_SynapseWorkspace) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_SynapseWorkspace) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -770,8 +770,8 @@ func (j *jsiiProxy_SynapseWorkspace) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_SynapseWorkspace) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_SynapseWorkspace) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -913,7 +913,7 @@ func (j *jsiiProxy_SynapseWorkspace)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_SynapseWorkspace)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_SynapseWorkspace)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -932,7 +932,7 @@ func (j *jsiiProxy_SynapseWorkspace)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SynapseWorkspace)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_SynapseWorkspace)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -998,7 +998,7 @@ func (j *jsiiProxy_SynapseWorkspace)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_SynapseWorkspace)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_SynapseWorkspace)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1105,14 +1105,14 @@ func (j *jsiiProxy_SynapseWorkspace)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a SynapseWorkspace resource upon running "cdktf plan <stack-name>".
-func SynapseWorkspace_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a SynapseWorkspace resource upon running "cdktn plan <stack-name>".
+func SynapseWorkspace_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateSynapseWorkspace_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.synapseWorkspace.SynapseWorkspace",
@@ -1246,11 +1246,11 @@ func (s *jsiiProxy_SynapseWorkspace) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (s *jsiiProxy_SynapseWorkspace) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SynapseWorkspace) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -1387,7 +1387,7 @@ func (s *jsiiProxy_SynapseWorkspace) HasResourceMove() interface{} {
 	return returns
 }
 
-func (s *jsiiProxy_SynapseWorkspace) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (s *jsiiProxy_SynapseWorkspace) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := s.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1398,11 +1398,11 @@ func (s *jsiiProxy_SynapseWorkspace) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (s *jsiiProxy_SynapseWorkspace) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SynapseWorkspace) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,

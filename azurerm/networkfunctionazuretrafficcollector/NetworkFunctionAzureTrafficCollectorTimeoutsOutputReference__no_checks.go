@@ -47,7 +47,7 @@ func (n *jsiiProxy_NetworkFunctionAzureTrafficCollectorTimeoutsOutputReference) 
 	return nil
 }
 
-func (n *jsiiProxy_NetworkFunctionAzureTrafficCollectorTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkFunctionAzureTrafficCollectorTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_NetworkFunctionAzureTrafficCollectorTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_NetworkFunctionAzureTrafficCollectorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkFunctionAzureTrafficCollectorTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_NetworkFunctionAzureTrafficCollectorTimeoutsOutputReference) 
 	return nil
 }
 
-func validateNewNetworkFunctionAzureTrafficCollectorTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewNetworkFunctionAzureTrafficCollectorTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

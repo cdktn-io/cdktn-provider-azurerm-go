@@ -107,7 +107,7 @@ func (j *jsiiProxy_NetworkSecurityPerimeterProfile) validateSetIdParameters(val 
 	return nil
 }
 
-func (j *jsiiProxy_NetworkSecurityPerimeterProfile) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkSecurityPerimeterProfile) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

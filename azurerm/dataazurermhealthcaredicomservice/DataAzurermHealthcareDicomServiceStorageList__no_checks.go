@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermHealthcareDicomServiceStorageList) validateGetPara
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermHealthcareDicomServiceStorageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermHealthcareDicomServiceStorageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermHealthcareDicomServiceStorageList) validateSetTerr
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermHealthcareDicomServiceStorageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermHealthcareDicomServiceStorageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermHealthcareDicomServiceStorageList) validateSetWrap
 	return nil
 }
 
-func validateNewDataAzurermHealthcareDicomServiceStorageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermHealthcareDicomServiceStorageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

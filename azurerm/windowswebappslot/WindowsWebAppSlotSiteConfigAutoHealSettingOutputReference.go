@@ -5,14 +5,14 @@ package windowswebappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/windowswebappslot/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/windowswebappslot/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Action() WindowsWebAppSlotSiteConfigAutoHealSettingActionOutputReference
 	ActionInput() *WindowsWebAppSlotSiteConfigAutoHealSettingAction
 	// the index of the complex object in a list.
@@ -39,9 +39,9 @@ type WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Trigger() WindowsWebAppSlotSiteConfigAutoHealSettingTriggerOutputReference
 	TriggerInput() *WindowsWebAppSlotSiteConfigAutoHealSettingTrigger
 	// Experimental.
@@ -49,7 +49,7 @@ type WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,14 +65,14 @@ type WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAction(value *WindowsWebAppSlotSiteConfigAutoHealSettingAction)
 	PutTrigger(value *WindowsWebAppSlotSiteConfigAutoHealSettingTrigger)
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -82,7 +82,7 @@ type WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference interface {
 
 // The jsii proxy struct for WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference
 type jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Action() WindowsWebAppSlotSiteConfigAutoHealSettingActionOutputReference {
@@ -165,8 +165,8 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Te
 	return returns
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -196,7 +196,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Tr
 }
 
 
-func NewWindowsWebAppSlotSiteConfigAutoHealSettingOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference {
+func NewWindowsWebAppSlotSiteConfigAutoHealSettingOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewWindowsWebAppSlotSiteConfigAutoHealSettingOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -213,7 +213,7 @@ func NewWindowsWebAppSlotSiteConfigAutoHealSettingOutputReference(terraformResou
 	return &j
 }
 
-func NewWindowsWebAppSlotSiteConfigAutoHealSettingOutputReference_Override(w WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewWindowsWebAppSlotSiteConfigAutoHealSettingOutputReference_Override(w WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -267,7 +267,7 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference)Set
 	)
 }
 
-func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -307,11 +307,11 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Ge
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -435,8 +435,8 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Ge
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -448,11 +448,11 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) In
 	return returns
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := w.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		w,
@@ -486,7 +486,7 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Pu
 	)
 }
 
-func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigAutoHealSettingOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := w.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

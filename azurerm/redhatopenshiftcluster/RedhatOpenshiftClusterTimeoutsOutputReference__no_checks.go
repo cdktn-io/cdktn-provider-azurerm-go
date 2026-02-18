@@ -47,7 +47,7 @@ func (r *jsiiProxy_RedhatOpenshiftClusterTimeoutsOutputReference) validateInterp
 	return nil
 }
 
-func (r *jsiiProxy_RedhatOpenshiftClusterTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_RedhatOpenshiftClusterTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_RedhatOpenshiftClusterTimeoutsOutputReference) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_RedhatOpenshiftClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_RedhatOpenshiftClusterTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_RedhatOpenshiftClusterTimeoutsOutputReference) validateSetUpd
 	return nil
 }
 
-func validateNewRedhatOpenshiftClusterTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewRedhatOpenshiftClusterTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

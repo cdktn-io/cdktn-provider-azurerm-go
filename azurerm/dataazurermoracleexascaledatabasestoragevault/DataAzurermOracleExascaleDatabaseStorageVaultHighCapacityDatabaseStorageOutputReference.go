@@ -5,14 +5,14 @@ package dataazurermoracleexascaledatabasestoragevault
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermoracleexascaledatabasestoragevault/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracleexascaledatabasestoragevault/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	AvailableSizeInGb() *float64
 	// the index of the complex object in a list.
 	// Experimental.
@@ -38,16 +38,16 @@ type DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOut
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	TotalSizeInGb() *float64
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOut
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOut
 
 // The jsii proxy struct for DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference
 type jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) AvailableSizeInGb() *float64 {
@@ -151,8 +151,8 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 }
 
 
-func NewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference {
+func NewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorage
 	return &j
 }
 
-func NewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference_Override(d DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference_Override(d DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	)
 }
 
-func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -411,8 +411,8 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -424,11 +424,11 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -440,7 +440,7 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityData
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVaultHighCapacityDatabaseStorageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

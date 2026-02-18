@@ -5,23 +5,23 @@ package healthcareservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/healthcareservice/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/healthcareservice/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/healthcare_service azurerm_healthcare_service}.
 type HealthcareService interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessPolicyObjectIds() *[]*string
 	SetAccessPolicyObjectIds(val *[]*string)
 	AccessPolicyObjectIdsInput() *[]*string
 	AuthenticationConfiguration() HealthcareServiceAuthenticationConfigurationOutputReference
 	AuthenticationConfigurationInput() *HealthcareServiceAuthenticationConfiguration
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ConfigurationExportStorageAccountName() *string
 	SetConfigurationExportStorageAccountName(val *string)
 	ConfigurationExportStorageAccountNameInput() *string
@@ -48,9 +48,9 @@ type HealthcareService interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -64,9 +64,9 @@ type HealthcareService interface {
 	SetKind(val *string)
 	KindInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -76,9 +76,9 @@ type HealthcareService interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -95,7 +95,7 @@ type HealthcareService interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -110,7 +110,7 @@ type HealthcareService interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -128,9 +128,9 @@ type HealthcareService interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -179,7 +179,7 @@ type HealthcareService interface {
 
 // The jsii proxy struct for HealthcareService
 type jsiiProxy_HealthcareService struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_HealthcareService) AccessPolicyObjectIds() *[]*string {
@@ -222,8 +222,8 @@ func (j *jsiiProxy_HealthcareService) AuthenticationConfigurationInput() *Health
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareService) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_HealthcareService) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -352,8 +352,8 @@ func (j *jsiiProxy_HealthcareService) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareService) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_HealthcareService) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -442,8 +442,8 @@ func (j *jsiiProxy_HealthcareService) KindInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareService) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_HealthcareService) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -502,8 +502,8 @@ func (j *jsiiProxy_HealthcareService) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareService) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_HealthcareService) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -592,8 +592,8 @@ func (j *jsiiProxy_HealthcareService) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_HealthcareService) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_HealthcareService) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -746,7 +746,7 @@ func (j *jsiiProxy_HealthcareService)SetDependsOn(val *[]*string) {
 	)
 }
 
-func (j *jsiiProxy_HealthcareService)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_HealthcareService)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -776,7 +776,7 @@ func (j *jsiiProxy_HealthcareService)SetKind(val *string) {
 	)
 }
 
-func (j *jsiiProxy_HealthcareService)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_HealthcareService)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -809,7 +809,7 @@ func (j *jsiiProxy_HealthcareService)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_HealthcareService)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_HealthcareService)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -861,14 +861,14 @@ func (j *jsiiProxy_HealthcareService)SetTags(val *map[string]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a HealthcareService resource upon running "cdktf plan <stack-name>".
-func HealthcareService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a HealthcareService resource upon running "cdktn plan <stack-name>".
+func HealthcareService_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateHealthcareService_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.healthcareService.HealthcareService",
@@ -1002,11 +1002,11 @@ func (h *jsiiProxy_HealthcareService) GetAnyMapAttribute(terraformAttribute *str
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareService) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareService) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,
@@ -1143,7 +1143,7 @@ func (h *jsiiProxy_HealthcareService) HasResourceMove() interface{} {
 	return returns
 }
 
-func (h *jsiiProxy_HealthcareService) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (h *jsiiProxy_HealthcareService) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := h.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1154,11 +1154,11 @@ func (h *jsiiProxy_HealthcareService) ImportFrom(id *string, provider cdktf.Terr
 	)
 }
 
-func (h *jsiiProxy_HealthcareService) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (h *jsiiProxy_HealthcareService) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := h.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		h,

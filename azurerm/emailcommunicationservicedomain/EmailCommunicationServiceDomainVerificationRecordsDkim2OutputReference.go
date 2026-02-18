@@ -5,14 +5,14 @@ package emailcommunicationservicedomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/emailcommunicationservicedomain/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/emailcommunicationservicedomain/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -38,9 +38,9 @@ type EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference inte
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Ttl() *float64
 	Type() *string
 	Value() *string
@@ -49,7 +49,7 @@ type EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference inte
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference inte
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference inte
 
 // The jsii proxy struct for EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference
 type jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) ComplexObjectIndex() interface{} {
@@ -153,8 +153,8 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2Output
 	return returns
 }
 
-func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2Output
 }
 
 
-func NewEmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference {
+func NewEmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference {
 	_init_.Initialize()
 
 	if err := validateNewEmailCommunicationServiceDomainVerificationRecordsDkim2OutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewEmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference(t
 	return &j
 }
 
-func NewEmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference_Override(e EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewEmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference_Override(e EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2Output
 	)
 }
 
-func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2Output
 	return returns
 }
 
-func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -433,8 +433,8 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2Output
 	return returns
 }
 
-func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -446,11 +446,11 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2Output
 	return returns
 }
 
-func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := e.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		e,
@@ -462,7 +462,7 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2Output
 	return returns
 }
 
-func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (e *jsiiProxy_EmailCommunicationServiceDomainVerificationRecordsDkim2OutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := e.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

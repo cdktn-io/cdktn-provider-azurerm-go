@@ -15,7 +15,7 @@ func (s *jsiiProxy_SecurityCenterAutomationSourceRuleSetList) validateGetParamet
 	return nil
 }
 
-func (s *jsiiProxy_SecurityCenterAutomationSourceRuleSetList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SecurityCenterAutomationSourceRuleSetList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SecurityCenterAutomationSourceRuleSetList) validateSetTerrafo
 	return nil
 }
 
-func (j *jsiiProxy_SecurityCenterAutomationSourceRuleSetList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SecurityCenterAutomationSourceRuleSetList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SecurityCenterAutomationSourceRuleSetList) validateSetWrapsSe
 	return nil
 }
 
-func validateNewSecurityCenterAutomationSourceRuleSetListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSecurityCenterAutomationSourceRuleSetListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

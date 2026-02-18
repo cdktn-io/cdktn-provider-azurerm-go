@@ -5,21 +5,21 @@ package logicappworkflow
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/logicappworkflow/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/logicappworkflow/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/logic_app_workflow azurerm_logic_app_workflow}.
 type LogicAppWorkflow interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AccessControl() LogicAppWorkflowAccessControlOutputReference
 	AccessControlInput() *LogicAppWorkflowAccessControl
 	AccessEndpoint() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -40,9 +40,9 @@ type LogicAppWorkflow interface {
 	SetEnabled(val interface{})
 	EnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -56,9 +56,9 @@ type LogicAppWorkflow interface {
 	SetIntegrationServiceEnvironmentId(val *string)
 	IntegrationServiceEnvironmentIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -74,9 +74,9 @@ type LogicAppWorkflow interface {
 	SetParameters(val *map[string]*string)
 	ParametersInput() *map[string]*string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -90,7 +90,7 @@ type LogicAppWorkflow interface {
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -116,7 +116,7 @@ type LogicAppWorkflow interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -134,9 +134,9 @@ type LogicAppWorkflow interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -184,7 +184,7 @@ type LogicAppWorkflow interface {
 
 // The jsii proxy struct for LogicAppWorkflow
 type jsiiProxy_LogicAppWorkflow struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_LogicAppWorkflow) AccessControl() LogicAppWorkflowAccessControlOutputReference {
@@ -217,8 +217,8 @@ func (j *jsiiProxy_LogicAppWorkflow) AccessEndpoint() *string {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppWorkflow) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_LogicAppWorkflow) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -307,8 +307,8 @@ func (j *jsiiProxy_LogicAppWorkflow) EnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppWorkflow) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_LogicAppWorkflow) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -397,8 +397,8 @@ func (j *jsiiProxy_LogicAppWorkflow) IntegrationServiceEnvironmentIdInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppWorkflow) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_LogicAppWorkflow) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -497,8 +497,8 @@ func (j *jsiiProxy_LogicAppWorkflow) ParametersInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppWorkflow) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_LogicAppWorkflow) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -567,8 +567,8 @@ func (j *jsiiProxy_LogicAppWorkflow) TagsInput() *map[string]*string {
 	return returns
 }
 
-func (j *jsiiProxy_LogicAppWorkflow) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_LogicAppWorkflow) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -768,7 +768,7 @@ func (j *jsiiProxy_LogicAppWorkflow)SetEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_LogicAppWorkflow)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_LogicAppWorkflow)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -798,7 +798,7 @@ func (j *jsiiProxy_LogicAppWorkflow)SetIntegrationServiceEnvironmentId(val *stri
 	)
 }
 
-func (j *jsiiProxy_LogicAppWorkflow)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_LogicAppWorkflow)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -853,7 +853,7 @@ func (j *jsiiProxy_LogicAppWorkflow)SetParameters(val *map[string]*string) {
 	)
 }
 
-func (j *jsiiProxy_LogicAppWorkflow)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_LogicAppWorkflow)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -927,14 +927,14 @@ func (j *jsiiProxy_LogicAppWorkflow)SetWorkflowVersion(val *string) {
 	)
 }
 
-// Generates CDKTF code for importing a LogicAppWorkflow resource upon running "cdktf plan <stack-name>".
-func LogicAppWorkflow_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a LogicAppWorkflow resource upon running "cdktn plan <stack-name>".
+func LogicAppWorkflow_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateLogicAppWorkflow_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.logicAppWorkflow.LogicAppWorkflow",
@@ -1068,11 +1068,11 @@ func (l *jsiiProxy_LogicAppWorkflow) GetAnyMapAttribute(terraformAttribute *stri
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppWorkflow) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppWorkflow) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,
@@ -1209,7 +1209,7 @@ func (l *jsiiProxy_LogicAppWorkflow) HasResourceMove() interface{} {
 	return returns
 }
 
-func (l *jsiiProxy_LogicAppWorkflow) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (l *jsiiProxy_LogicAppWorkflow) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := l.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1220,11 +1220,11 @@ func (l *jsiiProxy_LogicAppWorkflow) ImportFrom(id *string, provider cdktf.Terra
 	)
 }
 
-func (l *jsiiProxy_LogicAppWorkflow) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (l *jsiiProxy_LogicAppWorkflow) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := l.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		l,

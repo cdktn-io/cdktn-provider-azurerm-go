@@ -47,7 +47,7 @@ func (l *jsiiProxy_LogicAppIntegrationAccountAgreementGuestIdentityOutputReferen
 	return nil
 }
 
-func (l *jsiiProxy_LogicAppIntegrationAccountAgreementGuestIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LogicAppIntegrationAccountAgreementGuestIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountAgreementGuestIdentityOutputReferen
 	return nil
 }
 
-func (j *jsiiProxy_LogicAppIntegrationAccountAgreementGuestIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LogicAppIntegrationAccountAgreementGuestIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountAgreementGuestIdentityOutputReferen
 	return nil
 }
 
-func validateNewLogicAppIntegrationAccountAgreementGuestIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewLogicAppIntegrationAccountAgreementGuestIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

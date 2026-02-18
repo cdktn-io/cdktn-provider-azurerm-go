@@ -47,7 +47,7 @@ func (s *jsiiProxy_SignalrServiceSkuOutputReference) validateInterpolationForAtt
 	return nil
 }
 
-func (s *jsiiProxy_SignalrServiceSkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SignalrServiceSkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SignalrServiceSkuOutputReference) validateSetTerraformAttribu
 	return nil
 }
 
-func (j *jsiiProxy_SignalrServiceSkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SignalrServiceSkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSignalrServiceSkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSignalrServiceSkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

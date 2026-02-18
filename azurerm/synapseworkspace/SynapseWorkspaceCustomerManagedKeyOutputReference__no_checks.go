@@ -47,7 +47,7 @@ func (s *jsiiProxy_SynapseWorkspaceCustomerManagedKeyOutputReference) validateIn
 	return nil
 }
 
-func (s *jsiiProxy_SynapseWorkspaceCustomerManagedKeyOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SynapseWorkspaceCustomerManagedKeyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_SynapseWorkspaceCustomerManagedKeyOutputReference) validateSe
 	return nil
 }
 
-func (j *jsiiProxy_SynapseWorkspaceCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SynapseWorkspaceCustomerManagedKeyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_SynapseWorkspaceCustomerManagedKeyOutputReference) validateSe
 	return nil
 }
 
-func validateNewSynapseWorkspaceCustomerManagedKeyOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSynapseWorkspaceCustomerManagedKeyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

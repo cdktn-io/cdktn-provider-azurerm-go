@@ -5,16 +5,16 @@ package kubernetesclusternodepool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/kubernetesclusternodepool/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/kubernetesclusternodepool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool}.
 type KubernetesClusterNodePool interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AutoScalingEnabled() interface{}
 	SetAutoScalingEnabled(val interface{})
 	AutoScalingEnabledInput() interface{}
@@ -22,7 +22,7 @@ type KubernetesClusterNodePool interface {
 	SetCapacityReservationGroupId(val *string)
 	CapacityReservationGroupIdInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -44,9 +44,9 @@ type KubernetesClusterNodePool interface {
 	SetFipsEnabled(val interface{})
 	FipsEnabledInput() interface{}
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -75,9 +75,9 @@ type KubernetesClusterNodePool interface {
 	SetKubernetesClusterId(val *string)
 	KubernetesClusterIdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	LinuxOsConfig() KubernetesClusterNodePoolLinuxOsConfigOutputReference
 	LinuxOsConfigInput() *KubernetesClusterNodePoolLinuxOsConfig
 	MaxCount() *float64
@@ -136,9 +136,9 @@ type KubernetesClusterNodePool interface {
 	SetPriority(val *string)
 	PriorityInput() *string
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -164,7 +164,7 @@ type KubernetesClusterNodePool interface {
 	SetTemporaryNameForRotation(val *string)
 	TemporaryNameForRotationInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -198,7 +198,7 @@ type KubernetesClusterNodePool interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -216,9 +216,9 @@ type KubernetesClusterNodePool interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -300,7 +300,7 @@ type KubernetesClusterNodePool interface {
 
 // The jsii proxy struct for KubernetesClusterNodePool
 type jsiiProxy_KubernetesClusterNodePool struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_KubernetesClusterNodePool) AutoScalingEnabled() interface{} {
@@ -343,8 +343,8 @@ func (j *jsiiProxy_KubernetesClusterNodePool) CapacityReservationGroupIdInput() 
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_KubernetesClusterNodePool) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -433,8 +433,8 @@ func (j *jsiiProxy_KubernetesClusterNodePool) FipsEnabledInput() interface{} {
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_KubernetesClusterNodePool) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -623,8 +623,8 @@ func (j *jsiiProxy_KubernetesClusterNodePool) KubernetesClusterIdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_KubernetesClusterNodePool) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -1023,8 +1023,8 @@ func (j *jsiiProxy_KubernetesClusterNodePool) PriorityInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_KubernetesClusterNodePool) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -1173,8 +1173,8 @@ func (j *jsiiProxy_KubernetesClusterNodePool) TemporaryNameForRotationInput() *s
 	return returns
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_KubernetesClusterNodePool) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -1467,7 +1467,7 @@ func (j *jsiiProxy_KubernetesClusterNodePool)SetFipsEnabled(val interface{}) {
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_KubernetesClusterNodePool)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -1552,7 +1552,7 @@ func (j *jsiiProxy_KubernetesClusterNodePool)SetKubernetesClusterId(val *string)
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_KubernetesClusterNodePool)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -1750,7 +1750,7 @@ func (j *jsiiProxy_KubernetesClusterNodePool)SetPriority(val *string) {
 	)
 }
 
-func (j *jsiiProxy_KubernetesClusterNodePool)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_KubernetesClusterNodePool)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -1890,14 +1890,14 @@ func (j *jsiiProxy_KubernetesClusterNodePool)SetZones(val *[]*string) {
 	)
 }
 
-// Generates CDKTF code for importing a KubernetesClusterNodePool resource upon running "cdktf plan <stack-name>".
-func KubernetesClusterNodePool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a KubernetesClusterNodePool resource upon running "cdktn plan <stack-name>".
+func KubernetesClusterNodePool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateKubernetesClusterNodePool_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.kubernetesClusterNodePool.KubernetesClusterNodePool",
@@ -2031,11 +2031,11 @@ func (k *jsiiProxy_KubernetesClusterNodePool) GetAnyMapAttribute(terraformAttrib
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePool) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterNodePool) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,
@@ -2172,7 +2172,7 @@ func (k *jsiiProxy_KubernetesClusterNodePool) HasResourceMove() interface{} {
 	return returns
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePool) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (k *jsiiProxy_KubernetesClusterNodePool) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := k.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -2183,11 +2183,11 @@ func (k *jsiiProxy_KubernetesClusterNodePool) ImportFrom(id *string, provider cd
 	)
 }
 
-func (k *jsiiProxy_KubernetesClusterNodePool) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (k *jsiiProxy_KubernetesClusterNodePool) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := k.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		k,

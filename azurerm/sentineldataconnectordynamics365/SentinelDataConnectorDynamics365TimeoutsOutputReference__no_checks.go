@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelDataConnectorDynamics365TimeoutsOutputReference) vali
 	return nil
 }
 
-func (s *jsiiProxy_SentinelDataConnectorDynamics365TimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelDataConnectorDynamics365TimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_SentinelDataConnectorDynamics365TimeoutsOutputReference) vali
 	return nil
 }
 
-func (j *jsiiProxy_SentinelDataConnectorDynamics365TimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelDataConnectorDynamics365TimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelDataConnectorDynamics365TimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSentinelDataConnectorDynamics365TimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

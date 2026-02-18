@@ -135,7 +135,7 @@ func (j *jsiiProxy_KeyVaultKey) validateSetKeyVaultIdParameters(val *string) err
 	return nil
 }
 
-func (j *jsiiProxy_KeyVaultKey) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_KeyVaultKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

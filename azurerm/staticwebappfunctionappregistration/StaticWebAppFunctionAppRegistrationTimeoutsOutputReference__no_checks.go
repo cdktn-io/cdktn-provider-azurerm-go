@@ -47,7 +47,7 @@ func (s *jsiiProxy_StaticWebAppFunctionAppRegistrationTimeoutsOutputReference) v
 	return nil
 }
 
-func (s *jsiiProxy_StaticWebAppFunctionAppRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StaticWebAppFunctionAppRegistrationTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,11 +79,11 @@ func (j *jsiiProxy_StaticWebAppFunctionAppRegistrationTimeoutsOutputReference) v
 	return nil
 }
 
-func (j *jsiiProxy_StaticWebAppFunctionAppRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StaticWebAppFunctionAppRegistrationTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewStaticWebAppFunctionAppRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStaticWebAppFunctionAppRegistrationTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

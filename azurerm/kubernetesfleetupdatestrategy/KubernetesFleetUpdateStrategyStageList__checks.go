@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -29,7 +29,7 @@ func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateGetParameters
 	return nil
 }
 
-func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -39,7 +39,7 @@ func (k *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateResolveParame
 
 func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateSetInternalValueParameters(val interface{}) error {
 	switch val.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*KubernetesFleetUpdateStrategyStage:
 		val := val.(*[]*KubernetesFleetUpdateStrategyStage)
@@ -58,7 +58,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateSetInternalVa
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(val) {
-			return fmt.Errorf("parameter val must be one of the allowed types: cdktf.IResolvable, *[]*KubernetesFleetUpdateStrategyStage; received %#v (a %T)", val, val)
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*KubernetesFleetUpdateStrategyStage; received %#v (a %T)", val, val)
 		}
 	}
 
@@ -73,7 +73,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateSetTerraformA
 	return nil
 }
 
-func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -89,7 +89,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateStrategyStageList) validateSetWrapsSetPa
 	return nil
 }
 
-func validateNewKubernetesFleetUpdateStrategyStageListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewKubernetesFleetUpdateStrategyStageListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

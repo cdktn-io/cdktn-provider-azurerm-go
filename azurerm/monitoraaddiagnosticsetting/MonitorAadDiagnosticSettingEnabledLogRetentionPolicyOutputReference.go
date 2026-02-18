@@ -5,14 +5,14 @@ package monitoraaddiagnosticsetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/monitoraaddiagnosticsetting/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitoraaddiagnosticsetting/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -43,15 +43,15 @@ type MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference interfa
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -67,14 +67,14 @@ type MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference interfa
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetDays()
 	ResetEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -84,7 +84,7 @@ type MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference interfa
 
 // The jsii proxy struct for MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference
 type jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) ComplexObjectIndex() interface{} {
@@ -187,8 +187,8 @@ func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputRef
 	return returns
 }
 
-func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -198,7 +198,7 @@ func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputRef
 }
 
 
-func NewMonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference {
+func NewMonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewMonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
@@ -215,7 +215,7 @@ func NewMonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference(terr
 	return &j
 }
 
-func NewMonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference_Override(m MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) {
+func NewMonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference_Override(m MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -291,7 +291,7 @@ func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputRef
 	)
 }
 
-func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -331,11 +331,11 @@ func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputRef
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -459,8 +459,8 @@ func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputRef
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -472,11 +472,11 @@ func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputRef
 	return returns
 }
 
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -504,7 +504,7 @@ func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputRef
 	)
 }
 
-func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (m *jsiiProxy_MonitorAadDiagnosticSettingEnabledLogRetentionPolicyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := m.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCer
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCer
 	return nil
 }
 
-func validateNewDataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermVirtualNetworkGatewayVpnClientConfigurationRootCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

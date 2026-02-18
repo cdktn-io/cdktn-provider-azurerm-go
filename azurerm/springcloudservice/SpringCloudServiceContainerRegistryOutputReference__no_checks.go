@@ -47,7 +47,7 @@ func (s *jsiiProxy_SpringCloudServiceContainerRegistryOutputReference) validateI
 	return nil
 }
 
-func (s *jsiiProxy_SpringCloudServiceContainerRegistryOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SpringCloudServiceContainerRegistryOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_SpringCloudServiceContainerRegistryOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_SpringCloudServiceContainerRegistryOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SpringCloudServiceContainerRegistryOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_SpringCloudServiceContainerRegistryOutputReference) validateS
 	return nil
 }
 
-func validateNewSpringCloudServiceContainerRegistryOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSpringCloudServiceContainerRegistryOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_StorageAccountLocalUserPermissionScopePermissionsOutputRefere
 	return nil
 }
 
-func (s *jsiiProxy_StorageAccountLocalUserPermissionScopePermissionsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_StorageAccountLocalUserPermissionScopePermissionsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_StorageAccountLocalUserPermissionScopePermissionsOutputRefere
 	return nil
 }
 
-func (j *jsiiProxy_StorageAccountLocalUserPermissionScopePermissionsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_StorageAccountLocalUserPermissionScopePermissionsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -91,7 +91,7 @@ func (j *jsiiProxy_StorageAccountLocalUserPermissionScopePermissionsOutputRefere
 	return nil
 }
 
-func validateNewStorageAccountLocalUserPermissionScopePermissionsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewStorageAccountLocalUserPermissionScopePermissionsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

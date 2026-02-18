@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermDataFactoryGithubConfigurationList) validateGetPar
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermDataFactoryGithubConfigurationList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermDataFactoryGithubConfigurationList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryGithubConfigurationList) validateSetTer
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermDataFactoryGithubConfigurationList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermDataFactoryGithubConfigurationList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryGithubConfigurationList) validateSetWra
 	return nil
 }
 
-func validateNewDataAzurermDataFactoryGithubConfigurationListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermDataFactoryGithubConfigurationListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

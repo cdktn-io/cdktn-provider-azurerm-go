@@ -47,7 +47,7 @@ func (a *jsiiProxy_AiFoundryEncryptionOutputReference) validateInterpolationForA
 	return nil
 }
 
-func (a *jsiiProxy_AiFoundryEncryptionOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_AiFoundryEncryptionOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,7 +75,7 @@ func (j *jsiiProxy_AiFoundryEncryptionOutputReference) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_AiFoundryEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_AiFoundryEncryptionOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_AiFoundryEncryptionOutputReference) validateSetUserAssignedId
 	return nil
 }
 
-func validateNewAiFoundryEncryptionOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewAiFoundryEncryptionOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

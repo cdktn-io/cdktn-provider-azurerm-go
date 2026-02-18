@@ -5,21 +5,21 @@ package virtualmachinedatadiskattachment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/virtualmachinedatadiskattachment/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualmachinedatadiskattachment/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/virtual_machine_data_disk_attachment azurerm_virtual_machine_data_disk_attachment}.
 type VirtualMachineDataDiskAttachment interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	Caching() *string
 	SetCaching(val *string)
 	CachingInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -38,9 +38,9 @@ type VirtualMachineDataDiskAttachment interface {
 	// Experimental.
 	SetDependsOn(val *[]*string)
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -49,9 +49,9 @@ type VirtualMachineDataDiskAttachment interface {
 	SetId(val *string)
 	IdInput() *string
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Lun() *float64
 	SetLun(val *float64)
 	LunInput() *float64
@@ -61,9 +61,9 @@ type VirtualMachineDataDiskAttachment interface {
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -71,7 +71,7 @@ type VirtualMachineDataDiskAttachment interface {
 	// Experimental.
 	RawOverrides() interface{}
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -92,7 +92,7 @@ type VirtualMachineDataDiskAttachment interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -110,9 +110,9 @@ type VirtualMachineDataDiskAttachment interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -150,7 +150,7 @@ type VirtualMachineDataDiskAttachment interface {
 
 // The jsii proxy struct for VirtualMachineDataDiskAttachment
 type jsiiProxy_VirtualMachineDataDiskAttachment struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_VirtualMachineDataDiskAttachment) Caching() *string {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment) CachingInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -243,8 +243,8 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment) DependsOn() *[]*string {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -293,8 +293,8 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -353,8 +353,8 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment) Node() constructs.Node {
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -383,8 +383,8 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment) RawOverrides() interface{} 
 	return returns
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -555,7 +555,7 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetDependsOn(val *[]*string)
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -574,7 +574,7 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -607,7 +607,7 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetManagedDiskId(val *string
 	)
 }
 
-func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -648,14 +648,14 @@ func (j *jsiiProxy_VirtualMachineDataDiskAttachment)SetWriteAcceleratorEnabled(v
 	)
 }
 
-// Generates CDKTF code for importing a VirtualMachineDataDiskAttachment resource upon running "cdktf plan <stack-name>".
-func VirtualMachineDataDiskAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a VirtualMachineDataDiskAttachment resource upon running "cdktn plan <stack-name>".
+func VirtualMachineDataDiskAttachment_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateVirtualMachineDataDiskAttachment_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.virtualMachineDataDiskAttachment.VirtualMachineDataDiskAttachment",
@@ -789,11 +789,11 @@ func (v *jsiiProxy_VirtualMachineDataDiskAttachment) GetAnyMapAttribute(terrafor
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineDataDiskAttachment) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineDataDiskAttachment) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,
@@ -930,7 +930,7 @@ func (v *jsiiProxy_VirtualMachineDataDiskAttachment) HasResourceMove() interface
 	return returns
 }
 
-func (v *jsiiProxy_VirtualMachineDataDiskAttachment) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (v *jsiiProxy_VirtualMachineDataDiskAttachment) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := v.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -941,11 +941,11 @@ func (v *jsiiProxy_VirtualMachineDataDiskAttachment) ImportFrom(id *string, prov
 	)
 }
 
-func (v *jsiiProxy_VirtualMachineDataDiskAttachment) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (v *jsiiProxy_VirtualMachineDataDiskAttachment) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := v.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		v,

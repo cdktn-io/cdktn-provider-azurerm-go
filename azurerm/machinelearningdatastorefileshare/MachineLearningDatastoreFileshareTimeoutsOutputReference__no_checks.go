@@ -47,7 +47,7 @@ func (m *jsiiProxy_MachineLearningDatastoreFileshareTimeoutsOutputReference) val
 	return nil
 }
 
-func (m *jsiiProxy_MachineLearningDatastoreFileshareTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MachineLearningDatastoreFileshareTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MachineLearningDatastoreFileshareTimeoutsOutputReference) val
 	return nil
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreFileshareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MachineLearningDatastoreFileshareTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MachineLearningDatastoreFileshareTimeoutsOutputReference) val
 	return nil
 }
 
-func validateNewMachineLearningDatastoreFileshareTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMachineLearningDatastoreFileshareTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

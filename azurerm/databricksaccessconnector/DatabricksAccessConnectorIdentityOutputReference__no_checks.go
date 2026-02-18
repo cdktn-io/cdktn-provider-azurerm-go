@@ -47,7 +47,7 @@ func (d *jsiiProxy_DatabricksAccessConnectorIdentityOutputReference) validateInt
 	return nil
 }
 
-func (d *jsiiProxy_DatabricksAccessConnectorIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DatabricksAccessConnectorIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DatabricksAccessConnectorIdentityOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_DatabricksAccessConnectorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DatabricksAccessConnectorIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DatabricksAccessConnectorIdentityOutputReference) validateSet
 	return nil
 }
 
-func validateNewDatabricksAccessConnectorIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDatabricksAccessConnectorIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

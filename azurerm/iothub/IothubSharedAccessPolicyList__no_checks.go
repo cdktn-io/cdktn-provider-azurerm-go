@@ -15,7 +15,7 @@ func (i *jsiiProxy_IothubSharedAccessPolicyList) validateGetParameters(index *fl
 	return nil
 }
 
-func (i *jsiiProxy_IothubSharedAccessPolicyList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (i *jsiiProxy_IothubSharedAccessPolicyList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_IothubSharedAccessPolicyList) validateSetTerraformAttributePa
 	return nil
 }
 
-func (j *jsiiProxy_IothubSharedAccessPolicyList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_IothubSharedAccessPolicyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_IothubSharedAccessPolicyList) validateSetWrapsSetParameters(v
 	return nil
 }
 
-func validateNewIothubSharedAccessPolicyListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewIothubSharedAccessPolicyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

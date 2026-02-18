@@ -15,7 +15,7 @@ func (v *jsiiProxy_VpnServerConfigurationClientRevokedCertificateList) validateG
 	return nil
 }
 
-func (v *jsiiProxy_VpnServerConfigurationClientRevokedCertificateList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VpnServerConfigurationClientRevokedCertificateList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_VpnServerConfigurationClientRevokedCertificateList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_VpnServerConfigurationClientRevokedCertificateList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VpnServerConfigurationClientRevokedCertificateList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_VpnServerConfigurationClientRevokedCertificateList) validateS
 	return nil
 }
 
-func validateNewVpnServerConfigurationClientRevokedCertificateListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewVpnServerConfigurationClientRevokedCertificateListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

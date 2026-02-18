@@ -47,7 +47,7 @@ func (l *jsiiProxy_LbBackendAddressPoolTunnelInterfaceOutputReference) validateI
 	return nil
 }
 
-func (l *jsiiProxy_LbBackendAddressPoolTunnelInterfaceOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (l *jsiiProxy_LbBackendAddressPoolTunnelInterfaceOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_LbBackendAddressPoolTunnelInterfaceOutputReference) validateS
 	return nil
 }
 
-func (j *jsiiProxy_LbBackendAddressPoolTunnelInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_LbBackendAddressPoolTunnelInterfaceOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_LbBackendAddressPoolTunnelInterfaceOutputReference) validateS
 	return nil
 }
 
-func validateNewLbBackendAddressPoolTunnelInterfaceOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewLbBackendAddressPoolTunnelInterfaceOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

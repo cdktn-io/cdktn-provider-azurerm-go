@@ -10,7 +10,7 @@ import (
 
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
@@ -131,7 +131,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDestinationsLogAnalytics:
 		value := value.(*[]*MonitorDataCollectionRuleDestinationsLogAnalytics)
@@ -150,7 +150,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDestinationsLogAnalytics; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDestinationsLogAnalytics; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -162,7 +162,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDestinationsMonitorAccount:
 		value := value.(*[]*MonitorDataCollectionRuleDestinationsMonitorAccount)
@@ -181,7 +181,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDestinationsMonitorAccount; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDestinationsMonitorAccount; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -193,7 +193,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDestinationsStorageBlob:
 		value := value.(*[]*MonitorDataCollectionRuleDestinationsStorageBlob)
@@ -212,7 +212,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDestinationsStorageBlob; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDestinationsStorageBlob; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -224,7 +224,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDestinationsStorageBlobDirect:
 		value := value.(*[]*MonitorDataCollectionRuleDestinationsStorageBlobDirect)
@@ -243,7 +243,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDestinationsStorageBlobDirect; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDestinationsStorageBlobDirect; received %#v (a %T)", value, value)
 		}
 	}
 
@@ -255,7 +255,7 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		return fmt.Errorf("parameter value is required, but nil was provided")
 	}
 	switch value.(type) {
-	case cdktf.IResolvable:
+	case cdktn.IResolvable:
 		// ok
 	case *[]*MonitorDataCollectionRuleDestinationsStorageTableDirect:
 		value := value.(*[]*MonitorDataCollectionRuleDestinationsStorageTableDirect)
@@ -274,14 +274,14 @@ func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 		}
 	default:
 		if !_jsii_.IsAnonymousProxy(value) {
-			return fmt.Errorf("parameter value must be one of the allowed types: cdktf.IResolvable, *[]*MonitorDataCollectionRuleDestinationsStorageTableDirect; received %#v (a %T)", value, value)
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*MonitorDataCollectionRuleDestinationsStorageTableDirect; received %#v (a %T)", value, value)
 		}
 	}
 
 	return nil
 }
 
-func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -370,7 +370,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 	return nil
 }
 
-func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -378,7 +378,7 @@ func (j *jsiiProxy_MonitorDataCollectionRuleDestinationsOutputReference) validat
 	return nil
 }
 
-func validateNewMonitorDataCollectionRuleDestinationsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorDataCollectionRuleDestinationsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

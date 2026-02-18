@@ -5,15 +5,15 @@ package dataazurermdatabricksworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdatabricksworkspace/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermdatabricksworkspace/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference interface {
-	cdktf.ComplexObject
-	AutomaticClusterUpdateEnabled() cdktf.IResolvable
+	cdktn.ComplexObject
+	AutomaticClusterUpdateEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -24,14 +24,14 @@ type DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference int
 	ComplexObjectIsFromSet() *bool
 	// Experimental.
 	SetComplexObjectIsFromSet(val *bool)
-	ComplianceSecurityProfileEnabled() cdktf.IResolvable
+	ComplianceSecurityProfileEnabled() cdktn.IResolvable
 	ComplianceSecurityProfileStandards() *[]*string
 	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
 	//
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
-	EnhancedSecurityMonitoringEnabled() cdktf.IResolvable
+	EnhancedSecurityMonitoringEnabled() cdktn.IResolvable
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermDatabricksWorkspaceEnhancedSecurityCompliance
@@ -41,15 +41,15 @@ type DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference int
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference int
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,11 +80,11 @@ type DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference int
 
 // The jsii proxy struct for DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference
 type jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) AutomaticClusterUpdateEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) AutomaticClusterUpdateEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"automaticClusterUpdateEnabled",
@@ -113,8 +113,8 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) ComplianceSecurityProfileEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) ComplianceSecurityProfileEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"complianceSecurityProfileEnabled",
@@ -143,8 +143,8 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) EnhancedSecurityMonitoringEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) EnhancedSecurityMonitoringEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"enhancedSecurityMonitoringEnabled",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 }
 
 
-func NewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference {
+func NewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference(
 	return &j
 }
 
-func NewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference_Override(d DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference_Override(d DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	)
 }
 
-func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutpu
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermDatabricksWorkspaceEnhancedSecurityComplianceOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

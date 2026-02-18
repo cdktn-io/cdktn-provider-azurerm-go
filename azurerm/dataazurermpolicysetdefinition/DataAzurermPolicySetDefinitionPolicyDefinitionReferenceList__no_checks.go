@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermPolicySetDefinitionPolicyDefinitionReferenceList) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermPolicySetDefinitionPolicyDefinitionReferenceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermPolicySetDefinitionPolicyDefinitionReferenceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermPolicySetDefinitionPolicyDefinitionReferenceList) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermPolicySetDefinitionPolicyDefinitionReferenceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermPolicySetDefinitionPolicyDefinitionReferenceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermPolicySetDefinitionPolicyDefinitionReferenceList) 
 	return nil
 }
 
-func validateNewDataAzurermPolicySetDefinitionPolicyDefinitionReferenceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermPolicySetDefinitionPolicyDefinitionReferenceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -111,7 +111,7 @@ func (j *jsiiProxy_DatabricksAccessConnector) validateSetIdParameters(val *strin
 	return nil
 }
 
-func (j *jsiiProxy_DatabricksAccessConnector) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_DatabricksAccessConnector) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

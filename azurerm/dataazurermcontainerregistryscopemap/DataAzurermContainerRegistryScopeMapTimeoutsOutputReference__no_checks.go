@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermContainerRegistryScopeMapTimeoutsOutputReference) 
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermContainerRegistryScopeMapTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermContainerRegistryScopeMapTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,11 +71,11 @@ func (j *jsiiProxy_DataAzurermContainerRegistryScopeMapTimeoutsOutputReference) 
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermContainerRegistryScopeMapTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermContainerRegistryScopeMapTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermContainerRegistryScopeMapTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDataAzurermContainerRegistryScopeMapTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

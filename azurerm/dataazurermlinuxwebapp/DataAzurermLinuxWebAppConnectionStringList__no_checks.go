@@ -15,7 +15,7 @@ func (d *jsiiProxy_DataAzurermLinuxWebAppConnectionStringList) validateGetParame
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermLinuxWebAppConnectionStringList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermLinuxWebAppConnectionStringList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -23,7 +23,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppConnectionStringList) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermLinuxWebAppConnectionStringList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermLinuxWebAppConnectionStringList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -31,7 +31,7 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppConnectionStringList) validateSetWrapsS
 	return nil
 }
 
-func validateNewDataAzurermLinuxWebAppConnectionStringListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewDataAzurermLinuxWebAppConnectionStringListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

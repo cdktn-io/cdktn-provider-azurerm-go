@@ -47,7 +47,7 @@ func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupTimeoutsOutputReference) valid
 	return nil
 }
 
-func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupTimeoutsOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (m *jsiiProxy_MonitorAlertPrometheusRuleGroupTimeoutsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupTimeoutsOutputReference) valid
 	return nil
 }
 
-func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupTimeoutsOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -87,7 +87,7 @@ func (j *jsiiProxy_MonitorAlertPrometheusRuleGroupTimeoutsOutputReference) valid
 	return nil
 }
 
-func validateNewMonitorAlertPrometheusRuleGroupTimeoutsOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewMonitorAlertPrometheusRuleGroupTimeoutsOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

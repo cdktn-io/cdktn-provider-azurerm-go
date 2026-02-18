@@ -15,7 +15,7 @@ func (n *jsiiProxy_NetworkConnectionMonitorTestGroupList) validateGetParameters(
 	return nil
 }
 
-func (n *jsiiProxy_NetworkConnectionMonitorTestGroupList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (n *jsiiProxy_NetworkConnectionMonitorTestGroupList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestGroupList) validateSetTerraformAt
 	return nil
 }
 
-func (j *jsiiProxy_NetworkConnectionMonitorTestGroupList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_NetworkConnectionMonitorTestGroupList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_NetworkConnectionMonitorTestGroupList) validateSetWrapsSetPar
 	return nil
 }
 
-func validateNewNetworkConnectionMonitorTestGroupListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewNetworkConnectionMonitorTestGroupListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

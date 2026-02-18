@@ -5,21 +5,21 @@ package machinelearningdatastoredatalakegen2
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/machinelearningdatastoredatalakegen2/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/machinelearningdatastoredatalakegen2/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 // Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/machine_learning_datastore_datalake_gen2 azurerm_machine_learning_datastore_datalake_gen2}.
 type MachineLearningDatastoreDatalakeGen2 interface {
-	cdktf.TerraformResource
+	cdktn.TerraformResource
 	AuthorityUrl() *string
 	SetAuthorityUrl(val *string)
 	AuthorityUrlInput() *string
 	// Experimental.
-	CdktfStack() cdktf.TerraformStack
+	CdktfStack() cdktn.TerraformStack
 	ClientId() *string
 	SetClientId(val *string)
 	ClientIdInput() *string
@@ -44,9 +44,9 @@ type MachineLearningDatastoreDatalakeGen2 interface {
 	SetDescription(val *string)
 	DescriptionInput() *string
 	// Experimental.
-	ForEach() cdktf.ITerraformIterator
+	ForEach() cdktn.ITerraformIterator
 	// Experimental.
-	SetForEach(val cdktf.ITerraformIterator)
+	SetForEach(val cdktn.ITerraformIterator)
 	// Experimental.
 	Fqn() *string
 	// Experimental.
@@ -54,20 +54,20 @@ type MachineLearningDatastoreDatalakeGen2 interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
-	IsDefault() cdktf.IResolvable
+	IsDefault() cdktn.IResolvable
 	// Experimental.
-	Lifecycle() *cdktf.TerraformResourceLifecycle
+	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
-	SetLifecycle(val *cdktf.TerraformResourceLifecycle)
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
-	Provider() cdktf.TerraformProvider
+	Provider() cdktn.TerraformProvider
 	// Experimental.
-	SetProvider(val cdktf.TerraformProvider)
+	SetProvider(val cdktn.TerraformProvider)
 	// Experimental.
 	Provisioners() *[]interface{}
 	// Experimental.
@@ -87,7 +87,7 @@ type MachineLearningDatastoreDatalakeGen2 interface {
 	SetTenantId(val *string)
 	TenantIdInput() *string
 	// Experimental.
-	TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
 	TerraformMetaArguments() *map[string]interface{}
 	// Experimental.
@@ -105,7 +105,7 @@ type MachineLearningDatastoreDatalakeGen2 interface {
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -123,9 +123,9 @@ type MachineLearningDatastoreDatalakeGen2 interface {
 	// Experimental.
 	HasResourceMove() interface{}
 	// Experimental.
-	ImportFrom(id *string, provider cdktf.TerraformProvider)
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Move the resource corresponding to "id" to this resource.
 	//
 	// Note that the resource being moved from must be marked as moved using it's instance function.
@@ -168,7 +168,7 @@ type MachineLearningDatastoreDatalakeGen2 interface {
 
 // The jsii proxy struct for MachineLearningDatastoreDatalakeGen2
 type jsiiProxy_MachineLearningDatastoreDatalakeGen2 struct {
-	internal.Type__cdktfTerraformResource
+	internal.Type__cdktnTerraformResource
 }
 
 func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) AuthorityUrl() *string {
@@ -191,8 +191,8 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) AuthorityUrlInput() *st
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) CdktfStack() cdktf.TerraformStack {
-	var returns cdktf.TerraformStack
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
 	_jsii_.Get(
 		j,
 		"cdktfStack",
@@ -301,8 +301,8 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) DescriptionInput() *str
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) ForEach() cdktf.ITerraformIterator {
-	var returns cdktf.ITerraformIterator
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
 	_jsii_.Get(
 		j,
 		"forEach",
@@ -351,8 +351,8 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) IdInput() *string {
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) IsDefault() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) IsDefault() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"isDefault",
@@ -361,8 +361,8 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) IsDefault() cdktf.IReso
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) Lifecycle() *cdktf.TerraformResourceLifecycle {
-	var returns *cdktf.TerraformResourceLifecycle
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
 		j,
 		"lifecycle",
@@ -401,8 +401,8 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) Node() constructs.Node 
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) Provider() cdktf.TerraformProvider {
-	var returns cdktf.TerraformProvider
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
 	_jsii_.Get(
 		j,
 		"provider",
@@ -511,8 +511,8 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) TenantIdInput() *string
 	return returns
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) TerraformGeneratorMetadata() *cdktf.TerraformProviderGeneratorMetadata {
-	var returns *cdktf.TerraformProviderGeneratorMetadata
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
 		j,
 		"terraformGeneratorMetadata",
@@ -685,7 +685,7 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetDescription(val *stri
 	)
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetForEach(val cdktf.ITerraformIterator) {
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
@@ -704,7 +704,7 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetId(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetLifecycle(val *cdktf.TerraformResourceLifecycle) {
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
 	}
@@ -726,7 +726,7 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetName(val *string) {
 	)
 }
 
-func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetProvider(val cdktf.TerraformProvider) {
+func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetProvider(val cdktn.TerraformProvider) {
 	_jsii_.Set(
 		j,
 		"provider",
@@ -800,14 +800,14 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2)SetWorkspaceId(val *stri
 	)
 }
 
-// Generates CDKTF code for importing a MachineLearningDatastoreDatalakeGen2 resource upon running "cdktf plan <stack-name>".
-func MachineLearningDatastoreDatalakeGen2_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktf.TerraformProvider) cdktf.ImportableResource {
+// Generates CDKTN code for importing a MachineLearningDatastoreDatalakeGen2 resource upon running "cdktn plan <stack-name>".
+func MachineLearningDatastoreDatalakeGen2_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
 	_init_.Initialize()
 
 	if err := validateMachineLearningDatastoreDatalakeGen2_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
 		panic(err)
 	}
-	var returns cdktf.ImportableResource
+	var returns cdktn.ImportableResource
 
 	_jsii_.StaticInvoke(
 		"@cdktn/provider-azurerm.machineLearningDatastoreDatalakeGen2.MachineLearningDatastoreDatalakeGen2",
@@ -941,11 +941,11 @@ func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) GetAnyMapAttribute(terr
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,
@@ -1082,7 +1082,7 @@ func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) HasResourceMove() inter
 	return returns
 }
 
-func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) ImportFrom(id *string, provider cdktf.TerraformProvider) {
+func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) ImportFrom(id *string, provider cdktn.TerraformProvider) {
 	if err := m.validateImportFromParameters(id); err != nil {
 		panic(err)
 	}
@@ -1093,11 +1093,11 @@ func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) ImportFrom(id *string, 
 	)
 }
 
-func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := m.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		m,

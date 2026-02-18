@@ -15,7 +15,7 @@ func (s *jsiiProxy_SentinelAlertRuleFusionSourceList) validateGetParameters(inde
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleFusionSourceList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleFusionSourceList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_SentinelAlertRuleFusionSourceList) validateSetTerraformAttrib
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleFusionSourceList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleFusionSourceList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_SentinelAlertRuleFusionSourceList) validateSetWrapsSetParamet
 	return nil
 }
 
-func validateNewSentinelAlertRuleFusionSourceListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewSentinelAlertRuleFusionSourceListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

@@ -47,7 +47,7 @@ func (s *jsiiProxy_SentinelAlertRuleNrtEntityMappingFieldMappingOutputReference)
 	return nil
 }
 
-func (s *jsiiProxy_SentinelAlertRuleNrtEntityMappingFieldMappingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SentinelAlertRuleNrtEntityMappingFieldMappingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SentinelAlertRuleNrtEntityMappingFieldMappingOutputReference)
 	return nil
 }
 
-func (j *jsiiProxy_SentinelAlertRuleNrtEntityMappingFieldMappingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SentinelAlertRuleNrtEntityMappingFieldMappingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSentinelAlertRuleNrtEntityMappingFieldMappingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewSentinelAlertRuleNrtEntityMappingFieldMappingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

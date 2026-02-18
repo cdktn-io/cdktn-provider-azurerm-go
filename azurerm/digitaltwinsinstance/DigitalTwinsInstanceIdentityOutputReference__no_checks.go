@@ -47,7 +47,7 @@ func (d *jsiiProxy_DigitalTwinsInstanceIdentityOutputReference) validateInterpol
 	return nil
 }
 
-func (d *jsiiProxy_DigitalTwinsInstanceIdentityOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DigitalTwinsInstanceIdentityOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_DigitalTwinsInstanceIdentityOutputReference) validateSetTerra
 	return nil
 }
 
-func (j *jsiiProxy_DigitalTwinsInstanceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DigitalTwinsInstanceIdentityOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_DigitalTwinsInstanceIdentityOutputReference) validateSetTypeP
 	return nil
 }
 
-func validateNewDigitalTwinsInstanceIdentityOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewDigitalTwinsInstanceIdentityOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

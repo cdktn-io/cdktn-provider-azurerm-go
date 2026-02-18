@@ -47,7 +47,7 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReferenc
 	return nil
 }
 
-func (d *jsiiProxy_DataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (d *jsiiProxy_DataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -67,11 +67,11 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReferenc
 	return nil
 }
 
-func (j *jsiiProxy_DataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_DataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewDataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewDataAzurermCdnFrontdoorOriginGroupLoadBalancingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

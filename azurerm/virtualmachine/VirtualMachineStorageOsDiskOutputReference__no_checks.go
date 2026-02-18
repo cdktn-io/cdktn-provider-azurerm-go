@@ -47,7 +47,7 @@ func (v *jsiiProxy_VirtualMachineStorageOsDiskOutputReference) validateInterpola
 	return nil
 }
 
-func (v *jsiiProxy_VirtualMachineStorageOsDiskOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (v *jsiiProxy_VirtualMachineStorageOsDiskOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -99,7 +99,7 @@ func (j *jsiiProxy_VirtualMachineStorageOsDiskOutputReference) validateSetTerraf
 	return nil
 }
 
-func (j *jsiiProxy_VirtualMachineStorageOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_VirtualMachineStorageOsDiskOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -111,7 +111,7 @@ func (j *jsiiProxy_VirtualMachineStorageOsDiskOutputReference) validateSetWriteA
 	return nil
 }
 
-func validateNewVirtualMachineStorageOsDiskOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewVirtualMachineStorageOsDiskOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

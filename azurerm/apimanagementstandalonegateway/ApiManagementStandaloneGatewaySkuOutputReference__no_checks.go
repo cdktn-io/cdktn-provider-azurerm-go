@@ -47,7 +47,7 @@ func (a *jsiiProxy_ApiManagementStandaloneGatewaySkuOutputReference) validateInt
 	return nil
 }
 
-func (a *jsiiProxy_ApiManagementStandaloneGatewaySkuOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApiManagementStandaloneGatewaySkuOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_ApiManagementStandaloneGatewaySkuOutputReference) validateSet
 	return nil
 }
 
-func (j *jsiiProxy_ApiManagementStandaloneGatewaySkuOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApiManagementStandaloneGatewaySkuOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewApiManagementStandaloneGatewaySkuOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewApiManagementStandaloneGatewaySkuOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

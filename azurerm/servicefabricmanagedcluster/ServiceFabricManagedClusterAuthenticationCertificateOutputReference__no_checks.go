@@ -47,7 +47,7 @@ func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateOutputRef
 	return nil
 }
 
-func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateOutputRef
 	return nil
 }
 
-func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -83,7 +83,7 @@ func (j *jsiiProxy_ServiceFabricManagedClusterAuthenticationCertificateOutputRef
 	return nil
 }
 
-func validateNewServiceFabricManagedClusterAuthenticationCertificateOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewServiceFabricManagedClusterAuthenticationCertificateOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

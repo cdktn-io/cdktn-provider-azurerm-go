@@ -47,7 +47,7 @@ func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParam
 	return nil
 }
 
-func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -71,7 +71,7 @@ func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParam
 	return nil
 }
 
-func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParameterOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -79,7 +79,7 @@ func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignmentConfigurationParam
 	return nil
 }
 
-func validateNewPolicyVirtualMachineConfigurationAssignmentConfigurationParameterOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+func validateNewPolicyVirtualMachineConfigurationAssignmentConfigurationParameterOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
 	return nil
 }
 

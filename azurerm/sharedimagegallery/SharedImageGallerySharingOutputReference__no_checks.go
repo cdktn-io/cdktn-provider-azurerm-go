@@ -51,7 +51,7 @@ func (s *jsiiProxy_SharedImageGallerySharingOutputReference) validatePutCommunit
 	return nil
 }
 
-func (s *jsiiProxy_SharedImageGallerySharingOutputReference) validateResolveParameters(context cdktf.IResolveContext) error {
+func (s *jsiiProxy_SharedImageGallerySharingOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -75,11 +75,11 @@ func (j *jsiiProxy_SharedImageGallerySharingOutputReference) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_SharedImageGallerySharingOutputReference) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_SharedImageGallerySharingOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
-func validateNewSharedImageGallerySharingOutputReferenceParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string) error {
+func validateNewSharedImageGallerySharingOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
 	return nil
 }
 

@@ -8,7 +8,7 @@ package frontdoor
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 func (f *jsiiProxy_FrontdoorExplicitResourceOrderList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
@@ -27,7 +27,7 @@ func (f *jsiiProxy_FrontdoorExplicitResourceOrderList) validateGetParameters(ind
 	return nil
 }
 
-func (f *jsiiProxy_FrontdoorExplicitResourceOrderList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (f *jsiiProxy_FrontdoorExplicitResourceOrderList) validateResolveParameters(context cdktn.IResolveContext) error {
 	if context == nil {
 		return fmt.Errorf("parameter context is required, but nil was provided")
 	}
@@ -43,7 +43,7 @@ func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetTerraformAttri
 	return nil
 }
 
-func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}
@@ -59,7 +59,7 @@ func (j *jsiiProxy_FrontdoorExplicitResourceOrderList) validateSetWrapsSetParame
 	return nil
 }
 
-func validateNewFrontdoorExplicitResourceOrderListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewFrontdoorExplicitResourceOrderListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	if terraformResource == nil {
 		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
 	}

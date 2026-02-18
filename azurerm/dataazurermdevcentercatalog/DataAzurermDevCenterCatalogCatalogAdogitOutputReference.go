@@ -5,14 +5,14 @@ package dataazurermdevcentercatalog
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermdevcentercatalog/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermdevcentercatalog/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermDevCenterCatalogCatalogAdogitOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	Branch() *string
 	// the index of the complex object in a list.
 	// Experimental.
@@ -40,16 +40,16 @@ type DataAzurermDevCenterCatalogCatalogAdogitOutputReference interface {
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Uri() *string
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermDevCenterCatalogCatalogAdogitOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,7 +80,7 @@ type DataAzurermDevCenterCatalogCatalogAdogitOutputReference interface {
 
 // The jsii proxy struct for DataAzurermDevCenterCatalogCatalogAdogitOutputReference
 type jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) Branch() *string {
@@ -173,8 +173,8 @@ func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) Terr
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) Uri(
 }
 
 
-func NewDataAzurermDevCenterCatalogCatalogAdogitOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermDevCenterCatalogCatalogAdogitOutputReference {
+func NewDataAzurermDevCenterCatalogCatalogAdogitOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermDevCenterCatalogCatalogAdogitOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermDevCenterCatalogCatalogAdogitOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermDevCenterCatalogCatalogAdogitOutputReference(terraformResourc
 	return &j
 }
 
-func NewDataAzurermDevCenterCatalogCatalogAdogitOutputReference_Override(d DataAzurermDevCenterCatalogCatalogAdogitOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermDevCenterCatalogCatalogAdogitOutputReference_Override(d DataAzurermDevCenterCatalogCatalogAdogitOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference)SetTe
 	)
 }
 
-func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) GetA
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) GetS
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) Inte
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermDevCenterCatalogCatalogAdogitOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

@@ -15,7 +15,7 @@ func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleList) validateGetParamete
 	return nil
 }
 
-func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (a *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleList) validateSetTerrafor
 	return nil
 }
 
-func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ApplicationGatewayUrlPathMapPathRuleList) validateSetWrapsSet
 	return nil
 }
 
-func validateNewApplicationGatewayUrlPathMapPathRuleListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewApplicationGatewayUrlPathMapPathRuleListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 

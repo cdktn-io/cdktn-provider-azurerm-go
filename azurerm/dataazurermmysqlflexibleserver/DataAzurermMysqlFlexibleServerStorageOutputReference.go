@@ -5,15 +5,15 @@ package dataazurermmysqlflexibleserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/dataazurermmysqlflexibleserver/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmysqlflexibleserver/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type DataAzurermMysqlFlexibleServerStorageOutputReference interface {
-	cdktf.ComplexObject
-	AutoGrowEnabled() cdktf.IResolvable
+	cdktn.ComplexObject
+	AutoGrowEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -34,22 +34,22 @@ type DataAzurermMysqlFlexibleServerStorageOutputReference interface {
 	InternalValue() *DataAzurermMysqlFlexibleServerStorage
 	SetInternalValue(val *DataAzurermMysqlFlexibleServerStorage)
 	Iops() *float64
-	IoScalingEnabled() cdktf.IResolvable
+	IoScalingEnabled() cdktn.IResolvable
 	SizeGb() *float64
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	// Experimental.
 	ComputeFqn() *string
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -65,12 +65,12 @@ type DataAzurermMysqlFlexibleServerStorageOutputReference interface {
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -80,11 +80,11 @@ type DataAzurermMysqlFlexibleServerStorageOutputReference interface {
 
 // The jsii proxy struct for DataAzurermMysqlFlexibleServerStorageOutputReference
 type jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
-func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) AutoGrowEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) AutoGrowEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"autoGrowEnabled",
@@ -153,8 +153,8 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) Iops() 
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) IoScalingEnabled() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) IoScalingEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 	_jsii_.Get(
 		j,
 		"ioScalingEnabled",
@@ -183,8 +183,8 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) Terrafo
 	return returns
 }
 
-func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -194,7 +194,7 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) Terrafo
 }
 
 
-func NewDataAzurermMysqlFlexibleServerStorageOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermMysqlFlexibleServerStorageOutputReference {
+func NewDataAzurermMysqlFlexibleServerStorageOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAzurermMysqlFlexibleServerStorageOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewDataAzurermMysqlFlexibleServerStorageOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -211,7 +211,7 @@ func NewDataAzurermMysqlFlexibleServerStorageOutputReference(terraformResource c
 	return &j
 }
 
-func NewDataAzurermMysqlFlexibleServerStorageOutputReference_Override(d DataAzurermMysqlFlexibleServerStorageOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewDataAzurermMysqlFlexibleServerStorageOutputReference_Override(d DataAzurermMysqlFlexibleServerStorageOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -265,7 +265,7 @@ func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference)SetTerra
 	)
 }
 
-func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -305,11 +305,11 @@ func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) GetAnyM
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -433,8 +433,8 @@ func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) GetStri
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -446,11 +446,11 @@ func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		d,
@@ -462,7 +462,7 @@ func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) Interpo
 	return returns
 }
 
-func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (d *jsiiProxy_DataAzurermMysqlFlexibleServerStorageOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := d.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

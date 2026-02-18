@@ -5,14 +5,14 @@ package sentinelthreatintelligenceindicator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v14/sentinelthreatintelligenceindicator/internal"
-	"github.com/hashicorp/terraform-cdk-go/cdktf"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/sentinelthreatintelligenceindicator/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
 type SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference interface {
-	cdktf.ComplexObject
+	cdktn.ComplexObject
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -37,9 +37,9 @@ type SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputRefe
 	// Experimental.
 	SetTerraformAttribute(val *string)
 	// Experimental.
-	TerraformResource() cdktf.IInterpolatingParent
+	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
-	SetTerraformResource(val cdktf.IInterpolatingParent)
+	SetTerraformResource(val cdktn.IInterpolatingParent)
 	Value() *string
 	ValueType() *string
 	// Experimental.
@@ -47,7 +47,7 @@ type SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputRefe
 	// Experimental.
 	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
 	// Experimental.
-	GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Experimental.
 	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
 	// Experimental.
@@ -63,12 +63,12 @@ type SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputRefe
 	// Experimental.
 	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
 	// Experimental.
-	InterpolationAsList() cdktf.IResolvable
+	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
-	InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	// Produce the Token's value at resolution time.
 	// Experimental.
-	Resolve(context cdktf.IResolveContext) interface{}
+	Resolve(context cdktn.IResolveContext) interface{}
 	// Return a string representation of this resolvable object.
 	//
 	// Returns a reversible string representation.
@@ -78,7 +78,7 @@ type SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputRefe
 
 // The jsii proxy struct for SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference
 type jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference struct {
-	internal.Type__cdktfComplexObject
+	internal.Type__cdktnComplexObject
 }
 
 func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) ComplexObjectIndex() interface{} {
@@ -141,8 +141,8 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeVa
 	return returns
 }
 
-func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) TerraformResource() cdktf.IInterpolatingParent {
-	var returns cdktf.IInterpolatingParent
+func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
 	_jsii_.Get(
 		j,
 		"terraformResource",
@@ -172,7 +172,7 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeVa
 }
 
 
-func NewSentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference {
+func NewSentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference {
 	_init_.Initialize()
 
 	if err := validateNewSentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
@@ -189,7 +189,7 @@ func NewSentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputR
 	return &j
 }
 
-func NewSentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference_Override(s SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference, terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+func NewSentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference_Override(s SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
 	_init_.Initialize()
 
 	_jsii_.Create(
@@ -243,7 +243,7 @@ func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeVa
 	)
 }
 
-func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference)SetTerraformResource(val cdktf.IInterpolatingParent) {
+func (j *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
 	if err := j.validateSetTerraformResourceParameters(val); err != nil {
 		panic(err)
 	}
@@ -283,11 +283,11 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeVa
 	return returns
 }
 
-func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -411,8 +411,8 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeVa
 	return returns
 }
 
-func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) InterpolationAsList() cdktf.IResolvable {
-	var returns cdktf.IResolvable
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -424,11 +424,11 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeVa
 	return returns
 }
 
-func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktf.IResolvable {
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
 	if err := s.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
 		panic(err)
 	}
-	var returns cdktf.IResolvable
+	var returns cdktn.IResolvable
 
 	_jsii_.Invoke(
 		s,
@@ -440,7 +440,7 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeVa
 	return returns
 }
 
-func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) Resolve(context cdktf.IResolveContext) interface{} {
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicatorParsedPatternPatternTypeValuesOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
 	if err := s.validateResolveParameters(context); err != nil {
 		panic(err)
 	}

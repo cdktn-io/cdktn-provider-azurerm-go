@@ -127,7 +127,7 @@ func (j *jsiiProxy_PimEligibleRoleAssignment) validateSetJustificationParameters
 	return nil
 }
 
-func (j *jsiiProxy_PimEligibleRoleAssignment) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_PimEligibleRoleAssignment) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

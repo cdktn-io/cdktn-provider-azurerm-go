@@ -119,7 +119,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLog) validateSetIdParameters(val *string) e
 	return nil
 }
 
-func (j *jsiiProxy_NetworkWatcherFlowLog) validateSetLifecycleParameters(val *cdktf.TerraformResourceLifecycle) error {
+func (j *jsiiProxy_NetworkWatcherFlowLog) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }
 

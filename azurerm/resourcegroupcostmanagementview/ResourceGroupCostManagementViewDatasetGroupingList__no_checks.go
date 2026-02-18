@@ -15,7 +15,7 @@ func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetGroupingList) validateG
 	return nil
 }
 
-func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetGroupingList) validateResolveParameters(context cdktf.IResolveContext) error {
+func (r *jsiiProxy_ResourceGroupCostManagementViewDatasetGroupingList) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
 
@@ -27,7 +27,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetGroupingList) validateS
 	return nil
 }
 
-func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetGroupingList) validateSetTerraformResourceParameters(val cdktf.IInterpolatingParent) error {
+func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetGroupingList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
 	return nil
 }
 
@@ -35,7 +35,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementViewDatasetGroupingList) validateS
 	return nil
 }
 
-func validateNewResourceGroupCostManagementViewDatasetGroupingListParameters(terraformResource cdktf.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+func validateNewResourceGroupCostManagementViewDatasetGroupingListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
 	return nil
 }
 
