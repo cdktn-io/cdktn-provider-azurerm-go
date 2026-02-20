@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/redis_cache_access_policy azurerm_redis_cache_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/redis_cache_access_policy azurerm_redis_cache_access_policy}.
 type RedisCacheAccessPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -403,7 +403,7 @@ func (j *jsiiProxy_RedisCacheAccessPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/redis_cache_access_policy azurerm_redis_cache_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/redis_cache_access_policy azurerm_redis_cache_access_policy} Resource.
 func NewRedisCacheAccessPolicy(scope constructs.Construct, id *string, config *RedisCacheAccessPolicyConfig) RedisCacheAccessPolicy {
 	_init_.Initialize()
 
@@ -421,7 +421,7 @@ func NewRedisCacheAccessPolicy(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/redis_cache_access_policy azurerm_redis_cache_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/redis_cache_access_policy azurerm_redis_cache_access_policy} Resource.
 func NewRedisCacheAccessPolicy_Override(r RedisCacheAccessPolicy, scope constructs.Construct, id *string, config *RedisCacheAccessPolicyConfig) {
 	_init_.Initialize()
 

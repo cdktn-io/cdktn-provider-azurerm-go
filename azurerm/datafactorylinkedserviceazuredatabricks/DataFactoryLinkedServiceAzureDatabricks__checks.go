@@ -461,6 +461,14 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetLifecycle
 	return nil
 }
 
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetMsiWorkspaceIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetMsiWorkSpaceResourceIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

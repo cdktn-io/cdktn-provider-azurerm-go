@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment}.
 type ChaosStudioExperiment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -473,7 +473,7 @@ func (j *jsiiProxy_ChaosStudioExperiment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
 func NewChaosStudioExperiment(scope constructs.Construct, id *string, config *ChaosStudioExperimentConfig) ChaosStudioExperiment {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewChaosStudioExperiment(scope constructs.Construct, id *string, config *Ch
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/chaos_studio_experiment azurerm_chaos_studio_experiment} Resource.
 func NewChaosStudioExperiment_Override(c ChaosStudioExperiment, scope constructs.Construct, id *string, config *ChaosStudioExperimentConfig) {
 	_init_.Initialize()
 

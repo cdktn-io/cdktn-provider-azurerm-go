@@ -79,6 +79,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validatePutKeyVault
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validatePutSasTokenLinkedKeyVaultKeyParameters(value *DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKey) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validatePutServicePrincipalLinkedKeyVaultKeyParameters(value *DataFactoryLinkedServiceAzureBlobStorageServicePrincipalLinkedKeyVaultKey) error {
 	return nil
 }

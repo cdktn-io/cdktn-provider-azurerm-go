@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks}.
 type DataFactoryLinkedServiceAzureDatabricks interface {
 	cdktn.TerraformResource
 	AccessToken() *string
@@ -74,6 +74,9 @@ type DataFactoryLinkedServiceAzureDatabricks interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MsiWorkspaceId() *string
+	SetMsiWorkspaceId(val *string)
+	MsiWorkspaceIdInput() *string
 	MsiWorkSpaceResourceId() *string
 	SetMsiWorkSpaceResourceId(val *string)
 	MsiWorkSpaceResourceIdInput() *string
@@ -161,6 +164,7 @@ type DataFactoryLinkedServiceAzureDatabricks interface {
 	ResetInstancePool()
 	ResetIntegrationRuntimeName()
 	ResetKeyVaultPassword()
+	ResetMsiWorkspaceId()
 	ResetMsiWorkSpaceResourceId()
 	ResetNewClusterConfig()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -496,6 +500,26 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) Lifecycle() *cdktn.T
 	return returns
 }
 
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) MsiWorkspaceId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"msiWorkspaceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) MsiWorkspaceIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"msiWorkspaceIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) MsiWorkSpaceResourceId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -667,7 +691,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
 func NewDataFactoryLinkedServiceAzureDatabricks(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureDatabricksConfig) DataFactoryLinkedServiceAzureDatabricks {
 	_init_.Initialize()
 
@@ -685,7 +709,7 @@ func NewDataFactoryLinkedServiceAzureDatabricks(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
 func NewDataFactoryLinkedServiceAzureDatabricks_Override(d DataFactoryLinkedServiceAzureDatabricks, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureDatabricksConfig) {
 	_init_.Initialize()
 
@@ -840,6 +864,17 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks)SetLifecycle(val *cdk
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks)SetMsiWorkspaceId(val *string) {
+	if err := j.validateSetMsiWorkspaceIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"msiWorkspaceId",
 		val,
 	)
 }
@@ -1361,6 +1396,14 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) ResetKeyVaultPasswor
 	_jsii_.InvokeVoid(
 		d,
 		"resetKeyVaultPassword",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) ResetMsiWorkspaceId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMsiWorkspaceId",
 		nil, // no parameters
 	)
 }

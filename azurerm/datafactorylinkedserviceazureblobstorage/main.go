@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberMethod{JsiiMethod: "putKeyVaultSasToken", GoMethod: "PutKeyVaultSasToken"},
+			_jsii_.MemberMethod{JsiiMethod: "putSasTokenLinkedKeyVaultKey", GoMethod: "PutSasTokenLinkedKeyVaultKey"},
 			_jsii_.MemberMethod{JsiiMethod: "putServicePrincipalLinkedKeyVaultKey", GoMethod: "PutServicePrincipalLinkedKeyVaultKey"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -80,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetKeyVaultSasToken", GoMethod: "ResetKeyVaultSasToken"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetParameters", GoMethod: "ResetParameters"},
+			_jsii_.MemberMethod{JsiiMethod: "resetSasTokenLinkedKeyVaultKey", GoMethod: "ResetSasTokenLinkedKeyVaultKey"},
 			_jsii_.MemberMethod{JsiiMethod: "resetSasUri", GoMethod: "ResetSasUri"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServiceEndpoint", GoMethod: "ResetServiceEndpoint"},
 			_jsii_.MemberMethod{JsiiMethod: "resetServicePrincipalId", GoMethod: "ResetServicePrincipalId"},
@@ -89,6 +91,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetTenantId", GoMethod: "ResetTenantId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetUseManagedIdentity", GoMethod: "ResetUseManagedIdentity"},
+			_jsii_.MemberProperty{JsiiProperty: "sasTokenLinkedKeyVaultKey", GoGetter: "SasTokenLinkedKeyVaultKey"},
+			_jsii_.MemberProperty{JsiiProperty: "sasTokenLinkedKeyVaultKeyInput", GoGetter: "SasTokenLinkedKeyVaultKeyInput"},
 			_jsii_.MemberProperty{JsiiProperty: "sasUri", GoGetter: "SasUri"},
 			_jsii_.MemberProperty{JsiiProperty: "sasUriInput", GoGetter: "SasUriInput"},
 			_jsii_.MemberProperty{JsiiProperty: "serviceEndpoint", GoGetter: "ServiceEndpoint"},
@@ -163,6 +167,46 @@ func init() {
 		},
 		func() interface{} {
 			j := jsiiProxy_DataFactoryLinkedServiceAzureBlobStorageKeyVaultSasTokenOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureBlobStorage.DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKey",
+		reflect.TypeOf((*DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKey)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.dataFactoryLinkedServiceAzureBlobStorage.DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKeyOutputReference",
+		reflect.TypeOf((*DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKeyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "linkedServiceName", GoGetter: "LinkedServiceName"},
+			_jsii_.MemberProperty{JsiiProperty: "linkedServiceNameInput", GoGetter: "LinkedServiceNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "secretName", GoGetter: "SecretName"},
+			_jsii_.MemberProperty{JsiiProperty: "secretNameInput", GoGetter: "SecretNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataFactoryLinkedServiceAzureBlobStorageSasTokenLinkedKeyVaultKeyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},

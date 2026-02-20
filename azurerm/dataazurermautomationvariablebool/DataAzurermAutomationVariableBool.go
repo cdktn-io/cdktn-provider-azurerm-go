@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/automation_variable_bool azurerm_automation_variable_bool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/automation_variable_bool azurerm_automation_variable_bool}.
 type DataAzurermAutomationVariableBool interface {
 	cdktn.TerraformDataSource
 	AutomationAccountName() *string
@@ -391,7 +391,7 @@ func (j *jsiiProxy_DataAzurermAutomationVariableBool) Value() cdktn.IResolvable 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/automation_variable_bool azurerm_automation_variable_bool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/automation_variable_bool azurerm_automation_variable_bool} Data Source.
 func NewDataAzurermAutomationVariableBool(scope constructs.Construct, id *string, config *DataAzurermAutomationVariableBoolConfig) DataAzurermAutomationVariableBool {
 	_init_.Initialize()
 
@@ -409,7 +409,7 @@ func NewDataAzurermAutomationVariableBool(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/data-sources/automation_variable_bool azurerm_automation_variable_bool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/automation_variable_bool azurerm_automation_variable_bool} Data Source.
 func NewDataAzurermAutomationVariableBool_Override(d DataAzurermAutomationVariableBool, scope constructs.Construct, id *string, config *DataAzurermAutomationVariableBoolConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob}.
 type StreamAnalyticsReferenceInputBlob interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -589,7 +589,7 @@ func (j *jsiiProxy_StreamAnalyticsReferenceInputBlob) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
 func NewStreamAnalyticsReferenceInputBlob(scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputBlobConfig) StreamAnalyticsReferenceInputBlob {
 	_init_.Initialize()
 
@@ -607,7 +607,7 @@ func NewStreamAnalyticsReferenceInputBlob(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
 func NewStreamAnalyticsReferenceInputBlob_Override(s StreamAnalyticsReferenceInputBlob, scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputBlobConfig) {
 	_init_.Initialize()
 

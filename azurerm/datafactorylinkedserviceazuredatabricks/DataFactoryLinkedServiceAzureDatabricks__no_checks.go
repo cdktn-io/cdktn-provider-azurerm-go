@@ -155,6 +155,10 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetLifecycle
 	return nil
 }
 
+func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetMsiWorkspaceIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateSetMsiWorkSpaceResourceIdParameters(val *string) error {
 	return nil
 }

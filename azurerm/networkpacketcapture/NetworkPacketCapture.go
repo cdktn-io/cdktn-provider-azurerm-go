@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/network_packet_capture azurerm_network_packet_capture}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_packet_capture azurerm_network_packet_capture}.
 type NetworkPacketCapture interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -545,7 +545,7 @@ func (j *jsiiProxy_NetworkPacketCapture) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/network_packet_capture azurerm_network_packet_capture} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_packet_capture azurerm_network_packet_capture} Resource.
 func NewNetworkPacketCapture(scope constructs.Construct, id *string, config *NetworkPacketCaptureConfig) NetworkPacketCapture {
 	_init_.Initialize()
 
@@ -563,7 +563,7 @@ func NewNetworkPacketCapture(scope constructs.Construct, id *string, config *Net
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/network_packet_capture azurerm_network_packet_capture} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_packet_capture azurerm_network_packet_capture} Resource.
 func NewNetworkPacketCapture_Override(n NetworkPacketCapture, scope constructs.Construct, id *string, config *NetworkPacketCaptureConfig) {
 	_init_.Initialize()
 

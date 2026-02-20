@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/spring_cloud_elastic_application_performance_monitoring azurerm_spring_cloud_elastic_application_performance_monitoring}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_elastic_application_performance_monitoring azurerm_spring_cloud_elastic_application_performance_monitoring}.
 type SpringCloudElasticApplicationPerformanceMonitoring interface {
 	cdktn.TerraformResource
 	ApplicationPackages() *[]*string
@@ -473,7 +473,7 @@ func (j *jsiiProxy_SpringCloudElasticApplicationPerformanceMonitoring) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/spring_cloud_elastic_application_performance_monitoring azurerm_spring_cloud_elastic_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_elastic_application_performance_monitoring azurerm_spring_cloud_elastic_application_performance_monitoring} Resource.
 func NewSpringCloudElasticApplicationPerformanceMonitoring(scope constructs.Construct, id *string, config *SpringCloudElasticApplicationPerformanceMonitoringConfig) SpringCloudElasticApplicationPerformanceMonitoring {
 	_init_.Initialize()
 
@@ -491,7 +491,7 @@ func NewSpringCloudElasticApplicationPerformanceMonitoring(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/spring_cloud_elastic_application_performance_monitoring azurerm_spring_cloud_elastic_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_elastic_application_performance_monitoring azurerm_spring_cloud_elastic_application_performance_monitoring} Resource.
 func NewSpringCloudElasticApplicationPerformanceMonitoring_Override(s SpringCloudElasticApplicationPerformanceMonitoring, scope constructs.Construct, id *string, config *SpringCloudElasticApplicationPerformanceMonitoringConfig) {
 	_init_.Initialize()
 

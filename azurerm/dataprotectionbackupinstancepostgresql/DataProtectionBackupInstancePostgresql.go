@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql}.
 type DataProtectionBackupInstancePostgresql interface {
 	cdktn.TerraformResource
 	BackupPolicyId() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresql) VaultIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
 func NewDataProtectionBackupInstancePostgresql(scope constructs.Construct, id *string, config *DataProtectionBackupInstancePostgresqlConfig) DataProtectionBackupInstancePostgresql {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataProtectionBackupInstancePostgresql(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.60.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
 func NewDataProtectionBackupInstancePostgresql_Override(d DataProtectionBackupInstancePostgresql, scope constructs.Construct, id *string, config *DataProtectionBackupInstancePostgresqlConfig) {
 	_init_.Initialize()
 
