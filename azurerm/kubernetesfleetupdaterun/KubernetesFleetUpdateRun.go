@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run}.
 type KubernetesFleetUpdateRun interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type KubernetesFleetUpdateRun interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KubernetesFleetUpdateRun
@@ -451,7 +460,7 @@ func (j *jsiiProxy_KubernetesFleetUpdateRun) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
 func NewKubernetesFleetUpdateRun(scope constructs.Construct, id *string, config *KubernetesFleetUpdateRunConfig) KubernetesFleetUpdateRun {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewKubernetesFleetUpdateRun(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kubernetes_fleet_update_run azurerm_kubernetes_fleet_update_run} Resource.
 func NewKubernetesFleetUpdateRun_Override(k KubernetesFleetUpdateRun, scope constructs.Construct, id *string, config *KubernetesFleetUpdateRunConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (k *jsiiProxy_KubernetesFleetUpdateRun) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KubernetesFleetUpdateRun) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

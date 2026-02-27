@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama}.
 type PaloAltoNextGenerationFirewallVirtualNetworkPanorama interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -162,6 +162,15 @@ type PaloAltoNextGenerationFirewallVirtualNetworkPanorama interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PaloAltoNextGenerationFirewallVirtualNetworkPanorama
@@ -580,7 +589,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkPanorama) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualNetworkPanorama(scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualNetworkPanoramaConfig) PaloAltoNextGenerationFirewallVirtualNetworkPanorama {
 	_init_.Initialize()
 
@@ -598,7 +607,7 @@ func NewPaloAltoNextGenerationFirewallVirtualNetworkPanorama(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_panorama azurerm_palo_alto_next_generation_firewall_virtual_network_panorama} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualNetworkPanorama_Override(p PaloAltoNextGenerationFirewallVirtualNetworkPanorama, scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualNetworkPanoramaConfig) {
 	_init_.Initialize()
 
@@ -1298,6 +1307,24 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkPanorama) ToTerra
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkPanorama) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

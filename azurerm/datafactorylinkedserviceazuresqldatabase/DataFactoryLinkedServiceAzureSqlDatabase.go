@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_sql_database azurerm_data_factory_linked_service_azure_sql_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_sql_database azurerm_data_factory_linked_service_azure_sql_database}.
 type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -184,6 +184,15 @@ type DataFactoryLinkedServiceAzureSqlDatabase interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryLinkedServiceAzureSqlDatabase
@@ -692,7 +701,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) UseManagedIdentityI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_sql_database azurerm_data_factory_linked_service_azure_sql_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_sql_database azurerm_data_factory_linked_service_azure_sql_database} Resource.
 func NewDataFactoryLinkedServiceAzureSqlDatabase(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureSqlDatabaseConfig) DataFactoryLinkedServiceAzureSqlDatabase {
 	_init_.Initialize()
 
@@ -710,7 +719,7 @@ func NewDataFactoryLinkedServiceAzureSqlDatabase(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_sql_database azurerm_data_factory_linked_service_azure_sql_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_sql_database azurerm_data_factory_linked_service_azure_sql_database} Resource.
 func NewDataFactoryLinkedServiceAzureSqlDatabase_Override(d DataFactoryLinkedServiceAzureSqlDatabase, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureSqlDatabaseConfig) {
 	_init_.Initialize()
 
@@ -1529,6 +1538,24 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) ToTerraform() inter
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

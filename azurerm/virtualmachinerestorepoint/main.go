@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineRestorePointCollectionId", GoGetter: "VirtualMachineRestorePointCollectionId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineRestorePointCollectionIdInput", GoGetter: "VirtualMachineRestorePointCollectionIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VirtualMachineRestorePoint{}

@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeHandlerVersion", GoGetter: "TypeHandlerVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "typeHandlerVersionInput", GoGetter: "TypeHandlerVersionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ArcMachineExtension{}

@@ -16,6 +16,7 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeActive", GoGetter: "ActiveActive"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "bgpEnabled", GoGetter: "BgpEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "bgpSettings", GoGetter: "BgpSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
@@ -72,6 +73,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnClientConfiguration", GoGetter: "VpnClientConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnType", GoGetter: "VpnType"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermVirtualNetworkGateway{}

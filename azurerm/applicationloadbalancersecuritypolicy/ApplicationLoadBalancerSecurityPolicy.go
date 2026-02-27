@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy}.
 type ApplicationLoadBalancerSecurityPolicy interface {
 	cdktn.TerraformResource
 	ApplicationLoadBalancerId() *string
@@ -142,6 +142,15 @@ type ApplicationLoadBalancerSecurityPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApplicationLoadBalancerSecurityPolicy
@@ -450,7 +459,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerSecurityPolicy) WebApplicationFirewall
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
 func NewApplicationLoadBalancerSecurityPolicy(scope constructs.Construct, id *string, config *ApplicationLoadBalancerSecurityPolicyConfig) ApplicationLoadBalancerSecurityPolicy {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewApplicationLoadBalancerSecurityPolicy(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_load_balancer_security_policy azurerm_application_load_balancer_security_policy} Resource.
 func NewApplicationLoadBalancerSecurityPolicy_Override(a ApplicationLoadBalancerSecurityPolicy, scope constructs.Construct, id *string, config *ApplicationLoadBalancerSecurityPolicyConfig) {
 	_init_.Initialize()
 
@@ -1081,6 +1090,24 @@ func (a *jsiiProxy_ApplicationLoadBalancerSecurityPolicy) ToTerraform() interfac
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApplicationLoadBalancerSecurityPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

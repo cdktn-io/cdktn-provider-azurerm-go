@@ -74,6 +74,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineId", GoGetter: "VirtualMachineId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineIdInput", GoGetter: "VirtualMachineIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "writeAcceleratorEnabled", GoGetter: "WriteAcceleratorEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "writeAcceleratorEnabledInput", GoGetter: "WriteAcceleratorEnabledInput"},
 		},

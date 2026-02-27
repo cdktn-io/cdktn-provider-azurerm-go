@@ -88,6 +88,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tpmPolicyBase64", GoGetter: "TpmPolicyBase64"},
 			_jsii_.MemberProperty{JsiiProperty: "tpmPolicyBase64Input", GoGetter: "TpmPolicyBase64Input"},
 			_jsii_.MemberProperty{JsiiProperty: "trustModel", GoGetter: "TrustModel"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AttestationProvider{}

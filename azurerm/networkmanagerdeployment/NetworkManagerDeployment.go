@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_deployment azurerm_network_manager_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_deployment azurerm_network_manager_deployment}.
 type NetworkManagerDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -142,6 +142,15 @@ type NetworkManagerDeployment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkManagerDeployment
@@ -450,7 +459,7 @@ func (j *jsiiProxy_NetworkManagerDeployment) TriggersInput() *map[string]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_deployment azurerm_network_manager_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_deployment azurerm_network_manager_deployment} Resource.
 func NewNetworkManagerDeployment(scope constructs.Construct, id *string, config *NetworkManagerDeploymentConfig) NetworkManagerDeployment {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewNetworkManagerDeployment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_deployment azurerm_network_manager_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_deployment azurerm_network_manager_deployment} Resource.
 func NewNetworkManagerDeployment_Override(n NetworkManagerDeployment, scope constructs.Construct, id *string, config *NetworkManagerDeploymentConfig) {
 	_init_.Initialize()
 
@@ -1081,6 +1090,24 @@ func (n *jsiiProxy_NetworkManagerDeployment) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkManagerDeployment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -100,6 +100,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "uniqueKey", GoGetter: "UniqueKey"},
 			_jsii_.MemberProperty{JsiiProperty: "uniqueKeyInput", GoGetter: "UniqueKeyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CosmosdbGremlinGraph{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener}.
 type MssqlVirtualMachineAvailabilityGroupListener interface {
 	cdktn.TerraformResource
 	AvailabilityGroupName() *string
@@ -151,6 +151,15 @@ type MssqlVirtualMachineAvailabilityGroupListener interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MssqlVirtualMachineAvailabilityGroupListener
@@ -499,7 +508,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) TimeoutsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
 func NewMssqlVirtualMachineAvailabilityGroupListener(scope constructs.Construct, id *string, config *MssqlVirtualMachineAvailabilityGroupListenerConfig) MssqlVirtualMachineAvailabilityGroupListener {
 	_init_.Initialize()
 
@@ -517,7 +526,7 @@ func NewMssqlVirtualMachineAvailabilityGroupListener(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
 func NewMssqlVirtualMachineAvailabilityGroupListener_Override(m MssqlVirtualMachineAvailabilityGroupListener, scope constructs.Construct, id *string, config *MssqlVirtualMachineAvailabilityGroupListenerConfig) {
 	_init_.Initialize()
 
@@ -1176,6 +1185,24 @@ func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) ToTerraform() i
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/static_web_app azurerm_static_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/static_web_app azurerm_static_web_app}.
 type DataAzurermStaticWebApp interface {
 	cdktn.TerraformDataSource
 	ApiKey() *string
@@ -121,6 +121,15 @@ type DataAzurermStaticWebApp interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermStaticWebApp
@@ -489,7 +498,7 @@ func (j *jsiiProxy_DataAzurermStaticWebApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
 func NewDataAzurermStaticWebApp(scope constructs.Construct, id *string, config *DataAzurermStaticWebAppConfig) DataAzurermStaticWebApp {
 	_init_.Initialize()
 
@@ -507,7 +516,7 @@ func NewDataAzurermStaticWebApp(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
 func NewDataAzurermStaticWebApp_Override(d DataAzurermStaticWebApp, scope constructs.Construct, id *string, config *DataAzurermStaticWebAppConfig) {
 	_init_.Initialize()
 
@@ -989,6 +998,24 @@ func (d *jsiiProxy_DataAzurermStaticWebApp) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermStaticWebApp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

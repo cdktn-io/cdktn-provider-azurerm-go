@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_builder azurerm_spring_cloud_builder}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_builder azurerm_spring_cloud_builder}.
 type SpringCloudBuilder interface {
 	cdktn.TerraformResource
 	BuildPackGroup() SpringCloudBuilderBuildPackGroupList
@@ -138,6 +138,15 @@ type SpringCloudBuilder interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SpringCloudBuilder
@@ -426,7 +435,7 @@ func (j *jsiiProxy_SpringCloudBuilder) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_builder azurerm_spring_cloud_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_builder azurerm_spring_cloud_builder} Resource.
 func NewSpringCloudBuilder(scope constructs.Construct, id *string, config *SpringCloudBuilderConfig) SpringCloudBuilder {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewSpringCloudBuilder(scope constructs.Construct, id *string, config *Sprin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_builder azurerm_spring_cloud_builder} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_builder azurerm_spring_cloud_builder} Resource.
 func NewSpringCloudBuilder_Override(s SpringCloudBuilder, scope constructs.Construct, id *string, config *SpringCloudBuilderConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (s *jsiiProxy_SpringCloudBuilder) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SpringCloudBuilder) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

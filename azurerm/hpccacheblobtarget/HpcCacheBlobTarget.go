@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target}.
 type HpcCacheBlobTarget interface {
 	cdktn.TerraformResource
 	AccessPolicyName() *string
@@ -145,6 +145,15 @@ type HpcCacheBlobTarget interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for HpcCacheBlobTarget
@@ -473,7 +482,7 @@ func (j *jsiiProxy_HpcCacheBlobTarget) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
 func NewHpcCacheBlobTarget(scope constructs.Construct, id *string, config *HpcCacheBlobTargetConfig) HpcCacheBlobTarget {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewHpcCacheBlobTarget(scope constructs.Construct, id *string, config *HpcCa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
 func NewHpcCacheBlobTarget_Override(h HpcCacheBlobTarget, scope constructs.Construct, id *string, config *HpcCacheBlobTargetConfig) {
 	_init_.Initialize()
 
@@ -1115,6 +1124,24 @@ func (h *jsiiProxy_HpcCacheBlobTarget) ToTerraform() interface{} {
 		h,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (h *jsiiProxy_HpcCacheBlobTarget) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		h,
+		"with",
+		args,
 		&returns,
 	)
 

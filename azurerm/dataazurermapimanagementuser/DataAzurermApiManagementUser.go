@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/api_management_user azurerm_api_management_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/api_management_user azurerm_api_management_user}.
 type DataAzurermApiManagementUser interface {
 	cdktn.TerraformDataSource
 	ApiManagementName() *string
@@ -115,6 +115,15 @@ type DataAzurermApiManagementUser interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermApiManagementUser
@@ -413,7 +422,7 @@ func (j *jsiiProxy_DataAzurermApiManagementUser) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
 func NewDataAzurermApiManagementUser(scope constructs.Construct, id *string, config *DataAzurermApiManagementUserConfig) DataAzurermApiManagementUser {
 	_init_.Initialize()
 
@@ -431,7 +440,7 @@ func NewDataAzurermApiManagementUser(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
 func NewDataAzurermApiManagementUser_Override(d DataAzurermApiManagementUser, scope constructs.Construct, id *string, config *DataAzurermApiManagementUserConfig) {
 	_init_.Initialize()
 
@@ -924,6 +933,24 @@ func (d *jsiiProxy_DataAzurermApiManagementUser) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermApiManagementUser) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -65,6 +65,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualRouterAsn", GoGetter: "VirtualRouterAsn"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualRouterIps", GoGetter: "VirtualRouterIps"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualWanId", GoGetter: "VirtualWanId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermVirtualHub{}

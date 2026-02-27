@@ -121,6 +121,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trustPolicyEnabled", GoGetter: "TrustPolicyEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "trustPolicyEnabledInput", GoGetter: "TrustPolicyEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundancyEnabled", GoGetter: "ZoneRedundancyEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundancyEnabledInput", GoGetter: "ZoneRedundancyEnabledInput"},
 		},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment}.
 type BlueprintAssignment interface {
 	cdktn.TerraformResource
 	BlueprintName() *string
@@ -165,6 +165,15 @@ type BlueprintAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BlueprintAssignment
@@ -613,7 +622,7 @@ func (j *jsiiProxy_BlueprintAssignment) VersionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
 func NewBlueprintAssignment(scope constructs.Construct, id *string, config *BlueprintAssignmentConfig) BlueprintAssignment {
 	_init_.Initialize()
 
@@ -631,7 +640,7 @@ func NewBlueprintAssignment(scope constructs.Construct, id *string, config *Blue
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
 func NewBlueprintAssignment_Override(b BlueprintAssignment, scope constructs.Construct, id *string, config *BlueprintAssignmentConfig) {
 	_init_.Initialize()
 
@@ -1331,6 +1340,24 @@ func (b *jsiiProxy_BlueprintAssignment) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BlueprintAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

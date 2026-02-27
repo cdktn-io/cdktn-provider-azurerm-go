@@ -135,6 +135,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versionSetId", GoGetter: "VersionSetId"},
 			_jsii_.MemberProperty{JsiiProperty: "versionSetIdInput", GoGetter: "VersionSetIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiManagementApi{}

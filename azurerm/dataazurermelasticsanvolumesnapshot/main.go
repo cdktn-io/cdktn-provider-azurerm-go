@@ -61,6 +61,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeGroupId", GoGetter: "VolumeGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeGroupIdInput", GoGetter: "VolumeGroupIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeName", GoGetter: "VolumeName"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermElasticSanVolumeSnapshot{}

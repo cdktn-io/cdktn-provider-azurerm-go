@@ -63,6 +63,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
 			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
+			_jsii_.MemberProperty{JsiiProperty: "proxyProtocolEnabled", GoGetter: "ProxyProtocolEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "proxyProtocolEnabledInput", GoGetter: "ProxyProtocolEnabledInput"},
 			_jsii_.MemberMethod{JsiiMethod: "putNatIpConfiguration", GoMethod: "PutNatIpConfiguration"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
@@ -73,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetLoadBalancerFrontendIpConfigurationIds", GoMethod: "ResetLoadBalancerFrontendIpConfigurationIds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProxyProtocolEnabled", GoMethod: "ResetProxyProtocolEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
 			_jsii_.MemberMethod{JsiiMethod: "resetVisibilitySubscriptionIds", GoMethod: "ResetVisibilitySubscriptionIds"},
@@ -93,6 +96,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilitySubscriptionIds", GoGetter: "VisibilitySubscriptionIds"},
 			_jsii_.MemberProperty{JsiiProperty: "visibilitySubscriptionIdsInput", GoGetter: "VisibilitySubscriptionIdsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_PrivateLinkService{}

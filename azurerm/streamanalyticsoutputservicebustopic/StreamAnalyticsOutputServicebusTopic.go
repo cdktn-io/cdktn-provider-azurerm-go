@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic}.
 type StreamAnalyticsOutputServicebusTopic interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -164,6 +164,15 @@ type StreamAnalyticsOutputServicebusTopic interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StreamAnalyticsOutputServicebusTopic
@@ -592,7 +601,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusTopic) TopicNameInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
 func NewStreamAnalyticsOutputServicebusTopic(scope constructs.Construct, id *string, config *StreamAnalyticsOutputServicebusTopicConfig) StreamAnalyticsOutputServicebusTopic {
 	_init_.Initialize()
 
@@ -610,7 +619,7 @@ func NewStreamAnalyticsOutputServicebusTopic(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
 func NewStreamAnalyticsOutputServicebusTopic_Override(s StreamAnalyticsOutputServicebusTopic, scope constructs.Construct, id *string, config *StreamAnalyticsOutputServicebusTopicConfig) {
 	_init_.Initialize()
 
@@ -1321,6 +1330,24 @@ func (s *jsiiProxy_StreamAnalyticsOutputServicebusTopic) ToTerraform() interface
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StreamAnalyticsOutputServicebusTopic) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

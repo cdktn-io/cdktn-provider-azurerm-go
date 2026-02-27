@@ -95,6 +95,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "viewIdInput", GoGetter: "ViewIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "weeksOfMonth", GoGetter: "WeeksOfMonth"},
 			_jsii_.MemberProperty{JsiiProperty: "weeksOfMonthInput", GoGetter: "WeeksOfMonthInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CostManagementScheduledAction{}

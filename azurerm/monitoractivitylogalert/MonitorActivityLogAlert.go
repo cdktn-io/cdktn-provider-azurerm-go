@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/monitor_activity_log_alert azurerm_monitor_activity_log_alert}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/monitor_activity_log_alert azurerm_monitor_activity_log_alert}.
 type MonitorActivityLogAlert interface {
 	cdktn.TerraformResource
 	Action() MonitorActivityLogAlertActionList
@@ -157,6 +157,15 @@ type MonitorActivityLogAlert interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MonitorActivityLogAlert
@@ -545,7 +554,7 @@ func (j *jsiiProxy_MonitorActivityLogAlert) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/monitor_activity_log_alert azurerm_monitor_activity_log_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/monitor_activity_log_alert azurerm_monitor_activity_log_alert} Resource.
 func NewMonitorActivityLogAlert(scope constructs.Construct, id *string, config *MonitorActivityLogAlertConfig) MonitorActivityLogAlert {
 	_init_.Initialize()
 
@@ -563,7 +572,7 @@ func NewMonitorActivityLogAlert(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/monitor_activity_log_alert azurerm_monitor_activity_log_alert} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/monitor_activity_log_alert azurerm_monitor_activity_log_alert} Resource.
 func NewMonitorActivityLogAlert_Override(m MonitorActivityLogAlert, scope constructs.Construct, id *string, config *MonitorActivityLogAlertConfig) {
 	_init_.Initialize()
 
@@ -1244,6 +1253,24 @@ func (m *jsiiProxy_MonitorActivityLogAlert) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MonitorActivityLogAlert) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

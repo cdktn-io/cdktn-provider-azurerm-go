@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upgradeSupported", GoGetter: "UpgradeSupported"},
 			_jsii_.MemberProperty{JsiiProperty: "upgradeSupportedInput", GoGetter: "UpgradeSupportedInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versions", GoGetter: "Versions"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermOracleDatabaseSystemVersions{}

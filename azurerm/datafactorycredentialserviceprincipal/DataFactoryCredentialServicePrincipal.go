@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal}.
 type DataFactoryCredentialServicePrincipal interface {
 	cdktn.TerraformResource
 	Annotations() *[]*string
@@ -150,6 +150,15 @@ type DataFactoryCredentialServicePrincipal interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryCredentialServicePrincipal
@@ -498,7 +507,7 @@ func (j *jsiiProxy_DataFactoryCredentialServicePrincipal) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
 func NewDataFactoryCredentialServicePrincipal(scope constructs.Construct, id *string, config *DataFactoryCredentialServicePrincipalConfig) DataFactoryCredentialServicePrincipal {
 	_init_.Initialize()
 
@@ -516,7 +525,7 @@ func NewDataFactoryCredentialServicePrincipal(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
 func NewDataFactoryCredentialServicePrincipal_Override(d DataFactoryCredentialServicePrincipal, scope constructs.Construct, id *string, config *DataFactoryCredentialServicePrincipalConfig) {
 	_init_.Initialize()
 
@@ -1167,6 +1176,24 @@ func (d *jsiiProxy_DataFactoryCredentialServicePrincipal) ToTerraform() interfac
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryCredentialServicePrincipal) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -101,6 +101,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vmPriorityInput", GoGetter: "VmPriorityInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vmSize", GoGetter: "VmSize"},
 			_jsii_.MemberProperty{JsiiProperty: "vmSizeInput", GoGetter: "VmSizeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MachineLearningComputeCluster{}

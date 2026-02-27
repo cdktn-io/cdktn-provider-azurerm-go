@@ -184,6 +184,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upgradeModeInput", GoGetter: "UpgradeModeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "userDataBase64", GoGetter: "UserDataBase64"},
 			_jsii_.MemberProperty{JsiiProperty: "userDataBase64Input", GoGetter: "UserDataBase64Input"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneBalance", GoGetter: "ZoneBalance"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneBalanceInput", GoGetter: "ZoneBalanceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},

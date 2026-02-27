@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_search azurerm_data_factory_linked_service_azure_search}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_search azurerm_data_factory_linked_service_azure_search}.
 type DataFactoryLinkedServiceAzureSearch interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -159,6 +159,15 @@ type DataFactoryLinkedServiceAzureSearch interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryLinkedServiceAzureSearch
@@ -557,7 +566,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureSearch) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_search azurerm_data_factory_linked_service_azure_search} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_search azurerm_data_factory_linked_service_azure_search} Resource.
 func NewDataFactoryLinkedServiceAzureSearch(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureSearchConfig) DataFactoryLinkedServiceAzureSearch {
 	_init_.Initialize()
 
@@ -575,7 +584,7 @@ func NewDataFactoryLinkedServiceAzureSearch(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_search azurerm_data_factory_linked_service_azure_search} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_search azurerm_data_factory_linked_service_azure_search} Resource.
 func NewDataFactoryLinkedServiceAzureSearch_Override(d DataFactoryLinkedServiceAzureSearch, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureSearchConfig) {
 	_init_.Initialize()
 
@@ -1264,6 +1273,24 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

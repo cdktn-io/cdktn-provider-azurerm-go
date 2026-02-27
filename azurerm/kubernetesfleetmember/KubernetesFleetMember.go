@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kubernetes_fleet_member azurerm_kubernetes_fleet_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kubernetes_fleet_member azurerm_kubernetes_fleet_member}.
 type KubernetesFleetMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -139,6 +139,15 @@ type KubernetesFleetMember interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KubernetesFleetMember
@@ -427,7 +436,7 @@ func (j *jsiiProxy_KubernetesFleetMember) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kubernetes_fleet_member azurerm_kubernetes_fleet_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kubernetes_fleet_member azurerm_kubernetes_fleet_member} Resource.
 func NewKubernetesFleetMember(scope constructs.Construct, id *string, config *KubernetesFleetMemberConfig) KubernetesFleetMember {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewKubernetesFleetMember(scope constructs.Construct, id *string, config *Ku
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kubernetes_fleet_member azurerm_kubernetes_fleet_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kubernetes_fleet_member azurerm_kubernetes_fleet_member} Resource.
 func NewKubernetesFleetMember_Override(k KubernetesFleetMember, scope constructs.Construct, id *string, config *KubernetesFleetMemberConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (k *jsiiProxy_KubernetesFleetMember) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KubernetesFleetMember) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -118,6 +118,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "windowDuration", GoGetter: "WindowDuration"},
 			_jsii_.MemberProperty{JsiiProperty: "windowDurationInput", GoGetter: "WindowDurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceAlertsStorageEnabled", GoGetter: "WorkspaceAlertsStorageEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceAlertsStorageEnabledInput", GoGetter: "WorkspaceAlertsStorageEnabledInput"},
 		},

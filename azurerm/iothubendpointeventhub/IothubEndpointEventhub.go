@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
 type IothubEndpointEventhub interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -159,6 +159,15 @@ type IothubEndpointEventhub interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IothubEndpointEventhub
@@ -547,7 +556,7 @@ func (j *jsiiProxy_IothubEndpointEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) IothubEndpointEventhub {
 	_init_.Initialize()
 
@@ -565,7 +574,7 @@ func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub_Override(i IothubEndpointEventhub, scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) {
 	_init_.Initialize()
 
@@ -1262,6 +1271,24 @@ func (i *jsiiProxy_IothubEndpointEventhub) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IothubEndpointEventhub) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

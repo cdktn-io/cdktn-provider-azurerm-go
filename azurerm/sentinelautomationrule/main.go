@@ -97,6 +97,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggersOnInput", GoGetter: "TriggersOnInput"},
 			_jsii_.MemberProperty{JsiiProperty: "triggersWhen", GoGetter: "TriggersWhen"},
 			_jsii_.MemberProperty{JsiiProperty: "triggersWhenInput", GoGetter: "TriggersWhenInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SentinelAutomationRule{}

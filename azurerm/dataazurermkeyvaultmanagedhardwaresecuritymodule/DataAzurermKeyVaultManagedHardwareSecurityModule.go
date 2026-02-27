@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/key_vault_managed_hardware_security_module azurerm_key_vault_managed_hardware_security_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/key_vault_managed_hardware_security_module azurerm_key_vault_managed_hardware_security_module}.
 type DataAzurermKeyVaultManagedHardwareSecurityModule interface {
 	cdktn.TerraformDataSource
 	AdminObjectIds() *[]*string
@@ -115,6 +115,15 @@ type DataAzurermKeyVaultManagedHardwareSecurityModule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermKeyVaultManagedHardwareSecurityModule
@@ -423,7 +432,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModule) TimeoutsInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/key_vault_managed_hardware_security_module azurerm_key_vault_managed_hardware_security_module} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/key_vault_managed_hardware_security_module azurerm_key_vault_managed_hardware_security_module} Data Source.
 func NewDataAzurermKeyVaultManagedHardwareSecurityModule(scope constructs.Construct, id *string, config *DataAzurermKeyVaultManagedHardwareSecurityModuleConfig) DataAzurermKeyVaultManagedHardwareSecurityModule {
 	_init_.Initialize()
 
@@ -441,7 +450,7 @@ func NewDataAzurermKeyVaultManagedHardwareSecurityModule(scope constructs.Constr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/key_vault_managed_hardware_security_module azurerm_key_vault_managed_hardware_security_module} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/key_vault_managed_hardware_security_module azurerm_key_vault_managed_hardware_security_module} Data Source.
 func NewDataAzurermKeyVaultManagedHardwareSecurityModule_Override(d DataAzurermKeyVaultManagedHardwareSecurityModule, scope constructs.Construct, id *string, config *DataAzurermKeyVaultManagedHardwareSecurityModuleConfig) {
 	_init_.Initialize()
 
@@ -923,6 +932,24 @@ func (d *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModule) ToTerraform
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

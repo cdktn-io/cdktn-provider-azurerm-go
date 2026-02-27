@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
 type DataAzurermOracleAutonomousDatabaseCloneFromBackup interface {
 	cdktn.TerraformDataSource
 	ActualUsedDataStorageSizeInTb() *float64
@@ -168,6 +168,15 @@ type DataAzurermOracleAutonomousDatabaseCloneFromBackup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermOracleAutonomousDatabaseCloneFromBackup
@@ -1006,7 +1015,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackup) VirtualNe
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromBackup(scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromBackupConfig) DataAzurermOracleAutonomousDatabaseCloneFromBackup {
 	_init_.Initialize()
 
@@ -1024,7 +1033,7 @@ func NewDataAzurermOracleAutonomousDatabaseCloneFromBackup(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromBackup_Override(d DataAzurermOracleAutonomousDatabaseCloneFromBackup, scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromBackupConfig) {
 	_init_.Initialize()
 
@@ -1506,6 +1515,24 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackup) ToTerrafo
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

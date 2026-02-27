@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault azurerm_key_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault azurerm_key_vault}.
 type KeyVault interface {
 	cdktn.TerraformResource
 	AccessPolicy() KeyVaultAccessPolicyList
@@ -190,6 +190,15 @@ type KeyVault interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KeyVault
@@ -748,7 +757,7 @@ func (j *jsiiProxy_KeyVault) VaultUri() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault azurerm_key_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault azurerm_key_vault} Resource.
 func NewKeyVault(scope constructs.Construct, id *string, config *KeyVaultConfig) KeyVault {
 	_init_.Initialize()
 
@@ -766,7 +775,7 @@ func NewKeyVault(scope constructs.Construct, id *string, config *KeyVaultConfig)
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault azurerm_key_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault azurerm_key_vault} Resource.
 func NewKeyVault_Override(k KeyVault, scope constructs.Construct, id *string, config *KeyVaultConfig) {
 	_init_.Initialize()
 
@@ -1599,6 +1608,24 @@ func (k *jsiiProxy_KeyVault) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KeyVault) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

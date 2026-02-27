@@ -119,6 +119,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usedDataStorageSizeInGb", GoGetter: "UsedDataStorageSizeInGb"},
 			_jsii_.MemberProperty{JsiiProperty: "usedDataStorageSizeInTb", GoGetter: "UsedDataStorageSizeInTb"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkId", GoGetter: "VirtualNetworkId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackup{}

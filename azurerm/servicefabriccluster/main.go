@@ -135,6 +135,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vmImageInput", GoGetter: "VmImageInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vmssZonalUpgradeMode", GoGetter: "VmssZonalUpgradeMode"},
 			_jsii_.MemberProperty{JsiiProperty: "vmssZonalUpgradeModeInput", GoGetter: "VmssZonalUpgradeModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ServiceFabricCluster{}

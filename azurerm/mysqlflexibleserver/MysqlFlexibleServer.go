@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server}.
 type MysqlFlexibleServer interface {
 	cdktn.TerraformResource
 	AdministratorLogin() *string
@@ -226,6 +226,15 @@ type MysqlFlexibleServer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MysqlFlexibleServer
@@ -964,7 +973,7 @@ func (j *jsiiProxy_MysqlFlexibleServer) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
 func NewMysqlFlexibleServer(scope constructs.Construct, id *string, config *MysqlFlexibleServerConfig) MysqlFlexibleServer {
 	_init_.Initialize()
 
@@ -982,7 +991,7 @@ func NewMysqlFlexibleServer(scope constructs.Construct, id *string, config *Mysq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mysql_flexible_server azurerm_mysql_flexible_server} Resource.
 func NewMysqlFlexibleServer_Override(m MysqlFlexibleServer, scope constructs.Construct, id *string, config *MysqlFlexibleServerConfig) {
 	_init_.Initialize()
 
@@ -1983,6 +1992,24 @@ func (m *jsiiProxy_MysqlFlexibleServer) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MysqlFlexibleServer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

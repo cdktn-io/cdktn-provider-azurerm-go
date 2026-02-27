@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_pool azurerm_netapp_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_pool azurerm_netapp_pool}.
 type DataAzurermNetappPool interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -116,6 +116,15 @@ type DataAzurermNetappPool interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermNetappPool
@@ -424,7 +433,7 @@ func (j *jsiiProxy_DataAzurermNetappPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
 func NewDataAzurermNetappPool(scope constructs.Construct, id *string, config *DataAzurermNetappPoolConfig) DataAzurermNetappPool {
 	_init_.Initialize()
 
@@ -442,7 +451,7 @@ func NewDataAzurermNetappPool(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_pool azurerm_netapp_pool} Data Source.
 func NewDataAzurermNetappPool_Override(d DataAzurermNetappPool, scope constructs.Construct, id *string, config *DataAzurermNetappPoolConfig) {
 	_init_.Initialize()
 
@@ -935,6 +944,24 @@ func (d *jsiiProxy_DataAzurermNetappPool) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermNetappPool) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

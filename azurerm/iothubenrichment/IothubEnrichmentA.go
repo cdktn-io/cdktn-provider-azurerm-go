@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_enrichment azurerm_iothub_enrichment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_enrichment azurerm_iothub_enrichment}.
 type IothubEnrichmentA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -141,6 +141,15 @@ type IothubEnrichmentA interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IothubEnrichmentA
@@ -449,7 +458,7 @@ func (j *jsiiProxy_IothubEnrichmentA) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_enrichment azurerm_iothub_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_enrichment azurerm_iothub_enrichment} Resource.
 func NewIothubEnrichmentA(scope constructs.Construct, id *string, config *IothubEnrichmentAConfig) IothubEnrichmentA {
 	_init_.Initialize()
 
@@ -467,7 +476,7 @@ func NewIothubEnrichmentA(scope constructs.Construct, id *string, config *Iothub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_enrichment azurerm_iothub_enrichment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_enrichment azurerm_iothub_enrichment} Resource.
 func NewIothubEnrichmentA_Override(i IothubEnrichmentA, scope constructs.Construct, id *string, config *IothubEnrichmentAConfig) {
 	_init_.Initialize()
 
@@ -1072,6 +1081,24 @@ func (i *jsiiProxy_IothubEnrichmentA) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IothubEnrichmentA) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

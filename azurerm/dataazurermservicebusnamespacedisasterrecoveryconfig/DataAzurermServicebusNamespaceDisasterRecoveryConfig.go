@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config}.
 type DataAzurermServicebusNamespaceDisasterRecoveryConfig interface {
 	cdktn.TerraformDataSource
 	AliasAuthorizationRuleId() *string
@@ -125,6 +125,15 @@ type DataAzurermServicebusNamespaceDisasterRecoveryConfig interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermServicebusNamespaceDisasterRecoveryConfig
@@ -463,7 +472,7 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
 func NewDataAzurermServicebusNamespaceDisasterRecoveryConfig(scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceDisasterRecoveryConfigConfig) DataAzurermServicebusNamespaceDisasterRecoveryConfig {
 	_init_.Initialize()
 
@@ -481,7 +490,7 @@ func NewDataAzurermServicebusNamespaceDisasterRecoveryConfig(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/servicebus_namespace_disaster_recovery_config azurerm_servicebus_namespace_disaster_recovery_config} Data Source.
 func NewDataAzurermServicebusNamespaceDisasterRecoveryConfig_Override(d DataAzurermServicebusNamespaceDisasterRecoveryConfig, scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceDisasterRecoveryConfigConfig) {
 	_init_.Initialize()
 
@@ -1028,6 +1037,24 @@ func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) ToTerra
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermServicebusNamespaceDisasterRecoveryConfig) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

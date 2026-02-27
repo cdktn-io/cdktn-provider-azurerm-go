@@ -12,12 +12,15 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection}.
 type VirtualNetworkGatewayConnection interface {
 	cdktn.TerraformResource
 	AuthorizationKey() *string
 	SetAuthorizationKey(val *string)
 	AuthorizationKeyInput() *string
+	BgpEnabled() interface{}
+	SetBgpEnabled(val interface{})
+	BgpEnabledInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -186,6 +189,7 @@ type VirtualNetworkGatewayConnection interface {
 	PutTimeouts(value *VirtualNetworkGatewayConnectionTimeouts)
 	PutTrafficSelectorPolicy(value interface{})
 	ResetAuthorizationKey()
+	ResetBgpEnabled()
 	ResetConnectionMode()
 	ResetConnectionProtocol()
 	ResetCustomBgpAddresses()
@@ -221,6 +225,15 @@ type VirtualNetworkGatewayConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VirtualNetworkGatewayConnection
@@ -243,6 +256,26 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection) AuthorizationKeyInput() *str
 	_jsii_.Get(
 		j,
 		"authorizationKeyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetworkGatewayConnection) BgpEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"bgpEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetworkGatewayConnection) BgpEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"bgpEnabledInput",
 		&returns,
 	)
 	return returns
@@ -929,7 +962,7 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection) VirtualNetworkGatewayIdInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
 func NewVirtualNetworkGatewayConnection(scope constructs.Construct, id *string, config *VirtualNetworkGatewayConnectionConfig) VirtualNetworkGatewayConnection {
 	_init_.Initialize()
 
@@ -947,7 +980,7 @@ func NewVirtualNetworkGatewayConnection(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_network_gateway_connection azurerm_virtual_network_gateway_connection} Resource.
 func NewVirtualNetworkGatewayConnection_Override(v VirtualNetworkGatewayConnection, scope constructs.Construct, id *string, config *VirtualNetworkGatewayConnectionConfig) {
 	_init_.Initialize()
 
@@ -965,6 +998,17 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection)SetAuthorizationKey(val *stri
 	_jsii_.Set(
 		j,
 		"authorizationKey",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VirtualNetworkGatewayConnection)SetBgpEnabled(val interface{}) {
+	if err := j.validateSetBgpEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"bgpEnabled",
 		val,
 	)
 }
@@ -1684,6 +1728,14 @@ func (v *jsiiProxy_VirtualNetworkGatewayConnection) ResetAuthorizationKey() {
 	)
 }
 
+func (v *jsiiProxy_VirtualNetworkGatewayConnection) ResetBgpEnabled() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetBgpEnabled",
+		nil, // no parameters
+	)
+}
+
 func (v *jsiiProxy_VirtualNetworkGatewayConnection) ResetConnectionMode() {
 	_jsii_.InvokeVoid(
 		v,
@@ -1932,6 +1984,24 @@ func (v *jsiiProxy_VirtualNetworkGatewayConnection) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VirtualNetworkGatewayConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

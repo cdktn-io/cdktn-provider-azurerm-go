@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_account azurerm_netapp_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_account azurerm_netapp_account}.
 type DataAzurermNetappAccount interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -113,6 +113,15 @@ type DataAzurermNetappAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermNetappAccount
@@ -381,7 +390,7 @@ func (j *jsiiProxy_DataAzurermNetappAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_account azurerm_netapp_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_account azurerm_netapp_account} Data Source.
 func NewDataAzurermNetappAccount(scope constructs.Construct, id *string, config *DataAzurermNetappAccountConfig) DataAzurermNetappAccount {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewDataAzurermNetappAccount(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_account azurerm_netapp_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_account azurerm_netapp_account} Data Source.
 func NewDataAzurermNetappAccount_Override(d DataAzurermNetappAccount, scope constructs.Construct, id *string, config *DataAzurermNetappAccountConfig) {
 	_init_.Initialize()
 
@@ -900,6 +909,24 @@ func (d *jsiiProxy_DataAzurermNetappAccount) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermNetappAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

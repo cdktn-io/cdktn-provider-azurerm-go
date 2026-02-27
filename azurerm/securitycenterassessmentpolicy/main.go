@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userImpact", GoGetter: "UserImpact"},
 			_jsii_.MemberProperty{JsiiProperty: "userImpactInput", GoGetter: "UserImpactInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SecurityCenterAssessmentPolicy{}

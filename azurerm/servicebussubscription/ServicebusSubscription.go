@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription}.
 type ServicebusSubscription interface {
 	cdktn.TerraformResource
 	AutoDeleteOnIdle() *string
@@ -183,6 +183,15 @@ type ServicebusSubscription interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServicebusSubscription
@@ -691,7 +700,7 @@ func (j *jsiiProxy_ServicebusSubscription) TopicIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
 func NewServicebusSubscription(scope constructs.Construct, id *string, config *ServicebusSubscriptionConfig) ServicebusSubscription {
 	_init_.Initialize()
 
@@ -709,7 +718,7 @@ func NewServicebusSubscription(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_subscription azurerm_servicebus_subscription} Resource.
 func NewServicebusSubscription_Override(s ServicebusSubscription, scope constructs.Construct, id *string, config *ServicebusSubscriptionConfig) {
 	_init_.Initialize()
 
@@ -1520,6 +1529,24 @@ func (s *jsiiProxy_ServicebusSubscription) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServicebusSubscription) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

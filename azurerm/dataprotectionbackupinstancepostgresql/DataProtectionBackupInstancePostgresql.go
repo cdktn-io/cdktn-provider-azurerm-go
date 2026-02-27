@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql}.
 type DataProtectionBackupInstancePostgresql interface {
 	cdktn.TerraformResource
 	BackupPolicyId() *string
@@ -146,6 +146,15 @@ type DataProtectionBackupInstancePostgresql interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataProtectionBackupInstancePostgresql
@@ -484,7 +493,7 @@ func (j *jsiiProxy_DataProtectionBackupInstancePostgresql) VaultIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
 func NewDataProtectionBackupInstancePostgresql(scope constructs.Construct, id *string, config *DataProtectionBackupInstancePostgresqlConfig) DataProtectionBackupInstancePostgresql {
 	_init_.Initialize()
 
@@ -502,7 +511,7 @@ func NewDataProtectionBackupInstancePostgresql(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_protection_backup_instance_postgresql azurerm_data_protection_backup_instance_postgresql} Resource.
 func NewDataProtectionBackupInstancePostgresql_Override(d DataProtectionBackupInstancePostgresql, scope constructs.Construct, id *string, config *DataProtectionBackupInstancePostgresqlConfig) {
 	_init_.Initialize()
 
@@ -1126,6 +1135,24 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresql) ToTerraform() interfa
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresql) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

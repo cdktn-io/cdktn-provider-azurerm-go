@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery}.
 type SharedImageGallery interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -148,6 +148,15 @@ type SharedImageGallery interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SharedImageGallery
@@ -486,7 +495,7 @@ func (j *jsiiProxy_SharedImageGallery) UniqueName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
 func NewSharedImageGallery(scope constructs.Construct, id *string, config *SharedImageGalleryConfig) SharedImageGallery {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewSharedImageGallery(scope constructs.Construct, id *string, config *Share
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/shared_image_gallery azurerm_shared_image_gallery} Resource.
 func NewSharedImageGallery_Override(s SharedImageGallery, scope constructs.Construct, id *string, config *SharedImageGalleryConfig) {
 	_init_.Initialize()
 
@@ -1144,6 +1153,24 @@ func (s *jsiiProxy_SharedImageGallery) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SharedImageGallery) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

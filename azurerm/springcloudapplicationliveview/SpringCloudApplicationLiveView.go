@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_application_live_view azurerm_spring_cloud_application_live_view}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_application_live_view azurerm_spring_cloud_application_live_view}.
 type SpringCloudApplicationLiveView interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type SpringCloudApplicationLiveView interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SpringCloudApplicationLiveView
@@ -380,7 +389,7 @@ func (j *jsiiProxy_SpringCloudApplicationLiveView) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_application_live_view azurerm_spring_cloud_application_live_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_application_live_view azurerm_spring_cloud_application_live_view} Resource.
 func NewSpringCloudApplicationLiveView(scope constructs.Construct, id *string, config *SpringCloudApplicationLiveViewConfig) SpringCloudApplicationLiveView {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewSpringCloudApplicationLiveView(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_application_live_view azurerm_spring_cloud_application_live_view} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_application_live_view azurerm_spring_cloud_application_live_view} Resource.
 func NewSpringCloudApplicationLiveView_Override(s SpringCloudApplicationLiveView, scope constructs.Construct, id *string, config *SpringCloudApplicationLiveViewConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (s *jsiiProxy_SpringCloudApplicationLiveView) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SpringCloudApplicationLiveView) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -80,6 +80,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
 			_jsii_.MemberProperty{JsiiProperty: "usePolicyBasedTrafficSelectors", GoGetter: "UsePolicyBasedTrafficSelectors"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkGatewayId", GoGetter: "VirtualNetworkGatewayId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermVirtualNetworkGatewayConnection{}

@@ -18,6 +18,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "activeActiveInput", GoGetter: "ActiveActiveInput"},
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "bgpEnabled", GoGetter: "BgpEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "bgpEnabledInput", GoGetter: "BgpEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bgpRouteTranslationForNatEnabled", GoGetter: "BgpRouteTranslationForNatEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "bgpRouteTranslationForNatEnabledInput", GoGetter: "BgpRouteTranslationForNatEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "bgpSettings", GoGetter: "BgpSettings"},
@@ -86,6 +88,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "remoteVnetTrafficEnabled", GoGetter: "RemoteVnetTrafficEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "remoteVnetTrafficEnabledInput", GoGetter: "RemoteVnetTrafficEnabledInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetActiveActive", GoMethod: "ResetActiveActive"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBgpEnabled", GoMethod: "ResetBgpEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBgpRouteTranslationForNatEnabled", GoMethod: "ResetBgpRouteTranslationForNatEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetBgpSettings", GoMethod: "ResetBgpSettings"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomRoute", GoMethod: "ResetCustomRoute"},
@@ -130,6 +133,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpnClientConfigurationInput", GoGetter: "VpnClientConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnType", GoGetter: "VpnType"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnTypeInput", GoGetter: "VpnTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VirtualNetworkGateway{}

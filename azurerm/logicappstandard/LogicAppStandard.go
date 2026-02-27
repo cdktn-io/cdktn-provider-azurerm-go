@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.
 type LogicAppStandard interface {
 	cdktn.TerraformResource
 	AppServicePlanId() *string
@@ -222,6 +222,15 @@ type LogicAppStandard interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogicAppStandard
@@ -970,7 +979,7 @@ func (j *jsiiProxy_LogicAppStandard) VnetContentShareEnabledInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
 func NewLogicAppStandard(scope constructs.Construct, id *string, config *LogicAppStandardConfig) LogicAppStandard {
 	_init_.Initialize()
 
@@ -988,7 +997,7 @@ func NewLogicAppStandard(scope constructs.Construct, id *string, config *LogicAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
 func NewLogicAppStandard_Override(l LogicAppStandard, scope constructs.Construct, id *string, config *LogicAppStandardConfig) {
 	_init_.Initialize()
 
@@ -1946,6 +1955,24 @@ func (l *jsiiProxy_LogicAppStandard) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogicAppStandard) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

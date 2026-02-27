@@ -137,6 +137,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkSubnetIdInput", GoGetter: "VirtualNetworkSubnetIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vnetContentShareEnabled", GoGetter: "VnetContentShareEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "vnetContentShareEnabledInput", GoGetter: "VnetContentShareEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_LogicAppStandard{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer}.
 type KeyVaultCertificateIssuer interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -151,6 +151,15 @@ type KeyVaultCertificateIssuer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KeyVaultCertificateIssuer
@@ -499,7 +508,7 @@ func (j *jsiiProxy_KeyVaultCertificateIssuer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
 func NewKeyVaultCertificateIssuer(scope constructs.Construct, id *string, config *KeyVaultCertificateIssuerConfig) KeyVaultCertificateIssuer {
 	_init_.Initialize()
 
@@ -517,7 +526,7 @@ func NewKeyVaultCertificateIssuer(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_certificate_issuer azurerm_key_vault_certificate_issuer} Resource.
 func NewKeyVaultCertificateIssuer_Override(k KeyVaultCertificateIssuer, scope constructs.Construct, id *string, config *KeyVaultCertificateIssuerConfig) {
 	_init_.Initialize()
 
@@ -1176,6 +1185,24 @@ func (k *jsiiProxy_KeyVaultCertificateIssuer) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KeyVaultCertificateIssuer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

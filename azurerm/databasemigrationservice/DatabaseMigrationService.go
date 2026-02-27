@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/database_migration_service azurerm_database_migration_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/database_migration_service azurerm_database_migration_service}.
 type DatabaseMigrationService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -145,6 +145,15 @@ type DatabaseMigrationService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DatabaseMigrationService
@@ -473,7 +482,7 @@ func (j *jsiiProxy_DatabaseMigrationService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/database_migration_service azurerm_database_migration_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/database_migration_service azurerm_database_migration_service} Resource.
 func NewDatabaseMigrationService(scope constructs.Construct, id *string, config *DatabaseMigrationServiceConfig) DatabaseMigrationService {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewDatabaseMigrationService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/database_migration_service azurerm_database_migration_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/database_migration_service azurerm_database_migration_service} Resource.
 func NewDatabaseMigrationService_Override(d DatabaseMigrationService, scope constructs.Construct, id *string, config *DatabaseMigrationServiceConfig) {
 	_init_.Initialize()
 
@@ -1115,6 +1124,24 @@ func (d *jsiiProxy_DatabaseMigrationService) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DatabaseMigrationService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

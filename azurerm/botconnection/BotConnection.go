@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_connection azurerm_bot_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_connection azurerm_bot_connection}.
 type BotConnection interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -155,6 +155,15 @@ type BotConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BotConnection
@@ -543,7 +552,7 @@ func (j *jsiiProxy_BotConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
 func NewBotConnection(scope constructs.Construct, id *string, config *BotConnectionConfig) BotConnection {
 	_init_.Initialize()
 
@@ -561,7 +570,7 @@ func NewBotConnection(scope constructs.Construct, id *string, config *BotConnect
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_connection azurerm_bot_connection} Resource.
 func NewBotConnection_Override(b BotConnection, scope constructs.Construct, id *string, config *BotConnectionConfig) {
 	_init_.Initialize()
 
@@ -1226,6 +1235,24 @@ func (b *jsiiProxy_BotConnection) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BotConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

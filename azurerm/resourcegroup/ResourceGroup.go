@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_group azurerm_resource_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_group azurerm_resource_group}.
 type ResourceGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type ResourceGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ResourceGroup
@@ -428,7 +437,7 @@ func (j *jsiiProxy_ResourceGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_group azurerm_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_group azurerm_resource_group} Resource.
 func NewResourceGroup(scope constructs.Construct, id *string, config *ResourceGroupConfig) ResourceGroup {
 	_init_.Initialize()
 
@@ -446,7 +455,7 @@ func NewResourceGroup(scope constructs.Construct, id *string, config *ResourceGr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_group azurerm_resource_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_group azurerm_resource_group} Resource.
 func NewResourceGroup_Override(r ResourceGroup, scope constructs.Construct, id *string, config *ResourceGroupConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1065,24 @@ func (r *jsiiProxy_ResourceGroup) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_ResourceGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

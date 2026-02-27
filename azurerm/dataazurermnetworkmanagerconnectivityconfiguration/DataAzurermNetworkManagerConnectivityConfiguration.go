@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
 type DataAzurermNetworkManagerConnectivityConfiguration interface {
 	cdktn.TerraformDataSource
 	AppliesToGroup() DataAzurermNetworkManagerConnectivityConfigurationAppliesToGroupList
@@ -113,6 +113,15 @@ type DataAzurermNetworkManagerConnectivityConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermNetworkManagerConnectivityConfiguration
@@ -401,7 +410,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
 func NewDataAzurermNetworkManagerConnectivityConfiguration(scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConnectivityConfigurationConfig) DataAzurermNetworkManagerConnectivityConfiguration {
 	_init_.Initialize()
 
@@ -419,7 +428,7 @@ func NewDataAzurermNetworkManagerConnectivityConfiguration(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
 func NewDataAzurermNetworkManagerConnectivityConfiguration_Override(d DataAzurermNetworkManagerConnectivityConfiguration, scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConnectivityConfigurationConfig) {
 	_init_.Initialize()
 
@@ -901,6 +910,24 @@ func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) ToTerrafo
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

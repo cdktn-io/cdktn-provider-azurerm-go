@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/ip_groups azurerm_ip_groups}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/ip_groups azurerm_ip_groups}.
 type DataAzurermIpGroups interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -111,6 +111,15 @@ type DataAzurermIpGroups interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermIpGroups
@@ -379,7 +388,7 @@ func (j *jsiiProxy_DataAzurermIpGroups) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
 func NewDataAzurermIpGroups(scope constructs.Construct, id *string, config *DataAzurermIpGroupsConfig) DataAzurermIpGroups {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewDataAzurermIpGroups(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/ip_groups azurerm_ip_groups} Data Source.
 func NewDataAzurermIpGroups_Override(d DataAzurermIpGroups, scope constructs.Construct, id *string, config *DataAzurermIpGroupsConfig) {
 	_init_.Initialize()
 
@@ -879,6 +888,24 @@ func (d *jsiiProxy_DataAzurermIpGroups) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermIpGroups) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -111,6 +111,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "windowSize", GoGetter: "WindowSize"},
 			_jsii_.MemberProperty{JsiiProperty: "windowSizeInput", GoGetter: "WindowSizeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitorMetricAlert{}

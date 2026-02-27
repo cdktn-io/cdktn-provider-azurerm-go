@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "visibilityInput", GoGetter: "VisibilityInput"},
 			_jsii_.MemberProperty{JsiiProperty: "window", GoGetter: "Window"},
 			_jsii_.MemberProperty{JsiiProperty: "windowInput", GoGetter: "WindowInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MaintenanceConfiguration{}

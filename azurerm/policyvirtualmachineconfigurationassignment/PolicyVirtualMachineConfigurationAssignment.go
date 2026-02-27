@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/policy_virtual_machine_configuration_assignment azurerm_policy_virtual_machine_configuration_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/policy_virtual_machine_configuration_assignment azurerm_policy_virtual_machine_configuration_assignment}.
 type PolicyVirtualMachineConfigurationAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -138,6 +138,15 @@ type PolicyVirtualMachineConfigurationAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PolicyVirtualMachineConfigurationAssignment
@@ -426,7 +435,7 @@ func (j *jsiiProxy_PolicyVirtualMachineConfigurationAssignment) VirtualMachineId
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/policy_virtual_machine_configuration_assignment azurerm_policy_virtual_machine_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/policy_virtual_machine_configuration_assignment azurerm_policy_virtual_machine_configuration_assignment} Resource.
 func NewPolicyVirtualMachineConfigurationAssignment(scope constructs.Construct, id *string, config *PolicyVirtualMachineConfigurationAssignmentConfig) PolicyVirtualMachineConfigurationAssignment {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewPolicyVirtualMachineConfigurationAssignment(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/policy_virtual_machine_configuration_assignment azurerm_policy_virtual_machine_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/policy_virtual_machine_configuration_assignment azurerm_policy_virtual_machine_configuration_assignment} Resource.
 func NewPolicyVirtualMachineConfigurationAssignment_Override(p PolicyVirtualMachineConfigurationAssignment, scope constructs.Construct, id *string, config *PolicyVirtualMachineConfigurationAssignmentConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignment) ToTerraform() in
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PolicyVirtualMachineConfigurationAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_module azurerm_automation_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_module azurerm_automation_module}.
 type AutomationModule interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -138,6 +138,15 @@ type AutomationModule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationModule
@@ -426,7 +435,7 @@ func (j *jsiiProxy_AutomationModule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_module azurerm_automation_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_module azurerm_automation_module} Resource.
 func NewAutomationModule(scope constructs.Construct, id *string, config *AutomationModuleConfig) AutomationModule {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewAutomationModule(scope constructs.Construct, id *string, config *Automat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_module azurerm_automation_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_module azurerm_automation_module} Resource.
 func NewAutomationModule_Override(a AutomationModule, scope constructs.Construct, id *string, config *AutomationModuleConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (a *jsiiProxy_AutomationModule) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationModule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

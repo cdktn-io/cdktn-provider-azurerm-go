@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueFromKeyVault", GoGetter: "ValueFromKeyVault"},
 			_jsii_.MemberProperty{JsiiProperty: "valueFromKeyVaultInput", GoGetter: "ValueFromKeyVaultInput"},
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiManagementWorkspaceNamedValue{}

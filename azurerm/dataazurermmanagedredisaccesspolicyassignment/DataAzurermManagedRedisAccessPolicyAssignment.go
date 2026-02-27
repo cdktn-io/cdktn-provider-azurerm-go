@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment}.
 type DataAzurermManagedRedisAccessPolicyAssignment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -110,6 +110,15 @@ type DataAzurermManagedRedisAccessPolicyAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermManagedRedisAccessPolicyAssignment
@@ -358,7 +367,7 @@ func (j *jsiiProxy_DataAzurermManagedRedisAccessPolicyAssignment) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Data Source.
 func NewDataAzurermManagedRedisAccessPolicyAssignment(scope constructs.Construct, id *string, config *DataAzurermManagedRedisAccessPolicyAssignmentConfig) DataAzurermManagedRedisAccessPolicyAssignment {
 	_init_.Initialize()
 
@@ -376,7 +385,7 @@ func NewDataAzurermManagedRedisAccessPolicyAssignment(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Data Source.
 func NewDataAzurermManagedRedisAccessPolicyAssignment_Override(d DataAzurermManagedRedisAccessPolicyAssignment, scope constructs.Construct, id *string, config *DataAzurermManagedRedisAccessPolicyAssignmentConfig) {
 	_init_.Initialize()
 
@@ -869,6 +878,24 @@ func (d *jsiiProxy_DataAzurermManagedRedisAccessPolicyAssignment) ToTerraform() 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedRedisAccessPolicyAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

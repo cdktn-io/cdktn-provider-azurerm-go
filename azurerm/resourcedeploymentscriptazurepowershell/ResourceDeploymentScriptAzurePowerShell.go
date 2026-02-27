@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_deployment_script_azure_power_shell azurerm_resource_deployment_script_azure_power_shell}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_deployment_script_azure_power_shell azurerm_resource_deployment_script_azure_power_shell}.
 type ResourceDeploymentScriptAzurePowerShell interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -190,6 +190,15 @@ type ResourceDeploymentScriptAzurePowerShell interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ResourceDeploymentScriptAzurePowerShell
@@ -748,7 +757,7 @@ func (j *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) VersionInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_deployment_script_azure_power_shell azurerm_resource_deployment_script_azure_power_shell} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_deployment_script_azure_power_shell azurerm_resource_deployment_script_azure_power_shell} Resource.
 func NewResourceDeploymentScriptAzurePowerShell(scope constructs.Construct, id *string, config *ResourceDeploymentScriptAzurePowerShellConfig) ResourceDeploymentScriptAzurePowerShell {
 	_init_.Initialize()
 
@@ -766,7 +775,7 @@ func NewResourceDeploymentScriptAzurePowerShell(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_deployment_script_azure_power_shell azurerm_resource_deployment_script_azure_power_shell} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_deployment_script_azure_power_shell azurerm_resource_deployment_script_azure_power_shell} Resource.
 func NewResourceDeploymentScriptAzurePowerShell_Override(r ResourceDeploymentScriptAzurePowerShell, scope constructs.Construct, id *string, config *ResourceDeploymentScriptAzurePowerShellConfig) {
 	_init_.Initialize()
 
@@ -1599,6 +1608,24 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) ToTerraform() interf
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

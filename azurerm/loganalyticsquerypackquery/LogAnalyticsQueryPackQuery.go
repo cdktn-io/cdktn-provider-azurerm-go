@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query}.
 type LogAnalyticsQueryPackQuery interface {
 	cdktn.TerraformResource
 	AdditionalSettingsJson() *string
@@ -163,6 +163,15 @@ type LogAnalyticsQueryPackQuery interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogAnalyticsQueryPackQuery
@@ -571,7 +580,7 @@ func (j *jsiiProxy_LogAnalyticsQueryPackQuery) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
 func NewLogAnalyticsQueryPackQuery(scope constructs.Construct, id *string, config *LogAnalyticsQueryPackQueryConfig) LogAnalyticsQueryPackQuery {
 	_init_.Initialize()
 
@@ -589,7 +598,7 @@ func NewLogAnalyticsQueryPackQuery(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_query_pack_query azurerm_log_analytics_query_pack_query} Resource.
 func NewLogAnalyticsQueryPackQuery_Override(l LogAnalyticsQueryPackQuery, scope constructs.Construct, id *string, config *LogAnalyticsQueryPackQueryConfig) {
 	_init_.Initialize()
 
@@ -1305,6 +1314,24 @@ func (l *jsiiProxy_LogAnalyticsQueryPackQuery) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogAnalyticsQueryPackQuery) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

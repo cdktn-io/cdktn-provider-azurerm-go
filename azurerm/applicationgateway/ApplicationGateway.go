@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_gateway azurerm_application_gateway}.
 type ApplicationGateway interface {
 	cdktn.TerraformResource
 	AuthenticationCertificate() ApplicationGatewayAuthenticationCertificateList
@@ -69,6 +69,9 @@ type ApplicationGateway interface {
 	GatewayIpConfigurationInput() interface{}
 	Global() ApplicationGatewayGlobalOutputReference
 	GlobalInput() *ApplicationGatewayGlobal
+	Http2Enabled() interface{}
+	SetHttp2Enabled(val interface{})
+	Http2EnabledInput() interface{}
 	HttpListener() ApplicationGatewayHttpListenerList
 	HttpListenerInput() interface{}
 	Id() *string
@@ -218,6 +221,7 @@ type ApplicationGateway interface {
 	ResetFirewallPolicyId()
 	ResetForceFirewallPolicyAssociation()
 	ResetGlobal()
+	ResetHttp2Enabled()
 	ResetId()
 	ResetIdentity()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -248,6 +252,15 @@ type ApplicationGateway interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApplicationGateway
@@ -590,6 +603,26 @@ func (j *jsiiProxy_ApplicationGateway) GlobalInput() *ApplicationGatewayGlobal {
 	_jsii_.Get(
 		j,
 		"globalInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGateway) Http2Enabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"http2Enabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGateway) Http2EnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"http2EnabledInput",
 		&returns,
 	)
 	return returns
@@ -1126,7 +1159,7 @@ func (j *jsiiProxy_ApplicationGateway) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway(scope constructs.Construct, id *string, config *ApplicationGatewayConfig) ApplicationGateway {
 	_init_.Initialize()
 
@@ -1144,7 +1177,7 @@ func NewApplicationGateway(scope constructs.Construct, id *string, config *Appli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway_Override(a ApplicationGateway, scope constructs.Construct, id *string, config *ApplicationGatewayConfig) {
 	_init_.Initialize()
 
@@ -1233,6 +1266,17 @@ func (j *jsiiProxy_ApplicationGateway)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationGateway)SetHttp2Enabled(val interface{}) {
+	if err := j.validateSetHttp2EnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"http2Enabled",
 		val,
 	)
 }
@@ -2025,6 +2069,14 @@ func (a *jsiiProxy_ApplicationGateway) ResetGlobal() {
 	)
 }
 
+func (a *jsiiProxy_ApplicationGateway) ResetHttp2Enabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetHttp2Enabled",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationGateway) ResetId() {
 	_jsii_.InvokeVoid(
 		a,
@@ -2233,6 +2285,24 @@ func (a *jsiiProxy_ApplicationGateway) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApplicationGateway) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

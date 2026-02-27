@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_web_app azurerm_bot_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_web_app azurerm_bot_web_app}.
 type BotWebApp interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -173,6 +173,15 @@ type BotWebApp interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BotWebApp
@@ -641,7 +650,7 @@ func (j *jsiiProxy_BotWebApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfig) BotWebApp {
 	_init_.Initialize()
 
@@ -659,7 +668,7 @@ func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp_Override(b BotWebApp, scope constructs.Construct, id *string, config *BotWebAppConfig) {
 	_init_.Initialize()
 
@@ -1416,6 +1425,24 @@ func (b *jsiiProxy_BotWebApp) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BotWebApp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

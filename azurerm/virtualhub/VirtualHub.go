@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_hub azurerm_virtual_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_hub azurerm_virtual_hub}.
 type VirtualHub interface {
 	cdktn.TerraformResource
 	AddressPrefix() *string
@@ -170,6 +170,15 @@ type VirtualHub interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VirtualHub
@@ -628,7 +637,7 @@ func (j *jsiiProxy_VirtualHub) VirtualWanIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
 func NewVirtualHub(scope constructs.Construct, id *string, config *VirtualHubConfig) VirtualHub {
 	_init_.Initialize()
 
@@ -646,7 +655,7 @@ func NewVirtualHub(scope constructs.Construct, id *string, config *VirtualHubCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
 func NewVirtualHub_Override(v VirtualHub, scope constructs.Construct, id *string, config *VirtualHubConfig) {
 	_init_.Initialize()
 
@@ -1381,6 +1390,24 @@ func (v *jsiiProxy_VirtualHub) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VirtualHub) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

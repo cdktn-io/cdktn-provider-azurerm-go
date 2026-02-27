@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iotcentral_application_network_rule_set azurerm_iotcentral_application_network_rule_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iotcentral_application_network_rule_set azurerm_iotcentral_application_network_rule_set}.
 type IotcentralApplicationNetworkRuleSet interface {
 	cdktn.TerraformResource
 	ApplyToDevice() interface{}
@@ -141,6 +141,15 @@ type IotcentralApplicationNetworkRuleSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IotcentralApplicationNetworkRuleSet
@@ -429,7 +438,7 @@ func (j *jsiiProxy_IotcentralApplicationNetworkRuleSet) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iotcentral_application_network_rule_set azurerm_iotcentral_application_network_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iotcentral_application_network_rule_set azurerm_iotcentral_application_network_rule_set} Resource.
 func NewIotcentralApplicationNetworkRuleSet(scope constructs.Construct, id *string, config *IotcentralApplicationNetworkRuleSetConfig) IotcentralApplicationNetworkRuleSet {
 	_init_.Initialize()
 
@@ -447,7 +456,7 @@ func NewIotcentralApplicationNetworkRuleSet(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iotcentral_application_network_rule_set azurerm_iotcentral_application_network_rule_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iotcentral_application_network_rule_set azurerm_iotcentral_application_network_rule_set} Resource.
 func NewIotcentralApplicationNetworkRuleSet_Override(i IotcentralApplicationNetworkRuleSet, scope constructs.Construct, id *string, config *IotcentralApplicationNetworkRuleSetConfig) {
 	_init_.Initialize()
 
@@ -1065,6 +1074,24 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) ToTerraform() interface{
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

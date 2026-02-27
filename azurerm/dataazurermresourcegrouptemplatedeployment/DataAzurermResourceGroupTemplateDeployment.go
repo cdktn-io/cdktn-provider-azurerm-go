@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/resource_group_template_deployment azurerm_resource_group_template_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/resource_group_template_deployment azurerm_resource_group_template_deployment}.
 type DataAzurermResourceGroupTemplateDeployment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -108,6 +108,15 @@ type DataAzurermResourceGroupTemplateDeployment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermResourceGroupTemplateDeployment
@@ -346,7 +355,7 @@ func (j *jsiiProxy_DataAzurermResourceGroupTemplateDeployment) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/resource_group_template_deployment azurerm_resource_group_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/resource_group_template_deployment azurerm_resource_group_template_deployment} Data Source.
 func NewDataAzurermResourceGroupTemplateDeployment(scope constructs.Construct, id *string, config *DataAzurermResourceGroupTemplateDeploymentConfig) DataAzurermResourceGroupTemplateDeployment {
 	_init_.Initialize()
 
@@ -364,7 +373,7 @@ func NewDataAzurermResourceGroupTemplateDeployment(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/resource_group_template_deployment azurerm_resource_group_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/resource_group_template_deployment azurerm_resource_group_template_deployment} Data Source.
 func NewDataAzurermResourceGroupTemplateDeployment_Override(d DataAzurermResourceGroupTemplateDeployment, scope constructs.Construct, id *string, config *DataAzurermResourceGroupTemplateDeploymentConfig) {
 	_init_.Initialize()
 
@@ -846,6 +855,24 @@ func (d *jsiiProxy_DataAzurermResourceGroupTemplateDeployment) ToTerraform() int
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermResourceGroupTemplateDeployment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

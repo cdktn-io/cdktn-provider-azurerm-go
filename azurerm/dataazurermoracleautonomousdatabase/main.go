@@ -115,6 +115,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usedDataStorageSizeInGbs", GoGetter: "UsedDataStorageSizeInGbs"},
 			_jsii_.MemberProperty{JsiiProperty: "usedDataStorageSizeInTbs", GoGetter: "UsedDataStorageSizeInTbs"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkId", GoGetter: "VirtualNetworkId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermOracleAutonomousDatabase{}

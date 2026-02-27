@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vmResourceId", GoGetter: "VmResourceId"},
 			_jsii_.MemberProperty{JsiiProperty: "vmResourceIdInput", GoGetter: "VmResourceIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workerGroupName", GoGetter: "WorkerGroupName"},
 			_jsii_.MemberProperty{JsiiProperty: "workerGroupNameInput", GoGetter: "WorkerGroupNameInput"},
 			_jsii_.MemberProperty{JsiiProperty: "workerId", GoGetter: "WorkerId"},

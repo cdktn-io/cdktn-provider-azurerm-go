@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope}.
 type DataAzurermBillingMpaAccountScope interface {
 	cdktn.TerraformDataSource
 	BillingAccountName() *string
@@ -107,6 +107,15 @@ type DataAzurermBillingMpaAccountScope interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermBillingMpaAccountScope
@@ -335,7 +344,7 @@ func (j *jsiiProxy_DataAzurermBillingMpaAccountScope) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
 func NewDataAzurermBillingMpaAccountScope(scope constructs.Construct, id *string, config *DataAzurermBillingMpaAccountScopeConfig) DataAzurermBillingMpaAccountScope {
 	_init_.Initialize()
 
@@ -353,7 +362,7 @@ func NewDataAzurermBillingMpaAccountScope(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
 func NewDataAzurermBillingMpaAccountScope_Override(d DataAzurermBillingMpaAccountScope, scope constructs.Construct, id *string, config *DataAzurermBillingMpaAccountScopeConfig) {
 	_init_.Initialize()
 
@@ -835,6 +844,24 @@ func (d *jsiiProxy_DataAzurermBillingMpaAccountScope) ToTerraform() interface{} 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermBillingMpaAccountScope) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

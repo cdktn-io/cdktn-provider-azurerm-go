@@ -240,6 +240,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vtpmEnabledInput", GoGetter: "VtpmEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "winrmListener", GoGetter: "WinrmListener"},
 			_jsii_.MemberProperty{JsiiProperty: "winrmListenerInput", GoGetter: "WinrmListenerInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneBalance", GoGetter: "ZoneBalance"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneBalanceInput", GoGetter: "ZoneBalanceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},

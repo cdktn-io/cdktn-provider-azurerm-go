@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeGroupId", GoGetter: "VolumeGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeGroupIdInput", GoGetter: "VolumeGroupIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeId", GoGetter: "VolumeId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ElasticSanVolume{}

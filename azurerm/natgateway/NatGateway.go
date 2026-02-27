@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/nat_gateway azurerm_nat_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/nat_gateway azurerm_nat_gateway}.
 type NatGateway interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -152,6 +152,15 @@ type NatGateway interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NatGateway
@@ -510,7 +519,7 @@ func (j *jsiiProxy_NatGateway) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/nat_gateway azurerm_nat_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/nat_gateway azurerm_nat_gateway} Resource.
 func NewNatGateway(scope constructs.Construct, id *string, config *NatGatewayConfig) NatGateway {
 	_init_.Initialize()
 
@@ -528,7 +537,7 @@ func NewNatGateway(scope constructs.Construct, id *string, config *NatGatewayCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/nat_gateway azurerm_nat_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/nat_gateway azurerm_nat_gateway} Resource.
 func NewNatGateway_Override(n NatGateway, scope constructs.Construct, id *string, config *NatGatewayConfig) {
 	_init_.Initialize()
 
@@ -1187,6 +1196,24 @@ func (n *jsiiProxy_NatGateway) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NatGateway) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

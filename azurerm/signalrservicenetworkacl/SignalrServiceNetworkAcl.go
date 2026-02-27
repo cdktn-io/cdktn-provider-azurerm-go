@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl}.
 type SignalrServiceNetworkAcl interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -139,6 +139,15 @@ type SignalrServiceNetworkAcl interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SignalrServiceNetworkAcl
@@ -427,7 +436,7 @@ func (j *jsiiProxy_SignalrServiceNetworkAcl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
 func NewSignalrServiceNetworkAcl(scope constructs.Construct, id *string, config *SignalrServiceNetworkAclConfig) SignalrServiceNetworkAcl {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewSignalrServiceNetworkAcl(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/signalr_service_network_acl azurerm_signalr_service_network_acl} Resource.
 func NewSignalrServiceNetworkAcl_Override(s SignalrServiceNetworkAcl, scope constructs.Construct, id *string, config *SignalrServiceNetworkAclConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (s *jsiiProxy_SignalrServiceNetworkAcl) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SignalrServiceNetworkAcl) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

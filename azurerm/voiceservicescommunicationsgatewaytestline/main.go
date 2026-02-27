@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceServicesCommunicationsGatewayId", GoGetter: "VoiceServicesCommunicationsGatewayId"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceServicesCommunicationsGatewayIdInput", GoGetter: "VoiceServicesCommunicationsGatewayIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VoiceServicesCommunicationsGatewayTestLine{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/netapp_snapshot_policy azurerm_netapp_snapshot_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/netapp_snapshot_policy azurerm_netapp_snapshot_policy}.
 type NetappSnapshotPolicy interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -161,6 +161,15 @@ type NetappSnapshotPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetappSnapshotPolicy
@@ -569,7 +578,7 @@ func (j *jsiiProxy_NetappSnapshotPolicy) WeeklyScheduleInput() *NetappSnapshotPo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Resource.
 func NewNetappSnapshotPolicy(scope constructs.Construct, id *string, config *NetappSnapshotPolicyConfig) NetappSnapshotPolicy {
 	_init_.Initialize()
 
@@ -587,7 +596,7 @@ func NewNetappSnapshotPolicy(scope constructs.Construct, id *string, config *Net
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Resource.
 func NewNetappSnapshotPolicy_Override(n NetappSnapshotPolicy, scope constructs.Construct, id *string, config *NetappSnapshotPolicyConfig) {
 	_init_.Initialize()
 
@@ -1287,6 +1296,24 @@ func (n *jsiiProxy_NetappSnapshotPolicy) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetappSnapshotPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

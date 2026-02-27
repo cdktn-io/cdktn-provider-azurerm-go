@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/policy_definition azurerm_policy_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/policy_definition azurerm_policy_definition}.
 type DataAzurermPolicyDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -121,6 +121,15 @@ type DataAzurermPolicyDefinition interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermPolicyDefinition
@@ -449,7 +458,7 @@ func (j *jsiiProxy_DataAzurermPolicyDefinition) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
 func NewDataAzurermPolicyDefinition(scope constructs.Construct, id *string, config *DataAzurermPolicyDefinitionConfig) DataAzurermPolicyDefinition {
 	_init_.Initialize()
 
@@ -467,7 +476,7 @@ func NewDataAzurermPolicyDefinition(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
 func NewDataAzurermPolicyDefinition_Override(d DataAzurermPolicyDefinition, scope constructs.Construct, id *string, config *DataAzurermPolicyDefinitionConfig) {
 	_init_.Initialize()
 
@@ -984,6 +993,24 @@ func (d *jsiiProxy_DataAzurermPolicyDefinition) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermPolicyDefinition) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

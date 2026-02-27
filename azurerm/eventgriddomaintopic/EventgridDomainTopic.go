@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic}.
 type EventgridDomainTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type EventgridDomainTopic interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EventgridDomainTopic
@@ -403,7 +412,7 @@ func (j *jsiiProxy_EventgridDomainTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
 func NewEventgridDomainTopic(scope constructs.Construct, id *string, config *EventgridDomainTopicConfig) EventgridDomainTopic {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewEventgridDomainTopic(scope constructs.Construct, id *string, config *Eve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_domain_topic azurerm_eventgrid_domain_topic} Resource.
 func NewEventgridDomainTopic_Override(e EventgridDomainTopic, scope constructs.Construct, id *string, config *EventgridDomainTopicConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (e *jsiiProxy_EventgridDomainTopic) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EventgridDomainTopic) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

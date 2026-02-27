@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventhub_namespace_disaster_recovery_config azurerm_eventhub_namespace_disaster_recovery_config}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventhub_namespace_disaster_recovery_config azurerm_eventhub_namespace_disaster_recovery_config}.
 type EventhubNamespaceDisasterRecoveryConfig interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -138,6 +138,15 @@ type EventhubNamespaceDisasterRecoveryConfig interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EventhubNamespaceDisasterRecoveryConfig
@@ -426,7 +435,7 @@ func (j *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventhub_namespace_disaster_recovery_config azurerm_eventhub_namespace_disaster_recovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventhub_namespace_disaster_recovery_config azurerm_eventhub_namespace_disaster_recovery_config} Resource.
 func NewEventhubNamespaceDisasterRecoveryConfig(scope constructs.Construct, id *string, config *EventhubNamespaceDisasterRecoveryConfigConfig) EventhubNamespaceDisasterRecoveryConfig {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewEventhubNamespaceDisasterRecoveryConfig(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventhub_namespace_disaster_recovery_config azurerm_eventhub_namespace_disaster_recovery_config} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventhub_namespace_disaster_recovery_config azurerm_eventhub_namespace_disaster_recovery_config} Resource.
 func NewEventhubNamespaceDisasterRecoveryConfig_Override(e EventhubNamespaceDisasterRecoveryConfig, scope constructs.Construct, id *string, config *EventhubNamespaceDisasterRecoveryConfigConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) ToTerraform() interf
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

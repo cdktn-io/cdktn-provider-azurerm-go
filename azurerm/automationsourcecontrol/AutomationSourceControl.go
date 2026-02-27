@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_source_control azurerm_automation_source_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_source_control azurerm_automation_source_control}.
 type AutomationSourceControl interface {
 	cdktn.TerraformResource
 	AutomaticSync() interface{}
@@ -160,6 +160,15 @@ type AutomationSourceControl interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationSourceControl
@@ -568,7 +577,7 @@ func (j *jsiiProxy_AutomationSourceControl) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
 func NewAutomationSourceControl(scope constructs.Construct, id *string, config *AutomationSourceControlConfig) AutomationSourceControl {
 	_init_.Initialize()
 
@@ -586,7 +595,7 @@ func NewAutomationSourceControl(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_source_control azurerm_automation_source_control} Resource.
 func NewAutomationSourceControl_Override(a AutomationSourceControl, scope constructs.Construct, id *string, config *AutomationSourceControlConfig) {
 	_init_.Initialize()
 
@@ -1278,6 +1287,24 @@ func (a *jsiiProxy_AutomationSourceControl) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationSourceControl) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

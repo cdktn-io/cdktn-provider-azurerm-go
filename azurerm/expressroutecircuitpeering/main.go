@@ -100,6 +100,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vlanId", GoGetter: "VlanId"},
 			_jsii_.MemberProperty{JsiiProperty: "vlanIdInput", GoGetter: "VlanIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ExpressRouteCircuitPeering{}

@@ -161,6 +161,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedLaunchEnabledInput", GoGetter: "TrustedLaunchEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "uploadSizeBytes", GoGetter: "UploadSizeBytes"},
 			_jsii_.MemberProperty{JsiiProperty: "uploadSizeBytesInput", GoGetter: "UploadSizeBytesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zone", GoGetter: "Zone"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneInput", GoGetter: "ZoneInput"},
 		},

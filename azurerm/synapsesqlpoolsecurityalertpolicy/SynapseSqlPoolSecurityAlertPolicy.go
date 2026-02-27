@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy}.
 type SynapseSqlPoolSecurityAlertPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -156,6 +156,15 @@ type SynapseSqlPoolSecurityAlertPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SynapseSqlPoolSecurityAlertPolicy
@@ -524,7 +533,7 @@ func (j *jsiiProxy_SynapseSqlPoolSecurityAlertPolicy) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
 func NewSynapseSqlPoolSecurityAlertPolicy(scope constructs.Construct, id *string, config *SynapseSqlPoolSecurityAlertPolicyConfig) SynapseSqlPoolSecurityAlertPolicy {
 	_init_.Initialize()
 
@@ -542,7 +551,7 @@ func NewSynapseSqlPoolSecurityAlertPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
 func NewSynapseSqlPoolSecurityAlertPolicy_Override(s SynapseSqlPoolSecurityAlertPolicy, scope constructs.Construct, id *string, config *SynapseSqlPoolSecurityAlertPolicyConfig) {
 	_init_.Initialize()
 
@@ -1228,6 +1237,24 @@ func (s *jsiiProxy_SynapseSqlPoolSecurityAlertPolicy) ToTerraform() interface{} 
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SynapseSqlPoolSecurityAlertPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

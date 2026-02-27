@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule}.
 type ServicebusQueueAuthorizationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -150,6 +150,15 @@ type ServicebusQueueAuthorizationRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServicebusQueueAuthorizationRule
@@ -518,7 +527,7 @@ func (j *jsiiProxy_ServicebusQueueAuthorizationRule) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Resource.
 func NewServicebusQueueAuthorizationRule(scope constructs.Construct, id *string, config *ServicebusQueueAuthorizationRuleConfig) ServicebusQueueAuthorizationRule {
 	_init_.Initialize()
 
@@ -536,7 +545,7 @@ func NewServicebusQueueAuthorizationRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_queue_authorization_rule azurerm_servicebus_queue_authorization_rule} Resource.
 func NewServicebusQueueAuthorizationRule_Override(s ServicebusQueueAuthorizationRule, scope constructs.Construct, id *string, config *ServicebusQueueAuthorizationRuleConfig) {
 	_init_.Initialize()
 
@@ -1165,6 +1174,24 @@ func (s *jsiiProxy_ServicebusQueueAuthorizationRule) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServicebusQueueAuthorizationRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

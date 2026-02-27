@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service}.
 type DataAzurermHealthcareMedtechService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -112,6 +112,15 @@ type DataAzurermHealthcareMedtechService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermHealthcareMedtechService
@@ -390,7 +399,7 @@ func (j *jsiiProxy_DataAzurermHealthcareMedtechService) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
 func NewDataAzurermHealthcareMedtechService(scope constructs.Construct, id *string, config *DataAzurermHealthcareMedtechServiceConfig) DataAzurermHealthcareMedtechService {
 	_init_.Initialize()
 
@@ -408,7 +417,7 @@ func NewDataAzurermHealthcareMedtechService(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
 func NewDataAzurermHealthcareMedtechService_Override(d DataAzurermHealthcareMedtechService, scope constructs.Construct, id *string, config *DataAzurermHealthcareMedtechServiceConfig) {
 	_init_.Initialize()
 
@@ -890,6 +899,24 @@ func (d *jsiiProxy_DataAzurermHealthcareMedtechService) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermHealthcareMedtechService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

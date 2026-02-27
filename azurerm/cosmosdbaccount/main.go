@@ -185,6 +185,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkRule", GoGetter: "VirtualNetworkRule"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkRuleInput", GoGetter: "VirtualNetworkRuleInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "writeEndpoints", GoGetter: "WriteEndpoints"},
 		},
 		func() interface{} {

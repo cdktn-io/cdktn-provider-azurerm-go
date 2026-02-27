@@ -150,6 +150,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "upgradePolicyMode", GoGetter: "UpgradePolicyMode"},
 			_jsii_.MemberProperty{JsiiProperty: "upgradePolicyModeInput", GoGetter: "UpgradePolicyModeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},
 			_jsii_.MemberProperty{JsiiProperty: "zonesInput", GoGetter: "ZonesInput"},
 		},

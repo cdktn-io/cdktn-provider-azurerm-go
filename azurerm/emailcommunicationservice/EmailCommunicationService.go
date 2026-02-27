@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/email_communication_service azurerm_email_communication_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/email_communication_service azurerm_email_communication_service}.
 type EmailCommunicationService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -139,6 +139,15 @@ type EmailCommunicationService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EmailCommunicationService
@@ -427,7 +436,7 @@ func (j *jsiiProxy_EmailCommunicationService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
 func NewEmailCommunicationService(scope constructs.Construct, id *string, config *EmailCommunicationServiceConfig) EmailCommunicationService {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewEmailCommunicationService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
 func NewEmailCommunicationService_Override(e EmailCommunicationService, scope constructs.Construct, id *string, config *EmailCommunicationServiceConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (e *jsiiProxy_EmailCommunicationService) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EmailCommunicationService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

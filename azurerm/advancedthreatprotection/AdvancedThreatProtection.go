@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection}.
 type AdvancedThreatProtection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type AdvancedThreatProtection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AdvancedThreatProtection
@@ -380,7 +389,7 @@ func (j *jsiiProxy_AdvancedThreatProtection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
 func NewAdvancedThreatProtection(scope constructs.Construct, id *string, config *AdvancedThreatProtectionConfig) AdvancedThreatProtection {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewAdvancedThreatProtection(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/advanced_threat_protection azurerm_advanced_threat_protection} Resource.
 func NewAdvancedThreatProtection_Override(a AdvancedThreatProtection, scope constructs.Construct, id *string, config *AdvancedThreatProtectionConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (a *jsiiProxy_AdvancedThreatProtection) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AdvancedThreatProtection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

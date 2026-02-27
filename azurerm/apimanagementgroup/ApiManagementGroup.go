@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_group azurerm_api_management_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_group azurerm_api_management_group}.
 type ApiManagementGroup interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -150,6 +150,15 @@ type ApiManagementGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementGroup
@@ -498,7 +507,7 @@ func (j *jsiiProxy_ApiManagementGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
 func NewApiManagementGroup(scope constructs.Construct, id *string, config *ApiManagementGroupConfig) ApiManagementGroup {
 	_init_.Initialize()
 
@@ -516,7 +525,7 @@ func NewApiManagementGroup(scope constructs.Construct, id *string, config *ApiMa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_group azurerm_api_management_group} Resource.
 func NewApiManagementGroup_Override(a ApiManagementGroup, scope constructs.Construct, id *string, config *ApiManagementGroupConfig) {
 	_init_.Initialize()
 
@@ -1167,6 +1176,24 @@ func (a *jsiiProxy_ApiManagementGroup) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "watchlistId", GoGetter: "WatchlistId"},
 			_jsii_.MemberProperty{JsiiProperty: "watchlistIdInput", GoGetter: "WatchlistIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SentinelWatchlistItem{}

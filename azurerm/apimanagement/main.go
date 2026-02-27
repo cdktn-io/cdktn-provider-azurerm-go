@@ -151,6 +151,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkConfigurationInput", GoGetter: "VirtualNetworkConfigurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkType", GoGetter: "VirtualNetworkType"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkTypeInput", GoGetter: "VirtualNetworkTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},
 			_jsii_.MemberProperty{JsiiProperty: "zonesInput", GoGetter: "ZonesInput"},
 		},

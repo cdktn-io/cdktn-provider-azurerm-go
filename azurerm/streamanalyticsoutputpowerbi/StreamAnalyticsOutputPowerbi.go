@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi}.
 type StreamAnalyticsOutputPowerbi interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -152,6 +152,15 @@ type StreamAnalyticsOutputPowerbi interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StreamAnalyticsOutputPowerbi
@@ -520,7 +529,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputPowerbi) TokenUserPrincipalNameInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
 func NewStreamAnalyticsOutputPowerbi(scope constructs.Construct, id *string, config *StreamAnalyticsOutputPowerbiConfig) StreamAnalyticsOutputPowerbi {
 	_init_.Initialize()
 
@@ -538,7 +547,7 @@ func NewStreamAnalyticsOutputPowerbi(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_output_powerbi azurerm_stream_analytics_output_powerbi} Resource.
 func NewStreamAnalyticsOutputPowerbi_Override(s StreamAnalyticsOutputPowerbi, scope constructs.Construct, id *string, config *StreamAnalyticsOutputPowerbiConfig) {
 	_init_.Initialize()
 
@@ -1192,6 +1201,24 @@ func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

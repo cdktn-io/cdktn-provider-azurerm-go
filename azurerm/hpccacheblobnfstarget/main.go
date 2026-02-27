@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usageModelInput", GoGetter: "UsageModelInput"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationTimerInSeconds", GoGetter: "VerificationTimerInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationTimerInSecondsInput", GoGetter: "VerificationTimerInSecondsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "writeBackTimerInSeconds", GoGetter: "WriteBackTimerInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "writeBackTimerInSecondsInput", GoGetter: "WriteBackTimerInSecondsInput"},
 		},

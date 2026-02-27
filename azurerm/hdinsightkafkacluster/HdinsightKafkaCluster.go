@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster}.
 type HdinsightKafkaCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -209,6 +209,15 @@ type HdinsightKafkaCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for HdinsightKafkaCluster
@@ -887,7 +896,7 @@ func (j *jsiiProxy_HdinsightKafkaCluster) TlsMinVersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
 func NewHdinsightKafkaCluster(scope constructs.Construct, id *string, config *HdinsightKafkaClusterConfig) HdinsightKafkaCluster {
 	_init_.Initialize()
 
@@ -905,7 +914,7 @@ func NewHdinsightKafkaCluster(scope constructs.Construct, id *string, config *Hd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hdinsight_kafka_cluster azurerm_hdinsight_kafka_cluster} Resource.
 func NewHdinsightKafkaCluster_Override(h HdinsightKafkaCluster, scope constructs.Construct, id *string, config *HdinsightKafkaClusterConfig) {
 	_init_.Initialize()
 
@@ -1809,6 +1818,24 @@ func (h *jsiiProxy_HdinsightKafkaCluster) ToTerraform() interface{} {
 		h,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (h *jsiiProxy_HdinsightKafkaCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		h,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection}.
 type DataAzurermDevCenterNetworkConnection interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -114,6 +114,15 @@ type DataAzurermDevCenterNetworkConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermDevCenterNetworkConnection
@@ -412,7 +421,7 @@ func (j *jsiiProxy_DataAzurermDevCenterNetworkConnection) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
 func NewDataAzurermDevCenterNetworkConnection(scope constructs.Construct, id *string, config *DataAzurermDevCenterNetworkConnectionConfig) DataAzurermDevCenterNetworkConnection {
 	_init_.Initialize()
 
@@ -430,7 +439,7 @@ func NewDataAzurermDevCenterNetworkConnection(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
 func NewDataAzurermDevCenterNetworkConnection_Override(d DataAzurermDevCenterNetworkConnection, scope constructs.Construct, id *string, config *DataAzurermDevCenterNetworkConnectionConfig) {
 	_init_.Initialize()
 
@@ -912,6 +921,24 @@ func (d *jsiiProxy_DataAzurermDevCenterNetworkConnection) ToTerraform() interfac
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermDevCenterNetworkConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

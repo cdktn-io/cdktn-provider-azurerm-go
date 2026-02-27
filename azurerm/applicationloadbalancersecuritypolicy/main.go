@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "webApplicationFirewallPolicyId", GoGetter: "WebApplicationFirewallPolicyId"},
 			_jsii_.MemberProperty{JsiiProperty: "webApplicationFirewallPolicyIdInput", GoGetter: "WebApplicationFirewallPolicyIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationLoadBalancerSecurityPolicy{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_adbs_national_character_sets azurerm_oracle_adbs_national_character_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_adbs_national_character_sets azurerm_oracle_adbs_national_character_sets}.
 type DataAzurermOracleAdbsNationalCharacterSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -105,6 +105,15 @@ type DataAzurermOracleAdbsNationalCharacterSets interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermOracleAdbsNationalCharacterSets
@@ -323,7 +332,7 @@ func (j *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSets) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_adbs_national_character_sets azurerm_oracle_adbs_national_character_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_adbs_national_character_sets azurerm_oracle_adbs_national_character_sets} Data Source.
 func NewDataAzurermOracleAdbsNationalCharacterSets(scope constructs.Construct, id *string, config *DataAzurermOracleAdbsNationalCharacterSetsConfig) DataAzurermOracleAdbsNationalCharacterSets {
 	_init_.Initialize()
 
@@ -341,7 +350,7 @@ func NewDataAzurermOracleAdbsNationalCharacterSets(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_adbs_national_character_sets azurerm_oracle_adbs_national_character_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_adbs_national_character_sets azurerm_oracle_adbs_national_character_sets} Data Source.
 func NewDataAzurermOracleAdbsNationalCharacterSets_Override(d DataAzurermOracleAdbsNationalCharacterSets, scope constructs.Construct, id *string, config *DataAzurermOracleAdbsNationalCharacterSetsConfig) {
 	_init_.Initialize()
 
@@ -812,6 +821,24 @@ func (d *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSets) ToTerraform() int
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermOracleAdbsNationalCharacterSets) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

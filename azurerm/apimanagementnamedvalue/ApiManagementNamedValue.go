@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_named_value azurerm_api_management_named_value}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_named_value azurerm_api_management_named_value}.
 type ApiManagementNamedValue interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -154,6 +154,15 @@ type ApiManagementNamedValue interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementNamedValue
@@ -522,7 +531,7 @@ func (j *jsiiProxy_ApiManagementNamedValue) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
 func NewApiManagementNamedValue(scope constructs.Construct, id *string, config *ApiManagementNamedValueConfig) ApiManagementNamedValue {
 	_init_.Initialize()
 
@@ -540,7 +549,7 @@ func NewApiManagementNamedValue(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
 func NewApiManagementNamedValue_Override(a ApiManagementNamedValue, scope constructs.Construct, id *string, config *ApiManagementNamedValueConfig) {
 	_init_.Initialize()
 
@@ -1210,6 +1219,24 @@ func (a *jsiiProxy_ApiManagementNamedValue) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementNamedValue) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

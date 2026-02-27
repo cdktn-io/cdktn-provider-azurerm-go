@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/container_registry_scope_map azurerm_container_registry_scope_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/container_registry_scope_map azurerm_container_registry_scope_map}.
 type DataAzurermContainerRegistryScopeMap interface {
 	cdktn.TerraformDataSource
 	Actions() *[]*string
@@ -112,6 +112,15 @@ type DataAzurermContainerRegistryScopeMap interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermContainerRegistryScopeMap
@@ -380,7 +389,7 @@ func (j *jsiiProxy_DataAzurermContainerRegistryScopeMap) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/container_registry_scope_map azurerm_container_registry_scope_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/container_registry_scope_map azurerm_container_registry_scope_map} Data Source.
 func NewDataAzurermContainerRegistryScopeMap(scope constructs.Construct, id *string, config *DataAzurermContainerRegistryScopeMapConfig) DataAzurermContainerRegistryScopeMap {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewDataAzurermContainerRegistryScopeMap(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/container_registry_scope_map azurerm_container_registry_scope_map} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/container_registry_scope_map azurerm_container_registry_scope_map} Data Source.
 func NewDataAzurermContainerRegistryScopeMap_Override(d DataAzurermContainerRegistryScopeMap, scope constructs.Construct, id *string, config *DataAzurermContainerRegistryScopeMapConfig) {
 	_init_.Initialize()
 
@@ -891,6 +900,24 @@ func (d *jsiiProxy_DataAzurermContainerRegistryScopeMap) ToTerraform() interface
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermContainerRegistryScopeMap) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

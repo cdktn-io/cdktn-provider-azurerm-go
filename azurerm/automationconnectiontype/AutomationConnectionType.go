@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_connection_type azurerm_automation_connection_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_connection_type azurerm_automation_connection_type}.
 type AutomationConnectionType interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -142,6 +142,15 @@ type AutomationConnectionType interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationConnectionType
@@ -450,7 +459,7 @@ func (j *jsiiProxy_AutomationConnectionType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_connection_type azurerm_automation_connection_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_connection_type azurerm_automation_connection_type} Resource.
 func NewAutomationConnectionType(scope constructs.Construct, id *string, config *AutomationConnectionTypeConfig) AutomationConnectionType {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewAutomationConnectionType(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_connection_type azurerm_automation_connection_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_connection_type azurerm_automation_connection_type} Resource.
 func NewAutomationConnectionType_Override(a AutomationConnectionType, scope constructs.Construct, id *string, config *AutomationConnectionTypeConfig) {
 	_init_.Initialize()
 
@@ -1081,6 +1090,24 @@ func (a *jsiiProxy_AutomationConnectionType) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationConnectionType) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

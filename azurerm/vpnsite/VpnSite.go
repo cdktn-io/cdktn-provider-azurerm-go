@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/vpn_site azurerm_vpn_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/vpn_site azurerm_vpn_site}.
 type VpnSite interface {
 	cdktn.TerraformResource
 	AddressCidrs() *[]*string
@@ -162,6 +162,15 @@ type VpnSite interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VpnSite
@@ -570,7 +579,7 @@ func (j *jsiiProxy_VpnSite) VirtualWanIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
 func NewVpnSite(scope constructs.Construct, id *string, config *VpnSiteConfig) VpnSite {
 	_init_.Initialize()
 
@@ -588,7 +597,7 @@ func NewVpnSite(scope constructs.Construct, id *string, config *VpnSiteConfig) V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
 func NewVpnSite_Override(v VpnSite, scope constructs.Construct, id *string, config *VpnSiteConfig) {
 	_init_.Initialize()
 
@@ -1296,6 +1305,24 @@ func (v *jsiiProxy_VpnSite) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VpnSite) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

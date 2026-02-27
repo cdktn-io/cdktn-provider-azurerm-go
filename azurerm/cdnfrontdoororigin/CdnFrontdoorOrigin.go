@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin}.
 type CdnFrontdoorOrigin interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -166,6 +166,15 @@ type CdnFrontdoorOrigin interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CdnFrontdoorOrigin
@@ -594,7 +603,7 @@ func (j *jsiiProxy_CdnFrontdoorOrigin) WeightInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
 func NewCdnFrontdoorOrigin(scope constructs.Construct, id *string, config *CdnFrontdoorOriginConfig) CdnFrontdoorOrigin {
 	_init_.Initialize()
 
@@ -612,7 +621,7 @@ func NewCdnFrontdoorOrigin(scope constructs.Construct, id *string, config *CdnFr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
 func NewCdnFrontdoorOrigin_Override(c CdnFrontdoorOrigin, scope constructs.Construct, id *string, config *CdnFrontdoorOriginConfig) {
 	_init_.Initialize()
 
@@ -1339,6 +1348,24 @@ func (c *jsiiProxy_CdnFrontdoorOrigin) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CdnFrontdoorOrigin) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

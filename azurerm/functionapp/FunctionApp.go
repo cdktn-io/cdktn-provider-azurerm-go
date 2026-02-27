@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app azurerm_function_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app azurerm_function_app}.
 type FunctionApp interface {
 	cdktn.TerraformResource
 	AppServicePlanId() *string
@@ -210,6 +210,15 @@ type FunctionApp interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FunctionApp
@@ -898,7 +907,7 @@ func (j *jsiiProxy_FunctionApp) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app azurerm_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app azurerm_function_app} Resource.
 func NewFunctionApp(scope constructs.Construct, id *string, config *FunctionAppConfig) FunctionApp {
 	_init_.Initialize()
 
@@ -916,7 +925,7 @@ func NewFunctionApp(scope constructs.Construct, id *string, config *FunctionAppC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app azurerm_function_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app azurerm_function_app} Resource.
 func NewFunctionApp_Override(f FunctionApp, scope constructs.Construct, id *string, config *FunctionAppConfig) {
 	_init_.Initialize()
 
@@ -1817,6 +1826,24 @@ func (f *jsiiProxy_FunctionApp) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FunctionApp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

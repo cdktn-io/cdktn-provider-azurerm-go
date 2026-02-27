@@ -97,6 +97,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useRemoteGatewaysInput", GoGetter: "UseRemoteGatewaysInput"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkName", GoGetter: "VirtualNetworkName"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkNameInput", GoGetter: "VirtualNetworkNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VirtualNetworkPeering{}

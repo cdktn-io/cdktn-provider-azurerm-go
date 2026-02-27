@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_configuration_key azurerm_app_configuration_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_configuration_key azurerm_app_configuration_key}.
 type AppConfigurationKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -164,6 +164,15 @@ type AppConfigurationKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppConfigurationKey
@@ -572,7 +581,7 @@ func (j *jsiiProxy_AppConfigurationKey) VaultKeyReferenceInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
 func NewAppConfigurationKey(scope constructs.Construct, id *string, config *AppConfigurationKeyConfig) AppConfigurationKey {
 	_init_.Initialize()
 
@@ -590,7 +599,7 @@ func NewAppConfigurationKey(scope constructs.Construct, id *string, config *AppC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_configuration_key azurerm_app_configuration_key} Resource.
 func NewAppConfigurationKey_Override(a AppConfigurationKey, scope constructs.Construct, id *string, config *AppConfigurationKeyConfig) {
 	_init_.Initialize()
 
@@ -1314,6 +1323,24 @@ func (a *jsiiProxy_AppConfigurationKey) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppConfigurationKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

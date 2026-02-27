@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_desktop_host_pool_registration_info azurerm_virtual_desktop_host_pool_registration_info}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_desktop_host_pool_registration_info azurerm_virtual_desktop_host_pool_registration_info}.
 type VirtualDesktopHostPoolRegistrationInfo interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -133,6 +133,15 @@ type VirtualDesktopHostPoolRegistrationInfo interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VirtualDesktopHostPoolRegistrationInfo
@@ -391,7 +400,7 @@ func (j *jsiiProxy_VirtualDesktopHostPoolRegistrationInfo) Token() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_desktop_host_pool_registration_info azurerm_virtual_desktop_host_pool_registration_info} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_desktop_host_pool_registration_info azurerm_virtual_desktop_host_pool_registration_info} Resource.
 func NewVirtualDesktopHostPoolRegistrationInfo(scope constructs.Construct, id *string, config *VirtualDesktopHostPoolRegistrationInfoConfig) VirtualDesktopHostPoolRegistrationInfo {
 	_init_.Initialize()
 
@@ -409,7 +418,7 @@ func NewVirtualDesktopHostPoolRegistrationInfo(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_desktop_host_pool_registration_info azurerm_virtual_desktop_host_pool_registration_info} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_desktop_host_pool_registration_info azurerm_virtual_desktop_host_pool_registration_info} Resource.
 func NewVirtualDesktopHostPoolRegistrationInfo_Override(v VirtualDesktopHostPoolRegistrationInfo, scope constructs.Construct, id *string, config *VirtualDesktopHostPoolRegistrationInfoConfig) {
 	_init_.Initialize()
 
@@ -981,6 +990,24 @@ func (v *jsiiProxy_VirtualDesktopHostPoolRegistrationInfo) ToTerraform() interfa
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VirtualDesktopHostPoolRegistrationInfo) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

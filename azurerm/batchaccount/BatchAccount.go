@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/batch_account azurerm_batch_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/batch_account azurerm_batch_account}.
 type BatchAccount interface {
 	cdktn.TerraformResource
 	AccountEndpoint() *string
@@ -182,6 +182,15 @@ type BatchAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BatchAccount
@@ -700,7 +709,7 @@ func (j *jsiiProxy_BatchAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/batch_account azurerm_batch_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/batch_account azurerm_batch_account} Resource.
 func NewBatchAccount(scope constructs.Construct, id *string, config *BatchAccountConfig) BatchAccount {
 	_init_.Initialize()
 
@@ -718,7 +727,7 @@ func NewBatchAccount(scope constructs.Construct, id *string, config *BatchAccoun
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/batch_account azurerm_batch_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/batch_account azurerm_batch_account} Resource.
 func NewBatchAccount_Override(b BatchAccount, scope constructs.Construct, id *string, config *BatchAccountConfig) {
 	_init_.Initialize()
 
@@ -1510,6 +1519,24 @@ func (b *jsiiProxy_BatchAccount) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BatchAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

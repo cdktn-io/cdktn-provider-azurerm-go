@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot}.
 type FunctionAppActiveSlot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -134,6 +134,15 @@ type FunctionAppActiveSlot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FunctionAppActiveSlot
@@ -392,7 +401,7 @@ func (j *jsiiProxy_FunctionAppActiveSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
 func NewFunctionAppActiveSlot(scope constructs.Construct, id *string, config *FunctionAppActiveSlotConfig) FunctionAppActiveSlot {
 	_init_.Initialize()
 
@@ -410,7 +419,7 @@ func NewFunctionAppActiveSlot(scope constructs.Construct, id *string, config *Fu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
 func NewFunctionAppActiveSlot_Override(f FunctionAppActiveSlot, scope constructs.Construct, id *string, config *FunctionAppActiveSlotConfig) {
 	_init_.Initialize()
 
@@ -990,6 +999,24 @@ func (f *jsiiProxy_FunctionAppActiveSlot) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FunctionAppActiveSlot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

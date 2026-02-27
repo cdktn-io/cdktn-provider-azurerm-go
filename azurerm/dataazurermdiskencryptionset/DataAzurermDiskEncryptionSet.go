@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set}.
 type DataAzurermDiskEncryptionSet interface {
 	cdktn.TerraformDataSource
 	AutoKeyRotationEnabled() cdktn.IResolvable
@@ -112,6 +112,15 @@ type DataAzurermDiskEncryptionSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermDiskEncryptionSet
@@ -390,7 +399,7 @@ func (j *jsiiProxy_DataAzurermDiskEncryptionSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
 func NewDataAzurermDiskEncryptionSet(scope constructs.Construct, id *string, config *DataAzurermDiskEncryptionSetConfig) DataAzurermDiskEncryptionSet {
 	_init_.Initialize()
 
@@ -408,7 +417,7 @@ func NewDataAzurermDiskEncryptionSet(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/disk_encryption_set azurerm_disk_encryption_set} Data Source.
 func NewDataAzurermDiskEncryptionSet_Override(d DataAzurermDiskEncryptionSet, scope constructs.Construct, id *string, config *DataAzurermDiskEncryptionSetConfig) {
 	_init_.Initialize()
 
@@ -890,6 +899,24 @@ func (d *jsiiProxy_DataAzurermDiskEncryptionSet) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermDiskEncryptionSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

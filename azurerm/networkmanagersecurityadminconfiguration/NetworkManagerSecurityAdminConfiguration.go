@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration}.
 type NetworkManagerSecurityAdminConfiguration interface {
 	cdktn.TerraformResource
 	ApplyOnNetworkIntentPolicyBasedServices() *[]*string
@@ -140,6 +140,15 @@ type NetworkManagerSecurityAdminConfiguration interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkManagerSecurityAdminConfiguration
@@ -428,7 +437,7 @@ func (j *jsiiProxy_NetworkManagerSecurityAdminConfiguration) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
 func NewNetworkManagerSecurityAdminConfiguration(scope constructs.Construct, id *string, config *NetworkManagerSecurityAdminConfigurationConfig) NetworkManagerSecurityAdminConfiguration {
 	_init_.Initialize()
 
@@ -446,7 +455,7 @@ func NewNetworkManagerSecurityAdminConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
 func NewNetworkManagerSecurityAdminConfiguration_Override(n NetworkManagerSecurityAdminConfiguration, scope constructs.Construct, id *string, config *NetworkManagerSecurityAdminConfigurationConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1065,24 @@ func (n *jsiiProxy_NetworkManagerSecurityAdminConfiguration) ToTerraform() inter
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkManagerSecurityAdminConfiguration) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

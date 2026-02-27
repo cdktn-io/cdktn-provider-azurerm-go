@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vmwareClusterId", GoGetter: "VmwareClusterId"},
 			_jsii_.MemberProperty{JsiiProperty: "vmwareClusterIdInput", GoGetter: "VmwareClusterIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwareNetappVolumeAttachment{}

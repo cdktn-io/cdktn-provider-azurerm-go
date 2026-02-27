@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
 type DashboardGrafana interface {
 	cdktn.TerraformResource
 	ApiKeyEnabled() interface{}
@@ -181,6 +181,15 @@ type DashboardGrafana interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DashboardGrafana
@@ -699,7 +708,7 @@ func (j *jsiiProxy_DashboardGrafana) ZoneRedundancyEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana(scope constructs.Construct, id *string, config *DashboardGrafanaConfig) DashboardGrafana {
 	_init_.Initialize()
 
@@ -717,7 +726,7 @@ func NewDashboardGrafana(scope constructs.Construct, id *string, config *Dashboa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana_Override(d DashboardGrafana, scope constructs.Construct, id *string, config *DashboardGrafanaConfig) {
 	_init_.Initialize()
 
@@ -1501,6 +1510,24 @@ func (d *jsiiProxy_DashboardGrafana) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DashboardGrafana) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

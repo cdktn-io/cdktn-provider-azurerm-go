@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/custom_provider azurerm_custom_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/custom_provider azurerm_custom_provider}.
 type CustomProvider interface {
 	cdktn.TerraformResource
 	Action() CustomProviderActionList
@@ -151,6 +151,15 @@ type CustomProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CustomProvider
@@ -499,7 +508,7 @@ func (j *jsiiProxy_CustomProvider) ValidationInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
 func NewCustomProvider(scope constructs.Construct, id *string, config *CustomProviderConfig) CustomProvider {
 	_init_.Initialize()
 
@@ -517,7 +526,7 @@ func NewCustomProvider(scope constructs.Construct, id *string, config *CustomPro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/custom_provider azurerm_custom_provider} Resource.
 func NewCustomProvider_Override(c CustomProvider, scope constructs.Construct, id *string, config *CustomProviderConfig) {
 	_init_.Initialize()
 
@@ -1176,6 +1185,24 @@ func (c *jsiiProxy_CustomProvider) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CustomProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

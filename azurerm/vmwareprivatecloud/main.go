@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vcenterPasswordInput", GoGetter: "VcenterPasswordInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vcsaEndpoint", GoGetter: "VcsaEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "vmotionSubnetCidr", GoGetter: "VmotionSubnetCidr"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VmwarePrivateCloud{}

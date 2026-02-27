@@ -104,6 +104,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "verbosity", GoGetter: "Verbosity"},
 			_jsii_.MemberProperty{JsiiProperty: "verbosityInput", GoGetter: "VerbosityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiManagementDiagnostic{}

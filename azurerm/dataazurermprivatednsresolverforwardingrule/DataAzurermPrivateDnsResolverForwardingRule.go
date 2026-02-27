@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule}.
 type DataAzurermPrivateDnsResolverForwardingRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -111,6 +111,15 @@ type DataAzurermPrivateDnsResolverForwardingRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermPrivateDnsResolverForwardingRule
@@ -379,7 +388,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRule) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
 func NewDataAzurermPrivateDnsResolverForwardingRule(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverForwardingRuleConfig) DataAzurermPrivateDnsResolverForwardingRule {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewDataAzurermPrivateDnsResolverForwardingRule(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_resolver_forwarding_rule azurerm_private_dns_resolver_forwarding_rule} Data Source.
 func NewDataAzurermPrivateDnsResolverForwardingRule_Override(d DataAzurermPrivateDnsResolverForwardingRule, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverForwardingRuleConfig) {
 	_init_.Initialize()
 
@@ -879,6 +888,24 @@ func (d *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRule) ToTerraform() in
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermPrivateDnsResolverForwardingRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

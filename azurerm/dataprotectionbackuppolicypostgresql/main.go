@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultName", GoGetter: "VaultName"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultNameInput", GoGetter: "VaultNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataProtectionBackupPolicyPostgresql{}

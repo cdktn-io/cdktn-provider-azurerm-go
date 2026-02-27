@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/redis_cache azurerm_redis_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/redis_cache azurerm_redis_cache}.
 type RedisCache interface {
 	cdktn.TerraformResource
 	AccessKeysAuthenticationEnabled() interface{}
@@ -215,6 +215,15 @@ type RedisCache interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RedisCache
@@ -933,7 +942,7 @@ func (j *jsiiProxy_RedisCache) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
 func NewRedisCache(scope constructs.Construct, id *string, config *RedisCacheConfig) RedisCache {
 	_init_.Initialize()
 
@@ -951,7 +960,7 @@ func NewRedisCache(scope constructs.Construct, id *string, config *RedisCacheCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
 func NewRedisCache_Override(r RedisCache, scope constructs.Construct, id *string, config *RedisCacheConfig) {
 	_init_.Initialize()
 
@@ -1871,6 +1880,24 @@ func (r *jsiiProxy_RedisCache) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RedisCache) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

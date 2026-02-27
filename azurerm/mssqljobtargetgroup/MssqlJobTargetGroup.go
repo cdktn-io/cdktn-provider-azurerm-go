@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
 type MssqlJobTargetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type MssqlJobTargetGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MssqlJobTargetGroup
@@ -404,7 +413,7 @@ func (j *jsiiProxy_MssqlJobTargetGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) MssqlJobTargetGroup {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *Mssq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup_Override(m MssqlJobTargetGroup, scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (m *jsiiProxy_MssqlJobTargetGroup) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MssqlJobTargetGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

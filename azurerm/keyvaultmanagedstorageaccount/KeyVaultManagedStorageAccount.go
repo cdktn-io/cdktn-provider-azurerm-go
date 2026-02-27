@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account}.
 type KeyVaultManagedStorageAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -150,6 +150,15 @@ type KeyVaultManagedStorageAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KeyVaultManagedStorageAccount
@@ -498,7 +507,7 @@ func (j *jsiiProxy_KeyVaultManagedStorageAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
 func NewKeyVaultManagedStorageAccount(scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountConfig) KeyVaultManagedStorageAccount {
 	_init_.Initialize()
 
@@ -516,7 +525,7 @@ func NewKeyVaultManagedStorageAccount(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_managed_storage_account azurerm_key_vault_managed_storage_account} Resource.
 func NewKeyVaultManagedStorageAccount_Override(k KeyVaultManagedStorageAccount, scope constructs.Construct, id *string, config *KeyVaultManagedStorageAccountConfig) {
 	_init_.Initialize()
 
@@ -1167,6 +1176,24 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccount) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KeyVaultManagedStorageAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

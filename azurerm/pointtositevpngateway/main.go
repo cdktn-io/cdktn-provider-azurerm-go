@@ -86,6 +86,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualHubIdInput", GoGetter: "VirtualHubIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnServerConfigurationId", GoGetter: "VpnServerConfigurationId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnServerConfigurationIdInput", GoGetter: "VpnServerConfigurationIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_PointToSiteVpnGateway{}

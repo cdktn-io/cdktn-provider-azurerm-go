@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_dataset_delimited_text azurerm_data_factory_dataset_delimited_text}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_dataset_delimited_text azurerm_data_factory_dataset_delimited_text}.
 type DataFactoryDatasetDelimitedText interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -207,6 +207,15 @@ type DataFactoryDatasetDelimitedText interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryDatasetDelimitedText
@@ -835,7 +844,7 @@ func (j *jsiiProxy_DataFactoryDatasetDelimitedText) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_dataset_delimited_text azurerm_data_factory_dataset_delimited_text} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_dataset_delimited_text azurerm_data_factory_dataset_delimited_text} Resource.
 func NewDataFactoryDatasetDelimitedText(scope constructs.Construct, id *string, config *DataFactoryDatasetDelimitedTextConfig) DataFactoryDatasetDelimitedText {
 	_init_.Initialize()
 
@@ -853,7 +862,7 @@ func NewDataFactoryDatasetDelimitedText(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_dataset_delimited_text azurerm_data_factory_dataset_delimited_text} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_dataset_delimited_text azurerm_data_factory_dataset_delimited_text} Resource.
 func NewDataFactoryDatasetDelimitedText_Override(d DataFactoryDatasetDelimitedText, scope constructs.Construct, id *string, config *DataFactoryDatasetDelimitedTextConfig) {
 	_init_.Initialize()
 
@@ -1778,6 +1787,24 @@ func (d *jsiiProxy_DataFactoryDatasetDelimitedText) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryDatasetDelimitedText) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

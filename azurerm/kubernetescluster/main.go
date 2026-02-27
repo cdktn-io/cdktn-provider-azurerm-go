@@ -271,6 +271,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "webAppRoutingInput", GoGetter: "WebAppRoutingInput"},
 			_jsii_.MemberProperty{JsiiProperty: "windowsProfile", GoGetter: "WindowsProfile"},
 			_jsii_.MemberProperty{JsiiProperty: "windowsProfileInput", GoGetter: "WindowsProfileInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadAutoscalerProfile", GoGetter: "WorkloadAutoscalerProfile"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadAutoscalerProfileInput", GoGetter: "WorkloadAutoscalerProfileInput"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityEnabled", GoGetter: "WorkloadIdentityEnabled"},

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_policy_fragment azurerm_api_management_policy_fragment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_policy_fragment azurerm_api_management_policy_fragment}.
 type ApiManagementPolicyFragment interface {
 	cdktn.TerraformResource
 	ApiManagementId() *string
@@ -143,6 +143,15 @@ type ApiManagementPolicyFragment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementPolicyFragment
@@ -451,7 +460,7 @@ func (j *jsiiProxy_ApiManagementPolicyFragment) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_policy_fragment azurerm_api_management_policy_fragment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_policy_fragment azurerm_api_management_policy_fragment} Resource.
 func NewApiManagementPolicyFragment(scope constructs.Construct, id *string, config *ApiManagementPolicyFragmentConfig) ApiManagementPolicyFragment {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewApiManagementPolicyFragment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_policy_fragment azurerm_api_management_policy_fragment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_policy_fragment azurerm_api_management_policy_fragment} Resource.
 func NewApiManagementPolicyFragment_Override(a ApiManagementPolicyFragment, scope constructs.Construct, id *string, config *ApiManagementPolicyFragmentConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (a *jsiiProxy_ApiManagementPolicyFragment) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementPolicyFragment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

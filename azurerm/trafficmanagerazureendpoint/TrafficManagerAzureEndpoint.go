@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/traffic_manager_azure_endpoint azurerm_traffic_manager_azure_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/traffic_manager_azure_endpoint azurerm_traffic_manager_azure_endpoint}.
 type TrafficManagerAzureEndpoint interface {
 	cdktn.TerraformResource
 	AlwaysServeEnabled() interface{}
@@ -163,6 +163,15 @@ type TrafficManagerAzureEndpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for TrafficManagerAzureEndpoint
@@ -571,7 +580,7 @@ func (j *jsiiProxy_TrafficManagerAzureEndpoint) WeightInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/traffic_manager_azure_endpoint azurerm_traffic_manager_azure_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/traffic_manager_azure_endpoint azurerm_traffic_manager_azure_endpoint} Resource.
 func NewTrafficManagerAzureEndpoint(scope constructs.Construct, id *string, config *TrafficManagerAzureEndpointConfig) TrafficManagerAzureEndpoint {
 	_init_.Initialize()
 
@@ -589,7 +598,7 @@ func NewTrafficManagerAzureEndpoint(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/traffic_manager_azure_endpoint azurerm_traffic_manager_azure_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/traffic_manager_azure_endpoint azurerm_traffic_manager_azure_endpoint} Resource.
 func NewTrafficManagerAzureEndpoint_Override(t TrafficManagerAzureEndpoint, scope constructs.Construct, id *string, config *TrafficManagerAzureEndpointConfig) {
 	_init_.Initialize()
 
@@ -1305,6 +1314,24 @@ func (t *jsiiProxy_TrafficManagerAzureEndpoint) ToTerraform() interface{} {
 		t,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TrafficManagerAzureEndpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
 		&returns,
 	)
 

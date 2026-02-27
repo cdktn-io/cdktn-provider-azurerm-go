@@ -95,6 +95,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "weekDays", GoGetter: "WeekDays"},
 			_jsii_.MemberProperty{JsiiProperty: "weekDaysInput", GoGetter: "WeekDaysInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AutomationSchedule{}

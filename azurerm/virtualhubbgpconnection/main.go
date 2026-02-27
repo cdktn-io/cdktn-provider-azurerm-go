@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualHubIdInput", GoGetter: "VirtualHubIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkConnectionId", GoGetter: "VirtualNetworkConnectionId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkConnectionIdInput", GoGetter: "VirtualNetworkConnectionIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VirtualHubBgpConnection{}

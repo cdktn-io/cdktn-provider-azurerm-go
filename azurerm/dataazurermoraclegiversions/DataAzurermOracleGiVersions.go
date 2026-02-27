@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions}.
 type DataAzurermOracleGiVersions interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -113,6 +113,15 @@ type DataAzurermOracleGiVersions interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermOracleGiVersions
@@ -371,7 +380,7 @@ func (j *jsiiProxy_DataAzurermOracleGiVersions) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
 func NewDataAzurermOracleGiVersions(scope constructs.Construct, id *string, config *DataAzurermOracleGiVersionsConfig) DataAzurermOracleGiVersions {
 	_init_.Initialize()
 
@@ -389,7 +398,7 @@ func NewDataAzurermOracleGiVersions(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_gi_versions azurerm_oracle_gi_versions} Data Source.
 func NewDataAzurermOracleGiVersions_Override(d DataAzurermOracleGiVersions, scope constructs.Construct, id *string, config *DataAzurermOracleGiVersionsConfig) {
 	_init_.Initialize()
 
@@ -898,6 +907,24 @@ func (d *jsiiProxy_DataAzurermOracleGiVersions) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermOracleGiVersions) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_alert_rule_ms_security_incident azurerm_sentinel_alert_rule_ms_security_incident}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_alert_rule_ms_security_incident azurerm_sentinel_alert_rule_ms_security_incident}.
 type SentinelAlertRuleMsSecurityIncident interface {
 	cdktn.TerraformResource
 	AlertRuleTemplateGuid() *string
@@ -161,6 +161,15 @@ type SentinelAlertRuleMsSecurityIncident interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SentinelAlertRuleMsSecurityIncident
@@ -569,7 +578,7 @@ func (j *jsiiProxy_SentinelAlertRuleMsSecurityIncident) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_alert_rule_ms_security_incident azurerm_sentinel_alert_rule_ms_security_incident} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_alert_rule_ms_security_incident azurerm_sentinel_alert_rule_ms_security_incident} Resource.
 func NewSentinelAlertRuleMsSecurityIncident(scope constructs.Construct, id *string, config *SentinelAlertRuleMsSecurityIncidentConfig) SentinelAlertRuleMsSecurityIncident {
 	_init_.Initialize()
 
@@ -587,7 +596,7 @@ func NewSentinelAlertRuleMsSecurityIncident(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_alert_rule_ms_security_incident azurerm_sentinel_alert_rule_ms_security_incident} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_alert_rule_ms_security_incident azurerm_sentinel_alert_rule_ms_security_incident} Resource.
 func NewSentinelAlertRuleMsSecurityIncident_Override(s SentinelAlertRuleMsSecurityIncident, scope constructs.Construct, id *string, config *SentinelAlertRuleMsSecurityIncidentConfig) {
 	_init_.Initialize()
 
@@ -1287,6 +1296,24 @@ func (s *jsiiProxy_SentinelAlertRuleMsSecurityIncident) ToTerraform() interface{
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SentinelAlertRuleMsSecurityIncident) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

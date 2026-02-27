@@ -65,6 +65,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionHeaderName", GoGetter: "VersionHeaderName"},
 			_jsii_.MemberProperty{JsiiProperty: "versioningScheme", GoGetter: "VersioningScheme"},
 			_jsii_.MemberProperty{JsiiProperty: "versionQueryName", GoGetter: "VersionQueryName"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermApiManagementApiVersionSet{}

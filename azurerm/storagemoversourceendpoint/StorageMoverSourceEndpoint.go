@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint}.
 type StorageMoverSourceEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -147,6 +147,15 @@ type StorageMoverSourceEndpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StorageMoverSourceEndpoint
@@ -475,7 +484,7 @@ func (j *jsiiProxy_StorageMoverSourceEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
 func NewStorageMoverSourceEndpoint(scope constructs.Construct, id *string, config *StorageMoverSourceEndpointConfig) StorageMoverSourceEndpoint {
 	_init_.Initialize()
 
@@ -493,7 +502,7 @@ func NewStorageMoverSourceEndpoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
 func NewStorageMoverSourceEndpoint_Override(s StorageMoverSourceEndpoint, scope constructs.Construct, id *string, config *StorageMoverSourceEndpointConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1142,24 @@ func (s *jsiiProxy_StorageMoverSourceEndpoint) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StorageMoverSourceEndpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

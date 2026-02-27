@@ -91,6 +91,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "totalCoreCount", GoGetter: "TotalCoreCount"},
 			_jsii_.MemberProperty{JsiiProperty: "totalNodeCount", GoGetter: "TotalNodeCount"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ArcKubernetesProvisionedCluster{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network}.
 type SystemCenterVirtualMachineManagerVirtualNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -145,6 +145,15 @@ type SystemCenterVirtualMachineManagerVirtualNetwork interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SystemCenterVirtualMachineManagerVirtualNetwork
@@ -473,7 +482,7 @@ func (j *jsiiProxy_SystemCenterVirtualMachineManagerVirtualNetwork) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualNetwork(scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualNetworkConfig) SystemCenterVirtualMachineManagerVirtualNetwork {
 	_init_.Initialize()
 
@@ -491,7 +500,7 @@ func NewSystemCenterVirtualMachineManagerVirtualNetwork(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/system_center_virtual_machine_manager_virtual_network azurerm_system_center_virtual_machine_manager_virtual_network} Resource.
 func NewSystemCenterVirtualMachineManagerVirtualNetwork_Override(s SystemCenterVirtualMachineManagerVirtualNetwork, scope constructs.Construct, id *string, config *SystemCenterVirtualMachineManagerVirtualNetworkConfig) {
 	_init_.Initialize()
 
@@ -1115,6 +1124,24 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualNetwork) ToTerraform(
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualNetwork) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

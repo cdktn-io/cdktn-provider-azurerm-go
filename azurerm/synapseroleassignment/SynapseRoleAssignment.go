@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment}.
 type SynapseRoleAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -144,6 +144,15 @@ type SynapseRoleAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SynapseRoleAssignment
@@ -452,7 +461,7 @@ func (j *jsiiProxy_SynapseRoleAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
 func NewSynapseRoleAssignment(scope constructs.Construct, id *string, config *SynapseRoleAssignmentConfig) SynapseRoleAssignment {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewSynapseRoleAssignment(scope constructs.Construct, id *string, config *Sy
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/synapse_role_assignment azurerm_synapse_role_assignment} Resource.
 func NewSynapseRoleAssignment_Override(s SynapseRoleAssignment, scope constructs.Construct, id *string, config *SynapseRoleAssignmentConfig) {
 	_init_.Initialize()
 
@@ -1099,6 +1108,24 @@ func (s *jsiiProxy_SynapseRoleAssignment) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SynapseRoleAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app_slot azurerm_function_app_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app_slot azurerm_function_app_slot}.
 type FunctionAppSlot interface {
 	cdktn.TerraformResource
 	AppServicePlanId() *string
@@ -200,6 +200,15 @@ type FunctionAppSlot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FunctionAppSlot
@@ -838,7 +847,7 @@ func (j *jsiiProxy_FunctionAppSlot) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
 func NewFunctionAppSlot(scope constructs.Construct, id *string, config *FunctionAppSlotConfig) FunctionAppSlot {
 	_init_.Initialize()
 
@@ -856,7 +865,7 @@ func NewFunctionAppSlot(scope constructs.Construct, id *string, config *Function
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
 func NewFunctionAppSlot_Override(f FunctionAppSlot, scope constructs.Construct, id *string, config *FunctionAppSlotConfig) {
 	_init_.Initialize()
 
@@ -1711,6 +1720,24 @@ func (f *jsiiProxy_FunctionAppSlot) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FunctionAppSlot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

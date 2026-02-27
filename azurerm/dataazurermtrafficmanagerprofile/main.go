@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficRoutingMethod", GoGetter: "TrafficRoutingMethod"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficViewEnabled", GoGetter: "TrafficViewEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficViewEnabledInput", GoGetter: "TrafficViewEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermTrafficManagerProfile{}

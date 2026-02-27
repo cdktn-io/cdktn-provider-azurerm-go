@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versionlessId", GoGetter: "VersionlessId"},
 			_jsii_.MemberProperty{JsiiProperty: "versionlessSecretId", GoGetter: "VersionlessSecretId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermKeyVaultCertificate{}

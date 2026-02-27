@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate}.
 type SignalrServiceCustomCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type SignalrServiceCustomCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SignalrServiceCustomCertificate
@@ -414,7 +423,7 @@ func (j *jsiiProxy_SignalrServiceCustomCertificate) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
 func NewSignalrServiceCustomCertificate(scope constructs.Construct, id *string, config *SignalrServiceCustomCertificateConfig) SignalrServiceCustomCertificate {
 	_init_.Initialize()
 
@@ -432,7 +441,7 @@ func NewSignalrServiceCustomCertificate(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/signalr_service_custom_certificate azurerm_signalr_service_custom_certificate} Resource.
 func NewSignalrServiceCustomCertificate_Override(s SignalrServiceCustomCertificate, scope constructs.Construct, id *string, config *SignalrServiceCustomCertificateConfig) {
 	_init_.Initialize()
 
@@ -1015,6 +1024,24 @@ func (s *jsiiProxy_SignalrServiceCustomCertificate) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SignalrServiceCustomCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

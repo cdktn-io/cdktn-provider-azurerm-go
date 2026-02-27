@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_product_group azurerm_api_management_product_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_product_group azurerm_api_management_product_group}.
 type ApiManagementProductGroup interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -138,6 +138,15 @@ type ApiManagementProductGroup interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementProductGroup
@@ -426,7 +435,7 @@ func (j *jsiiProxy_ApiManagementProductGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
 func NewApiManagementProductGroup(scope constructs.Construct, id *string, config *ApiManagementProductGroupConfig) ApiManagementProductGroup {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewApiManagementProductGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
 func NewApiManagementProductGroup_Override(a ApiManagementProductGroup, scope constructs.Construct, id *string, config *ApiManagementProductGroupConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (a *jsiiProxy_ApiManagementProductGroup) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementProductGroup) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

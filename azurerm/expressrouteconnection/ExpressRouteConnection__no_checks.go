@@ -131,6 +131,10 @@ func (j *jsiiProxy_ExpressRouteConnection) validateSetIdParameters(val *string) 
 	return nil
 }
 
+func (j *jsiiProxy_ExpressRouteConnection) validateSetInternetSecurityEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ExpressRouteConnection) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
 	return nil
 }

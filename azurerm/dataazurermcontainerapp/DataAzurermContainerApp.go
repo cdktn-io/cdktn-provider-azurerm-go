@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/container_app azurerm_container_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/container_app azurerm_container_app}.
 type DataAzurermContainerApp interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -127,6 +127,15 @@ type DataAzurermContainerApp interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermContainerApp
@@ -535,7 +544,7 @@ func (j *jsiiProxy_DataAzurermContainerApp) WorkloadProfileName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/container_app azurerm_container_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/container_app azurerm_container_app} Data Source.
 func NewDataAzurermContainerApp(scope constructs.Construct, id *string, config *DataAzurermContainerAppConfig) DataAzurermContainerApp {
 	_init_.Initialize()
 
@@ -553,7 +562,7 @@ func NewDataAzurermContainerApp(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/container_app azurerm_container_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/container_app azurerm_container_app} Data Source.
 func NewDataAzurermContainerApp_Override(d DataAzurermContainerApp, scope constructs.Construct, id *string, config *DataAzurermContainerAppConfig) {
 	_init_.Initialize()
 
@@ -1054,6 +1063,24 @@ func (d *jsiiProxy_DataAzurermContainerApp) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermContainerApp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

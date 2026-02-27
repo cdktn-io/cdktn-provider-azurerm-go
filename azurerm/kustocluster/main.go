@@ -130,6 +130,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uri", GoGetter: "Uri"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkConfiguration", GoGetter: "VirtualNetworkConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkConfigurationInput", GoGetter: "VirtualNetworkConfigurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},
 			_jsii_.MemberProperty{JsiiProperty: "zonesInput", GoGetter: "ZonesInput"},
 		},

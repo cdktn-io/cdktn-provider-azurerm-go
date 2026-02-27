@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/key_vault_key azurerm_key_vault_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/key_vault_key azurerm_key_vault_key}.
 type DataAzurermKeyVaultKey interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -122,6 +122,15 @@ type DataAzurermKeyVaultKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermKeyVaultKey
@@ -500,7 +509,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultKey) Y() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
 func NewDataAzurermKeyVaultKey(scope constructs.Construct, id *string, config *DataAzurermKeyVaultKeyConfig) DataAzurermKeyVaultKey {
 	_init_.Initialize()
 
@@ -518,7 +527,7 @@ func NewDataAzurermKeyVaultKey(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/key_vault_key azurerm_key_vault_key} Data Source.
 func NewDataAzurermKeyVaultKey_Override(d DataAzurermKeyVaultKey, scope constructs.Construct, id *string, config *DataAzurermKeyVaultKeyConfig) {
 	_init_.Initialize()
 
@@ -1000,6 +1009,24 @@ func (d *jsiiProxy_DataAzurermKeyVaultKey) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermKeyVaultKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

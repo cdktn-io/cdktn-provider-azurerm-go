@@ -89,6 +89,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "urlFilteringProfileInput", GoGetter: "UrlFilteringProfileInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vulnerabilityProfile", GoGetter: "VulnerabilityProfile"},
 			_jsii_.MemberProperty{JsiiProperty: "vulnerabilityProfileInput", GoGetter: "VulnerabilityProfileInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_PaloAltoLocalRulestack{}

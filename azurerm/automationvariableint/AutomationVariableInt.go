@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_variable_int azurerm_automation_variable_int}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_variable_int azurerm_automation_variable_int}.
 type AutomationVariableInt interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -147,6 +147,15 @@ type AutomationVariableInt interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationVariableInt
@@ -475,7 +484,7 @@ func (j *jsiiProxy_AutomationVariableInt) ValueInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
 func NewAutomationVariableInt(scope constructs.Construct, id *string, config *AutomationVariableIntConfig) AutomationVariableInt {
 	_init_.Initialize()
 
@@ -493,7 +502,7 @@ func NewAutomationVariableInt(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
 func NewAutomationVariableInt_Override(a AutomationVariableInt, scope constructs.Construct, id *string, config *AutomationVariableIntConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1142,24 @@ func (a *jsiiProxy_AutomationVariableInt) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationVariableInt) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

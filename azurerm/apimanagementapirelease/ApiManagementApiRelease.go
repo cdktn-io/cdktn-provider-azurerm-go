@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_api_release azurerm_api_management_api_release}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_api_release azurerm_api_management_api_release}.
 type ApiManagementApiRelease interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -136,6 +136,15 @@ type ApiManagementApiRelease interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementApiRelease
@@ -404,7 +413,7 @@ func (j *jsiiProxy_ApiManagementApiRelease) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
 func NewApiManagementApiRelease(scope constructs.Construct, id *string, config *ApiManagementApiReleaseConfig) ApiManagementApiRelease {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewApiManagementApiRelease(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
 func NewApiManagementApiRelease_Override(a ApiManagementApiRelease, scope constructs.Construct, id *string, config *ApiManagementApiReleaseConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (a *jsiiProxy_ApiManagementApiRelease) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementApiRelease) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

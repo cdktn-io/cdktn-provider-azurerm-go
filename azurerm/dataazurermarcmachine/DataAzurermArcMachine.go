@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/arc_machine azurerm_arc_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/arc_machine azurerm_arc_machine}.
 type DataAzurermArcMachine interface {
 	cdktn.TerraformDataSource
 	ActiveDirectoryFqdn() *string
@@ -134,6 +134,15 @@ type DataAzurermArcMachine interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermArcMachine
@@ -632,7 +641,7 @@ func (j *jsiiProxy_DataAzurermArcMachine) VmUuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
 func NewDataAzurermArcMachine(scope constructs.Construct, id *string, config *DataAzurermArcMachineConfig) DataAzurermArcMachine {
 	_init_.Initialize()
 
@@ -650,7 +659,7 @@ func NewDataAzurermArcMachine(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
 func NewDataAzurermArcMachine_Override(d DataAzurermArcMachine, scope constructs.Construct, id *string, config *DataAzurermArcMachineConfig) {
 	_init_.Initialize()
 
@@ -1132,6 +1141,24 @@ func (d *jsiiProxy_DataAzurermArcMachine) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermArcMachine) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

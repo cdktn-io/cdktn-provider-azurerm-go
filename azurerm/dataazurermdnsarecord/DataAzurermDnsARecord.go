@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_a_record azurerm_dns_a_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_a_record azurerm_dns_a_record}.
 type DataAzurermDnsARecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -115,6 +115,15 @@ type DataAzurermDnsARecord interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermDnsARecord
@@ -413,7 +422,7 @@ func (j *jsiiProxy_DataAzurermDnsARecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
 func NewDataAzurermDnsARecord(scope constructs.Construct, id *string, config *DataAzurermDnsARecordConfig) DataAzurermDnsARecord {
 	_init_.Initialize()
 
@@ -431,7 +440,7 @@ func NewDataAzurermDnsARecord(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_a_record azurerm_dns_a_record} Data Source.
 func NewDataAzurermDnsARecord_Override(d DataAzurermDnsARecord, scope constructs.Construct, id *string, config *DataAzurermDnsARecordConfig) {
 	_init_.Initialize()
 
@@ -924,6 +933,24 @@ func (d *jsiiProxy_DataAzurermDnsARecord) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermDnsARecord) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

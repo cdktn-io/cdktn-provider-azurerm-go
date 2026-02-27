@@ -190,6 +190,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vnetSubnetIdInput", GoGetter: "VnetSubnetIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "windowsProfile", GoGetter: "WindowsProfile"},
 			_jsii_.MemberProperty{JsiiProperty: "windowsProfileInput", GoGetter: "WindowsProfileInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadRuntime", GoGetter: "WorkloadRuntime"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadRuntimeInput", GoGetter: "WorkloadRuntimeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},

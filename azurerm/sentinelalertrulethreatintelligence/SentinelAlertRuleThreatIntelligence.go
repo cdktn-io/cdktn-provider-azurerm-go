@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence}.
 type SentinelAlertRuleThreatIntelligence interface {
 	cdktn.TerraformResource
 	AlertRuleTemplateGuid() *string
@@ -139,6 +139,15 @@ type SentinelAlertRuleThreatIntelligence interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SentinelAlertRuleThreatIntelligence
@@ -427,7 +436,7 @@ func (j *jsiiProxy_SentinelAlertRuleThreatIntelligence) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
 func NewSentinelAlertRuleThreatIntelligence(scope constructs.Construct, id *string, config *SentinelAlertRuleThreatIntelligenceConfig) SentinelAlertRuleThreatIntelligence {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewSentinelAlertRuleThreatIntelligence(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
 func NewSentinelAlertRuleThreatIntelligence_Override(s SentinelAlertRuleThreatIntelligence, scope constructs.Construct, id *string, config *SentinelAlertRuleThreatIntelligenceConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (s *jsiiProxy_SentinelAlertRuleThreatIntelligence) ToTerraform() interface{
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SentinelAlertRuleThreatIntelligence) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

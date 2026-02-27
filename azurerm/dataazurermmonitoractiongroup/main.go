@@ -71,6 +71,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "voiceReceiver", GoGetter: "VoiceReceiver"},
 			_jsii_.MemberProperty{JsiiProperty: "webhookReceiver", GoGetter: "WebhookReceiver"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermMonitorActionGroup{}

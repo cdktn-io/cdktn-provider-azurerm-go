@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_certificate_binding azurerm_app_service_certificate_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_certificate_binding azurerm_app_service_certificate_binding}.
 type AppServiceCertificateBinding interface {
 	cdktn.TerraformResource
 	AppServiceName() *string
@@ -138,6 +138,15 @@ type AppServiceCertificateBinding interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppServiceCertificateBinding
@@ -436,7 +445,7 @@ func (j *jsiiProxy_AppServiceCertificateBinding) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_certificate_binding azurerm_app_service_certificate_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_certificate_binding azurerm_app_service_certificate_binding} Resource.
 func NewAppServiceCertificateBinding(scope constructs.Construct, id *string, config *AppServiceCertificateBindingConfig) AppServiceCertificateBinding {
 	_init_.Initialize()
 
@@ -454,7 +463,7 @@ func NewAppServiceCertificateBinding(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_certificate_binding azurerm_app_service_certificate_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_certificate_binding azurerm_app_service_certificate_binding} Resource.
 func NewAppServiceCertificateBinding_Override(a AppServiceCertificateBinding, scope constructs.Construct, id *string, config *AppServiceCertificateBindingConfig) {
 	_init_.Initialize()
 
@@ -1037,6 +1046,24 @@ func (a *jsiiProxy_AppServiceCertificateBinding) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppServiceCertificateBinding) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

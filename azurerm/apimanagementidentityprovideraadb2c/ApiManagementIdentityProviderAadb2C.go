@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c}.
 type ApiManagementIdentityProviderAadb2C interface {
 	cdktn.TerraformResource
 	AllowedTenant() *string
@@ -165,6 +165,15 @@ type ApiManagementIdentityProviderAadb2C interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementIdentityProviderAadb2C
@@ -613,7 +622,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderAadb2C) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
 func NewApiManagementIdentityProviderAadb2C(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderAadb2CConfig) ApiManagementIdentityProviderAadb2C {
 	_init_.Initialize()
 
@@ -631,7 +640,7 @@ func NewApiManagementIdentityProviderAadb2C(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
 func NewApiManagementIdentityProviderAadb2C_Override(a ApiManagementIdentityProviderAadb2C, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderAadb2CConfig) {
 	_init_.Initialize()
 
@@ -1337,6 +1346,24 @@ func (a *jsiiProxy_ApiManagementIdentityProviderAadb2C) ToTerraform() interface{
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementIdentityProviderAadb2C) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

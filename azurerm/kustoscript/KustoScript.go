@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kusto_script azurerm_kusto_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kusto_script azurerm_kusto_script}.
 type KustoScript interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -160,6 +160,15 @@ type KustoScript interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KustoScript
@@ -548,7 +557,7 @@ func (j *jsiiProxy_KustoScript) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
 func NewKustoScript(scope constructs.Construct, id *string, config *KustoScriptConfig) KustoScript {
 	_init_.Initialize()
 
@@ -566,7 +575,7 @@ func NewKustoScript(scope constructs.Construct, id *string, config *KustoScriptC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
 func NewKustoScript_Override(k KustoScript, scope constructs.Construct, id *string, config *KustoScriptConfig) {
 	_init_.Initialize()
 
@@ -1271,6 +1280,24 @@ func (k *jsiiProxy_KustoScript) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KustoScript) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

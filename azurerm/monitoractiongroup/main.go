@@ -121,6 +121,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "voiceReceiverInput", GoGetter: "VoiceReceiverInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webhookReceiver", GoGetter: "WebhookReceiver"},
 			_jsii_.MemberProperty{JsiiProperty: "webhookReceiverInput", GoGetter: "WebhookReceiverInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MonitorActionGroup{}

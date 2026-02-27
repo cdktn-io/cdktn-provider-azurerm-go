@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime}.
 type AutomationVariableDatetime interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -147,6 +147,15 @@ type AutomationVariableDatetime interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationVariableDatetime
@@ -475,7 +484,7 @@ func (j *jsiiProxy_AutomationVariableDatetime) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
 func NewAutomationVariableDatetime(scope constructs.Construct, id *string, config *AutomationVariableDatetimeConfig) AutomationVariableDatetime {
 	_init_.Initialize()
 
@@ -493,7 +502,7 @@ func NewAutomationVariableDatetime(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
 func NewAutomationVariableDatetime_Override(a AutomationVariableDatetime, scope constructs.Construct, id *string, config *AutomationVariableDatetimeConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1142,24 @@ func (a *jsiiProxy_AutomationVariableDatetime) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationVariableDatetime) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

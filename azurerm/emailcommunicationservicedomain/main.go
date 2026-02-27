@@ -77,6 +77,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userEngagementTrackingEnabled", GoGetter: "UserEngagementTrackingEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "userEngagementTrackingEnabledInput", GoGetter: "UserEngagementTrackingEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationRecords", GoGetter: "VerificationRecords"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EmailCommunicationServiceDomain{}

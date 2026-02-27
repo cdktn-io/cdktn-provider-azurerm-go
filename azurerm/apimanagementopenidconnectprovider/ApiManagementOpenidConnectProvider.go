@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider}.
 type ApiManagementOpenidConnectProvider interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -151,6 +151,15 @@ type ApiManagementOpenidConnectProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementOpenidConnectProvider
@@ -519,7 +528,7 @@ func (j *jsiiProxy_ApiManagementOpenidConnectProvider) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
 func NewApiManagementOpenidConnectProvider(scope constructs.Construct, id *string, config *ApiManagementOpenidConnectProviderConfig) ApiManagementOpenidConnectProvider {
 	_init_.Initialize()
 
@@ -537,7 +546,7 @@ func NewApiManagementOpenidConnectProvider(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_openid_connect_provider azurerm_api_management_openid_connect_provider} Resource.
 func NewApiManagementOpenidConnectProvider_Override(a ApiManagementOpenidConnectProvider, scope constructs.Construct, id *string, config *ApiManagementOpenidConnectProviderConfig) {
 	_init_.Initialize()
 
@@ -1183,6 +1192,24 @@ func (a *jsiiProxy_ApiManagementOpenidConnectProvider) ToTerraform() interface{}
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementOpenidConnectProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

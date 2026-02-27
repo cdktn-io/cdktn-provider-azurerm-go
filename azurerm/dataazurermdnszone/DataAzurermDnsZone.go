@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_zone azurerm_dns_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_zone azurerm_dns_zone}.
 type DataAzurermDnsZone interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -112,6 +112,15 @@ type DataAzurermDnsZone interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermDnsZone
@@ -380,7 +389,7 @@ func (j *jsiiProxy_DataAzurermDnsZone) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
 func NewDataAzurermDnsZone(scope constructs.Construct, id *string, config *DataAzurermDnsZoneConfig) DataAzurermDnsZone {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewDataAzurermDnsZone(scope constructs.Construct, id *string, config *DataA
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_zone azurerm_dns_zone} Data Source.
 func NewDataAzurermDnsZone_Override(d DataAzurermDnsZone, scope constructs.Construct, id *string, config *DataAzurermDnsZoneConfig) {
 	_init_.Initialize()
 
@@ -888,6 +897,24 @@ func (d *jsiiProxy_DataAzurermDnsZone) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermDnsZone) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

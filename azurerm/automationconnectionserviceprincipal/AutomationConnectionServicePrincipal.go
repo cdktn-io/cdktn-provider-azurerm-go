@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal}.
 type AutomationConnectionServicePrincipal interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -151,6 +151,15 @@ type AutomationConnectionServicePrincipal interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationConnectionServicePrincipal
@@ -519,7 +528,7 @@ func (j *jsiiProxy_AutomationConnectionServicePrincipal) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
 func NewAutomationConnectionServicePrincipal(scope constructs.Construct, id *string, config *AutomationConnectionServicePrincipalConfig) AutomationConnectionServicePrincipal {
 	_init_.Initialize()
 
@@ -537,7 +546,7 @@ func NewAutomationConnectionServicePrincipal(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_connection_service_principal azurerm_automation_connection_service_principal} Resource.
 func NewAutomationConnectionServicePrincipal_Override(a AutomationConnectionServicePrincipal, scope constructs.Construct, id *string, config *AutomationConnectionServicePrincipalConfig) {
 	_init_.Initialize()
 
@@ -1183,6 +1192,24 @@ func (a *jsiiProxy_AutomationConnectionServicePrincipal) ToTerraform() interface
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationConnectionServicePrincipal) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

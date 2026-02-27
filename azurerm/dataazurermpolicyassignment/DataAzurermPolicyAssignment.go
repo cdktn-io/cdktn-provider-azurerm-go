@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/policy_assignment azurerm_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/policy_assignment azurerm_policy_assignment}.
 type DataAzurermPolicyAssignment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -117,6 +117,15 @@ type DataAzurermPolicyAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermPolicyAssignment
@@ -445,7 +454,7 @@ func (j *jsiiProxy_DataAzurermPolicyAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
 func NewDataAzurermPolicyAssignment(scope constructs.Construct, id *string, config *DataAzurermPolicyAssignmentConfig) DataAzurermPolicyAssignment {
 	_init_.Initialize()
 
@@ -463,7 +472,7 @@ func NewDataAzurermPolicyAssignment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
 func NewDataAzurermPolicyAssignment_Override(d DataAzurermPolicyAssignment, scope constructs.Construct, id *string, config *DataAzurermPolicyAssignmentConfig) {
 	_init_.Initialize()
 
@@ -945,6 +954,24 @@ func (d *jsiiProxy_DataAzurermPolicyAssignment) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermPolicyAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

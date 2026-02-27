@@ -69,6 +69,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validationToken", GoGetter: "ValidationToken"},
 			_jsii_.MemberProperty{JsiiProperty: "validationType", GoGetter: "ValidationType"},
 			_jsii_.MemberProperty{JsiiProperty: "validationTypeInput", GoGetter: "ValidationTypeInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_StaticWebAppCustomDomain{}

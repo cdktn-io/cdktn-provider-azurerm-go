@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection}.
 type RouteServerBgpConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -138,6 +138,15 @@ type RouteServerBgpConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for RouteServerBgpConnection
@@ -426,7 +435,7 @@ func (j *jsiiProxy_RouteServerBgpConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
 func NewRouteServerBgpConnection(scope constructs.Construct, id *string, config *RouteServerBgpConnectionConfig) RouteServerBgpConnection {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewRouteServerBgpConnection(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
 func NewRouteServerBgpConnection_Override(r RouteServerBgpConnection, scope constructs.Construct, id *string, config *RouteServerBgpConnectionConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (r *jsiiProxy_RouteServerBgpConnection) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_RouteServerBgpConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

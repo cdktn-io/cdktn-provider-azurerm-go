@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch}.
 type ElasticCloudElasticsearch interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -159,6 +159,15 @@ type ElasticCloudElasticsearch interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ElasticCloudElasticsearch
@@ -587,7 +596,7 @@ func (j *jsiiProxy_ElasticCloudElasticsearch) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Resource.
 func NewElasticCloudElasticsearch(scope constructs.Construct, id *string, config *ElasticCloudElasticsearchConfig) ElasticCloudElasticsearch {
 	_init_.Initialize()
 
@@ -605,7 +614,7 @@ func NewElasticCloudElasticsearch(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Resource.
 func NewElasticCloudElasticsearch_Override(e ElasticCloudElasticsearch, scope constructs.Construct, id *string, config *ElasticCloudElasticsearchConfig) {
 	_init_.Initialize()
 
@@ -1267,6 +1276,24 @@ func (e *jsiiProxy_ElasticCloudElasticsearch) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_ElasticCloudElasticsearch) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

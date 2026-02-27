@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineScaleSetId", GoGetter: "VirtualMachineScaleSetId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineScaleSetIdInput", GoGetter: "VirtualMachineScaleSetIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_MaintenanceAssignmentVirtualMachineScaleSet{}

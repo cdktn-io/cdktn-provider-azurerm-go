@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultKeyReference", GoGetter: "VaultKeyReference"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultKeyReferenceInput", GoGetter: "VaultKeyReferenceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AppConfigurationKey{}

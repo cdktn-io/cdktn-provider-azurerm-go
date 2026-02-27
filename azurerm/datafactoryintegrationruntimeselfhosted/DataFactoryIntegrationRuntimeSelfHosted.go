@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_integration_runtime_self_hosted azurerm_data_factory_integration_runtime_self_hosted}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_integration_runtime_self_hosted azurerm_data_factory_integration_runtime_self_hosted}.
 type DataFactoryIntegrationRuntimeSelfHosted interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -146,6 +146,15 @@ type DataFactoryIntegrationRuntimeSelfHosted interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryIntegrationRuntimeSelfHosted
@@ -474,7 +483,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_integration_runtime_self_hosted azurerm_data_factory_integration_runtime_self_hosted} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_integration_runtime_self_hosted azurerm_data_factory_integration_runtime_self_hosted} Resource.
 func NewDataFactoryIntegrationRuntimeSelfHosted(scope constructs.Construct, id *string, config *DataFactoryIntegrationRuntimeSelfHostedConfig) DataFactoryIntegrationRuntimeSelfHosted {
 	_init_.Initialize()
 
@@ -492,7 +501,7 @@ func NewDataFactoryIntegrationRuntimeSelfHosted(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_integration_runtime_self_hosted azurerm_data_factory_integration_runtime_self_hosted} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_integration_runtime_self_hosted azurerm_data_factory_integration_runtime_self_hosted} Resource.
 func NewDataFactoryIntegrationRuntimeSelfHosted_Override(d DataFactoryIntegrationRuntimeSelfHosted, scope constructs.Construct, id *string, config *DataFactoryIntegrationRuntimeSelfHostedConfig) {
 	_init_.Initialize()
 
@@ -1121,6 +1130,24 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) ToTerraform() interf
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

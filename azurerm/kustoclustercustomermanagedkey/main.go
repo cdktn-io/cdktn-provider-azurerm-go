@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userIdentity", GoGetter: "UserIdentity"},
 			_jsii_.MemberProperty{JsiiProperty: "userIdentityInput", GoGetter: "UserIdentityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_KustoClusterCustomerManagedKey{}

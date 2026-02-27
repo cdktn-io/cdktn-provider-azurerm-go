@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation}.
 type ResourcePolicyRemediation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -159,6 +159,15 @@ type ResourcePolicyRemediation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ResourcePolicyRemediation
@@ -547,7 +556,7 @@ func (j *jsiiProxy_ResourcePolicyRemediation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
 func NewResourcePolicyRemediation(scope constructs.Construct, id *string, config *ResourcePolicyRemediationConfig) ResourcePolicyRemediation {
 	_init_.Initialize()
 
@@ -565,7 +574,7 @@ func NewResourcePolicyRemediation(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_policy_remediation azurerm_resource_policy_remediation} Resource.
 func NewResourcePolicyRemediation_Override(r ResourcePolicyRemediation, scope constructs.Construct, id *string, config *ResourcePolicyRemediationConfig) {
 	_init_.Initialize()
 
@@ -1262,6 +1271,24 @@ func (r *jsiiProxy_ResourcePolicyRemediation) ToTerraform() interface{} {
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_ResourcePolicyRemediation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

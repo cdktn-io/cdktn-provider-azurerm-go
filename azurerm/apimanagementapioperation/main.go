@@ -91,6 +91,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "urlTemplate", GoGetter: "UrlTemplate"},
 			_jsii_.MemberProperty{JsiiProperty: "urlTemplateInput", GoGetter: "UrlTemplateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiManagementApiOperation{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment}.
 type DataAzurermNginxDeployment interface {
 	cdktn.TerraformDataSource
 	AutomaticUpgradeChannel() *string
@@ -125,6 +125,15 @@ type DataAzurermNginxDeployment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermNginxDeployment
@@ -533,7 +542,7 @@ func (j *jsiiProxy_DataAzurermNginxDeployment) WebApplicationFirewall() DataAzur
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
 func NewDataAzurermNginxDeployment(scope constructs.Construct, id *string, config *DataAzurermNginxDeploymentConfig) DataAzurermNginxDeployment {
 	_init_.Initialize()
 
@@ -551,7 +560,7 @@ func NewDataAzurermNginxDeployment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/nginx_deployment azurerm_nginx_deployment} Data Source.
 func NewDataAzurermNginxDeployment_Override(d DataAzurermNginxDeployment, scope constructs.Construct, id *string, config *DataAzurermNginxDeploymentConfig) {
 	_init_.Initialize()
 
@@ -1033,6 +1042,24 @@ func (d *jsiiProxy_DataAzurermNginxDeployment) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermNginxDeployment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

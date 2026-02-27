@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpnAuthenticationTypesInput", GoGetter: "VpnAuthenticationTypesInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnProtocols", GoGetter: "VpnProtocols"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnProtocolsInput", GoGetter: "VpnProtocolsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VpnServerConfiguration{}

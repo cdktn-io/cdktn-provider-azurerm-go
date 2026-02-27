@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/attestation_provider azurerm_attestation_provider}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/attestation_provider azurerm_attestation_provider}.
 type AttestationProvider interface {
 	cdktn.TerraformResource
 	AttestationUri() *string
@@ -161,6 +161,15 @@ type AttestationProvider interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AttestationProvider
@@ -569,7 +578,7 @@ func (j *jsiiProxy_AttestationProvider) TrustModel() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
 func NewAttestationProvider(scope constructs.Construct, id *string, config *AttestationProviderConfig) AttestationProvider {
 	_init_.Initialize()
 
@@ -587,7 +596,7 @@ func NewAttestationProvider(scope constructs.Construct, id *string, config *Atte
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/attestation_provider azurerm_attestation_provider} Resource.
 func NewAttestationProvider_Override(a AttestationProvider, scope constructs.Construct, id *string, config *AttestationProviderConfig) {
 	_init_.Initialize()
 
@@ -1284,6 +1293,24 @@ func (a *jsiiProxy_AttestationProvider) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AttestationProvider) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

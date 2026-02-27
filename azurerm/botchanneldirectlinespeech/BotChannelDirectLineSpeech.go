@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech}.
 type BotChannelDirectLineSpeech interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -153,6 +153,15 @@ type BotChannelDirectLineSpeech interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BotChannelDirectLineSpeech
@@ -521,7 +530,7 @@ func (j *jsiiProxy_BotChannelDirectLineSpeech) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
 func NewBotChannelDirectLineSpeech(scope constructs.Construct, id *string, config *BotChannelDirectLineSpeechConfig) BotChannelDirectLineSpeech {
 	_init_.Initialize()
 
@@ -539,7 +548,7 @@ func NewBotChannelDirectLineSpeech(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_direct_line_speech azurerm_bot_channel_direct_line_speech} Resource.
 func NewBotChannelDirectLineSpeech_Override(b BotChannelDirectLineSpeech, scope constructs.Construct, id *string, config *BotChannelDirectLineSpeechConfig) {
 	_init_.Initialize()
 
@@ -1201,6 +1210,24 @@ func (b *jsiiProxy_BotChannelDirectLineSpeech) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BotChannelDirectLineSpeech) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

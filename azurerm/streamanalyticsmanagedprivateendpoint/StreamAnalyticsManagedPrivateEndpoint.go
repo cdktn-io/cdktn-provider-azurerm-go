@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_managed_private_endpoint azurerm_stream_analytics_managed_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_managed_private_endpoint azurerm_stream_analytics_managed_private_endpoint}.
 type StreamAnalyticsManagedPrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -141,6 +141,15 @@ type StreamAnalyticsManagedPrivateEndpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StreamAnalyticsManagedPrivateEndpoint
@@ -449,7 +458,7 @@ func (j *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_managed_private_endpoint azurerm_stream_analytics_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_managed_private_endpoint azurerm_stream_analytics_managed_private_endpoint} Resource.
 func NewStreamAnalyticsManagedPrivateEndpoint(scope constructs.Construct, id *string, config *StreamAnalyticsManagedPrivateEndpointConfig) StreamAnalyticsManagedPrivateEndpoint {
 	_init_.Initialize()
 
@@ -467,7 +476,7 @@ func NewStreamAnalyticsManagedPrivateEndpoint(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_managed_private_endpoint azurerm_stream_analytics_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_managed_private_endpoint azurerm_stream_analytics_managed_private_endpoint} Resource.
 func NewStreamAnalyticsManagedPrivateEndpoint_Override(s StreamAnalyticsManagedPrivateEndpoint, scope constructs.Construct, id *string, config *StreamAnalyticsManagedPrivateEndpointConfig) {
 	_init_.Initialize()
 
@@ -1072,6 +1081,24 @@ func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) ToTerraform() interfac
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

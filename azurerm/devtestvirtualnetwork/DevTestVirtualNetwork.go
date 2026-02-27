@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network}.
 type DevTestVirtualNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -148,6 +148,15 @@ type DevTestVirtualNetwork interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DevTestVirtualNetwork
@@ -486,7 +495,7 @@ func (j *jsiiProxy_DevTestVirtualNetwork) UniqueIdentifier() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
 func NewDevTestVirtualNetwork(scope constructs.Construct, id *string, config *DevTestVirtualNetworkConfig) DevTestVirtualNetwork {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewDevTestVirtualNetwork(scope constructs.Construct, id *string, config *De
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
 func NewDevTestVirtualNetwork_Override(d DevTestVirtualNetwork, scope constructs.Construct, id *string, config *DevTestVirtualNetworkConfig) {
 	_init_.Initialize()
 
@@ -1144,6 +1153,24 @@ func (d *jsiiProxy_DevTestVirtualNetwork) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DevTestVirtualNetwork) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -91,6 +91,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "typePropertiesJson", GoGetter: "TypePropertiesJson"},
 			_jsii_.MemberProperty{JsiiProperty: "typePropertiesJsonInput", GoGetter: "TypePropertiesJsonInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataFactoryCustomDataset{}

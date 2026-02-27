@@ -83,6 +83,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userRoleAssignment", GoGetter: "UserRoleAssignment"},
 			_jsii_.MemberProperty{JsiiProperty: "userRoleAssignmentInput", GoGetter: "UserRoleAssignmentInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DevCenterProjectEnvironmentType{}

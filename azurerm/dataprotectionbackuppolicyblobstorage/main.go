@@ -82,6 +82,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vaultDefaultRetentionDurationInput", GoGetter: "VaultDefaultRetentionDurationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultId", GoGetter: "VaultId"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultIdInput", GoGetter: "VaultIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataProtectionBackupPolicyBlobStorage{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/lb_backend_address_pool_address azurerm_lb_backend_address_pool_address}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/lb_backend_address_pool_address azurerm_lb_backend_address_pool_address}.
 type LbBackendAddressPoolAddress interface {
 	cdktn.TerraformResource
 	BackendAddressIpConfigurationId() *string
@@ -145,6 +145,15 @@ type LbBackendAddressPoolAddress interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LbBackendAddressPoolAddress
@@ -463,7 +472,7 @@ func (j *jsiiProxy_LbBackendAddressPoolAddress) VirtualNetworkIdInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/lb_backend_address_pool_address azurerm_lb_backend_address_pool_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/lb_backend_address_pool_address azurerm_lb_backend_address_pool_address} Resource.
 func NewLbBackendAddressPoolAddress(scope constructs.Construct, id *string, config *LbBackendAddressPoolAddressConfig) LbBackendAddressPoolAddress {
 	_init_.Initialize()
 
@@ -481,7 +490,7 @@ func NewLbBackendAddressPoolAddress(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/lb_backend_address_pool_address azurerm_lb_backend_address_pool_address} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/lb_backend_address_pool_address azurerm_lb_backend_address_pool_address} Resource.
 func NewLbBackendAddressPoolAddress_Override(l LbBackendAddressPoolAddress, scope constructs.Construct, id *string, config *LbBackendAddressPoolAddressConfig) {
 	_init_.Initialize()
 
@@ -1110,6 +1119,24 @@ func (l *jsiiProxy_LbBackendAddressPoolAddress) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LbBackendAddressPoolAddress) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

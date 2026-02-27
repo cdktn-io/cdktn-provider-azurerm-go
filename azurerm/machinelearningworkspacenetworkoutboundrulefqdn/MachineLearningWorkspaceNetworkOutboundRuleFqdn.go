@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/machine_learning_workspace_network_outbound_rule_fqdn azurerm_machine_learning_workspace_network_outbound_rule_fqdn}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/machine_learning_workspace_network_outbound_rule_fqdn azurerm_machine_learning_workspace_network_outbound_rule_fqdn}.
 type MachineLearningWorkspaceNetworkOutboundRuleFqdn interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type MachineLearningWorkspaceNetworkOutboundRuleFqdn interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MachineLearningWorkspaceNetworkOutboundRuleFqdn
@@ -403,7 +412,7 @@ func (j *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) WorkspaceIdI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/machine_learning_workspace_network_outbound_rule_fqdn azurerm_machine_learning_workspace_network_outbound_rule_fqdn} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/machine_learning_workspace_network_outbound_rule_fqdn azurerm_machine_learning_workspace_network_outbound_rule_fqdn} Resource.
 func NewMachineLearningWorkspaceNetworkOutboundRuleFqdn(scope constructs.Construct, id *string, config *MachineLearningWorkspaceNetworkOutboundRuleFqdnConfig) MachineLearningWorkspaceNetworkOutboundRuleFqdn {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewMachineLearningWorkspaceNetworkOutboundRuleFqdn(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/machine_learning_workspace_network_outbound_rule_fqdn azurerm_machine_learning_workspace_network_outbound_rule_fqdn} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/machine_learning_workspace_network_outbound_rule_fqdn azurerm_machine_learning_workspace_network_outbound_rule_fqdn} Resource.
 func NewMachineLearningWorkspaceNetworkOutboundRuleFqdn_Override(m MachineLearningWorkspaceNetworkOutboundRuleFqdn, scope constructs.Construct, id *string, config *MachineLearningWorkspaceNetworkOutboundRuleFqdnConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) ToTerraform(
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

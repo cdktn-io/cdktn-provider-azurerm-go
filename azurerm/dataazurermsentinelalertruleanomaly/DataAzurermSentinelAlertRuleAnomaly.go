@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/sentinel_alert_rule_anomaly azurerm_sentinel_alert_rule_anomaly}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/sentinel_alert_rule_anomaly azurerm_sentinel_alert_rule_anomaly}.
 type DataAzurermSentinelAlertRuleAnomaly interface {
 	cdktn.TerraformDataSource
 	AnomalySettingsVersion() *float64
@@ -126,6 +126,15 @@ type DataAzurermSentinelAlertRuleAnomaly interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermSentinelAlertRuleAnomaly
@@ -514,7 +523,7 @@ func (j *jsiiProxy_DataAzurermSentinelAlertRuleAnomaly) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/sentinel_alert_rule_anomaly azurerm_sentinel_alert_rule_anomaly} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/sentinel_alert_rule_anomaly azurerm_sentinel_alert_rule_anomaly} Data Source.
 func NewDataAzurermSentinelAlertRuleAnomaly(scope constructs.Construct, id *string, config *DataAzurermSentinelAlertRuleAnomalyConfig) DataAzurermSentinelAlertRuleAnomaly {
 	_init_.Initialize()
 
@@ -532,7 +541,7 @@ func NewDataAzurermSentinelAlertRuleAnomaly(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/sentinel_alert_rule_anomaly azurerm_sentinel_alert_rule_anomaly} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/sentinel_alert_rule_anomaly azurerm_sentinel_alert_rule_anomaly} Data Source.
 func NewDataAzurermSentinelAlertRuleAnomaly_Override(d DataAzurermSentinelAlertRuleAnomaly, scope constructs.Construct, id *string, config *DataAzurermSentinelAlertRuleAnomalyConfig) {
 	_init_.Initialize()
 
@@ -1041,6 +1050,24 @@ func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomaly) ToTerraform() interface{
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomaly) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

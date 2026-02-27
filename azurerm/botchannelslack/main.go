@@ -80,6 +80,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationToken", GoGetter: "VerificationToken"},
 			_jsii_.MemberProperty{JsiiProperty: "verificationTokenInput", GoGetter: "VerificationTokenInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_BotChannelSlack{}

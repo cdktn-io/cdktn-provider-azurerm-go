@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table}.
 type CosmosdbCassandraTable interface {
 	cdktn.TerraformResource
 	AnalyticalStorageTtl() *float64
@@ -151,6 +151,15 @@ type CosmosdbCassandraTable interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CosmosdbCassandraTable
@@ -499,7 +508,7 @@ func (j *jsiiProxy_CosmosdbCassandraTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
 func NewCosmosdbCassandraTable(scope constructs.Construct, id *string, config *CosmosdbCassandraTableConfig) CosmosdbCassandraTable {
 	_init_.Initialize()
 
@@ -517,7 +526,7 @@ func NewCosmosdbCassandraTable(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cosmosdb_cassandra_table azurerm_cosmosdb_cassandra_table} Resource.
 func NewCosmosdbCassandraTable_Override(c CosmosdbCassandraTable, scope constructs.Construct, id *string, config *CosmosdbCassandraTableConfig) {
 	_init_.Initialize()
 
@@ -1176,6 +1185,24 @@ func (c *jsiiProxy_CosmosdbCassandraTable) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CosmosdbCassandraTable) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

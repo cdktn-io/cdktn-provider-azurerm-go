@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link}.
 type PrivateDnsResolverVirtualNetworkLink interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -139,6 +139,15 @@ type PrivateDnsResolverVirtualNetworkLink interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PrivateDnsResolverVirtualNetworkLink
@@ -427,7 +436,7 @@ func (j *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) VirtualNetworkIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Resource.
 func NewPrivateDnsResolverVirtualNetworkLink(scope constructs.Construct, id *string, config *PrivateDnsResolverVirtualNetworkLinkConfig) PrivateDnsResolverVirtualNetworkLink {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewPrivateDnsResolverVirtualNetworkLink(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Resource.
 func NewPrivateDnsResolverVirtualNetworkLink_Override(p PrivateDnsResolverVirtualNetworkLink, scope constructs.Construct, id *string, config *PrivateDnsResolverVirtualNetworkLinkConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) ToTerraform() interface
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

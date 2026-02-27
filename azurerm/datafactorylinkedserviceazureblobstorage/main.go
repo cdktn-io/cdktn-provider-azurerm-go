@@ -120,6 +120,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "useManagedIdentity", GoGetter: "UseManagedIdentity"},
 			_jsii_.MemberProperty{JsiiProperty: "useManagedIdentityInput", GoGetter: "UseManagedIdentityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage{}

@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeFreeSpacePercent", GoGetter: "VolumeFreeSpacePercent"},
 			_jsii_.MemberProperty{JsiiProperty: "volumeFreeSpacePercentInput", GoGetter: "VolumeFreeSpacePercentInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_StorageSyncServerEndpoint{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_integration_account_schema azurerm_logic_app_integration_account_schema}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_integration_account_schema azurerm_logic_app_integration_account_schema}.
 type LogicAppIntegrationAccountSchema interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -146,6 +146,15 @@ type LogicAppIntegrationAccountSchema interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogicAppIntegrationAccountSchema
@@ -474,7 +483,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountSchema) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_integration_account_schema azurerm_logic_app_integration_account_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_integration_account_schema azurerm_logic_app_integration_account_schema} Resource.
 func NewLogicAppIntegrationAccountSchema(scope constructs.Construct, id *string, config *LogicAppIntegrationAccountSchemaConfig) LogicAppIntegrationAccountSchema {
 	_init_.Initialize()
 
@@ -492,7 +501,7 @@ func NewLogicAppIntegrationAccountSchema(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_integration_account_schema azurerm_logic_app_integration_account_schema} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_integration_account_schema azurerm_logic_app_integration_account_schema} Resource.
 func NewLogicAppIntegrationAccountSchema_Override(l LogicAppIntegrationAccountSchema, scope constructs.Construct, id *string, config *LogicAppIntegrationAccountSchemaConfig) {
 	_init_.Initialize()
 
@@ -1124,6 +1133,24 @@ func (l *jsiiProxy_LogicAppIntegrationAccountSchema) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogicAppIntegrationAccountSchema) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

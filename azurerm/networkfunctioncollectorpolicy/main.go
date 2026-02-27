@@ -77,6 +77,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficCollectorId", GoGetter: "TrafficCollectorId"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficCollectorIdInput", GoGetter: "TrafficCollectorIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetworkFunctionCollectorPolicy{}

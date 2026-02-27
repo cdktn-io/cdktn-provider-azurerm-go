@@ -232,6 +232,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userDataInput", GoGetter: "UserDataInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vtpmEnabled", GoGetter: "VtpmEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "vtpmEnabledInput", GoGetter: "VtpmEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneBalance", GoGetter: "ZoneBalance"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneBalanceInput", GoGetter: "ZoneBalanceInput"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},

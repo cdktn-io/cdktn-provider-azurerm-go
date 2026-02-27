@@ -162,6 +162,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkSubnetIdInput", GoGetter: "VirtualNetworkSubnetIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webdeployPublishBasicAuthenticationEnabled", GoGetter: "WebdeployPublishBasicAuthenticationEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "webdeployPublishBasicAuthenticationEnabledInput", GoGetter: "WebdeployPublishBasicAuthenticationEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zipDeployFile", GoGetter: "ZipDeployFile"},
 			_jsii_.MemberProperty{JsiiProperty: "zipDeployFileInput", GoGetter: "ZipDeployFileInput"},
 		},

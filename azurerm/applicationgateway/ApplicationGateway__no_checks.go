@@ -215,6 +215,10 @@ func (j *jsiiProxy_ApplicationGateway) validateSetForceFirewallPolicyAssociation
 	return nil
 }
 
+func (j *jsiiProxy_ApplicationGateway) validateSetHttp2EnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApplicationGateway) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan}.
 type SiteRecoveryReplicationRecoveryPlan interface {
 	cdktn.TerraformResource
 	AzureToAzureSettings() SiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsOutputReference
@@ -151,6 +151,15 @@ type SiteRecoveryReplicationRecoveryPlan interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SiteRecoveryReplicationRecoveryPlan
@@ -519,7 +528,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Resource.
 func NewSiteRecoveryReplicationRecoveryPlan(scope constructs.Construct, id *string, config *SiteRecoveryReplicationRecoveryPlanConfig) SiteRecoveryReplicationRecoveryPlan {
 	_init_.Initialize()
 
@@ -537,7 +546,7 @@ func NewSiteRecoveryReplicationRecoveryPlan(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Resource.
 func NewSiteRecoveryReplicationRecoveryPlan_Override(s SiteRecoveryReplicationRecoveryPlan, scope constructs.Construct, id *string, config *SiteRecoveryReplicationRecoveryPlanConfig) {
 	_init_.Initialize()
 
@@ -1183,6 +1192,24 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) ToTerraform() interface{
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

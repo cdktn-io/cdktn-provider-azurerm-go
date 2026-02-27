@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_virtual_machine azurerm_mssql_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_virtual_machine azurerm_mssql_virtual_machine}.
 type MssqlVirtualMachine interface {
 	cdktn.TerraformResource
 	Assessment() MssqlVirtualMachineAssessmentOutputReference
@@ -189,6 +189,15 @@ type MssqlVirtualMachine interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MssqlVirtualMachine
@@ -717,7 +726,7 @@ func (j *jsiiProxy_MssqlVirtualMachine) WsfcDomainCredentialInput() *MssqlVirtua
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_virtual_machine azurerm_mssql_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_virtual_machine azurerm_mssql_virtual_machine} Resource.
 func NewMssqlVirtualMachine(scope constructs.Construct, id *string, config *MssqlVirtualMachineConfig) MssqlVirtualMachine {
 	_init_.Initialize()
 
@@ -735,7 +744,7 @@ func NewMssqlVirtualMachine(scope constructs.Construct, id *string, config *Mssq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_virtual_machine azurerm_mssql_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_virtual_machine azurerm_mssql_virtual_machine} Resource.
 func NewMssqlVirtualMachine_Override(m MssqlVirtualMachine, scope constructs.Construct, id *string, config *MssqlVirtualMachineConfig) {
 	_init_.Initialize()
 
@@ -1581,6 +1590,24 @@ func (m *jsiiProxy_MssqlVirtualMachine) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MssqlVirtualMachine) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

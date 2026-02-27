@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_threat_intelligence_taxii azurerm_sentinel_data_connector_threat_intelligence_taxii}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_threat_intelligence_taxii azurerm_sentinel_data_connector_threat_intelligence_taxii}.
 type SentinelDataConnectorThreatIntelligenceTaxii interface {
 	cdktn.TerraformResource
 	ApiRootUrl() *string
@@ -161,6 +161,15 @@ type SentinelDataConnectorThreatIntelligenceTaxii interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SentinelDataConnectorThreatIntelligenceTaxii
@@ -569,7 +578,7 @@ func (j *jsiiProxy_SentinelDataConnectorThreatIntelligenceTaxii) UserNameInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_threat_intelligence_taxii azurerm_sentinel_data_connector_threat_intelligence_taxii} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_threat_intelligence_taxii azurerm_sentinel_data_connector_threat_intelligence_taxii} Resource.
 func NewSentinelDataConnectorThreatIntelligenceTaxii(scope constructs.Construct, id *string, config *SentinelDataConnectorThreatIntelligenceTaxiiConfig) SentinelDataConnectorThreatIntelligenceTaxii {
 	_init_.Initialize()
 
@@ -587,7 +596,7 @@ func NewSentinelDataConnectorThreatIntelligenceTaxii(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_threat_intelligence_taxii azurerm_sentinel_data_connector_threat_intelligence_taxii} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_threat_intelligence_taxii azurerm_sentinel_data_connector_threat_intelligence_taxii} Resource.
 func NewSentinelDataConnectorThreatIntelligenceTaxii_Override(s SentinelDataConnectorThreatIntelligenceTaxii, scope constructs.Construct, id *string, config *SentinelDataConnectorThreatIntelligenceTaxiiConfig) {
 	_init_.Initialize()
 
@@ -1287,6 +1296,24 @@ func (s *jsiiProxy_SentinelDataConnectorThreatIntelligenceTaxii) ToTerraform() i
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SentinelDataConnectorThreatIntelligenceTaxii) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vnetSolution", GoGetter: "VnetSolution"},
 			_jsii_.MemberProperty{JsiiProperty: "vnetSolutionInput", GoGetter: "VnetSolutionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_FunctionAppConnection{}

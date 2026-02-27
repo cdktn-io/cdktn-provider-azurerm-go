@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/portal_dashboard azurerm_portal_dashboard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/portal_dashboard azurerm_portal_dashboard}.
 type PortalDashboard interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -142,6 +142,15 @@ type PortalDashboard interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PortalDashboard
@@ -450,7 +459,7 @@ func (j *jsiiProxy_PortalDashboard) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
 func NewPortalDashboard(scope constructs.Construct, id *string, config *PortalDashboardConfig) PortalDashboard {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewPortalDashboard(scope constructs.Construct, id *string, config *PortalDa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/portal_dashboard azurerm_portal_dashboard} Resource.
 func NewPortalDashboard_Override(p PortalDashboard, scope constructs.Construct, id *string, config *PortalDashboardConfig) {
 	_init_.Initialize()
 
@@ -1081,6 +1090,24 @@ func (p *jsiiProxy_PortalDashboard) ToTerraform() interface{} {
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PortalDashboard) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -114,6 +114,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineId", GoGetter: "VirtualMachineId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualMachineIdInput", GoGetter: "VirtualMachineIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "wsfcDomainCredential", GoGetter: "WsfcDomainCredential"},
 			_jsii_.MemberProperty{JsiiProperty: "wsfcDomainCredentialInput", GoGetter: "WsfcDomainCredentialInput"},
 		},

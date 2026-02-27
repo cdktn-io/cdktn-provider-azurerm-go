@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualSwitchName", GoGetter: "VirtualSwitchName"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualSwitchNameInput", GoGetter: "VirtualSwitchNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_StackHciLogicalNetwork{}

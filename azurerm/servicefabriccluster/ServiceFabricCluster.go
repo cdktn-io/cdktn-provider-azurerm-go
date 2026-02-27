@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster}.
 type ServiceFabricCluster interface {
 	cdktn.TerraformResource
 	AddOnFeatures() *[]*string
@@ -211,6 +211,15 @@ type ServiceFabricCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServiceFabricCluster
@@ -889,7 +898,7 @@ func (j *jsiiProxy_ServiceFabricCluster) VmssZonalUpgradeModeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
 func NewServiceFabricCluster(scope constructs.Construct, id *string, config *ServiceFabricClusterConfig) ServiceFabricCluster {
 	_init_.Initialize()
 
@@ -907,7 +916,7 @@ func NewServiceFabricCluster(scope constructs.Construct, id *string, config *Ser
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/service_fabric_cluster azurerm_service_fabric_cluster} Resource.
 func NewServiceFabricCluster_Override(s ServiceFabricCluster, scope constructs.Construct, id *string, config *ServiceFabricClusterConfig) {
 	_init_.Initialize()
 
@@ -1830,6 +1839,24 @@ func (s *jsiiProxy_ServiceFabricCluster) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServiceFabricCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

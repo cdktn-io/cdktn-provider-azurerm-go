@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_webhook azurerm_automation_webhook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_webhook azurerm_automation_webhook}.
 type AutomationWebhook interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -157,6 +157,15 @@ type AutomationWebhook interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationWebhook
@@ -545,7 +554,7 @@ func (j *jsiiProxy_AutomationWebhook) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_webhook azurerm_automation_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_webhook azurerm_automation_webhook} Resource.
 func NewAutomationWebhook(scope constructs.Construct, id *string, config *AutomationWebhookConfig) AutomationWebhook {
 	_init_.Initialize()
 
@@ -563,7 +572,7 @@ func NewAutomationWebhook(scope constructs.Construct, id *string, config *Automa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_webhook azurerm_automation_webhook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_webhook azurerm_automation_webhook} Resource.
 func NewAutomationWebhook_Override(a AutomationWebhook, scope constructs.Construct, id *string, config *AutomationWebhookConfig) {
 	_init_.Initialize()
 
@@ -1244,6 +1253,24 @@ func (a *jsiiProxy_AutomationWebhook) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationWebhook) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

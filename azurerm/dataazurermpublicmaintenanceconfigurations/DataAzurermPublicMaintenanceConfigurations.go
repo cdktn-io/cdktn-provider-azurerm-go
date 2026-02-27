@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations}.
 type DataAzurermPublicMaintenanceConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -114,6 +114,15 @@ type DataAzurermPublicMaintenanceConfigurations interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermPublicMaintenanceConfigurations
@@ -372,7 +381,7 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
 func NewDataAzurermPublicMaintenanceConfigurations(scope constructs.Construct, id *string, config *DataAzurermPublicMaintenanceConfigurationsConfig) DataAzurermPublicMaintenanceConfigurations {
 	_init_.Initialize()
 
@@ -390,7 +399,7 @@ func NewDataAzurermPublicMaintenanceConfigurations(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
 func NewDataAzurermPublicMaintenanceConfigurations_Override(d DataAzurermPublicMaintenanceConfigurations, scope constructs.Construct, id *string, config *DataAzurermPublicMaintenanceConfigurationsConfig) {
 	_init_.Initialize()
 
@@ -907,6 +916,24 @@ func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) ToTerraform() int
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

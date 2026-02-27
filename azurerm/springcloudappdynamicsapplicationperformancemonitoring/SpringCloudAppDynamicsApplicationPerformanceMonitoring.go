@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_app_dynamics_application_performance_monitoring azurerm_spring_cloud_app_dynamics_application_performance_monitoring}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_app_dynamics_application_performance_monitoring azurerm_spring_cloud_app_dynamics_application_performance_monitoring}.
 type SpringCloudAppDynamicsApplicationPerformanceMonitoring interface {
 	cdktn.TerraformResource
 	AgentAccountAccessKey() *string
@@ -169,6 +169,15 @@ type SpringCloudAppDynamicsApplicationPerformanceMonitoring interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SpringCloudAppDynamicsApplicationPerformanceMonitoring
@@ -617,7 +626,7 @@ func (j *jsiiProxy_SpringCloudAppDynamicsApplicationPerformanceMonitoring) Timeo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_app_dynamics_application_performance_monitoring azurerm_spring_cloud_app_dynamics_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_app_dynamics_application_performance_monitoring azurerm_spring_cloud_app_dynamics_application_performance_monitoring} Resource.
 func NewSpringCloudAppDynamicsApplicationPerformanceMonitoring(scope constructs.Construct, id *string, config *SpringCloudAppDynamicsApplicationPerformanceMonitoringConfig) SpringCloudAppDynamicsApplicationPerformanceMonitoring {
 	_init_.Initialize()
 
@@ -635,7 +644,7 @@ func NewSpringCloudAppDynamicsApplicationPerformanceMonitoring(scope constructs.
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_app_dynamics_application_performance_monitoring azurerm_spring_cloud_app_dynamics_application_performance_monitoring} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_app_dynamics_application_performance_monitoring azurerm_spring_cloud_app_dynamics_application_performance_monitoring} Resource.
 func NewSpringCloudAppDynamicsApplicationPerformanceMonitoring_Override(s SpringCloudAppDynamicsApplicationPerformanceMonitoring, scope constructs.Construct, id *string, config *SpringCloudAppDynamicsApplicationPerformanceMonitoringConfig) {
 	_init_.Initialize()
 
@@ -1373,6 +1382,24 @@ func (s *jsiiProxy_SpringCloudAppDynamicsApplicationPerformanceMonitoring) ToTer
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SpringCloudAppDynamicsApplicationPerformanceMonitoring) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/search_service azurerm_search_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/search_service azurerm_search_service}.
 type SearchService interface {
 	cdktn.TerraformResource
 	AllowedIps() *[]*string
@@ -190,6 +190,15 @@ type SearchService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SearchService
@@ -758,7 +767,7 @@ func (j *jsiiProxy_SearchService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/search_service azurerm_search_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/search_service azurerm_search_service} Resource.
 func NewSearchService(scope constructs.Construct, id *string, config *SearchServiceConfig) SearchService {
 	_init_.Initialize()
 
@@ -776,7 +785,7 @@ func NewSearchService(scope constructs.Construct, id *string, config *SearchServ
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/search_service azurerm_search_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/search_service azurerm_search_service} Resource.
 func NewSearchService_Override(s SearchService, scope constructs.Construct, id *string, config *SearchServiceConfig) {
 	_init_.Initialize()
 
@@ -1598,6 +1607,24 @@ func (s *jsiiProxy_SearchService) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SearchService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

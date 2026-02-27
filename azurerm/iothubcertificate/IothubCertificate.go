@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_certificate azurerm_iothub_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_certificate azurerm_iothub_certificate}.
 type IothubCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -142,6 +142,15 @@ type IothubCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for IothubCertificate
@@ -450,7 +459,7 @@ func (j *jsiiProxy_IothubCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_certificate azurerm_iothub_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_certificate azurerm_iothub_certificate} Resource.
 func NewIothubCertificate(scope constructs.Construct, id *string, config *IothubCertificateConfig) IothubCertificate {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewIothubCertificate(scope constructs.Construct, id *string, config *Iothub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/iothub_certificate azurerm_iothub_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/iothub_certificate azurerm_iothub_certificate} Resource.
 func NewIothubCertificate_Override(i IothubCertificate, scope constructs.Construct, id *string, config *IothubCertificateConfig) {
 	_init_.Initialize()
 
@@ -1081,6 +1090,24 @@ func (i *jsiiProxy_IothubCertificate) ToTerraform() interface{} {
 		i,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (i *jsiiProxy_IothubCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		i,
+		"with",
+		args,
 		&returns,
 	)
 

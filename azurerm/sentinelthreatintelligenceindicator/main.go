@@ -125,6 +125,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validateFromUtcInput", GoGetter: "ValidateFromUtcInput"},
 			_jsii_.MemberProperty{JsiiProperty: "validateUntilUtc", GoGetter: "ValidateUntilUtc"},
 			_jsii_.MemberProperty{JsiiProperty: "validateUntilUtcInput", GoGetter: "ValidateUntilUtcInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceId", GoGetter: "WorkspaceId"},
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 		},

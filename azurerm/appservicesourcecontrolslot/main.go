@@ -88,6 +88,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useMercurial", GoGetter: "UseMercurial"},
 			_jsii_.MemberProperty{JsiiProperty: "useMercurialInput", GoGetter: "UseMercurialInput"},
 			_jsii_.MemberProperty{JsiiProperty: "usesGithubAction", GoGetter: "UsesGithubAction"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AppServiceSourceControlSlot{}

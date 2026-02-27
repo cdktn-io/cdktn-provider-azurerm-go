@@ -49,6 +49,9 @@ type ApplicationGatewaySslProfileOutputReference interface {
 	TrustedClientCertificateNames() *[]*string
 	SetTrustedClientCertificateNames(val *[]*string)
 	TrustedClientCertificateNamesInput() *[]*string
+	VerifyClientCertificateIssuerDn() interface{}
+	SetVerifyClientCertificateIssuerDn(val interface{})
+	VerifyClientCertificateIssuerDnInput() interface{}
 	VerifyClientCertificateRevocation() *string
 	SetVerifyClientCertificateRevocation(val *string)
 	VerifyClientCertificateRevocationInput() *string
@@ -82,6 +85,7 @@ type ApplicationGatewaySslProfileOutputReference interface {
 	PutSslPolicy(value *ApplicationGatewaySslProfileSslPolicy)
 	ResetSslPolicy()
 	ResetTrustedClientCertificateNames()
+	ResetVerifyClientCertificateIssuerDn()
 	ResetVerifyClientCertificateRevocation()
 	ResetVerifyClientCertIssuerDn()
 	// Produce the Token's value at resolution time.
@@ -239,6 +243,26 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) TrustedClientCer
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) VerifyClientCertificateIssuerDn() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"verifyClientCertificateIssuerDn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) VerifyClientCertificateIssuerDnInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"verifyClientCertificateIssuerDnInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference) VerifyClientCertificateRevocation() *string {
 	var returns *string
 	_jsii_.Get(
@@ -380,6 +404,17 @@ func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference)SetTrustedClientC
 	_jsii_.Set(
 		j,
 		"trustedClientCertificateNames",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationGatewaySslProfileOutputReference)SetVerifyClientCertificateIssuerDn(val interface{}) {
+	if err := j.validateSetVerifyClientCertificateIssuerDnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"verifyClientCertificateIssuerDn",
 		val,
 	)
 }
@@ -615,6 +650,14 @@ func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ResetTrustedClie
 	_jsii_.InvokeVoid(
 		a,
 		"resetTrustedClientCertificateNames",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationGatewaySslProfileOutputReference) ResetVerifyClientCertificateIssuerDn() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetVerifyClientCertificateIssuerDn",
 		nil, // no parameters
 	)
 }

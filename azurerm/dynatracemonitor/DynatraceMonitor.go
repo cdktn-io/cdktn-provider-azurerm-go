@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dynatrace_monitor azurerm_dynatrace_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dynatrace_monitor azurerm_dynatrace_monitor}.
 type DynatraceMonitor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -159,6 +159,15 @@ type DynatraceMonitor interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DynatraceMonitor
@@ -567,7 +576,7 @@ func (j *jsiiProxy_DynatraceMonitor) UserInput() *DynatraceMonitorUser {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dynatrace_monitor azurerm_dynatrace_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dynatrace_monitor azurerm_dynatrace_monitor} Resource.
 func NewDynatraceMonitor(scope constructs.Construct, id *string, config *DynatraceMonitorConfig) DynatraceMonitor {
 	_init_.Initialize()
 
@@ -585,7 +594,7 @@ func NewDynatraceMonitor(scope constructs.Construct, id *string, config *Dynatra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dynatrace_monitor azurerm_dynatrace_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dynatrace_monitor azurerm_dynatrace_monitor} Resource.
 func NewDynatraceMonitor_Override(d DynatraceMonitor, scope constructs.Construct, id *string, config *DynatraceMonitorConfig) {
 	_init_.Initialize()
 
@@ -1269,6 +1278,24 @@ func (d *jsiiProxy_DynatraceMonitor) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DynatraceMonitor) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

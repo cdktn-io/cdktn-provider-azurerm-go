@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module}.
 type AutomationPowershell72Module interface {
 	cdktn.TerraformResource
 	AutomationAccountId() *string
@@ -139,6 +139,15 @@ type AutomationPowershell72Module interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AutomationPowershell72Module
@@ -427,7 +436,7 @@ func (j *jsiiProxy_AutomationPowershell72Module) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
 func NewAutomationPowershell72Module(scope constructs.Construct, id *string, config *AutomationPowershell72ModuleConfig) AutomationPowershell72Module {
 	_init_.Initialize()
 
@@ -445,7 +454,7 @@ func NewAutomationPowershell72Module(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
 func NewAutomationPowershell72Module_Override(a AutomationPowershell72Module, scope constructs.Construct, id *string, config *AutomationPowershell72ModuleConfig) {
 	_init_.Initialize()
 
@@ -1047,6 +1056,24 @@ func (a *jsiiProxy_AutomationPowershell72Module) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AutomationPowershell72Module) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace}.
 type EventgridPartnerNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -159,6 +159,15 @@ type EventgridPartnerNamespace interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EventgridPartnerNamespace
@@ -557,7 +566,7 @@ func (j *jsiiProxy_EventgridPartnerNamespace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
 func NewEventgridPartnerNamespace(scope constructs.Construct, id *string, config *EventgridPartnerNamespaceConfig) EventgridPartnerNamespace {
 	_init_.Initialize()
 
@@ -575,7 +584,7 @@ func NewEventgridPartnerNamespace(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_partner_namespace azurerm_eventgrid_partner_namespace} Resource.
 func NewEventgridPartnerNamespace_Override(e EventgridPartnerNamespace, scope constructs.Construct, id *string, config *EventgridPartnerNamespaceConfig) {
 	_init_.Initialize()
 
@@ -1264,6 +1273,24 @@ func (e *jsiiProxy_EventgridPartnerNamespace) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EventgridPartnerNamespace) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

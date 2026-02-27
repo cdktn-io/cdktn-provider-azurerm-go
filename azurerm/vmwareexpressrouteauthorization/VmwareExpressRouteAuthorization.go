@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/vmware_express_route_authorization azurerm_vmware_express_route_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/vmware_express_route_authorization azurerm_vmware_express_route_authorization}.
 type VmwareExpressRouteAuthorization interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -134,6 +134,15 @@ type VmwareExpressRouteAuthorization interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VmwareExpressRouteAuthorization
@@ -402,7 +411,7 @@ func (j *jsiiProxy_VmwareExpressRouteAuthorization) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/vmware_express_route_authorization azurerm_vmware_express_route_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/vmware_express_route_authorization azurerm_vmware_express_route_authorization} Resource.
 func NewVmwareExpressRouteAuthorization(scope constructs.Construct, id *string, config *VmwareExpressRouteAuthorizationConfig) VmwareExpressRouteAuthorization {
 	_init_.Initialize()
 
@@ -420,7 +429,7 @@ func NewVmwareExpressRouteAuthorization(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/vmware_express_route_authorization azurerm_vmware_express_route_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/vmware_express_route_authorization azurerm_vmware_express_route_authorization} Resource.
 func NewVmwareExpressRouteAuthorization_Override(v VmwareExpressRouteAuthorization, scope constructs.Construct, id *string, config *VmwareExpressRouteAuthorizationConfig) {
 	_init_.Initialize()
 
@@ -992,6 +1001,24 @@ func (v *jsiiProxy_VmwareExpressRouteAuthorization) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VmwareExpressRouteAuthorization) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

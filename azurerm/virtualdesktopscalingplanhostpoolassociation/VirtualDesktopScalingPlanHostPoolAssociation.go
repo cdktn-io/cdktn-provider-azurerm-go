@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association azurerm_virtual_desktop_scaling_plan_host_pool_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association azurerm_virtual_desktop_scaling_plan_host_pool_association}.
 type VirtualDesktopScalingPlanHostPoolAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -135,6 +135,15 @@ type VirtualDesktopScalingPlanHostPoolAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VirtualDesktopScalingPlanHostPoolAssociation
@@ -403,7 +412,7 @@ func (j *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) TimeoutsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association azurerm_virtual_desktop_scaling_plan_host_pool_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association azurerm_virtual_desktop_scaling_plan_host_pool_association} Resource.
 func NewVirtualDesktopScalingPlanHostPoolAssociation(scope constructs.Construct, id *string, config *VirtualDesktopScalingPlanHostPoolAssociationConfig) VirtualDesktopScalingPlanHostPoolAssociation {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewVirtualDesktopScalingPlanHostPoolAssociation(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association azurerm_virtual_desktop_scaling_plan_host_pool_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_desktop_scaling_plan_host_pool_association azurerm_virtual_desktop_scaling_plan_host_pool_association} Resource.
 func NewVirtualDesktopScalingPlanHostPoolAssociation_Override(v VirtualDesktopScalingPlanHostPoolAssociation, scope constructs.Construct, id *string, config *VirtualDesktopScalingPlanHostPoolAssociationConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) ToTerraform() i
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential}.
 type MssqlJobCredential interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -147,6 +147,15 @@ type MssqlJobCredential interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for MssqlJobCredential
@@ -475,7 +484,7 @@ func (j *jsiiProxy_MssqlJobCredential) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
 func NewMssqlJobCredential(scope constructs.Construct, id *string, config *MssqlJobCredentialConfig) MssqlJobCredential {
 	_init_.Initialize()
 
@@ -493,7 +502,7 @@ func NewMssqlJobCredential(scope constructs.Construct, id *string, config *Mssql
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_job_credential azurerm_mssql_job_credential} Resource.
 func NewMssqlJobCredential_Override(m MssqlJobCredential, scope constructs.Construct, id *string, config *MssqlJobCredentialConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1142,24 @@ func (m *jsiiProxy_MssqlJobCredential) ToTerraform() interface{} {
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_MssqlJobCredential) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

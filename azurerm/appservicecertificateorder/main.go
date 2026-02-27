@@ -98,6 +98,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validityInYears", GoGetter: "ValidityInYears"},
 			_jsii_.MemberProperty{JsiiProperty: "validityInYearsInput", GoGetter: "ValidityInYearsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_AppServiceCertificateOrder{}

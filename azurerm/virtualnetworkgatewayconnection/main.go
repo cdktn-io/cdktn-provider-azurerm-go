@@ -18,6 +18,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationKey", GoGetter: "AuthorizationKey"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationKeyInput", GoGetter: "AuthorizationKeyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "bgpEnabled", GoGetter: "BgpEnabled"},
+			_jsii_.MemberProperty{JsiiProperty: "bgpEnabledInput", GoGetter: "BgpEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
 			_jsii_.MemberProperty{JsiiProperty: "connection", GoGetter: "Connection"},
 			_jsii_.MemberProperty{JsiiProperty: "connectionMode", GoGetter: "ConnectionMode"},
@@ -86,6 +88,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putTrafficSelectorPolicy", GoMethod: "PutTrafficSelectorPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAuthorizationKey", GoMethod: "ResetAuthorizationKey"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBgpEnabled", GoMethod: "ResetBgpEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConnectionMode", GoMethod: "ResetConnectionMode"},
 			_jsii_.MemberMethod{JsiiMethod: "resetConnectionProtocol", GoMethod: "ResetConnectionProtocol"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomBgpAddresses", GoMethod: "ResetCustomBgpAddresses"},
@@ -135,6 +138,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usePolicyBasedTrafficSelectorsInput", GoGetter: "UsePolicyBasedTrafficSelectorsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkGatewayId", GoGetter: "VirtualNetworkGatewayId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkGatewayIdInput", GoGetter: "VirtualNetworkGatewayIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VirtualNetworkGatewayConnection{}

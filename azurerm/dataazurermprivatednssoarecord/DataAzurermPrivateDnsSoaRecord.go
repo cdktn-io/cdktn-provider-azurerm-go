@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_soa_record azurerm_private_dns_soa_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_soa_record azurerm_private_dns_soa_record}.
 type DataAzurermPrivateDnsSoaRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -121,6 +121,15 @@ type DataAzurermPrivateDnsSoaRecord interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermPrivateDnsSoaRecord
@@ -469,7 +478,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsSoaRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_soa_record azurerm_private_dns_soa_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_soa_record azurerm_private_dns_soa_record} Data Source.
 func NewDataAzurermPrivateDnsSoaRecord(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsSoaRecordConfig) DataAzurermPrivateDnsSoaRecord {
 	_init_.Initialize()
 
@@ -487,7 +496,7 @@ func NewDataAzurermPrivateDnsSoaRecord(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_soa_record azurerm_private_dns_soa_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_soa_record azurerm_private_dns_soa_record} Data Source.
 func NewDataAzurermPrivateDnsSoaRecord_Override(d DataAzurermPrivateDnsSoaRecord, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsSoaRecordConfig) {
 	_init_.Initialize()
 
@@ -988,6 +997,24 @@ func (d *jsiiProxy_DataAzurermPrivateDnsSoaRecord) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermPrivateDnsSoaRecord) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

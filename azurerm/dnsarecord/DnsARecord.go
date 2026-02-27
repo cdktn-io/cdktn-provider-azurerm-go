@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dns_a_record azurerm_dns_a_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dns_a_record azurerm_dns_a_record}.
 type DnsARecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -151,6 +151,15 @@ type DnsARecord interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DnsARecord
@@ -509,7 +518,7 @@ func (j *jsiiProxy_DnsARecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
 func NewDnsARecord(scope constructs.Construct, id *string, config *DnsARecordConfig) DnsARecord {
 	_init_.Initialize()
 
@@ -527,7 +536,7 @@ func NewDnsARecord(scope constructs.Construct, id *string, config *DnsARecordCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/dns_a_record azurerm_dns_a_record} Resource.
 func NewDnsARecord_Override(d DnsARecord, scope constructs.Construct, id *string, config *DnsARecordConfig) {
 	_init_.Initialize()
 
@@ -1178,6 +1187,24 @@ func (d *jsiiProxy_DnsARecord) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DnsARecord) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

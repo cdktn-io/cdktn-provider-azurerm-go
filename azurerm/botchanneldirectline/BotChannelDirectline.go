@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_directline azurerm_bot_channel_directline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_directline azurerm_bot_channel_directline}.
 type BotChannelDirectline interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -138,6 +138,15 @@ type BotChannelDirectline interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BotChannelDirectline
@@ -426,7 +435,7 @@ func (j *jsiiProxy_BotChannelDirectline) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_directline azurerm_bot_channel_directline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_directline azurerm_bot_channel_directline} Resource.
 func NewBotChannelDirectline(scope constructs.Construct, id *string, config *BotChannelDirectlineConfig) BotChannelDirectline {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewBotChannelDirectline(scope constructs.Construct, id *string, config *Bot
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_directline azurerm_bot_channel_directline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_directline azurerm_bot_channel_directline} Resource.
 func NewBotChannelDirectline_Override(b BotChannelDirectline, scope constructs.Construct, id *string, config *BotChannelDirectlineConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (b *jsiiProxy_BotChannelDirectline) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BotChannelDirectline) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

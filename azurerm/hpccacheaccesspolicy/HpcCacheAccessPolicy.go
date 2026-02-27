@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy}.
 type HpcCacheAccessPolicy interface {
 	cdktn.TerraformResource
 	AccessRule() HpcCacheAccessPolicyAccessRuleList
@@ -135,6 +135,15 @@ type HpcCacheAccessPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for HpcCacheAccessPolicy
@@ -403,7 +412,7 @@ func (j *jsiiProxy_HpcCacheAccessPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
 func NewHpcCacheAccessPolicy(scope constructs.Construct, id *string, config *HpcCacheAccessPolicyConfig) HpcCacheAccessPolicy {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewHpcCacheAccessPolicy(scope constructs.Construct, id *string, config *Hpc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hpc_cache_access_policy azurerm_hpc_cache_access_policy} Resource.
 func NewHpcCacheAccessPolicy_Override(h HpcCacheAccessPolicy, scope constructs.Construct, id *string, config *HpcCacheAccessPolicyConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (h *jsiiProxy_HpcCacheAccessPolicy) ToTerraform() interface{} {
 		h,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (h *jsiiProxy_HpcCacheAccessPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		h,
+		"with",
+		args,
 		&returns,
 	)
 

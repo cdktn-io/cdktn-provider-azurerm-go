@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator}.
 type SpringCloudAccelerator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type SpringCloudAccelerator interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SpringCloudAccelerator
@@ -380,7 +389,7 @@ func (j *jsiiProxy_SpringCloudAccelerator) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
 func NewSpringCloudAccelerator(scope constructs.Construct, id *string, config *SpringCloudAcceleratorConfig) SpringCloudAccelerator {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewSpringCloudAccelerator(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_accelerator azurerm_spring_cloud_accelerator} Resource.
 func NewSpringCloudAccelerator_Override(s SpringCloudAccelerator, scope constructs.Construct, id *string, config *SpringCloudAcceleratorConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (s *jsiiProxy_SpringCloudAccelerator) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SpringCloudAccelerator) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/windows_function_app_slot azurerm_windows_function_app_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/windows_function_app_slot azurerm_windows_function_app_slot}.
 type WindowsFunctionAppSlot interface {
 	cdktn.TerraformResource
 	AppSettings() *map[string]*string
@@ -260,6 +260,15 @@ type WindowsFunctionAppSlot interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WindowsFunctionAppSlot
@@ -1198,7 +1207,7 @@ func (j *jsiiProxy_WindowsFunctionAppSlot) WebdeployPublishBasicAuthenticationEn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/windows_function_app_slot azurerm_windows_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/windows_function_app_slot azurerm_windows_function_app_slot} Resource.
 func NewWindowsFunctionAppSlot(scope constructs.Construct, id *string, config *WindowsFunctionAppSlotConfig) WindowsFunctionAppSlot {
 	_init_.Initialize()
 
@@ -1216,7 +1225,7 @@ func NewWindowsFunctionAppSlot(scope constructs.Construct, id *string, config *W
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/windows_function_app_slot azurerm_windows_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/windows_function_app_slot azurerm_windows_function_app_slot} Resource.
 func NewWindowsFunctionAppSlot_Override(w WindowsFunctionAppSlot, scope constructs.Construct, id *string, config *WindowsFunctionAppSlotConfig) {
 	_init_.Initialize()
 
@@ -2350,6 +2359,24 @@ func (w *jsiiProxy_WindowsFunctionAppSlot) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WindowsFunctionAppSlot) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint}.
 type DataAzurermMonitorDataCollectionEndpoint interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -116,6 +116,15 @@ type DataAzurermMonitorDataCollectionEndpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermMonitorDataCollectionEndpoint
@@ -434,7 +443,7 @@ func (j *jsiiProxy_DataAzurermMonitorDataCollectionEndpoint) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Data Source.
 func NewDataAzurermMonitorDataCollectionEndpoint(scope constructs.Construct, id *string, config *DataAzurermMonitorDataCollectionEndpointConfig) DataAzurermMonitorDataCollectionEndpoint {
 	_init_.Initialize()
 
@@ -452,7 +461,7 @@ func NewDataAzurermMonitorDataCollectionEndpoint(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/monitor_data_collection_endpoint azurerm_monitor_data_collection_endpoint} Data Source.
 func NewDataAzurermMonitorDataCollectionEndpoint_Override(d DataAzurermMonitorDataCollectionEndpoint, scope constructs.Construct, id *string, config *DataAzurermMonitorDataCollectionEndpointConfig) {
 	_init_.Initialize()
 
@@ -934,6 +943,24 @@ func (d *jsiiProxy_DataAzurermMonitorDataCollectionEndpoint) ToTerraform() inter
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermMonitorDataCollectionEndpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

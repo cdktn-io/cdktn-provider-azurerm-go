@@ -163,6 +163,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vmSizeInput", GoGetter: "VmSizeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "windows", GoGetter: "Windows"},
 			_jsii_.MemberProperty{JsiiProperty: "windowsInput", GoGetter: "WindowsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_BatchPool{}

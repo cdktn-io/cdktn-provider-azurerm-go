@@ -83,6 +83,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userAccounts", GoGetter: "UserAccounts"},
 			_jsii_.MemberProperty{JsiiProperty: "vmSize", GoGetter: "VmSize"},
 			_jsii_.MemberProperty{JsiiProperty: "windows", GoGetter: "Windows"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermBatchPool{}

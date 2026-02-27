@@ -83,6 +83,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "upgradeSettings", GoGetter: "UpgradeSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "vmSize", GoGetter: "VmSize"},
 			_jsii_.MemberProperty{JsiiProperty: "vnetSubnetId", GoGetter: "VnetSubnetId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},
 		},
 		func() interface{} {

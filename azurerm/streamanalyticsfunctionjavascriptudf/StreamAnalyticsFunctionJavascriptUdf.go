@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_function_javascript_udf azurerm_stream_analytics_function_javascript_udf}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_function_javascript_udf azurerm_stream_analytics_function_javascript_udf}.
 type StreamAnalyticsFunctionJavascriptUdf interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -144,6 +144,15 @@ type StreamAnalyticsFunctionJavascriptUdf interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StreamAnalyticsFunctionJavascriptUdf
@@ -472,7 +481,7 @@ func (j *jsiiProxy_StreamAnalyticsFunctionJavascriptUdf) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_function_javascript_udf azurerm_stream_analytics_function_javascript_udf} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_function_javascript_udf azurerm_stream_analytics_function_javascript_udf} Resource.
 func NewStreamAnalyticsFunctionJavascriptUdf(scope constructs.Construct, id *string, config *StreamAnalyticsFunctionJavascriptUdfConfig) StreamAnalyticsFunctionJavascriptUdf {
 	_init_.Initialize()
 
@@ -490,7 +499,7 @@ func NewStreamAnalyticsFunctionJavascriptUdf(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_function_javascript_udf azurerm_stream_analytics_function_javascript_udf} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_function_javascript_udf azurerm_stream_analytics_function_javascript_udf} Resource.
 func NewStreamAnalyticsFunctionJavascriptUdf_Override(s StreamAnalyticsFunctionJavascriptUdf, scope constructs.Construct, id *string, config *StreamAnalyticsFunctionJavascriptUdfConfig) {
 	_init_.Initialize()
 
@@ -1106,6 +1115,24 @@ func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUdf) ToTerraform() interface
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUdf) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

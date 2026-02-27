@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume}.
 type ElasticSanVolume interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type ElasticSanVolume interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ElasticSanVolume
@@ -471,7 +480,7 @@ func (j *jsiiProxy_ElasticSanVolume) VolumeId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
 func NewElasticSanVolume(scope constructs.Construct, id *string, config *ElasticSanVolumeConfig) ElasticSanVolume {
 	_init_.Initialize()
 
@@ -489,7 +498,7 @@ func NewElasticSanVolume(scope constructs.Construct, id *string, config *Elastic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
 func NewElasticSanVolume_Override(e ElasticSanVolume, scope constructs.Construct, id *string, config *ElasticSanVolumeConfig) {
 	_init_.Initialize()
 
@@ -1091,6 +1100,24 @@ func (e *jsiiProxy_ElasticSanVolume) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_ElasticSanVolume) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

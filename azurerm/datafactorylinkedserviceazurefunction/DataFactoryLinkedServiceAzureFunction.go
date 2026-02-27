@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function}.
 type DataFactoryLinkedServiceAzureFunction interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -163,6 +163,15 @@ type DataFactoryLinkedServiceAzureFunction interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryLinkedServiceAzureFunction
@@ -571,7 +580,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureFunction) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
 func NewDataFactoryLinkedServiceAzureFunction(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureFunctionConfig) DataFactoryLinkedServiceAzureFunction {
 	_init_.Initialize()
 
@@ -589,7 +598,7 @@ func NewDataFactoryLinkedServiceAzureFunction(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_linked_service_azure_function azurerm_data_factory_linked_service_azure_function} Resource.
 func NewDataFactoryLinkedServiceAzureFunction_Override(d DataFactoryLinkedServiceAzureFunction, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureFunctionConfig) {
 	_init_.Initialize()
 
@@ -1305,6 +1314,24 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureFunction) ToTerraform() interfac
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureFunction) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

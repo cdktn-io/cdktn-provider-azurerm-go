@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export}.
 type ResourceGroupCostManagementExport interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -155,6 +155,15 @@ type ResourceGroupCostManagementExport interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ResourceGroupCostManagementExport
@@ -543,7 +552,7 @@ func (j *jsiiProxy_ResourceGroupCostManagementExport) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
 func NewResourceGroupCostManagementExport(scope constructs.Construct, id *string, config *ResourceGroupCostManagementExportConfig) ResourceGroupCostManagementExport {
 	_init_.Initialize()
 
@@ -561,7 +570,7 @@ func NewResourceGroupCostManagementExport(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/resource_group_cost_management_export azurerm_resource_group_cost_management_export} Resource.
 func NewResourceGroupCostManagementExport_Override(r ResourceGroupCostManagementExport, scope constructs.Construct, id *string, config *ResourceGroupCostManagementExportConfig) {
 	_init_.Initialize()
 
@@ -1226,6 +1235,24 @@ func (r *jsiiProxy_ResourceGroupCostManagementExport) ToTerraform() interface{} 
 		r,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (r *jsiiProxy_ResourceGroupCostManagementExport) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		r,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/local_network_gateway azurerm_local_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/local_network_gateway azurerm_local_network_gateway}.
 type LocalNetworkGateway interface {
 	cdktn.TerraformResource
 	AddressSpace() *[]*string
@@ -155,6 +155,15 @@ type LocalNetworkGateway interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LocalNetworkGateway
@@ -523,7 +532,7 @@ func (j *jsiiProxy_LocalNetworkGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
 func NewLocalNetworkGateway(scope constructs.Construct, id *string, config *LocalNetworkGatewayConfig) LocalNetworkGateway {
 	_init_.Initialize()
 
@@ -541,7 +550,7 @@ func NewLocalNetworkGateway(scope constructs.Construct, id *string, config *Loca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
 func NewLocalNetworkGateway_Override(l LocalNetworkGateway, scope constructs.Construct, id *string, config *LocalNetworkGatewayConfig) {
 	_init_.Initialize()
 
@@ -1219,6 +1228,24 @@ func (l *jsiiProxy_LocalNetworkGateway) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LocalNetworkGateway) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

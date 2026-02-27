@@ -142,6 +142,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedLaunchEnabledInput", GoGetter: "TrustedLaunchEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedLaunchSupported", GoGetter: "TrustedLaunchSupported"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedLaunchSupportedInput", GoGetter: "TrustedLaunchSupportedInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SharedImage{}

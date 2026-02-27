@@ -124,6 +124,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vnetIntegration", GoGetter: "VnetIntegration"},
 			_jsii_.MemberProperty{JsiiProperty: "vnetIntegrationInput", GoGetter: "VnetIntegrationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis{}

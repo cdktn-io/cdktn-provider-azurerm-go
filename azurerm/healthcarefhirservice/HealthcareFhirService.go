@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service}.
 type HealthcareFhirService interface {
 	cdktn.TerraformResource
 	AccessPolicyObjectIds() *[]*string
@@ -174,6 +174,15 @@ type HealthcareFhirService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for HealthcareFhirService
@@ -652,7 +661,7 @@ func (j *jsiiProxy_HealthcareFhirService) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
 func NewHealthcareFhirService(scope constructs.Construct, id *string, config *HealthcareFhirServiceConfig) HealthcareFhirService {
 	_init_.Initialize()
 
@@ -670,7 +679,7 @@ func NewHealthcareFhirService(scope constructs.Construct, id *string, config *He
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/healthcare_fhir_service azurerm_healthcare_fhir_service} Resource.
 func NewHealthcareFhirService_Override(h HealthcareFhirService, scope constructs.Construct, id *string, config *HealthcareFhirServiceConfig) {
 	_init_.Initialize()
 
@@ -1427,6 +1436,24 @@ func (h *jsiiProxy_HealthcareFhirService) ToTerraform() interface{} {
 		h,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (h *jsiiProxy_HealthcareFhirService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		h,
+		"with",
+		args,
 		&returns,
 	)
 

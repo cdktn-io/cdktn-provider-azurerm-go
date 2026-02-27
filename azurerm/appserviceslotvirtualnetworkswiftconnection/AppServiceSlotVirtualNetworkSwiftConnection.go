@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_slot_virtual_network_swift_connection azurerm_app_service_slot_virtual_network_swift_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_slot_virtual_network_swift_connection azurerm_app_service_slot_virtual_network_swift_connection}.
 type AppServiceSlotVirtualNetworkSwiftConnection interface {
 	cdktn.TerraformResource
 	AppServiceId() *string
@@ -135,6 +135,15 @@ type AppServiceSlotVirtualNetworkSwiftConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppServiceSlotVirtualNetworkSwiftConnection
@@ -403,7 +412,7 @@ func (j *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnection) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_slot_virtual_network_swift_connection azurerm_app_service_slot_virtual_network_swift_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_slot_virtual_network_swift_connection azurerm_app_service_slot_virtual_network_swift_connection} Resource.
 func NewAppServiceSlotVirtualNetworkSwiftConnection(scope constructs.Construct, id *string, config *AppServiceSlotVirtualNetworkSwiftConnectionConfig) AppServiceSlotVirtualNetworkSwiftConnection {
 	_init_.Initialize()
 
@@ -421,7 +430,7 @@ func NewAppServiceSlotVirtualNetworkSwiftConnection(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_slot_virtual_network_swift_connection azurerm_app_service_slot_virtual_network_swift_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_slot_virtual_network_swift_connection azurerm_app_service_slot_virtual_network_swift_connection} Resource.
 func NewAppServiceSlotVirtualNetworkSwiftConnection_Override(a AppServiceSlotVirtualNetworkSwiftConnection, scope constructs.Construct, id *string, config *AppServiceSlotVirtualNetworkSwiftConnectionConfig) {
 	_init_.Initialize()
 
@@ -1004,6 +1013,24 @@ func (a *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnection) ToTerraform() in
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppServiceSlotVirtualNetworkSwiftConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

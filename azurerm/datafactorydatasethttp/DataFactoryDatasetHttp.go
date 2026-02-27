@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http}.
 type DataFactoryDatasetHttp interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -171,6 +171,15 @@ type DataFactoryDatasetHttp interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryDatasetHttp
@@ -619,7 +628,7 @@ func (j *jsiiProxy_DataFactoryDatasetHttp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
 func NewDataFactoryDatasetHttp(scope constructs.Construct, id *string, config *DataFactoryDatasetHttpConfig) DataFactoryDatasetHttp {
 	_init_.Initialize()
 
@@ -637,7 +646,7 @@ func NewDataFactoryDatasetHttp(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_dataset_http azurerm_data_factory_dataset_http} Resource.
 func NewDataFactoryDatasetHttp_Override(d DataFactoryDatasetHttp, scope constructs.Construct, id *string, config *DataFactoryDatasetHttpConfig) {
 	_init_.Initialize()
 
@@ -1391,6 +1400,24 @@ func (d *jsiiProxy_DataFactoryDatasetHttp) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryDatasetHttp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

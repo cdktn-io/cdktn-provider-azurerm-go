@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key}.
 type DatabricksWorkspaceRootDbfsCustomerManagedKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type DatabricksWorkspaceRootDbfsCustomerManagedKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DatabricksWorkspaceRootDbfsCustomerManagedKey
@@ -404,7 +413,7 @@ func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKey) WorkspaceIdInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
 func NewDatabricksWorkspaceRootDbfsCustomerManagedKey(scope constructs.Construct, id *string, config *DatabricksWorkspaceRootDbfsCustomerManagedKeyConfig) DatabricksWorkspaceRootDbfsCustomerManagedKey {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewDatabricksWorkspaceRootDbfsCustomerManagedKey(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
 func NewDatabricksWorkspaceRootDbfsCustomerManagedKey_Override(d DatabricksWorkspaceRootDbfsCustomerManagedKey, scope constructs.Construct, id *string, config *DatabricksWorkspaceRootDbfsCustomerManagedKeyConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKey) ToTerraform() 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
 			_jsii_.MemberProperty{JsiiProperty: "versionlessId", GoGetter: "VersionlessId"},
 			_jsii_.MemberProperty{JsiiProperty: "versionlessSecretId", GoGetter: "VersionlessSecretId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_KeyVaultCertificate{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension}.
 type ArcMachineExtension interface {
 	cdktn.TerraformResource
 	ArcMachineId() *string
@@ -165,6 +165,15 @@ type ArcMachineExtension interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ArcMachineExtension
@@ -593,7 +602,7 @@ func (j *jsiiProxy_ArcMachineExtension) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
 func NewArcMachineExtension(scope constructs.Construct, id *string, config *ArcMachineExtensionConfig) ArcMachineExtension {
 	_init_.Initialize()
 
@@ -611,7 +620,7 @@ func NewArcMachineExtension(scope constructs.Construct, id *string, config *ArcM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/arc_machine_extension azurerm_arc_machine_extension} Resource.
 func NewArcMachineExtension_Override(a ArcMachineExtension, scope constructs.Construct, id *string, config *ArcMachineExtensionConfig) {
 	_init_.Initialize()
 
@@ -1330,6 +1339,24 @@ func (a *jsiiProxy_ArcMachineExtension) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ArcMachineExtension) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

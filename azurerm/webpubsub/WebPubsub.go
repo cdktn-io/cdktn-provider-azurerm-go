@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/web_pubsub azurerm_web_pubsub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/web_pubsub azurerm_web_pubsub}.
 type WebPubsub interface {
 	cdktn.TerraformResource
 	AadAuthEnabled() interface{}
@@ -179,6 +179,15 @@ type WebPubsub interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WebPubsub
@@ -717,7 +726,7 @@ func (j *jsiiProxy_WebPubsub) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
 func NewWebPubsub(scope constructs.Construct, id *string, config *WebPubsubConfig) WebPubsub {
 	_init_.Initialize()
 
@@ -735,7 +744,7 @@ func NewWebPubsub(scope constructs.Construct, id *string, config *WebPubsubConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/web_pubsub azurerm_web_pubsub} Resource.
 func NewWebPubsub_Override(w WebPubsub, scope constructs.Construct, id *string, config *WebPubsubConfig) {
 	_init_.Initialize()
 
@@ -1481,6 +1490,24 @@ func (w *jsiiProxy_WebPubsub) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WebPubsub) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -171,6 +171,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vnetImagePullEnabledInput", GoGetter: "VnetImagePullEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webdeployPublishBasicAuthenticationEnabled", GoGetter: "WebdeployPublishBasicAuthenticationEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "webdeployPublishBasicAuthenticationEnabledInput", GoGetter: "WebdeployPublishBasicAuthenticationEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_LinuxFunctionAppSlot{}

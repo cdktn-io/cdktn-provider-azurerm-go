@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_managed_private_endpoint azurerm_data_factory_managed_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_managed_private_endpoint azurerm_data_factory_managed_private_endpoint}.
 type DataFactoryManagedPrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type DataFactoryManagedPrivateEndpoint interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactoryManagedPrivateEndpoint
@@ -451,7 +460,7 @@ func (j *jsiiProxy_DataFactoryManagedPrivateEndpoint) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_managed_private_endpoint azurerm_data_factory_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_managed_private_endpoint azurerm_data_factory_managed_private_endpoint} Resource.
 func NewDataFactoryManagedPrivateEndpoint(scope constructs.Construct, id *string, config *DataFactoryManagedPrivateEndpointConfig) DataFactoryManagedPrivateEndpoint {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewDataFactoryManagedPrivateEndpoint(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory_managed_private_endpoint azurerm_data_factory_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory_managed_private_endpoint azurerm_data_factory_managed_private_endpoint} Resource.
 func NewDataFactoryManagedPrivateEndpoint_Override(d DataFactoryManagedPrivateEndpoint, scope constructs.Construct, id *string, config *DataFactoryManagedPrivateEndpointConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) ToTerraform() interface{} 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

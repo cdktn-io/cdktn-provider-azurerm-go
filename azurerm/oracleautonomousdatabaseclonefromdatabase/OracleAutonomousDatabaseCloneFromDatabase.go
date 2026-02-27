@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
 type OracleAutonomousDatabaseCloneFromDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -207,6 +207,15 @@ type OracleAutonomousDatabaseCloneFromDatabase interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OracleAutonomousDatabaseCloneFromDatabase
@@ -915,7 +924,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseCloneFromDatabase) VirtualNetworkIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
 func NewOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromDatabaseConfig) OracleAutonomousDatabaseCloneFromDatabase {
 	_init_.Initialize()
 
@@ -933,7 +942,7 @@ func NewOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Resource.
 func NewOracleAutonomousDatabaseCloneFromDatabase_Override(o OracleAutonomousDatabaseCloneFromDatabase, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromDatabaseConfig) {
 	_init_.Initialize()
 
@@ -1806,6 +1815,24 @@ func (o *jsiiProxy_OracleAutonomousDatabaseCloneFromDatabase) ToTerraform() inte
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OracleAutonomousDatabaseCloneFromDatabase) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

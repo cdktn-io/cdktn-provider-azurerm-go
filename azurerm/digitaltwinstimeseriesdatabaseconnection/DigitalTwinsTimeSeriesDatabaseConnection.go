@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/digital_twins_time_series_database_connection azurerm_digital_twins_time_series_database_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/digital_twins_time_series_database_connection azurerm_digital_twins_time_series_database_connection}.
 type DigitalTwinsTimeSeriesDatabaseConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -158,6 +158,15 @@ type DigitalTwinsTimeSeriesDatabaseConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DigitalTwinsTimeSeriesDatabaseConnection
@@ -566,7 +575,7 @@ func (j *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/digital_twins_time_series_database_connection azurerm_digital_twins_time_series_database_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/digital_twins_time_series_database_connection azurerm_digital_twins_time_series_database_connection} Resource.
 func NewDigitalTwinsTimeSeriesDatabaseConnection(scope constructs.Construct, id *string, config *DigitalTwinsTimeSeriesDatabaseConnectionConfig) DigitalTwinsTimeSeriesDatabaseConnection {
 	_init_.Initialize()
 
@@ -584,7 +593,7 @@ func NewDigitalTwinsTimeSeriesDatabaseConnection(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/digital_twins_time_series_database_connection azurerm_digital_twins_time_series_database_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/digital_twins_time_series_database_connection azurerm_digital_twins_time_series_database_connection} Resource.
 func NewDigitalTwinsTimeSeriesDatabaseConnection_Override(d DigitalTwinsTimeSeriesDatabaseConnection, scope constructs.Construct, id *string, config *DigitalTwinsTimeSeriesDatabaseConnectionConfig) {
 	_init_.Initialize()
 
@@ -1260,6 +1269,24 @@ func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) ToTerraform() inter
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

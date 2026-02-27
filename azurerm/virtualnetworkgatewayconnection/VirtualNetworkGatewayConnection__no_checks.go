@@ -111,6 +111,10 @@ func (j *jsiiProxy_VirtualNetworkGatewayConnection) validateSetAuthorizationKeyP
 	return nil
 }
 
+func (j *jsiiProxy_VirtualNetworkGatewayConnection) validateSetBgpEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_VirtualNetworkGatewayConnection) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }

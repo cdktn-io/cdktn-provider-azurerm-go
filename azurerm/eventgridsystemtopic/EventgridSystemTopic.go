@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
 type EventgridSystemTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -156,6 +156,15 @@ type EventgridSystemTopic interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EventgridSystemTopic
@@ -544,7 +553,7 @@ func (j *jsiiProxy_EventgridSystemTopic) TopicTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
 func NewEventgridSystemTopic(scope constructs.Construct, id *string, config *EventgridSystemTopicConfig) EventgridSystemTopic {
 	_init_.Initialize()
 
@@ -562,7 +571,7 @@ func NewEventgridSystemTopic(scope constructs.Construct, id *string, config *Eve
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventgrid_system_topic azurerm_eventgrid_system_topic} Resource.
 func NewEventgridSystemTopic_Override(e EventgridSystemTopic, scope constructs.Construct, id *string, config *EventgridSystemTopicConfig) {
 	_init_.Initialize()
 
@@ -1232,6 +1241,24 @@ func (e *jsiiProxy_EventgridSystemTopic) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EventgridSystemTopic) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

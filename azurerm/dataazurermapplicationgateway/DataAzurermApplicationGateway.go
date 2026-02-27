@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/application_gateway azurerm_application_gateway}.
 type DataAzurermApplicationGateway interface {
 	cdktn.TerraformDataSource
 	AuthenticationCertificate() DataAzurermApplicationGatewayAuthenticationCertificateList
@@ -139,6 +139,15 @@ type DataAzurermApplicationGateway interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermApplicationGateway
@@ -687,7 +696,7 @@ func (j *jsiiProxy_DataAzurermApplicationGateway) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) DataAzurermApplicationGateway {
 	_init_.Initialize()
 
@@ -705,7 +714,7 @@ func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway_Override(d DataAzurermApplicationGateway, scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) {
 	_init_.Initialize()
 
@@ -1187,6 +1196,24 @@ func (d *jsiiProxy_DataAzurermApplicationGateway) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermApplicationGateway) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

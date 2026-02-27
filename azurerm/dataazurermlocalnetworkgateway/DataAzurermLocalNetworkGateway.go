@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway}.
 type DataAzurermLocalNetworkGateway interface {
 	cdktn.TerraformDataSource
 	AddressSpace() *[]*string
@@ -113,6 +113,15 @@ type DataAzurermLocalNetworkGateway interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermLocalNetworkGateway
@@ -401,7 +410,7 @@ func (j *jsiiProxy_DataAzurermLocalNetworkGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
 func NewDataAzurermLocalNetworkGateway(scope constructs.Construct, id *string, config *DataAzurermLocalNetworkGatewayConfig) DataAzurermLocalNetworkGateway {
 	_init_.Initialize()
 
@@ -419,7 +428,7 @@ func NewDataAzurermLocalNetworkGateway(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
 func NewDataAzurermLocalNetworkGateway_Override(d DataAzurermLocalNetworkGateway, scope constructs.Construct, id *string, config *DataAzurermLocalNetworkGatewayConfig) {
 	_init_.Initialize()
 
@@ -901,6 +910,24 @@ func (d *jsiiProxy_DataAzurermLocalNetworkGateway) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermLocalNetworkGateway) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

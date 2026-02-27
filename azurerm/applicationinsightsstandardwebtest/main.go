@@ -98,6 +98,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "validationRules", GoGetter: "ValidationRules"},
 			_jsii_.MemberProperty{JsiiProperty: "validationRulesInput", GoGetter: "ValidationRulesInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApplicationInsightsStandardWebTest{}

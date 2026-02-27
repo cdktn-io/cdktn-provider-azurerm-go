@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association}.
 type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	cdktn.TerraformResource
 	ApplicationSecurityGroupId() *string
@@ -132,6 +132,15 @@ type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PrivateEndpointApplicationSecurityGroupAssociation
@@ -380,7 +389,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
 func NewPrivateEndpointApplicationSecurityGroupAssociation(scope constructs.Construct, id *string, config *PrivateEndpointApplicationSecurityGroupAssociationConfig) PrivateEndpointApplicationSecurityGroupAssociation {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewPrivateEndpointApplicationSecurityGroupAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
 func NewPrivateEndpointApplicationSecurityGroupAssociation_Override(p PrivateEndpointApplicationSecurityGroupAssociation, scope constructs.Construct, id *string, config *PrivateEndpointApplicationSecurityGroupAssociationConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) ToTerrafo
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

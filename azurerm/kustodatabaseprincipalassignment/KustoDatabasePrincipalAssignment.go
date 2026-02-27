@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment}.
 type KustoDatabasePrincipalAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -152,6 +152,15 @@ type KustoDatabasePrincipalAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KustoDatabasePrincipalAssignment
@@ -540,7 +549,7 @@ func (j *jsiiProxy_KustoDatabasePrincipalAssignment) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
 func NewKustoDatabasePrincipalAssignment(scope constructs.Construct, id *string, config *KustoDatabasePrincipalAssignmentConfig) KustoDatabasePrincipalAssignment {
 	_init_.Initialize()
 
@@ -558,7 +567,7 @@ func NewKustoDatabasePrincipalAssignment(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/kusto_database_principal_assignment azurerm_kusto_database_principal_assignment} Resource.
 func NewKustoDatabasePrincipalAssignment_Override(k KustoDatabasePrincipalAssignment, scope constructs.Construct, id *string, config *KustoDatabasePrincipalAssignmentConfig) {
 	_init_.Initialize()
 
@@ -1196,6 +1205,24 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignment) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KustoDatabasePrincipalAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

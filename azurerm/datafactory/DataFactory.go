@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory azurerm_data_factory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory azurerm_data_factory}.
 type DataFactory interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -175,6 +175,15 @@ type DataFactory interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataFactory
@@ -643,7 +652,7 @@ func (j *jsiiProxy_DataFactory) VstsConfigurationInput() *DataFactoryVstsConfigu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory azurerm_data_factory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory azurerm_data_factory} Resource.
 func NewDataFactory(scope constructs.Construct, id *string, config *DataFactoryConfig) DataFactory {
 	_init_.Initialize()
 
@@ -661,7 +670,7 @@ func NewDataFactory(scope constructs.Construct, id *string, config *DataFactoryC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_factory azurerm_data_factory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_factory azurerm_data_factory} Resource.
 func NewDataFactory_Override(d DataFactory, scope constructs.Construct, id *string, config *DataFactoryConfig) {
 	_init_.Initialize()
 
@@ -1434,6 +1443,24 @@ func (d *jsiiProxy_DataFactory) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataFactory) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

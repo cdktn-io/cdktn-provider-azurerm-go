@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub}.
 type WebPubsubHub interface {
 	cdktn.TerraformResource
 	AnonymousConnectionsEnabled() interface{}
@@ -144,6 +144,15 @@ type WebPubsubHub interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for WebPubsubHub
@@ -452,7 +461,7 @@ func (j *jsiiProxy_WebPubsubHub) WebPubsubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
 func NewWebPubsubHub(scope constructs.Construct, id *string, config *WebPubsubHubConfig) WebPubsubHub {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewWebPubsubHub(scope constructs.Construct, id *string, config *WebPubsubHu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
 func NewWebPubsubHub_Override(w WebPubsubHub, scope constructs.Construct, id *string, config *WebPubsubHubConfig) {
 	_init_.Initialize()
 
@@ -1099,6 +1108,24 @@ func (w *jsiiProxy_WebPubsubHub) ToTerraform() interface{} {
 		w,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (w *jsiiProxy_WebPubsubHub) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		w,
+		"with",
+		args,
 		&returns,
 	)
 

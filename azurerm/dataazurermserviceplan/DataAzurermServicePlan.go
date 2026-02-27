@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/service_plan azurerm_service_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/service_plan azurerm_service_plan}.
 type DataAzurermServicePlan interface {
 	cdktn.TerraformDataSource
 	AppServiceEnvironmentId() *string
@@ -118,6 +118,15 @@ type DataAzurermServicePlan interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermServicePlan
@@ -456,7 +465,7 @@ func (j *jsiiProxy_DataAzurermServicePlan) ZoneBalancingEnabled() cdktn.IResolva
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
 func NewDataAzurermServicePlan(scope constructs.Construct, id *string, config *DataAzurermServicePlanConfig) DataAzurermServicePlan {
 	_init_.Initialize()
 
@@ -474,7 +483,7 @@ func NewDataAzurermServicePlan(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/service_plan azurerm_service_plan} Data Source.
 func NewDataAzurermServicePlan_Override(d DataAzurermServicePlan, scope constructs.Construct, id *string, config *DataAzurermServicePlanConfig) {
 	_init_.Initialize()
 
@@ -956,6 +965,24 @@ func (d *jsiiProxy_DataAzurermServicePlan) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermServicePlan) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

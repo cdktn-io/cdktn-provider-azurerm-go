@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault}.
 type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	cdktn.TerraformDataSource
 	AdditionalFlashCachePercentage() *float64
@@ -119,6 +119,15 @@ type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermOracleExascaleDatabaseStorageVault
@@ -467,7 +476,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) Zones() *[]*st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
 func NewDataAzurermOracleExascaleDatabaseStorageVault(scope constructs.Construct, id *string, config *DataAzurermOracleExascaleDatabaseStorageVaultConfig) DataAzurermOracleExascaleDatabaseStorageVault {
 	_init_.Initialize()
 
@@ -485,7 +494,7 @@ func NewDataAzurermOracleExascaleDatabaseStorageVault(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
 func NewDataAzurermOracleExascaleDatabaseStorageVault_Override(d DataAzurermOracleExascaleDatabaseStorageVault, scope constructs.Construct, id *string, config *DataAzurermOracleExascaleDatabaseStorageVaultConfig) {
 	_init_.Initialize()
 
@@ -967,6 +976,24 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) ToTerraform() 
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

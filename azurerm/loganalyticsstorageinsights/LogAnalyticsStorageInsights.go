@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
 type LogAnalyticsStorageInsights interface {
 	cdktn.TerraformResource
 	BlobContainerNames() *[]*string
@@ -149,6 +149,15 @@ type LogAnalyticsStorageInsights interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogAnalyticsStorageInsights
@@ -497,7 +506,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsights) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) LogAnalyticsStorageInsights {
 	_init_.Initialize()
 
@@ -515,7 +524,7 @@ func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights_Override(l LogAnalyticsStorageInsights, scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) {
 	_init_.Initialize()
 
@@ -1158,6 +1167,24 @@ func (l *jsiiProxy_LogAnalyticsStorageInsights) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogAnalyticsStorageInsights) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

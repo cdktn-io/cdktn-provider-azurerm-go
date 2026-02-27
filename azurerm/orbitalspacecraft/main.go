@@ -80,6 +80,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "twoLineElements", GoGetter: "TwoLineElements"},
 			_jsii_.MemberProperty{JsiiProperty: "twoLineElementsInput", GoGetter: "TwoLineElementsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_OrbitalSpacecraft{}

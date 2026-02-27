@@ -90,6 +90,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualWanId", GoGetter: "VirtualWanId"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualWanIdInput", GoGetter: "VirtualWanIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VpnSite{}

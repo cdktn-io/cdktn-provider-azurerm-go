@@ -5,7 +5,7 @@ package dataazurermnetworksecurityperimeterprofile
 
 
 type DataAzurermNetworkSecurityPerimeterProfileTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/network_security_perimeter_profile#read DataAzurermNetworkSecurityPerimeterProfile#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/network_security_perimeter_profile#read DataAzurermNetworkSecurityPerimeterProfile#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transparentDataEncryptionEnabled", GoGetter: "TransparentDataEncryptionEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "transparentDataEncryptionKeyAutomaticRotationEnabled", GoGetter: "TransparentDataEncryptionKeyAutomaticRotationEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "transparentDataEncryptionKeyVaultKeyId", GoGetter: "TransparentDataEncryptionKeyVaultKeyId"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundant", GoGetter: "ZoneRedundant"},
 		},
 		func() interface{} {

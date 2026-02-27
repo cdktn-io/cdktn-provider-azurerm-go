@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventhub_namespace_customer_managed_key azurerm_eventhub_namespace_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventhub_namespace_customer_managed_key azurerm_eventhub_namespace_customer_managed_key}.
 type EventhubNamespaceCustomerManagedKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type EventhubNamespaceCustomerManagedKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for EventhubNamespaceCustomerManagedKey
@@ -428,7 +437,7 @@ func (j *jsiiProxy_EventhubNamespaceCustomerManagedKey) UserAssignedIdentityIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventhub_namespace_customer_managed_key azurerm_eventhub_namespace_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventhub_namespace_customer_managed_key azurerm_eventhub_namespace_customer_managed_key} Resource.
 func NewEventhubNamespaceCustomerManagedKey(scope constructs.Construct, id *string, config *EventhubNamespaceCustomerManagedKeyConfig) EventhubNamespaceCustomerManagedKey {
 	_init_.Initialize()
 
@@ -446,7 +455,7 @@ func NewEventhubNamespaceCustomerManagedKey(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/eventhub_namespace_customer_managed_key azurerm_eventhub_namespace_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/eventhub_namespace_customer_managed_key azurerm_eventhub_namespace_customer_managed_key} Resource.
 func NewEventhubNamespaceCustomerManagedKey_Override(e EventhubNamespaceCustomerManagedKey, scope constructs.Construct, id *string, config *EventhubNamespaceCustomerManagedKeyConfig) {
 	_init_.Initialize()
 
@@ -1056,6 +1065,24 @@ func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) ToTerraform() interface{
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_EventhubNamespaceCustomerManagedKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

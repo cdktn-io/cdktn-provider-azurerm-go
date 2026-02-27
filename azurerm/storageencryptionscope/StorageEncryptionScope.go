@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope}.
 type StorageEncryptionScope interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -143,6 +143,15 @@ type StorageEncryptionScope interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StorageEncryptionScope
@@ -451,7 +460,7 @@ func (j *jsiiProxy_StorageEncryptionScope) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
 func NewStorageEncryptionScope(scope constructs.Construct, id *string, config *StorageEncryptionScopeConfig) StorageEncryptionScope {
 	_init_.Initialize()
 
@@ -469,7 +478,7 @@ func NewStorageEncryptionScope(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_encryption_scope azurerm_storage_encryption_scope} Resource.
 func NewStorageEncryptionScope_Override(s StorageEncryptionScope, scope constructs.Construct, id *string, config *StorageEncryptionScopeConfig) {
 	_init_.Initialize()
 
@@ -1090,6 +1099,24 @@ func (s *jsiiProxy_StorageEncryptionScope) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StorageEncryptionScope) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

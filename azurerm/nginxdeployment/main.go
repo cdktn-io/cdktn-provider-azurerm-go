@@ -119,6 +119,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "webApplicationFirewall", GoGetter: "WebApplicationFirewall"},
 			_jsii_.MemberProperty{JsiiProperty: "webApplicationFirewallInput", GoGetter: "WebApplicationFirewallInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NginxDeployment{}

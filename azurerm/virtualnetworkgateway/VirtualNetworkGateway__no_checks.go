@@ -119,6 +119,10 @@ func (j *jsiiProxy_VirtualNetworkGateway) validateSetActiveActiveParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_VirtualNetworkGateway) validateSetBgpEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_VirtualNetworkGateway) validateSetBgpRouteTranslationForNatEnabledParameters(val interface{}) error {
 	return nil
 }

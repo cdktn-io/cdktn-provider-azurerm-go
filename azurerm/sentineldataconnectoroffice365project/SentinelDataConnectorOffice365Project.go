@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project}.
 type SentinelDataConnectorOffice365Project interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -136,6 +136,15 @@ type SentinelDataConnectorOffice365Project interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SentinelDataConnectorOffice365Project
@@ -404,7 +413,7 @@ func (j *jsiiProxy_SentinelDataConnectorOffice365Project) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
 func NewSentinelDataConnectorOffice365Project(scope constructs.Construct, id *string, config *SentinelDataConnectorOffice365ProjectConfig) SentinelDataConnectorOffice365Project {
 	_init_.Initialize()
 
@@ -422,7 +431,7 @@ func NewSentinelDataConnectorOffice365Project(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
 func NewSentinelDataConnectorOffice365Project_Override(s SentinelDataConnectorOffice365Project, scope constructs.Construct, id *string, config *SentinelDataConnectorOffice365ProjectConfig) {
 	_init_.Initialize()
 
@@ -1013,6 +1022,24 @@ func (s *jsiiProxy_SentinelDataConnectorOffice365Project) ToTerraform() interfac
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SentinelDataConnectorOffice365Project) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

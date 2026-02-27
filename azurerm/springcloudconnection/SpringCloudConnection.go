@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection}.
 type SpringCloudConnection interface {
 	cdktn.TerraformResource
 	Authentication() SpringCloudConnectionAuthenticationOutputReference
@@ -150,6 +150,15 @@ type SpringCloudConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SpringCloudConnection
@@ -498,7 +507,7 @@ func (j *jsiiProxy_SpringCloudConnection) VnetSolutionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
 func NewSpringCloudConnection(scope constructs.Construct, id *string, config *SpringCloudConnectionConfig) SpringCloudConnection {
 	_init_.Initialize()
 
@@ -516,7 +525,7 @@ func NewSpringCloudConnection(scope constructs.Construct, id *string, config *Sp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_connection azurerm_spring_cloud_connection} Resource.
 func NewSpringCloudConnection_Override(s SpringCloudConnection, scope constructs.Construct, id *string, config *SpringCloudConnectionConfig) {
 	_init_.Initialize()
 
@@ -1167,6 +1176,24 @@ func (s *jsiiProxy_SpringCloudConnection) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SpringCloudConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

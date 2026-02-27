@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/arc_machine azurerm_arc_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/arc_machine azurerm_arc_machine}.
 type ArcMachine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -146,6 +146,15 @@ type ArcMachine interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ArcMachine
@@ -474,7 +483,7 @@ func (j *jsiiProxy_ArcMachine) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
 func NewArcMachine(scope constructs.Construct, id *string, config *ArcMachineConfig) ArcMachine {
 	_init_.Initialize()
 
@@ -492,7 +501,7 @@ func NewArcMachine(scope constructs.Construct, id *string, config *ArcMachineCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
 func NewArcMachine_Override(a ArcMachine, scope constructs.Construct, id *string, config *ArcMachineConfig) {
 	_init_.Initialize()
 
@@ -1124,6 +1133,24 @@ func (a *jsiiProxy_ArcMachine) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ArcMachine) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

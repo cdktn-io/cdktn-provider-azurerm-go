@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_link_service azurerm_private_link_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_link_service azurerm_private_link_service}.
 type PrivateLinkService interface {
 	cdktn.TerraformResource
 	Alias() *string
@@ -80,6 +80,9 @@ type PrivateLinkService interface {
 	Provisioners() *[]interface{}
 	// Experimental.
 	SetProvisioners(val *[]interface{})
+	ProxyProtocolEnabled() interface{}
+	SetProxyProtocolEnabled(val interface{})
+	ProxyProtocolEnabledInput() interface{}
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceGroupName() *string
@@ -153,6 +156,7 @@ type PrivateLinkService interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetProxyProtocolEnabled()
 	ResetTags()
 	ResetTimeouts()
 	ResetVisibilitySubscriptionIds()
@@ -167,6 +171,15 @@ type PrivateLinkService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for PrivateLinkService
@@ -484,6 +497,26 @@ func (j *jsiiProxy_PrivateLinkService) Provisioners() *[]interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_PrivateLinkService) ProxyProtocolEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proxyProtocolEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateLinkService) ProxyProtocolEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proxyProtocolEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_PrivateLinkService) RawOverrides() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -605,7 +638,7 @@ func (j *jsiiProxy_PrivateLinkService) VisibilitySubscriptionIdsInput() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
 func NewPrivateLinkService(scope constructs.Construct, id *string, config *PrivateLinkServiceConfig) PrivateLinkService {
 	_init_.Initialize()
 
@@ -623,7 +656,7 @@ func NewPrivateLinkService(scope constructs.Construct, id *string, config *Priva
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/private_link_service azurerm_private_link_service} Resource.
 func NewPrivateLinkService_Override(p PrivateLinkService, scope constructs.Construct, id *string, config *PrivateLinkServiceConfig) {
 	_init_.Initialize()
 
@@ -786,6 +819,17 @@ func (j *jsiiProxy_PrivateLinkService)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivateLinkService)SetProxyProtocolEnabled(val interface{}) {
+	if err := j.validateSetProxyProtocolEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"proxyProtocolEnabled",
 		val,
 	)
 }
@@ -1254,6 +1298,14 @@ func (p *jsiiProxy_PrivateLinkService) ResetOverrideLogicalId() {
 	)
 }
 
+func (p *jsiiProxy_PrivateLinkService) ResetProxyProtocolEnabled() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetProxyProtocolEnabled",
+		nil, // no parameters
+	)
+}
+
 func (p *jsiiProxy_PrivateLinkService) ResetTags() {
 	_jsii_.InvokeVoid(
 		p,
@@ -1350,6 +1402,24 @@ func (p *jsiiProxy_PrivateLinkService) ToTerraform() interface{} {
 		p,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (p *jsiiProxy_PrivateLinkService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		p,
+		"with",
+		args,
 		&returns,
 	)
 

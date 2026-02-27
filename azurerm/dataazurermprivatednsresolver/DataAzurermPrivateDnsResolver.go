@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver}.
 type DataAzurermPrivateDnsResolver interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -110,6 +110,15 @@ type DataAzurermPrivateDnsResolver interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermPrivateDnsResolver
@@ -368,7 +377,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolver) VirtualNetworkId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
 func NewDataAzurermPrivateDnsResolver(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverConfig) DataAzurermPrivateDnsResolver {
 	_init_.Initialize()
 
@@ -386,7 +395,7 @@ func NewDataAzurermPrivateDnsResolver(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_resolver azurerm_private_dns_resolver} Data Source.
 func NewDataAzurermPrivateDnsResolver_Override(d DataAzurermPrivateDnsResolver, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverConfig) {
 	_init_.Initialize()
 
@@ -868,6 +877,24 @@ func (d *jsiiProxy_DataAzurermPrivateDnsResolver) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermPrivateDnsResolver) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

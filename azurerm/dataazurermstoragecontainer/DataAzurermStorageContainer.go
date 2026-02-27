@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/storage_container azurerm_storage_container}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/storage_container azurerm_storage_container}.
 type DataAzurermStorageContainer interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -122,6 +122,15 @@ type DataAzurermStorageContainer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermStorageContainer
@@ -450,7 +459,7 @@ func (j *jsiiProxy_DataAzurermStorageContainer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/storage_container azurerm_storage_container} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/storage_container azurerm_storage_container} Data Source.
 func NewDataAzurermStorageContainer(scope constructs.Construct, id *string, config *DataAzurermStorageContainerConfig) DataAzurermStorageContainer {
 	_init_.Initialize()
 
@@ -468,7 +477,7 @@ func NewDataAzurermStorageContainer(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/storage_container azurerm_storage_container} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/storage_container azurerm_storage_container} Data Source.
 func NewDataAzurermStorageContainer_Override(d DataAzurermStorageContainer, scope constructs.Construct, id *string, config *DataAzurermStorageContainerConfig) {
 	_init_.Initialize()
 
@@ -996,6 +1005,24 @@ func (d *jsiiProxy_DataAzurermStorageContainer) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermStorageContainer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

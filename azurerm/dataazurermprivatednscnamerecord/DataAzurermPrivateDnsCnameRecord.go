@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_cname_record azurerm_private_dns_cname_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_cname_record azurerm_private_dns_cname_record}.
 type DataAzurermPrivateDnsCnameRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -115,6 +115,15 @@ type DataAzurermPrivateDnsCnameRecord interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermPrivateDnsCnameRecord
@@ -413,7 +422,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsCnameRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_cname_record azurerm_private_dns_cname_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_cname_record azurerm_private_dns_cname_record} Data Source.
 func NewDataAzurermPrivateDnsCnameRecord(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsCnameRecordConfig) DataAzurermPrivateDnsCnameRecord {
 	_init_.Initialize()
 
@@ -431,7 +440,7 @@ func NewDataAzurermPrivateDnsCnameRecord(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/private_dns_cname_record azurerm_private_dns_cname_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/private_dns_cname_record azurerm_private_dns_cname_record} Data Source.
 func NewDataAzurermPrivateDnsCnameRecord_Override(d DataAzurermPrivateDnsCnameRecord, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsCnameRecordConfig) {
 	_init_.Initialize()
 
@@ -924,6 +933,24 @@ func (d *jsiiProxy_DataAzurermPrivateDnsCnameRecord) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermPrivateDnsCnameRecord) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_datasource_windows_event azurerm_log_analytics_datasource_windows_event}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_datasource_windows_event azurerm_log_analytics_datasource_windows_event}.
 type LogAnalyticsDatasourceWindowsEvent interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -141,6 +141,15 @@ type LogAnalyticsDatasourceWindowsEvent interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogAnalyticsDatasourceWindowsEvent
@@ -449,7 +458,7 @@ func (j *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) WorkspaceNameInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_datasource_windows_event azurerm_log_analytics_datasource_windows_event} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_datasource_windows_event azurerm_log_analytics_datasource_windows_event} Resource.
 func NewLogAnalyticsDatasourceWindowsEvent(scope constructs.Construct, id *string, config *LogAnalyticsDatasourceWindowsEventConfig) LogAnalyticsDatasourceWindowsEvent {
 	_init_.Initialize()
 
@@ -467,7 +476,7 @@ func NewLogAnalyticsDatasourceWindowsEvent(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_datasource_windows_event azurerm_log_analytics_datasource_windows_event} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_datasource_windows_event azurerm_log_analytics_datasource_windows_event} Resource.
 func NewLogAnalyticsDatasourceWindowsEvent_Override(l LogAnalyticsDatasourceWindowsEvent, scope constructs.Construct, id *string, config *LogAnalyticsDatasourceWindowsEventConfig) {
 	_init_.Initialize()
 
@@ -1072,6 +1081,24 @@ func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) ToTerraform() interface{}
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

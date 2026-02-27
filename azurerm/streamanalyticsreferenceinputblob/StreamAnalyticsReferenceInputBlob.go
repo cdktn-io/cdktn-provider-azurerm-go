@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob}.
 type StreamAnalyticsReferenceInputBlob interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -161,6 +161,15 @@ type StreamAnalyticsReferenceInputBlob interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StreamAnalyticsReferenceInputBlob
@@ -589,7 +598,7 @@ func (j *jsiiProxy_StreamAnalyticsReferenceInputBlob) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
 func NewStreamAnalyticsReferenceInputBlob(scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputBlobConfig) StreamAnalyticsReferenceInputBlob {
 	_init_.Initialize()
 
@@ -607,7 +616,7 @@ func NewStreamAnalyticsReferenceInputBlob(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/stream_analytics_reference_input_blob azurerm_stream_analytics_reference_input_blob} Resource.
 func NewStreamAnalyticsReferenceInputBlob_Override(s StreamAnalyticsReferenceInputBlob, scope constructs.Construct, id *string, config *StreamAnalyticsReferenceInputBlobConfig) {
 	_init_.Initialize()
 
@@ -1294,6 +1303,24 @@ func (s *jsiiProxy_StreamAnalyticsReferenceInputBlob) ToTerraform() interface{} 
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StreamAnalyticsReferenceInputBlob) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -96,6 +96,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkBackupRestoreEnabled", GoGetter: "VirtualNetworkBackupRestoreEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkSubnetId", GoGetter: "VirtualNetworkSubnetId"},
 			_jsii_.MemberProperty{JsiiProperty: "webdeployPublishBasicAuthenticationEnabled", GoGetter: "WebdeployPublishBasicAuthenticationEnabled"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermWindowsFunctionApp{}

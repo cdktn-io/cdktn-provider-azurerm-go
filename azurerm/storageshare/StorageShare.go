@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_share azurerm_storage_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_share azurerm_storage_share}.
 type StorageShare interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -158,6 +158,15 @@ type StorageShare interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StorageShare
@@ -546,7 +555,7 @@ func (j *jsiiProxy_StorageShare) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare(scope constructs.Construct, id *string, config *StorageShareConfig) StorageShare {
 	_init_.Initialize()
 
@@ -564,7 +573,7 @@ func NewStorageShare(scope constructs.Construct, id *string, config *StorageShar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare_Override(s StorageShare, scope constructs.Construct, id *string, config *StorageShareConfig) {
 	_init_.Initialize()
 
@@ -1250,6 +1259,24 @@ func (s *jsiiProxy_StorageShare) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StorageShare) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

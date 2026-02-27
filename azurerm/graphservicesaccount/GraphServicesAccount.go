@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/graph_services_account azurerm_graph_services_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/graph_services_account azurerm_graph_services_account}.
 type GraphServicesAccount interface {
 	cdktn.TerraformResource
 	ApplicationId() *string
@@ -140,6 +140,15 @@ type GraphServicesAccount interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for GraphServicesAccount
@@ -438,7 +447,7 @@ func (j *jsiiProxy_GraphServicesAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
 func NewGraphServicesAccount(scope constructs.Construct, id *string, config *GraphServicesAccountConfig) GraphServicesAccount {
 	_init_.Initialize()
 
@@ -456,7 +465,7 @@ func NewGraphServicesAccount(scope constructs.Construct, id *string, config *Gra
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/graph_services_account azurerm_graph_services_account} Resource.
 func NewGraphServicesAccount_Override(g GraphServicesAccount, scope constructs.Construct, id *string, config *GraphServicesAccountConfig) {
 	_init_.Initialize()
 
@@ -1058,6 +1067,24 @@ func (g *jsiiProxy_GraphServicesAccount) ToTerraform() interface{} {
 		g,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (g *jsiiProxy_GraphServicesAccount) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		g,
+		"with",
+		args,
 		&returns,
 	)
 

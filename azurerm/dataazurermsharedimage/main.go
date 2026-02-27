@@ -78,6 +78,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedLaunchEnabled", GoGetter: "TrustedLaunchEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedLaunchSupported", GoGetter: "TrustedLaunchSupported"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermSharedImage{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association}.
 type CommunicationServiceEmailDomainAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type CommunicationServiceEmailDomainAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CommunicationServiceEmailDomainAssociation
@@ -380,7 +389,7 @@ func (j *jsiiProxy_CommunicationServiceEmailDomainAssociation) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
 func NewCommunicationServiceEmailDomainAssociation(scope constructs.Construct, id *string, config *CommunicationServiceEmailDomainAssociationConfig) CommunicationServiceEmailDomainAssociation {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewCommunicationServiceEmailDomainAssociation(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/communication_service_email_domain_association azurerm_communication_service_email_domain_association} Resource.
 func NewCommunicationServiceEmailDomainAssociation_Override(c CommunicationServiceEmailDomainAssociation, scope constructs.Construct, id *string, config *CommunicationServiceEmailDomainAssociationConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) ToTerraform() int
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

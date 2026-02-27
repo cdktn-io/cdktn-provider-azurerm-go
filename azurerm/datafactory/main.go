@@ -102,6 +102,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vstsConfiguration", GoGetter: "VstsConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "vstsConfigurationInput", GoGetter: "VstsConfigurationInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataFactory{}

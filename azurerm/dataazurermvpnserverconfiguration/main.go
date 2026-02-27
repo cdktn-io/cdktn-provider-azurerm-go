@@ -67,6 +67,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnAuthenticationTypes", GoGetter: "VpnAuthenticationTypes"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnProtocols", GoGetter: "VpnProtocols"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermVpnServerConfiguration{}

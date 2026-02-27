@@ -86,6 +86,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkEnabled", GoGetter: "VirtualNetworkEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualNetworkEnabledInput", GoGetter: "VirtualNetworkEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataFactoryIntegrationRuntimeAzure{}

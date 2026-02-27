@@ -68,6 +68,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "urlFilteringProfile", GoGetter: "UrlFilteringProfile"},
 			_jsii_.MemberProperty{JsiiProperty: "vulnerabilityProfile", GoGetter: "VulnerabilityProfile"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermPaloAltoLocalRulestack{}

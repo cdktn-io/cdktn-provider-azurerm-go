@@ -89,6 +89,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedRootCertificate", GoGetter: "TrustedRootCertificate"},
 			_jsii_.MemberProperty{JsiiProperty: "urlPathMap", GoGetter: "UrlPathMap"},
 			_jsii_.MemberProperty{JsiiProperty: "wafConfiguration", GoGetter: "WafConfiguration"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zones", GoGetter: "Zones"},
 		},
 		func() interface{} {

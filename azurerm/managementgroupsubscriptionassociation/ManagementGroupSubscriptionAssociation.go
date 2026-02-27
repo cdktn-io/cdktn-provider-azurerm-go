@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/management_group_subscription_association azurerm_management_group_subscription_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/management_group_subscription_association azurerm_management_group_subscription_association}.
 type ManagementGroupSubscriptionAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type ManagementGroupSubscriptionAssociation interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ManagementGroupSubscriptionAssociation
@@ -380,7 +389,7 @@ func (j *jsiiProxy_ManagementGroupSubscriptionAssociation) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/management_group_subscription_association azurerm_management_group_subscription_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/management_group_subscription_association azurerm_management_group_subscription_association} Resource.
 func NewManagementGroupSubscriptionAssociation(scope constructs.Construct, id *string, config *ManagementGroupSubscriptionAssociationConfig) ManagementGroupSubscriptionAssociation {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewManagementGroupSubscriptionAssociation(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/management_group_subscription_association azurerm_management_group_subscription_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/management_group_subscription_association azurerm_management_group_subscription_association} Resource.
 func NewManagementGroupSubscriptionAssociation_Override(m ManagementGroupSubscriptionAssociation, scope constructs.Construct, id *string, config *ManagementGroupSubscriptionAssociationConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) ToTerraform() interfa
 		m,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		m,
+		"with",
+		args,
 		&returns,
 	)
 

@@ -108,6 +108,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadProfile", GoGetter: "WorkloadProfile"},
 			_jsii_.MemberProperty{JsiiProperty: "workloadProfileInput", GoGetter: "WorkloadProfileInput"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundancyEnabled", GoGetter: "ZoneRedundancyEnabled"},

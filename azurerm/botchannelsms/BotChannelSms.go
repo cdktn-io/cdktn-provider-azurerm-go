@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_sms azurerm_bot_channel_sms}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_sms azurerm_bot_channel_sms}.
 type BotChannelSms interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -144,6 +144,15 @@ type BotChannelSms interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BotChannelSms
@@ -472,7 +481,7 @@ func (j *jsiiProxy_BotChannelSms) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_sms azurerm_bot_channel_sms} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_sms azurerm_bot_channel_sms} Resource.
 func NewBotChannelSms(scope constructs.Construct, id *string, config *BotChannelSmsConfig) BotChannelSms {
 	_init_.Initialize()
 
@@ -490,7 +499,7 @@ func NewBotChannelSms(scope constructs.Construct, id *string, config *BotChannel
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_sms azurerm_bot_channel_sms} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_sms azurerm_bot_channel_sms} Resource.
 func NewBotChannelSms_Override(b BotChannelSms, scope constructs.Construct, id *string, config *BotChannelSmsConfig) {
 	_init_.Initialize()
 
@@ -1106,6 +1115,24 @@ func (b *jsiiProxy_BotChannelSms) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BotChannelSms) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

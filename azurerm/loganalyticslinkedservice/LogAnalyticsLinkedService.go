@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_linked_service azurerm_log_analytics_linked_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_linked_service azurerm_log_analytics_linked_service}.
 type LogAnalyticsLinkedService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -141,6 +141,15 @@ type LogAnalyticsLinkedService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogAnalyticsLinkedService
@@ -439,7 +448,7 @@ func (j *jsiiProxy_LogAnalyticsLinkedService) WriteAccessIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_linked_service azurerm_log_analytics_linked_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_linked_service azurerm_log_analytics_linked_service} Resource.
 func NewLogAnalyticsLinkedService(scope constructs.Construct, id *string, config *LogAnalyticsLinkedServiceConfig) LogAnalyticsLinkedService {
 	_init_.Initialize()
 
@@ -457,7 +466,7 @@ func NewLogAnalyticsLinkedService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_linked_service azurerm_log_analytics_linked_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_linked_service azurerm_log_analytics_linked_service} Resource.
 func NewLogAnalyticsLinkedService_Override(l LogAnalyticsLinkedService, scope constructs.Construct, id *string, config *LogAnalyticsLinkedServiceConfig) {
 	_init_.Initialize()
 
@@ -1067,6 +1076,24 @@ func (l *jsiiProxy_LogAnalyticsLinkedService) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogAnalyticsLinkedService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

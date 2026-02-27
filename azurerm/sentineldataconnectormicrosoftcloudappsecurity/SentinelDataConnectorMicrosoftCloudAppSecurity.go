@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security azurerm_sentinel_data_connector_microsoft_cloud_app_security}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security azurerm_sentinel_data_connector_microsoft_cloud_app_security}.
 type SentinelDataConnectorMicrosoftCloudAppSecurity interface {
 	cdktn.TerraformResource
 	AlertsEnabled() interface{}
@@ -144,6 +144,15 @@ type SentinelDataConnectorMicrosoftCloudAppSecurity interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SentinelDataConnectorMicrosoftCloudAppSecurity
@@ -452,7 +461,7 @@ func (j *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security azurerm_sentinel_data_connector_microsoft_cloud_app_security} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security azurerm_sentinel_data_connector_microsoft_cloud_app_security} Resource.
 func NewSentinelDataConnectorMicrosoftCloudAppSecurity(scope constructs.Construct, id *string, config *SentinelDataConnectorMicrosoftCloudAppSecurityConfig) SentinelDataConnectorMicrosoftCloudAppSecurity {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewSentinelDataConnectorMicrosoftCloudAppSecurity(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security azurerm_sentinel_data_connector_microsoft_cloud_app_security} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_data_connector_microsoft_cloud_app_security azurerm_sentinel_data_connector_microsoft_cloud_app_security} Resource.
 func NewSentinelDataConnectorMicrosoftCloudAppSecurity_Override(s SentinelDataConnectorMicrosoftCloudAppSecurity, scope constructs.Construct, id *string, config *SentinelDataConnectorMicrosoftCloudAppSecurityConfig) {
 	_init_.Initialize()
 
@@ -1099,6 +1108,24 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) ToTerraform()
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

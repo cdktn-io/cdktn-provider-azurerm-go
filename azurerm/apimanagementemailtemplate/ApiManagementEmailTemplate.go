@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_email_template azurerm_api_management_email_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_email_template azurerm_api_management_email_template}.
 type ApiManagementEmailTemplate interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -143,6 +143,15 @@ type ApiManagementEmailTemplate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementEmailTemplate
@@ -471,7 +480,7 @@ func (j *jsiiProxy_ApiManagementEmailTemplate) Title() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
 func NewApiManagementEmailTemplate(scope constructs.Construct, id *string, config *ApiManagementEmailTemplateConfig) ApiManagementEmailTemplate {
 	_init_.Initialize()
 
@@ -489,7 +498,7 @@ func NewApiManagementEmailTemplate(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_email_template azurerm_api_management_email_template} Resource.
 func NewApiManagementEmailTemplate_Override(a ApiManagementEmailTemplate, scope constructs.Construct, id *string, config *ApiManagementEmailTemplateConfig) {
 	_init_.Initialize()
 
@@ -1094,6 +1103,24 @@ func (a *jsiiProxy_ApiManagementEmailTemplate) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementEmailTemplate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

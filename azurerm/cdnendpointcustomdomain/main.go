@@ -76,6 +76,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userManagedHttps", GoGetter: "UserManagedHttps"},
 			_jsii_.MemberProperty{JsiiProperty: "userManagedHttpsInput", GoGetter: "UserManagedHttpsInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_CdnEndpointCustomDomain{}

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_object_replication azurerm_storage_object_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_object_replication azurerm_storage_object_replication}.
 type StorageObjectReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -137,6 +137,15 @@ type StorageObjectReplication interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for StorageObjectReplication
@@ -425,7 +434,7 @@ func (j *jsiiProxy_StorageObjectReplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
 func NewStorageObjectReplication(scope constructs.Construct, id *string, config *StorageObjectReplicationConfig) StorageObjectReplication {
 	_init_.Initialize()
 
@@ -443,7 +452,7 @@ func NewStorageObjectReplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
 func NewStorageObjectReplication_Override(s StorageObjectReplication, scope constructs.Construct, id *string, config *StorageObjectReplicationConfig) {
 	_init_.Initialize()
 
@@ -1026,6 +1035,24 @@ func (s *jsiiProxy_StorageObjectReplication) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_StorageObjectReplication) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

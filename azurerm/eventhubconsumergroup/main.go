@@ -73,6 +73,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userMetadata", GoGetter: "UserMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "userMetadataInput", GoGetter: "UserMetadataInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_EventhubConsumerGroup{}

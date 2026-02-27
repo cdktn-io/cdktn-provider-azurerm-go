@@ -128,6 +128,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "upstreamEndpoint", GoGetter: "UpstreamEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "upstreamEndpointInput", GoGetter: "UpstreamEndpointInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SignalrService{}

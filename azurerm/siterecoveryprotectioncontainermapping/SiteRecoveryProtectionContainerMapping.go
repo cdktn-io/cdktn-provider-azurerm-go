@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping}.
 type SiteRecoveryProtectionContainerMapping interface {
 	cdktn.TerraformResource
 	AutomaticUpdate() SiteRecoveryProtectionContainerMappingAutomaticUpdateOutputReference
@@ -151,6 +151,15 @@ type SiteRecoveryProtectionContainerMapping interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SiteRecoveryProtectionContainerMapping
@@ -519,7 +528,7 @@ func (j *jsiiProxy_SiteRecoveryProtectionContainerMapping) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
 func NewSiteRecoveryProtectionContainerMapping(scope constructs.Construct, id *string, config *SiteRecoveryProtectionContainerMappingConfig) SiteRecoveryProtectionContainerMapping {
 	_init_.Initialize()
 
@@ -537,7 +546,7 @@ func NewSiteRecoveryProtectionContainerMapping(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/site_recovery_protection_container_mapping azurerm_site_recovery_protection_container_mapping} Resource.
 func NewSiteRecoveryProtectionContainerMapping_Override(s SiteRecoveryProtectionContainerMapping, scope constructs.Construct, id *string, config *SiteRecoveryProtectionContainerMappingConfig) {
 	_init_.Initialize()
 
@@ -1183,6 +1192,24 @@ func (s *jsiiProxy_SiteRecoveryProtectionContainerMapping) ToTerraform() interfa
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SiteRecoveryProtectionContainerMapping) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

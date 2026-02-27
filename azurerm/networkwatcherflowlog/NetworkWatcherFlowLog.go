@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log}.
 type NetworkWatcherFlowLog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -168,6 +168,15 @@ type NetworkWatcherFlowLog interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkWatcherFlowLog
@@ -616,7 +625,7 @@ func (j *jsiiProxy_NetworkWatcherFlowLog) VersionInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
 func NewNetworkWatcherFlowLog(scope constructs.Construct, id *string, config *NetworkWatcherFlowLogConfig) NetworkWatcherFlowLog {
 	_init_.Initialize()
 
@@ -634,7 +643,7 @@ func NewNetworkWatcherFlowLog(scope constructs.Construct, id *string, config *Ne
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_watcher_flow_log azurerm_network_watcher_flow_log} Resource.
 func NewNetworkWatcherFlowLog_Override(n NetworkWatcherFlowLog, scope constructs.Construct, id *string, config *NetworkWatcherFlowLogConfig) {
 	_init_.Initialize()
 
@@ -1364,6 +1373,24 @@ func (n *jsiiProxy_NetworkWatcherFlowLog) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkWatcherFlowLog) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

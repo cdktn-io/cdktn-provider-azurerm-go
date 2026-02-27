@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule}.
 type CdnFrontdoorRule interface {
 	cdktn.TerraformResource
 	Actions() CdnFrontdoorRuleActionsOutputReference
@@ -147,6 +147,15 @@ type CdnFrontdoorRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for CdnFrontdoorRule
@@ -485,7 +494,7 @@ func (j *jsiiProxy_CdnFrontdoorRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
 func NewCdnFrontdoorRule(scope constructs.Construct, id *string, config *CdnFrontdoorRuleConfig) CdnFrontdoorRule {
 	_init_.Initialize()
 
@@ -503,7 +512,7 @@ func NewCdnFrontdoorRule(scope constructs.Construct, id *string, config *CdnFron
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cdn_frontdoor_rule azurerm_cdn_frontdoor_rule} Resource.
 func NewCdnFrontdoorRule_Override(c CdnFrontdoorRule, scope constructs.Construct, id *string, config *CdnFrontdoorRuleConfig) {
 	_init_.Initialize()
 
@@ -1135,6 +1144,24 @@ func (c *jsiiProxy_CdnFrontdoorRule) ToTerraform() interface{} {
 		c,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (c *jsiiProxy_CdnFrontdoorRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		c,
+		"with",
+		args,
 		&returns,
 	)
 

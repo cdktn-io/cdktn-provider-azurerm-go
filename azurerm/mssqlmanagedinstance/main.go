@@ -131,6 +131,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vcores", GoGetter: "Vcores"},
 			_jsii_.MemberProperty{JsiiProperty: "vcoresInput", GoGetter: "VcoresInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundantEnabled", GoGetter: "ZoneRedundantEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundantEnabledInput", GoGetter: "ZoneRedundantEnabledInput"},
 		},

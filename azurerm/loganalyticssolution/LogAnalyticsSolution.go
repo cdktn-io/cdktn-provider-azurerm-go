@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution}.
 type LogAnalyticsSolution interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -148,6 +148,15 @@ type LogAnalyticsSolution interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogAnalyticsSolution
@@ -496,7 +505,7 @@ func (j *jsiiProxy_LogAnalyticsSolution) WorkspaceResourceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
 func NewLogAnalyticsSolution(scope constructs.Construct, id *string, config *LogAnalyticsSolutionConfig) LogAnalyticsSolution {
 	_init_.Initialize()
 
@@ -514,7 +523,7 @@ func NewLogAnalyticsSolution(scope constructs.Construct, id *string, config *Log
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_solution azurerm_log_analytics_solution} Resource.
 func NewLogAnalyticsSolution_Override(l LogAnalyticsSolution, scope constructs.Construct, id *string, config *LogAnalyticsSolutionConfig) {
 	_init_.Initialize()
 
@@ -1149,6 +1158,24 @@ func (l *jsiiProxy_LogAnalyticsSolution) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogAnalyticsSolution) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

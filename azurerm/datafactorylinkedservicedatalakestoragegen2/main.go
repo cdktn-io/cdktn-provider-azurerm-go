@@ -98,6 +98,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "urlInput", GoGetter: "UrlInput"},
 			_jsii_.MemberProperty{JsiiProperty: "useManagedIdentity", GoGetter: "UseManagedIdentity"},
 			_jsii_.MemberProperty{JsiiProperty: "useManagedIdentityInput", GoGetter: "UseManagedIdentityInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2{}

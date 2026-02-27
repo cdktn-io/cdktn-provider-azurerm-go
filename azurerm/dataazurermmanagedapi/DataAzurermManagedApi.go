@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/managed_api azurerm_managed_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/managed_api azurerm_managed_api}.
 type DataAzurermManagedApi interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -108,6 +108,15 @@ type DataAzurermManagedApi interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermManagedApi
@@ -346,7 +355,7 @@ func (j *jsiiProxy_DataAzurermManagedApi) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
 func NewDataAzurermManagedApi(scope constructs.Construct, id *string, config *DataAzurermManagedApiConfig) DataAzurermManagedApi {
 	_init_.Initialize()
 
@@ -364,7 +373,7 @@ func NewDataAzurermManagedApi(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/managed_api azurerm_managed_api} Data Source.
 func NewDataAzurermManagedApi_Override(d DataAzurermManagedApi, scope constructs.Construct, id *string, config *DataAzurermManagedApiConfig) {
 	_init_.Initialize()
 
@@ -846,6 +855,24 @@ func (d *jsiiProxy_DataAzurermManagedApi) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedApi) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

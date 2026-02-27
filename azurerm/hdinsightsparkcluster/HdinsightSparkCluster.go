@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster}.
 type HdinsightSparkCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -208,6 +208,15 @@ type HdinsightSparkCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for HdinsightSparkCluster
@@ -876,7 +885,7 @@ func (j *jsiiProxy_HdinsightSparkCluster) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
 func NewHdinsightSparkCluster(scope constructs.Construct, id *string, config *HdinsightSparkClusterConfig) HdinsightSparkCluster {
 	_init_.Initialize()
 
@@ -894,7 +903,7 @@ func NewHdinsightSparkCluster(scope constructs.Construct, id *string, config *Hd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
 func NewHdinsightSparkCluster_Override(h HdinsightSparkCluster, scope constructs.Construct, id *string, config *HdinsightSparkClusterConfig) {
 	_init_.Initialize()
 
@@ -1798,6 +1807,24 @@ func (h *jsiiProxy_HdinsightSparkCluster) ToTerraform() interface{} {
 		h,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (h *jsiiProxy_HdinsightSparkCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		h,
+		"with",
+		args,
 		&returns,
 	)
 

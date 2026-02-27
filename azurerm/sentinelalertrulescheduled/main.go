@@ -131,6 +131,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerOperatorInput", GoGetter: "TriggerOperatorInput"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerThreshold", GoGetter: "TriggerThreshold"},
 			_jsii_.MemberProperty{JsiiProperty: "triggerThresholdInput", GoGetter: "TriggerThresholdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SentinelAlertRuleScheduled{}

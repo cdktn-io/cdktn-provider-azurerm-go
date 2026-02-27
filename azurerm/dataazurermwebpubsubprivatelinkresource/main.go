@@ -57,6 +57,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "webPubsubId", GoGetter: "WebPubsubId"},
 			_jsii_.MemberProperty{JsiiProperty: "webPubsubIdInput", GoGetter: "WebPubsubIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermWebPubsubPrivateLinkResource{}

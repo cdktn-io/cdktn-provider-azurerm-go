@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_snapshot_policy azurerm_netapp_snapshot_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_snapshot_policy azurerm_netapp_snapshot_policy}.
 type DataAzurermNetappSnapshotPolicy interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -117,6 +117,15 @@ type DataAzurermNetappSnapshotPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermNetappSnapshotPolicy
@@ -435,7 +444,7 @@ func (j *jsiiProxy_DataAzurermNetappSnapshotPolicy) WeeklySchedule() DataAzurerm
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Data Source.
 func NewDataAzurermNetappSnapshotPolicy(scope constructs.Construct, id *string, config *DataAzurermNetappSnapshotPolicyConfig) DataAzurermNetappSnapshotPolicy {
 	_init_.Initialize()
 
@@ -453,7 +462,7 @@ func NewDataAzurermNetappSnapshotPolicy(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_snapshot_policy azurerm_netapp_snapshot_policy} Data Source.
 func NewDataAzurermNetappSnapshotPolicy_Override(d DataAzurermNetappSnapshotPolicy, scope constructs.Construct, id *string, config *DataAzurermNetappSnapshotPolicyConfig) {
 	_init_.Initialize()
 
@@ -946,6 +955,24 @@ func (d *jsiiProxy_DataAzurermNetappSnapshotPolicy) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermNetappSnapshotPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

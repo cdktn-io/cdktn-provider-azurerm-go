@@ -65,6 +65,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionPrefix", GoGetter: "VersionPrefix"},
 			_jsii_.MemberProperty{JsiiProperty: "versionPrefixInput", GoGetter: "VersionPrefixInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versions", GoGetter: "Versions"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataAzurermKubernetesServiceVersions{}

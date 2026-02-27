@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/fluid_relay_server azurerm_fluid_relay_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/fluid_relay_server azurerm_fluid_relay_server}.
 type FluidRelayServer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -157,6 +157,15 @@ type FluidRelayServer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FluidRelayServer
@@ -565,7 +574,7 @@ func (j *jsiiProxy_FluidRelayServer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/fluid_relay_server azurerm_fluid_relay_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/fluid_relay_server azurerm_fluid_relay_server} Resource.
 func NewFluidRelayServer(scope constructs.Construct, id *string, config *FluidRelayServerConfig) FluidRelayServer {
 	_init_.Initialize()
 
@@ -583,7 +592,7 @@ func NewFluidRelayServer(scope constructs.Construct, id *string, config *FluidRe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/fluid_relay_server azurerm_fluid_relay_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/fluid_relay_server azurerm_fluid_relay_server} Resource.
 func NewFluidRelayServer_Override(f FluidRelayServer, scope constructs.Construct, id *string, config *FluidRelayServerConfig) {
 	_init_.Initialize()
 
@@ -1242,6 +1251,24 @@ func (f *jsiiProxy_FluidRelayServer) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FluidRelayServer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

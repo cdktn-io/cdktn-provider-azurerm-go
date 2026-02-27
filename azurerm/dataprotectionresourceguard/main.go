@@ -74,6 +74,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultCriticalOperationExclusionList", GoGetter: "VaultCriticalOperationExclusionList"},
 			_jsii_.MemberProperty{JsiiProperty: "vaultCriticalOperationExclusionListInput", GoGetter: "VaultCriticalOperationExclusionListInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_DataProtectionResourceGuard{}

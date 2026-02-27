@@ -117,6 +117,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "trace", GoGetter: "Trace"},
 			_jsii_.MemberProperty{JsiiProperty: "traceInput", GoGetter: "TraceInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundant", GoGetter: "ZoneRedundant"},
 			_jsii_.MemberProperty{JsiiProperty: "zoneRedundantInput", GoGetter: "ZoneRedundantInput"},
 		},

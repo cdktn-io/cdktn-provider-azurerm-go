@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster}.
 type DataAzurermOracleCloudVmCluster interface {
 	cdktn.TerraformDataSource
 	BackupSubnetCidr() *string
@@ -158,6 +158,15 @@ type DataAzurermOracleCloudVmCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermOracleCloudVmCluster
@@ -896,7 +905,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
 func NewDataAzurermOracleCloudVmCluster(scope constructs.Construct, id *string, config *DataAzurermOracleCloudVmClusterConfig) DataAzurermOracleCloudVmCluster {
 	_init_.Initialize()
 
@@ -914,7 +923,7 @@ func NewDataAzurermOracleCloudVmCluster(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
 func NewDataAzurermOracleCloudVmCluster_Override(d DataAzurermOracleCloudVmCluster, scope constructs.Construct, id *string, config *DataAzurermOracleCloudVmClusterConfig) {
 	_init_.Initialize()
 
@@ -1396,6 +1405,24 @@ func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermOracleCloudVmCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

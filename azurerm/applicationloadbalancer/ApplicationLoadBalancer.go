@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
 type ApplicationLoadBalancer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -140,6 +140,15 @@ type ApplicationLoadBalancer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApplicationLoadBalancer
@@ -438,7 +447,7 @@ func (j *jsiiProxy_ApplicationLoadBalancer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) ApplicationLoadBalancer {
 	_init_.Initialize()
 
@@ -456,7 +465,7 @@ func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer_Override(a ApplicationLoadBalancer, scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) {
 	_init_.Initialize()
 
@@ -1058,6 +1067,24 @@ func (a *jsiiProxy_ApplicationLoadBalancer) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApplicationLoadBalancer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

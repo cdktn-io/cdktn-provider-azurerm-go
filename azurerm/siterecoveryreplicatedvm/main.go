@@ -127,6 +127,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "unmanagedDisk", GoGetter: "UnmanagedDisk"},
 			_jsii_.MemberProperty{JsiiProperty: "unmanagedDiskInput", GoGetter: "UnmanagedDiskInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_SiteRecoveryReplicatedVm{}

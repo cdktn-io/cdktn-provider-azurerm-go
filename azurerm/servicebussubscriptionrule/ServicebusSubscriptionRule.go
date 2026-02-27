@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule}.
 type ServicebusSubscriptionRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -148,6 +148,15 @@ type ServicebusSubscriptionRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ServicebusSubscriptionRule
@@ -486,7 +495,7 @@ func (j *jsiiProxy_ServicebusSubscriptionRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
 func NewServicebusSubscriptionRule(scope constructs.Construct, id *string, config *ServicebusSubscriptionRuleConfig) ServicebusSubscriptionRule {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewServicebusSubscriptionRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
 func NewServicebusSubscriptionRule_Override(s ServicebusSubscriptionRule, scope constructs.Construct, id *string, config *ServicebusSubscriptionRuleConfig) {
 	_init_.Initialize()
 
@@ -1144,6 +1153,24 @@ func (s *jsiiProxy_ServicebusSubscriptionRule) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_ServicebusSubscriptionRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

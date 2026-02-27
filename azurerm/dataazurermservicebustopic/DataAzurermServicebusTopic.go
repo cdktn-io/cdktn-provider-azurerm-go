@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic}.
 type DataAzurermServicebusTopic interface {
 	cdktn.TerraformDataSource
 	AutoDeleteOnIdle() *string
@@ -129,6 +129,15 @@ type DataAzurermServicebusTopic interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermServicebusTopic
@@ -527,7 +536,7 @@ func (j *jsiiProxy_DataAzurermServicebusTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
 func NewDataAzurermServicebusTopic(scope constructs.Construct, id *string, config *DataAzurermServicebusTopicConfig) DataAzurermServicebusTopic {
 	_init_.Initialize()
 
@@ -545,7 +554,7 @@ func NewDataAzurermServicebusTopic(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/servicebus_topic azurerm_servicebus_topic} Data Source.
 func NewDataAzurermServicebusTopic_Override(d DataAzurermServicebusTopic, scope constructs.Construct, id *string, config *DataAzurermServicebusTopicConfig) {
 	_init_.Initialize()
 
@@ -1073,6 +1082,24 @@ func (d *jsiiProxy_DataAzurermServicebusTopic) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermServicebusTopic) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

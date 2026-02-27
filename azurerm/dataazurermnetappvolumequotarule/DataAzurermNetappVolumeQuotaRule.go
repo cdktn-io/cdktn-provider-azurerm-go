@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule}.
 type DataAzurermNetappVolumeQuotaRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -111,6 +111,15 @@ type DataAzurermNetappVolumeQuotaRule interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermNetappVolumeQuotaRule
@@ -379,7 +388,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeQuotaRule) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
 func NewDataAzurermNetappVolumeQuotaRule(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeQuotaRuleConfig) DataAzurermNetappVolumeQuotaRule {
 	_init_.Initialize()
 
@@ -397,7 +406,7 @@ func NewDataAzurermNetappVolumeQuotaRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_volume_quota_rule azurerm_netapp_volume_quota_rule} Data Source.
 func NewDataAzurermNetappVolumeQuotaRule_Override(d DataAzurermNetappVolumeQuotaRule, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeQuotaRuleConfig) {
 	_init_.Initialize()
 
@@ -879,6 +888,24 @@ func (d *jsiiProxy_DataAzurermNetappVolumeQuotaRule) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermNetappVolumeQuotaRule) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

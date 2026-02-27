@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database}.
 type OracleAutonomousDatabase interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -201,6 +201,15 @@ type OracleAutonomousDatabase interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for OracleAutonomousDatabase
@@ -869,7 +878,7 @@ func (j *jsiiProxy_OracleAutonomousDatabase) VirtualNetworkIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) OracleAutonomousDatabase {
 	_init_.Initialize()
 
@@ -887,7 +896,7 @@ func NewOracleAutonomousDatabase(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_autonomous_database azurerm_oracle_autonomous_database} Resource.
 func NewOracleAutonomousDatabase_Override(o OracleAutonomousDatabase, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseConfig) {
 	_init_.Initialize()
 
@@ -1738,6 +1747,24 @@ func (o *jsiiProxy_OracleAutonomousDatabase) ToTerraform() interface{} {
 		o,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (o *jsiiProxy_OracleAutonomousDatabase) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		o,
+		"with",
+		args,
 		&returns,
 	)
 

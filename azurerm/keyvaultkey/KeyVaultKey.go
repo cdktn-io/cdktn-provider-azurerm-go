@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_key azurerm_key_vault_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_key azurerm_key_vault_key}.
 type KeyVaultKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -172,6 +172,15 @@ type KeyVaultKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for KeyVaultKey
@@ -680,7 +689,7 @@ func (j *jsiiProxy_KeyVaultKey) Y() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
 func NewKeyVaultKey(scope constructs.Construct, id *string, config *KeyVaultKeyConfig) KeyVaultKey {
 	_init_.Initialize()
 
@@ -698,7 +707,7 @@ func NewKeyVaultKey(scope constructs.Construct, id *string, config *KeyVaultKeyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
 func NewKeyVaultKey_Override(k KeyVaultKey, scope constructs.Construct, id *string, config *KeyVaultKeyConfig) {
 	_init_.Initialize()
 
@@ -1406,6 +1415,24 @@ func (k *jsiiProxy_KeyVaultKey) ToTerraform() interface{} {
 		k,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (k *jsiiProxy_KeyVaultKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		k,
+		"with",
+		args,
 		&returns,
 	)
 

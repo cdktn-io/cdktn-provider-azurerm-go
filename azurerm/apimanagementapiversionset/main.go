@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versioningSchemeInput", GoGetter: "VersioningSchemeInput"},
 			_jsii_.MemberProperty{JsiiProperty: "versionQueryName", GoGetter: "VersionQueryName"},
 			_jsii_.MemberProperty{JsiiProperty: "versionQueryNameInput", GoGetter: "VersionQueryNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiManagementApiVersionSet{}

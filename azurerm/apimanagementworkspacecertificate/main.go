@@ -81,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "userAssignedIdentityClientId", GoGetter: "UserAssignedIdentityClientId"},
 			_jsii_.MemberProperty{JsiiProperty: "userAssignedIdentityClientIdInput", GoGetter: "UserAssignedIdentityClientIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ApiManagementWorkspaceCertificate{}

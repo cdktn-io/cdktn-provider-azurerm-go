@@ -147,6 +147,10 @@ func (j *jsiiProxy_PrivateLinkService) validateSetProvisionersParameters(val *[]
 	return nil
 }
 
+func (j *jsiiProxy_PrivateLinkService) validateSetProxyProtocolEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrivateLinkService) validateSetResourceGroupNameParameters(val *string) error {
 	return nil
 }

@@ -87,6 +87,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficRoutingMethodInput", GoGetter: "TrafficRoutingMethodInput"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficViewEnabled", GoGetter: "TrafficViewEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "trafficViewEnabledInput", GoGetter: "TrafficViewEnabledInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_TrafficManagerProfile{}

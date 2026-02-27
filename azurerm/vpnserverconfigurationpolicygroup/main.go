@@ -75,6 +75,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnServerConfigurationId", GoGetter: "VpnServerConfigurationId"},
 			_jsii_.MemberProperty{JsiiProperty: "vpnServerConfigurationIdInput", GoGetter: "VpnServerConfigurationIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VpnServerConfigurationPolicyGroup{}

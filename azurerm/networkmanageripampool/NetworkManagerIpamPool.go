@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
 type NetworkManagerIpamPool interface {
 	cdktn.TerraformResource
 	AddressPrefixes() *[]*string
@@ -154,6 +154,15 @@ type NetworkManagerIpamPool interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for NetworkManagerIpamPool
@@ -522,7 +531,7 @@ func (j *jsiiProxy_NetworkManagerIpamPool) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
 func NewNetworkManagerIpamPool(scope constructs.Construct, id *string, config *NetworkManagerIpamPoolConfig) NetworkManagerIpamPool {
 	_init_.Initialize()
 
@@ -540,7 +549,7 @@ func NewNetworkManagerIpamPool(scope constructs.Construct, id *string, config *N
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Resource.
 func NewNetworkManagerIpamPool_Override(n NetworkManagerIpamPool, scope constructs.Construct, id *string, config *NetworkManagerIpamPoolConfig) {
 	_init_.Initialize()
 
@@ -1210,6 +1219,24 @@ func (n *jsiiProxy_NetworkManagerIpamPool) ToTerraform() interface{} {
 		n,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (n *jsiiProxy_NetworkManagerIpamPool) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		n,
+		"with",
+		args,
 		&returns,
 	)
 

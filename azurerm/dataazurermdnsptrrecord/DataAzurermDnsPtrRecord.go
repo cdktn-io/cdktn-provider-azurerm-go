@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record}.
 type DataAzurermDnsPtrRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -114,6 +114,15 @@ type DataAzurermDnsPtrRecord interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermDnsPtrRecord
@@ -402,7 +411,7 @@ func (j *jsiiProxy_DataAzurermDnsPtrRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
 func NewDataAzurermDnsPtrRecord(scope constructs.Construct, id *string, config *DataAzurermDnsPtrRecordConfig) DataAzurermDnsPtrRecord {
 	_init_.Initialize()
 
@@ -420,7 +429,7 @@ func NewDataAzurermDnsPtrRecord(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_ptr_record azurerm_dns_ptr_record} Data Source.
 func NewDataAzurermDnsPtrRecord_Override(d DataAzurermDnsPtrRecord, scope constructs.Construct, id *string, config *DataAzurermDnsPtrRecordConfig) {
 	_init_.Initialize()
 
@@ -913,6 +922,24 @@ func (d *jsiiProxy_DataAzurermDnsPtrRecord) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermDnsPtrRecord) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

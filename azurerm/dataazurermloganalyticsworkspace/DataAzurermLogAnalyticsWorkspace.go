@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace}.
 type DataAzurermLogAnalyticsWorkspace interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -115,6 +115,15 @@ type DataAzurermLogAnalyticsWorkspace interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermLogAnalyticsWorkspace
@@ -423,7 +432,7 @@ func (j *jsiiProxy_DataAzurermLogAnalyticsWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
 func NewDataAzurermLogAnalyticsWorkspace(scope constructs.Construct, id *string, config *DataAzurermLogAnalyticsWorkspaceConfig) DataAzurermLogAnalyticsWorkspace {
 	_init_.Initialize()
 
@@ -441,7 +450,7 @@ func NewDataAzurermLogAnalyticsWorkspace(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/log_analytics_workspace azurerm_log_analytics_workspace} Data Source.
 func NewDataAzurermLogAnalyticsWorkspace_Override(d DataAzurermLogAnalyticsWorkspace, scope constructs.Construct, id *string, config *DataAzurermLogAnalyticsWorkspaceConfig) {
 	_init_.Initialize()
 
@@ -923,6 +932,24 @@ func (d *jsiiProxy_DataAzurermLogAnalyticsWorkspace) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermLogAnalyticsWorkspace) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

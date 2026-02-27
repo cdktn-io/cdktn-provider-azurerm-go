@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_source_control azurerm_app_service_source_control}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_source_control azurerm_app_service_source_control}.
 type AppServiceSourceControlA interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -159,6 +159,15 @@ type AppServiceSourceControlA interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for AppServiceSourceControlA
@@ -547,7 +556,7 @@ func (j *jsiiProxy_AppServiceSourceControlA) UsesGithubAction() cdktn.IResolvabl
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
 func NewAppServiceSourceControlA(scope constructs.Construct, id *string, config *AppServiceSourceControlAConfig) AppServiceSourceControlA {
 	_init_.Initialize()
 
@@ -565,7 +574,7 @@ func NewAppServiceSourceControlA(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/app_service_source_control azurerm_app_service_source_control} Resource.
 func NewAppServiceSourceControlA_Override(a AppServiceSourceControlA, scope constructs.Construct, id *string, config *AppServiceSourceControlAConfig) {
 	_init_.Initialize()
 
@@ -1259,6 +1268,24 @@ func (a *jsiiProxy_AppServiceSourceControlA) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AppServiceSourceControlA) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

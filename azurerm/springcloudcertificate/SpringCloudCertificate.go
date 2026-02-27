@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_certificate azurerm_spring_cloud_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_certificate azurerm_spring_cloud_certificate}.
 type SpringCloudCertificate interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -148,6 +148,15 @@ type SpringCloudCertificate interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SpringCloudCertificate
@@ -486,7 +495,7 @@ func (j *jsiiProxy_SpringCloudCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_certificate azurerm_spring_cloud_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_certificate azurerm_spring_cloud_certificate} Resource.
 func NewSpringCloudCertificate(scope constructs.Construct, id *string, config *SpringCloudCertificateConfig) SpringCloudCertificate {
 	_init_.Initialize()
 
@@ -504,7 +513,7 @@ func NewSpringCloudCertificate(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/spring_cloud_certificate azurerm_spring_cloud_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/spring_cloud_certificate azurerm_spring_cloud_certificate} Resource.
 func NewSpringCloudCertificate_Override(s SpringCloudCertificate, scope constructs.Construct, id *string, config *SpringCloudCertificateConfig) {
 	_init_.Initialize()
 
@@ -1144,6 +1153,24 @@ func (s *jsiiProxy_SpringCloudCertificate) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SpringCloudCertificate) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

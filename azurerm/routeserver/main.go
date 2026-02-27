@@ -86,6 +86,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualRouterAsn", GoGetter: "VirtualRouterAsn"},
 			_jsii_.MemberProperty{JsiiProperty: "virtualRouterIps", GoGetter: "VirtualRouterIps"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_RouteServer{}

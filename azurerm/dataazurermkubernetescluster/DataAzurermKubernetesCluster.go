@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster}.
 type DataAzurermKubernetesCluster interface {
 	cdktn.TerraformDataSource
 	AciConnectorLinux() DataAzurermKubernetesClusterAciConnectorLinuxList
@@ -146,6 +146,15 @@ type DataAzurermKubernetesCluster interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermKubernetesCluster
@@ -764,7 +773,7 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) WindowsProfile() DataAzurermKub
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
 func NewDataAzurermKubernetesCluster(scope constructs.Construct, id *string, config *DataAzurermKubernetesClusterConfig) DataAzurermKubernetesCluster {
 	_init_.Initialize()
 
@@ -782,7 +791,7 @@ func NewDataAzurermKubernetesCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
 func NewDataAzurermKubernetesCluster_Override(d DataAzurermKubernetesCluster, scope constructs.Construct, id *string, config *DataAzurermKubernetesClusterConfig) {
 	_init_.Initialize()
 
@@ -1264,6 +1273,24 @@ func (d *jsiiProxy_DataAzurermKubernetesCluster) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermKubernetesCluster) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

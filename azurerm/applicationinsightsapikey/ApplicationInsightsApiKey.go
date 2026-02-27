@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key}.
 type ApplicationInsightsApiKey interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -141,6 +141,15 @@ type ApplicationInsightsApiKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApplicationInsightsApiKey
@@ -439,7 +448,7 @@ func (j *jsiiProxy_ApplicationInsightsApiKey) WritePermissionsInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
 func NewApplicationInsightsApiKey(scope constructs.Construct, id *string, config *ApplicationInsightsApiKeyConfig) ApplicationInsightsApiKey {
 	_init_.Initialize()
 
@@ -457,7 +466,7 @@ func NewApplicationInsightsApiKey(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
 func NewApplicationInsightsApiKey_Override(a ApplicationInsightsApiKey, scope constructs.Construct, id *string, config *ApplicationInsightsApiKeyConfig) {
 	_init_.Initialize()
 
@@ -1067,6 +1076,24 @@ func (a *jsiiProxy_ApplicationInsightsApiKey) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApplicationInsightsApiKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

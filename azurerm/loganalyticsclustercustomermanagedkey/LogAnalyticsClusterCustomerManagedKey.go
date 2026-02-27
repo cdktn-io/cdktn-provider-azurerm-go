@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_cluster_customer_managed_key azurerm_log_analytics_cluster_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_cluster_customer_managed_key azurerm_log_analytics_cluster_customer_managed_key}.
 type LogAnalyticsClusterCustomerManagedKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -132,6 +132,15 @@ type LogAnalyticsClusterCustomerManagedKey interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogAnalyticsClusterCustomerManagedKey
@@ -380,7 +389,7 @@ func (j *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_cluster_customer_managed_key azurerm_log_analytics_cluster_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_cluster_customer_managed_key azurerm_log_analytics_cluster_customer_managed_key} Resource.
 func NewLogAnalyticsClusterCustomerManagedKey(scope constructs.Construct, id *string, config *LogAnalyticsClusterCustomerManagedKeyConfig) LogAnalyticsClusterCustomerManagedKey {
 	_init_.Initialize()
 
@@ -398,7 +407,7 @@ func NewLogAnalyticsClusterCustomerManagedKey(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/log_analytics_cluster_customer_managed_key azurerm_log_analytics_cluster_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/log_analytics_cluster_customer_managed_key azurerm_log_analytics_cluster_customer_managed_key} Resource.
 func NewLogAnalyticsClusterCustomerManagedKey_Override(l LogAnalyticsClusterCustomerManagedKey, scope constructs.Construct, id *string, config *LogAnalyticsClusterCustomerManagedKeyConfig) {
 	_init_.Initialize()
 
@@ -970,6 +979,24 @@ func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) ToTerraform() interfac
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

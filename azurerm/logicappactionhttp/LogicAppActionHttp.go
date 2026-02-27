@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http}.
 type LogicAppActionHttp interface {
 	cdktn.TerraformResource
 	Body() *string
@@ -154,6 +154,15 @@ type LogicAppActionHttp interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for LogicAppActionHttp
@@ -522,7 +531,7 @@ func (j *jsiiProxy_LogicAppActionHttp) UriInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
 func NewLogicAppActionHttp(scope constructs.Construct, id *string, config *LogicAppActionHttpConfig) LogicAppActionHttp {
 	_init_.Initialize()
 
@@ -540,7 +549,7 @@ func NewLogicAppActionHttp(scope constructs.Construct, id *string, config *Logic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/logic_app_action_http azurerm_logic_app_action_http} Resource.
 func NewLogicAppActionHttp_Override(l LogicAppActionHttp, scope constructs.Construct, id *string, config *LogicAppActionHttpConfig) {
 	_init_.Initialize()
 
@@ -1210,6 +1219,24 @@ func (l *jsiiProxy_LogicAppActionHttp) ToTerraform() interface{} {
 		l,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (l *jsiiProxy_LogicAppActionHttp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		l,
+		"with",
+		args,
 		&returns,
 	)
 

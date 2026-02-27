@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack}.
 type BotChannelSlack interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -152,6 +152,15 @@ type BotChannelSlack interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for BotChannelSlack
@@ -520,7 +529,7 @@ func (j *jsiiProxy_BotChannelSlack) VerificationTokenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
 func NewBotChannelSlack(scope constructs.Construct, id *string, config *BotChannelSlackConfig) BotChannelSlack {
 	_init_.Initialize()
 
@@ -538,7 +547,7 @@ func NewBotChannelSlack(scope constructs.Construct, id *string, config *BotChann
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/bot_channel_slack azurerm_bot_channel_slack} Resource.
 func NewBotChannelSlack_Override(b BotChannelSlack, scope constructs.Construct, id *string, config *BotChannelSlackConfig) {
 	_init_.Initialize()
 
@@ -1192,6 +1201,24 @@ func (b *jsiiProxy_BotChannelSlack) ToTerraform() interface{} {
 		b,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (b *jsiiProxy_BotChannelSlack) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		b,
+		"with",
+		args,
 		&returns,
 	)
 

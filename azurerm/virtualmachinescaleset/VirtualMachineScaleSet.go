@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_machine_scale_set azurerm_virtual_machine_scale_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_machine_scale_set azurerm_virtual_machine_scale_set}.
 type VirtualMachineScaleSet interface {
 	cdktn.TerraformResource
 	AutomaticOsUpgrade() interface{}
@@ -230,6 +230,15 @@ type VirtualMachineScaleSet interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VirtualMachineScaleSet
@@ -998,7 +1007,7 @@ func (j *jsiiProxy_VirtualMachineScaleSet) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_machine_scale_set azurerm_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_machine_scale_set azurerm_virtual_machine_scale_set} Resource.
 func NewVirtualMachineScaleSet(scope constructs.Construct, id *string, config *VirtualMachineScaleSetConfig) VirtualMachineScaleSet {
 	_init_.Initialize()
 
@@ -1016,7 +1025,7 @@ func NewVirtualMachineScaleSet(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_machine_scale_set azurerm_virtual_machine_scale_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_machine_scale_set azurerm_virtual_machine_scale_set} Resource.
 func NewVirtualMachineScaleSet_Override(v VirtualMachineScaleSet, scope constructs.Construct, id *string, config *VirtualMachineScaleSetConfig) {
 	_init_.Initialize()
 
@@ -2034,6 +2043,24 @@ func (v *jsiiProxy_VirtualMachineScaleSet) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VirtualMachineScaleSet) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

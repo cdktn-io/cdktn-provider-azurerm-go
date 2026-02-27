@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "webPubsubCustomCertificateIdInput", GoGetter: "WebPubsubCustomCertificateIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "webPubsubId", GoGetter: "WebPubsubId"},
 			_jsii_.MemberProperty{JsiiProperty: "webPubsubIdInput", GoGetter: "WebPubsubIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_WebPubsubCustomDomain{}

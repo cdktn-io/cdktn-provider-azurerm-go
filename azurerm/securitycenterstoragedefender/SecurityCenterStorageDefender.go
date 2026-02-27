@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender}.
 type SecurityCenterStorageDefender interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -149,6 +149,15 @@ type SecurityCenterStorageDefender interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SecurityCenterStorageDefender
@@ -477,7 +486,7 @@ func (j *jsiiProxy_SecurityCenterStorageDefender) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
 func NewSecurityCenterStorageDefender(scope constructs.Construct, id *string, config *SecurityCenterStorageDefenderConfig) SecurityCenterStorageDefender {
 	_init_.Initialize()
 
@@ -495,7 +504,7 @@ func NewSecurityCenterStorageDefender(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/security_center_storage_defender azurerm_security_center_storage_defender} Resource.
 func NewSecurityCenterStorageDefender_Override(s SecurityCenterStorageDefender, scope constructs.Construct, id *string, config *SecurityCenterStorageDefenderConfig) {
 	_init_.Initialize()
 
@@ -1151,6 +1160,24 @@ func (s *jsiiProxy_SecurityCenterStorageDefender) ToTerraform() interface{} {
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SecurityCenterStorageDefender) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

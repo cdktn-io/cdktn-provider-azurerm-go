@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/firewall_policy azurerm_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/firewall_policy azurerm_firewall_policy}.
 type FirewallPolicy interface {
 	cdktn.TerraformResource
 	AutoLearnPrivateRangesEnabled() interface{}
@@ -194,6 +194,15 @@ type FirewallPolicy interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for FirewallPolicy
@@ -772,7 +781,7 @@ func (j *jsiiProxy_FirewallPolicy) TlsCertificateInput() *FirewallPolicyTlsCerti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
 func NewFirewallPolicy(scope constructs.Construct, id *string, config *FirewallPolicyConfig) FirewallPolicy {
 	_init_.Initialize()
 
@@ -790,7 +799,7 @@ func NewFirewallPolicy(scope constructs.Construct, id *string, config *FirewallP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/firewall_policy azurerm_firewall_policy} Resource.
 func NewFirewallPolicy_Override(f FirewallPolicy, scope constructs.Construct, id *string, config *FirewallPolicyConfig) {
 	_init_.Initialize()
 
@@ -1639,6 +1648,24 @@ func (f *jsiiProxy_FirewallPolicy) ToTerraform() interface{} {
 		f,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (f *jsiiProxy_FirewallPolicy) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		f,
+		"with",
+		args,
 		&returns,
 	)
 

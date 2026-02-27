@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic}.
 type ApiManagementApiDiagnostic interface {
 	cdktn.TerraformResource
 	AlwaysLogErrors() interface{}
@@ -181,6 +181,15 @@ type ApiManagementApiDiagnostic interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementApiDiagnostic
@@ -689,7 +698,7 @@ func (j *jsiiProxy_ApiManagementApiDiagnostic) VerbosityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
 func NewApiManagementApiDiagnostic(scope constructs.Construct, id *string, config *ApiManagementApiDiagnosticConfig) ApiManagementApiDiagnostic {
 	_init_.Initialize()
 
@@ -707,7 +716,7 @@ func NewApiManagementApiDiagnostic(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_api_diagnostic azurerm_api_management_api_diagnostic} Resource.
 func NewApiManagementApiDiagnostic_Override(a ApiManagementApiDiagnostic, scope constructs.Construct, id *string, config *ApiManagementApiDiagnosticConfig) {
 	_init_.Initialize()
 
@@ -1502,6 +1511,24 @@ func (a *jsiiProxy_ApiManagementApiDiagnostic) ToTerraform() interface{} {
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementApiDiagnostic) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

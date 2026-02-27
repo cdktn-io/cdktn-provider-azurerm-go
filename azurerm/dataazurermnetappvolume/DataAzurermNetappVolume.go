@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_volume azurerm_netapp_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_volume azurerm_netapp_volume}.
 type DataAzurermNetappVolume interface {
 	cdktn.TerraformDataSource
 	AcceptGrowCapacityPoolForShortTermCloneSplit() *string
@@ -134,6 +134,15 @@ type DataAzurermNetappVolume interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermNetappVolume
@@ -592,7 +601,7 @@ func (j *jsiiProxy_DataAzurermNetappVolume) Zone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
 func NewDataAzurermNetappVolume(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeConfig) DataAzurermNetappVolume {
 	_init_.Initialize()
 
@@ -610,7 +619,7 @@ func NewDataAzurermNetappVolume(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
 func NewDataAzurermNetappVolume_Override(d DataAzurermNetappVolume, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeConfig) {
 	_init_.Initialize()
 
@@ -1133,6 +1142,24 @@ func (d *jsiiProxy_DataAzurermNetappVolume) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermNetappVolume) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

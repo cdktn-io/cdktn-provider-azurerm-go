@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/stream_analytics_job azurerm_stream_analytics_job}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/stream_analytics_job azurerm_stream_analytics_job}.
 type DataAzurermStreamAnalyticsJob interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -122,6 +122,15 @@ type DataAzurermStreamAnalyticsJob interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermStreamAnalyticsJob
@@ -500,7 +509,7 @@ func (j *jsiiProxy_DataAzurermStreamAnalyticsJob) TransformationQuery() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/stream_analytics_job azurerm_stream_analytics_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/stream_analytics_job azurerm_stream_analytics_job} Data Source.
 func NewDataAzurermStreamAnalyticsJob(scope constructs.Construct, id *string, config *DataAzurermStreamAnalyticsJobConfig) DataAzurermStreamAnalyticsJob {
 	_init_.Initialize()
 
@@ -518,7 +527,7 @@ func NewDataAzurermStreamAnalyticsJob(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/stream_analytics_job azurerm_stream_analytics_job} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/stream_analytics_job azurerm_stream_analytics_job} Data Source.
 func NewDataAzurermStreamAnalyticsJob_Override(d DataAzurermStreamAnalyticsJob, scope constructs.Construct, id *string, config *DataAzurermStreamAnalyticsJobConfig) {
 	_init_.Initialize()
 
@@ -1000,6 +1009,24 @@ func (d *jsiiProxy_DataAzurermStreamAnalyticsJob) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermStreamAnalyticsJob) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

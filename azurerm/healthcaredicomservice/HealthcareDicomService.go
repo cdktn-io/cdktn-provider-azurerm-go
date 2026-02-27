@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service}.
 type HealthcareDicomService interface {
 	cdktn.TerraformResource
 	Authentication() HealthcareDicomServiceAuthenticationList
@@ -166,6 +166,15 @@ type HealthcareDicomService interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for HealthcareDicomService
@@ -604,7 +613,7 @@ func (j *jsiiProxy_HealthcareDicomService) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
 func NewHealthcareDicomService(scope constructs.Construct, id *string, config *HealthcareDicomServiceConfig) HealthcareDicomService {
 	_init_.Initialize()
 
@@ -622,7 +631,7 @@ func NewHealthcareDicomService(scope constructs.Construct, id *string, config *H
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/healthcare_dicom_service azurerm_healthcare_dicom_service} Resource.
 func NewHealthcareDicomService_Override(h HealthcareDicomService, scope constructs.Construct, id *string, config *HealthcareDicomServiceConfig) {
 	_init_.Initialize()
 
@@ -1338,6 +1347,24 @@ func (h *jsiiProxy_HealthcareDicomService) ToTerraform() interface{} {
 		h,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (h *jsiiProxy_HealthcareDicomService) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		h,
+		"with",
+		args,
 		&returns,
 	)
 

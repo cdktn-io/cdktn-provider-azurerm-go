@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook}.
 type ApiManagementIdentityProviderFacebook interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -138,6 +138,15 @@ type ApiManagementIdentityProviderFacebook interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ApiManagementIdentityProviderFacebook
@@ -426,7 +435,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderFacebook) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
 func NewApiManagementIdentityProviderFacebook(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderFacebookConfig) ApiManagementIdentityProviderFacebook {
 	_init_.Initialize()
 
@@ -444,7 +453,7 @@ func NewApiManagementIdentityProviderFacebook(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/api_management_identity_provider_facebook azurerm_api_management_identity_provider_facebook} Resource.
 func NewApiManagementIdentityProviderFacebook_Override(a ApiManagementIdentityProviderFacebook, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderFacebookConfig) {
 	_init_.Initialize()
 
@@ -1038,6 +1047,24 @@ func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) ToTerraform() interfac
 		a,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		a,
+		"with",
+		args,
 		&returns,
 	)
 

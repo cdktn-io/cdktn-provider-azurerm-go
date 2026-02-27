@@ -72,6 +72,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedDomainDnsIpsInput", GoGetter: "TrustedDomainDnsIpsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedDomainFqdn", GoGetter: "TrustedDomainFqdn"},
 			_jsii_.MemberProperty{JsiiProperty: "trustedDomainFqdnInput", GoGetter: "TrustedDomainFqdnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_ActiveDirectoryDomainServiceTrust{}

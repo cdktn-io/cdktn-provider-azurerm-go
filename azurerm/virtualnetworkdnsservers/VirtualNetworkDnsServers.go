@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers}.
 type VirtualNetworkDnsServers interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -133,6 +133,15 @@ type VirtualNetworkDnsServers interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VirtualNetworkDnsServers
@@ -381,7 +390,7 @@ func (j *jsiiProxy_VirtualNetworkDnsServers) VirtualNetworkIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
 func NewVirtualNetworkDnsServers(scope constructs.Construct, id *string, config *VirtualNetworkDnsServersConfig) VirtualNetworkDnsServers {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewVirtualNetworkDnsServers(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_network_dns_servers azurerm_virtual_network_dns_servers} Resource.
 func NewVirtualNetworkDnsServers_Override(v VirtualNetworkDnsServers, scope constructs.Construct, id *string, config *VirtualNetworkDnsServersConfig) {
 	_init_.Initialize()
 
@@ -979,6 +988,24 @@ func (v *jsiiProxy_VirtualNetworkDnsServers) ToTerraform() interface{} {
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VirtualNetworkDnsServers) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

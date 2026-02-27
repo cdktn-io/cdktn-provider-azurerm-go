@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding}.
 type SentinelLogAnalyticsWorkspaceOnboarding interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -133,6 +133,15 @@ type SentinelLogAnalyticsWorkspaceOnboarding interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for SentinelLogAnalyticsWorkspaceOnboarding
@@ -381,7 +390,7 @@ func (j *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) WorkspaceIdInput() *
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
 func NewSentinelLogAnalyticsWorkspaceOnboarding(scope constructs.Construct, id *string, config *SentinelLogAnalyticsWorkspaceOnboardingConfig) SentinelLogAnalyticsWorkspaceOnboarding {
 	_init_.Initialize()
 
@@ -399,7 +408,7 @@ func NewSentinelLogAnalyticsWorkspaceOnboarding(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/sentinel_log_analytics_workspace_onboarding azurerm_sentinel_log_analytics_workspace_onboarding} Resource.
 func NewSentinelLogAnalyticsWorkspaceOnboarding_Override(s SentinelLogAnalyticsWorkspaceOnboarding, scope constructs.Construct, id *string, config *SentinelLogAnalyticsWorkspaceOnboardingConfig) {
 	_init_.Initialize()
 
@@ -979,6 +988,24 @@ func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) ToTerraform() interf
 		s,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		s,
+		"with",
+		args,
 		&returns,
 	)
 

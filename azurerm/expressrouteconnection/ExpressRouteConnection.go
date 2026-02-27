@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/express_route_connection azurerm_express_route_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/express_route_connection azurerm_express_route_connection}.
 type ExpressRouteConnection interface {
 	cdktn.TerraformResource
 	AuthorizationKey() *string
@@ -57,6 +57,9 @@ type ExpressRouteConnection interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	InternetSecurityEnabled() interface{}
+	SetInternetSecurityEnabled(val interface{})
+	InternetSecurityEnabledInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -141,6 +144,7 @@ type ExpressRouteConnection interface {
 	ResetEnableInternetSecurity()
 	ResetExpressRouteGatewayBypassEnabled()
 	ResetId()
+	ResetInternetSecurityEnabled()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -159,6 +163,15 @@ type ExpressRouteConnection interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for ExpressRouteConnection
@@ -366,6 +379,26 @@ func (j *jsiiProxy_ExpressRouteConnection) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ExpressRouteConnection) InternetSecurityEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internetSecurityEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ExpressRouteConnection) InternetSecurityEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"internetSecurityEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ExpressRouteConnection) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -547,7 +580,7 @@ func (j *jsiiProxy_ExpressRouteConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
 func NewExpressRouteConnection(scope constructs.Construct, id *string, config *ExpressRouteConnectionConfig) ExpressRouteConnection {
 	_init_.Initialize()
 
@@ -565,7 +598,7 @@ func NewExpressRouteConnection(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/express_route_connection azurerm_express_route_connection} Resource.
 func NewExpressRouteConnection_Override(e ExpressRouteConnection, scope constructs.Construct, id *string, config *ExpressRouteConnectionConfig) {
 	_init_.Initialize()
 
@@ -676,6 +709,17 @@ func (j *jsiiProxy_ExpressRouteConnection)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ExpressRouteConnection)SetInternetSecurityEnabled(val interface{}) {
+	if err := j.validateSetInternetSecurityEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internetSecurityEnabled",
 		val,
 	)
 }
@@ -1150,6 +1194,14 @@ func (e *jsiiProxy_ExpressRouteConnection) ResetId() {
 	)
 }
 
+func (e *jsiiProxy_ExpressRouteConnection) ResetInternetSecurityEnabled() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetInternetSecurityEnabled",
+		nil, // no parameters
+	)
+}
+
 func (e *jsiiProxy_ExpressRouteConnection) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		e,
@@ -1262,6 +1314,24 @@ func (e *jsiiProxy_ExpressRouteConnection) ToTerraform() interface{} {
 		e,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (e *jsiiProxy_ExpressRouteConnection) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		e,
+		"with",
+		args,
 		&returns,
 	)
 

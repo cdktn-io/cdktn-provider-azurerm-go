@@ -109,6 +109,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validateEnvironmentInput", GoGetter: "ValidateEnvironmentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "vmTemplate", GoGetter: "VmTemplate"},
 			_jsii_.MemberProperty{JsiiProperty: "vmTemplateInput", GoGetter: "VmTemplateInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_VirtualDesktopHostPool{}

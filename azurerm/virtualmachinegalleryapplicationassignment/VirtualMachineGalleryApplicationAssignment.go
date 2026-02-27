@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_machine_gallery_application_assignment azurerm_virtual_machine_gallery_application_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_machine_gallery_application_assignment azurerm_virtual_machine_gallery_application_assignment}.
 type VirtualMachineGalleryApplicationAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -144,6 +144,15 @@ type VirtualMachineGalleryApplicationAssignment interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for VirtualMachineGalleryApplicationAssignment
@@ -452,7 +461,7 @@ func (j *jsiiProxy_VirtualMachineGalleryApplicationAssignment) VirtualMachineIdI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_machine_gallery_application_assignment azurerm_virtual_machine_gallery_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_machine_gallery_application_assignment azurerm_virtual_machine_gallery_application_assignment} Resource.
 func NewVirtualMachineGalleryApplicationAssignment(scope constructs.Construct, id *string, config *VirtualMachineGalleryApplicationAssignmentConfig) VirtualMachineGalleryApplicationAssignment {
 	_init_.Initialize()
 
@@ -470,7 +479,7 @@ func NewVirtualMachineGalleryApplicationAssignment(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/virtual_machine_gallery_application_assignment azurerm_virtual_machine_gallery_application_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/virtual_machine_gallery_application_assignment azurerm_virtual_machine_gallery_application_assignment} Resource.
 func NewVirtualMachineGalleryApplicationAssignment_Override(v VirtualMachineGalleryApplicationAssignment, scope constructs.Construct, id *string, config *VirtualMachineGalleryApplicationAssignmentConfig) {
 	_init_.Initialize()
 
@@ -1099,6 +1108,24 @@ func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) ToTerraform() int
 		v,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		v,
+		"with",
+		args,
 		&returns,
 	)
 

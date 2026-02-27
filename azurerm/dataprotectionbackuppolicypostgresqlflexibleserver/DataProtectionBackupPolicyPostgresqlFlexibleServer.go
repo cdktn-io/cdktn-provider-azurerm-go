@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server}.
 type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	cdktn.TerraformResource
 	BackupRepeatingTimeIntervals() *[]*string
@@ -146,6 +146,15 @@ type DataProtectionBackupPolicyPostgresqlFlexibleServer interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataProtectionBackupPolicyPostgresqlFlexibleServer
@@ -474,7 +483,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) VaultIdIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
 func NewDataProtectionBackupPolicyPostgresqlFlexibleServer(scope constructs.Construct, id *string, config *DataProtectionBackupPolicyPostgresqlFlexibleServerConfig) DataProtectionBackupPolicyPostgresqlFlexibleServer {
 	_init_.Initialize()
 
@@ -492,7 +501,7 @@ func NewDataProtectionBackupPolicyPostgresqlFlexibleServer(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/data_protection_backup_policy_postgresql_flexible_server azurerm_data_protection_backup_policy_postgresql_flexible_server} Resource.
 func NewDataProtectionBackupPolicyPostgresqlFlexibleServer_Override(d DataProtectionBackupPolicyPostgresqlFlexibleServer, scope constructs.Construct, id *string, config *DataProtectionBackupPolicyPostgresqlFlexibleServerConfig) {
 	_init_.Initialize()
 
@@ -1124,6 +1133,24 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) ToTerrafo
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresqlFlexibleServer) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 

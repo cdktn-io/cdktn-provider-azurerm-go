@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyBackupsToKeep", GoGetter: "WeeklyBackupsToKeep"},
 			_jsii_.MemberProperty{JsiiProperty: "weeklyBackupsToKeepInput", GoGetter: "WeeklyBackupsToKeepInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
 			j := jsiiProxy_NetappBackupPolicy{}

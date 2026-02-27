@@ -12,10 +12,11 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type DataAzurermVirtualNetworkGateway interface {
 	cdktn.TerraformDataSource
 	ActiveActive() cdktn.IResolvable
+	BgpEnabled() cdktn.IResolvable
 	BgpSettings() DataAzurermVirtualNetworkGatewayBgpSettingsList
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
@@ -121,6 +122,15 @@ type DataAzurermVirtualNetworkGateway interface {
 	// Adds this resource to the terraform JSON output.
 	// Experimental.
 	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
 }
 
 // The jsii proxy struct for DataAzurermVirtualNetworkGateway
@@ -133,6 +143,16 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) ActiveActive() cdktn.IResol
 	_jsii_.Get(
 		j,
 		"activeActive",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) BgpEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"bgpEnabled",
 		&returns,
 	)
 	return returns
@@ -489,7 +509,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkGateway) VpnType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
 func NewDataAzurermVirtualNetworkGateway(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConfig) DataAzurermVirtualNetworkGateway {
 	_init_.Initialize()
 
@@ -507,7 +527,7 @@ func NewDataAzurermVirtualNetworkGateway(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.61.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/virtual_network_gateway azurerm_virtual_network_gateway} Data Source.
 func NewDataAzurermVirtualNetworkGateway_Override(d DataAzurermVirtualNetworkGateway, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkGatewayConfig) {
 	_init_.Initialize()
 
@@ -989,6 +1009,24 @@ func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) ToTerraform() interface{} {
 		d,
 		"toTerraform",
 		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermVirtualNetworkGateway) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
 		&returns,
 	)
 
