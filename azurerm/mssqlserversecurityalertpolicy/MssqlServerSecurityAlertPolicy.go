@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy}.
 type MssqlServerSecurityAlertPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -556,7 +556,7 @@ func (j *jsiiProxy_MssqlServerSecurityAlertPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
 func NewMssqlServerSecurityAlertPolicy(scope constructs.Construct, id *string, config *MssqlServerSecurityAlertPolicyConfig) MssqlServerSecurityAlertPolicy {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewMssqlServerSecurityAlertPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/mssql_server_security_alert_policy azurerm_mssql_server_security_alert_policy} Resource.
 func NewMssqlServerSecurityAlertPolicy_Override(m MssqlServerSecurityAlertPolicy, scope constructs.Construct, id *string, config *MssqlServerSecurityAlertPolicyConfig) {
 	_init_.Initialize()
 

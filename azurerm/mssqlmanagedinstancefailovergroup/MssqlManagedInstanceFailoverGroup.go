@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_managed_instance_failover_group azurerm_mssql_managed_instance_failover_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/mssql_managed_instance_failover_group azurerm_mssql_managed_instance_failover_group}.
 type MssqlManagedInstanceFailoverGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_MssqlManagedInstanceFailoverGroup) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_managed_instance_failover_group azurerm_mssql_managed_instance_failover_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/mssql_managed_instance_failover_group azurerm_mssql_managed_instance_failover_group} Resource.
 func NewMssqlManagedInstanceFailoverGroup(scope constructs.Construct, id *string, config *MssqlManagedInstanceFailoverGroupConfig) MssqlManagedInstanceFailoverGroup {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewMssqlManagedInstanceFailoverGroup(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/mssql_managed_instance_failover_group azurerm_mssql_managed_instance_failover_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/mssql_managed_instance_failover_group azurerm_mssql_managed_instance_failover_group} Resource.
 func NewMssqlManagedInstanceFailoverGroup_Override(m MssqlManagedInstanceFailoverGroup, scope constructs.Construct, id *string, config *MssqlManagedInstanceFailoverGroupConfig) {
 	_init_.Initialize()
 

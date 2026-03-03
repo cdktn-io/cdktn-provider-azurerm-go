@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/digital_twins_instance azurerm_digital_twins_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/digital_twins_instance azurerm_digital_twins_instance}.
 type DataAzurermDigitalTwinsInstance interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataAzurermDigitalTwinsInstance) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/digital_twins_instance azurerm_digital_twins_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/digital_twins_instance azurerm_digital_twins_instance} Data Source.
 func NewDataAzurermDigitalTwinsInstance(scope constructs.Construct, id *string, config *DataAzurermDigitalTwinsInstanceConfig) DataAzurermDigitalTwinsInstance {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewDataAzurermDigitalTwinsInstance(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/digital_twins_instance azurerm_digital_twins_instance} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/digital_twins_instance azurerm_digital_twins_instance} Data Source.
 func NewDataAzurermDigitalTwinsInstance_Override(d DataAzurermDigitalTwinsInstance, scope constructs.Construct, id *string, config *DataAzurermDigitalTwinsInstanceConfig) {
 	_init_.Initialize()
 

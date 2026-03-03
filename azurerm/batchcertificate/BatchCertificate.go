@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/batch_certificate azurerm_batch_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/batch_certificate azurerm_batch_certificate}.
 type BatchCertificate interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -527,7 +527,7 @@ func (j *jsiiProxy_BatchCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
 func NewBatchCertificate(scope constructs.Construct, id *string, config *BatchCertificateConfig) BatchCertificate {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewBatchCertificate(scope constructs.Construct, id *string, config *BatchCe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
 func NewBatchCertificate_Override(b BatchCertificate, scope constructs.Construct, id *string, config *BatchCertificateConfig) {
 	_init_.Initialize()
 

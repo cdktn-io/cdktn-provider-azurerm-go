@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs azurerm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs azurerm}.
 type AzurermProvider interface {
 	cdktn.TerraformProvider
 	AdoPipelineServiceConnectionId() *string
@@ -939,7 +939,7 @@ func (j *jsiiProxy_AzurermProvider) UseOidcInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs azurerm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs azurerm} Resource.
 func NewAzurermProvider(scope constructs.Construct, id *string, config *AzurermProviderConfig) AzurermProvider {
 	_init_.Initialize()
 
@@ -957,7 +957,7 @@ func NewAzurermProvider(scope constructs.Construct, id *string, config *AzurermP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs azurerm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs azurerm} Resource.
 func NewAzurermProvider_Override(a AzurermProvider, scope constructs.Construct, id *string, config *AzurermProviderConfig) {
 	_init_.Initialize()
 

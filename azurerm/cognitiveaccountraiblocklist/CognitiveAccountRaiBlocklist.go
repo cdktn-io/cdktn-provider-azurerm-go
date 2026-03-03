@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist}.
 type CognitiveAccountRaiBlocklist interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_CognitiveAccountRaiBlocklist) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
 func NewCognitiveAccountRaiBlocklist(scope constructs.Construct, id *string, config *CognitiveAccountRaiBlocklistConfig) CognitiveAccountRaiBlocklist {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewCognitiveAccountRaiBlocklist(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
 func NewCognitiveAccountRaiBlocklist_Override(c CognitiveAccountRaiBlocklist, scope constructs.Construct, id *string, config *CognitiveAccountRaiBlocklistConfig) {
 	_init_.Initialize()
 

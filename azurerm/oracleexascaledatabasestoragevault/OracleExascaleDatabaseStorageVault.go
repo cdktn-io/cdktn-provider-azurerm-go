@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault}.
 type OracleExascaleDatabaseStorageVault interface {
 	cdktn.TerraformResource
 	AdditionalFlashCachePercentage() *float64
@@ -576,7 +576,7 @@ func (j *jsiiProxy_OracleExascaleDatabaseStorageVault) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Resource.
 func NewOracleExascaleDatabaseStorageVault(scope constructs.Construct, id *string, config *OracleExascaleDatabaseStorageVaultConfig) OracleExascaleDatabaseStorageVault {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewOracleExascaleDatabaseStorageVault(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Resource.
 func NewOracleExascaleDatabaseStorageVault_Override(o OracleExascaleDatabaseStorageVault, scope constructs.Construct, id *string, config *OracleExascaleDatabaseStorageVaultConfig) {
 	_init_.Initialize()
 

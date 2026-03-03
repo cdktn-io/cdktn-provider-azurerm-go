@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/linux_web_app azurerm_linux_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/linux_web_app azurerm_linux_web_app}.
 type LinuxWebApp interface {
 	cdktn.TerraformResource
 	AppSettings() *map[string]*string
@@ -1133,7 +1133,7 @@ func (j *jsiiProxy_LinuxWebApp) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
 func NewLinuxWebApp(scope constructs.Construct, id *string, config *LinuxWebAppConfig) LinuxWebApp {
 	_init_.Initialize()
 
@@ -1151,7 +1151,7 @@ func NewLinuxWebApp(scope constructs.Construct, id *string, config *LinuxWebAppC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/linux_web_app azurerm_linux_web_app} Resource.
 func NewLinuxWebApp_Override(l LinuxWebApp, scope constructs.Construct, id *string, config *LinuxWebAppConfig) {
 	_init_.Initialize()
 

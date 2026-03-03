@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_srv_record azurerm_dns_srv_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/dns_srv_record azurerm_dns_srv_record}.
 type DataAzurermDnsSrvRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -411,7 +411,7 @@ func (j *jsiiProxy_DataAzurermDnsSrvRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_srv_record azurerm_dns_srv_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/dns_srv_record azurerm_dns_srv_record} Data Source.
 func NewDataAzurermDnsSrvRecord(scope constructs.Construct, id *string, config *DataAzurermDnsSrvRecordConfig) DataAzurermDnsSrvRecord {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewDataAzurermDnsSrvRecord(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dns_srv_record azurerm_dns_srv_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/dns_srv_record azurerm_dns_srv_record} Data Source.
 func NewDataAzurermDnsSrvRecord_Override(d DataAzurermDnsSrvRecord, scope constructs.Construct, id *string, config *DataAzurermDnsSrvRecordConfig) {
 	_init_.Initialize()
 

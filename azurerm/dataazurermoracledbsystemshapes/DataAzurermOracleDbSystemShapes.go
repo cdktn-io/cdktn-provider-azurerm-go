@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_db_system_shapes azurerm_oracle_db_system_shapes}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/oracle_db_system_shapes azurerm_oracle_db_system_shapes}.
 type DataAzurermOracleDbSystemShapes interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -356,7 +356,7 @@ func (j *jsiiProxy_DataAzurermOracleDbSystemShapes) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_db_system_shapes azurerm_oracle_db_system_shapes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/oracle_db_system_shapes azurerm_oracle_db_system_shapes} Data Source.
 func NewDataAzurermOracleDbSystemShapes(scope constructs.Construct, id *string, config *DataAzurermOracleDbSystemShapesConfig) DataAzurermOracleDbSystemShapes {
 	_init_.Initialize()
 
@@ -374,7 +374,7 @@ func NewDataAzurermOracleDbSystemShapes(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/oracle_db_system_shapes azurerm_oracle_db_system_shapes} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/oracle_db_system_shapes azurerm_oracle_db_system_shapes} Data Source.
 func NewDataAzurermOracleDbSystemShapes_Override(d DataAzurermOracleDbSystemShapes, scope constructs.Construct, id *string, config *DataAzurermOracleDbSystemShapesConfig) {
 	_init_.Initialize()
 

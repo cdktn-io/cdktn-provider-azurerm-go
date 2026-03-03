@@ -5,7 +5,7 @@ package dataazurermdynatracemonitor
 
 
 type DataAzurermDynatraceMonitorTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.0/docs/data-sources/dynatrace_monitor#read DataAzurermDynatraceMonitor#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/dynatrace_monitor#read DataAzurermDynatraceMonitor#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 
