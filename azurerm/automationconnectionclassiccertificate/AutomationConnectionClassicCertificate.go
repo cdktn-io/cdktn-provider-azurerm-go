@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/automation_connection_classic_certificate azurerm_automation_connection_classic_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/automation_connection_classic_certificate azurerm_automation_connection_classic_certificate}.
 type AutomationConnectionClassicCertificate interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_AutomationConnectionClassicCertificate) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/automation_connection_classic_certificate azurerm_automation_connection_classic_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/automation_connection_classic_certificate azurerm_automation_connection_classic_certificate} Resource.
 func NewAutomationConnectionClassicCertificate(scope constructs.Construct, id *string, config *AutomationConnectionClassicCertificateConfig) AutomationConnectionClassicCertificate {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewAutomationConnectionClassicCertificate(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/automation_connection_classic_certificate azurerm_automation_connection_classic_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/automation_connection_classic_certificate azurerm_automation_connection_classic_certificate} Resource.
 func NewAutomationConnectionClassicCertificate_Override(a AutomationConnectionClassicCertificate, scope constructs.Construct, id *string, config *AutomationConnectionClassicCertificateConfig) {
 	_init_.Initialize()
 

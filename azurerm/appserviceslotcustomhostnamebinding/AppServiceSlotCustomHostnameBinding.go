@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/app_service_slot_custom_hostname_binding azurerm_app_service_slot_custom_hostname_binding}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/app_service_slot_custom_hostname_binding azurerm_app_service_slot_custom_hostname_binding}.
 type AppServiceSlotCustomHostnameBinding interface {
 	cdktn.TerraformResource
 	AppServiceSlotId() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_AppServiceSlotCustomHostnameBinding) VirtualIp() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/app_service_slot_custom_hostname_binding azurerm_app_service_slot_custom_hostname_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/app_service_slot_custom_hostname_binding azurerm_app_service_slot_custom_hostname_binding} Resource.
 func NewAppServiceSlotCustomHostnameBinding(scope constructs.Construct, id *string, config *AppServiceSlotCustomHostnameBindingConfig) AppServiceSlotCustomHostnameBinding {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewAppServiceSlotCustomHostnameBinding(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/app_service_slot_custom_hostname_binding azurerm_app_service_slot_custom_hostname_binding} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/app_service_slot_custom_hostname_binding azurerm_app_service_slot_custom_hostname_binding} Resource.
 func NewAppServiceSlotCustomHostnameBinding_Override(a AppServiceSlotCustomHostnameBinding, scope constructs.Construct, id *string, config *AppServiceSlotCustomHostnameBindingConfig) {
 	_init_.Initialize()
 

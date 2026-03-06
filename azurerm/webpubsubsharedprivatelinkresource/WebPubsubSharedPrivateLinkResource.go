@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/web_pubsub_shared_private_link_resource azurerm_web_pubsub_shared_private_link_resource}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/web_pubsub_shared_private_link_resource azurerm_web_pubsub_shared_private_link_resource}.
 type WebPubsubSharedPrivateLinkResource interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_WebPubsubSharedPrivateLinkResource) WebPubsubIdInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/web_pubsub_shared_private_link_resource azurerm_web_pubsub_shared_private_link_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/web_pubsub_shared_private_link_resource azurerm_web_pubsub_shared_private_link_resource} Resource.
 func NewWebPubsubSharedPrivateLinkResource(scope constructs.Construct, id *string, config *WebPubsubSharedPrivateLinkResourceConfig) WebPubsubSharedPrivateLinkResource {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewWebPubsubSharedPrivateLinkResource(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/web_pubsub_shared_private_link_resource azurerm_web_pubsub_shared_private_link_resource} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/web_pubsub_shared_private_link_resource azurerm_web_pubsub_shared_private_link_resource} Resource.
 func NewWebPubsubSharedPrivateLinkResource_Override(w WebPubsubSharedPrivateLinkResource, scope constructs.Construct, id *string, config *WebPubsubSharedPrivateLinkResourceConfig) {
 	_init_.Initialize()
 

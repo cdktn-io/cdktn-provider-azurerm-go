@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/api_management_user azurerm_api_management_user}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/api_management_user azurerm_api_management_user}.
 type DataAzurermApiManagementUser interface {
 	cdktn.TerraformDataSource
 	ApiManagementName() *string
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataAzurermApiManagementUser) UserIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
 func NewDataAzurermApiManagementUser(scope constructs.Construct, id *string, config *DataAzurermApiManagementUserConfig) DataAzurermApiManagementUser {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewDataAzurermApiManagementUser(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/api_management_user azurerm_api_management_user} Data Source.
 func NewDataAzurermApiManagementUser_Override(d DataAzurermApiManagementUser, scope constructs.Construct, id *string, config *DataAzurermApiManagementUserConfig) {
 	_init_.Initialize()
 

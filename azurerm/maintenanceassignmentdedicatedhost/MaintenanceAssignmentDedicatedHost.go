@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/maintenance_assignment_dedicated_host azurerm_maintenance_assignment_dedicated_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/maintenance_assignment_dedicated_host azurerm_maintenance_assignment_dedicated_host}.
 type MaintenanceAssignmentDedicatedHost interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_MaintenanceAssignmentDedicatedHost) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/maintenance_assignment_dedicated_host azurerm_maintenance_assignment_dedicated_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/maintenance_assignment_dedicated_host azurerm_maintenance_assignment_dedicated_host} Resource.
 func NewMaintenanceAssignmentDedicatedHost(scope constructs.Construct, id *string, config *MaintenanceAssignmentDedicatedHostConfig) MaintenanceAssignmentDedicatedHost {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewMaintenanceAssignmentDedicatedHost(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/maintenance_assignment_dedicated_host azurerm_maintenance_assignment_dedicated_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/maintenance_assignment_dedicated_host azurerm_maintenance_assignment_dedicated_host} Resource.
 func NewMaintenanceAssignmentDedicatedHost_Override(m MaintenanceAssignmentDedicatedHost, scope constructs.Construct, id *string, config *MaintenanceAssignmentDedicatedHostConfig) {
 	_init_.Initialize()
 

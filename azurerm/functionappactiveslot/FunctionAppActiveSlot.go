@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/function_app_active_slot azurerm_function_app_active_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot}.
 type FunctionAppActiveSlot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -401,7 +401,7 @@ func (j *jsiiProxy_FunctionAppActiveSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
 func NewFunctionAppActiveSlot(scope constructs.Construct, id *string, config *FunctionAppActiveSlotConfig) FunctionAppActiveSlot {
 	_init_.Initialize()
 
@@ -419,7 +419,7 @@ func NewFunctionAppActiveSlot(scope constructs.Construct, id *string, config *Fu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/function_app_active_slot azurerm_function_app_active_slot} Resource.
 func NewFunctionAppActiveSlot_Override(f FunctionAppActiveSlot, scope constructs.Construct, id *string, config *FunctionAppActiveSlotConfig) {
 	_init_.Initialize()
 

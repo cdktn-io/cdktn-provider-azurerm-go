@@ -41,6 +41,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "disableCorrelationRequestIdInput", GoGetter: "DisableCorrelationRequestIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "disableTerraformPartnerId", GoGetter: "DisableTerraformPartnerId"},
 			_jsii_.MemberProperty{JsiiProperty: "disableTerraformPartnerIdInput", GoGetter: "DisableTerraformPartnerIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "enhancedValidation", GoGetter: "EnhancedValidation"},
+			_jsii_.MemberProperty{JsiiProperty: "enhancedValidationInput", GoGetter: "EnhancedValidationInput"},
 			_jsii_.MemberProperty{JsiiProperty: "environment", GoGetter: "Environment"},
 			_jsii_.MemberProperty{JsiiProperty: "environmentInput", GoGetter: "EnvironmentInput"},
 			_jsii_.MemberProperty{JsiiProperty: "features", GoGetter: "Features"},
@@ -79,6 +81,7 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "resetClientSecretFilePath", GoMethod: "ResetClientSecretFilePath"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisableCorrelationRequestId", GoMethod: "ResetDisableCorrelationRequestId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetDisableTerraformPartnerId", GoMethod: "ResetDisableTerraformPartnerId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEnhancedValidation", GoMethod: "ResetEnhancedValidation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnvironment", GoMethod: "ResetEnvironment"},
 			_jsii_.MemberMethod{JsiiMethod: "resetFeatures", GoMethod: "ResetFeatures"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMetadataHost", GoMethod: "ResetMetadataHost"},
@@ -140,6 +143,10 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.provider.AzurermProviderConfig",
 		reflect.TypeOf((*AzurermProviderConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.provider.AzurermProviderEnhancedValidation",
+		reflect.TypeOf((*AzurermProviderEnhancedValidation)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.provider.AzurermProviderFeatures",

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/network_watcher azurerm_network_watcher}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/network_watcher azurerm_network_watcher}.
 type DataAzurermNetworkWatcher interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DataAzurermNetworkWatcher) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
 func NewDataAzurermNetworkWatcher(scope constructs.Construct, id *string, config *DataAzurermNetworkWatcherConfig) DataAzurermNetworkWatcher {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDataAzurermNetworkWatcher(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/network_watcher azurerm_network_watcher} Data Source.
 func NewDataAzurermNetworkWatcher_Override(d DataAzurermNetworkWatcher, scope constructs.Construct, id *string, config *DataAzurermNetworkWatcherConfig) {
 	_init_.Initialize()
 

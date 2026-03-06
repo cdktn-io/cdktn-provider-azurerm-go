@@ -5,7 +5,7 @@ package datashareaccount
 
 
 type DataShareAccountIdentity struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/data_share_account#type DataShareAccount#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/data_share_account#type DataShareAccount#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

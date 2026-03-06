@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project}.
 type SentinelDataConnectorOffice365Project interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_SentinelDataConnectorOffice365Project) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
 func NewSentinelDataConnectorOffice365Project(scope constructs.Construct, id *string, config *SentinelDataConnectorOffice365ProjectConfig) SentinelDataConnectorOffice365Project {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSentinelDataConnectorOffice365Project(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/sentinel_data_connector_office_365_project azurerm_sentinel_data_connector_office_365_project} Resource.
 func NewSentinelDataConnectorOffice365Project_Override(s SentinelDataConnectorOffice365Project, scope constructs.Construct, id *string, config *SentinelDataConnectorOffice365ProjectConfig) {
 	_init_.Initialize()
 

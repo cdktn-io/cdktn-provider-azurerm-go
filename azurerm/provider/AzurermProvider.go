@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs azurerm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs azurerm}.
 type AzurermProvider interface {
 	cdktn.TerraformProvider
 	AdoPipelineServiceConnectionId() *string
@@ -55,6 +55,9 @@ type AzurermProvider interface {
 	DisableTerraformPartnerId() interface{}
 	SetDisableTerraformPartnerId(val interface{})
 	DisableTerraformPartnerIdInput() interface{}
+	EnhancedValidation() interface{}
+	SetEnhancedValidation(val interface{})
+	EnhancedValidationInput() interface{}
 	Environment() *string
 	SetEnvironment(val *string)
 	EnvironmentInput() *string
@@ -148,6 +151,7 @@ type AzurermProvider interface {
 	ResetClientSecretFilePath()
 	ResetDisableCorrelationRequestId()
 	ResetDisableTerraformPartnerId()
+	ResetEnhancedValidation()
 	ResetEnvironment()
 	ResetFeatures()
 	ResetMetadataHost()
@@ -453,6 +457,26 @@ func (j *jsiiProxy_AzurermProvider) DisableTerraformPartnerIdInput() interface{}
 	_jsii_.Get(
 		j,
 		"disableTerraformPartnerIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AzurermProvider) EnhancedValidation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enhancedValidation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AzurermProvider) EnhancedValidationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enhancedValidationInput",
 		&returns,
 	)
 	return returns
@@ -939,7 +963,7 @@ func (j *jsiiProxy_AzurermProvider) UseOidcInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs azurerm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs azurerm} Resource.
 func NewAzurermProvider(scope constructs.Construct, id *string, config *AzurermProviderConfig) AzurermProvider {
 	_init_.Initialize()
 
@@ -957,7 +981,7 @@ func NewAzurermProvider(scope constructs.Construct, id *string, config *AzurermP
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs azurerm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs azurerm} Resource.
 func NewAzurermProvider_Override(a AzurermProvider, scope constructs.Construct, id *string, config *AzurermProviderConfig) {
 	_init_.Initialize()
 
@@ -1066,6 +1090,17 @@ func (j *jsiiProxy_AzurermProvider)SetDisableTerraformPartnerId(val interface{})
 	_jsii_.Set(
 		j,
 		"disableTerraformPartnerId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AzurermProvider)SetEnhancedValidation(val interface{}) {
+	if err := j.validateSetEnhancedValidationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enhancedValidation",
 		val,
 	)
 }
@@ -1468,6 +1503,14 @@ func (a *jsiiProxy_AzurermProvider) ResetDisableTerraformPartnerId() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetDisableTerraformPartnerId",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AzurermProvider) ResetEnhancedValidation() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetEnhancedValidation",
 		nil, // no parameters
 	)
 }

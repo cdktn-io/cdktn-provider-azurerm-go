@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage}.
 type ContainerAppEnvironmentStorage interface {
 	cdktn.TerraformResource
 	AccessKey() *string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_ContainerAppEnvironmentStorage) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
 func NewContainerAppEnvironmentStorage(scope constructs.Construct, id *string, config *ContainerAppEnvironmentStorageConfig) ContainerAppEnvironmentStorage {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewContainerAppEnvironmentStorage(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/container_app_environment_storage azurerm_container_app_environment_storage} Resource.
 func NewContainerAppEnvironmentStorage_Override(c ContainerAppEnvironmentStorage, scope constructs.Construct, id *string, config *ContainerAppEnvironmentStorageConfig) {
 	_init_.Initialize()
 

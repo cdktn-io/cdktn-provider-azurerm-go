@@ -5,7 +5,7 @@ package dataazurermapimanagementworkspace
 
 
 type DataAzurermApiManagementWorkspaceTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/api_management_workspace#read DataAzurermApiManagementWorkspace#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/api_management_workspace#read DataAzurermApiManagementWorkspace#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

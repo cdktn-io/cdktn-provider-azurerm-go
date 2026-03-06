@@ -5,7 +5,7 @@ package dataazurermoracleexadatainfrastructure
 
 
 type DataAzurermOracleExadataInfrastructureTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/data-sources/oracle_exadata_infrastructure#read DataAzurermOracleExadataInfrastructure#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/oracle_exadata_infrastructure#read DataAzurermOracleExadataInfrastructure#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

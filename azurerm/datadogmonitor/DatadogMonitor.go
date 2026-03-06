@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/datadog_monitor azurerm_datadog_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/datadog_monitor azurerm_datadog_monitor}.
 type DatadogMonitor interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -564,7 +564,7 @@ func (j *jsiiProxy_DatadogMonitor) UserInput() *DatadogMonitorUser {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/datadog_monitor azurerm_datadog_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/datadog_monitor azurerm_datadog_monitor} Resource.
 func NewDatadogMonitor(scope constructs.Construct, id *string, config *DatadogMonitorConfig) DatadogMonitor {
 	_init_.Initialize()
 
@@ -582,7 +582,7 @@ func NewDatadogMonitor(scope constructs.Construct, id *string, config *DatadogMo
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.62.1/docs/resources/datadog_monitor azurerm_datadog_monitor} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/datadog_monitor azurerm_datadog_monitor} Resource.
 func NewDatadogMonitor_Override(d DatadogMonitor, scope constructs.Construct, id *string, config *DatadogMonitorConfig) {
 	_init_.Initialize()
 
