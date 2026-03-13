@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/arc_machine azurerm_arc_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/arc_machine azurerm_arc_machine}.
 type ArcMachine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -483,7 +483,7 @@ func (j *jsiiProxy_ArcMachine) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
 func NewArcMachine(scope constructs.Construct, id *string, config *ArcMachineConfig) ArcMachine {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewArcMachine(scope constructs.Construct, id *string, config *ArcMachineCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/arc_machine azurerm_arc_machine} Resource.
 func NewArcMachine_Override(a ArcMachine, scope constructs.Construct, id *string, config *ArcMachineConfig) {
 	_init_.Initialize()
 

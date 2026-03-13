@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_server_key azurerm_postgresql_server_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_server_key azurerm_postgresql_server_key}.
 type PostgresqlServerKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_PostgresqlServerKey) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_server_key azurerm_postgresql_server_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_server_key azurerm_postgresql_server_key} Resource.
 func NewPostgresqlServerKey(scope constructs.Construct, id *string, config *PostgresqlServerKeyConfig) PostgresqlServerKey {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewPostgresqlServerKey(scope constructs.Construct, id *string, config *Post
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_server_key azurerm_postgresql_server_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_server_key azurerm_postgresql_server_key} Resource.
 func NewPostgresqlServerKey_Override(p PostgresqlServerKey, scope constructs.Construct, id *string, config *PostgresqlServerKeyConfig) {
 	_init_.Initialize()
 

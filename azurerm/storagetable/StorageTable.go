@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/storage_table azurerm_storage_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/storage_table azurerm_storage_table}.
 type StorageTable interface {
 	cdktn.TerraformResource
 	Acl() StorageTableAclList
@@ -424,7 +424,7 @@ func (j *jsiiProxy_StorageTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/storage_table azurerm_storage_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/storage_table azurerm_storage_table} Resource.
 func NewStorageTable(scope constructs.Construct, id *string, config *StorageTableConfig) StorageTable {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewStorageTable(scope constructs.Construct, id *string, config *StorageTabl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/storage_table azurerm_storage_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/storage_table azurerm_storage_table} Resource.
 func NewStorageTable_Override(s StorageTable, scope constructs.Construct, id *string, config *StorageTableConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_flexible_server_virtual_endpoint azurerm_postgresql_flexible_server_virtual_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_flexible_server_virtual_endpoint azurerm_postgresql_flexible_server_virtual_endpoint}.
 type PostgresqlFlexibleServerVirtualEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerVirtualEndpoint) TypeInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_flexible_server_virtual_endpoint azurerm_postgresql_flexible_server_virtual_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_flexible_server_virtual_endpoint azurerm_postgresql_flexible_server_virtual_endpoint} Resource.
 func NewPostgresqlFlexibleServerVirtualEndpoint(scope constructs.Construct, id *string, config *PostgresqlFlexibleServerVirtualEndpointConfig) PostgresqlFlexibleServerVirtualEndpoint {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewPostgresqlFlexibleServerVirtualEndpoint(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_flexible_server_virtual_endpoint azurerm_postgresql_flexible_server_virtual_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_flexible_server_virtual_endpoint azurerm_postgresql_flexible_server_virtual_endpoint} Resource.
 func NewPostgresqlFlexibleServerVirtualEndpoint_Override(p PostgresqlFlexibleServerVirtualEndpoint, scope constructs.Construct, id *string, config *PostgresqlFlexibleServerVirtualEndpointConfig) {
 	_init_.Initialize()
 

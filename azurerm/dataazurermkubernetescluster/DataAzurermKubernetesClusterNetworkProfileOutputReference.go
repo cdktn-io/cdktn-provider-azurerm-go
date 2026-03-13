@@ -37,6 +37,7 @@ type DataAzurermKubernetesClusterNetworkProfileOutputReference interface {
 	LoadBalancerSku() *string
 	NetworkPlugin() *string
 	NetworkPolicy() *string
+	OutboundType() *string
 	PodCidr() *string
 	ServiceCidr() *string
 	// Experimental.
@@ -181,6 +182,16 @@ func (j *jsiiProxy_DataAzurermKubernetesClusterNetworkProfileOutputReference) Ne
 	_jsii_.Get(
 		j,
 		"networkPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermKubernetesClusterNetworkProfileOutputReference) OutboundType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"outboundType",
 		&returns,
 	)
 	return returns

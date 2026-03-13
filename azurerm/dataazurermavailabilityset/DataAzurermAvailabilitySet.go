@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/availability_set azurerm_availability_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/availability_set azurerm_availability_set}.
 type DataAzurermAvailabilitySet interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAzurermAvailabilitySet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/availability_set azurerm_availability_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/availability_set azurerm_availability_set} Data Source.
 func NewDataAzurermAvailabilitySet(scope constructs.Construct, id *string, config *DataAzurermAvailabilitySetConfig) DataAzurermAvailabilitySet {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAzurermAvailabilitySet(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/availability_set azurerm_availability_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/availability_set azurerm_availability_set} Data Source.
 func NewDataAzurermAvailabilitySet_Override(d DataAzurermAvailabilitySet, scope constructs.Construct, id *string, config *DataAzurermAvailabilitySetConfig) {
 	_init_.Initialize()
 

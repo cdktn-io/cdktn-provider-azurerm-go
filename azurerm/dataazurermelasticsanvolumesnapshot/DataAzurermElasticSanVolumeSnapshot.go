@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/elastic_san_volume_snapshot azurerm_elastic_san_volume_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/elastic_san_volume_snapshot azurerm_elastic_san_volume_snapshot}.
 type DataAzurermElasticSanVolumeSnapshot interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataAzurermElasticSanVolumeSnapshot) VolumeName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/elastic_san_volume_snapshot azurerm_elastic_san_volume_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/elastic_san_volume_snapshot azurerm_elastic_san_volume_snapshot} Data Source.
 func NewDataAzurermElasticSanVolumeSnapshot(scope constructs.Construct, id *string, config *DataAzurermElasticSanVolumeSnapshotConfig) DataAzurermElasticSanVolumeSnapshot {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewDataAzurermElasticSanVolumeSnapshot(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/elastic_san_volume_snapshot azurerm_elastic_san_volume_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/elastic_san_volume_snapshot azurerm_elastic_san_volume_snapshot} Data Source.
 func NewDataAzurermElasticSanVolumeSnapshot_Override(d DataAzurermElasticSanVolumeSnapshot, scope constructs.Construct, id *string, config *DataAzurermElasticSanVolumeSnapshotConfig) {
 	_init_.Initialize()
 

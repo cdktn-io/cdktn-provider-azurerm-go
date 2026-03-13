@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function}.
 type StreamAnalyticsOutputFunction interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputFunction) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
 func NewStreamAnalyticsOutputFunction(scope constructs.Construct, id *string, config *StreamAnalyticsOutputFunctionConfig) StreamAnalyticsOutputFunction {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewStreamAnalyticsOutputFunction(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/stream_analytics_output_function azurerm_stream_analytics_output_function} Resource.
 func NewStreamAnalyticsOutputFunction_Override(s StreamAnalyticsOutputFunction, scope constructs.Construct, id *string, config *StreamAnalyticsOutputFunctionConfig) {
 	_init_.Initialize()
 

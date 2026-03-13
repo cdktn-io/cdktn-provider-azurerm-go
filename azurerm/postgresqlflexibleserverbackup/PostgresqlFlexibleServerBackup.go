@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_flexible_server_backup azurerm_postgresql_flexible_server_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_flexible_server_backup azurerm_postgresql_flexible_server_backup}.
 type PostgresqlFlexibleServerBackup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerBackup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_flexible_server_backup azurerm_postgresql_flexible_server_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_flexible_server_backup azurerm_postgresql_flexible_server_backup} Resource.
 func NewPostgresqlFlexibleServerBackup(scope constructs.Construct, id *string, config *PostgresqlFlexibleServerBackupConfig) PostgresqlFlexibleServerBackup {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewPostgresqlFlexibleServerBackup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/postgresql_flexible_server_backup azurerm_postgresql_flexible_server_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/postgresql_flexible_server_backup azurerm_postgresql_flexible_server_backup} Resource.
 func NewPostgresqlFlexibleServerBackup_Override(p PostgresqlFlexibleServerBackup, scope constructs.Construct, id *string, config *PostgresqlFlexibleServerBackupConfig) {
 	_init_.Initialize()
 

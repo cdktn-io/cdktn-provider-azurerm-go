@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
 type ApplicationLoadBalancer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ApplicationLoadBalancer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) ApplicationLoadBalancer {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer_Override(a ApplicationLoadBalancer, scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) {
 	_init_.Initialize()
 

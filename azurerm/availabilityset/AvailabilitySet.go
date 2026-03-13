@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/availability_set azurerm_availability_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/availability_set azurerm_availability_set}.
 type AvailabilitySet interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -532,7 +532,7 @@ func (j *jsiiProxy_AvailabilitySet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/availability_set azurerm_availability_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/availability_set azurerm_availability_set} Resource.
 func NewAvailabilitySet(scope constructs.Construct, id *string, config *AvailabilitySetConfig) AvailabilitySet {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewAvailabilitySet(scope constructs.Construct, id *string, config *Availabi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/availability_set azurerm_availability_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/availability_set azurerm_availability_set} Resource.
 func NewAvailabilitySet_Override(a AvailabilitySet, scope constructs.Construct, id *string, config *AvailabilitySetConfig) {
 	_init_.Initialize()
 

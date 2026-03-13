@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/stream_analytics_function_javascript_uda azurerm_stream_analytics_function_javascript_uda}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/stream_analytics_function_javascript_uda azurerm_stream_analytics_function_javascript_uda}.
 type StreamAnalyticsFunctionJavascriptUda interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_StreamAnalyticsFunctionJavascriptUda) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/stream_analytics_function_javascript_uda azurerm_stream_analytics_function_javascript_uda} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/stream_analytics_function_javascript_uda azurerm_stream_analytics_function_javascript_uda} Resource.
 func NewStreamAnalyticsFunctionJavascriptUda(scope constructs.Construct, id *string, config *StreamAnalyticsFunctionJavascriptUdaConfig) StreamAnalyticsFunctionJavascriptUda {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewStreamAnalyticsFunctionJavascriptUda(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/resources/stream_analytics_function_javascript_uda azurerm_stream_analytics_function_javascript_uda} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/stream_analytics_function_javascript_uda azurerm_stream_analytics_function_javascript_uda} Resource.
 func NewStreamAnalyticsFunctionJavascriptUda_Override(s StreamAnalyticsFunctionJavascriptUda, scope constructs.Construct, id *string, config *StreamAnalyticsFunctionJavascriptUdaConfig) {
 	_init_.Initialize()
 

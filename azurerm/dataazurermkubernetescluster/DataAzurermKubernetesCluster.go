@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster}.
 type DataAzurermKubernetesCluster interface {
 	cdktn.TerraformDataSource
 	AciConnectorLinux() DataAzurermKubernetesClusterAciConnectorLinuxList
@@ -20,6 +20,7 @@ type DataAzurermKubernetesCluster interface {
 	ApiServerAuthorizedIpRanges() *[]*string
 	AzureActiveDirectoryRoleBasedAccessControl() DataAzurermKubernetesClusterAzureActiveDirectoryRoleBasedAccessControlList
 	AzurePolicyEnabled() cdktn.IResolvable
+	BootstrapProfile() DataAzurermKubernetesClusterBootstrapProfileList
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -207,6 +208,16 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) AzurePolicyEnabled() cdktn.IRes
 	_jsii_.Get(
 		j,
 		"azurePolicyEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermKubernetesCluster) BootstrapProfile() DataAzurermKubernetesClusterBootstrapProfileList {
+	var returns DataAzurermKubernetesClusterBootstrapProfileList
+	_jsii_.Get(
+		j,
+		"bootstrapProfile",
 		&returns,
 	)
 	return returns
@@ -773,7 +784,7 @@ func (j *jsiiProxy_DataAzurermKubernetesCluster) WindowsProfile() DataAzurermKub
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
 func NewDataAzurermKubernetesCluster(scope constructs.Construct, id *string, config *DataAzurermKubernetesClusterConfig) DataAzurermKubernetesCluster {
 	_init_.Initialize()
 
@@ -791,7 +802,7 @@ func NewDataAzurermKubernetesCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.63.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/kubernetes_cluster azurerm_kubernetes_cluster} Data Source.
 func NewDataAzurermKubernetesCluster_Override(d DataAzurermKubernetesCluster, scope constructs.Construct, id *string, config *DataAzurermKubernetesClusterConfig) {
 	_init_.Initialize()
 
