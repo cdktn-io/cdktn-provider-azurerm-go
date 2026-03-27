@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure}.
 type CosmosdbSqlStoredProcedure interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -481,7 +481,7 @@ func (j *jsiiProxy_CosmosdbSqlStoredProcedure) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
 func NewCosmosdbSqlStoredProcedure(scope constructs.Construct, id *string, config *CosmosdbSqlStoredProcedureConfig) CosmosdbSqlStoredProcedure {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewCosmosdbSqlStoredProcedure(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/cosmosdb_sql_stored_procedure azurerm_cosmosdb_sql_stored_procedure} Resource.
 func NewCosmosdbSqlStoredProcedure_Override(c CosmosdbSqlStoredProcedure, scope constructs.Construct, id *string, config *CosmosdbSqlStoredProcedureConfig) {
 	_init_.Initialize()
 

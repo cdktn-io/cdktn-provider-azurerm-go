@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group}.
 type NetworkManagerNetworkGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_NetworkManagerNetworkGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
 func NewNetworkManagerNetworkGroup(scope constructs.Construct, id *string, config *NetworkManagerNetworkGroupConfig) NetworkManagerNetworkGroup {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewNetworkManagerNetworkGroup(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/network_manager_network_group azurerm_network_manager_network_group} Resource.
 func NewNetworkManagerNetworkGroup_Override(n NetworkManagerNetworkGroup, scope constructs.Construct, id *string, config *NetworkManagerNetworkGroupConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential}.
 type FederatedIdentityCredential interface {
 	cdktn.TerraformResource
 	Audience() *[]*string
@@ -84,6 +84,9 @@ type FederatedIdentityCredential interface {
 	TerraformResourceType() *string
 	Timeouts() FederatedIdentityCredentialTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	UserAssignedIdentityId() *string
+	SetUserAssignedIdentityId(val *string)
+	UserAssignedIdentityIdInput() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -132,8 +135,10 @@ type FederatedIdentityCredential interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetParentId()
 	ResetResourceGroupName()
 	ResetTimeouts()
+	ResetUserAssignedIdentityId()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
 	// Experimental.
@@ -481,8 +486,28 @@ func (j *jsiiProxy_FederatedIdentityCredential) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_FederatedIdentityCredential) UserAssignedIdentityId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"userAssignedIdentityId",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
+func (j *jsiiProxy_FederatedIdentityCredential) UserAssignedIdentityIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"userAssignedIdentityIdInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
 func NewFederatedIdentityCredential(scope constructs.Construct, id *string, config *FederatedIdentityCredentialConfig) FederatedIdentityCredential {
 	_init_.Initialize()
 
@@ -500,7 +525,7 @@ func NewFederatedIdentityCredential(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/federated_identity_credential azurerm_federated_identity_credential} Resource.
 func NewFederatedIdentityCredential_Override(f FederatedIdentityCredential, scope constructs.Construct, id *string, config *FederatedIdentityCredentialConfig) {
 	_init_.Initialize()
 
@@ -652,6 +677,17 @@ func (j *jsiiProxy_FederatedIdentityCredential)SetSubject(val *string) {
 	_jsii_.Set(
 		j,
 		"subject",
+		val,
+	)
+}
+
+func (j *jsiiProxy_FederatedIdentityCredential)SetUserAssignedIdentityId(val *string) {
+	if err := j.validateSetUserAssignedIdentityIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"userAssignedIdentityId",
 		val,
 	)
 }
@@ -1036,6 +1072,14 @@ func (f *jsiiProxy_FederatedIdentityCredential) ResetOverrideLogicalId() {
 	)
 }
 
+func (f *jsiiProxy_FederatedIdentityCredential) ResetParentId() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetParentId",
+		nil, // no parameters
+	)
+}
+
 func (f *jsiiProxy_FederatedIdentityCredential) ResetResourceGroupName() {
 	_jsii_.InvokeVoid(
 		f,
@@ -1048,6 +1092,14 @@ func (f *jsiiProxy_FederatedIdentityCredential) ResetTimeouts() {
 	_jsii_.InvokeVoid(
 		f,
 		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (f *jsiiProxy_FederatedIdentityCredential) ResetUserAssignedIdentityId() {
+	_jsii_.InvokeVoid(
+		f,
+		"resetUserAssignedIdentityId",
 		nil, // no parameters
 	)
 }

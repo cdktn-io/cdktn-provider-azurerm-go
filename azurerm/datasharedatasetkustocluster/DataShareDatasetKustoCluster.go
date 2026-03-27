@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/data_share_dataset_kusto_cluster azurerm_data_share_dataset_kusto_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/data_share_dataset_kusto_cluster azurerm_data_share_dataset_kusto_cluster}.
 type DataShareDatasetKustoCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -434,7 +434,7 @@ func (j *jsiiProxy_DataShareDatasetKustoCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/data_share_dataset_kusto_cluster azurerm_data_share_dataset_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/data_share_dataset_kusto_cluster azurerm_data_share_dataset_kusto_cluster} Resource.
 func NewDataShareDatasetKustoCluster(scope constructs.Construct, id *string, config *DataShareDatasetKustoClusterConfig) DataShareDatasetKustoCluster {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewDataShareDatasetKustoCluster(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/data_share_dataset_kusto_cluster azurerm_data_share_dataset_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/data_share_dataset_kusto_cluster azurerm_data_share_dataset_kusto_cluster} Resource.
 func NewDataShareDatasetKustoCluster_Override(d DataShareDatasetKustoCluster, scope constructs.Construct, id *string, config *DataShareDatasetKustoClusterConfig) {
 	_init_.Initialize()
 

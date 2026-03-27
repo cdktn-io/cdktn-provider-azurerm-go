@@ -127,6 +127,10 @@ func (j *jsiiProxy_CognitiveAccountRaiBlocklist) validateSetProvisionersParamete
 	return nil
 }
 
+func (j *jsiiProxy_CognitiveAccountRaiBlocklist) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func validateNewCognitiveAccountRaiBlocklistParameters(scope constructs.Construct, id *string, config *CognitiveAccountRaiBlocklistConfig) error {
 	return nil
 }

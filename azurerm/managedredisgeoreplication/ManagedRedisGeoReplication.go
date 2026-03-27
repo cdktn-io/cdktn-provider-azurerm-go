@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/managed_redis_geo_replication azurerm_managed_redis_geo_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/managed_redis_geo_replication azurerm_managed_redis_geo_replication}.
 type ManagedRedisGeoReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ManagedRedisGeoReplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/managed_redis_geo_replication azurerm_managed_redis_geo_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/managed_redis_geo_replication azurerm_managed_redis_geo_replication} Resource.
 func NewManagedRedisGeoReplication(scope constructs.Construct, id *string, config *ManagedRedisGeoReplicationConfig) ManagedRedisGeoReplication {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewManagedRedisGeoReplication(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/managed_redis_geo_replication azurerm_managed_redis_geo_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/managed_redis_geo_replication azurerm_managed_redis_geo_replication} Resource.
 func NewManagedRedisGeoReplication_Override(m ManagedRedisGeoReplication, scope constructs.Construct, id *string, config *ManagedRedisGeoReplicationConfig) {
 	_init_.Initialize()
 

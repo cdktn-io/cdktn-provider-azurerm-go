@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem}.
 type StorageDataLakeGen2Filesystem interface {
 	cdktn.TerraformResource
 	Ace() StorageDataLakeGen2FilesystemAceList
@@ -509,7 +509,7 @@ func (j *jsiiProxy_StorageDataLakeGen2Filesystem) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
 func NewStorageDataLakeGen2Filesystem(scope constructs.Construct, id *string, config *StorageDataLakeGen2FilesystemConfig) StorageDataLakeGen2Filesystem {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewStorageDataLakeGen2Filesystem(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/storage_data_lake_gen2_filesystem azurerm_storage_data_lake_gen2_filesystem} Resource.
 func NewStorageDataLakeGen2Filesystem_Override(s StorageDataLakeGen2Filesystem, scope constructs.Construct, id *string, config *StorageDataLakeGen2FilesystemConfig) {
 	_init_.Initialize()
 

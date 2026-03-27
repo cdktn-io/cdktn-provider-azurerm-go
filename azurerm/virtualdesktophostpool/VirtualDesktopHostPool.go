@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/virtual_desktop_host_pool azurerm_virtual_desktop_host_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/virtual_desktop_host_pool azurerm_virtual_desktop_host_pool}.
 type VirtualDesktopHostPool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -746,7 +746,7 @@ func (j *jsiiProxy_VirtualDesktopHostPool) VmTemplateInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/virtual_desktop_host_pool azurerm_virtual_desktop_host_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/virtual_desktop_host_pool azurerm_virtual_desktop_host_pool} Resource.
 func NewVirtualDesktopHostPool(scope constructs.Construct, id *string, config *VirtualDesktopHostPoolConfig) VirtualDesktopHostPool {
 	_init_.Initialize()
 
@@ -764,7 +764,7 @@ func NewVirtualDesktopHostPool(scope constructs.Construct, id *string, config *V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/virtual_desktop_host_pool azurerm_virtual_desktop_host_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/virtual_desktop_host_pool azurerm_virtual_desktop_host_pool} Resource.
 func NewVirtualDesktopHostPool_Override(v VirtualDesktopHostPool, scope constructs.Construct, id *string, config *VirtualDesktopHostPoolConfig) {
 	_init_.Initialize()
 

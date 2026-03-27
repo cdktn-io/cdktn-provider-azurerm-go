@@ -139,6 +139,10 @@ func (j *jsiiProxy_FederatedIdentityCredential) validateSetSubjectParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_FederatedIdentityCredential) validateSetUserAssignedIdentityIdParameters(val *string) error {
+	return nil
+}
+
 func validateNewFederatedIdentityCredentialParameters(scope constructs.Construct, id *string, config *FederatedIdentityCredentialConfig) error {
 	return nil
 }

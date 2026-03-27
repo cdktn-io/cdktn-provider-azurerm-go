@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist}.
 type CognitiveAccountRaiBlocklist interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -67,6 +67,9 @@ type CognitiveAccountRaiBlocklist interface {
 	SetProvisioners(val *[]interface{})
 	// Experimental.
 	RawOverrides() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
 	// Experimental.
@@ -124,6 +127,7 @@ type CognitiveAccountRaiBlocklist interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetTags()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -362,6 +366,26 @@ func (j *jsiiProxy_CognitiveAccountRaiBlocklist) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_CognitiveAccountRaiBlocklist) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CognitiveAccountRaiBlocklist) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CognitiveAccountRaiBlocklist) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
 	var returns *cdktn.TerraformProviderGeneratorMetadata
 	_jsii_.Get(
@@ -413,7 +437,7 @@ func (j *jsiiProxy_CognitiveAccountRaiBlocklist) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
 func NewCognitiveAccountRaiBlocklist(scope constructs.Construct, id *string, config *CognitiveAccountRaiBlocklistConfig) CognitiveAccountRaiBlocklist {
 	_init_.Initialize()
 
@@ -431,7 +455,7 @@ func NewCognitiveAccountRaiBlocklist(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/cognitive_account_rai_blocklist azurerm_cognitive_account_rai_blocklist} Resource.
 func NewCognitiveAccountRaiBlocklist_Override(c CognitiveAccountRaiBlocklist, scope constructs.Construct, id *string, config *CognitiveAccountRaiBlocklistConfig) {
 	_init_.Initialize()
 
@@ -550,6 +574,17 @@ func (j *jsiiProxy_CognitiveAccountRaiBlocklist)SetProvisioners(val *[]interface
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CognitiveAccountRaiBlocklist)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -938,6 +973,14 @@ func (c *jsiiProxy_CognitiveAccountRaiBlocklist) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CognitiveAccountRaiBlocklist) ResetTags() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetTags",
 		nil, // no parameters
 	)
 }

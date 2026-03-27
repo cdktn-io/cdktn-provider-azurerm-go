@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key}.
 type DatabricksWorkspaceRootDbfsCustomerManagedKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DatabricksWorkspaceRootDbfsCustomerManagedKey) WorkspaceIdInp
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
 func NewDatabricksWorkspaceRootDbfsCustomerManagedKey(scope constructs.Construct, id *string, config *DatabricksWorkspaceRootDbfsCustomerManagedKeyConfig) DatabricksWorkspaceRootDbfsCustomerManagedKey {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDatabricksWorkspaceRootDbfsCustomerManagedKey(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/databricks_workspace_root_dbfs_customer_managed_key azurerm_databricks_workspace_root_dbfs_customer_managed_key} Resource.
 func NewDatabricksWorkspaceRootDbfsCustomerManagedKey_Override(d DatabricksWorkspaceRootDbfsCustomerManagedKey, scope constructs.Construct, id *string, config *DatabricksWorkspaceRootDbfsCustomerManagedKeyConfig) {
 	_init_.Initialize()
 

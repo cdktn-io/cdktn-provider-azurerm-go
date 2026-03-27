@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_load_balancer_subnet_association azurerm_application_load_balancer_subnet_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_load_balancer_subnet_association azurerm_application_load_balancer_subnet_association}.
 type ApplicationLoadBalancerSubnetAssociation interface {
 	cdktn.TerraformResource
 	ApplicationLoadBalancerId() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_load_balancer_subnet_association azurerm_application_load_balancer_subnet_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_load_balancer_subnet_association azurerm_application_load_balancer_subnet_association} Resource.
 func NewApplicationLoadBalancerSubnetAssociation(scope constructs.Construct, id *string, config *ApplicationLoadBalancerSubnetAssociationConfig) ApplicationLoadBalancerSubnetAssociation {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewApplicationLoadBalancerSubnetAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_load_balancer_subnet_association azurerm_application_load_balancer_subnet_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_load_balancer_subnet_association azurerm_application_load_balancer_subnet_association} Resource.
 func NewApplicationLoadBalancerSubnetAssociation_Override(a ApplicationLoadBalancerSubnetAssociation, scope constructs.Construct, id *string, config *ApplicationLoadBalancerSubnetAssociationConfig) {
 	_init_.Initialize()
 

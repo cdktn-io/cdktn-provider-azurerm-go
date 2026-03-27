@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/mssql_server_microsoft_support_auditing_policy azurerm_mssql_server_microsoft_support_auditing_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/mssql_server_microsoft_support_auditing_policy azurerm_mssql_server_microsoft_support_auditing_policy}.
 type MssqlServerMicrosoftSupportAuditingPolicy interface {
 	cdktn.TerraformResource
 	BlobStorageEndpoint() *string
@@ -486,7 +486,7 @@ func (j *jsiiProxy_MssqlServerMicrosoftSupportAuditingPolicy) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/mssql_server_microsoft_support_auditing_policy azurerm_mssql_server_microsoft_support_auditing_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/mssql_server_microsoft_support_auditing_policy azurerm_mssql_server_microsoft_support_auditing_policy} Resource.
 func NewMssqlServerMicrosoftSupportAuditingPolicy(scope constructs.Construct, id *string, config *MssqlServerMicrosoftSupportAuditingPolicyConfig) MssqlServerMicrosoftSupportAuditingPolicy {
 	_init_.Initialize()
 
@@ -504,7 +504,7 @@ func NewMssqlServerMicrosoftSupportAuditingPolicy(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/mssql_server_microsoft_support_auditing_policy azurerm_mssql_server_microsoft_support_auditing_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/mssql_server_microsoft_support_auditing_policy azurerm_mssql_server_microsoft_support_auditing_policy} Resource.
 func NewMssqlServerMicrosoftSupportAuditingPolicy_Override(m MssqlServerMicrosoftSupportAuditingPolicy, scope constructs.Construct, id *string, config *MssqlServerMicrosoftSupportAuditingPolicyConfig) {
 	_init_.Initialize()
 

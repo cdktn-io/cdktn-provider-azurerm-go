@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment}.
 type SubscriptionPolicyAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -676,7 +676,7 @@ func (j *jsiiProxy_SubscriptionPolicyAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
 func NewSubscriptionPolicyAssignment(scope constructs.Construct, id *string, config *SubscriptionPolicyAssignmentConfig) SubscriptionPolicyAssignment {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewSubscriptionPolicyAssignment(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/subscription_policy_assignment azurerm_subscription_policy_assignment} Resource.
 func NewSubscriptionPolicyAssignment_Override(s SubscriptionPolicyAssignment, scope constructs.Construct, id *string, config *SubscriptionPolicyAssignmentConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration}.
 type KustoAttachedDatabaseConfiguration interface {
 	cdktn.TerraformResource
 	AttachedDatabaseNames() *[]*string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
 func NewKustoAttachedDatabaseConfiguration(scope constructs.Construct, id *string, config *KustoAttachedDatabaseConfigurationConfig) KustoAttachedDatabaseConfiguration {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewKustoAttachedDatabaseConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
 func NewKustoAttachedDatabaseConfiguration_Override(k KustoAttachedDatabaseConfiguration, scope constructs.Construct, id *string, config *KustoAttachedDatabaseConfigurationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/search_service azurerm_search_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/search_service azurerm_search_service}.
 type DataAzurermSearchService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -28,6 +28,7 @@ type DataAzurermSearchService interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	Endpoint() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -177,6 +178,16 @@ func (j *jsiiProxy_DataAzurermSearchService) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermSearchService) Endpoint() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"endpoint",
 		&returns,
 	)
 	return returns
@@ -443,7 +454,7 @@ func (j *jsiiProxy_DataAzurermSearchService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/search_service azurerm_search_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/search_service azurerm_search_service} Data Source.
 func NewDataAzurermSearchService(scope constructs.Construct, id *string, config *DataAzurermSearchServiceConfig) DataAzurermSearchService {
 	_init_.Initialize()
 
@@ -461,7 +472,7 @@ func NewDataAzurermSearchService(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/search_service azurerm_search_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/search_service azurerm_search_service} Data Source.
 func NewDataAzurermSearchService_Override(d DataAzurermSearchService, scope constructs.Construct, id *string, config *DataAzurermSearchServiceConfig) {
 	_init_.Initialize()
 

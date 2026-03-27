@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_security_group azurerm_application_security_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_security_group azurerm_application_security_group}.
 type ApplicationSecurityGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ApplicationSecurityGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
 func NewApplicationSecurityGroup(scope constructs.Construct, id *string, config *ApplicationSecurityGroupConfig) ApplicationSecurityGroup {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewApplicationSecurityGroup(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_security_group azurerm_application_security_group} Resource.
 func NewApplicationSecurityGroup_Override(a ApplicationSecurityGroup, scope constructs.Construct, id *string, config *ApplicationSecurityGroupConfig) {
 	_init_.Initialize()
 

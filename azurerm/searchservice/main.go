@@ -28,6 +28,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "customerManagedKeyEnforcementEnabled", GoGetter: "CustomerManagedKeyEnforcementEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "customerManagedKeyEnforcementEnabledInput", GoGetter: "CustomerManagedKeyEnforcementEnabledInput"},
 			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},

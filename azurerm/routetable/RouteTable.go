@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/route_table azurerm_route_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/route_table azurerm_route_table}.
 type RouteTable interface {
 	cdktn.TerraformResource
 	BgpRoutePropagationEnabled() interface{}
@@ -495,7 +495,7 @@ func (j *jsiiProxy_RouteTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/route_table azurerm_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/route_table azurerm_route_table} Resource.
 func NewRouteTable(scope constructs.Construct, id *string, config *RouteTableConfig) RouteTable {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewRouteTable(scope constructs.Construct, id *string, config *RouteTableCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/route_table azurerm_route_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/route_table azurerm_route_table} Resource.
 func NewRouteTable_Override(r RouteTable, scope constructs.Construct, id *string, config *RouteTableConfig) {
 	_init_.Initialize()
 

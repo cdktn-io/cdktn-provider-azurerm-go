@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/logic_app_integration_account_session azurerm_logic_app_integration_account_session}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/logic_app_integration_account_session azurerm_logic_app_integration_account_session}.
 type LogicAppIntegrationAccountSession interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_LogicAppIntegrationAccountSession) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/logic_app_integration_account_session azurerm_logic_app_integration_account_session} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/logic_app_integration_account_session azurerm_logic_app_integration_account_session} Resource.
 func NewLogicAppIntegrationAccountSession(scope constructs.Construct, id *string, config *LogicAppIntegrationAccountSessionConfig) LogicAppIntegrationAccountSession {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewLogicAppIntegrationAccountSession(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/logic_app_integration_account_session azurerm_logic_app_integration_account_session} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/logic_app_integration_account_session azurerm_logic_app_integration_account_session} Resource.
 func NewLogicAppIntegrationAccountSession_Override(l LogicAppIntegrationAccountSession, scope constructs.Construct, id *string, config *LogicAppIntegrationAccountSessionConfig) {
 	_init_.Initialize()
 

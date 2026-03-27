@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/database_migration_project azurerm_database_migration_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/database_migration_project azurerm_database_migration_project}.
 type DataAzurermDatabaseMigrationProject interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -411,7 +411,7 @@ func (j *jsiiProxy_DataAzurermDatabaseMigrationProject) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/database_migration_project azurerm_database_migration_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/database_migration_project azurerm_database_migration_project} Data Source.
 func NewDataAzurermDatabaseMigrationProject(scope constructs.Construct, id *string, config *DataAzurermDatabaseMigrationProjectConfig) DataAzurermDatabaseMigrationProject {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewDataAzurermDatabaseMigrationProject(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/data-sources/database_migration_project azurerm_database_migration_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/database_migration_project azurerm_database_migration_project} Data Source.
 func NewDataAzurermDatabaseMigrationProject_Override(d DataAzurermDatabaseMigrationProject, scope constructs.Construct, id *string, config *DataAzurermDatabaseMigrationProjectConfig) {
 	_init_.Initialize()
 

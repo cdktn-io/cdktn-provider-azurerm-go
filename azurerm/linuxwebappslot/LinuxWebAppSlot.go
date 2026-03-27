@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/linux_web_app_slot azurerm_linux_web_app_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/linux_web_app_slot azurerm_linux_web_app_slot}.
 type LinuxWebAppSlot interface {
 	cdktn.TerraformResource
 	AppMetadata() cdktn.StringMap
@@ -1098,7 +1098,7 @@ func (j *jsiiProxy_LinuxWebAppSlot) ZipDeployFileInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/linux_web_app_slot azurerm_linux_web_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/linux_web_app_slot azurerm_linux_web_app_slot} Resource.
 func NewLinuxWebAppSlot(scope constructs.Construct, id *string, config *LinuxWebAppSlotConfig) LinuxWebAppSlot {
 	_init_.Initialize()
 
@@ -1116,7 +1116,7 @@ func NewLinuxWebAppSlot(scope constructs.Construct, id *string, config *LinuxWeb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.64.0/docs/resources/linux_web_app_slot azurerm_linux_web_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/linux_web_app_slot azurerm_linux_web_app_slot} Resource.
 func NewLinuxWebAppSlot_Override(l LinuxWebAppSlot, scope constructs.Construct, id *string, config *LinuxWebAppSlotConfig) {
 	_init_.Initialize()
 
