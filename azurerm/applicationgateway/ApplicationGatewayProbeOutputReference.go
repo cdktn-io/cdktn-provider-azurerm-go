@@ -59,6 +59,9 @@ type ApplicationGatewayProbeOutputReference interface {
 	Protocol() *string
 	SetProtocol(val *string)
 	ProtocolInput() *string
+	ProxyProtocolHeaderEnabled() interface{}
+	SetProxyProtocolHeaderEnabled(val interface{})
+	ProxyProtocolHeaderEnabledInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -101,8 +104,10 @@ type ApplicationGatewayProbeOutputReference interface {
 	ResetHost()
 	ResetMatch()
 	ResetMinimumServers()
+	ResetPath()
 	ResetPickHostNameFromBackendHttpSettings()
 	ResetPort()
+	ResetProxyProtocolHeaderEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -358,6 +363,26 @@ func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) ProtocolInput() *stri
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) ProxyProtocolHeaderEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proxyProtocolHeaderEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) ProxyProtocolHeaderEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"proxyProtocolHeaderEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -563,6 +588,17 @@ func (j *jsiiProxy_ApplicationGatewayProbeOutputReference)SetProtocol(val *strin
 	_jsii_.Set(
 		j,
 		"protocol",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationGatewayProbeOutputReference)SetProxyProtocolHeaderEnabled(val interface{}) {
+	if err := j.validateSetProxyProtocolHeaderEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"proxyProtocolHeaderEnabled",
 		val,
 	)
 }
@@ -832,6 +868,14 @@ func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) ResetMinimumServers()
 	)
 }
 
+func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) ResetPath() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetPath",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) ResetPickHostNameFromBackendHttpSettings() {
 	_jsii_.InvokeVoid(
 		a,
@@ -844,6 +888,14 @@ func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) ResetPort() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetPort",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationGatewayProbeOutputReference) ResetProxyProtocolHeaderEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetProxyProtocolHeaderEnabled",
 		nil, // no parameters
 	)
 }

@@ -36,6 +36,12 @@ type KustoAttachedDatabaseConfigurationSharingOutputReference interface {
 	ExternalTablesToIncludeInput() *[]*string
 	// Experimental.
 	Fqn() *string
+	FunctionsToExclude() *[]*string
+	SetFunctionsToExclude(val *[]*string)
+	FunctionsToExcludeInput() *[]*string
+	FunctionsToInclude() *[]*string
+	SetFunctionsToInclude(val *[]*string)
+	FunctionsToIncludeInput() *[]*string
 	InternalValue() *KustoAttachedDatabaseConfigurationSharing
 	SetInternalValue(val *KustoAttachedDatabaseConfigurationSharing)
 	MaterializedViewsToExclude() *[]*string
@@ -84,6 +90,8 @@ type KustoAttachedDatabaseConfigurationSharingOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetExternalTablesToExclude()
 	ResetExternalTablesToInclude()
+	ResetFunctionsToExclude()
+	ResetFunctionsToInclude()
 	ResetMaterializedViewsToExclude()
 	ResetMaterializedViewsToInclude()
 	ResetTablesToExclude()
@@ -178,6 +186,46 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Fqn
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) FunctionsToExclude() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"functionsToExclude",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) FunctionsToExcludeInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"functionsToExcludeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) FunctionsToInclude() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"functionsToInclude",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) FunctionsToIncludeInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"functionsToIncludeInput",
 		&returns,
 	)
 	return returns
@@ -361,6 +409,28 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference)SetE
 	_jsii_.Set(
 		j,
 		"externalTablesToInclude",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference)SetFunctionsToExclude(val *[]*string) {
+	if err := j.validateSetFunctionsToExcludeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"functionsToExclude",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference)SetFunctionsToInclude(val *[]*string) {
+	if err := j.validateSetFunctionsToIncludeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"functionsToInclude",
 		val,
 	)
 }
@@ -640,6 +710,22 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) Res
 	_jsii_.InvokeVoid(
 		k,
 		"resetExternalTablesToInclude",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) ResetFunctionsToExclude() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetFunctionsToExclude",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) ResetFunctionsToInclude() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetFunctionsToInclude",
 		nil, // no parameters
 	)
 }

@@ -42,6 +42,7 @@ type DataAzurermApplicationGatewayProbeOutputReference interface {
 	PickHostNameFromBackendHttpSettings() cdktn.IResolvable
 	Port() *float64
 	Protocol() *string
+	ProxyProtocolHeaderEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -236,6 +237,16 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayProbeOutputReference) Protocol()
 	_jsii_.Get(
 		j,
 		"protocol",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermApplicationGatewayProbeOutputReference) ProxyProtocolHeaderEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"proxyProtocolHeaderEnabled",
 		&returns,
 	)
 	return returns

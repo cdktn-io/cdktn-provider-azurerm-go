@@ -391,6 +391,22 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDatabaseNamePa
 	return nil
 }
 
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDatabaseNameOverrideParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDatabaseNamePrefixParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDefaultPrincipalModificationKindParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

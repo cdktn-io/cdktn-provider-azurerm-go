@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/synapse_workspace azurerm_synapse_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/synapse_workspace azurerm_synapse_workspace}.
 type SynapseWorkspace interface {
 	cdktn.TerraformResource
 	AzureadAuthenticationOnly() interface{}
@@ -830,7 +830,7 @@ func (j *jsiiProxy_SynapseWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
 func NewSynapseWorkspace(scope constructs.Construct, id *string, config *SynapseWorkspaceConfig) SynapseWorkspace {
 	_init_.Initialize()
 
@@ -848,7 +848,7 @@ func NewSynapseWorkspace(scope constructs.Construct, id *string, config *Synapse
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/synapse_workspace azurerm_synapse_workspace} Resource.
 func NewSynapseWorkspace_Override(s SynapseWorkspace, scope constructs.Construct, id *string, config *SynapseWorkspaceConfig) {
 	_init_.Initialize()
 

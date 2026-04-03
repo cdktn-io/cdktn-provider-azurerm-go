@@ -115,6 +115,10 @@ func (j *jsiiProxy_MssqlElasticpool) validateSetEnclaveTypeParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_MssqlElasticpool) validateSetHighAvailabilityReplicaCountParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_MssqlElasticpool) validateSetIdParameters(val *string) error {
 	return nil
 }

@@ -42,12 +42,14 @@ type DataAzurermLogicAppStandardSiteConfigOutputReference interface {
 	InternalValue() *DataAzurermLogicAppStandardSiteConfig
 	SetInternalValue(val *DataAzurermLogicAppStandardSiteConfig)
 	IpRestriction() DataAzurermLogicAppStandardSiteConfigIpRestrictionList
+	IpRestrictionDefaultAction() *string
 	LinuxFxVersion() *string
 	MinTlsVersion() *string
 	PreWarmedInstanceCount() *float64
 	PublicNetworkAccessEnabled() cdktn.IResolvable
 	RuntimeScaleMonitoringEnabled() cdktn.IResolvable
 	ScmIpRestriction() DataAzurermLogicAppStandardSiteConfigScmIpRestrictionList
+	ScmIpRestrictionDefaultAction() *string
 	ScmMinTlsVersion() *string
 	ScmType() *string
 	ScmUseMainIpRestriction() cdktn.IResolvable
@@ -251,6 +253,16 @@ func (j *jsiiProxy_DataAzurermLogicAppStandardSiteConfigOutputReference) IpRestr
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermLogicAppStandardSiteConfigOutputReference) IpRestrictionDefaultAction() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"ipRestrictionDefaultAction",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermLogicAppStandardSiteConfigOutputReference) LinuxFxVersion() *string {
 	var returns *string
 	_jsii_.Get(
@@ -306,6 +318,16 @@ func (j *jsiiProxy_DataAzurermLogicAppStandardSiteConfigOutputReference) ScmIpRe
 	_jsii_.Get(
 		j,
 		"scmIpRestriction",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermLogicAppStandardSiteConfigOutputReference) ScmIpRestrictionDefaultAction() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"scmIpRestrictionDefaultAction",
 		&returns,
 	)
 	return returns

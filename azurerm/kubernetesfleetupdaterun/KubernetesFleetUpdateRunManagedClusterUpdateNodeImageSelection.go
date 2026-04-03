@@ -5,7 +5,7 @@ package kubernetesfleetupdaterun
 
 
 type KubernetesFleetUpdateRunManagedClusterUpdateNodeImageSelection struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kubernetes_fleet_update_run#type KubernetesFleetUpdateRun#type}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/kubernetes_fleet_update_run#type KubernetesFleetUpdateRun#type}.
 	Type *string `field:"required" json:"type" yaml:"type"`
 }
 

@@ -67,6 +67,14 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetFunctionsToExcludeParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetFunctionsToIncludeParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetInternalValueParameters(val *KustoAttachedDatabaseConfigurationSharing) error {
 	return nil
 }

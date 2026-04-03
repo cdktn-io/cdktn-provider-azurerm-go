@@ -5,13 +5,13 @@ package apimanagementworkspacenamedvalue
 
 
 type ApiManagementWorkspaceNamedValueTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/api_management_workspace_named_value#create ApiManagementWorkspaceNamedValue#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/api_management_workspace_named_value#create ApiManagementWorkspaceNamedValue#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/api_management_workspace_named_value#delete ApiManagementWorkspaceNamedValue#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/api_management_workspace_named_value#delete ApiManagementWorkspaceNamedValue#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/api_management_workspace_named_value#read ApiManagementWorkspaceNamedValue#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/api_management_workspace_named_value#read ApiManagementWorkspaceNamedValue#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/api_management_workspace_named_value#update ApiManagementWorkspaceNamedValue#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/api_management_workspace_named_value#update ApiManagementWorkspaceNamedValue#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

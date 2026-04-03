@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool}.
 type MssqlElasticpool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -42,6 +42,9 @@ type MssqlElasticpool interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	HighAvailabilityReplicaCount() *float64
+	SetHighAvailabilityReplicaCount(val *float64)
+	HighAvailabilityReplicaCountInput() *float64
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -150,6 +153,7 @@ type MssqlElasticpool interface {
 	PutSku(value *MssqlElasticpoolSku)
 	PutTimeouts(value *MssqlElasticpoolTimeouts)
 	ResetEnclaveType()
+	ResetHighAvailabilityReplicaCount()
 	ResetId()
 	ResetLicenseType()
 	ResetMaintenanceConfigurationName()
@@ -283,6 +287,26 @@ func (j *jsiiProxy_MssqlElasticpool) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MssqlElasticpool) HighAvailabilityReplicaCount() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"highAvailabilityReplicaCount",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MssqlElasticpool) HighAvailabilityReplicaCountInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"highAvailabilityReplicaCountInput",
 		&returns,
 	)
 	return returns
@@ -649,7 +673,7 @@ func (j *jsiiProxy_MssqlElasticpool) ZoneRedundantInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
 func NewMssqlElasticpool(scope constructs.Construct, id *string, config *MssqlElasticpoolConfig) MssqlElasticpool {
 	_init_.Initialize()
 
@@ -667,7 +691,7 @@ func NewMssqlElasticpool(scope constructs.Construct, id *string, config *MssqlEl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
 func NewMssqlElasticpool_Override(m MssqlElasticpool, scope constructs.Construct, id *string, config *MssqlElasticpoolConfig) {
 	_init_.Initialize()
 
@@ -723,6 +747,17 @@ func (j *jsiiProxy_MssqlElasticpool)SetForEach(val cdktn.ITerraformIterator) {
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MssqlElasticpool)SetHighAvailabilityReplicaCount(val *float64) {
+	if err := j.validateSetHighAvailabilityReplicaCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"highAvailabilityReplicaCount",
 		val,
 	)
 }
@@ -1268,6 +1303,14 @@ func (m *jsiiProxy_MssqlElasticpool) ResetEnclaveType() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetEnclaveType",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MssqlElasticpool) ResetHighAvailabilityReplicaCount() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetHighAvailabilityReplicaCount",
 		nil, // no parameters
 	)
 }

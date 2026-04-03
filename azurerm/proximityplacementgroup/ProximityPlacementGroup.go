@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group}.
 type ProximityPlacementGroup interface {
 	cdktn.TerraformResource
 	AllowedVmSizes() *[]*string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_ProximityPlacementGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
 func NewProximityPlacementGroup(scope constructs.Construct, id *string, config *ProximityPlacementGroupConfig) ProximityPlacementGroup {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewProximityPlacementGroup(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/proximity_placement_group azurerm_proximity_placement_group} Resource.
 func NewProximityPlacementGroup_Override(p ProximityPlacementGroup, scope constructs.Construct, id *string, config *ProximityPlacementGroupConfig) {
 	_init_.Initialize()
 

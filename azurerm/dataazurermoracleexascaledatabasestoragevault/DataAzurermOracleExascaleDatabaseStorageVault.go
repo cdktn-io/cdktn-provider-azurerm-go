@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault}.
 type DataAzurermOracleExascaleDatabaseStorageVault interface {
 	cdktn.TerraformDataSource
 	AdditionalFlashCachePercentage() *float64
@@ -476,7 +476,7 @@ func (j *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) Zones() *[]*st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
 func NewDataAzurermOracleExascaleDatabaseStorageVault(scope constructs.Construct, id *string, config *DataAzurermOracleExascaleDatabaseStorageVaultConfig) DataAzurermOracleExascaleDatabaseStorageVault {
 	_init_.Initialize()
 
@@ -494,7 +494,7 @@ func NewDataAzurermOracleExascaleDatabaseStorageVault(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/oracle_exascale_database_storage_vault azurerm_oracle_exascale_database_storage_vault} Data Source.
 func NewDataAzurermOracleExascaleDatabaseStorageVault_Override(d DataAzurermOracleExascaleDatabaseStorageVault, scope constructs.Construct, id *string, config *DataAzurermOracleExascaleDatabaseStorageVaultConfig) {
 	_init_.Initialize()
 

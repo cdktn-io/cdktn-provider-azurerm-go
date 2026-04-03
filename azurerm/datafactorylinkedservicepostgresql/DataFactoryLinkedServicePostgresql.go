@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql}.
 type DataFactoryLinkedServicePostgresql interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_DataFactoryLinkedServicePostgresql) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
 func NewDataFactoryLinkedServicePostgresql(scope constructs.Construct, id *string, config *DataFactoryLinkedServicePostgresqlConfig) DataFactoryLinkedServicePostgresql {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewDataFactoryLinkedServicePostgresql(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/data_factory_linked_service_postgresql azurerm_data_factory_linked_service_postgresql} Resource.
 func NewDataFactoryLinkedServicePostgresql_Override(d DataFactoryLinkedServicePostgresql, scope constructs.Construct, id *string, config *DataFactoryLinkedServicePostgresqlConfig) {
 	_init_.Initialize()
 

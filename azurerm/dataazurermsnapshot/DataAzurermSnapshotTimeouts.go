@@ -5,7 +5,7 @@ package dataazurermsnapshot
 
 
 type DataAzurermSnapshotTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/snapshot#read DataAzurermSnapshot#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/snapshot#read DataAzurermSnapshot#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

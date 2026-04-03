@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/sentinel_alert_rule_anomaly_built_in azurerm_sentinel_alert_rule_anomaly_built_in}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/sentinel_alert_rule_anomaly_built_in azurerm_sentinel_alert_rule_anomaly_built_in}.
 type SentinelAlertRuleAnomalyBuiltIn interface {
 	cdktn.TerraformResource
 	AnomalySettingsVersion() *float64
@@ -592,7 +592,7 @@ func (j *jsiiProxy_SentinelAlertRuleAnomalyBuiltIn) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/sentinel_alert_rule_anomaly_built_in azurerm_sentinel_alert_rule_anomaly_built_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/sentinel_alert_rule_anomaly_built_in azurerm_sentinel_alert_rule_anomaly_built_in} Resource.
 func NewSentinelAlertRuleAnomalyBuiltIn(scope constructs.Construct, id *string, config *SentinelAlertRuleAnomalyBuiltInConfig) SentinelAlertRuleAnomalyBuiltIn {
 	_init_.Initialize()
 
@@ -610,7 +610,7 @@ func NewSentinelAlertRuleAnomalyBuiltIn(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/sentinel_alert_rule_anomaly_built_in azurerm_sentinel_alert_rule_anomaly_built_in} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/sentinel_alert_rule_anomaly_built_in azurerm_sentinel_alert_rule_anomaly_built_in} Resource.
 func NewSentinelAlertRuleAnomalyBuiltIn_Override(s SentinelAlertRuleAnomalyBuiltIn, scope constructs.Construct, id *string, config *SentinelAlertRuleAnomalyBuiltInConfig) {
 	_init_.Initialize()
 

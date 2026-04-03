@@ -12,11 +12,12 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/application_gateway azurerm_application_gateway}.
 type DataAzurermApplicationGateway interface {
 	cdktn.TerraformDataSource
 	AuthenticationCertificate() DataAzurermApplicationGatewayAuthenticationCertificateList
 	AutoscaleConfiguration() DataAzurermApplicationGatewayAutoscaleConfigurationList
+	Backend() DataAzurermApplicationGatewayBackendList
 	BackendAddressPool() DataAzurermApplicationGatewayBackendAddressPoolList
 	BackendHttpSettings() DataAzurermApplicationGatewayBackendHttpSettingsList
 	// Experimental.
@@ -57,6 +58,7 @@ type DataAzurermApplicationGateway interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Listener() DataAzurermApplicationGatewayListenerList
 	Location() *string
 	Name() *string
 	SetName(val *string)
@@ -78,6 +80,7 @@ type DataAzurermApplicationGateway interface {
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
 	RewriteRuleSet() DataAzurermApplicationGatewayRewriteRuleSetList
+	RoutingRule() DataAzurermApplicationGatewayRoutingRuleList
 	Sku() DataAzurermApplicationGatewaySkuList
 	SslCertificate() DataAzurermApplicationGatewaySslCertificateList
 	SslPolicy() DataAzurermApplicationGatewaySslPolicyList
@@ -170,6 +173,16 @@ func (j *jsiiProxy_DataAzurermApplicationGateway) AutoscaleConfiguration() DataA
 	_jsii_.Get(
 		j,
 		"autoscaleConfiguration",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermApplicationGateway) Backend() DataAzurermApplicationGatewayBackendList {
+	var returns DataAzurermApplicationGatewayBackendList
+	_jsii_.Get(
+		j,
+		"backend",
 		&returns,
 	)
 	return returns
@@ -405,6 +418,16 @@ func (j *jsiiProxy_DataAzurermApplicationGateway) Lifecycle() *cdktn.TerraformRe
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermApplicationGateway) Listener() DataAzurermApplicationGatewayListenerList {
+	var returns DataAzurermApplicationGatewayListenerList
+	_jsii_.Get(
+		j,
+		"listener",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermApplicationGateway) Location() *string {
 	var returns *string
 	_jsii_.Get(
@@ -540,6 +563,16 @@ func (j *jsiiProxy_DataAzurermApplicationGateway) RewriteRuleSet() DataAzurermAp
 	_jsii_.Get(
 		j,
 		"rewriteRuleSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermApplicationGateway) RoutingRule() DataAzurermApplicationGatewayRoutingRuleList {
+	var returns DataAzurermApplicationGatewayRoutingRuleList
+	_jsii_.Get(
+		j,
+		"routingRule",
 		&returns,
 	)
 	return returns
@@ -696,7 +729,7 @@ func (j *jsiiProxy_DataAzurermApplicationGateway) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) DataAzurermApplicationGateway {
 	_init_.Initialize()
 
@@ -714,7 +747,7 @@ func NewDataAzurermApplicationGateway(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/application_gateway azurerm_application_gateway} Data Source.
 func NewDataAzurermApplicationGateway_Override(d DataAzurermApplicationGateway, scope constructs.Construct, id *string, config *DataAzurermApplicationGatewayConfig) {
 	_init_.Initialize()
 

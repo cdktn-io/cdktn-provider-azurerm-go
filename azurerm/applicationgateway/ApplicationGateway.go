@@ -12,17 +12,19 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_gateway azurerm_application_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/application_gateway azurerm_application_gateway}.
 type ApplicationGateway interface {
 	cdktn.TerraformResource
 	AuthenticationCertificate() ApplicationGatewayAuthenticationCertificateList
 	AuthenticationCertificateInput() interface{}
 	AutoscaleConfiguration() ApplicationGatewayAutoscaleConfigurationOutputReference
 	AutoscaleConfigurationInput() *ApplicationGatewayAutoscaleConfiguration
+	Backend() ApplicationGatewayBackendList
 	BackendAddressPool() ApplicationGatewayBackendAddressPoolList
 	BackendAddressPoolInput() interface{}
 	BackendHttpSettings() ApplicationGatewayBackendHttpSettingsList
 	BackendHttpSettingsInput() interface{}
+	BackendInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -83,6 +85,8 @@ type ApplicationGateway interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Listener() ApplicationGatewayListenerList
+	ListenerInput() interface{}
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -115,6 +119,8 @@ type ApplicationGateway interface {
 	ResourceGroupNameInput() *string
 	RewriteRuleSet() ApplicationGatewayRewriteRuleSetList
 	RewriteRuleSetInput() interface{}
+	RoutingRule() ApplicationGatewayRoutingRuleList
+	RoutingRuleInput() interface{}
 	Sku() ApplicationGatewaySkuOutputReference
 	SkuInput() *ApplicationGatewaySku
 	SslCertificate() ApplicationGatewaySslCertificateList
@@ -190,6 +196,7 @@ type ApplicationGateway interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutAuthenticationCertificate(value interface{})
 	PutAutoscaleConfiguration(value *ApplicationGatewayAutoscaleConfiguration)
+	PutBackend(value interface{})
 	PutBackendAddressPool(value interface{})
 	PutBackendHttpSettings(value interface{})
 	PutCustomErrorConfiguration(value interface{})
@@ -199,11 +206,13 @@ type ApplicationGateway interface {
 	PutGlobal(value *ApplicationGatewayGlobal)
 	PutHttpListener(value interface{})
 	PutIdentity(value *ApplicationGatewayIdentity)
+	PutListener(value interface{})
 	PutPrivateLinkConfiguration(value interface{})
 	PutProbe(value interface{})
 	PutRedirectConfiguration(value interface{})
 	PutRequestRoutingRule(value interface{})
 	PutRewriteRuleSet(value interface{})
+	PutRoutingRule(value interface{})
 	PutSku(value *ApplicationGatewaySku)
 	PutSslCertificate(value interface{})
 	PutSslPolicy(value *ApplicationGatewaySslPolicy)
@@ -215,6 +224,8 @@ type ApplicationGateway interface {
 	PutWafConfiguration(value *ApplicationGatewayWafConfiguration)
 	ResetAuthenticationCertificate()
 	ResetAutoscaleConfiguration()
+	ResetBackend()
+	ResetBackendHttpSettings()
 	ResetCustomErrorConfiguration()
 	ResetEnableHttp2()
 	ResetFipsEnabled()
@@ -222,15 +233,19 @@ type ApplicationGateway interface {
 	ResetForceFirewallPolicyAssociation()
 	ResetGlobal()
 	ResetHttp2Enabled()
+	ResetHttpListener()
 	ResetId()
 	ResetIdentity()
+	ResetListener()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
 	ResetPrivateLinkConfiguration()
 	ResetProbe()
 	ResetRedirectConfiguration()
+	ResetRequestRoutingRule()
 	ResetRewriteRuleSet()
+	ResetRoutingRule()
 	ResetSslCertificate()
 	ResetSslPolicy()
 	ResetSslProfile()
@@ -308,6 +323,16 @@ func (j *jsiiProxy_ApplicationGateway) AutoscaleConfigurationInput() *Applicatio
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationGateway) Backend() ApplicationGatewayBackendList {
+	var returns ApplicationGatewayBackendList
+	_jsii_.Get(
+		j,
+		"backend",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationGateway) BackendAddressPool() ApplicationGatewayBackendAddressPoolList {
 	var returns ApplicationGatewayBackendAddressPoolList
 	_jsii_.Get(
@@ -343,6 +368,16 @@ func (j *jsiiProxy_ApplicationGateway) BackendHttpSettingsInput() interface{} {
 	_jsii_.Get(
 		j,
 		"backendHttpSettingsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGateway) BackendInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"backendInput",
 		&returns,
 	)
 	return returns
@@ -698,6 +733,26 @@ func (j *jsiiProxy_ApplicationGateway) Lifecycle() *cdktn.TerraformResourceLifec
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationGateway) Listener() ApplicationGatewayListenerList {
+	var returns ApplicationGatewayListenerList
+	_jsii_.Get(
+		j,
+		"listener",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGateway) ListenerInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"listenerInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationGateway) Location() *string {
 	var returns *string
 	_jsii_.Get(
@@ -903,6 +958,26 @@ func (j *jsiiProxy_ApplicationGateway) RewriteRuleSetInput() interface{} {
 	_jsii_.Get(
 		j,
 		"rewriteRuleSetInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGateway) RoutingRule() ApplicationGatewayRoutingRuleList {
+	var returns ApplicationGatewayRoutingRuleList
+	_jsii_.Get(
+		j,
+		"routingRule",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGateway) RoutingRuleInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"routingRuleInput",
 		&returns,
 	)
 	return returns
@@ -1159,7 +1234,7 @@ func (j *jsiiProxy_ApplicationGateway) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway(scope constructs.Construct, id *string, config *ApplicationGatewayConfig) ApplicationGateway {
 	_init_.Initialize()
 
@@ -1177,7 +1252,7 @@ func NewApplicationGateway(scope constructs.Construct, id *string, config *Appli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/application_gateway azurerm_application_gateway} Resource.
 func NewApplicationGateway_Override(a ApplicationGateway, scope constructs.Construct, id *string, config *ApplicationGatewayConfig) {
 	_init_.Initialize()
 
@@ -1752,6 +1827,17 @@ func (a *jsiiProxy_ApplicationGateway) PutAutoscaleConfiguration(value *Applicat
 	)
 }
 
+func (a *jsiiProxy_ApplicationGateway) PutBackend(value interface{}) {
+	if err := a.validatePutBackendParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putBackend",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ApplicationGateway) PutBackendAddressPool(value interface{}) {
 	if err := a.validatePutBackendAddressPoolParameters(value); err != nil {
 		panic(err)
@@ -1851,6 +1937,17 @@ func (a *jsiiProxy_ApplicationGateway) PutIdentity(value *ApplicationGatewayIden
 	)
 }
 
+func (a *jsiiProxy_ApplicationGateway) PutListener(value interface{}) {
+	if err := a.validatePutListenerParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putListener",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_ApplicationGateway) PutPrivateLinkConfiguration(value interface{}) {
 	if err := a.validatePutPrivateLinkConfigurationParameters(value); err != nil {
 		panic(err)
@@ -1902,6 +1999,17 @@ func (a *jsiiProxy_ApplicationGateway) PutRewriteRuleSet(value interface{}) {
 	_jsii_.InvokeVoid(
 		a,
 		"putRewriteRuleSet",
+		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_ApplicationGateway) PutRoutingRule(value interface{}) {
+	if err := a.validatePutRoutingRuleParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putRoutingRule",
 		[]interface{}{value},
 	)
 }
@@ -2021,6 +2129,22 @@ func (a *jsiiProxy_ApplicationGateway) ResetAutoscaleConfiguration() {
 	)
 }
 
+func (a *jsiiProxy_ApplicationGateway) ResetBackend() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetBackend",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationGateway) ResetBackendHttpSettings() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetBackendHttpSettings",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationGateway) ResetCustomErrorConfiguration() {
 	_jsii_.InvokeVoid(
 		a,
@@ -2077,6 +2201,14 @@ func (a *jsiiProxy_ApplicationGateway) ResetHttp2Enabled() {
 	)
 }
 
+func (a *jsiiProxy_ApplicationGateway) ResetHttpListener() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetHttpListener",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationGateway) ResetId() {
 	_jsii_.InvokeVoid(
 		a,
@@ -2089,6 +2221,14 @@ func (a *jsiiProxy_ApplicationGateway) ResetIdentity() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetIdentity",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationGateway) ResetListener() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetListener",
 		nil, // no parameters
 	)
 }
@@ -2125,10 +2265,26 @@ func (a *jsiiProxy_ApplicationGateway) ResetRedirectConfiguration() {
 	)
 }
 
+func (a *jsiiProxy_ApplicationGateway) ResetRequestRoutingRule() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRequestRoutingRule",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationGateway) ResetRewriteRuleSet() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetRewriteRuleSet",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationGateway) ResetRoutingRule() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetRoutingRule",
 		nil, // no parameters
 	)
 }

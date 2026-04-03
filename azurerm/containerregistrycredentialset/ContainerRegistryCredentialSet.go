@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set}.
 type ContainerRegistryCredentialSet interface {
 	cdktn.TerraformResource
 	AuthenticationCredentials() ContainerRegistryCredentialSetAuthenticationCredentialsOutputReference
@@ -458,7 +458,7 @@ func (j *jsiiProxy_ContainerRegistryCredentialSet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
 func NewContainerRegistryCredentialSet(scope constructs.Construct, id *string, config *ContainerRegistryCredentialSetConfig) ContainerRegistryCredentialSet {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewContainerRegistryCredentialSet(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/container_registry_credential_set azurerm_container_registry_credential_set} Resource.
 func NewContainerRegistryCredentialSet_Override(c ContainerRegistryCredentialSet, scope constructs.Construct, id *string, config *ContainerRegistryCredentialSetConfig) {
 	_init_.Initialize()
 

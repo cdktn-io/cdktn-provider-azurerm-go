@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/dev_test_lab azurerm_dev_test_lab}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/dev_test_lab azurerm_dev_test_lab}.
 type DevTestLab interface {
 	cdktn.TerraformResource
 	ArtifactsStorageAccountId() *string
@@ -502,7 +502,7 @@ func (j *jsiiProxy_DevTestLab) UniqueIdentifier() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/dev_test_lab azurerm_dev_test_lab} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/dev_test_lab azurerm_dev_test_lab} Resource.
 func NewDevTestLab(scope constructs.Construct, id *string, config *DevTestLabConfig) DevTestLab {
 	_init_.Initialize()
 
@@ -520,7 +520,7 @@ func NewDevTestLab(scope constructs.Construct, id *string, config *DevTestLabCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/dev_test_lab azurerm_dev_test_lab} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/dev_test_lab azurerm_dev_test_lab} Resource.
 func NewDevTestLab_Override(d DevTestLab, scope constructs.Construct, id *string, config *DevTestLabConfig) {
 	_init_.Initialize()
 

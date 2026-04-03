@@ -83,6 +83,10 @@ func (a *jsiiProxy_ApplicationGateway) validatePutAutoscaleConfigurationParamete
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationGateway) validatePutBackendParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationGateway) validatePutBackendAddressPoolParameters(value interface{}) error {
 	return nil
 }
@@ -119,6 +123,10 @@ func (a *jsiiProxy_ApplicationGateway) validatePutIdentityParameters(value *Appl
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationGateway) validatePutListenerParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationGateway) validatePutPrivateLinkConfigurationParameters(value interface{}) error {
 	return nil
 }
@@ -136,6 +144,10 @@ func (a *jsiiProxy_ApplicationGateway) validatePutRequestRoutingRuleParameters(v
 }
 
 func (a *jsiiProxy_ApplicationGateway) validatePutRewriteRuleSetParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApplicationGateway) validatePutRoutingRuleParameters(value interface{}) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/private_dns_resolver_dns_forwarding_ruleset azurerm_private_dns_resolver_dns_forwarding_ruleset}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/private_dns_resolver_dns_forwarding_ruleset azurerm_private_dns_resolver_dns_forwarding_ruleset}.
 type DataAzurermPrivateDnsResolverDnsForwardingRuleset interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolverDnsForwardingRuleset) TimeoutsIn
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/private_dns_resolver_dns_forwarding_ruleset azurerm_private_dns_resolver_dns_forwarding_ruleset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/private_dns_resolver_dns_forwarding_ruleset azurerm_private_dns_resolver_dns_forwarding_ruleset} Data Source.
 func NewDataAzurermPrivateDnsResolverDnsForwardingRuleset(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverDnsForwardingRulesetConfig) DataAzurermPrivateDnsResolverDnsForwardingRuleset {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewDataAzurermPrivateDnsResolverDnsForwardingRuleset(scope constructs.Const
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/private_dns_resolver_dns_forwarding_ruleset azurerm_private_dns_resolver_dns_forwarding_ruleset} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/private_dns_resolver_dns_forwarding_ruleset azurerm_private_dns_resolver_dns_forwarding_ruleset} Data Source.
 func NewDataAzurermPrivateDnsResolverDnsForwardingRuleset_Override(d DataAzurermPrivateDnsResolverDnsForwardingRuleset, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverDnsForwardingRulesetConfig) {
 	_init_.Initialize()
 

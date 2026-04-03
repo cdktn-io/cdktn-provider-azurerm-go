@@ -182,6 +182,22 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) val
 	return nil
 }
 
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetFunctionsToExcludeParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetFunctionsToIncludeParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_KustoAttachedDatabaseConfigurationSharingOutputReference) validateSetInternalValueParameters(val *KustoAttachedDatabaseConfigurationSharing) error {
 	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
 		return err

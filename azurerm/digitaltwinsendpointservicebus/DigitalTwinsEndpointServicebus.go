@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus}.
 type DigitalTwinsEndpointServicebus interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DigitalTwinsEndpointServicebus) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
 func NewDigitalTwinsEndpointServicebus(scope constructs.Construct, id *string, config *DigitalTwinsEndpointServicebusConfig) DigitalTwinsEndpointServicebus {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDigitalTwinsEndpointServicebus(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/digital_twins_endpoint_servicebus azurerm_digital_twins_endpoint_servicebus} Resource.
 func NewDigitalTwinsEndpointServicebus_Override(d DigitalTwinsEndpointServicebus, scope constructs.Construct, id *string, config *DigitalTwinsEndpointServicebusConfig) {
 	_init_.Initialize()
 

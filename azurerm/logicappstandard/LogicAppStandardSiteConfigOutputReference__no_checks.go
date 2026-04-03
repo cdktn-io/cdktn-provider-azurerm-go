@@ -103,6 +103,10 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetInterna
 	return nil
 }
 
+func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetIpRestrictionDefaultActionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetLinuxFxVersionParameters(val *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetPublicN
 }
 
 func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetRuntimeScaleMonitoringEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_LogicAppStandardSiteConfigOutputReference) validateSetScmIpRestrictionDefaultActionParameters(val *string) error {
 	return nil
 }
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration}.
 type KustoAttachedDatabaseConfiguration interface {
 	cdktn.TerraformResource
 	AttachedDatabaseNames() *[]*string
@@ -40,6 +40,12 @@ type KustoAttachedDatabaseConfiguration interface {
 	DatabaseName() *string
 	SetDatabaseName(val *string)
 	DatabaseNameInput() *string
+	DatabaseNameOverride() *string
+	SetDatabaseNameOverride(val *string)
+	DatabaseNameOverrideInput() *string
+	DatabaseNamePrefix() *string
+	SetDatabaseNamePrefix(val *string)
+	DatabaseNamePrefixInput() *string
 	DefaultPrincipalModificationKind() *string
 	SetDefaultPrincipalModificationKind(val *string)
 	DefaultPrincipalModificationKindInput() *string
@@ -140,6 +146,8 @@ type KustoAttachedDatabaseConfiguration interface {
 	PutTimeouts(value *KustoAttachedDatabaseConfigurationTimeouts)
 	ResetClusterId()
 	ResetClusterResourceId()
+	ResetDatabaseNameOverride()
+	ResetDatabaseNamePrefix()
 	ResetDefaultPrincipalModificationKind()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -299,6 +307,46 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) DatabaseNameInput() *stri
 	_jsii_.Get(
 		j,
 		"databaseNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) DatabaseNameOverride() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseNameOverride",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) DatabaseNameOverrideInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseNameOverrideInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) DatabaseNamePrefix() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseNamePrefix",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) DatabaseNamePrefixInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"databaseNamePrefixInput",
 		&returns,
 	)
 	return returns
@@ -565,7 +613,7 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
 func NewKustoAttachedDatabaseConfiguration(scope constructs.Construct, id *string, config *KustoAttachedDatabaseConfigurationConfig) KustoAttachedDatabaseConfiguration {
 	_init_.Initialize()
 
@@ -583,7 +631,7 @@ func NewKustoAttachedDatabaseConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/kusto_attached_database_configuration azurerm_kusto_attached_database_configuration} Resource.
 func NewKustoAttachedDatabaseConfiguration_Override(k KustoAttachedDatabaseConfiguration, scope constructs.Construct, id *string, config *KustoAttachedDatabaseConfigurationConfig) {
 	_init_.Initialize()
 
@@ -656,6 +704,28 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration)SetDatabaseName(val *strin
 	_jsii_.Set(
 		j,
 		"databaseName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration)SetDatabaseNameOverride(val *string) {
+	if err := j.validateSetDatabaseNameOverrideParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"databaseNameOverride",
+		val,
+	)
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration)SetDatabaseNamePrefix(val *string) {
+	if err := j.validateSetDatabaseNamePrefixParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"databaseNamePrefix",
 		val,
 	)
 }
@@ -1148,6 +1218,22 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) ResetClusterResourceId() 
 	_jsii_.InvokeVoid(
 		k,
 		"resetClusterResourceId",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) ResetDatabaseNameOverride() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetDatabaseNameOverride",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) ResetDatabaseNamePrefix() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetDatabaseNamePrefix",
 		nil, // no parameters
 	)
 }

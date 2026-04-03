@@ -5,9 +5,9 @@ package kubernetescluster
 
 
 type KubernetesClusterNodeProvisioningProfile struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kubernetes_cluster#default_node_pools KubernetesCluster#default_node_pools}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/kubernetes_cluster#default_node_pools KubernetesCluster#default_node_pools}.
 	DefaultNodePools *string `field:"optional" json:"defaultNodePools" yaml:"defaultNodePools"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/kubernetes_cluster#mode KubernetesCluster#mode}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/kubernetes_cluster#mode KubernetesCluster#mode}.
 	Mode *string `field:"optional" json:"mode" yaml:"mode"`
 }
 

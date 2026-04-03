@@ -99,6 +99,10 @@ func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) validateSetProtocolPa
 	return nil
 }
 
+func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) validateSetProxyProtocolHeaderEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApplicationGatewayProbeOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

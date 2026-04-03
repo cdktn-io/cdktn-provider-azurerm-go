@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine}.
 type DevTestLinuxVirtualMachine interface {
 	cdktn.TerraformResource
 	AllowClaim() interface{}
@@ -763,7 +763,7 @@ func (j *jsiiProxy_DevTestLinuxVirtualMachine) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
 func NewDevTestLinuxVirtualMachine(scope constructs.Construct, id *string, config *DevTestLinuxVirtualMachineConfig) DevTestLinuxVirtualMachine {
 	_init_.Initialize()
 
@@ -781,7 +781,7 @@ func NewDevTestLinuxVirtualMachine(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/dev_test_linux_virtual_machine azurerm_dev_test_linux_virtual_machine} Resource.
 func NewDevTestLinuxVirtualMachine_Override(d DevTestLinuxVirtualMachine, scope constructs.Construct, id *string, config *DevTestLinuxVirtualMachineConfig) {
 	_init_.Initialize()
 

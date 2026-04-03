@@ -123,6 +123,14 @@ func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDatabaseNamePa
 	return nil
 }
 
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDatabaseNameOverrideParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDatabaseNamePrefixParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_KustoAttachedDatabaseConfiguration) validateSetDefaultPrincipalModificationKindParameters(val *string) error {
 	return nil
 }

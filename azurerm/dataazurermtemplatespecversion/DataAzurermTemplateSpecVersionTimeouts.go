@@ -5,7 +5,7 @@ package dataazurermtemplatespecversion
 
 
 type DataAzurermTemplateSpecVersionTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/template_spec_version#read DataAzurermTemplateSpecVersion#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/template_spec_version#read DataAzurermTemplateSpecVersion#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

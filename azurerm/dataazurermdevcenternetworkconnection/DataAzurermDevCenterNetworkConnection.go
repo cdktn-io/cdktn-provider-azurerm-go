@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection}.
 type DataAzurermDevCenterNetworkConnection interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAzurermDevCenterNetworkConnection) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
 func NewDataAzurermDevCenterNetworkConnection(scope constructs.Construct, id *string, config *DataAzurermDevCenterNetworkConnectionConfig) DataAzurermDevCenterNetworkConnection {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAzurermDevCenterNetworkConnection(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.66.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/dev_center_network_connection azurerm_dev_center_network_connection} Data Source.
 func NewDataAzurermDevCenterNetworkConnection_Override(d DataAzurermDevCenterNetworkConnection, scope constructs.Construct, id *string, config *DataAzurermDevCenterNetworkConnectionConfig) {
 	_init_.Initialize()
 
