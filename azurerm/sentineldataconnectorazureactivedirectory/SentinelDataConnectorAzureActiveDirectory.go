@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/sentinel_data_connector_azure_active_directory azurerm_sentinel_data_connector_azure_active_directory}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/sentinel_data_connector_azure_active_directory azurerm_sentinel_data_connector_azure_active_directory}.
 type SentinelDataConnectorAzureActiveDirectory interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/sentinel_data_connector_azure_active_directory azurerm_sentinel_data_connector_azure_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/sentinel_data_connector_azure_active_directory azurerm_sentinel_data_connector_azure_active_directory} Resource.
 func NewSentinelDataConnectorAzureActiveDirectory(scope constructs.Construct, id *string, config *SentinelDataConnectorAzureActiveDirectoryConfig) SentinelDataConnectorAzureActiveDirectory {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSentinelDataConnectorAzureActiveDirectory(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/sentinel_data_connector_azure_active_directory azurerm_sentinel_data_connector_azure_active_directory} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/sentinel_data_connector_azure_active_directory azurerm_sentinel_data_connector_azure_active_directory} Resource.
 func NewSentinelDataConnectorAzureActiveDirectory_Override(s SentinelDataConnectorAzureActiveDirectory, scope constructs.Construct, id *string, config *SentinelDataConnectorAzureActiveDirectoryConfig) {
 	_init_.Initialize()
 

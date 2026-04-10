@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/netapp_volume azurerm_netapp_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/netapp_volume azurerm_netapp_volume}.
 type DataAzurermNetappVolume interface {
 	cdktn.TerraformDataSource
 	AcceptGrowCapacityPoolForShortTermCloneSplit() *string
@@ -27,6 +27,7 @@ type DataAzurermNetappVolume interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	DataProtectionAdvancedRansomware() DataAzurermNetappVolumeDataProtectionAdvancedRansomwareList
 	DataProtectionBackupPolicy() DataAzurermNetappVolumeDataProtectionBackupPolicyList
 	DataProtectionReplication() DataAzurermNetappVolumeDataProtectionReplicationList
 	// Experimental.
@@ -205,6 +206,16 @@ func (j *jsiiProxy_DataAzurermNetappVolume) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermNetappVolume) DataProtectionAdvancedRansomware() DataAzurermNetappVolumeDataProtectionAdvancedRansomwareList {
+	var returns DataAzurermNetappVolumeDataProtectionAdvancedRansomwareList
+	_jsii_.Get(
+		j,
+		"dataProtectionAdvancedRansomware",
 		&returns,
 	)
 	return returns
@@ -601,7 +612,7 @@ func (j *jsiiProxy_DataAzurermNetappVolume) Zone() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
 func NewDataAzurermNetappVolume(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeConfig) DataAzurermNetappVolume {
 	_init_.Initialize()
 
@@ -619,7 +630,7 @@ func NewDataAzurermNetappVolume(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/netapp_volume azurerm_netapp_volume} Data Source.
 func NewDataAzurermNetappVolume_Override(d DataAzurermNetappVolume, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeConfig) {
 	_init_.Initialize()
 

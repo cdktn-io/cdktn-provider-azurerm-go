@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance}.
 type MssqlManagedInstance interface {
 	cdktn.TerraformResource
 	AdministratorLogin() *string
@@ -58,6 +58,9 @@ type MssqlManagedInstance interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	GeneralPurposeV2Enabled() interface{}
+	SetGeneralPurposeV2Enabled(val interface{})
+	GeneralPurposeV2EnabledInput() interface{}
 	HybridSecondaryUsage() *string
 	SetHybridSecondaryUsage(val *string)
 	HybridSecondaryUsageInput() *string
@@ -193,6 +196,7 @@ type MssqlManagedInstance interface {
 	ResetCollation()
 	ResetDatabaseFormat()
 	ResetDnsZonePartnerId()
+	ResetGeneralPurposeV2Enabled()
 	ResetHybridSecondaryUsage()
 	ResetId()
 	ResetIdentity()
@@ -451,6 +455,26 @@ func (j *jsiiProxy_MssqlManagedInstance) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MssqlManagedInstance) GeneralPurposeV2Enabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"generalPurposeV2Enabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MssqlManagedInstance) GeneralPurposeV2EnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"generalPurposeV2EnabledInput",
 		&returns,
 	)
 	return returns
@@ -957,7 +981,7 @@ func (j *jsiiProxy_MssqlManagedInstance) ZoneRedundantEnabledInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
 func NewMssqlManagedInstance(scope constructs.Construct, id *string, config *MssqlManagedInstanceConfig) MssqlManagedInstance {
 	_init_.Initialize()
 
@@ -975,7 +999,7 @@ func NewMssqlManagedInstance(scope constructs.Construct, id *string, config *Mss
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
 func NewMssqlManagedInstance_Override(m MssqlManagedInstance, scope constructs.Construct, id *string, config *MssqlManagedInstanceConfig) {
 	_init_.Initialize()
 
@@ -1075,6 +1099,17 @@ func (j *jsiiProxy_MssqlManagedInstance)SetForEach(val cdktn.ITerraformIterator)
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MssqlManagedInstance)SetGeneralPurposeV2Enabled(val interface{}) {
+	if err := j.validateSetGeneralPurposeV2EnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"generalPurposeV2Enabled",
 		val,
 	)
 }
@@ -1748,6 +1783,14 @@ func (m *jsiiProxy_MssqlManagedInstance) ResetDnsZonePartnerId() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetDnsZonePartnerId",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MssqlManagedInstance) ResetGeneralPurposeV2Enabled() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetGeneralPurposeV2Enabled",
 		nil, // no parameters
 	)
 }

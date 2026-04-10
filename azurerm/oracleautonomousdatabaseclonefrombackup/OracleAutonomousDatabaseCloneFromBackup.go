@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup}.
 type OracleAutonomousDatabaseCloneFromBackup interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -924,7 +924,7 @@ func (j *jsiiProxy_OracleAutonomousDatabaseCloneFromBackup) VirtualNetworkIdInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
 func NewOracleAutonomousDatabaseCloneFromBackup(scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromBackupConfig) OracleAutonomousDatabaseCloneFromBackup {
 	_init_.Initialize()
 
@@ -942,7 +942,7 @@ func NewOracleAutonomousDatabaseCloneFromBackup(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/oracle_autonomous_database_clone_from_backup azurerm_oracle_autonomous_database_clone_from_backup} Resource.
 func NewOracleAutonomousDatabaseCloneFromBackup_Override(o OracleAutonomousDatabaseCloneFromBackup, scope constructs.Construct, id *string, config *OracleAutonomousDatabaseCloneFromBackupConfig) {
 	_init_.Initialize()
 

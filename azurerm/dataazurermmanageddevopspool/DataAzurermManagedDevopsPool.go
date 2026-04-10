@@ -1,0 +1,980 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package dataazurermmanageddevopspool
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmanageddevopspool/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool}.
+type DataAzurermManagedDevopsPool interface {
+	cdktn.TerraformDataSource
+	AzureDevopsOrganization() DataAzurermManagedDevopsPoolAzureDevopsOrganizationList
+	// Experimental.
+	CdktfStack() cdktn.TerraformStack
+	// Experimental.
+	ConstructNodeMetadata() *map[string]interface{}
+	// Experimental.
+	Count() interface{}
+	// Experimental.
+	SetCount(val interface{})
+	// Experimental.
+	DependsOn() *[]*string
+	// Experimental.
+	SetDependsOn(val *[]*string)
+	DevCenterProjectId() *string
+	// Experimental.
+	ForEach() cdktn.ITerraformIterator
+	// Experimental.
+	SetForEach(val cdktn.ITerraformIterator)
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	FriendlyUniqueId() *string
+	Id() *string
+	SetId(val *string)
+	Identity() DataAzurermManagedDevopsPoolIdentityList
+	IdInput() *string
+	// Experimental.
+	Lifecycle() *cdktn.TerraformResourceLifecycle
+	// Experimental.
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	Location() *string
+	MaximumConcurrency() *float64
+	Name() *string
+	SetName(val *string)
+	NameInput() *string
+	// The tree node.
+	Node() constructs.Node
+	// Experimental.
+	Provider() cdktn.TerraformProvider
+	// Experimental.
+	SetProvider(val cdktn.TerraformProvider)
+	// Experimental.
+	RawOverrides() interface{}
+	ResourceGroupName() *string
+	SetResourceGroupName(val *string)
+	ResourceGroupNameInput() *string
+	StatefulAgent() DataAzurermManagedDevopsPoolStatefulAgentList
+	StatelessAgent() DataAzurermManagedDevopsPoolStatelessAgentList
+	Tags() cdktn.StringMap
+	// Experimental.
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	// Experimental.
+	TerraformMetaArguments() *map[string]interface{}
+	// Experimental.
+	TerraformResourceType() *string
+	Timeouts() DataAzurermManagedDevopsPoolTimeoutsOutputReference
+	TimeoutsInput() interface{}
+	VirtualMachineScaleSetFabric() DataAzurermManagedDevopsPoolVirtualMachineScaleSetFabricList
+	WorkFolder() *string
+	// Experimental.
+	AddOverride(path *string, value interface{})
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Overrides the auto-generated logical ID with a specific ID.
+	// Experimental.
+	OverrideLogicalId(newLogicalId *string)
+	PutTimeouts(value *DataAzurermManagedDevopsPoolTimeouts)
+	ResetId()
+	// Resets a previously passed logical Id to use the auto-generated logical id again.
+	// Experimental.
+	ResetOverrideLogicalId()
+	ResetTimeouts()
+	SynthesizeAttributes() *map[string]interface{}
+	SynthesizeHclAttributes() *map[string]interface{}
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToHclTerraform() interface{}
+	// Experimental.
+	ToMetadata() interface{}
+	// Returns a string representation of this construct.
+	ToString() *string
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
+}
+
+// The jsii proxy struct for DataAzurermManagedDevopsPool
+type jsiiProxy_DataAzurermManagedDevopsPool struct {
+	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) AzureDevopsOrganization() DataAzurermManagedDevopsPoolAzureDevopsOrganizationList {
+	var returns DataAzurermManagedDevopsPoolAzureDevopsOrganizationList
+	_jsii_.Get(
+		j,
+		"azureDevopsOrganization",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
+	_jsii_.Get(
+		j,
+		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) ConstructNodeMetadata() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Count() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) DependsOn() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) DevCenterProjectId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"devCenterProjectId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
+	_jsii_.Get(
+		j,
+		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) FriendlyUniqueId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Identity() DataAzurermManagedDevopsPoolIdentityList {
+	var returns DataAzurermManagedDevopsPoolIdentityList
+	_jsii_.Get(
+		j,
+		"identity",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) IdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
+	_jsii_.Get(
+		j,
+		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Location() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"location",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) MaximumConcurrency() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumConcurrency",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) NameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
+	_jsii_.Get(
+		j,
+		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) RawOverrides() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) ResourceGroupName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceGroupName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) ResourceGroupNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"resourceGroupNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) StatefulAgent() DataAzurermManagedDevopsPoolStatefulAgentList {
+	var returns DataAzurermManagedDevopsPoolStatefulAgentList
+	_jsii_.Get(
+		j,
+		"statefulAgent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) StatelessAgent() DataAzurermManagedDevopsPoolStatelessAgentList {
+	var returns DataAzurermManagedDevopsPoolStatelessAgentList
+	_jsii_.Get(
+		j,
+		"statelessAgent",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Tags() cdktn.StringMap {
+	var returns cdktn.StringMap
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
+	_jsii_.Get(
+		j,
+		"terraformGeneratorMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) TerraformMetaArguments() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"terraformMetaArguments",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) TerraformResourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) Timeouts() DataAzurermManagedDevopsPoolTimeoutsOutputReference {
+	var returns DataAzurermManagedDevopsPoolTimeoutsOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) VirtualMachineScaleSetFabric() DataAzurermManagedDevopsPoolVirtualMachineScaleSetFabricList {
+	var returns DataAzurermManagedDevopsPoolVirtualMachineScaleSetFabricList
+	_jsii_.Get(
+		j,
+		"virtualMachineScaleSetFabric",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool) WorkFolder() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"workFolder",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool} Data Source.
+func NewDataAzurermManagedDevopsPool(scope constructs.Construct, id *string, config *DataAzurermManagedDevopsPoolConfig) DataAzurermManagedDevopsPool {
+	_init_.Initialize()
+
+	if err := validateNewDataAzurermManagedDevopsPoolParameters(scope, id, config); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DataAzurermManagedDevopsPool{}
+
+	_jsii_.Create(
+		"@cdktn/provider-azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPool",
+		[]interface{}{scope, id, config},
+		&j,
+	)
+
+	return &j
+}
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/managed_devops_pool azurerm_managed_devops_pool} Data Source.
+func NewDataAzurermManagedDevopsPool_Override(d DataAzurermManagedDevopsPool, scope constructs.Construct, id *string, config *DataAzurermManagedDevopsPoolConfig) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/provider-azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPool",
+		[]interface{}{scope, id, config},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetDependsOn(val *[]*string) {
+	_jsii_.Set(
+		j,
+		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetForEach(val cdktn.ITerraformIterator) {
+	_jsii_.Set(
+		j,
+		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetId(val *string) {
+	if err := j.validateSetIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
+	if err := j.validateSetLifecycleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetName(val *string) {
+	if err := j.validateSetNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetProvider(val cdktn.TerraformProvider) {
+	_jsii_.Set(
+		j,
+		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermManagedDevopsPool)SetResourceGroupName(val *string) {
+	if err := j.validateSetResourceGroupNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"resourceGroupName",
+		val,
+	)
+}
+
+// Generates CDKTN code for importing a DataAzurermManagedDevopsPool resource upon running "cdktn plan <stack-name>".
+func DataAzurermManagedDevopsPool_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
+	_init_.Initialize()
+
+	if err := validateDataAzurermManagedDevopsPool_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
+		panic(err)
+	}
+	var returns cdktn.ImportableResource
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPool",
+		"generateConfigForImport",
+		[]interface{}{scope, importToId, importFromId, provider},
+		&returns,
+	)
+
+	return returns
+}
+
+// Checks if `x` is a construct.
+//
+// Use this method instead of `instanceof` to properly detect `Construct`
+// instances, even when the construct library is symlinked.
+//
+// Explanation: in JavaScript, multiple copies of the `constructs` library on
+// disk are seen as independent, completely different libraries. As a
+// consequence, the class `Construct` in each copy of the `constructs` library
+// is seen as a different class, and an instance of one class will not test as
+// `instanceof` the other class. `npm install` will not create installations
+// like this, but users may manually symlink construct libraries together or
+// use a monorepo tool: in those cases, multiple copies of the `constructs`
+// library can be accidentally installed, and `instanceof` will behave
+// unpredictably. It is safest to avoid using `instanceof`, and using
+// this type-testing method instead.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+func DataAzurermManagedDevopsPool_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataAzurermManagedDevopsPool_IsConstructParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPool",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataAzurermManagedDevopsPool_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataAzurermManagedDevopsPool_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPool",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataAzurermManagedDevopsPool_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataAzurermManagedDevopsPool_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/provider-azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPool",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+func DataAzurermManagedDevopsPool_TfResourceType() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdktn/provider-azurerm.dataAzurermManagedDevopsPool.DataAzurermManagedDevopsPool",
+		"tfResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) AddOverride(path *string, value interface{}) {
+	if err := d.validateAddOverrideParameters(path, value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"addOverride",
+		[]interface{}{path, value},
+	)
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := d.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := d.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := d.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		d,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := d.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := d.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := d.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetStringAttribute(terraformAttribute *string) *string {
+	if err := d.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := d.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		d,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) OverrideLogicalId(newLogicalId *string) {
+	if err := d.validateOverrideLogicalIdParameters(newLogicalId); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"overrideLogicalId",
+		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) PutTimeouts(value *DataAzurermManagedDevopsPoolTimeouts) {
+	if err := d.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) ResetId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) ResetOverrideLogicalId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) SynthesizeAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"synthesizeAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) SynthesizeHclAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"synthesizeHclAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) ToHclTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toHclTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) ToMetadata() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toMetadata",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) ToTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAzurermManagedDevopsPool) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
+		&returns,
+	)
+
+	return returns
+}
+

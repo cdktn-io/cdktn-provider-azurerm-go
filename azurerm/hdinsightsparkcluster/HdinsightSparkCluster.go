@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster}.
 type HdinsightSparkCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -885,7 +885,7 @@ func (j *jsiiProxy_HdinsightSparkCluster) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
 func NewHdinsightSparkCluster(scope constructs.Construct, id *string, config *HdinsightSparkClusterConfig) HdinsightSparkCluster {
 	_init_.Initialize()
 
@@ -903,7 +903,7 @@ func NewHdinsightSparkCluster(scope constructs.Construct, id *string, config *Hd
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/hdinsight_spark_cluster azurerm_hdinsight_spark_cluster} Resource.
 func NewHdinsightSparkCluster_Override(h HdinsightSparkCluster, scope constructs.Construct, id *string, config *HdinsightSparkClusterConfig) {
 	_init_.Initialize()
 

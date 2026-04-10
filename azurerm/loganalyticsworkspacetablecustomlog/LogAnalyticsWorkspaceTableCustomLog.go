@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log}.
 type LogAnalyticsWorkspaceTableCustomLog interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_LogAnalyticsWorkspaceTableCustomLog) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
 func NewLogAnalyticsWorkspaceTableCustomLog(scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableCustomLogConfig) LogAnalyticsWorkspaceTableCustomLog {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewLogAnalyticsWorkspaceTableCustomLog(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/log_analytics_workspace_table_custom_log azurerm_log_analytics_workspace_table_custom_log} Resource.
 func NewLogAnalyticsWorkspaceTableCustomLog_Override(l LogAnalyticsWorkspaceTableCustomLog, scope constructs.Construct, id *string, config *LogAnalyticsWorkspaceTableCustomLogConfig) {
 	_init_.Initialize()
 

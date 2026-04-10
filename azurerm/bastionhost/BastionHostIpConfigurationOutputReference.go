@@ -73,6 +73,7 @@ type BastionHostIpConfigurationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetPublicIpAddressId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -518,6 +519,14 @@ func (b *jsiiProxy_BastionHostIpConfigurationOutputReference) InterpolationForAt
 	)
 
 	return returns
+}
+
+func (b *jsiiProxy_BastionHostIpConfigurationOutputReference) ResetPublicIpAddressId() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetPublicIpAddressId",
+		nil, // no parameters
+	)
 }
 
 func (b *jsiiProxy_BastionHostIpConfigurationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

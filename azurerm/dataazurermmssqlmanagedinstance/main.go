@@ -28,6 +28,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "fqdn", GoGetter: "Fqdn"},
 			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
 			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberProperty{JsiiProperty: "generalPurposeV2Enabled", GoGetter: "GeneralPurposeV2Enabled"},
 			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
 			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},

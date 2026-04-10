@@ -9,13 +9,13 @@ type AzurermProviderEnhancedValidation struct {
 	//
 	// When enabled, invalid locations are caught at plan time; when disabled, they are caught at apply time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs#locations AzurermProvider#locations}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs#locations AzurermProvider#locations}
 	Locations interface{} `field:"optional" json:"locations" yaml:"locations"`
 	// Should the AzureRM Provider validate Resource Provider arguments against the list of supported Resource Providers?
 	//
 	// When enabled, invalid resource providers are caught at plan time; when disabled, they are caught at apply time.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs#resource_providers AzurermProvider#resource_providers}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs#resource_providers AzurermProvider#resource_providers}
 	ResourceProviders interface{} `field:"optional" json:"resourceProviders" yaml:"resourceProviders"`
 }
 

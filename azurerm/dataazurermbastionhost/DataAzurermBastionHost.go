@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/bastion_host azurerm_bastion_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/bastion_host azurerm_bastion_host}.
 type DataAzurermBastionHost interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -53,6 +53,7 @@ type DataAzurermBastionHost interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PrivateOnlyEnabled() cdktn.IResolvable
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -326,6 +327,16 @@ func (j *jsiiProxy_DataAzurermBastionHost) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermBastionHost) PrivateOnlyEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"privateOnlyEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermBastionHost) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -487,7 +498,7 @@ func (j *jsiiProxy_DataAzurermBastionHost) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/bastion_host azurerm_bastion_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/bastion_host azurerm_bastion_host} Data Source.
 func NewDataAzurermBastionHost(scope constructs.Construct, id *string, config *DataAzurermBastionHostConfig) DataAzurermBastionHost {
 	_init_.Initialize()
 
@@ -505,7 +516,7 @@ func NewDataAzurermBastionHost(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/bastion_host azurerm_bastion_host} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/bastion_host azurerm_bastion_host} Data Source.
 func NewDataAzurermBastionHost_Override(d DataAzurermBastionHost, scope constructs.Construct, id *string, config *DataAzurermBastionHostConfig) {
 	_init_.Initialize()
 

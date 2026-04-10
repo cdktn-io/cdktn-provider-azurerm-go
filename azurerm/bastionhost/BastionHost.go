@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/bastion_host azurerm_bastion_host}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/bastion_host azurerm_bastion_host}.
 type BastionHost interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -69,6 +69,7 @@ type BastionHost interface {
 	NameInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PrivateOnlyEnabled() cdktn.IResolvable
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -474,6 +475,16 @@ func (j *jsiiProxy_BastionHost) Node() constructs.Node {
 	return returns
 }
 
+func (j *jsiiProxy_BastionHost) PrivateOnlyEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"privateOnlyEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BastionHost) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -735,7 +746,7 @@ func (j *jsiiProxy_BastionHost) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
 func NewBastionHost(scope constructs.Construct, id *string, config *BastionHostConfig) BastionHost {
 	_init_.Initialize()
 
@@ -753,7 +764,7 @@ func NewBastionHost(scope constructs.Construct, id *string, config *BastionHostC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/bastion_host azurerm_bastion_host} Resource.
 func NewBastionHost_Override(b BastionHost, scope constructs.Construct, id *string, config *BastionHostConfig) {
 	_init_.Initialize()
 

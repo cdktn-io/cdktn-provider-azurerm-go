@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/netapp_volume azurerm_netapp_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/netapp_volume azurerm_netapp_volume}.
 type NetappVolume interface {
 	cdktn.TerraformResource
 	AcceptGrowCapacityPoolForShortTermCloneSplit() *string
@@ -41,6 +41,8 @@ type NetappVolume interface {
 	CreateFromSnapshotResourceId() *string
 	SetCreateFromSnapshotResourceId(val *string)
 	CreateFromSnapshotResourceIdInput() *string
+	DataProtectionAdvancedRansomware() NetappVolumeDataProtectionAdvancedRansomwareOutputReference
+	DataProtectionAdvancedRansomwareInput() *NetappVolumeDataProtectionAdvancedRansomware
 	DataProtectionBackupPolicy() NetappVolumeDataProtectionBackupPolicyOutputReference
 	DataProtectionBackupPolicyInput() *NetappVolumeDataProtectionBackupPolicy
 	DataProtectionReplication() NetappVolumeDataProtectionReplicationOutputReference
@@ -202,6 +204,7 @@ type NetappVolume interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutCoolAccess(value *NetappVolumeCoolAccess)
+	PutDataProtectionAdvancedRansomware(value *NetappVolumeDataProtectionAdvancedRansomware)
 	PutDataProtectionBackupPolicy(value *NetappVolumeDataProtectionBackupPolicy)
 	PutDataProtectionReplication(value *NetappVolumeDataProtectionReplication)
 	PutDataProtectionSnapshotPolicy(value *NetappVolumeDataProtectionSnapshotPolicy)
@@ -211,6 +214,7 @@ type NetappVolume interface {
 	ResetAzureVmwareDataStoreEnabled()
 	ResetCoolAccess()
 	ResetCreateFromSnapshotResourceId()
+	ResetDataProtectionAdvancedRansomware()
 	ResetDataProtectionBackupPolicy()
 	ResetDataProtectionReplication()
 	ResetDataProtectionSnapshotPolicy()
@@ -397,6 +401,26 @@ func (j *jsiiProxy_NetappVolume) CreateFromSnapshotResourceIdInput() *string {
 	_jsii_.Get(
 		j,
 		"createFromSnapshotResourceIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolume) DataProtectionAdvancedRansomware() NetappVolumeDataProtectionAdvancedRansomwareOutputReference {
+	var returns NetappVolumeDataProtectionAdvancedRansomwareOutputReference
+	_jsii_.Get(
+		j,
+		"dataProtectionAdvancedRansomware",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetappVolume) DataProtectionAdvancedRansomwareInput() *NetappVolumeDataProtectionAdvancedRansomware {
+	var returns *NetappVolumeDataProtectionAdvancedRansomware
+	_jsii_.Get(
+		j,
+		"dataProtectionAdvancedRansomwareInput",
 		&returns,
 	)
 	return returns
@@ -1113,7 +1137,7 @@ func (j *jsiiProxy_NetappVolume) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
 func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolumeConfig) NetappVolume {
 	_init_.Initialize()
 
@@ -1131,7 +1155,7 @@ func NewNetappVolume(scope constructs.Construct, id *string, config *NetappVolum
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/netapp_volume azurerm_netapp_volume} Resource.
 func NewNetappVolume_Override(n NetappVolume, scope constructs.Construct, id *string, config *NetappVolumeConfig) {
 	_init_.Initialize()
 
@@ -1882,6 +1906,17 @@ func (n *jsiiProxy_NetappVolume) PutCoolAccess(value *NetappVolumeCoolAccess) {
 	)
 }
 
+func (n *jsiiProxy_NetappVolume) PutDataProtectionAdvancedRansomware(value *NetappVolumeDataProtectionAdvancedRansomware) {
+	if err := n.validatePutDataProtectionAdvancedRansomwareParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		n,
+		"putDataProtectionAdvancedRansomware",
+		[]interface{}{value},
+	)
+}
+
 func (n *jsiiProxy_NetappVolume) PutDataProtectionBackupPolicy(value *NetappVolumeDataProtectionBackupPolicy) {
 	if err := n.validatePutDataProtectionBackupPolicyParameters(value); err != nil {
 		panic(err)
@@ -1965,6 +2000,14 @@ func (n *jsiiProxy_NetappVolume) ResetCreateFromSnapshotResourceId() {
 	_jsii_.InvokeVoid(
 		n,
 		"resetCreateFromSnapshotResourceId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetappVolume) ResetDataProtectionAdvancedRansomware() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetDataProtectionAdvancedRansomware",
 		nil, // no parameters
 	)
 }

@@ -75,6 +75,10 @@ func (a *jsiiProxy_AppConfigurationFeature) validateOverrideLogicalIdParameters(
 	return nil
 }
 
+func (a *jsiiProxy_AppConfigurationFeature) validatePutCustomFilterParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppConfigurationFeature) validatePutTargetingFilterParameters(value interface{}) error {
 	return nil
 }

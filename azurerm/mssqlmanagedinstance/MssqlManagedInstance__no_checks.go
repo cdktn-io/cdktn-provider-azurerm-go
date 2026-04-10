@@ -131,6 +131,10 @@ func (j *jsiiProxy_MssqlManagedInstance) validateSetDnsZonePartnerIdParameters(v
 	return nil
 }
 
+func (j *jsiiProxy_MssqlManagedInstance) validateSetGeneralPurposeV2EnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_MssqlManagedInstance) validateSetHybridSecondaryUsageParameters(val *string) error {
 	return nil
 }

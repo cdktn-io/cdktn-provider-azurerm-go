@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/advisor_suppression azurerm_advisor_suppression}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/advisor_suppression azurerm_advisor_suppression}.
 type AdvisorSuppression interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_AdvisorSuppression) TtlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
 func NewAdvisorSuppression(scope constructs.Construct, id *string, config *AdvisorSuppressionConfig) AdvisorSuppression {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewAdvisorSuppression(scope constructs.Construct, id *string, config *Advis
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
 func NewAdvisorSuppression_Override(a AdvisorSuppression, scope constructs.Construct, id *string, config *AdvisorSuppressionConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/platform_image azurerm_platform_image}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/platform_image azurerm_platform_image}.
 type DataAzurermPlatformImage interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -414,7 +414,7 @@ func (j *jsiiProxy_DataAzurermPlatformImage) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
 func NewDataAzurermPlatformImage(scope constructs.Construct, id *string, config *DataAzurermPlatformImageConfig) DataAzurermPlatformImage {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewDataAzurermPlatformImage(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/platform_image azurerm_platform_image} Data Source.
 func NewDataAzurermPlatformImage_Override(d DataAzurermPlatformImage, scope constructs.Construct, id *string, config *DataAzurermPlatformImageConfig) {
 	_init_.Initialize()
 

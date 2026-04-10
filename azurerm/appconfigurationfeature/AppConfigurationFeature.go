@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature}.
 type AppConfigurationFeature interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -30,6 +30,8 @@ type AppConfigurationFeature interface {
 	Count() interface{}
 	// Experimental.
 	SetCount(val interface{})
+	CustomFilter() AppConfigurationFeatureCustomFilterList
+	CustomFilterInput() interface{}
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -143,9 +145,11 @@ type AppConfigurationFeature interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutCustomFilter(value interface{})
 	PutTargetingFilter(value interface{})
 	PutTimeouts(value *AppConfigurationFeatureTimeouts)
 	PutTimewindowFilter(value interface{})
+	ResetCustomFilter()
 	ResetDescription()
 	ResetEnabled()
 	ResetEtag()
@@ -243,6 +247,26 @@ func (j *jsiiProxy_AppConfigurationFeature) Count() interface{} {
 	_jsii_.Get(
 		j,
 		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppConfigurationFeature) CustomFilter() AppConfigurationFeatureCustomFilterList {
+	var returns AppConfigurationFeatureCustomFilterList
+	_jsii_.Get(
+		j,
+		"customFilter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AppConfigurationFeature) CustomFilterInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customFilterInput",
 		&returns,
 	)
 	return returns
@@ -629,7 +653,7 @@ func (j *jsiiProxy_AppConfigurationFeature) TimewindowFilterInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
 func NewAppConfigurationFeature(scope constructs.Construct, id *string, config *AppConfigurationFeatureConfig) AppConfigurationFeature {
 	_init_.Initialize()
 
@@ -647,7 +671,7 @@ func NewAppConfigurationFeature(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/app_configuration_feature azurerm_app_configuration_feature} Resource.
 func NewAppConfigurationFeature_Override(a AppConfigurationFeature, scope constructs.Construct, id *string, config *AppConfigurationFeatureConfig) {
 	_init_.Initialize()
 
@@ -1200,6 +1224,17 @@ func (a *jsiiProxy_AppConfigurationFeature) OverrideLogicalId(newLogicalId *stri
 	)
 }
 
+func (a *jsiiProxy_AppConfigurationFeature) PutCustomFilter(value interface{}) {
+	if err := a.validatePutCustomFilterParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		a,
+		"putCustomFilter",
+		[]interface{}{value},
+	)
+}
+
 func (a *jsiiProxy_AppConfigurationFeature) PutTargetingFilter(value interface{}) {
 	if err := a.validatePutTargetingFilterParameters(value); err != nil {
 		panic(err)
@@ -1230,6 +1265,14 @@ func (a *jsiiProxy_AppConfigurationFeature) PutTimewindowFilter(value interface{
 		a,
 		"putTimewindowFilter",
 		[]interface{}{value},
+	)
+}
+
+func (a *jsiiProxy_AppConfigurationFeature) ResetCustomFilter() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetCustomFilter",
+		nil, // no parameters
 	)
 }
 

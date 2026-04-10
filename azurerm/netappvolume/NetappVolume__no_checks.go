@@ -79,6 +79,10 @@ func (n *jsiiProxy_NetappVolume) validatePutCoolAccessParameters(value *NetappVo
 	return nil
 }
 
+func (n *jsiiProxy_NetappVolume) validatePutDataProtectionAdvancedRansomwareParameters(value *NetappVolumeDataProtectionAdvancedRansomware) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappVolume) validatePutDataProtectionBackupPolicyParameters(value *NetappVolumeDataProtectionBackupPolicy) error {
 	return nil
 }

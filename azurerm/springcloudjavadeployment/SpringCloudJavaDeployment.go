@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment}.
 type SpringCloudJavaDeployment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -509,7 +509,7 @@ func (j *jsiiProxy_SpringCloudJavaDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
 func NewSpringCloudJavaDeployment(scope constructs.Construct, id *string, config *SpringCloudJavaDeploymentConfig) SpringCloudJavaDeployment {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewSpringCloudJavaDeployment(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/spring_cloud_java_deployment azurerm_spring_cloud_java_deployment} Resource.
 func NewSpringCloudJavaDeployment_Override(s SpringCloudJavaDeployment, scope constructs.Construct, id *string, config *SpringCloudJavaDeploymentConfig) {
 	_init_.Initialize()
 

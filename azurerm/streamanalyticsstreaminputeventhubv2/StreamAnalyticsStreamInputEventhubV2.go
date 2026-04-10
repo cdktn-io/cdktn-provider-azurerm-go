@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/stream_analytics_stream_input_eventhub_v2 azurerm_stream_analytics_stream_input_eventhub_v2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/stream_analytics_stream_input_eventhub_v2 azurerm_stream_analytics_stream_input_eventhub_v2}.
 type StreamAnalyticsStreamInputEventhubV2 interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -578,7 +578,7 @@ func (j *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/stream_analytics_stream_input_eventhub_v2 azurerm_stream_analytics_stream_input_eventhub_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/stream_analytics_stream_input_eventhub_v2 azurerm_stream_analytics_stream_input_eventhub_v2} Resource.
 func NewStreamAnalyticsStreamInputEventhubV2(scope constructs.Construct, id *string, config *StreamAnalyticsStreamInputEventhubV2Config) StreamAnalyticsStreamInputEventhubV2 {
 	_init_.Initialize()
 
@@ -596,7 +596,7 @@ func NewStreamAnalyticsStreamInputEventhubV2(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.67.0/docs/resources/stream_analytics_stream_input_eventhub_v2 azurerm_stream_analytics_stream_input_eventhub_v2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/stream_analytics_stream_input_eventhub_v2 azurerm_stream_analytics_stream_input_eventhub_v2} Resource.
 func NewStreamAnalyticsStreamInputEventhubV2_Override(s StreamAnalyticsStreamInputEventhubV2, scope constructs.Construct, id *string, config *StreamAnalyticsStreamInputEventhubV2Config) {
 	_init_.Initialize()
 
