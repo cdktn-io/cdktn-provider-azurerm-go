@@ -32,6 +32,7 @@ type DataAzurermContainerAppTemplateCustomScaleRuleOutputReference interface {
 	CustomRuleType() *string
 	// Experimental.
 	Fqn() *string
+	IdentityId() *string
 	InternalValue() *DataAzurermContainerAppTemplateCustomScaleRule
 	SetInternalValue(val *DataAzurermContainerAppTemplateCustomScaleRule)
 	Metadata() cdktn.StringMap
@@ -138,6 +139,16 @@ func (j *jsiiProxy_DataAzurermContainerAppTemplateCustomScaleRuleOutputReference
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermContainerAppTemplateCustomScaleRuleOutputReference) IdentityId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityId",
 		&returns,
 	)
 	return returns

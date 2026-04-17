@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/purview_account azurerm_purview_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/purview_account azurerm_purview_account}.
 type PurviewAccount interface {
 	cdktn.TerraformResource
 	AtlasKafkaEndpointPrimaryConnectionString() *string
@@ -608,7 +608,7 @@ func (j *jsiiProxy_PurviewAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/purview_account azurerm_purview_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/purview_account azurerm_purview_account} Resource.
 func NewPurviewAccount(scope constructs.Construct, id *string, config *PurviewAccountConfig) PurviewAccount {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewPurviewAccount(scope constructs.Construct, id *string, config *PurviewAc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/purview_account azurerm_purview_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/purview_account azurerm_purview_account} Resource.
 func NewPurviewAccount_Override(p PurviewAccount, scope constructs.Construct, id *string, config *PurviewAccountConfig) {
 	_init_.Initialize()
 

@@ -67,6 +67,10 @@ func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesOutputReference) v
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesOutputReference) validateSetIdentityIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAppJobEventTriggerConfigScaleRulesOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

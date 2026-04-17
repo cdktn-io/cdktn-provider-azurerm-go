@@ -61,6 +61,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "quota", GoGetter: "Quota"},
 			_jsii_.MemberProperty{JsiiProperty: "quotaInput", GoGetter: "QuotaInput"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "rbacScopeId", GoGetter: "RbacScopeId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAccessTier", GoMethod: "ResetAccessTier"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAcl", GoMethod: "ResetAcl"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabledProtocol", GoMethod: "ResetEnabledProtocol"},

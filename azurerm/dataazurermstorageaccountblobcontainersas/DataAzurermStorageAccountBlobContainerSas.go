@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas}.
 type DataAzurermStorageAccountBlobContainerSas interface {
 	cdktn.TerraformDataSource
 	CacheControl() *string
@@ -132,6 +132,7 @@ type DataAzurermStorageAccountBlobContainerSas interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPermissions()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -592,7 +593,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
 func NewDataAzurermStorageAccountBlobContainerSas(scope constructs.Construct, id *string, config *DataAzurermStorageAccountBlobContainerSasConfig) DataAzurermStorageAccountBlobContainerSas {
 	_init_.Initialize()
 
@@ -610,7 +611,7 @@ func NewDataAzurermStorageAccountBlobContainerSas(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_blob_container_sas azurerm_storage_account_blob_container_sas} Data Source.
 func NewDataAzurermStorageAccountBlobContainerSas_Override(d DataAzurermStorageAccountBlobContainerSas, scope constructs.Construct, id *string, config *DataAzurermStorageAccountBlobContainerSasConfig) {
 	_init_.Initialize()
 
@@ -1174,6 +1175,14 @@ func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) ResetOverrideLogic
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) ResetPermissions() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetPermissions",
 		nil, // no parameters
 	)
 }

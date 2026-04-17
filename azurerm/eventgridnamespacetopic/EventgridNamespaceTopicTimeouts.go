@@ -5,13 +5,13 @@ package eventgridnamespacetopic
 
 
 type EventgridNamespaceTopicTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/eventgrid_namespace_topic#create EventgridNamespaceTopic#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/eventgrid_namespace_topic#create EventgridNamespaceTopic#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/eventgrid_namespace_topic#delete EventgridNamespaceTopic#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/eventgrid_namespace_topic#delete EventgridNamespaceTopic#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/eventgrid_namespace_topic#read EventgridNamespaceTopic#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/eventgrid_namespace_topic#read EventgridNamespaceTopic#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/eventgrid_namespace_topic#update EventgridNamespaceTopic#update}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/eventgrid_namespace_topic#update EventgridNamespaceTopic#update}.
 	Update *string `field:"optional" json:"update" yaml:"update"`
 }
 

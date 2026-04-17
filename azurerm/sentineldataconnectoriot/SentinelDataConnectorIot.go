@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/sentinel_data_connector_iot azurerm_sentinel_data_connector_iot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/sentinel_data_connector_iot azurerm_sentinel_data_connector_iot}.
 type SentinelDataConnectorIot interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_SentinelDataConnectorIot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/sentinel_data_connector_iot azurerm_sentinel_data_connector_iot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/sentinel_data_connector_iot azurerm_sentinel_data_connector_iot} Resource.
 func NewSentinelDataConnectorIot(scope constructs.Construct, id *string, config *SentinelDataConnectorIotConfig) SentinelDataConnectorIot {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSentinelDataConnectorIot(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/sentinel_data_connector_iot azurerm_sentinel_data_connector_iot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/sentinel_data_connector_iot azurerm_sentinel_data_connector_iot} Resource.
 func NewSentinelDataConnectorIot_Override(s SentinelDataConnectorIot, scope constructs.Construct, id *string, config *SentinelDataConnectorIotConfig) {
 	_init_.Initialize()
 

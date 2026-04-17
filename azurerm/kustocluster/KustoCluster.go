@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/kusto_cluster azurerm_kusto_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/kusto_cluster azurerm_kusto_cluster}.
 type KustoCluster interface {
 	cdktn.TerraformResource
 	AllowedFqdns() *[]*string
@@ -889,7 +889,7 @@ func (j *jsiiProxy_KustoCluster) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
 func NewKustoCluster(scope constructs.Construct, id *string, config *KustoClusterConfig) KustoCluster {
 	_init_.Initialize()
 
@@ -907,7 +907,7 @@ func NewKustoCluster(scope constructs.Construct, id *string, config *KustoCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/kusto_cluster azurerm_kusto_cluster} Resource.
 func NewKustoCluster_Override(k KustoCluster, scope constructs.Construct, id *string, config *KustoClusterConfig) {
 	_init_.Initialize()
 

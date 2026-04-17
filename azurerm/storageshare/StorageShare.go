@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/storage_share azurerm_storage_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_share azurerm_storage_share}.
 type StorageShare interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -75,6 +75,7 @@ type StorageShare interface {
 	QuotaInput() *float64
 	// Experimental.
 	RawOverrides() interface{}
+	RbacScopeId() *string
 	ResourceManagerId() *string
 	StorageAccountId() *string
 	SetStorageAccountId(val *string)
@@ -444,6 +445,16 @@ func (j *jsiiProxy_StorageShare) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_StorageShare) RbacScopeId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"rbacScopeId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageShare) ResourceManagerId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -555,7 +566,7 @@ func (j *jsiiProxy_StorageShare) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare(scope constructs.Construct, id *string, config *StorageShareConfig) StorageShare {
 	_init_.Initialize()
 
@@ -573,7 +584,7 @@ func NewStorageShare(scope constructs.Construct, id *string, config *StorageShar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/storage_share azurerm_storage_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_share azurerm_storage_share} Resource.
 func NewStorageShare_Override(s StorageShare, scope constructs.Construct, id *string, config *StorageShareConfig) {
 	_init_.Initialize()
 

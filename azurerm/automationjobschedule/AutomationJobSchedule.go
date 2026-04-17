@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule}.
 type AutomationJobSchedule interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -518,7 +518,7 @@ func (j *jsiiProxy_AutomationJobSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
 func NewAutomationJobSchedule(scope constructs.Construct, id *string, config *AutomationJobScheduleConfig) AutomationJobSchedule {
 	_init_.Initialize()
 
@@ -536,7 +536,7 @@ func NewAutomationJobSchedule(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_job_schedule azurerm_automation_job_schedule} Resource.
 func NewAutomationJobSchedule_Override(a AutomationJobSchedule, scope constructs.Construct, id *string, config *AutomationJobScheduleConfig) {
 	_init_.Initialize()
 

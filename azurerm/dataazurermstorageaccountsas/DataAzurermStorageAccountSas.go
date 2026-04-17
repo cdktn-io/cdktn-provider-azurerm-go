@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas}.
 type DataAzurermStorageAccountSas interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -118,6 +118,7 @@ type DataAzurermStorageAccountSas interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPermissions()
 	ResetSignedVersion()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
@@ -519,7 +520,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountSas) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
 func NewDataAzurermStorageAccountSas(scope constructs.Construct, id *string, config *DataAzurermStorageAccountSasConfig) DataAzurermStorageAccountSas {
 	_init_.Initialize()
 
@@ -537,7 +538,7 @@ func NewDataAzurermStorageAccountSas(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
 func NewDataAzurermStorageAccountSas_Override(d DataAzurermStorageAccountSas, scope constructs.Construct, id *string, config *DataAzurermStorageAccountSasConfig) {
 	_init_.Initialize()
 
@@ -1028,6 +1029,14 @@ func (d *jsiiProxy_DataAzurermStorageAccountSas) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSas) ResetPermissions() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetPermissions",
 		nil, // no parameters
 	)
 }

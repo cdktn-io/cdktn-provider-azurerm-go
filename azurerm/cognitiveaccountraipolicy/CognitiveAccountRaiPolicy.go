@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy}.
 type CognitiveAccountRaiPolicy interface {
 	cdktn.TerraformResource
 	BasePolicyName() *string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_CognitiveAccountRaiPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
 func NewCognitiveAccountRaiPolicy(scope constructs.Construct, id *string, config *CognitiveAccountRaiPolicyConfig) CognitiveAccountRaiPolicy {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewCognitiveAccountRaiPolicy(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account_rai_policy azurerm_cognitive_account_rai_policy} Resource.
 func NewCognitiveAccountRaiPolicy_Override(c CognitiveAccountRaiPolicy, scope constructs.Construct, id *string, config *CognitiveAccountRaiPolicyConfig) {
 	_init_.Initialize()
 

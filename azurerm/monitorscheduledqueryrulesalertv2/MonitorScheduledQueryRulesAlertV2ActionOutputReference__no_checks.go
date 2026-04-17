@@ -67,6 +67,10 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) valid
 	return nil
 }
 
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) validateSetEmailSubjectParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) validateSetInternalValueParameters(val *MonitorScheduledQueryRulesAlertV2Action) error {
 	return nil
 }

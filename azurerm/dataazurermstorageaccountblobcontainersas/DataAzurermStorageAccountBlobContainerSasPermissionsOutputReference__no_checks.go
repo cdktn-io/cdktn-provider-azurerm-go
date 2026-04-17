@@ -71,6 +71,18 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	return nil
 }
 
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetDeleteVersionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetExecuteParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetFindParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetInternalValueParameters(val *DataAzurermStorageAccountBlobContainerSasPermissions) error {
 	return nil
 }
@@ -79,7 +91,27 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	return nil
 }
 
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetMoveParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetOwnershipParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetPermissionsParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetReadParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetSetImmutabilityPolicyParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) validateSetTagsParameters(val interface{}) error {
 	return nil
 }
 

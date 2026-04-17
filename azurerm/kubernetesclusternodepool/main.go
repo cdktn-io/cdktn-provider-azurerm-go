@@ -79,6 +79,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeCount", GoGetter: "NodeCount"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeCountInput", GoGetter: "NodeCountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "nodeImageVersion", GoGetter: "NodeImageVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeLabels", GoGetter: "NodeLabels"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeLabelsInput", GoGetter: "NodeLabelsInput"},
 			_jsii_.MemberProperty{JsiiProperty: "nodeNetworkProfile", GoGetter: "NodeNetworkProfile"},

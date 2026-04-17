@@ -35,6 +35,9 @@ type ContainerAppTemplateCustomScaleRuleOutputReference interface {
 	CustomRuleTypeInput() *string
 	// Experimental.
 	Fqn() *string
+	IdentityId() *string
+	SetIdentityId(val *string)
+	IdentityIdInput() *string
 	InternalValue() interface{}
 	SetInternalValue(val interface{})
 	Metadata() *map[string]*string
@@ -77,6 +80,7 @@ type ContainerAppTemplateCustomScaleRuleOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	PutAuthentication(value interface{})
 	ResetAuthentication()
+	ResetIdentityId()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -167,6 +171,26 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) Fqn() *st
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) IdentityId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) IdentityIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityIdInput",
 		&returns,
 	)
 	return returns
@@ -299,6 +323,17 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference)SetCustomR
 	_jsii_.Set(
 		j,
 		"customRuleType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference)SetIdentityId(val *string) {
+	if err := j.validateSetIdentityIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"identityId",
 		val,
 	)
 }
@@ -559,6 +594,14 @@ func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) ResetAuth
 	_jsii_.InvokeVoid(
 		c,
 		"resetAuthentication",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) ResetIdentityId() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetIdentityId",
 		nil, // no parameters
 	)
 }

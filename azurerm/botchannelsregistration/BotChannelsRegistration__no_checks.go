@@ -151,6 +151,18 @@ func (j *jsiiProxy_BotChannelsRegistration) validateSetMicrosoftAppIdParameters(
 	return nil
 }
 
+func (j *jsiiProxy_BotChannelsRegistration) validateSetMicrosoftAppTenantIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BotChannelsRegistration) validateSetMicrosoftAppTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BotChannelsRegistration) validateSetMicrosoftAppUserAssignedIdentityIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BotChannelsRegistration) validateSetNameParameters(val *string) error {
 	return nil
 }

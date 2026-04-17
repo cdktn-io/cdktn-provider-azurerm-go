@@ -34,6 +34,9 @@ type MonitorScheduledQueryRulesAlertV2ActionOutputReference interface {
 	CustomProperties() *map[string]*string
 	SetCustomProperties(val *map[string]*string)
 	CustomPropertiesInput() *map[string]*string
+	EmailSubject() *string
+	SetEmailSubject(val *string)
+	EmailSubjectInput() *string
 	// Experimental.
 	Fqn() *string
 	InternalValue() *MonitorScheduledQueryRulesAlertV2Action
@@ -72,6 +75,7 @@ type MonitorScheduledQueryRulesAlertV2ActionOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetActionGroups()
 	ResetCustomProperties()
+	ResetEmailSubject()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -152,6 +156,26 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) Custo
 	_jsii_.Get(
 		j,
 		"customPropertiesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) EmailSubject() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"emailSubject",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) EmailSubjectInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"emailSubjectInput",
 		&returns,
 	)
 	return returns
@@ -265,6 +289,17 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference)SetCus
 	_jsii_.Set(
 		j,
 		"customProperties",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference)SetEmailSubject(val *string) {
+	if err := j.validateSetEmailSubjectParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"emailSubject",
 		val,
 	)
 }
@@ -500,6 +535,14 @@ func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) Reset
 	_jsii_.InvokeVoid(
 		m,
 		"resetCustomProperties",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MonitorScheduledQueryRulesAlertV2ActionOutputReference) ResetEmailSubject() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetEmailSubject",
 		nil, // no parameters
 	)
 }

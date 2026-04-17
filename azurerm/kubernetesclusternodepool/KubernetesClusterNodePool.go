@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool}.
 type KubernetesClusterNodePool interface {
 	cdktn.TerraformResource
 	AutoScalingEnabled() interface{}
@@ -100,6 +100,7 @@ type KubernetesClusterNodePool interface {
 	NodeCount() *float64
 	SetNodeCount(val *float64)
 	NodeCountInput() *float64
+	NodeImageVersion() *string
 	NodeLabels() *map[string]*string
 	SetNodeLabels(val *map[string]*string)
 	NodeLabelsInput() *map[string]*string
@@ -792,6 +793,16 @@ func (j *jsiiProxy_KubernetesClusterNodePool) NodeCountInput() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_KubernetesClusterNodePool) NodeImageVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nodeImageVersion",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KubernetesClusterNodePool) NodeLabels() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -1373,7 +1384,7 @@ func (j *jsiiProxy_KubernetesClusterNodePool) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
 func NewKubernetesClusterNodePool(scope constructs.Construct, id *string, config *KubernetesClusterNodePoolConfig) KubernetesClusterNodePool {
 	_init_.Initialize()
 
@@ -1391,7 +1402,7 @@ func NewKubernetesClusterNodePool(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/kubernetes_cluster_node_pool azurerm_kubernetes_cluster_node_pool} Resource.
 func NewKubernetesClusterNodePool_Override(k KubernetesClusterNodePool, scope constructs.Construct, id *string, config *KubernetesClusterNodePoolConfig) {
 	_init_.Initialize()
 

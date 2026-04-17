@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map}.
 type ContainerRegistryScopeMap interface {
 	cdktn.TerraformResource
 	Actions() *[]*string
@@ -459,7 +459,7 @@ func (j *jsiiProxy_ContainerRegistryScopeMap) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
 func NewContainerRegistryScopeMap(scope constructs.Construct, id *string, config *ContainerRegistryScopeMapConfig) ContainerRegistryScopeMap {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewContainerRegistryScopeMap(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/container_registry_scope_map azurerm_container_registry_scope_map} Resource.
 func NewContainerRegistryScopeMap_Override(c ContainerRegistryScopeMap, scope constructs.Construct, id *string, config *ContainerRegistryScopeMapConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/policy_definition azurerm_policy_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/policy_definition azurerm_policy_definition}.
 type DataAzurermPolicyDefinition interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_DataAzurermPolicyDefinition) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
 func NewDataAzurermPolicyDefinition(scope constructs.Construct, id *string, config *DataAzurermPolicyDefinitionConfig) DataAzurermPolicyDefinition {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewDataAzurermPolicyDefinition(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/policy_definition azurerm_policy_definition} Data Source.
 func NewDataAzurermPolicyDefinition_Override(d DataAzurermPolicyDefinition, scope constructs.Construct, id *string, config *DataAzurermPolicyDefinitionConfig) {
 	_init_.Initialize()
 

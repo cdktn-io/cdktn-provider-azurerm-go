@@ -77,6 +77,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCache", GoMethod: "ResetCache"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCdnFrontdoorCustomDomainIds", GoMethod: "ResetCdnFrontdoorCustomDomainIds"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCdnFrontdoorOriginIds", GoMethod: "ResetCdnFrontdoorOriginIds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCdnFrontdoorOriginPath", GoMethod: "ResetCdnFrontdoorOriginPath"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCdnFrontdoorRuleSetIds", GoMethod: "ResetCdnFrontdoorRuleSetIds"},
 			_jsii_.MemberMethod{JsiiMethod: "resetEnabled", GoMethod: "ResetEnabled"},

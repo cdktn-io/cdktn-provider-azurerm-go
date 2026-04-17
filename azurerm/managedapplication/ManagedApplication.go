@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/managed_application azurerm_managed_application}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/managed_application azurerm_managed_application}.
 type ManagedApplication interface {
 	cdktn.TerraformResource
 	ApplicationDefinitionId() *string
@@ -565,7 +565,7 @@ func (j *jsiiProxy_ManagedApplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/managed_application azurerm_managed_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/managed_application azurerm_managed_application} Resource.
 func NewManagedApplication(scope constructs.Construct, id *string, config *ManagedApplicationConfig) ManagedApplication {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewManagedApplication(scope constructs.Construct, id *string, config *Manag
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/managed_application azurerm_managed_application} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/managed_application azurerm_managed_application} Resource.
 func NewManagedApplication_Override(m ManagedApplication, scope constructs.Construct, id *string, config *ManagedApplicationConfig) {
 	_init_.Initialize()
 

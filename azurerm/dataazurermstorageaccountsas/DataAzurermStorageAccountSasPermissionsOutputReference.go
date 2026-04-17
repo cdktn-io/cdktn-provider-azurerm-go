@@ -94,6 +94,16 @@ type DataAzurermStorageAccountSasPermissionsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAdd()
+	ResetCreate()
+	ResetDelete()
+	ResetFilter()
+	ResetList()
+	ResetProcess()
+	ResetRead()
+	ResetTag()
+	ResetUpdate()
+	ResetWrite()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -756,6 +766,86 @@ func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Inter
 	)
 
 	return returns
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetAdd() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAdd",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetCreate() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCreate",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetDelete() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetFilter() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetFilter",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetList() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetList",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetProcess() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetProcess",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetRead() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRead",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetTag() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTag",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetUpdate() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetUpdate",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) ResetWrite() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetWrite",
+		nil, // no parameters
+	)
 }
 
 func (d *jsiiProxy_DataAzurermStorageAccountSasPermissionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

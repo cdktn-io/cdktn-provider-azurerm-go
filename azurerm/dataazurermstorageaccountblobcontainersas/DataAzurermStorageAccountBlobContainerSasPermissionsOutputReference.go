@@ -37,6 +37,15 @@ type DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference interfa
 	Delete() interface{}
 	SetDelete(val interface{})
 	DeleteInput() interface{}
+	DeleteVersion() interface{}
+	SetDeleteVersion(val interface{})
+	DeleteVersionInput() interface{}
+	Execute() interface{}
+	SetExecute(val interface{})
+	ExecuteInput() interface{}
+	Find() interface{}
+	SetFind(val interface{})
+	FindInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *DataAzurermStorageAccountBlobContainerSasPermissions
@@ -44,9 +53,24 @@ type DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference interfa
 	List() interface{}
 	SetList(val interface{})
 	ListInput() interface{}
+	Move() interface{}
+	SetMove(val interface{})
+	MoveInput() interface{}
+	Ownership() interface{}
+	SetOwnership(val interface{})
+	OwnershipInput() interface{}
+	Permissions() interface{}
+	SetPermissions(val interface{})
+	PermissionsInput() interface{}
 	Read() interface{}
 	SetRead(val interface{})
 	ReadInput() interface{}
+	SetImmutabilityPolicy() interface{}
+	SetSetImmutabilityPolicy(val interface{})
+	SetImmutabilityPolicyInput() interface{}
+	Tags() interface{}
+	SetTags(val interface{})
+	TagsInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -82,6 +106,20 @@ type DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference interfa
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAdd()
+	ResetCreate()
+	ResetDelete()
+	ResetDeleteVersion()
+	ResetExecute()
+	ResetFind()
+	ResetList()
+	ResetMove()
+	ResetOwnership()
+	ResetPermissions()
+	ResetRead()
+	ResetSetImmutabilityPolicy()
+	ResetTags()
+	ResetWrite()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -187,6 +225,66 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) DeleteVersion() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deleteVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) DeleteVersionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"deleteVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Execute() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"execute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ExecuteInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"executeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Find() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"find",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) FindInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"findInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Fqn() *string {
 	var returns *string
 	_jsii_.Get(
@@ -227,6 +325,66 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Move() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"move",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) MoveInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"moveInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Ownership() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ownership",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) OwnershipInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ownershipInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Permissions() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"permissions",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) PermissionsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"permissionsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Read() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -242,6 +400,46 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	_jsii_.Get(
 		j,
 		"readInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) SetImmutabilityPolicy() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"setImmutabilityPolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) SetImmutabilityPolicyInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"setImmutabilityPolicyInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Tags() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) TagsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"tagsInput",
 		&returns,
 	)
 	return returns
@@ -370,6 +568,39 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	)
 }
 
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetDeleteVersion(val interface{}) {
+	if err := j.validateSetDeleteVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"deleteVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetExecute(val interface{}) {
+	if err := j.validateSetExecuteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"execute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetFind(val interface{}) {
+	if err := j.validateSetFindParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"find",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetInternalValue(val *DataAzurermStorageAccountBlobContainerSasPermissions) {
 	if err := j.validateSetInternalValueParameters(val); err != nil {
 		panic(err)
@@ -392,6 +623,39 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	)
 }
 
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetMove(val interface{}) {
+	if err := j.validateSetMoveParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"move",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetOwnership(val interface{}) {
+	if err := j.validateSetOwnershipParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ownership",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetPermissions(val interface{}) {
+	if err := j.validateSetPermissionsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"permissions",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetRead(val interface{}) {
 	if err := j.validateSetReadParameters(val); err != nil {
 		panic(err)
@@ -399,6 +663,28 @@ func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	_jsii_.Set(
 		j,
 		"read",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetSetImmutabilityPolicy(val interface{}) {
+	if err := j.validateSetSetImmutabilityPolicyParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"setImmutabilityPolicy",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference)SetTags(val interface{}) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -620,6 +906,118 @@ func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputRef
 	)
 
 	return returns
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetAdd() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetAdd",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetCreate() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCreate",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetDelete() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDelete",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetDeleteVersion() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDeleteVersion",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetExecute() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetExecute",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetFind() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetFind",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetList() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetList",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetMove() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetMove",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetOwnership() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOwnership",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetPermissions() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetPermissions",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetRead() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRead",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetSetImmutabilityPolicy() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSetImmutabilityPolicy",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetTags() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) ResetWrite() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetWrite",
+		nil, // no parameters
+	)
 }
 
 func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSasPermissionsOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

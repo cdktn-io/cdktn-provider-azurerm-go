@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/consumption_budget_management_group azurerm_consumption_budget_management_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/consumption_budget_management_group azurerm_consumption_budget_management_group}.
 type ConsumptionBudgetManagementGroup interface {
 	cdktn.TerraformResource
 	Amount() *float64
@@ -530,7 +530,7 @@ func (j *jsiiProxy_ConsumptionBudgetManagementGroup) TimePeriodInput() *Consumpt
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/consumption_budget_management_group azurerm_consumption_budget_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/consumption_budget_management_group azurerm_consumption_budget_management_group} Resource.
 func NewConsumptionBudgetManagementGroup(scope constructs.Construct, id *string, config *ConsumptionBudgetManagementGroupConfig) ConsumptionBudgetManagementGroup {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewConsumptionBudgetManagementGroup(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/consumption_budget_management_group azurerm_consumption_budget_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/consumption_budget_management_group azurerm_consumption_budget_management_group} Resource.
 func NewConsumptionBudgetManagementGroup_Override(c ConsumptionBudgetManagementGroup, scope constructs.Construct, id *string, config *ConsumptionBudgetManagementGroupConfig) {
 	_init_.Initialize()
 

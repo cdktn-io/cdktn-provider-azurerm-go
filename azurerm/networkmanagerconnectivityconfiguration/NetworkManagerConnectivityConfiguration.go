@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
 type NetworkManagerConnectivityConfiguration interface {
 	cdktn.TerraformResource
 	AppliesToGroup() NetworkManagerConnectivityConfigurationAppliesToGroupList
@@ -531,7 +531,7 @@ func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
 func NewNetworkManagerConnectivityConfiguration(scope constructs.Construct, id *string, config *NetworkManagerConnectivityConfigurationConfig) NetworkManagerConnectivityConfiguration {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewNetworkManagerConnectivityConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
 func NewNetworkManagerConnectivityConfiguration_Override(n NetworkManagerConnectivityConfiguration, scope constructs.Construct, id *string, config *NetworkManagerConnectivityConfigurationConfig) {
 	_init_.Initialize()
 

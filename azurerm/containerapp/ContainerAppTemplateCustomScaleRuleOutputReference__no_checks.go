@@ -67,6 +67,10 @@ func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateSetIdentityIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerAppTemplateCustomScaleRuleOutputReference) validateSetInternalValueParameters(val interface{}) error {
 	return nil
 }

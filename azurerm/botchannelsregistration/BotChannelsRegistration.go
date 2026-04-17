@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration}.
 type BotChannelsRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -76,6 +76,15 @@ type BotChannelsRegistration interface {
 	MicrosoftAppId() *string
 	SetMicrosoftAppId(val *string)
 	MicrosoftAppIdInput() *string
+	MicrosoftAppTenantId() *string
+	SetMicrosoftAppTenantId(val *string)
+	MicrosoftAppTenantIdInput() *string
+	MicrosoftAppType() *string
+	SetMicrosoftAppType(val *string)
+	MicrosoftAppTypeInput() *string
+	MicrosoftAppUserAssignedIdentityId() *string
+	SetMicrosoftAppUserAssignedIdentityId(val *string)
+	MicrosoftAppUserAssignedIdentityIdInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -167,6 +176,9 @@ type BotChannelsRegistration interface {
 	ResetEndpoint()
 	ResetIconUrl()
 	ResetId()
+	ResetMicrosoftAppTenantId()
+	ResetMicrosoftAppType()
+	ResetMicrosoftAppUserAssignedIdentityId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -511,6 +523,66 @@ func (j *jsiiProxy_BotChannelsRegistration) MicrosoftAppIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BotChannelsRegistration) MicrosoftAppTenantId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppTenantId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotChannelsRegistration) MicrosoftAppTenantIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppTenantIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotChannelsRegistration) MicrosoftAppType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotChannelsRegistration) MicrosoftAppTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotChannelsRegistration) MicrosoftAppUserAssignedIdentityId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppUserAssignedIdentityId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotChannelsRegistration) MicrosoftAppUserAssignedIdentityIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppUserAssignedIdentityIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BotChannelsRegistration) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -722,7 +794,7 @@ func (j *jsiiProxy_BotChannelsRegistration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
 func NewBotChannelsRegistration(scope constructs.Construct, id *string, config *BotChannelsRegistrationConfig) BotChannelsRegistration {
 	_init_.Initialize()
 
@@ -740,7 +812,7 @@ func NewBotChannelsRegistration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.68.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/bot_channels_registration azurerm_bot_channels_registration} Resource.
 func NewBotChannelsRegistration_Override(b BotChannelsRegistration, scope constructs.Construct, id *string, config *BotChannelsRegistrationConfig) {
 	_init_.Initialize()
 
@@ -917,6 +989,39 @@ func (j *jsiiProxy_BotChannelsRegistration)SetMicrosoftAppId(val *string) {
 	_jsii_.Set(
 		j,
 		"microsoftAppId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BotChannelsRegistration)SetMicrosoftAppTenantId(val *string) {
+	if err := j.validateSetMicrosoftAppTenantIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"microsoftAppTenantId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BotChannelsRegistration)SetMicrosoftAppType(val *string) {
+	if err := j.validateSetMicrosoftAppTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"microsoftAppType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BotChannelsRegistration)SetMicrosoftAppUserAssignedIdentityId(val *string) {
+	if err := j.validateSetMicrosoftAppUserAssignedIdentityIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"microsoftAppUserAssignedIdentityId",
 		val,
 	)
 }
@@ -1438,6 +1543,30 @@ func (b *jsiiProxy_BotChannelsRegistration) ResetId() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BotChannelsRegistration) ResetMicrosoftAppTenantId() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMicrosoftAppTenantId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BotChannelsRegistration) ResetMicrosoftAppType() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMicrosoftAppType",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BotChannelsRegistration) ResetMicrosoftAppUserAssignedIdentityId() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMicrosoftAppUserAssignedIdentityId",
 		nil, // no parameters
 	)
 }
