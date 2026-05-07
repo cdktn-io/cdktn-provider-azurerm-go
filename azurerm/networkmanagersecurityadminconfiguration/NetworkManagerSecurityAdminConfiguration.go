@@ -5,14 +5,14 @@ package networkmanagersecurityadminconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkmanagersecurityadminconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkmanagersecurityadminconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration}.
 type NetworkManagerSecurityAdminConfiguration interface {
 	cdktn.TerraformResource
 	ApplyOnNetworkIntentPolicyBasedServices() *[]*string
@@ -437,7 +437,7 @@ func (j *jsiiProxy_NetworkManagerSecurityAdminConfiguration) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
 func NewNetworkManagerSecurityAdminConfiguration(scope constructs.Construct, id *string, config *NetworkManagerSecurityAdminConfigurationConfig) NetworkManagerSecurityAdminConfiguration {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewNetworkManagerSecurityAdminConfiguration(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_security_admin_configuration azurerm_network_manager_security_admin_configuration} Resource.
 func NewNetworkManagerSecurityAdminConfiguration_Override(n NetworkManagerSecurityAdminConfiguration, scope constructs.Construct, id *string, config *NetworkManagerSecurityAdminConfigurationConfig) {
 	_init_.Initialize()
 

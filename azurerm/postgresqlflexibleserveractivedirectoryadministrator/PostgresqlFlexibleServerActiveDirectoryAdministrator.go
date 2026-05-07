@@ -5,14 +5,14 @@ package postgresqlflexibleserveractivedirectoryadministrator
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/postgresqlflexibleserveractivedirectoryadministrator/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/postgresqlflexibleserveractivedirectoryadministrator/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_flexible_server_active_directory_administrator azurerm_postgresql_flexible_server_active_directory_administrator}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_flexible_server_active_directory_administrator azurerm_postgresql_flexible_server_active_directory_administrator}.
 type PostgresqlFlexibleServerActiveDirectoryAdministrator interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -481,7 +481,7 @@ func (j *jsiiProxy_PostgresqlFlexibleServerActiveDirectoryAdministrator) Timeout
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_flexible_server_active_directory_administrator azurerm_postgresql_flexible_server_active_directory_administrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_flexible_server_active_directory_administrator azurerm_postgresql_flexible_server_active_directory_administrator} Resource.
 func NewPostgresqlFlexibleServerActiveDirectoryAdministrator(scope constructs.Construct, id *string, config *PostgresqlFlexibleServerActiveDirectoryAdministratorConfig) PostgresqlFlexibleServerActiveDirectoryAdministrator {
 	_init_.Initialize()
 
@@ -499,7 +499,7 @@ func NewPostgresqlFlexibleServerActiveDirectoryAdministrator(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_flexible_server_active_directory_administrator azurerm_postgresql_flexible_server_active_directory_administrator} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_flexible_server_active_directory_administrator azurerm_postgresql_flexible_server_active_directory_administrator} Resource.
 func NewPostgresqlFlexibleServerActiveDirectoryAdministrator_Override(p PostgresqlFlexibleServerActiveDirectoryAdministrator, scope constructs.Construct, id *string, config *PostgresqlFlexibleServerActiveDirectoryAdministratorConfig) {
 	_init_.Initialize()
 

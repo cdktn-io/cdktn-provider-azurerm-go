@@ -5,14 +5,14 @@ package dashboardgrafana
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dashboardgrafana/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dashboardgrafana/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
 type DashboardGrafana interface {
 	cdktn.TerraformResource
 	ApiKeyEnabled() interface{}
@@ -92,6 +92,9 @@ type DashboardGrafana interface {
 	Sku() *string
 	SetSku(val *string)
 	SkuInput() *string
+	SkuSize() *string
+	SetSkuSize(val *string)
+	SkuSizeInput() *string
 	Smtp() DashboardGrafanaSmtpOutputReference
 	SmtpInput() *DashboardGrafanaSmtp
 	Tags() *map[string]*string
@@ -166,6 +169,7 @@ type DashboardGrafana interface {
 	ResetOverrideLogicalId()
 	ResetPublicNetworkAccessEnabled()
 	ResetSku()
+	ResetSkuSize()
 	ResetSmtp()
 	ResetTags()
 	ResetTimeouts()
@@ -597,6 +601,26 @@ func (j *jsiiProxy_DashboardGrafana) SkuInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DashboardGrafana) SkuSize() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"skuSize",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DashboardGrafana) SkuSizeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"skuSizeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DashboardGrafana) Smtp() DashboardGrafanaSmtpOutputReference {
 	var returns DashboardGrafanaSmtpOutputReference
 	_jsii_.Get(
@@ -708,7 +732,7 @@ func (j *jsiiProxy_DashboardGrafana) ZoneRedundancyEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana(scope constructs.Construct, id *string, config *DashboardGrafanaConfig) DashboardGrafana {
 	_init_.Initialize()
 
@@ -726,7 +750,7 @@ func NewDashboardGrafana(scope constructs.Construct, id *string, config *Dashboa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana_Override(d DashboardGrafana, scope constructs.Construct, id *string, config *DashboardGrafanaConfig) {
 	_init_.Initialize()
 
@@ -911,6 +935,17 @@ func (j *jsiiProxy_DashboardGrafana)SetSku(val *string) {
 	_jsii_.Set(
 		j,
 		"sku",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DashboardGrafana)SetSkuSize(val *string) {
+	if err := j.validateSetSkuSizeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"skuSize",
 		val,
 	)
 }
@@ -1402,6 +1437,14 @@ func (d *jsiiProxy_DashboardGrafana) ResetSku() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetSku",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DashboardGrafana) ResetSkuSize() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetSkuSize",
 		nil, // no parameters
 	)
 }

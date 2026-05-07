@@ -5,14 +5,14 @@ package cognitiveaccountproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cognitiveaccountproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/cognitiveaccountproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project}.
 type CognitiveAccountProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -529,7 +529,7 @@ func (j *jsiiProxy_CognitiveAccountProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
 func NewCognitiveAccountProject(scope constructs.Construct, id *string, config *CognitiveAccountProjectConfig) CognitiveAccountProject {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewCognitiveAccountProject(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cognitive_account_project azurerm_cognitive_account_project} Resource.
 func NewCognitiveAccountProject_Override(c CognitiveAccountProject, scope constructs.Construct, id *string, config *CognitiveAccountProjectConfig) {
 	_init_.Initialize()
 

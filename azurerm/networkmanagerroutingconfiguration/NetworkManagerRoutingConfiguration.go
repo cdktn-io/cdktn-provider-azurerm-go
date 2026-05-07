@@ -5,14 +5,14 @@ package networkmanagerroutingconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkmanagerroutingconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkmanagerroutingconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration}.
 type NetworkManagerRoutingConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_NetworkManagerRoutingConfiguration) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
 func NewNetworkManagerRoutingConfiguration(scope constructs.Construct, id *string, config *NetworkManagerRoutingConfigurationConfig) NetworkManagerRoutingConfiguration {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewNetworkManagerRoutingConfiguration(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_routing_configuration azurerm_network_manager_routing_configuration} Resource.
 func NewNetworkManagerRoutingConfiguration_Override(n NetworkManagerRoutingConfiguration, scope constructs.Construct, id *string, config *NetworkManagerRoutingConfigurationConfig) {
 	_init_.Initialize()
 

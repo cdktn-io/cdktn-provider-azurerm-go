@@ -5,14 +5,14 @@ package apimanagementgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_gateway azurerm_api_management_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_gateway azurerm_api_management_gateway}.
 type ApiManagementGateway interface {
 	cdktn.TerraformResource
 	ApiManagementId() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ApiManagementGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_gateway azurerm_api_management_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_gateway azurerm_api_management_gateway} Resource.
 func NewApiManagementGateway(scope constructs.Construct, id *string, config *ApiManagementGatewayConfig) ApiManagementGateway {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewApiManagementGateway(scope constructs.Construct, id *string, config *Api
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_gateway azurerm_api_management_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_gateway azurerm_api_management_gateway} Resource.
 func NewApiManagementGateway_Override(a ApiManagementGateway, scope constructs.Construct, id *string, config *ApiManagementGatewayConfig) {
 	_init_.Initialize()
 

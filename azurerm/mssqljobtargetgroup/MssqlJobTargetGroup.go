@@ -5,14 +5,14 @@ package mssqljobtargetgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/mssqljobtargetgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/mssqljobtargetgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group}.
 type MssqlJobTargetGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_MssqlJobTargetGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) MssqlJobTargetGroup {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewMssqlJobTargetGroup(scope constructs.Construct, id *string, config *Mssq
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/mssql_job_target_group azurerm_mssql_job_target_group} Resource.
 func NewMssqlJobTargetGroup_Override(m MssqlJobTargetGroup, scope constructs.Construct, id *string, config *MssqlJobTargetGroupConfig) {
 	_init_.Initialize()
 

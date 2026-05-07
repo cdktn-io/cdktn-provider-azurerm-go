@@ -5,14 +5,14 @@ package subscriptionpolicyexemption
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/subscriptionpolicyexemption/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/subscriptionpolicyexemption/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption}.
 type SubscriptionPolicyExemption interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_SubscriptionPolicyExemption) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
 func NewSubscriptionPolicyExemption(scope constructs.Construct, id *string, config *SubscriptionPolicyExemptionConfig) SubscriptionPolicyExemption {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewSubscriptionPolicyExemption(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/subscription_policy_exemption azurerm_subscription_policy_exemption} Resource.
 func NewSubscriptionPolicyExemption_Override(s SubscriptionPolicyExemption, scope constructs.Construct, id *string, config *SubscriptionPolicyExemptionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dynatracetagrules
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dynatracetagrules/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dynatracetagrules/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules}.
 type DynatraceTagRules interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -437,7 +437,7 @@ func (j *jsiiProxy_DynatraceTagRules) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
 func NewDynatraceTagRules(scope constructs.Construct, id *string, config *DynatraceTagRulesConfig) DynatraceTagRules {
 	_init_.Initialize()
 
@@ -455,7 +455,7 @@ func NewDynatraceTagRules(scope constructs.Construct, id *string, config *Dynatr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dynatrace_tag_rules azurerm_dynatrace_tag_rules} Resource.
 func NewDynatraceTagRules_Override(d DynatraceTagRules, scope constructs.Construct, id *string, config *DynatraceTagRulesConfig) {
 	_init_.Initialize()
 

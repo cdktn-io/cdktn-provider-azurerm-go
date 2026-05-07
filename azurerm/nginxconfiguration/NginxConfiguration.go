@@ -5,14 +5,14 @@ package nginxconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/nginxconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/nginxconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/nginx_configuration azurerm_nginx_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/nginx_configuration azurerm_nginx_configuration}.
 type NginxConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -461,7 +461,7 @@ func (j *jsiiProxy_NginxConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/nginx_configuration azurerm_nginx_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/nginx_configuration azurerm_nginx_configuration} Resource.
 func NewNginxConfiguration(scope constructs.Construct, id *string, config *NginxConfigurationConfig) NginxConfiguration {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewNginxConfiguration(scope constructs.Construct, id *string, config *Nginx
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/nginx_configuration azurerm_nginx_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/nginx_configuration azurerm_nginx_configuration} Resource.
 func NewNginxConfiguration_Override(n NginxConfiguration, scope constructs.Construct, id *string, config *NginxConfigurationConfig) {
 	_init_.Initialize()
 

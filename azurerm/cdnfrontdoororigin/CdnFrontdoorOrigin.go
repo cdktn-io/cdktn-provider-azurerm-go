@@ -5,14 +5,14 @@ package cdnfrontdoororigin
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cdnfrontdoororigin/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/cdnfrontdoororigin/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin}.
 type CdnFrontdoorOrigin interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -603,7 +603,7 @@ func (j *jsiiProxy_CdnFrontdoorOrigin) WeightInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
 func NewCdnFrontdoorOrigin(scope constructs.Construct, id *string, config *CdnFrontdoorOriginConfig) CdnFrontdoorOrigin {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewCdnFrontdoorOrigin(scope constructs.Construct, id *string, config *CdnFr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cdn_frontdoor_origin azurerm_cdn_frontdoor_origin} Resource.
 func NewCdnFrontdoorOrigin_Override(c CdnFrontdoorOrigin, scope constructs.Construct, id *string, config *CdnFrontdoorOriginConfig) {
 	_init_.Initialize()
 

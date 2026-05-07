@@ -5,14 +5,14 @@ package automationvariableobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationvariableobject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/automationvariableobject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_object azurerm_automation_variable_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_object azurerm_automation_variable_object}.
 type AutomationVariableObject interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_AutomationVariableObject) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_object azurerm_automation_variable_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_object azurerm_automation_variable_object} Resource.
 func NewAutomationVariableObject(scope constructs.Construct, id *string, config *AutomationVariableObjectConfig) AutomationVariableObject {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewAutomationVariableObject(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_object azurerm_automation_variable_object} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_object azurerm_automation_variable_object} Resource.
 func NewAutomationVariableObject_Override(a AutomationVariableObject, scope constructs.Construct, id *string, config *AutomationVariableObjectConfig) {
 	_init_.Initialize()
 

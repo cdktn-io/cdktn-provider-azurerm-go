@@ -5,14 +5,14 @@ package expressroutecircuitpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/expressroutecircuitpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/expressroutecircuitpeering/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_circuit_peering azurerm_express_route_circuit_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_circuit_peering azurerm_express_route_circuit_peering}.
 type ExpressRouteCircuitPeering interface {
 	cdktn.TerraformResource
 	AzureAsn() *float64
@@ -671,7 +671,7 @@ func (j *jsiiProxy_ExpressRouteCircuitPeering) VlanIdInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_circuit_peering azurerm_express_route_circuit_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_circuit_peering azurerm_express_route_circuit_peering} Resource.
 func NewExpressRouteCircuitPeering(scope constructs.Construct, id *string, config *ExpressRouteCircuitPeeringConfig) ExpressRouteCircuitPeering {
 	_init_.Initialize()
 
@@ -689,7 +689,7 @@ func NewExpressRouteCircuitPeering(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_circuit_peering azurerm_express_route_circuit_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_circuit_peering azurerm_express_route_circuit_peering} Resource.
 func NewExpressRouteCircuitPeering_Override(e ExpressRouteCircuitPeering, scope constructs.Construct, id *string, config *ExpressRouteCircuitPeeringConfig) {
 	_init_.Initialize()
 

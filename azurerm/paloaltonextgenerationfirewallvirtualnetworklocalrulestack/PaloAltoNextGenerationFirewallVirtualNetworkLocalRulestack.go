@@ -5,14 +5,14 @@ package paloaltonextgenerationfirewallvirtualnetworklocalrulestack
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/paloaltonextgenerationfirewallvirtualnetworklocalrulestack/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/paloaltonextgenerationfirewallvirtualnetworklocalrulestack/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_local_rulestack azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_local_rulestack azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack}.
 type PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack) T
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_local_rulestack azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_local_rulestack azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack(scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestackConfig) PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewPaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack(scope constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_local_rulestack azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/palo_alto_next_generation_firewall_virtual_network_local_rulestack azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack} Resource.
 func NewPaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack_Override(p PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack, scope constructs.Construct, id *string, config *PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestackConfig) {
 	_init_.Initialize()
 

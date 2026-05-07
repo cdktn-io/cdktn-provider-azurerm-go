@@ -5,14 +5,14 @@ package dataprotectionbackupinstancedatalakestorage
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataprotectionbackupinstancedatalakestorage/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataprotectionbackupinstancedatalakestorage/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage}.
 type DataProtectionBackupInstanceDataLakeStorage interface {
 	cdktn.TerraformResource
 	BackupPolicyDataLakeStorageId() *string
@@ -492,7 +492,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
 func NewDataProtectionBackupInstanceDataLakeStorage(scope constructs.Construct, id *string, config *DataProtectionBackupInstanceDataLakeStorageConfig) DataProtectionBackupInstanceDataLakeStorage {
 	_init_.Initialize()
 
@@ -510,7 +510,7 @@ func NewDataProtectionBackupInstanceDataLakeStorage(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_protection_backup_instance_data_lake_storage azurerm_data_protection_backup_instance_data_lake_storage} Resource.
 func NewDataProtectionBackupInstanceDataLakeStorage_Override(d DataProtectionBackupInstanceDataLakeStorage, scope constructs.Construct, id *string, config *DataProtectionBackupInstanceDataLakeStorageConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package streamanalyticsoutputsynapse
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsoutputsynapse/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/streamanalyticsoutputsynapse/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_output_synapse azurerm_stream_analytics_output_synapse}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_output_synapse azurerm_stream_analytics_output_synapse}.
 type StreamAnalyticsOutputSynapse interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputSynapse) UserInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_output_synapse azurerm_stream_analytics_output_synapse} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_output_synapse azurerm_stream_analytics_output_synapse} Resource.
 func NewStreamAnalyticsOutputSynapse(scope constructs.Construct, id *string, config *StreamAnalyticsOutputSynapseConfig) StreamAnalyticsOutputSynapse {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewStreamAnalyticsOutputSynapse(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_output_synapse azurerm_stream_analytics_output_synapse} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_output_synapse azurerm_stream_analytics_output_synapse} Resource.
 func NewStreamAnalyticsOutputSynapse_Override(s StreamAnalyticsOutputSynapse, scope constructs.Construct, id *string, config *StreamAnalyticsOutputSynapseConfig) {
 	_init_.Initialize()
 

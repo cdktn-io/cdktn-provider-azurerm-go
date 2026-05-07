@@ -5,9 +5,9 @@ package eventhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/eventhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/eventhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -44,6 +44,12 @@ type EventhubCaptureDescriptionDestinationOutputReference interface {
 	StorageAccountId() *string
 	SetStorageAccountId(val *string)
 	StorageAccountIdInput() *string
+	StorageAuthenticationId() *string
+	SetStorageAuthenticationId(val *string)
+	StorageAuthenticationIdInput() *string
+	StorageAuthenticationType() *string
+	SetStorageAuthenticationType(val *string)
+	StorageAuthenticationTypeInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -76,6 +82,8 @@ type EventhubCaptureDescriptionDestinationOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetStorageAuthenticationId()
+	ResetStorageAuthenticationType()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -221,6 +229,46 @@ func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) Storage
 	return returns
 }
 
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) StorageAuthenticationId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAuthenticationId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) StorageAuthenticationIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAuthenticationIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) StorageAuthenticationType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAuthenticationType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) StorageAuthenticationTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAuthenticationTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -342,6 +390,28 @@ func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference)SetStora
 	_jsii_.Set(
 		j,
 		"storageAccountId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference)SetStorageAuthenticationId(val *string) {
+	if err := j.validateSetStorageAuthenticationIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageAuthenticationId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference)SetStorageAuthenticationType(val *string) {
+	if err := j.validateSetStorageAuthenticationTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageAuthenticationType",
 		val,
 	)
 }
@@ -552,6 +622,22 @@ func (e *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) Interpo
 	)
 
 	return returns
+}
+
+func (e *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) ResetStorageAuthenticationId() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetStorageAuthenticationId",
+		nil, // no parameters
+	)
+}
+
+func (e *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) ResetStorageAuthenticationType() {
+	_jsii_.InvokeVoid(
+		e,
+		"resetStorageAuthenticationType",
+		nil, // no parameters
+	)
 }
 
 func (e *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

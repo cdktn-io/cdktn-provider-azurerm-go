@@ -5,14 +5,14 @@ package automationaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/automationaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_account azurerm_automation_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_account azurerm_automation_account}.
 type AutomationAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -610,7 +610,7 @@ func (j *jsiiProxy_AutomationAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_account azurerm_automation_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_account azurerm_automation_account} Resource.
 func NewAutomationAccount(scope constructs.Construct, id *string, config *AutomationAccountConfig) AutomationAccount {
 	_init_.Initialize()
 
@@ -628,7 +628,7 @@ func NewAutomationAccount(scope constructs.Construct, id *string, config *Automa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_account azurerm_automation_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_account azurerm_automation_account} Resource.
 func NewAutomationAccount_Override(a AutomationAccount, scope constructs.Construct, id *string, config *AutomationAccountConfig) {
 	_init_.Initialize()
 

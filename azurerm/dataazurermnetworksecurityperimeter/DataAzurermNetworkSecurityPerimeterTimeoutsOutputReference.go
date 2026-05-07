@@ -5,9 +5,9 @@ package dataazurermnetworksecurityperimeter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermnetworksecurityperimeter/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermnetworksecurityperimeter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

@@ -5,14 +5,14 @@ package dataazurermapimanagementapiversionset
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermapimanagementapiversionset/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermapimanagementapiversionset/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/api_management_api_version_set azurerm_api_management_api_version_set}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management_api_version_set azurerm_api_management_api_version_set}.
 type DataAzurermApiManagementApiVersionSet interface {
 	cdktn.TerraformDataSource
 	ApiManagementName() *string
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataAzurermApiManagementApiVersionSet) VersionQueryName() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/api_management_api_version_set azurerm_api_management_api_version_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management_api_version_set azurerm_api_management_api_version_set} Data Source.
 func NewDataAzurermApiManagementApiVersionSet(scope constructs.Construct, id *string, config *DataAzurermApiManagementApiVersionSetConfig) DataAzurermApiManagementApiVersionSet {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewDataAzurermApiManagementApiVersionSet(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/api_management_api_version_set azurerm_api_management_api_version_set} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management_api_version_set azurerm_api_management_api_version_set} Data Source.
 func NewDataAzurermApiManagementApiVersionSet_Override(d DataAzurermApiManagementApiVersionSet, scope constructs.Construct, id *string, config *DataAzurermApiManagementApiVersionSetConfig) {
 	_init_.Initialize()
 

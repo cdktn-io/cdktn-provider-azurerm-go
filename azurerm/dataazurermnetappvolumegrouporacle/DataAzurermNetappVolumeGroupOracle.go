@@ -5,14 +5,14 @@ package dataazurermnetappvolumegrouporacle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermnetappvolumegrouporacle/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermnetappvolumegrouporacle/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle}.
 type DataAzurermNetappVolumeGroupOracle interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -411,7 +411,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeGroupOracle) Volume() DataAzurermNetap
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Data Source.
 func NewDataAzurermNetappVolumeGroupOracle(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeGroupOracleConfig) DataAzurermNetappVolumeGroupOracle {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewDataAzurermNetappVolumeGroupOracle(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Data Source.
 func NewDataAzurermNetappVolumeGroupOracle_Override(d DataAzurermNetappVolumeGroupOracle, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeGroupOracleConfig) {
 	_init_.Initialize()
 

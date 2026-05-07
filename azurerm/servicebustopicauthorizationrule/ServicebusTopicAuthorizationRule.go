@@ -5,14 +5,14 @@ package servicebustopicauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicebustopicauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/servicebustopicauthorizationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule}.
 type ServicebusTopicAuthorizationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -527,7 +527,7 @@ func (j *jsiiProxy_ServicebusTopicAuthorizationRule) TopicIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Resource.
 func NewServicebusTopicAuthorizationRule(scope constructs.Construct, id *string, config *ServicebusTopicAuthorizationRuleConfig) ServicebusTopicAuthorizationRule {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewServicebusTopicAuthorizationRule(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/servicebus_topic_authorization_rule azurerm_servicebus_topic_authorization_rule} Resource.
 func NewServicebusTopicAuthorizationRule_Override(s ServicebusTopicAuthorizationRule, scope constructs.Construct, id *string, config *ServicebusTopicAuthorizationRuleConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataazurermsharedimagegallery
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsharedimagegallery/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermsharedimagegallery/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/shared_image_gallery azurerm_shared_image_gallery}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/shared_image_gallery azurerm_shared_image_gallery}.
 type DataAzurermSharedImageGallery interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAzurermSharedImageGallery) UniqueName() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/shared_image_gallery azurerm_shared_image_gallery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/shared_image_gallery azurerm_shared_image_gallery} Data Source.
 func NewDataAzurermSharedImageGallery(scope constructs.Construct, id *string, config *DataAzurermSharedImageGalleryConfig) DataAzurermSharedImageGallery {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAzurermSharedImageGallery(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/shared_image_gallery azurerm_shared_image_gallery} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/shared_image_gallery azurerm_shared_image_gallery} Data Source.
 func NewDataAzurermSharedImageGallery_Override(d DataAzurermSharedImageGallery, scope constructs.Construct, id *string, config *DataAzurermSharedImageGalleryConfig) {
 	_init_.Initialize()
 

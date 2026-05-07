@@ -5,14 +5,14 @@ package analysisservicesserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/analysisservicesserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/analysisservicesserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/analysis_services_server azurerm_analysis_services_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/analysis_services_server azurerm_analysis_services_server}.
 type AnalysisServicesServer interface {
 	cdktn.TerraformResource
 	AdminUsers() *[]*string
@@ -590,7 +590,7 @@ func (j *jsiiProxy_AnalysisServicesServer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/analysis_services_server azurerm_analysis_services_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/analysis_services_server azurerm_analysis_services_server} Resource.
 func NewAnalysisServicesServer(scope constructs.Construct, id *string, config *AnalysisServicesServerConfig) AnalysisServicesServer {
 	_init_.Initialize()
 
@@ -608,7 +608,7 @@ func NewAnalysisServicesServer(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/analysis_services_server azurerm_analysis_services_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/analysis_services_server azurerm_analysis_services_server} Resource.
 func NewAnalysisServicesServer_Override(a AnalysisServicesServer, scope constructs.Construct, id *string, config *AnalysisServicesServerConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package restorepointcollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/restorepointcollection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/restorepointcollection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/restore_point_collection azurerm_restore_point_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/restore_point_collection azurerm_restore_point_collection}.
 type RestorePointCollection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_RestorePointCollection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/restore_point_collection azurerm_restore_point_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/restore_point_collection azurerm_restore_point_collection} Resource.
 func NewRestorePointCollection(scope constructs.Construct, id *string, config *RestorePointCollectionConfig) RestorePointCollection {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewRestorePointCollection(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/restore_point_collection azurerm_restore_point_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/restore_point_collection azurerm_restore_point_collection} Resource.
 func NewRestorePointCollection_Override(r RestorePointCollection, scope constructs.Construct, id *string, config *RestorePointCollectionConfig) {
 	_init_.Initialize()
 

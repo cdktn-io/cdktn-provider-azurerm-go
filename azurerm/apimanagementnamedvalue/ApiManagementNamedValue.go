@@ -5,14 +5,14 @@ package apimanagementnamedvalue
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementnamedvalue/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementnamedvalue/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_named_value azurerm_api_management_named_value}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_named_value azurerm_api_management_named_value}.
 type ApiManagementNamedValue interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ApiManagementNamedValue) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
 func NewApiManagementNamedValue(scope constructs.Construct, id *string, config *ApiManagementNamedValueConfig) ApiManagementNamedValue {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewApiManagementNamedValue(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_named_value azurerm_api_management_named_value} Resource.
 func NewApiManagementNamedValue_Override(a ApiManagementNamedValue, scope constructs.Construct, id *string, config *ApiManagementNamedValueConfig) {
 	_init_.Initialize()
 

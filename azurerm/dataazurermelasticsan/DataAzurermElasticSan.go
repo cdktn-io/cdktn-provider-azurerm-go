@@ -5,14 +5,14 @@ package dataazurermelasticsan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermelasticsan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermelasticsan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/elastic_san azurerm_elastic_san}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/elastic_san azurerm_elastic_san}.
 type DataAzurermElasticSan interface {
 	cdktn.TerraformDataSource
 	BaseSizeInTib() *float64
@@ -465,7 +465,7 @@ func (j *jsiiProxy_DataAzurermElasticSan) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/elastic_san azurerm_elastic_san} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/elastic_san azurerm_elastic_san} Data Source.
 func NewDataAzurermElasticSan(scope constructs.Construct, id *string, config *DataAzurermElasticSanConfig) DataAzurermElasticSan {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDataAzurermElasticSan(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/elastic_san azurerm_elastic_san} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/elastic_san azurerm_elastic_san} Data Source.
 func NewDataAzurermElasticSan_Override(d DataAzurermElasticSan, scope constructs.Construct, id *string, config *DataAzurermElasticSanConfig) {
 	_init_.Initialize()
 

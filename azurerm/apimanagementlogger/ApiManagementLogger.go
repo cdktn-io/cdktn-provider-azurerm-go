@@ -5,14 +5,14 @@ package apimanagementlogger
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementlogger/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementlogger/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_logger azurerm_api_management_logger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_logger azurerm_api_management_logger}.
 type ApiManagementLogger interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_ApiManagementLogger) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
 func NewApiManagementLogger(scope constructs.Construct, id *string, config *ApiManagementLoggerConfig) ApiManagementLogger {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewApiManagementLogger(scope constructs.Construct, id *string, config *ApiM
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_logger azurerm_api_management_logger} Resource.
 func NewApiManagementLogger_Override(a ApiManagementLogger, scope constructs.Construct, id *string, config *ApiManagementLoggerConfig) {
 	_init_.Initialize()
 

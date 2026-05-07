@@ -5,14 +5,14 @@ package networkddosprotectionplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkddosprotectionplan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkddosprotectionplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_ddos_protection_plan azurerm_network_ddos_protection_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_ddos_protection_plan azurerm_network_ddos_protection_plan}.
 type NetworkDdosProtectionPlan interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_NetworkDdosProtectionPlan) VirtualNetworkIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_ddos_protection_plan azurerm_network_ddos_protection_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_ddos_protection_plan azurerm_network_ddos_protection_plan} Resource.
 func NewNetworkDdosProtectionPlan(scope constructs.Construct, id *string, config *NetworkDdosProtectionPlanConfig) NetworkDdosProtectionPlan {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewNetworkDdosProtectionPlan(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_ddos_protection_plan azurerm_network_ddos_protection_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_ddos_protection_plan azurerm_network_ddos_protection_plan} Resource.
 func NewNetworkDdosProtectionPlan_Override(n NetworkDdosProtectionPlan, scope constructs.Construct, id *string, config *NetworkDdosProtectionPlanConfig) {
 	_init_.Initialize()
 

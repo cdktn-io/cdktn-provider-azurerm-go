@@ -5,14 +5,14 @@ package dataazurermdevcenterproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermdevcenterproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermdevcenterproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dev_center_project azurerm_dev_center_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dev_center_project azurerm_dev_center_project}.
 type DataAzurermDevCenterProject interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAzurermDevCenterProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dev_center_project azurerm_dev_center_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dev_center_project azurerm_dev_center_project} Data Source.
 func NewDataAzurermDevCenterProject(scope constructs.Construct, id *string, config *DataAzurermDevCenterProjectConfig) DataAzurermDevCenterProject {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAzurermDevCenterProject(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dev_center_project azurerm_dev_center_project} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dev_center_project azurerm_dev_center_project} Data Source.
 func NewDataAzurermDevCenterProject_Override(d DataAzurermDevCenterProject, scope constructs.Construct, id *string, config *DataAzurermDevCenterProjectConfig) {
 	_init_.Initialize()
 

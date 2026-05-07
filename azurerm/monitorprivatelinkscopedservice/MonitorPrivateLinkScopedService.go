@@ -5,14 +5,14 @@ package monitorprivatelinkscopedservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitorprivatelinkscopedservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/monitorprivatelinkscopedservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service}.
 type MonitorPrivateLinkScopedService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_MonitorPrivateLinkScopedService) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
 func NewMonitorPrivateLinkScopedService(scope constructs.Construct, id *string, config *MonitorPrivateLinkScopedServiceConfig) MonitorPrivateLinkScopedService {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewMonitorPrivateLinkScopedService(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/monitor_private_link_scoped_service azurerm_monitor_private_link_scoped_service} Resource.
 func NewMonitorPrivateLinkScopedService_Override(m MonitorPrivateLinkScopedService, scope constructs.Construct, id *string, config *MonitorPrivateLinkScopedServiceConfig) {
 	_init_.Initialize()
 

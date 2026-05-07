@@ -5,14 +5,14 @@ package apimanagementworkspacepolicyfragment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementworkspacepolicyfragment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementworkspacepolicyfragment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_workspace_policy_fragment azurerm_api_management_workspace_policy_fragment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_workspace_policy_fragment azurerm_api_management_workspace_policy_fragment}.
 type ApiManagementWorkspacePolicyFragment interface {
 	cdktn.TerraformResource
 	ApiManagementWorkspaceId() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicyFragment) XmlFormatInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_workspace_policy_fragment azurerm_api_management_workspace_policy_fragment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_workspace_policy_fragment azurerm_api_management_workspace_policy_fragment} Resource.
 func NewApiManagementWorkspacePolicyFragment(scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyFragmentConfig) ApiManagementWorkspacePolicyFragment {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewApiManagementWorkspacePolicyFragment(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_workspace_policy_fragment azurerm_api_management_workspace_policy_fragment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_workspace_policy_fragment azurerm_api_management_workspace_policy_fragment} Resource.
 func NewApiManagementWorkspacePolicyFragment_Override(a ApiManagementWorkspacePolicyFragment, scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyFragmentConfig) {
 	_init_.Initialize()
 

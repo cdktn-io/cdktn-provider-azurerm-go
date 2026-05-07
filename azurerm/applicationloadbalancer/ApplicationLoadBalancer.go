@@ -5,14 +5,14 @@ package applicationloadbalancer
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationloadbalancer/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/applicationloadbalancer/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_load_balancer azurerm_application_load_balancer}.
 type ApplicationLoadBalancer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ApplicationLoadBalancer) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) ApplicationLoadBalancer {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewApplicationLoadBalancer(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_load_balancer azurerm_application_load_balancer} Resource.
 func NewApplicationLoadBalancer_Override(a ApplicationLoadBalancer, scope constructs.Construct, id *string, config *ApplicationLoadBalancerConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package stackhcilogicalnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/stackhcilogicalnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/stackhcilogicalnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_logical_network azurerm_stack_hci_logical_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_logical_network azurerm_stack_hci_logical_network}.
 type StackHciLogicalNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -529,7 +529,7 @@ func (j *jsiiProxy_StackHciLogicalNetwork) VirtualSwitchNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_logical_network azurerm_stack_hci_logical_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_logical_network azurerm_stack_hci_logical_network} Resource.
 func NewStackHciLogicalNetwork(scope constructs.Construct, id *string, config *StackHciLogicalNetworkConfig) StackHciLogicalNetwork {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewStackHciLogicalNetwork(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_logical_network azurerm_stack_hci_logical_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_logical_network azurerm_stack_hci_logical_network} Resource.
 func NewStackHciLogicalNetwork_Override(s StackHciLogicalNetwork, scope constructs.Construct, id *string, config *StackHciLogicalNetworkConfig) {
 	_init_.Initialize()
 

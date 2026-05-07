@@ -5,14 +5,14 @@ package dataazurermspringcloudapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermspringcloudapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermspringcloudapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/spring_cloud_app azurerm_spring_cloud_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/spring_cloud_app azurerm_spring_cloud_app}.
 type DataAzurermSpringCloudApp interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -444,7 +444,7 @@ func (j *jsiiProxy_DataAzurermSpringCloudApp) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/spring_cloud_app azurerm_spring_cloud_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/spring_cloud_app azurerm_spring_cloud_app} Data Source.
 func NewDataAzurermSpringCloudApp(scope constructs.Construct, id *string, config *DataAzurermSpringCloudAppConfig) DataAzurermSpringCloudApp {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewDataAzurermSpringCloudApp(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/spring_cloud_app azurerm_spring_cloud_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/spring_cloud_app azurerm_spring_cloud_app} Data Source.
 func NewDataAzurermSpringCloudApp_Override(d DataAzurermSpringCloudApp, scope constructs.Construct, id *string, config *DataAzurermSpringCloudAppConfig) {
 	_init_.Initialize()
 

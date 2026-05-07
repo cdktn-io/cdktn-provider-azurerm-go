@@ -5,14 +5,14 @@ package dataazurermarcmachine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermarcmachine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermarcmachine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/arc_machine azurerm_arc_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/arc_machine azurerm_arc_machine}.
 type DataAzurermArcMachine interface {
 	cdktn.TerraformDataSource
 	ActiveDirectoryFqdn() *string
@@ -641,7 +641,7 @@ func (j *jsiiProxy_DataAzurermArcMachine) VmUuid() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
 func NewDataAzurermArcMachine(scope constructs.Construct, id *string, config *DataAzurermArcMachineConfig) DataAzurermArcMachine {
 	_init_.Initialize()
 
@@ -659,7 +659,7 @@ func NewDataAzurermArcMachine(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/arc_machine azurerm_arc_machine} Data Source.
 func NewDataAzurermArcMachine_Override(d DataAzurermArcMachine, scope constructs.Construct, id *string, config *DataAzurermArcMachineConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package automationvariabledatetime
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationvariabledatetime/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/automationvariabledatetime/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime}.
 type AutomationVariableDatetime interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_AutomationVariableDatetime) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
 func NewAutomationVariableDatetime(scope constructs.Construct, id *string, config *AutomationVariableDatetimeConfig) AutomationVariableDatetime {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewAutomationVariableDatetime(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_datetime azurerm_automation_variable_datetime} Resource.
 func NewAutomationVariableDatetime_Override(a AutomationVariableDatetime, scope constructs.Construct, id *string, config *AutomationVariableDatetimeConfig) {
 	_init_.Initialize()
 

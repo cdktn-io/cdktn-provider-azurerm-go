@@ -5,14 +5,14 @@ package resourcemanagementprivatelinkassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/resourcemanagementprivatelinkassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/resourcemanagementprivatelinkassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association}.
 type ResourceManagementPrivateLinkAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_ResourceManagementPrivateLinkAssociation) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
 func NewResourceManagementPrivateLinkAssociation(scope constructs.Construct, id *string, config *ResourceManagementPrivateLinkAssociationConfig) ResourceManagementPrivateLinkAssociation {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewResourceManagementPrivateLinkAssociation(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/resource_management_private_link_association azurerm_resource_management_private_link_association} Resource.
 func NewResourceManagementPrivateLinkAssociation_Override(r ResourceManagementPrivateLinkAssociation, scope constructs.Construct, id *string, config *ResourceManagementPrivateLinkAssociationConfig) {
 	_init_.Initialize()
 

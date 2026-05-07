@@ -5,14 +5,14 @@ package datafactorydatasetparquet
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorydatasetparquet/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorydatasetparquet/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_parquet azurerm_data_factory_dataset_parquet}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_parquet azurerm_data_factory_dataset_parquet}.
 type DataFactoryDatasetParquet interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -676,7 +676,7 @@ func (j *jsiiProxy_DataFactoryDatasetParquet) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_parquet azurerm_data_factory_dataset_parquet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_parquet azurerm_data_factory_dataset_parquet} Resource.
 func NewDataFactoryDatasetParquet(scope constructs.Construct, id *string, config *DataFactoryDatasetParquetConfig) DataFactoryDatasetParquet {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewDataFactoryDatasetParquet(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_parquet azurerm_data_factory_dataset_parquet} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_parquet azurerm_data_factory_dataset_parquet} Resource.
 func NewDataFactoryDatasetParquet_Override(d DataFactoryDatasetParquet, scope constructs.Construct, id *string, config *DataFactoryDatasetParquetConfig) {
 	_init_.Initialize()
 

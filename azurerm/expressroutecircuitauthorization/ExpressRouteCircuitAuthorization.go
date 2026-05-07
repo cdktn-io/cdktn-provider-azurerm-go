@@ -5,14 +5,14 @@ package expressroutecircuitauthorization
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/expressroutecircuitauthorization/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/expressroutecircuitauthorization/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization}.
 type ExpressRouteCircuitAuthorization interface {
 	cdktn.TerraformResource
 	AuthorizationKey() *string
@@ -434,7 +434,7 @@ func (j *jsiiProxy_ExpressRouteCircuitAuthorization) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
 func NewExpressRouteCircuitAuthorization(scope constructs.Construct, id *string, config *ExpressRouteCircuitAuthorizationConfig) ExpressRouteCircuitAuthorization {
 	_init_.Initialize()
 
@@ -452,7 +452,7 @@ func NewExpressRouteCircuitAuthorization(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_circuit_authorization azurerm_express_route_circuit_authorization} Resource.
 func NewExpressRouteCircuitAuthorization_Override(e ExpressRouteCircuitAuthorization, scope constructs.Construct, id *string, config *ExpressRouteCircuitAuthorizationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataazurermdnscnamerecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermdnscnamerecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermdnscnamerecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record}.
 type DataAzurermDnsCnameRecord interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -422,7 +422,7 @@ func (j *jsiiProxy_DataAzurermDnsCnameRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
 func NewDataAzurermDnsCnameRecord(scope constructs.Construct, id *string, config *DataAzurermDnsCnameRecordConfig) DataAzurermDnsCnameRecord {
 	_init_.Initialize()
 
@@ -440,7 +440,7 @@ func NewDataAzurermDnsCnameRecord(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dns_cname_record azurerm_dns_cname_record} Data Source.
 func NewDataAzurermDnsCnameRecord_Override(d DataAzurermDnsCnameRecord, scope constructs.Construct, id *string, config *DataAzurermDnsCnameRecordConfig) {
 	_init_.Initialize()
 

@@ -63,6 +63,8 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCognitiveAccountId", GoMethod: "ResetCognitiveAccountId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCognitiveServiceAccessKey", GoMethod: "ResetCognitiveServiceAccessKey"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCognitiveServiceLocation", GoMethod: "ResetCognitiveServiceLocation"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomSpeechModelId", GoMethod: "ResetCustomSpeechModelId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCustomVoiceDeploymentId", GoMethod: "ResetCustomVoiceDeploymentId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},

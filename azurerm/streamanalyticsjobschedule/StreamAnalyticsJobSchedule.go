@@ -5,14 +5,14 @@ package streamanalyticsjobschedule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsjobschedule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/streamanalyticsjobschedule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_job_schedule azurerm_stream_analytics_job_schedule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_job_schedule azurerm_stream_analytics_job_schedule}.
 type StreamAnalyticsJobSchedule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_StreamAnalyticsJobSchedule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_job_schedule azurerm_stream_analytics_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_job_schedule azurerm_stream_analytics_job_schedule} Resource.
 func NewStreamAnalyticsJobSchedule(scope constructs.Construct, id *string, config *StreamAnalyticsJobScheduleConfig) StreamAnalyticsJobSchedule {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewStreamAnalyticsJobSchedule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_job_schedule azurerm_stream_analytics_job_schedule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_job_schedule azurerm_stream_analytics_job_schedule} Resource.
 func NewStreamAnalyticsJobSchedule_Override(s StreamAnalyticsJobSchedule, scope constructs.Construct, id *string, config *StreamAnalyticsJobScheduleConfig) {
 	_init_.Initialize()
 

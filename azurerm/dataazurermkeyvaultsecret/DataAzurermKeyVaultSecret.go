@@ -5,14 +5,14 @@ package dataazurermkeyvaultsecret
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermkeyvaultsecret/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermkeyvaultsecret/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/key_vault_secret azurerm_key_vault_secret}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/key_vault_secret azurerm_key_vault_secret}.
 type DataAzurermKeyVaultSecret interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -456,7 +456,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultSecret) VersionlessId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/key_vault_secret azurerm_key_vault_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/key_vault_secret azurerm_key_vault_secret} Data Source.
 func NewDataAzurermKeyVaultSecret(scope constructs.Construct, id *string, config *DataAzurermKeyVaultSecretConfig) DataAzurermKeyVaultSecret {
 	_init_.Initialize()
 
@@ -474,7 +474,7 @@ func NewDataAzurermKeyVaultSecret(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/key_vault_secret azurerm_key_vault_secret} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/key_vault_secret azurerm_key_vault_secret} Data Source.
 func NewDataAzurermKeyVaultSecret_Override(d DataAzurermKeyVaultSecret, scope constructs.Construct, id *string, config *DataAzurermKeyVaultSecretConfig) {
 	_init_.Initialize()
 

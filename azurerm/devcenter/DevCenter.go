@@ -5,14 +5,14 @@ package devcenter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/devcenter/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/devcenter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dev_center azurerm_dev_center}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dev_center azurerm_dev_center}.
 type DevCenter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DevCenter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dev_center azurerm_dev_center} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dev_center azurerm_dev_center} Resource.
 func NewDevCenter(scope constructs.Construct, id *string, config *DevCenterConfig) DevCenter {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDevCenter(scope constructs.Construct, id *string, config *DevCenterConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dev_center azurerm_dev_center} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dev_center azurerm_dev_center} Resource.
 func NewDevCenter_Override(d DevCenter, scope constructs.Construct, id *string, config *DevCenterConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package routeserverbgpconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/routeserverbgpconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/routeserverbgpconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection}.
 type RouteServerBgpConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_RouteServerBgpConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
 func NewRouteServerBgpConnection(scope constructs.Construct, id *string, config *RouteServerBgpConnectionConfig) RouteServerBgpConnection {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewRouteServerBgpConnection(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/route_server_bgp_connection azurerm_route_server_bgp_connection} Resource.
 func NewRouteServerBgpConnection_Override(r RouteServerBgpConnection, scope constructs.Construct, id *string, config *RouteServerBgpConnectionConfig) {
 	_init_.Initialize()
 

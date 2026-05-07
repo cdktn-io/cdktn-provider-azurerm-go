@@ -5,14 +5,14 @@ package sentinelwatchlistitem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/sentinelwatchlistitem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/sentinelwatchlistitem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/sentinel_watchlist_item azurerm_sentinel_watchlist_item}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/sentinel_watchlist_item azurerm_sentinel_watchlist_item}.
 type SentinelWatchlistItem interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_SentinelWatchlistItem) WatchlistIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/sentinel_watchlist_item azurerm_sentinel_watchlist_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/sentinel_watchlist_item azurerm_sentinel_watchlist_item} Resource.
 func NewSentinelWatchlistItem(scope constructs.Construct, id *string, config *SentinelWatchlistItemConfig) SentinelWatchlistItem {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewSentinelWatchlistItem(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/sentinel_watchlist_item azurerm_sentinel_watchlist_item} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/sentinel_watchlist_item azurerm_sentinel_watchlist_item} Resource.
 func NewSentinelWatchlistItem_Override(s SentinelWatchlistItem, scope constructs.Construct, id *string, config *SentinelWatchlistItemConfig) {
 	_init_.Initialize()
 

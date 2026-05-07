@@ -5,14 +5,14 @@ package policysetdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/policysetdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/policysetdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/policy_set_definition azurerm_policy_set_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/policy_set_definition azurerm_policy_set_definition}.
 type PolicySetDefinition interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_PolicySetDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
 func NewPolicySetDefinition(scope constructs.Construct, id *string, config *PolicySetDefinitionConfig) PolicySetDefinition {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewPolicySetDefinition(scope constructs.Construct, id *string, config *Poli
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/policy_set_definition azurerm_policy_set_definition} Resource.
 func NewPolicySetDefinition_Override(p PolicySetDefinition, scope constructs.Construct, id *string, config *PolicySetDefinitionConfig) {
 	_init_.Initialize()
 

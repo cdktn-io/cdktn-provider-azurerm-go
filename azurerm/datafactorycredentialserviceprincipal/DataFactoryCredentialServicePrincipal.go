@@ -5,14 +5,14 @@ package datafactorycredentialserviceprincipal
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorycredentialserviceprincipal/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorycredentialserviceprincipal/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal}.
 type DataFactoryCredentialServicePrincipal interface {
 	cdktn.TerraformResource
 	Annotations() *[]*string
@@ -507,7 +507,7 @@ func (j *jsiiProxy_DataFactoryCredentialServicePrincipal) TimeoutsInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
 func NewDataFactoryCredentialServicePrincipal(scope constructs.Construct, id *string, config *DataFactoryCredentialServicePrincipalConfig) DataFactoryCredentialServicePrincipal {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewDataFactoryCredentialServicePrincipal(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_credential_service_principal azurerm_data_factory_credential_service_principal} Resource.
 func NewDataFactoryCredentialServicePrincipal_Override(d DataFactoryCredentialServicePrincipal, scope constructs.Construct, id *string, config *DataFactoryCredentialServicePrincipalConfig) {
 	_init_.Initialize()
 

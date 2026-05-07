@@ -5,14 +5,14 @@ package dataazurermmanagedredis
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmanagedredis/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermmanagedredis/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/managed_redis azurerm_managed_redis}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/managed_redis azurerm_managed_redis}.
 type DataAzurermManagedRedis interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -443,7 +443,7 @@ func (j *jsiiProxy_DataAzurermManagedRedis) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/managed_redis azurerm_managed_redis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/managed_redis azurerm_managed_redis} Data Source.
 func NewDataAzurermManagedRedis(scope constructs.Construct, id *string, config *DataAzurermManagedRedisConfig) DataAzurermManagedRedis {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewDataAzurermManagedRedis(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/managed_redis azurerm_managed_redis} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/managed_redis azurerm_managed_redis} Data Source.
 func NewDataAzurermManagedRedis_Override(d DataAzurermManagedRedis, scope constructs.Construct, id *string, config *DataAzurermManagedRedisConfig) {
 	_init_.Initialize()
 

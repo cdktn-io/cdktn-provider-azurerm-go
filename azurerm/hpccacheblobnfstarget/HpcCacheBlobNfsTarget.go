@@ -5,14 +5,14 @@ package hpccacheblobnfstarget
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/hpccacheblobnfstarget/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/hpccacheblobnfstarget/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target}.
 type HpcCacheBlobNfsTarget interface {
 	cdktn.TerraformResource
 	AccessPolicyName() *string
@@ -553,7 +553,7 @@ func (j *jsiiProxy_HpcCacheBlobNfsTarget) WriteBackTimerInSecondsInput() *float6
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
 func NewHpcCacheBlobNfsTarget(scope constructs.Construct, id *string, config *HpcCacheBlobNfsTargetConfig) HpcCacheBlobNfsTarget {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewHpcCacheBlobNfsTarget(scope constructs.Construct, id *string, config *Hp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/hpc_cache_blob_nfs_target azurerm_hpc_cache_blob_nfs_target} Resource.
 func NewHpcCacheBlobNfsTarget_Override(h HpcCacheBlobNfsTarget, scope constructs.Construct, id *string, config *HpcCacheBlobNfsTargetConfig) {
 	_init_.Initialize()
 

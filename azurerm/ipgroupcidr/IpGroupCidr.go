@@ -5,14 +5,14 @@ package ipgroupcidr
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/ipgroupcidr/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/ipgroupcidr/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr}.
 type IpGroupCidr interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_IpGroupCidr) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
 func NewIpGroupCidr(scope constructs.Construct, id *string, config *IpGroupCidrConfig) IpGroupCidr {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewIpGroupCidr(scope constructs.Construct, id *string, config *IpGroupCidrC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/ip_group_cidr azurerm_ip_group_cidr} Resource.
 func NewIpGroupCidr_Override(i IpGroupCidr, scope constructs.Construct, id *string, config *IpGroupCidrConfig) {
 	_init_.Initialize()
 

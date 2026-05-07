@@ -5,14 +5,14 @@ package datafactorypipeline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorypipeline/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorypipeline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline}.
 type DataFactoryPipeline interface {
 	cdktn.TerraformResource
 	ActivitiesJson() *string
@@ -581,7 +581,7 @@ func (j *jsiiProxy_DataFactoryPipeline) VariablesInput() *map[string]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
 func NewDataFactoryPipeline(scope constructs.Construct, id *string, config *DataFactoryPipelineConfig) DataFactoryPipeline {
 	_init_.Initialize()
 
@@ -599,7 +599,7 @@ func NewDataFactoryPipeline(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_pipeline azurerm_data_factory_pipeline} Resource.
 func NewDataFactoryPipeline_Override(d DataFactoryPipeline, scope constructs.Construct, id *string, config *DataFactoryPipelineConfig) {
 	_init_.Initialize()
 

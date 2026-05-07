@@ -5,14 +5,14 @@ package arcmachineautomanageconfigurationassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/arcmachineautomanageconfigurationassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/arcmachineautomanageconfigurationassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/arc_machine_automanage_configuration_assignment azurerm_arc_machine_automanage_configuration_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/arc_machine_automanage_configuration_assignment azurerm_arc_machine_automanage_configuration_assignment}.
 type ArcMachineAutomanageConfigurationAssignment interface {
 	cdktn.TerraformResource
 	ArcMachineId() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) TimeoutsInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/arc_machine_automanage_configuration_assignment azurerm_arc_machine_automanage_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/arc_machine_automanage_configuration_assignment azurerm_arc_machine_automanage_configuration_assignment} Resource.
 func NewArcMachineAutomanageConfigurationAssignment(scope constructs.Construct, id *string, config *ArcMachineAutomanageConfigurationAssignmentConfig) ArcMachineAutomanageConfigurationAssignment {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewArcMachineAutomanageConfigurationAssignment(scope constructs.Construct, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/arc_machine_automanage_configuration_assignment azurerm_arc_machine_automanage_configuration_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/arc_machine_automanage_configuration_assignment azurerm_arc_machine_automanage_configuration_assignment} Resource.
 func NewArcMachineAutomanageConfigurationAssignment_Override(a ArcMachineAutomanageConfigurationAssignment, scope constructs.Construct, id *string, config *ArcMachineAutomanageConfigurationAssignmentConfig) {
 	_init_.Initialize()
 

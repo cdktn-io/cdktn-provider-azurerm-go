@@ -5,14 +5,14 @@ package dataazurermvirtualhubroutetable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermvirtualhubroutetable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermvirtualhubroutetable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_hub_route_table azurerm_virtual_hub_route_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_hub_route_table azurerm_virtual_hub_route_table}.
 type DataAzurermVirtualHubRouteTable interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataAzurermVirtualHubRouteTable) VirtualHubNameInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_hub_route_table azurerm_virtual_hub_route_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_hub_route_table azurerm_virtual_hub_route_table} Data Source.
 func NewDataAzurermVirtualHubRouteTable(scope constructs.Construct, id *string, config *DataAzurermVirtualHubRouteTableConfig) DataAzurermVirtualHubRouteTable {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewDataAzurermVirtualHubRouteTable(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_hub_route_table azurerm_virtual_hub_route_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_hub_route_table azurerm_virtual_hub_route_table} Data Source.
 func NewDataAzurermVirtualHubRouteTable_Override(d DataAzurermVirtualHubRouteTable, scope constructs.Construct, id *string, config *DataAzurermVirtualHubRouteTableConfig) {
 	_init_.Initialize()
 

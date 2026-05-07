@@ -147,6 +147,18 @@ func (j *jsiiProxy_BotWebApp) validateSetMicrosoftAppIdParameters(val *string) e
 	return nil
 }
 
+func (j *jsiiProxy_BotWebApp) validateSetMicrosoftAppTenantIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BotWebApp) validateSetMicrosoftAppTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_BotWebApp) validateSetMicrosoftAppUserAssignedIdentityIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BotWebApp) validateSetNameParameters(val *string) error {
 	return nil
 }

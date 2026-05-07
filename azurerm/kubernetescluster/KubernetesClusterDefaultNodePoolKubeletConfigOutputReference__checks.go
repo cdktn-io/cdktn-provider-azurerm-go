@@ -174,6 +174,14 @@ func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference) validateSetContainerLogMaxFilesParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference) validateSetContainerLogMaxLineParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

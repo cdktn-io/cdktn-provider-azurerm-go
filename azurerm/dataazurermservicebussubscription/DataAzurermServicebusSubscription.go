@@ -5,14 +5,14 @@ package dataazurermservicebussubscription
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermservicebussubscription/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermservicebussubscription/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription}.
 type DataAzurermServicebusSubscription interface {
 	cdktn.TerraformDataSource
 	AutoDeleteOnIdle() *string
@@ -538,7 +538,7 @@ func (j *jsiiProxy_DataAzurermServicebusSubscription) TopicNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
 func NewDataAzurermServicebusSubscription(scope constructs.Construct, id *string, config *DataAzurermServicebusSubscriptionConfig) DataAzurermServicebusSubscription {
 	_init_.Initialize()
 
@@ -556,7 +556,7 @@ func NewDataAzurermServicebusSubscription(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/servicebus_subscription azurerm_servicebus_subscription} Data Source.
 func NewDataAzurermServicebusSubscription_Override(d DataAzurermServicebusSubscription, scope constructs.Construct, id *string, config *DataAzurermServicebusSubscriptionConfig) {
 	_init_.Initialize()
 

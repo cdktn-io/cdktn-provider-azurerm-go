@@ -5,14 +5,14 @@ package iothubfileupload
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/iothubfileupload/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/iothubfileupload/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload}.
 type IothubFileUploadA interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_IothubFileUploadA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
 func NewIothubFileUploadA(scope constructs.Construct, id *string, config *IothubFileUploadAConfig) IothubFileUploadA {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewIothubFileUploadA(scope constructs.Construct, id *string, config *Iothub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/iothub_file_upload azurerm_iothub_file_upload} Resource.
 func NewIothubFileUploadA_Override(i IothubFileUploadA, scope constructs.Construct, id *string, config *IothubFileUploadAConfig) {
 	_init_.Initialize()
 

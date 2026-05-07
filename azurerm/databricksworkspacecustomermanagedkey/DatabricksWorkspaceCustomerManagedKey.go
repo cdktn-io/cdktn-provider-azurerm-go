@@ -5,14 +5,14 @@ package databricksworkspacecustomermanagedkey
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/databricksworkspacecustomermanagedkey/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/databricksworkspacecustomermanagedkey/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/databricks_workspace_customer_managed_key azurerm_databricks_workspace_customer_managed_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/databricks_workspace_customer_managed_key azurerm_databricks_workspace_customer_managed_key}.
 type DatabricksWorkspaceCustomerManagedKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) WorkspaceIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/databricks_workspace_customer_managed_key azurerm_databricks_workspace_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/databricks_workspace_customer_managed_key azurerm_databricks_workspace_customer_managed_key} Resource.
 func NewDatabricksWorkspaceCustomerManagedKey(scope constructs.Construct, id *string, config *DatabricksWorkspaceCustomerManagedKeyConfig) DatabricksWorkspaceCustomerManagedKey {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDatabricksWorkspaceCustomerManagedKey(scope constructs.Construct, id *st
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/databricks_workspace_customer_managed_key azurerm_databricks_workspace_customer_managed_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/databricks_workspace_customer_managed_key azurerm_databricks_workspace_customer_managed_key} Resource.
 func NewDatabricksWorkspaceCustomerManagedKey_Override(d DatabricksWorkspaceCustomerManagedKey, scope constructs.Construct, id *string, config *DatabricksWorkspaceCustomerManagedKeyConfig) {
 	_init_.Initialize()
 

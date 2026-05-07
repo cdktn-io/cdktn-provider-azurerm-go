@@ -5,14 +5,14 @@ package dedicatedhostgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dedicatedhostgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dedicatedhostgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group}.
 type DedicatedHostGroup interface {
 	cdktn.TerraformResource
 	AutomaticPlacementEnabled() interface{}
@@ -507,7 +507,7 @@ func (j *jsiiProxy_DedicatedHostGroup) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
 func NewDedicatedHostGroup(scope constructs.Construct, id *string, config *DedicatedHostGroupConfig) DedicatedHostGroup {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewDedicatedHostGroup(scope constructs.Construct, id *string, config *Dedic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dedicated_host_group azurerm_dedicated_host_group} Resource.
 func NewDedicatedHostGroup_Override(d DedicatedHostGroup, scope constructs.Construct, id *string, config *DedicatedHostGroupConfig) {
 	_init_.Initialize()
 

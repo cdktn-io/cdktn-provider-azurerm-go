@@ -5,14 +5,14 @@ package voiceservicescommunicationsgatewaytestline
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/voiceservicescommunicationsgatewaytestline/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/voiceservicescommunicationsgatewaytestline/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/voice_services_communications_gateway_test_line azurerm_voice_services_communications_gateway_test_line}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/voice_services_communications_gateway_test_line azurerm_voice_services_communications_gateway_test_line}.
 type VoiceServicesCommunicationsGatewayTestLine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_VoiceServicesCommunicationsGatewayTestLine) VoiceServicesComm
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/voice_services_communications_gateway_test_line azurerm_voice_services_communications_gateway_test_line} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/voice_services_communications_gateway_test_line azurerm_voice_services_communications_gateway_test_line} Resource.
 func NewVoiceServicesCommunicationsGatewayTestLine(scope constructs.Construct, id *string, config *VoiceServicesCommunicationsGatewayTestLineConfig) VoiceServicesCommunicationsGatewayTestLine {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewVoiceServicesCommunicationsGatewayTestLine(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/voice_services_communications_gateway_test_line azurerm_voice_services_communications_gateway_test_line} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/voice_services_communications_gateway_test_line azurerm_voice_services_communications_gateway_test_line} Resource.
 func NewVoiceServicesCommunicationsGatewayTestLine_Override(v VoiceServicesCommunicationsGatewayTestLine, scope constructs.Construct, id *string, config *VoiceServicesCommunicationsGatewayTestLineConfig) {
 	_init_.Initialize()
 

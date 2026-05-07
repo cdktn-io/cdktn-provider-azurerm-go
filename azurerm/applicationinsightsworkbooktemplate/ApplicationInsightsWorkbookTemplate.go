@@ -5,14 +5,14 @@ package applicationinsightsworkbooktemplate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/applicationinsightsworkbooktemplate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/applicationinsightsworkbooktemplate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/application_insights_workbook_template azurerm_application_insights_workbook_template}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_insights_workbook_template azurerm_application_insights_workbook_template}.
 type ApplicationInsightsWorkbookTemplate interface {
 	cdktn.TerraformResource
 	Author() *string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_ApplicationInsightsWorkbookTemplate) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/application_insights_workbook_template azurerm_application_insights_workbook_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_insights_workbook_template azurerm_application_insights_workbook_template} Resource.
 func NewApplicationInsightsWorkbookTemplate(scope constructs.Construct, id *string, config *ApplicationInsightsWorkbookTemplateConfig) ApplicationInsightsWorkbookTemplate {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewApplicationInsightsWorkbookTemplate(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/application_insights_workbook_template azurerm_application_insights_workbook_template} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_insights_workbook_template azurerm_application_insights_workbook_template} Resource.
 func NewApplicationInsightsWorkbookTemplate_Override(a ApplicationInsightsWorkbookTemplate, scope constructs.Construct, id *string, config *ApplicationInsightsWorkbookTemplateConfig) {
 	_init_.Initialize()
 

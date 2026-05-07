@@ -5,14 +5,14 @@ package relaynamespaceauthorizationrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/relaynamespaceauthorizationrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/relaynamespaceauthorizationrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule}.
 type RelayNamespaceAuthorizationRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_RelayNamespaceAuthorizationRule) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
 func NewRelayNamespaceAuthorizationRule(scope constructs.Construct, id *string, config *RelayNamespaceAuthorizationRuleConfig) RelayNamespaceAuthorizationRule {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewRelayNamespaceAuthorizationRule(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/relay_namespace_authorization_rule azurerm_relay_namespace_authorization_rule} Resource.
 func NewRelayNamespaceAuthorizationRule_Override(r RelayNamespaceAuthorizationRule, scope constructs.Construct, id *string, config *RelayNamespaceAuthorizationRuleConfig) {
 	_init_.Initialize()
 

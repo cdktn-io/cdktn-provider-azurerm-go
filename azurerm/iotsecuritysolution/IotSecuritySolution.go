@@ -5,14 +5,14 @@ package iotsecuritysolution
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/iotsecuritysolution/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/iotsecuritysolution/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.
 type IotSecuritySolution interface {
 	cdktn.TerraformResource
 	AdditionalWorkspace() IotSecuritySolutionAdditionalWorkspaceList
@@ -698,7 +698,7 @@ func (j *jsiiProxy_IotSecuritySolution) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) IotSecuritySolution {
 	_init_.Initialize()
 
@@ -716,7 +716,7 @@ func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution_Override(i IotSecuritySolution, scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) {
 	_init_.Initialize()
 

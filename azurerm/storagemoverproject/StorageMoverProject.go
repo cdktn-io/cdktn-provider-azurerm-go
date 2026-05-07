@@ -5,14 +5,14 @@ package storagemoverproject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storagemoverproject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/storagemoverproject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_mover_project azurerm_storage_mover_project}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/storage_mover_project azurerm_storage_mover_project}.
 type StorageMoverProject interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_StorageMoverProject) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_mover_project azurerm_storage_mover_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/storage_mover_project azurerm_storage_mover_project} Resource.
 func NewStorageMoverProject(scope constructs.Construct, id *string, config *StorageMoverProjectConfig) StorageMoverProject {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewStorageMoverProject(scope constructs.Construct, id *string, config *Stor
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_mover_project azurerm_storage_mover_project} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/storage_mover_project azurerm_storage_mover_project} Resource.
 func NewStorageMoverProject_Override(s StorageMoverProject, scope constructs.Construct, id *string, config *StorageMoverProjectConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataazurermpublicipprefix
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermpublicipprefix/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermpublicipprefix/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix}.
 type DataAzurermPublicIpPrefix interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAzurermPublicIpPrefix) Zones() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
 func NewDataAzurermPublicIpPrefix(scope constructs.Construct, id *string, config *DataAzurermPublicIpPrefixConfig) DataAzurermPublicIpPrefix {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAzurermPublicIpPrefix(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/public_ip_prefix azurerm_public_ip_prefix} Data Source.
 func NewDataAzurermPublicIpPrefix_Override(d DataAzurermPublicIpPrefix, scope constructs.Construct, id *string, config *DataAzurermPublicIpPrefixConfig) {
 	_init_.Initialize()
 

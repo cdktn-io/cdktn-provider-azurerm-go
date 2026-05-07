@@ -5,14 +5,14 @@ package springcloudbuilddeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudbuilddeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/springcloudbuilddeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/spring_cloud_build_deployment azurerm_spring_cloud_build_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/spring_cloud_build_deployment azurerm_spring_cloud_build_deployment}.
 type SpringCloudBuildDeployment interface {
 	cdktn.TerraformResource
 	AddonJson() *string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_SpringCloudBuildDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/spring_cloud_build_deployment azurerm_spring_cloud_build_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/spring_cloud_build_deployment azurerm_spring_cloud_build_deployment} Resource.
 func NewSpringCloudBuildDeployment(scope constructs.Construct, id *string, config *SpringCloudBuildDeploymentConfig) SpringCloudBuildDeployment {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewSpringCloudBuildDeployment(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/spring_cloud_build_deployment azurerm_spring_cloud_build_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/spring_cloud_build_deployment azurerm_spring_cloud_build_deployment} Resource.
 func NewSpringCloudBuildDeployment_Override(s SpringCloudBuildDeployment, scope constructs.Construct, id *string, config *SpringCloudBuildDeploymentConfig) {
 	_init_.Initialize()
 

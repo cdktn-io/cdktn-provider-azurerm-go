@@ -5,14 +5,14 @@ package emailcommunicationservicedomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/emailcommunicationservicedomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/emailcommunicationservicedomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/email_communication_service_domain azurerm_email_communication_service_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/email_communication_service_domain azurerm_email_communication_service_domain}.
 type EmailCommunicationServiceDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_EmailCommunicationServiceDomain) VerificationRecords() EmailC
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/email_communication_service_domain azurerm_email_communication_service_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/email_communication_service_domain azurerm_email_communication_service_domain} Resource.
 func NewEmailCommunicationServiceDomain(scope constructs.Construct, id *string, config *EmailCommunicationServiceDomainConfig) EmailCommunicationServiceDomain {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewEmailCommunicationServiceDomain(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/email_communication_service_domain azurerm_email_communication_service_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/email_communication_service_domain azurerm_email_communication_service_domain} Resource.
 func NewEmailCommunicationServiceDomain_Override(e EmailCommunicationServiceDomain, scope constructs.Construct, id *string, config *EmailCommunicationServiceDomainConfig) {
 	_init_.Initialize()
 

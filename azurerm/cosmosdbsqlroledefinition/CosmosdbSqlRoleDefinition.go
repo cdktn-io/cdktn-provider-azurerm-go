@@ -5,14 +5,14 @@ package cosmosdbsqlroledefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cosmosdbsqlroledefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/cosmosdbsqlroledefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cosmosdb_sql_role_definition azurerm_cosmosdb_sql_role_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cosmosdb_sql_role_definition azurerm_cosmosdb_sql_role_definition}.
 type CosmosdbSqlRoleDefinition interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_CosmosdbSqlRoleDefinition) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cosmosdb_sql_role_definition azurerm_cosmosdb_sql_role_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cosmosdb_sql_role_definition azurerm_cosmosdb_sql_role_definition} Resource.
 func NewCosmosdbSqlRoleDefinition(scope constructs.Construct, id *string, config *CosmosdbSqlRoleDefinitionConfig) CosmosdbSqlRoleDefinition {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewCosmosdbSqlRoleDefinition(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cosmosdb_sql_role_definition azurerm_cosmosdb_sql_role_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cosmosdb_sql_role_definition azurerm_cosmosdb_sql_role_definition} Resource.
 func NewCosmosdbSqlRoleDefinition_Override(c CosmosdbSqlRoleDefinition, scope constructs.Construct, id *string, config *CosmosdbSqlRoleDefinitionConfig) {
 	_init_.Initialize()
 

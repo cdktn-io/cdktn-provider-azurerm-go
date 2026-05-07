@@ -5,14 +5,14 @@ package apimanagementgatewaycertificateauthority
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementgatewaycertificateauthority/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementgatewaycertificateauthority/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_gateway_certificate_authority azurerm_api_management_gateway_certificate_authority}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_gateway_certificate_authority azurerm_api_management_gateway_certificate_authority}.
 type ApiManagementGatewayCertificateAuthority interface {
 	cdktn.TerraformResource
 	ApiManagementId() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ApiManagementGatewayCertificateAuthority) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_gateway_certificate_authority azurerm_api_management_gateway_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_gateway_certificate_authority azurerm_api_management_gateway_certificate_authority} Resource.
 func NewApiManagementGatewayCertificateAuthority(scope constructs.Construct, id *string, config *ApiManagementGatewayCertificateAuthorityConfig) ApiManagementGatewayCertificateAuthority {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewApiManagementGatewayCertificateAuthority(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_gateway_certificate_authority azurerm_api_management_gateway_certificate_authority} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_gateway_certificate_authority azurerm_api_management_gateway_certificate_authority} Resource.
 func NewApiManagementGatewayCertificateAuthority_Override(a ApiManagementGatewayCertificateAuthority, scope constructs.Construct, id *string, config *ApiManagementGatewayCertificateAuthorityConfig) {
 	_init_.Initialize()
 

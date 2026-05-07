@@ -5,14 +5,14 @@ package dataazurermmarketplaceagreement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmarketplaceagreement/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermmarketplaceagreement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/marketplace_agreement azurerm_marketplace_agreement}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/marketplace_agreement azurerm_marketplace_agreement}.
 type DataAzurermMarketplaceAgreement interface {
 	cdktn.TerraformDataSource
 	Accepted() cdktn.IResolvable
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataAzurermMarketplaceAgreement) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/marketplace_agreement azurerm_marketplace_agreement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/marketplace_agreement azurerm_marketplace_agreement} Data Source.
 func NewDataAzurermMarketplaceAgreement(scope constructs.Construct, id *string, config *DataAzurermMarketplaceAgreementConfig) DataAzurermMarketplaceAgreement {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewDataAzurermMarketplaceAgreement(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/marketplace_agreement azurerm_marketplace_agreement} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/marketplace_agreement azurerm_marketplace_agreement} Data Source.
 func NewDataAzurermMarketplaceAgreement_Override(d DataAzurermMarketplaceAgreement, scope constructs.Construct, id *string, config *DataAzurermMarketplaceAgreementConfig) {
 	_init_.Initialize()
 

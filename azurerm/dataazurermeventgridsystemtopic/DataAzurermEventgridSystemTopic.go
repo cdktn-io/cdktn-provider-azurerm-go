@@ -5,14 +5,14 @@ package dataazurermeventgridsystemtopic
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermeventgridsystemtopic/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermeventgridsystemtopic/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic}.
 type DataAzurermEventgridSystemTopic interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataAzurermEventgridSystemTopic) TopicType() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
 func NewDataAzurermEventgridSystemTopic(scope constructs.Construct, id *string, config *DataAzurermEventgridSystemTopicConfig) DataAzurermEventgridSystemTopic {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDataAzurermEventgridSystemTopic(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/eventgrid_system_topic azurerm_eventgrid_system_topic} Data Source.
 func NewDataAzurermEventgridSystemTopic_Override(d DataAzurermEventgridSystemTopic, scope constructs.Construct, id *string, config *DataAzurermEventgridSystemTopicConfig) {
 	_init_.Initialize()
 

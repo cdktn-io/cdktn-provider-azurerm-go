@@ -5,14 +5,14 @@ package appserviceslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appserviceslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/appserviceslot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_slot azurerm_app_service_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_slot azurerm_app_service_slot}.
 type AppServiceSlot interface {
 	cdktn.TerraformResource
 	AppServiceName() *string
@@ -768,7 +768,7 @@ func (j *jsiiProxy_AppServiceSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
 func NewAppServiceSlot(scope constructs.Construct, id *string, config *AppServiceSlotConfig) AppServiceSlot {
 	_init_.Initialize()
 
@@ -786,7 +786,7 @@ func NewAppServiceSlot(scope constructs.Construct, id *string, config *AppServic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_slot azurerm_app_service_slot} Resource.
 func NewAppServiceSlot_Override(a AppServiceSlot, scope constructs.Construct, id *string, config *AppServiceSlotConfig) {
 	_init_.Initialize()
 

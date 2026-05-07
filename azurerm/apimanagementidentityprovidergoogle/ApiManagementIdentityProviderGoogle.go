@@ -5,14 +5,14 @@ package apimanagementidentityprovidergoogle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementidentityprovidergoogle/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementidentityprovidergoogle/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google}.
 type ApiManagementIdentityProviderGoogle interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderGoogle) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
 func NewApiManagementIdentityProviderGoogle(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderGoogleConfig) ApiManagementIdentityProviderGoogle {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewApiManagementIdentityProviderGoogle(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_identity_provider_google azurerm_api_management_identity_provider_google} Resource.
 func NewApiManagementIdentityProviderGoogle_Override(a ApiManagementIdentityProviderGoogle, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderGoogleConfig) {
 	_init_.Initialize()
 

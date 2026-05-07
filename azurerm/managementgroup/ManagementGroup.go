@@ -5,14 +5,14 @@ package managementgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/managementgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/managementgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/management_group azurerm_management_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/management_group azurerm_management_group}.
 type ManagementGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -450,7 +450,7 @@ func (j *jsiiProxy_ManagementGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/management_group azurerm_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/management_group azurerm_management_group} Resource.
 func NewManagementGroup(scope constructs.Construct, id *string, config *ManagementGroupConfig) ManagementGroup {
 	_init_.Initialize()
 
@@ -468,7 +468,7 @@ func NewManagementGroup(scope constructs.Construct, id *string, config *Manageme
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/management_group azurerm_management_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/management_group azurerm_management_group} Resource.
 func NewManagementGroup_Override(m ManagementGroup, scope constructs.Construct, id *string, config *ManagementGroupConfig) {
 	_init_.Initialize()
 

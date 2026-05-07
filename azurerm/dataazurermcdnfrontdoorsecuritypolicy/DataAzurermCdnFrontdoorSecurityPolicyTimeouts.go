@@ -1,0 +1,11 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package dataazurermcdnfrontdoorsecuritypolicy
+
+
+type DataAzurermCdnFrontdoorSecurityPolicyTimeouts struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/cdn_frontdoor_security_policy#read DataAzurermCdnFrontdoorSecurityPolicy#read}.
+	Read *string `field:"optional" json:"read" yaml:"read"`
+}
+

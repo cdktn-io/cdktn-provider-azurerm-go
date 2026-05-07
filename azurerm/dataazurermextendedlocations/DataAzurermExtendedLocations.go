@@ -5,14 +5,14 @@ package dataazurermextendedlocations
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermextendedlocations/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermextendedlocations/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/extended_locations azurerm_extended_locations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/extended_locations azurerm_extended_locations}.
 type DataAzurermExtendedLocations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAzurermExtendedLocations) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
 func NewDataAzurermExtendedLocations(scope constructs.Construct, id *string, config *DataAzurermExtendedLocationsConfig) DataAzurermExtendedLocations {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAzurermExtendedLocations(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/extended_locations azurerm_extended_locations} Data Source.
 func NewDataAzurermExtendedLocations_Override(d DataAzurermExtendedLocations, scope constructs.Construct, id *string, config *DataAzurermExtendedLocationsConfig) {
 	_init_.Initialize()
 

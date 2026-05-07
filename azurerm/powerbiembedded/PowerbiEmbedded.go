@@ -5,14 +5,14 @@ package powerbiembedded
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/powerbiembedded/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/powerbiembedded/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded}.
 type PowerbiEmbedded interface {
 	cdktn.TerraformResource
 	Administrators() *[]*string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_PowerbiEmbedded) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
 func NewPowerbiEmbedded(scope constructs.Construct, id *string, config *PowerbiEmbeddedConfig) PowerbiEmbedded {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewPowerbiEmbedded(scope constructs.Construct, id *string, config *PowerbiE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/powerbi_embedded azurerm_powerbi_embedded} Resource.
 func NewPowerbiEmbedded_Override(p PowerbiEmbedded, scope constructs.Construct, id *string, config *PowerbiEmbeddedConfig) {
 	_init_.Initialize()
 

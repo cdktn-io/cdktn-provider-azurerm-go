@@ -5,14 +5,14 @@ package healthbot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/healthbot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/healthbot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/healthbot azurerm_healthbot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/healthbot azurerm_healthbot}.
 type Healthbot interface {
 	cdktn.TerraformResource
 	BotManagementPortalUrl() *string
@@ -470,7 +470,7 @@ func (j *jsiiProxy_Healthbot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/healthbot azurerm_healthbot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/healthbot azurerm_healthbot} Resource.
 func NewHealthbot(scope constructs.Construct, id *string, config *HealthbotConfig) Healthbot {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewHealthbot(scope constructs.Construct, id *string, config *HealthbotConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/healthbot azurerm_healthbot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/healthbot azurerm_healthbot} Resource.
 func NewHealthbot_Override(h Healthbot, scope constructs.Construct, id *string, config *HealthbotConfig) {
 	_init_.Initialize()
 

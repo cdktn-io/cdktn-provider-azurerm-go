@@ -5,14 +5,14 @@ package emailcommunicationservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/emailcommunicationservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/emailcommunicationservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/email_communication_service azurerm_email_communication_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/email_communication_service azurerm_email_communication_service}.
 type EmailCommunicationService interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_EmailCommunicationService) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
 func NewEmailCommunicationService(scope constructs.Construct, id *string, config *EmailCommunicationServiceConfig) EmailCommunicationService {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewEmailCommunicationService(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/email_communication_service azurerm_email_communication_service} Resource.
 func NewEmailCommunicationService_Override(e EmailCommunicationService, scope constructs.Construct, id *string, config *EmailCommunicationServiceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package virtualmachineimplicitdatadiskfromsource
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualmachineimplicitdatadiskfromsource/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/virtualmachineimplicitdatadiskfromsource/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_machine_implicit_data_disk_from_source azurerm_virtual_machine_implicit_data_disk_from_source}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_machine_implicit_data_disk_from_source azurerm_virtual_machine_implicit_data_disk_from_source}.
 type VirtualMachineImplicitDataDiskFromSource interface {
 	cdktn.TerraformResource
 	Caching() *string
@@ -529,7 +529,7 @@ func (j *jsiiProxy_VirtualMachineImplicitDataDiskFromSource) WriteAcceleratorEna
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_machine_implicit_data_disk_from_source azurerm_virtual_machine_implicit_data_disk_from_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_machine_implicit_data_disk_from_source azurerm_virtual_machine_implicit_data_disk_from_source} Resource.
 func NewVirtualMachineImplicitDataDiskFromSource(scope constructs.Construct, id *string, config *VirtualMachineImplicitDataDiskFromSourceConfig) VirtualMachineImplicitDataDiskFromSource {
 	_init_.Initialize()
 
@@ -547,7 +547,7 @@ func NewVirtualMachineImplicitDataDiskFromSource(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_machine_implicit_data_disk_from_source azurerm_virtual_machine_implicit_data_disk_from_source} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_machine_implicit_data_disk_from_source azurerm_virtual_machine_implicit_data_disk_from_source} Resource.
 func NewVirtualMachineImplicitDataDiskFromSource_Override(v VirtualMachineImplicitDataDiskFromSource, scope constructs.Construct, id *string, config *VirtualMachineImplicitDataDiskFromSourceConfig) {
 	_init_.Initialize()
 

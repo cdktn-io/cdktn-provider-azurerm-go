@@ -5,14 +5,14 @@ package networkmanageradminrulecollection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkmanageradminrulecollection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkmanageradminrulecollection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection}.
 type NetworkManagerAdminRuleCollection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -436,7 +436,7 @@ func (j *jsiiProxy_NetworkManagerAdminRuleCollection) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
 func NewNetworkManagerAdminRuleCollection(scope constructs.Construct, id *string, config *NetworkManagerAdminRuleCollectionConfig) NetworkManagerAdminRuleCollection {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewNetworkManagerAdminRuleCollection(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_admin_rule_collection azurerm_network_manager_admin_rule_collection} Resource.
 func NewNetworkManagerAdminRuleCollection_Override(n NetworkManagerAdminRuleCollection, scope constructs.Construct, id *string, config *NetworkManagerAdminRuleCollectionConfig) {
 	_init_.Initialize()
 

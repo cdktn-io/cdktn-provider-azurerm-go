@@ -5,7 +5,7 @@ package dataazurermdashboardgrafana
 
 
 type DataAzurermDashboardGrafanaTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dashboard_grafana#read DataAzurermDashboardGrafana#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dashboard_grafana#read DataAzurermDashboardGrafana#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

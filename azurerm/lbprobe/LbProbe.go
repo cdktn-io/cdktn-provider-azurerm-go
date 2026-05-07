@@ -5,14 +5,14 @@ package lbprobe
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/lbprobe/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/lbprobe/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/lb_probe azurerm_lb_probe}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/lb_probe azurerm_lb_probe}.
 type LbProbe interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -543,7 +543,7 @@ func (j *jsiiProxy_LbProbe) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
 func NewLbProbe(scope constructs.Construct, id *string, config *LbProbeConfig) LbProbe {
 	_init_.Initialize()
 
@@ -561,7 +561,7 @@ func NewLbProbe(scope constructs.Construct, id *string, config *LbProbeConfig) L
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/lb_probe azurerm_lb_probe} Resource.
 func NewLbProbe_Override(l LbProbe, scope constructs.Construct, id *string, config *LbProbeConfig) {
 	_init_.Initialize()
 

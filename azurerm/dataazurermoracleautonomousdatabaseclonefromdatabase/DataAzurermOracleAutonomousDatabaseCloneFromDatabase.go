@@ -5,14 +5,14 @@ package dataazurermoracleautonomousdatabaseclonefromdatabase
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracleautonomousdatabaseclonefromdatabase/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermoracleautonomousdatabaseclonefromdatabase/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database}.
 type DataAzurermOracleAutonomousDatabaseCloneFromDatabase interface {
 	cdktn.TerraformDataSource
 	ActualUsedDataStorageSizeInTb() *float64
@@ -1059,7 +1059,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromDatabase) Virtual
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromDatabaseConfig) DataAzurermOracleAutonomousDatabaseCloneFromDatabase {
 	_init_.Initialize()
 
@@ -1077,7 +1077,7 @@ func NewDataAzurermOracleAutonomousDatabaseCloneFromDatabase(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/oracle_autonomous_database_clone_from_database azurerm_oracle_autonomous_database_clone_from_database} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseCloneFromDatabase_Override(d DataAzurermOracleAutonomousDatabaseCloneFromDatabase, scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseCloneFromDatabaseConfig) {
 	_init_.Initialize()
 

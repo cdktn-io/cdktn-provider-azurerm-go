@@ -5,14 +5,14 @@ package apimanagementproductapi
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementproductapi/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementproductapi/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_product_api azurerm_api_management_product_api}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_product_api azurerm_api_management_product_api}.
 type ApiManagementProductApi interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ApiManagementProductApi) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_product_api azurerm_api_management_product_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_product_api azurerm_api_management_product_api} Resource.
 func NewApiManagementProductApi(scope constructs.Construct, id *string, config *ApiManagementProductApiConfig) ApiManagementProductApi {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewApiManagementProductApi(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_product_api azurerm_api_management_product_api} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_product_api azurerm_api_management_product_api} Resource.
 func NewApiManagementProductApi_Override(a ApiManagementProductApi, scope constructs.Construct, id *string, config *ApiManagementProductApiConfig) {
 	_init_.Initialize()
 

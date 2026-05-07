@@ -5,14 +5,14 @@ package privatednsresolver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/privatednsresolver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/privatednsresolver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_resolver azurerm_private_dns_resolver}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_resolver azurerm_private_dns_resolver}.
 type PrivateDnsResolver interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_PrivateDnsResolver) VirtualNetworkIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_resolver azurerm_private_dns_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_resolver azurerm_private_dns_resolver} Resource.
 func NewPrivateDnsResolver(scope constructs.Construct, id *string, config *PrivateDnsResolverConfig) PrivateDnsResolver {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewPrivateDnsResolver(scope constructs.Construct, id *string, config *Priva
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_resolver azurerm_private_dns_resolver} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_resolver azurerm_private_dns_resolver} Resource.
 func NewPrivateDnsResolver_Override(p PrivateDnsResolver, scope constructs.Construct, id *string, config *PrivateDnsResolverConfig) {
 	_init_.Initialize()
 

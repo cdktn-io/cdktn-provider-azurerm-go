@@ -5,14 +5,14 @@ package datashare
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datashare/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datashare/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_share azurerm_data_share}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_share azurerm_data_share}.
 type DataShare interface {
 	cdktn.TerraformResource
 	AccountId() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_DataShare) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_share azurerm_data_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_share azurerm_data_share} Resource.
 func NewDataShare(scope constructs.Construct, id *string, config *DataShareConfig) DataShare {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewDataShare(scope constructs.Construct, id *string, config *DataShareConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_share azurerm_data_share} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_share azurerm_data_share} Resource.
 func NewDataShare_Override(d DataShare, scope constructs.Construct, id *string, config *DataShareConfig) {
 	_init_.Initialize()
 

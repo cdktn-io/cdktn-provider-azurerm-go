@@ -79,6 +79,14 @@ func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validateSetStorageAuthenticationIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validateSetStorageAuthenticationTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_EventhubCaptureDescriptionDestinationOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

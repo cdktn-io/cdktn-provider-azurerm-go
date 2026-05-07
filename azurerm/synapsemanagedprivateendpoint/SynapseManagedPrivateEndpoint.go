@@ -5,14 +5,14 @@ package synapsemanagedprivateendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/synapsemanagedprivateendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/synapsemanagedprivateendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint}.
 type SynapseManagedPrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -39,6 +39,9 @@ type SynapseManagedPrivateEndpoint interface {
 	Fqn() *string
 	// Experimental.
 	FriendlyUniqueId() *string
+	FullyQualifiedDomainNames() *[]*string
+	SetFullyQualifiedDomainNames(val *[]*string)
+	FullyQualifiedDomainNamesInput() *[]*string
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
@@ -122,6 +125,7 @@ type SynapseManagedPrivateEndpoint interface {
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *SynapseManagedPrivateEndpointTimeouts)
+	ResetFullyQualifiedDomainNames()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -229,6 +233,26 @@ func (j *jsiiProxy_SynapseManagedPrivateEndpoint) FriendlyUniqueId() *string {
 	_jsii_.Get(
 		j,
 		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SynapseManagedPrivateEndpoint) FullyQualifiedDomainNames() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"fullyQualifiedDomainNames",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_SynapseManagedPrivateEndpoint) FullyQualifiedDomainNamesInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"fullyQualifiedDomainNamesInput",
 		&returns,
 	)
 	return returns
@@ -435,7 +459,7 @@ func (j *jsiiProxy_SynapseManagedPrivateEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
 func NewSynapseManagedPrivateEndpoint(scope constructs.Construct, id *string, config *SynapseManagedPrivateEndpointConfig) SynapseManagedPrivateEndpoint {
 	_init_.Initialize()
 
@@ -453,7 +477,7 @@ func NewSynapseManagedPrivateEndpoint(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
 func NewSynapseManagedPrivateEndpoint_Override(s SynapseManagedPrivateEndpoint, scope constructs.Construct, id *string, config *SynapseManagedPrivateEndpointConfig) {
 	_init_.Initialize()
 
@@ -498,6 +522,17 @@ func (j *jsiiProxy_SynapseManagedPrivateEndpoint)SetForEach(val cdktn.ITerraform
 	_jsii_.Set(
 		j,
 		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_SynapseManagedPrivateEndpoint)SetFullyQualifiedDomainNames(val *[]*string) {
+	if err := j.validateSetFullyQualifiedDomainNamesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"fullyQualifiedDomainNames",
 		val,
 	)
 }
@@ -948,6 +983,14 @@ func (s *jsiiProxy_SynapseManagedPrivateEndpoint) PutTimeouts(value *SynapseMana
 		s,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (s *jsiiProxy_SynapseManagedPrivateEndpoint) ResetFullyQualifiedDomainNames() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetFullyQualifiedDomainNames",
+		nil, // no parameters
 	)
 }
 

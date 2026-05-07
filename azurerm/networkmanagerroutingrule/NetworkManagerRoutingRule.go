@@ -5,14 +5,14 @@ package networkmanagerroutingrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkmanagerroutingrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkmanagerroutingrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_routing_rule azurerm_network_manager_routing_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_routing_rule azurerm_network_manager_routing_rule}.
 type NetworkManagerRoutingRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_NetworkManagerRoutingRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_routing_rule azurerm_network_manager_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_routing_rule azurerm_network_manager_routing_rule} Resource.
 func NewNetworkManagerRoutingRule(scope constructs.Construct, id *string, config *NetworkManagerRoutingRuleConfig) NetworkManagerRoutingRule {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewNetworkManagerRoutingRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_routing_rule azurerm_network_manager_routing_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_routing_rule azurerm_network_manager_routing_rule} Resource.
 func NewNetworkManagerRoutingRule_Override(n NetworkManagerRoutingRule, scope constructs.Construct, id *string, config *NetworkManagerRoutingRuleConfig) {
 	_init_.Initialize()
 

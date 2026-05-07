@@ -5,14 +5,14 @@ package botwebapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/botwebapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/botwebapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/bot_web_app azurerm_bot_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/bot_web_app azurerm_bot_web_app}.
 type BotWebApp interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -73,6 +73,15 @@ type BotWebApp interface {
 	MicrosoftAppId() *string
 	SetMicrosoftAppId(val *string)
 	MicrosoftAppIdInput() *string
+	MicrosoftAppTenantId() *string
+	SetMicrosoftAppTenantId(val *string)
+	MicrosoftAppTenantIdInput() *string
+	MicrosoftAppType() *string
+	SetMicrosoftAppType(val *string)
+	MicrosoftAppTypeInput() *string
+	MicrosoftAppUserAssignedIdentityId() *string
+	SetMicrosoftAppUserAssignedIdentityId(val *string)
+	MicrosoftAppUserAssignedIdentityIdInput() *string
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -157,6 +166,9 @@ type BotWebApp interface {
 	ResetId()
 	ResetLuisAppIds()
 	ResetLuisKey()
+	ResetMicrosoftAppTenantId()
+	ResetMicrosoftAppType()
+	ResetMicrosoftAppUserAssignedIdentityId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -479,6 +491,66 @@ func (j *jsiiProxy_BotWebApp) MicrosoftAppIdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_BotWebApp) MicrosoftAppTenantId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppTenantId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotWebApp) MicrosoftAppTenantIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppTenantIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotWebApp) MicrosoftAppType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotWebApp) MicrosoftAppTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotWebApp) MicrosoftAppUserAssignedIdentityId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppUserAssignedIdentityId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BotWebApp) MicrosoftAppUserAssignedIdentityIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"microsoftAppUserAssignedIdentityIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_BotWebApp) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -650,7 +722,7 @@ func (j *jsiiProxy_BotWebApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfig) BotWebApp {
 	_init_.Initialize()
 
@@ -668,7 +740,7 @@ func NewBotWebApp(scope constructs.Construct, id *string, config *BotWebAppConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/bot_web_app azurerm_bot_web_app} Resource.
 func NewBotWebApp_Override(b BotWebApp, scope constructs.Construct, id *string, config *BotWebAppConfig) {
 	_init_.Initialize()
 
@@ -834,6 +906,39 @@ func (j *jsiiProxy_BotWebApp)SetMicrosoftAppId(val *string) {
 	_jsii_.Set(
 		j,
 		"microsoftAppId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BotWebApp)SetMicrosoftAppTenantId(val *string) {
+	if err := j.validateSetMicrosoftAppTenantIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"microsoftAppTenantId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BotWebApp)SetMicrosoftAppType(val *string) {
+	if err := j.validateSetMicrosoftAppTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"microsoftAppType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BotWebApp)SetMicrosoftAppUserAssignedIdentityId(val *string) {
+	if err := j.validateSetMicrosoftAppUserAssignedIdentityIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"microsoftAppUserAssignedIdentityId",
 		val,
 	)
 }
@@ -1325,6 +1430,30 @@ func (b *jsiiProxy_BotWebApp) ResetLuisKey() {
 	_jsii_.InvokeVoid(
 		b,
 		"resetLuisKey",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BotWebApp) ResetMicrosoftAppTenantId() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMicrosoftAppTenantId",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BotWebApp) ResetMicrosoftAppType() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMicrosoftAppType",
+		nil, // no parameters
+	)
+}
+
+func (b *jsiiProxy_BotWebApp) ResetMicrosoftAppUserAssignedIdentityId() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetMicrosoftAppUserAssignedIdentityId",
 		nil, // no parameters
 	)
 }

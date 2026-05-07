@@ -5,14 +5,14 @@ package dataazurermdynatracemonitor
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermdynatracemonitor/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermdynatracemonitor/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dynatrace_monitor azurerm_dynatrace_monitor}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dynatrace_monitor azurerm_dynatrace_monitor}.
 type DataAzurermDynatraceMonitor interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataAzurermDynatraceMonitor) User() DataAzurermDynatraceMonit
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dynatrace_monitor azurerm_dynatrace_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dynatrace_monitor azurerm_dynatrace_monitor} Data Source.
 func NewDataAzurermDynatraceMonitor(scope constructs.Construct, id *string, config *DataAzurermDynatraceMonitorConfig) DataAzurermDynatraceMonitor {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDataAzurermDynatraceMonitor(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dynatrace_monitor azurerm_dynatrace_monitor} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dynatrace_monitor azurerm_dynatrace_monitor} Data Source.
 func NewDataAzurermDynatraceMonitor_Override(d DataAzurermDynatraceMonitor, scope constructs.Construct, id *string, config *DataAzurermDynatraceMonitorConfig) {
 	_init_.Initialize()
 

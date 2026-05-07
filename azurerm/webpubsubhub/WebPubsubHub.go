@@ -5,14 +5,14 @@ package webpubsubhub
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webpubsubhub/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/webpubsubhub/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub}.
 type WebPubsubHub interface {
 	cdktn.TerraformResource
 	AnonymousConnectionsEnabled() interface{}
@@ -461,7 +461,7 @@ func (j *jsiiProxy_WebPubsubHub) WebPubsubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
 func NewWebPubsubHub(scope constructs.Construct, id *string, config *WebPubsubHubConfig) WebPubsubHub {
 	_init_.Initialize()
 
@@ -479,7 +479,7 @@ func NewWebPubsubHub(scope constructs.Construct, id *string, config *WebPubsubHu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/web_pubsub_hub azurerm_web_pubsub_hub} Resource.
 func NewWebPubsubHub_Override(w WebPubsubHub, scope constructs.Construct, id *string, config *WebPubsubHubConfig) {
 	_init_.Initialize()
 

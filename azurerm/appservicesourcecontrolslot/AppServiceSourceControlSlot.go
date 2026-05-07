@@ -5,14 +5,14 @@ package appservicesourcecontrolslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appservicesourcecontrolslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/appservicesourcecontrolslot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot}.
 type AppServiceSourceControlSlot interface {
 	cdktn.TerraformResource
 	Branch() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_AppServiceSourceControlSlot) UsesGithubAction() cdktn.IResolv
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
 func NewAppServiceSourceControlSlot(scope constructs.Construct, id *string, config *AppServiceSourceControlSlotConfig) AppServiceSourceControlSlot {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewAppServiceSourceControlSlot(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_source_control_slot azurerm_app_service_source_control_slot} Resource.
 func NewAppServiceSourceControlSlot_Override(a AppServiceSourceControlSlot, scope constructs.Construct, id *string, config *AppServiceSourceControlSlotConfig) {
 	_init_.Initialize()
 

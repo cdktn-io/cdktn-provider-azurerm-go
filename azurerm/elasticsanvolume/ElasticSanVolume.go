@@ -5,14 +5,14 @@ package elasticsanvolume
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/elasticsanvolume/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/elasticsanvolume/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume}.
 type ElasticSanVolume interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -480,7 +480,7 @@ func (j *jsiiProxy_ElasticSanVolume) VolumeId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
 func NewElasticSanVolume(scope constructs.Construct, id *string, config *ElasticSanVolumeConfig) ElasticSanVolume {
 	_init_.Initialize()
 
@@ -498,7 +498,7 @@ func NewElasticSanVolume(scope constructs.Construct, id *string, config *Elastic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/elastic_san_volume azurerm_elastic_san_volume} Resource.
 func NewElasticSanVolume_Override(e ElasticSanVolume, scope constructs.Construct, id *string, config *ElasticSanVolumeConfig) {
 	_init_.Initialize()
 

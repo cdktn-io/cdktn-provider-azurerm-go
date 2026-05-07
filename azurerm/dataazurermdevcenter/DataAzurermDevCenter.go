@@ -5,14 +5,14 @@ package dataazurermdevcenter
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermdevcenter/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermdevcenter/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dev_center azurerm_dev_center}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dev_center azurerm_dev_center}.
 type DataAzurermDevCenter interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -388,7 +388,7 @@ func (j *jsiiProxy_DataAzurermDevCenter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dev_center azurerm_dev_center} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dev_center azurerm_dev_center} Data Source.
 func NewDataAzurermDevCenter(scope constructs.Construct, id *string, config *DataAzurermDevCenterConfig) DataAzurermDevCenter {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewDataAzurermDevCenter(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/dev_center azurerm_dev_center} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/dev_center azurerm_dev_center} Data Source.
 func NewDataAzurermDevCenter_Override(d DataAzurermDevCenter, scope constructs.Construct, id *string, config *DataAzurermDevCenterConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package loganalyticslinkedstorageaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/loganalyticslinkedstorageaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/loganalyticslinkedstorageaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/log_analytics_linked_storage_account azurerm_log_analytics_linked_storage_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/log_analytics_linked_storage_account azurerm_log_analytics_linked_storage_account}.
 type LogAnalyticsLinkedStorageAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_LogAnalyticsLinkedStorageAccount) WorkspaceResourceIdInput() 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/log_analytics_linked_storage_account azurerm_log_analytics_linked_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/log_analytics_linked_storage_account azurerm_log_analytics_linked_storage_account} Resource.
 func NewLogAnalyticsLinkedStorageAccount(scope constructs.Construct, id *string, config *LogAnalyticsLinkedStorageAccountConfig) LogAnalyticsLinkedStorageAccount {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewLogAnalyticsLinkedStorageAccount(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/log_analytics_linked_storage_account azurerm_log_analytics_linked_storage_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/log_analytics_linked_storage_account azurerm_log_analytics_linked_storage_account} Resource.
 func NewLogAnalyticsLinkedStorageAccount_Override(l LogAnalyticsLinkedStorageAccount, scope constructs.Construct, id *string, config *LogAnalyticsLinkedStorageAccountConfig) {
 	_init_.Initialize()
 

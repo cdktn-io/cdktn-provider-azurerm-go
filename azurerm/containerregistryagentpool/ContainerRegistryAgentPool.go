@@ -5,14 +5,14 @@ package containerregistryagentpool
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/containerregistryagentpool/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/containerregistryagentpool/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/container_registry_agent_pool azurerm_container_registry_agent_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/container_registry_agent_pool azurerm_container_registry_agent_pool}.
 type ContainerRegistryAgentPool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -531,7 +531,7 @@ func (j *jsiiProxy_ContainerRegistryAgentPool) VirtualNetworkSubnetIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/container_registry_agent_pool azurerm_container_registry_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/container_registry_agent_pool azurerm_container_registry_agent_pool} Resource.
 func NewContainerRegistryAgentPool(scope constructs.Construct, id *string, config *ContainerRegistryAgentPoolConfig) ContainerRegistryAgentPool {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewContainerRegistryAgentPool(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/container_registry_agent_pool azurerm_container_registry_agent_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/container_registry_agent_pool azurerm_container_registry_agent_pool} Resource.
 func NewContainerRegistryAgentPool_Override(c ContainerRegistryAgentPool, scope constructs.Construct, id *string, config *ContainerRegistryAgentPoolConfig) {
 	_init_.Initialize()
 

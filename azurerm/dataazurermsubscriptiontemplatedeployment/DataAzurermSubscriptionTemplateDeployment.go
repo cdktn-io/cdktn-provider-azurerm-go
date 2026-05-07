@@ -5,14 +5,14 @@ package dataazurermsubscriptiontemplatedeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsubscriptiontemplatedeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermsubscriptiontemplatedeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/subscription_template_deployment azurerm_subscription_template_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/subscription_template_deployment azurerm_subscription_template_deployment}.
 type DataAzurermSubscriptionTemplateDeployment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAzurermSubscriptionTemplateDeployment) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/subscription_template_deployment azurerm_subscription_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/subscription_template_deployment azurerm_subscription_template_deployment} Data Source.
 func NewDataAzurermSubscriptionTemplateDeployment(scope constructs.Construct, id *string, config *DataAzurermSubscriptionTemplateDeploymentConfig) DataAzurermSubscriptionTemplateDeployment {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAzurermSubscriptionTemplateDeployment(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/subscription_template_deployment azurerm_subscription_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/subscription_template_deployment azurerm_subscription_template_deployment} Data Source.
 func NewDataAzurermSubscriptionTemplateDeployment_Override(d DataAzurermSubscriptionTemplateDeployment, scope constructs.Construct, id *string, config *DataAzurermSubscriptionTemplateDeploymentConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataazurermvirtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermvirtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermvirtualnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_network azurerm_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_network azurerm_virtual_network}.
 type DataAzurermVirtualNetwork interface {
 	cdktn.TerraformDataSource
 	AddressSpace() *[]*string
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetwork) VnetPeeringsAddresses() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
 func NewDataAzurermVirtualNetwork(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkConfig) DataAzurermVirtualNetwork {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDataAzurermVirtualNetwork(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_network azurerm_virtual_network} Data Source.
 func NewDataAzurermVirtualNetwork_Override(d DataAzurermVirtualNetwork, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package videoindexeraccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/videoindexeraccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/videoindexeraccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/video_indexer_account azurerm_video_indexer_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/video_indexer_account azurerm_video_indexer_account}.
 type VideoIndexerAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -506,7 +506,7 @@ func (j *jsiiProxy_VideoIndexerAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
 func NewVideoIndexerAccount(scope constructs.Construct, id *string, config *VideoIndexerAccountConfig) VideoIndexerAccount {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewVideoIndexerAccount(scope constructs.Construct, id *string, config *Vide
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/video_indexer_account azurerm_video_indexer_account} Resource.
 func NewVideoIndexerAccount_Override(v VideoIndexerAccount, scope constructs.Construct, id *string, config *VideoIndexerAccountConfig) {
 	_init_.Initialize()
 

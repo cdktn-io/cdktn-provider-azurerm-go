@@ -5,14 +5,14 @@ package frontdoorrulesengine
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/frontdoorrulesengine/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/frontdoorrulesengine/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine}.
 type FrontdoorRulesEngine interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -471,7 +471,7 @@ func (j *jsiiProxy_FrontdoorRulesEngine) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
 func NewFrontdoorRulesEngine(scope constructs.Construct, id *string, config *FrontdoorRulesEngineConfig) FrontdoorRulesEngine {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewFrontdoorRulesEngine(scope constructs.Construct, id *string, config *Fro
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/frontdoor_rules_engine azurerm_frontdoor_rules_engine} Resource.
 func NewFrontdoorRulesEngine_Override(f FrontdoorRulesEngine, scope constructs.Construct, id *string, config *FrontdoorRulesEngineConfig) {
 	_init_.Initialize()
 

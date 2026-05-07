@@ -5,14 +5,14 @@ package staticsitecustomdomain
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/staticsitecustomdomain/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/staticsitecustomdomain/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain}.
 type StaticSiteCustomDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -424,7 +424,7 @@ func (j *jsiiProxy_StaticSiteCustomDomain) ValidationTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
 func NewStaticSiteCustomDomain(scope constructs.Construct, id *string, config *StaticSiteCustomDomainConfig) StaticSiteCustomDomain {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewStaticSiteCustomDomain(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/static_site_custom_domain azurerm_static_site_custom_domain} Resource.
 func NewStaticSiteCustomDomain_Override(s StaticSiteCustomDomain, scope constructs.Construct, id *string, config *StaticSiteCustomDomainConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package backuppolicyvm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/backuppolicyvm/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/backuppolicyvm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm}.
 type BackupPolicyVm interface {
 	cdktn.TerraformResource
 	Backup() BackupPolicyVmBackupOutputReference
@@ -23,6 +23,9 @@ type BackupPolicyVm interface {
 	Connection() interface{}
 	// Experimental.
 	SetConnection(val interface{})
+	ConsistencyType() *string
+	SetConsistencyType(val *string)
+	ConsistencyTypeInput() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
 	// Experimental.
@@ -149,6 +152,7 @@ type BackupPolicyVm interface {
 	PutRetentionYearly(value *BackupPolicyVmRetentionYearly)
 	PutTieringPolicy(value *BackupPolicyVmTieringPolicy)
 	PutTimeouts(value *BackupPolicyVmTimeouts)
+	ResetConsistencyType()
 	ResetId()
 	ResetInstantRestoreResourceGroup()
 	ResetInstantRestoreRetentionDays()
@@ -225,6 +229,26 @@ func (j *jsiiProxy_BackupPolicyVm) Connection() interface{} {
 	_jsii_.Get(
 		j,
 		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupPolicyVm) ConsistencyType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consistencyType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_BackupPolicyVm) ConsistencyTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"consistencyTypeInput",
 		&returns,
 	)
 	return returns
@@ -651,7 +675,7 @@ func (j *jsiiProxy_BackupPolicyVm) TimezoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
 func NewBackupPolicyVm(scope constructs.Construct, id *string, config *BackupPolicyVmConfig) BackupPolicyVm {
 	_init_.Initialize()
 
@@ -669,7 +693,7 @@ func NewBackupPolicyVm(scope constructs.Construct, id *string, config *BackupPol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/backup_policy_vm azurerm_backup_policy_vm} Resource.
 func NewBackupPolicyVm_Override(b BackupPolicyVm, scope constructs.Construct, id *string, config *BackupPolicyVmConfig) {
 	_init_.Initialize()
 
@@ -687,6 +711,17 @@ func (j *jsiiProxy_BackupPolicyVm)SetConnection(val interface{}) {
 	_jsii_.Set(
 		j,
 		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_BackupPolicyVm)SetConsistencyType(val *string) {
+	if err := j.validateSetConsistencyTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"consistencyType",
 		val,
 	)
 }
@@ -1263,6 +1298,14 @@ func (b *jsiiProxy_BackupPolicyVm) PutTimeouts(value *BackupPolicyVmTimeouts) {
 		b,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (b *jsiiProxy_BackupPolicyVm) ResetConsistencyType() {
+	_jsii_.InvokeVoid(
+		b,
+		"resetConsistencyType",
+		nil, // no parameters
 	)
 }
 

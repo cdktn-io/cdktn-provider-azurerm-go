@@ -5,14 +5,14 @@ package advisorsuppression
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/advisorsuppression/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/advisorsuppression/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/advisor_suppression azurerm_advisor_suppression}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/advisor_suppression azurerm_advisor_suppression}.
 type AdvisorSuppression interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_AdvisorSuppression) TtlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
 func NewAdvisorSuppression(scope constructs.Construct, id *string, config *AdvisorSuppressionConfig) AdvisorSuppression {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewAdvisorSuppression(scope constructs.Construct, id *string, config *Advis
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/advisor_suppression azurerm_advisor_suppression} Resource.
 func NewAdvisorSuppression_Override(a AdvisorSuppression, scope constructs.Construct, id *string, config *AdvisorSuppressionConfig) {
 	_init_.Initialize()
 

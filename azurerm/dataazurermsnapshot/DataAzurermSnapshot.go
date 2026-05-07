@@ -5,14 +5,14 @@ package dataazurermsnapshot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermsnapshot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermsnapshot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/snapshot azurerm_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/snapshot azurerm_snapshot}.
 type DataAzurermSnapshot interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -443,7 +443,7 @@ func (j *jsiiProxy_DataAzurermSnapshot) TrustedLaunchEnabled() cdktn.IResolvable
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
 func NewDataAzurermSnapshot(scope constructs.Construct, id *string, config *DataAzurermSnapshotConfig) DataAzurermSnapshot {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewDataAzurermSnapshot(scope constructs.Construct, id *string, config *Data
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/snapshot azurerm_snapshot} Data Source.
 func NewDataAzurermSnapshot_Override(d DataAzurermSnapshot, scope constructs.Construct, id *string, config *DataAzurermSnapshotConfig) {
 	_init_.Initialize()
 

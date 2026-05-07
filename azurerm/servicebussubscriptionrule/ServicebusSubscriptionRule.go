@@ -5,14 +5,14 @@ package servicebussubscriptionrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicebussubscriptionrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/servicebussubscriptionrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule}.
 type ServicebusSubscriptionRule interface {
 	cdktn.TerraformResource
 	Action() *string
@@ -495,7 +495,7 @@ func (j *jsiiProxy_ServicebusSubscriptionRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
 func NewServicebusSubscriptionRule(scope constructs.Construct, id *string, config *ServicebusSubscriptionRuleConfig) ServicebusSubscriptionRule {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewServicebusSubscriptionRule(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/servicebus_subscription_rule azurerm_servicebus_subscription_rule} Resource.
 func NewServicebusSubscriptionRule_Override(s ServicebusSubscriptionRule, scope constructs.Construct, id *string, config *ServicebusSubscriptionRuleConfig) {
 	_init_.Initialize()
 

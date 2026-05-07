@@ -5,14 +5,14 @@ package networkprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_profile azurerm_network_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_profile azurerm_network_profile}.
 type NetworkProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_NetworkProfile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_profile azurerm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_profile azurerm_network_profile} Resource.
 func NewNetworkProfile(scope constructs.Construct, id *string, config *NetworkProfileConfig) NetworkProfile {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewNetworkProfile(scope constructs.Construct, id *string, config *NetworkPr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_profile azurerm_network_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_profile azurerm_network_profile} Resource.
 func NewNetworkProfile_Override(n NetworkProfile, scope constructs.Construct, id *string, config *NetworkProfileConfig) {
 	_init_.Initialize()
 

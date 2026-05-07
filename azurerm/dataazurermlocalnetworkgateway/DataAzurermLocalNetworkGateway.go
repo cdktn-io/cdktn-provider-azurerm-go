@@ -5,14 +5,14 @@ package dataazurermlocalnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermlocalnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermlocalnetworkgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway}.
 type DataAzurermLocalNetworkGateway interface {
 	cdktn.TerraformDataSource
 	AddressSpace() *[]*string
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataAzurermLocalNetworkGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
 func NewDataAzurermLocalNetworkGateway(scope constructs.Construct, id *string, config *DataAzurermLocalNetworkGatewayConfig) DataAzurermLocalNetworkGateway {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewDataAzurermLocalNetworkGateway(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/local_network_gateway azurerm_local_network_gateway} Data Source.
 func NewDataAzurermLocalNetworkGateway_Override(d DataAzurermLocalNetworkGateway, scope constructs.Construct, id *string, config *DataAzurermLocalNetworkGatewayConfig) {
 	_init_.Initialize()
 

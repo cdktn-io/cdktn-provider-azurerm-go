@@ -5,14 +5,14 @@ package billingaccountcostmanagementexport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/billingaccountcostmanagementexport/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/billingaccountcostmanagementexport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/billing_account_cost_management_export azurerm_billing_account_cost_management_export}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/billing_account_cost_management_export azurerm_billing_account_cost_management_export}.
 type BillingAccountCostManagementExport interface {
 	cdktn.TerraformResource
 	Active() interface{}
@@ -552,7 +552,7 @@ func (j *jsiiProxy_BillingAccountCostManagementExport) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/billing_account_cost_management_export azurerm_billing_account_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/billing_account_cost_management_export azurerm_billing_account_cost_management_export} Resource.
 func NewBillingAccountCostManagementExport(scope constructs.Construct, id *string, config *BillingAccountCostManagementExportConfig) BillingAccountCostManagementExport {
 	_init_.Initialize()
 
@@ -570,7 +570,7 @@ func NewBillingAccountCostManagementExport(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/billing_account_cost_management_export azurerm_billing_account_cost_management_export} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/billing_account_cost_management_export azurerm_billing_account_cost_management_export} Resource.
 func NewBillingAccountCostManagementExport_Override(b BillingAccountCostManagementExport, scope constructs.Construct, id *string, config *BillingAccountCostManagementExportConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package securitycenterassessmentpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/securitycenterassessmentpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/securitycenterassessmentpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy}.
 type SecurityCenterAssessmentPolicy interface {
 	cdktn.TerraformResource
 	Categories() *[]*string
@@ -544,7 +544,7 @@ func (j *jsiiProxy_SecurityCenterAssessmentPolicy) UserImpactInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
 func NewSecurityCenterAssessmentPolicy(scope constructs.Construct, id *string, config *SecurityCenterAssessmentPolicyConfig) SecurityCenterAssessmentPolicy {
 	_init_.Initialize()
 
@@ -562,7 +562,7 @@ func NewSecurityCenterAssessmentPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_assessment_policy azurerm_security_center_assessment_policy} Resource.
 func NewSecurityCenterAssessmentPolicy_Override(s SecurityCenterAssessmentPolicy, scope constructs.Construct, id *string, config *SecurityCenterAssessmentPolicyConfig) {
 	_init_.Initialize()
 

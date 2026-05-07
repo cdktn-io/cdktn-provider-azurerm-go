@@ -5,14 +5,14 @@ package servicefabricmanagedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/servicefabricmanagedcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/servicefabricmanagedcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster}.
 type ServiceFabricManagedCluster interface {
 	cdktn.TerraformResource
 	Authentication() ServiceFabricManagedClusterAuthenticationOutputReference
@@ -769,7 +769,7 @@ func (j *jsiiProxy_ServiceFabricManagedCluster) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
 func NewServiceFabricManagedCluster(scope constructs.Construct, id *string, config *ServiceFabricManagedClusterConfig) ServiceFabricManagedCluster {
 	_init_.Initialize()
 
@@ -787,7 +787,7 @@ func NewServiceFabricManagedCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/service_fabric_managed_cluster azurerm_service_fabric_managed_cluster} Resource.
 func NewServiceFabricManagedCluster_Override(s ServiceFabricManagedCluster, scope constructs.Construct, id *string, config *ServiceFabricManagedClusterConfig) {
 	_init_.Initialize()
 

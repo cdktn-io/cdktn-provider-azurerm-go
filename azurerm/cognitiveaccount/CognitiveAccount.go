@@ -5,14 +5,14 @@ package cognitiveaccount
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/cognitiveaccount/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/cognitiveaccount/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account azurerm_cognitive_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cognitive_account azurerm_cognitive_account}.
 type CognitiveAccount interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -971,7 +971,7 @@ func (j *jsiiProxy_CognitiveAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account azurerm_cognitive_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cognitive_account azurerm_cognitive_account} Resource.
 func NewCognitiveAccount(scope constructs.Construct, id *string, config *CognitiveAccountConfig) CognitiveAccount {
 	_init_.Initialize()
 
@@ -989,7 +989,7 @@ func NewCognitiveAccount(scope constructs.Construct, id *string, config *Cogniti
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/cognitive_account azurerm_cognitive_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/cognitive_account azurerm_cognitive_account} Resource.
 func NewCognitiveAccount_Override(c CognitiveAccount, scope constructs.Construct, id *string, config *CognitiveAccountConfig) {
 	_init_.Initialize()
 

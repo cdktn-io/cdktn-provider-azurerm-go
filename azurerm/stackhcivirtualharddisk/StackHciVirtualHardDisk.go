@@ -5,14 +5,14 @@ package stackhcivirtualharddisk
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/stackhcivirtualharddisk/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/stackhcivirtualharddisk/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk}.
 type StackHciVirtualHardDisk interface {
 	cdktn.TerraformResource
 	BlockSizeInBytes() *float64
@@ -650,7 +650,7 @@ func (j *jsiiProxy_StackHciVirtualHardDisk) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
 func NewStackHciVirtualHardDisk(scope constructs.Construct, id *string, config *StackHciVirtualHardDiskConfig) StackHciVirtualHardDisk {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewStackHciVirtualHardDisk(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_virtual_hard_disk azurerm_stack_hci_virtual_hard_disk} Resource.
 func NewStackHciVirtualHardDisk_Override(s StackHciVirtualHardDisk, scope constructs.Construct, id *string, config *StackHciVirtualHardDiskConfig) {
 	_init_.Initialize()
 

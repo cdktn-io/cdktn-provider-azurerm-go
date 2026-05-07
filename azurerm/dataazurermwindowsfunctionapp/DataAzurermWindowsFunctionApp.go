@@ -5,14 +5,14 @@ package dataazurermwindowsfunctionapp
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwindowsfunctionapp/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermwindowsfunctionapp/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/windows_function_app azurerm_windows_function_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/windows_function_app azurerm_windows_function_app}.
 type DataAzurermWindowsFunctionApp interface {
 	cdktn.TerraformDataSource
 	AppSettings() cdktn.StringMap
@@ -762,7 +762,7 @@ func (j *jsiiProxy_DataAzurermWindowsFunctionApp) WebdeployPublishBasicAuthentic
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/windows_function_app azurerm_windows_function_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/windows_function_app azurerm_windows_function_app} Data Source.
 func NewDataAzurermWindowsFunctionApp(scope constructs.Construct, id *string, config *DataAzurermWindowsFunctionAppConfig) DataAzurermWindowsFunctionApp {
 	_init_.Initialize()
 
@@ -780,7 +780,7 @@ func NewDataAzurermWindowsFunctionApp(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/windows_function_app azurerm_windows_function_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/windows_function_app azurerm_windows_function_app} Data Source.
 func NewDataAzurermWindowsFunctionApp_Override(d DataAzurermWindowsFunctionApp, scope constructs.Construct, id *string, config *DataAzurermWindowsFunctionAppConfig) {
 	_init_.Initialize()
 

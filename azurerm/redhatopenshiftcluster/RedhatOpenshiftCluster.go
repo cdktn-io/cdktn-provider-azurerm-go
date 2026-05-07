@@ -5,14 +5,14 @@ package redhatopenshiftcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/redhatopenshiftcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/redhatopenshiftcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster}.
 type RedhatOpenshiftCluster interface {
 	cdktn.TerraformResource
 	ApiServerProfile() RedhatOpenshiftClusterApiServerProfileOutputReference
@@ -608,7 +608,7 @@ func (j *jsiiProxy_RedhatOpenshiftCluster) WorkerProfileInput() *RedhatOpenshift
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
 func NewRedhatOpenshiftCluster(scope constructs.Construct, id *string, config *RedhatOpenshiftClusterConfig) RedhatOpenshiftCluster {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewRedhatOpenshiftCluster(scope constructs.Construct, id *string, config *R
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/redhat_openshift_cluster azurerm_redhat_openshift_cluster} Resource.
 func NewRedhatOpenshiftCluster_Override(r RedhatOpenshiftCluster, scope constructs.Construct, id *string, config *RedhatOpenshiftClusterConfig) {
 	_init_.Initialize()
 

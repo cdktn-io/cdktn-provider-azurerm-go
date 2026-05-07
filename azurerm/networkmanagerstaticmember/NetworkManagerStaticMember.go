@@ -5,14 +5,14 @@ package networkmanagerstaticmember
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkmanagerstaticmember/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkmanagerstaticmember/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member}.
 type NetworkManagerStaticMember interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_NetworkManagerStaticMember) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
 func NewNetworkManagerStaticMember(scope constructs.Construct, id *string, config *NetworkManagerStaticMemberConfig) NetworkManagerStaticMember {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewNetworkManagerStaticMember(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_static_member azurerm_network_manager_static_member} Resource.
 func NewNetworkManagerStaticMember_Override(n NetworkManagerStaticMember, scope constructs.Construct, id *string, config *NetworkManagerStaticMemberConfig) {
 	_init_.Initialize()
 

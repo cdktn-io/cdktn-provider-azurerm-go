@@ -5,14 +5,14 @@ package dataazurermhdinsightcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermhdinsightcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermhdinsightcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/hdinsight_cluster azurerm_hdinsight_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/hdinsight_cluster azurerm_hdinsight_cluster}.
 type DataAzurermHdinsightCluster interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -487,7 +487,7 @@ func (j *jsiiProxy_DataAzurermHdinsightCluster) TlsMinVersion() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/hdinsight_cluster azurerm_hdinsight_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/hdinsight_cluster azurerm_hdinsight_cluster} Data Source.
 func NewDataAzurermHdinsightCluster(scope constructs.Construct, id *string, config *DataAzurermHdinsightClusterConfig) DataAzurermHdinsightCluster {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewDataAzurermHdinsightCluster(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/hdinsight_cluster azurerm_hdinsight_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/hdinsight_cluster azurerm_hdinsight_cluster} Data Source.
 func NewDataAzurermHdinsightCluster_Override(d DataAzurermHdinsightCluster, scope constructs.Construct, id *string, config *DataAzurermHdinsightClusterConfig) {
 	_init_.Initialize()
 

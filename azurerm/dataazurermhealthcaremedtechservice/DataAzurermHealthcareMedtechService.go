@@ -5,14 +5,14 @@ package dataazurermhealthcaremedtechservice
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermhealthcaremedtechservice/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermhealthcaremedtechservice/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service}.
 type DataAzurermHealthcareMedtechService interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAzurermHealthcareMedtechService) WorkspaceIdInput() *stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
 func NewDataAzurermHealthcareMedtechService(scope constructs.Construct, id *string, config *DataAzurermHealthcareMedtechServiceConfig) DataAzurermHealthcareMedtechService {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAzurermHealthcareMedtechService(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/healthcare_medtech_service azurerm_healthcare_medtech_service} Data Source.
 func NewDataAzurermHealthcareMedtechService_Override(d DataAzurermHealthcareMedtechService, scope constructs.Construct, id *string, config *DataAzurermHealthcareMedtechServiceConfig) {
 	_init_.Initialize()
 

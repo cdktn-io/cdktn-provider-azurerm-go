@@ -5,14 +5,14 @@ package arckubernetesprovisionedcluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/arckubernetesprovisionedcluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/arckubernetesprovisionedcluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/arc_kubernetes_provisioned_cluster azurerm_arc_kubernetes_provisioned_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/arc_kubernetes_provisioned_cluster azurerm_arc_kubernetes_provisioned_cluster}.
 type ArcKubernetesProvisionedCluster interface {
 	cdktn.TerraformResource
 	AgentVersion() *string
@@ -608,7 +608,7 @@ func (j *jsiiProxy_ArcKubernetesProvisionedCluster) TotalNodeCount() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/arc_kubernetes_provisioned_cluster azurerm_arc_kubernetes_provisioned_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/arc_kubernetes_provisioned_cluster azurerm_arc_kubernetes_provisioned_cluster} Resource.
 func NewArcKubernetesProvisionedCluster(scope constructs.Construct, id *string, config *ArcKubernetesProvisionedClusterConfig) ArcKubernetesProvisionedCluster {
 	_init_.Initialize()
 
@@ -626,7 +626,7 @@ func NewArcKubernetesProvisionedCluster(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/arc_kubernetes_provisioned_cluster azurerm_arc_kubernetes_provisioned_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/arc_kubernetes_provisioned_cluster azurerm_arc_kubernetes_provisioned_cluster} Resource.
 func NewArcKubernetesProvisionedCluster_Override(a ArcKubernetesProvisionedCluster, scope constructs.Construct, id *string, config *ArcKubernetesProvisionedClusterConfig) {
 	_init_.Initialize()
 

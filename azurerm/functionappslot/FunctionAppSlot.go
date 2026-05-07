@@ -5,14 +5,14 @@ package functionappslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/functionappslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/functionappslot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/function_app_slot azurerm_function_app_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/function_app_slot azurerm_function_app_slot}.
 type FunctionAppSlot interface {
 	cdktn.TerraformResource
 	AppServicePlanId() *string
@@ -847,7 +847,7 @@ func (j *jsiiProxy_FunctionAppSlot) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
 func NewFunctionAppSlot(scope constructs.Construct, id *string, config *FunctionAppSlotConfig) FunctionAppSlot {
 	_init_.Initialize()
 
@@ -865,7 +865,7 @@ func NewFunctionAppSlot(scope constructs.Construct, id *string, config *Function
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/function_app_slot azurerm_function_app_slot} Resource.
 func NewFunctionAppSlot_Override(f FunctionAppSlot, scope constructs.Construct, id *string, config *FunctionAppSlotConfig) {
 	_init_.Initialize()
 

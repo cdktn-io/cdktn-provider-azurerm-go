@@ -5,14 +5,14 @@ package batchcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/batchcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/batchcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/batch_certificate azurerm_batch_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/batch_certificate azurerm_batch_certificate}.
 type BatchCertificate interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -527,7 +527,7 @@ func (j *jsiiProxy_BatchCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
 func NewBatchCertificate(scope constructs.Construct, id *string, config *BatchCertificateConfig) BatchCertificate {
 	_init_.Initialize()
 
@@ -545,7 +545,7 @@ func NewBatchCertificate(scope constructs.Construct, id *string, config *BatchCe
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/batch_certificate azurerm_batch_certificate} Resource.
 func NewBatchCertificate_Override(b BatchCertificate, scope constructs.Construct, id *string, config *BatchCertificateConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package postgresqlvirtualnetworkrule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/postgresqlvirtualnetworkrule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/postgresqlvirtualnetworkrule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_virtual_network_rule azurerm_postgresql_virtual_network_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_virtual_network_rule azurerm_postgresql_virtual_network_rule}.
 type PostgresqlVirtualNetworkRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_PostgresqlVirtualNetworkRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_virtual_network_rule azurerm_postgresql_virtual_network_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_virtual_network_rule azurerm_postgresql_virtual_network_rule} Resource.
 func NewPostgresqlVirtualNetworkRule(scope constructs.Construct, id *string, config *PostgresqlVirtualNetworkRuleConfig) PostgresqlVirtualNetworkRule {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewPostgresqlVirtualNetworkRule(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_virtual_network_rule azurerm_postgresql_virtual_network_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_virtual_network_rule azurerm_postgresql_virtual_network_rule} Resource.
 func NewPostgresqlVirtualNetworkRule_Override(p PostgresqlVirtualNetworkRule, scope constructs.Construct, id *string, config *PostgresqlVirtualNetworkRuleConfig) {
 	_init_.Initialize()
 

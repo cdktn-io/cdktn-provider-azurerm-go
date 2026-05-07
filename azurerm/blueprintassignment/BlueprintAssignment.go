@@ -5,14 +5,14 @@ package blueprintassignment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/blueprintassignment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/blueprintassignment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment}.
 type BlueprintAssignment interface {
 	cdktn.TerraformResource
 	BlueprintName() *string
@@ -622,7 +622,7 @@ func (j *jsiiProxy_BlueprintAssignment) VersionIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
 func NewBlueprintAssignment(scope constructs.Construct, id *string, config *BlueprintAssignmentConfig) BlueprintAssignment {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewBlueprintAssignment(scope constructs.Construct, id *string, config *Blue
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/blueprint_assignment azurerm_blueprint_assignment} Resource.
 func NewBlueprintAssignment_Override(b BlueprintAssignment, scope constructs.Construct, id *string, config *BlueprintAssignmentConfig) {
 	_init_.Initialize()
 

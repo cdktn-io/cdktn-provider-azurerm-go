@@ -5,14 +5,14 @@ package automationwatcher
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationwatcher/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/automationwatcher/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_watcher azurerm_automation_watcher}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_watcher azurerm_automation_watcher}.
 type AutomationWatcher interface {
 	cdktn.TerraformResource
 	AutomationAccountId() *string
@@ -588,7 +588,7 @@ func (j *jsiiProxy_AutomationWatcher) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
 func NewAutomationWatcher(scope constructs.Construct, id *string, config *AutomationWatcherConfig) AutomationWatcher {
 	_init_.Initialize()
 
@@ -606,7 +606,7 @@ func NewAutomationWatcher(scope constructs.Construct, id *string, config *Automa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_watcher azurerm_automation_watcher} Resource.
 func NewAutomationWatcher_Override(a AutomationWatcher, scope constructs.Construct, id *string, config *AutomationWatcherConfig) {
 	_init_.Initialize()
 

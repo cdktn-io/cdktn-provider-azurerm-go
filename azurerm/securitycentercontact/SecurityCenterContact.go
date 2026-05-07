@@ -5,14 +5,14 @@ package securitycentercontact
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/securitycentercontact/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/securitycentercontact/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_contact azurerm_security_center_contact}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_contact azurerm_security_center_contact}.
 type SecurityCenterContact interface {
 	cdktn.TerraformResource
 	AlertNotifications() interface{}
@@ -459,7 +459,7 @@ func (j *jsiiProxy_SecurityCenterContact) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
 func NewSecurityCenterContact(scope constructs.Construct, id *string, config *SecurityCenterContactConfig) SecurityCenterContact {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewSecurityCenterContact(scope constructs.Construct, id *string, config *Se
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_contact azurerm_security_center_contact} Resource.
 func NewSecurityCenterContact_Override(s SecurityCenterContact, scope constructs.Construct, id *string, config *SecurityCenterContactConfig) {
 	_init_.Initialize()
 

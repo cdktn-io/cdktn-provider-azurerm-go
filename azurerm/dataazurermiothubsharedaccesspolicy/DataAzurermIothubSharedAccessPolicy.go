@@ -5,14 +5,14 @@ package dataazurermiothubsharedaccesspolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermiothubsharedaccesspolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermiothubsharedaccesspolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/iothub_shared_access_policy azurerm_iothub_shared_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/iothub_shared_access_policy azurerm_iothub_shared_access_policy}.
 type DataAzurermIothubSharedAccessPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -411,7 +411,7 @@ func (j *jsiiProxy_DataAzurermIothubSharedAccessPolicy) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/iothub_shared_access_policy azurerm_iothub_shared_access_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/iothub_shared_access_policy azurerm_iothub_shared_access_policy} Data Source.
 func NewDataAzurermIothubSharedAccessPolicy(scope constructs.Construct, id *string, config *DataAzurermIothubSharedAccessPolicyConfig) DataAzurermIothubSharedAccessPolicy {
 	_init_.Initialize()
 
@@ -429,7 +429,7 @@ func NewDataAzurermIothubSharedAccessPolicy(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/iothub_shared_access_policy azurerm_iothub_shared_access_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/iothub_shared_access_policy azurerm_iothub_shared_access_policy} Data Source.
 func NewDataAzurermIothubSharedAccessPolicy_Override(d DataAzurermIothubSharedAccessPolicy, scope constructs.Construct, id *string, config *DataAzurermIothubSharedAccessPolicyConfig) {
 	_init_.Initialize()
 

@@ -127,6 +127,10 @@ func (j *jsiiProxy_BackupPolicyVm) validateSetConnectionParameters(val interface
 	return nil
 }
 
+func (j *jsiiProxy_BackupPolicyVm) validateSetConsistencyTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_BackupPolicyVm) validateSetCountParameters(val interface{}) error {
 	return nil
 }

@@ -5,14 +5,14 @@ package dataazurermmachinelearningworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmachinelearningworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermmachinelearningworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace}.
 type DataAzurermMachineLearningWorkspace interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -377,7 +377,7 @@ func (j *jsiiProxy_DataAzurermMachineLearningWorkspace) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
 func NewDataAzurermMachineLearningWorkspace(scope constructs.Construct, id *string, config *DataAzurermMachineLearningWorkspaceConfig) DataAzurermMachineLearningWorkspace {
 	_init_.Initialize()
 
@@ -395,7 +395,7 @@ func NewDataAzurermMachineLearningWorkspace(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
 func NewDataAzurermMachineLearningWorkspace_Override(d DataAzurermMachineLearningWorkspace, scope constructs.Construct, id *string, config *DataAzurermMachineLearningWorkspaceConfig) {
 	_init_.Initialize()
 

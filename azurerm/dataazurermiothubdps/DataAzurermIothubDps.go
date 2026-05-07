@@ -5,14 +5,14 @@ package dataazurermiothubdps
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermiothubdps/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermiothubdps/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/iothub_dps azurerm_iothub_dps}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/iothub_dps azurerm_iothub_dps}.
 type DataAzurermIothubDps interface {
 	cdktn.TerraformDataSource
 	AllocationPolicy() *string
@@ -423,7 +423,7 @@ func (j *jsiiProxy_DataAzurermIothubDps) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/iothub_dps azurerm_iothub_dps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/iothub_dps azurerm_iothub_dps} Data Source.
 func NewDataAzurermIothubDps(scope constructs.Construct, id *string, config *DataAzurermIothubDpsConfig) DataAzurermIothubDps {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewDataAzurermIothubDps(scope constructs.Construct, id *string, config *Dat
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/iothub_dps azurerm_iothub_dps} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/iothub_dps azurerm_iothub_dps} Data Source.
 func NewDataAzurermIothubDps_Override(d DataAzurermIothubDps, scope constructs.Construct, id *string, config *DataAzurermIothubDpsConfig) {
 	_init_.Initialize()
 

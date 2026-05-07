@@ -5,7 +5,7 @@ package dataazurermmanagedredisaccesspolicyassignment
 
 
 type DataAzurermManagedRedisAccessPolicyAssignmentTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/managed_redis_access_policy_assignment#read DataAzurermManagedRedisAccessPolicyAssignment#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/managed_redis_access_policy_assignment#read DataAzurermManagedRedisAccessPolicyAssignment#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

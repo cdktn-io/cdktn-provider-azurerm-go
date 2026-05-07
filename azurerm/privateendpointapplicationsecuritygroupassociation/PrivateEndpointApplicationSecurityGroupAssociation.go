@@ -5,14 +5,14 @@ package privateendpointapplicationsecuritygroupassociation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/privateendpointapplicationsecuritygroupassociation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/privateendpointapplicationsecuritygroupassociation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association}.
 type PrivateEndpointApplicationSecurityGroupAssociation interface {
 	cdktn.TerraformResource
 	ApplicationSecurityGroupId() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
 func NewPrivateEndpointApplicationSecurityGroupAssociation(scope constructs.Construct, id *string, config *PrivateEndpointApplicationSecurityGroupAssociationConfig) PrivateEndpointApplicationSecurityGroupAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewPrivateEndpointApplicationSecurityGroupAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_endpoint_application_security_group_association azurerm_private_endpoint_application_security_group_association} Resource.
 func NewPrivateEndpointApplicationSecurityGroupAssociation_Override(p PrivateEndpointApplicationSecurityGroupAssociation, scope constructs.Construct, id *string, config *PrivateEndpointApplicationSecurityGroupAssociationConfig) {
 	_init_.Initialize()
 

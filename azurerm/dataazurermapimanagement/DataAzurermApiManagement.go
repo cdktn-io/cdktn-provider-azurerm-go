@@ -5,14 +5,14 @@ package dataazurermapimanagement
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermapimanagement/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermapimanagement/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/api_management azurerm_api_management}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management azurerm_api_management}.
 type DataAzurermApiManagement interface {
 	cdktn.TerraformDataSource
 	AdditionalLocation() DataAzurermApiManagementAdditionalLocationList
@@ -566,7 +566,7 @@ func (j *jsiiProxy_DataAzurermApiManagement) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/api_management azurerm_api_management} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management azurerm_api_management} Data Source.
 func NewDataAzurermApiManagement(scope constructs.Construct, id *string, config *DataAzurermApiManagementConfig) DataAzurermApiManagement {
 	_init_.Initialize()
 
@@ -584,7 +584,7 @@ func NewDataAzurermApiManagement(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/api_management azurerm_api_management} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management azurerm_api_management} Data Source.
 func NewDataAzurermApiManagement_Override(d DataAzurermApiManagement, scope constructs.Construct, id *string, config *DataAzurermApiManagementConfig) {
 	_init_.Initialize()
 

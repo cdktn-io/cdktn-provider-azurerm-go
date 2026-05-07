@@ -5,14 +5,14 @@ package dataazurermvirtualnetworkpeering
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermvirtualnetworkpeering/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermvirtualnetworkpeering/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering}.
 type DataAzurermVirtualNetworkPeering interface {
 	cdktn.TerraformDataSource
 	AllowForwardedTraffic() cdktn.IResolvable
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAzurermVirtualNetworkPeering) VirtualNetworkIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
 func NewDataAzurermVirtualNetworkPeering(scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkPeeringConfig) DataAzurermVirtualNetworkPeering {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAzurermVirtualNetworkPeering(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/virtual_network_peering azurerm_virtual_network_peering} Data Source.
 func NewDataAzurermVirtualNetworkPeering_Override(d DataAzurermVirtualNetworkPeering, scope constructs.Construct, id *string, config *DataAzurermVirtualNetworkPeeringConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package appserviceactiveslot
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appserviceactiveslot/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/appserviceactiveslot/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot}.
 type AppServiceActiveSlot interface {
 	cdktn.TerraformResource
 	AppServiceName() *string
@@ -412,7 +412,7 @@ func (j *jsiiProxy_AppServiceActiveSlot) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
 func NewAppServiceActiveSlot(scope constructs.Construct, id *string, config *AppServiceActiveSlotConfig) AppServiceActiveSlot {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewAppServiceActiveSlot(scope constructs.Construct, id *string, config *App
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_active_slot azurerm_app_service_active_slot} Resource.
 func NewAppServiceActiveSlot_Override(a AppServiceActiveSlot, scope constructs.Construct, id *string, config *AppServiceActiveSlotConfig) {
 	_init_.Initialize()
 

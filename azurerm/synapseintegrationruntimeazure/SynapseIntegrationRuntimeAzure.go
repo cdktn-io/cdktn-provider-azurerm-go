@@ -5,14 +5,14 @@ package synapseintegrationruntimeazure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/synapseintegrationruntimeazure/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/synapseintegrationruntimeazure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/synapse_integration_runtime_azure azurerm_synapse_integration_runtime_azure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/synapse_integration_runtime_azure azurerm_synapse_integration_runtime_azure}.
 type SynapseIntegrationRuntimeAzure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -508,7 +508,7 @@ func (j *jsiiProxy_SynapseIntegrationRuntimeAzure) TimeToLiveMinInput() *float64
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/synapse_integration_runtime_azure azurerm_synapse_integration_runtime_azure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/synapse_integration_runtime_azure azurerm_synapse_integration_runtime_azure} Resource.
 func NewSynapseIntegrationRuntimeAzure(scope constructs.Construct, id *string, config *SynapseIntegrationRuntimeAzureConfig) SynapseIntegrationRuntimeAzure {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewSynapseIntegrationRuntimeAzure(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/synapse_integration_runtime_azure azurerm_synapse_integration_runtime_azure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/synapse_integration_runtime_azure azurerm_synapse_integration_runtime_azure} Resource.
 func NewSynapseIntegrationRuntimeAzure_Override(s SynapseIntegrationRuntimeAzure, scope constructs.Construct, id *string, config *SynapseIntegrationRuntimeAzureConfig) {
 	_init_.Initialize()
 

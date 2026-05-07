@@ -5,14 +5,14 @@ package devtestvirtualnetwork
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/devtestvirtualnetwork/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/devtestvirtualnetwork/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network}.
 type DevTestVirtualNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DevTestVirtualNetwork) UniqueIdentifier() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
 func NewDevTestVirtualNetwork(scope constructs.Construct, id *string, config *DevTestVirtualNetworkConfig) DevTestVirtualNetwork {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDevTestVirtualNetwork(scope constructs.Construct, id *string, config *De
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dev_test_virtual_network azurerm_dev_test_virtual_network} Resource.
 func NewDevTestVirtualNetwork_Override(d DevTestVirtualNetwork, scope constructs.Construct, id *string, config *DevTestVirtualNetworkConfig) {
 	_init_.Initialize()
 

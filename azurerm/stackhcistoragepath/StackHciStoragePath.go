@@ -5,14 +5,14 @@ package stackhcistoragepath
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/stackhcistoragepath/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/stackhcistoragepath/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path}.
 type StackHciStoragePath interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_StackHciStoragePath) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
 func NewStackHciStoragePath(scope constructs.Construct, id *string, config *StackHciStoragePathConfig) StackHciStoragePath {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewStackHciStoragePath(scope constructs.Construct, id *string, config *Stac
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stack_hci_storage_path azurerm_stack_hci_storage_path} Resource.
 func NewStackHciStoragePath_Override(s StackHciStoragePath, scope constructs.Construct, id *string, config *StackHciStoragePathConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package privatednsmxrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/privatednsmxrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/privatednsmxrecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_mx_record azurerm_private_dns_mx_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_mx_record azurerm_private_dns_mx_record}.
 type PrivateDnsMxRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -494,7 +494,7 @@ func (j *jsiiProxy_PrivateDnsMxRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_mx_record azurerm_private_dns_mx_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_mx_record azurerm_private_dns_mx_record} Resource.
 func NewPrivateDnsMxRecord(scope constructs.Construct, id *string, config *PrivateDnsMxRecordConfig) PrivateDnsMxRecord {
 	_init_.Initialize()
 
@@ -512,7 +512,7 @@ func NewPrivateDnsMxRecord(scope constructs.Construct, id *string, config *Priva
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_mx_record azurerm_private_dns_mx_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_mx_record azurerm_private_dns_mx_record} Resource.
 func NewPrivateDnsMxRecord_Override(p PrivateDnsMxRecord, scope constructs.Construct, id *string, config *PrivateDnsMxRecordConfig) {
 	_init_.Initialize()
 

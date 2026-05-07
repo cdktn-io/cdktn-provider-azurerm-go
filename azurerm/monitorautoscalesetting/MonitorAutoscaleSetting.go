@@ -5,14 +5,14 @@ package monitorautoscalesetting
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/monitorautoscalesetting/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/monitorautoscalesetting/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting}.
 type MonitorAutoscaleSetting interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_MonitorAutoscaleSetting) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
 func NewMonitorAutoscaleSetting(scope constructs.Construct, id *string, config *MonitorAutoscaleSettingConfig) MonitorAutoscaleSetting {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewMonitorAutoscaleSetting(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/monitor_autoscale_setting azurerm_monitor_autoscale_setting} Resource.
 func NewMonitorAutoscaleSetting_Override(m MonitorAutoscaleSetting, scope constructs.Construct, id *string, config *MonitorAutoscaleSettingConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dedicatedhardwaresecuritymodule
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dedicatedhardwaresecuritymodule/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dedicatedhardwaresecuritymodule/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module}.
 type DedicatedHardwareSecurityModule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_DedicatedHardwareSecurityModule) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
 func NewDedicatedHardwareSecurityModule(scope constructs.Construct, id *string, config *DedicatedHardwareSecurityModuleConfig) DedicatedHardwareSecurityModule {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewDedicatedHardwareSecurityModule(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/dedicated_hardware_security_module azurerm_dedicated_hardware_security_module} Resource.
 func NewDedicatedHardwareSecurityModule_Override(d DedicatedHardwareSecurityModule, scope constructs.Construct, id *string, config *DedicatedHardwareSecurityModuleConfig) {
 	_init_.Initialize()
 

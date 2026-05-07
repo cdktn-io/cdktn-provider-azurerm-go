@@ -5,14 +5,14 @@ package dataazurermmanageddisks
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmanageddisks/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermmanageddisks/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/managed_disks azurerm_managed_disks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/managed_disks azurerm_managed_disks}.
 type DataAzurermManagedDisks interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAzurermManagedDisks) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/managed_disks azurerm_managed_disks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/managed_disks azurerm_managed_disks} Data Source.
 func NewDataAzurermManagedDisks(scope constructs.Construct, id *string, config *DataAzurermManagedDisksConfig) DataAzurermManagedDisks {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAzurermManagedDisks(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/managed_disks azurerm_managed_disks} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/managed_disks azurerm_managed_disks} Data Source.
 func NewDataAzurermManagedDisks_Override(d DataAzurermManagedDisks, scope constructs.Construct, id *string, config *DataAzurermManagedDisksConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package expressroutegateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/expressroutegateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/expressroutegateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_gateway azurerm_express_route_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_gateway azurerm_express_route_gateway}.
 type ExpressRouteGateway interface {
 	cdktn.TerraformResource
 	AllowNonVirtualWanTraffic() interface{}
@@ -506,7 +506,7 @@ func (j *jsiiProxy_ExpressRouteGateway) VirtualHubIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_gateway azurerm_express_route_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_gateway azurerm_express_route_gateway} Resource.
 func NewExpressRouteGateway(scope constructs.Construct, id *string, config *ExpressRouteGatewayConfig) ExpressRouteGateway {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewExpressRouteGateway(scope constructs.Construct, id *string, config *Expr
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_gateway azurerm_express_route_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_gateway azurerm_express_route_gateway} Resource.
 func NewExpressRouteGateway_Override(e ExpressRouteGateway, scope constructs.Construct, id *string, config *ExpressRouteGatewayConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package expressrouteport
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/expressrouteport/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/expressrouteport/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_port azurerm_express_route_port}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_port azurerm_express_route_port}.
 type ExpressRoutePort interface {
 	cdktn.TerraformResource
 	BandwidthInGbps() *float64
@@ -634,7 +634,7 @@ func (j *jsiiProxy_ExpressRoutePort) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
 func NewExpressRoutePort(scope constructs.Construct, id *string, config *ExpressRoutePortConfig) ExpressRoutePort {
 	_init_.Initialize()
 
@@ -652,7 +652,7 @@ func NewExpressRoutePort(scope constructs.Construct, id *string, config *Express
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/express_route_port azurerm_express_route_port} Resource.
 func NewExpressRoutePort_Override(e ExpressRoutePort, scope constructs.Construct, id *string, config *ExpressRoutePortConfig) {
 	_init_.Initialize()
 

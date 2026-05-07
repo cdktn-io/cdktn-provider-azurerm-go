@@ -5,14 +5,14 @@ package dataazurermappserviceplan
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermappserviceplan/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermappserviceplan/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/app_service_plan azurerm_app_service_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/app_service_plan azurerm_app_service_plan}.
 type DataAzurermAppServicePlan interface {
 	cdktn.TerraformDataSource
 	AppServiceEnvironmentId() *string
@@ -465,7 +465,7 @@ func (j *jsiiProxy_DataAzurermAppServicePlan) ZoneRedundant() cdktn.IResolvable 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/app_service_plan azurerm_app_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/app_service_plan azurerm_app_service_plan} Data Source.
 func NewDataAzurermAppServicePlan(scope constructs.Construct, id *string, config *DataAzurermAppServicePlanConfig) DataAzurermAppServicePlan {
 	_init_.Initialize()
 
@@ -483,7 +483,7 @@ func NewDataAzurermAppServicePlan(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/app_service_plan azurerm_app_service_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/app_service_plan azurerm_app_service_plan} Data Source.
 func NewDataAzurermAppServicePlan_Override(d DataAzurermAppServicePlan, scope constructs.Construct, id *string, config *DataAzurermAppServicePlanConfig) {
 	_init_.Initialize()
 

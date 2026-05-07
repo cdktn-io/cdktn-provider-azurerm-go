@@ -5,14 +5,14 @@ package managedapplicationdefinition
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/managedapplicationdefinition/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/managedapplicationdefinition/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/managed_application_definition azurerm_managed_application_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/managed_application_definition azurerm_managed_application_definition}.
 type ManagedApplicationDefinition interface {
 	cdktn.TerraformResource
 	Authorization() ManagedApplicationDefinitionAuthorizationList
@@ -626,7 +626,7 @@ func (j *jsiiProxy_ManagedApplicationDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
 func NewManagedApplicationDefinition(scope constructs.Construct, id *string, config *ManagedApplicationDefinitionConfig) ManagedApplicationDefinition {
 	_init_.Initialize()
 
@@ -644,7 +644,7 @@ func NewManagedApplicationDefinition(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/managed_application_definition azurerm_managed_application_definition} Resource.
 func NewManagedApplicationDefinition_Override(m ManagedApplicationDefinition, scope constructs.Construct, id *string, config *ManagedApplicationDefinitionConfig) {
 	_init_.Initialize()
 

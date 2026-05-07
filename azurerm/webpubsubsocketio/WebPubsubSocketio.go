@@ -5,14 +5,14 @@ package webpubsubsocketio
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/webpubsubsocketio/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/webpubsubsocketio/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio}.
 type WebPubsubSocketio interface {
 	cdktn.TerraformResource
 	AadAuthEnabled() interface{}
@@ -787,7 +787,7 @@ func (j *jsiiProxy_WebPubsubSocketio) TlsClientCertEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
 func NewWebPubsubSocketio(scope constructs.Construct, id *string, config *WebPubsubSocketioConfig) WebPubsubSocketio {
 	_init_.Initialize()
 
@@ -805,7 +805,7 @@ func NewWebPubsubSocketio(scope constructs.Construct, id *string, config *WebPub
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/web_pubsub_socketio azurerm_web_pubsub_socketio} Resource.
 func NewWebPubsubSocketio_Override(w WebPubsubSocketio, scope constructs.Construct, id *string, config *WebPubsubSocketioConfig) {
 	_init_.Initialize()
 

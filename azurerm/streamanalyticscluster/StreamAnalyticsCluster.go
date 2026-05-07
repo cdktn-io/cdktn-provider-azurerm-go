@@ -5,14 +5,14 @@ package streamanalyticscluster
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticscluster/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/streamanalyticscluster/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster}.
 type StreamAnalyticsCluster interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_StreamAnalyticsCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
 func NewStreamAnalyticsCluster(scope constructs.Construct, id *string, config *StreamAnalyticsClusterConfig) StreamAnalyticsCluster {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewStreamAnalyticsCluster(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_cluster azurerm_stream_analytics_cluster} Resource.
 func NewStreamAnalyticsCluster_Override(s StreamAnalyticsCluster, scope constructs.Construct, id *string, config *StreamAnalyticsClusterConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package backupprotectedvm
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/backupprotectedvm/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/backupprotectedvm/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/backup_protected_vm azurerm_backup_protected_vm}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/backup_protected_vm azurerm_backup_protected_vm}.
 type BackupProtectedVm interface {
 	cdktn.TerraformResource
 	BackupPolicyId() *string
@@ -509,7 +509,7 @@ func (j *jsiiProxy_BackupProtectedVm) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/backup_protected_vm azurerm_backup_protected_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/backup_protected_vm azurerm_backup_protected_vm} Resource.
 func NewBackupProtectedVm(scope constructs.Construct, id *string, config *BackupProtectedVmConfig) BackupProtectedVm {
 	_init_.Initialize()
 
@@ -527,7 +527,7 @@ func NewBackupProtectedVm(scope constructs.Construct, id *string, config *Backup
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/backup_protected_vm azurerm_backup_protected_vm} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/backup_protected_vm azurerm_backup_protected_vm} Resource.
 func NewBackupProtectedVm_Override(b BackupProtectedVm, scope constructs.Construct, id *string, config *BackupProtectedVmConfig) {
 	_init_.Initialize()
 

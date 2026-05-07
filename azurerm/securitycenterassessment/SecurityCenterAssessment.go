@@ -5,14 +5,14 @@ package securitycenterassessment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/securitycenterassessment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/securitycenterassessment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_assessment azurerm_security_center_assessment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_assessment azurerm_security_center_assessment}.
 type SecurityCenterAssessment interface {
 	cdktn.TerraformResource
 	AdditionalData() *map[string]*string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_SecurityCenterAssessment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_assessment azurerm_security_center_assessment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_assessment azurerm_security_center_assessment} Resource.
 func NewSecurityCenterAssessment(scope constructs.Construct, id *string, config *SecurityCenterAssessmentConfig) SecurityCenterAssessment {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewSecurityCenterAssessment(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/security_center_assessment azurerm_security_center_assessment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/security_center_assessment azurerm_security_center_assessment} Resource.
 func NewSecurityCenterAssessment_Override(s SecurityCenterAssessment, scope constructs.Construct, id *string, config *SecurityCenterAssessmentConfig) {
 	_init_.Initialize()
 

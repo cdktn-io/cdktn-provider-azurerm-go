@@ -5,14 +5,14 @@ package appconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/appconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_configuration azurerm_app_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_configuration azurerm_app_configuration}.
 type AppConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -731,7 +731,7 @@ func (j *jsiiProxy_AppConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_configuration azurerm_app_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_configuration azurerm_app_configuration} Resource.
 func NewAppConfiguration(scope constructs.Construct, id *string, config *AppConfigurationConfig) AppConfiguration {
 	_init_.Initialize()
 
@@ -749,7 +749,7 @@ func NewAppConfiguration(scope constructs.Construct, id *string, config *AppConf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_configuration azurerm_app_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_configuration azurerm_app_configuration} Resource.
 func NewAppConfiguration_Override(a AppConfiguration, scope constructs.Construct, id *string, config *AppConfigurationConfig) {
 	_init_.Initialize()
 

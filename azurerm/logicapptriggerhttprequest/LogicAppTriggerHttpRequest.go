@@ -5,14 +5,14 @@ package logicapptriggerhttprequest
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/logicapptriggerhttprequest/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/logicapptriggerhttprequest/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request}.
 type LogicAppTriggerHttpRequest interface {
 	cdktn.TerraformResource
 	CallbackUrl() *string
@@ -471,7 +471,7 @@ func (j *jsiiProxy_LogicAppTriggerHttpRequest) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
 func NewLogicAppTriggerHttpRequest(scope constructs.Construct, id *string, config *LogicAppTriggerHttpRequestConfig) LogicAppTriggerHttpRequest {
 	_init_.Initialize()
 
@@ -489,7 +489,7 @@ func NewLogicAppTriggerHttpRequest(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/logic_app_trigger_http_request azurerm_logic_app_trigger_http_request} Resource.
 func NewLogicAppTriggerHttpRequest_Override(l LogicAppTriggerHttpRequest, scope constructs.Construct, id *string, config *LogicAppTriggerHttpRequestConfig) {
 	_init_.Initialize()
 

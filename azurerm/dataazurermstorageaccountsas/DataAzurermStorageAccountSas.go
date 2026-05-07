@@ -5,14 +5,14 @@ package dataazurermstorageaccountsas
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermstorageaccountsas/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermstorageaccountsas/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas}.
 type DataAzurermStorageAccountSas interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -520,7 +520,7 @@ func (j *jsiiProxy_DataAzurermStorageAccountSas) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
 func NewDataAzurermStorageAccountSas(scope constructs.Construct, id *string, config *DataAzurermStorageAccountSasConfig) DataAzurermStorageAccountSas {
 	_init_.Initialize()
 
@@ -538,7 +538,7 @@ func NewDataAzurermStorageAccountSas(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/storage_account_sas azurerm_storage_account_sas} Data Source.
 func NewDataAzurermStorageAccountSas_Override(d DataAzurermStorageAccountSas, scope constructs.Construct, id *string, config *DataAzurermStorageAccountSasConfig) {
 	_init_.Initialize()
 

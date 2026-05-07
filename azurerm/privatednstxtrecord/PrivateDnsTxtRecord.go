@@ -5,14 +5,14 @@ package privatednstxtrecord
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/privatednstxtrecord/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/privatednstxtrecord/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record}.
 type PrivateDnsTxtRecord interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -493,7 +493,7 @@ func (j *jsiiProxy_PrivateDnsTxtRecord) ZoneNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
 func NewPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *PrivateDnsTxtRecordConfig) PrivateDnsTxtRecord {
 	_init_.Initialize()
 
@@ -511,7 +511,7 @@ func NewPrivateDnsTxtRecord(scope constructs.Construct, id *string, config *Priv
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/private_dns_txt_record azurerm_private_dns_txt_record} Resource.
 func NewPrivateDnsTxtRecord_Override(p PrivateDnsTxtRecord, scope constructs.Construct, id *string, config *PrivateDnsTxtRecordConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package dataazurermoracleadbscharactersets
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermoracleadbscharactersets/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermoracleadbscharactersets/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/oracle_adbs_character_sets azurerm_oracle_adbs_character_sets}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/oracle_adbs_character_sets azurerm_oracle_adbs_character_sets}.
 type DataAzurermOracleAdbsCharacterSets interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAzurermOracleAdbsCharacterSets) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/oracle_adbs_character_sets azurerm_oracle_adbs_character_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/oracle_adbs_character_sets azurerm_oracle_adbs_character_sets} Data Source.
 func NewDataAzurermOracleAdbsCharacterSets(scope constructs.Construct, id *string, config *DataAzurermOracleAdbsCharacterSetsConfig) DataAzurermOracleAdbsCharacterSets {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAzurermOracleAdbsCharacterSets(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/oracle_adbs_character_sets azurerm_oracle_adbs_character_sets} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/oracle_adbs_character_sets azurerm_oracle_adbs_character_sets} Data Source.
 func NewDataAzurermOracleAdbsCharacterSets_Override(d DataAzurermOracleAdbsCharacterSets, scope constructs.Construct, id *string, config *DataAzurermOracleAdbsCharacterSetsConfig) {
 	_init_.Initialize()
 

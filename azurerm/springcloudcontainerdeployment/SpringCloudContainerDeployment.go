@@ -5,14 +5,14 @@ package springcloudcontainerdeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/springcloudcontainerdeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/springcloudcontainerdeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/spring_cloud_container_deployment azurerm_spring_cloud_container_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/spring_cloud_container_deployment azurerm_spring_cloud_container_deployment}.
 type SpringCloudContainerDeployment interface {
 	cdktn.TerraformResource
 	AddonJson() *string
@@ -627,7 +627,7 @@ func (j *jsiiProxy_SpringCloudContainerDeployment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/spring_cloud_container_deployment azurerm_spring_cloud_container_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/spring_cloud_container_deployment azurerm_spring_cloud_container_deployment} Resource.
 func NewSpringCloudContainerDeployment(scope constructs.Construct, id *string, config *SpringCloudContainerDeploymentConfig) SpringCloudContainerDeployment {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewSpringCloudContainerDeployment(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/spring_cloud_container_deployment azurerm_spring_cloud_container_deployment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/spring_cloud_container_deployment azurerm_spring_cloud_container_deployment} Resource.
 func NewSpringCloudContainerDeployment_Override(s SpringCloudContainerDeployment, scope constructs.Construct, id *string, config *SpringCloudContainerDeploymentConfig) {
 	_init_.Initialize()
 

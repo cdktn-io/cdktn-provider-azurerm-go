@@ -5,14 +5,14 @@ package virtualmachineextension
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualmachineextension/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/virtualmachineextension/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension}.
 type VirtualMachineExtension interface {
 	cdktn.TerraformResource
 	AutomaticUpgradeEnabled() interface{}
@@ -650,7 +650,7 @@ func (j *jsiiProxy_VirtualMachineExtension) VirtualMachineIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
 func NewVirtualMachineExtension(scope constructs.Construct, id *string, config *VirtualMachineExtensionConfig) VirtualMachineExtension {
 	_init_.Initialize()
 
@@ -668,7 +668,7 @@ func NewVirtualMachineExtension(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_machine_extension azurerm_virtual_machine_extension} Resource.
 func NewVirtualMachineExtension_Override(v VirtualMachineExtension, scope constructs.Construct, id *string, config *VirtualMachineExtensionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datafactorydatasetbinary
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorydatasetbinary/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorydatasetbinary/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_binary azurerm_data_factory_dataset_binary}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_binary azurerm_data_factory_dataset_binary}.
 type DataFactoryDatasetBinary interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -628,7 +628,7 @@ func (j *jsiiProxy_DataFactoryDatasetBinary) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_binary azurerm_data_factory_dataset_binary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_binary azurerm_data_factory_dataset_binary} Resource.
 func NewDataFactoryDatasetBinary(scope constructs.Construct, id *string, config *DataFactoryDatasetBinaryConfig) DataFactoryDatasetBinary {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewDataFactoryDatasetBinary(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_binary azurerm_data_factory_dataset_binary} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_binary azurerm_data_factory_dataset_binary} Resource.
 func NewDataFactoryDatasetBinary_Override(d DataFactoryDatasetBinary, scope constructs.Construct, id *string, config *DataFactoryDatasetBinaryConfig) {
 	_init_.Initialize()
 

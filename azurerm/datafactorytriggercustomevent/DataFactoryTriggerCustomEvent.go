@@ -5,14 +5,14 @@ package datafactorytriggercustomevent
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorytriggercustomevent/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorytriggercustomevent/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_trigger_custom_event azurerm_data_factory_trigger_custom_event}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_trigger_custom_event azurerm_data_factory_trigger_custom_event}.
 type DataFactoryTriggerCustomEvent interface {
 	cdktn.TerraformResource
 	Activated() interface{}
@@ -602,7 +602,7 @@ func (j *jsiiProxy_DataFactoryTriggerCustomEvent) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_trigger_custom_event azurerm_data_factory_trigger_custom_event} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_trigger_custom_event azurerm_data_factory_trigger_custom_event} Resource.
 func NewDataFactoryTriggerCustomEvent(scope constructs.Construct, id *string, config *DataFactoryTriggerCustomEventConfig) DataFactoryTriggerCustomEvent {
 	_init_.Initialize()
 
@@ -620,7 +620,7 @@ func NewDataFactoryTriggerCustomEvent(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_trigger_custom_event azurerm_data_factory_trigger_custom_event} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_trigger_custom_event azurerm_data_factory_trigger_custom_event} Resource.
 func NewDataFactoryTriggerCustomEvent_Override(d DataFactoryTriggerCustomEvent, scope constructs.Construct, id *string, config *DataFactoryTriggerCustomEventConfig) {
 	_init_.Initialize()
 

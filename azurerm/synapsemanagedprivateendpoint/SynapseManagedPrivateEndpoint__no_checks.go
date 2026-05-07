@@ -103,6 +103,10 @@ func (j *jsiiProxy_SynapseManagedPrivateEndpoint) validateSetCountParameters(val
 	return nil
 }
 
+func (j *jsiiProxy_SynapseManagedPrivateEndpoint) validateSetFullyQualifiedDomainNamesParameters(val *[]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_SynapseManagedPrivateEndpoint) validateSetIdParameters(val *string) error {
 	return nil
 }

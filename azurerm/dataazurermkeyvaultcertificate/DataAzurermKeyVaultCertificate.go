@@ -5,14 +5,14 @@ package dataazurermkeyvaultcertificate
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermkeyvaultcertificate/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermkeyvaultcertificate/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/key_vault_certificate azurerm_key_vault_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/key_vault_certificate azurerm_key_vault_certificate}.
 type DataAzurermKeyVaultCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -500,7 +500,7 @@ func (j *jsiiProxy_DataAzurermKeyVaultCertificate) VersionlessSecretId() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/key_vault_certificate azurerm_key_vault_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/key_vault_certificate azurerm_key_vault_certificate} Data Source.
 func NewDataAzurermKeyVaultCertificate(scope constructs.Construct, id *string, config *DataAzurermKeyVaultCertificateConfig) DataAzurermKeyVaultCertificate {
 	_init_.Initialize()
 
@@ -518,7 +518,7 @@ func NewDataAzurermKeyVaultCertificate(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/key_vault_certificate azurerm_key_vault_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/key_vault_certificate azurerm_key_vault_certificate} Data Source.
 func NewDataAzurermKeyVaultCertificate_Override(d DataAzurermKeyVaultCertificate, scope constructs.Construct, id *string, config *DataAzurermKeyVaultCertificateConfig) {
 	_init_.Initialize()
 

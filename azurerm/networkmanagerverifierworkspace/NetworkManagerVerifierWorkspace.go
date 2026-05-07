@@ -5,14 +5,14 @@ package networkmanagerverifierworkspace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkmanagerverifierworkspace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkmanagerverifierworkspace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace}.
 type NetworkManagerVerifierWorkspace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -460,7 +460,7 @@ func (j *jsiiProxy_NetworkManagerVerifierWorkspace) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
 func NewNetworkManagerVerifierWorkspace(scope constructs.Construct, id *string, config *NetworkManagerVerifierWorkspaceConfig) NetworkManagerVerifierWorkspace {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewNetworkManagerVerifierWorkspace(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_manager_verifier_workspace azurerm_network_manager_verifier_workspace} Resource.
 func NewNetworkManagerVerifierWorkspace_Override(n NetworkManagerVerifierWorkspace, scope constructs.Construct, id *string, config *NetworkManagerVerifierWorkspaceConfig) {
 	_init_.Initialize()
 

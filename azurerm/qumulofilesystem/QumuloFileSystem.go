@@ -5,14 +5,14 @@ package qumulofilesystem
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/qumulofilesystem/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/qumulofilesystem/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system}.
 type QumuloFileSystem interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_QumuloFileSystem) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
 func NewQumuloFileSystem(scope constructs.Construct, id *string, config *QumuloFileSystemConfig) QumuloFileSystem {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewQumuloFileSystem(scope constructs.Construct, id *string, config *QumuloF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
 func NewQumuloFileSystem_Override(q QumuloFileSystem, scope constructs.Construct, id *string, config *QumuloFileSystemConfig) {
 	_init_.Initialize()
 

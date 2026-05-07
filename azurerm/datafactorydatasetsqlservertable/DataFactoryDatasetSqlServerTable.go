@@ -5,14 +5,14 @@ package datafactorydatasetsqlservertable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorydatasetsqlservertable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorydatasetsqlservertable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_sql_server_table azurerm_data_factory_dataset_sql_server_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_sql_server_table azurerm_data_factory_dataset_sql_server_table}.
 type DataFactoryDatasetSqlServerTable interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -580,7 +580,7 @@ func (j *jsiiProxy_DataFactoryDatasetSqlServerTable) TimeoutsInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_sql_server_table azurerm_data_factory_dataset_sql_server_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_sql_server_table azurerm_data_factory_dataset_sql_server_table} Resource.
 func NewDataFactoryDatasetSqlServerTable(scope constructs.Construct, id *string, config *DataFactoryDatasetSqlServerTableConfig) DataFactoryDatasetSqlServerTable {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewDataFactoryDatasetSqlServerTable(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_dataset_sql_server_table azurerm_data_factory_dataset_sql_server_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_dataset_sql_server_table azurerm_data_factory_dataset_sql_server_table} Resource.
 func NewDataFactoryDatasetSqlServerTable_Override(d DataFactoryDatasetSqlServerTable, scope constructs.Construct, id *string, config *DataFactoryDatasetSqlServerTableConfig) {
 	_init_.Initialize()
 

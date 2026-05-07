@@ -5,14 +5,14 @@ package apimanagementworkspacepolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementworkspacepolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementworkspacepolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy}.
 type ApiManagementWorkspacePolicy interface {
 	cdktn.TerraformResource
 	ApiManagementWorkspaceId() *string
@@ -414,7 +414,7 @@ func (j *jsiiProxy_ApiManagementWorkspacePolicy) XmlLinkInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
 func NewApiManagementWorkspacePolicy(scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyConfig) ApiManagementWorkspacePolicy {
 	_init_.Initialize()
 
@@ -432,7 +432,7 @@ func NewApiManagementWorkspacePolicy(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_workspace_policy azurerm_api_management_workspace_policy} Resource.
 func NewApiManagementWorkspacePolicy_Override(a ApiManagementWorkspacePolicy, scope constructs.Construct, id *string, config *ApiManagementWorkspacePolicyConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package virtualdesktopapplicationgroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/virtualdesktopapplicationgroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/virtualdesktopapplicationgroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_desktop_application_group azurerm_virtual_desktop_application_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_desktop_application_group azurerm_virtual_desktop_application_group}.
 type VirtualDesktopApplicationGroup interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -554,7 +554,7 @@ func (j *jsiiProxy_VirtualDesktopApplicationGroup) TypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_desktop_application_group azurerm_virtual_desktop_application_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_desktop_application_group azurerm_virtual_desktop_application_group} Resource.
 func NewVirtualDesktopApplicationGroup(scope constructs.Construct, id *string, config *VirtualDesktopApplicationGroupConfig) VirtualDesktopApplicationGroup {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewVirtualDesktopApplicationGroup(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/virtual_desktop_application_group azurerm_virtual_desktop_application_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_desktop_application_group azurerm_virtual_desktop_application_group} Resource.
 func NewVirtualDesktopApplicationGroup_Override(v VirtualDesktopApplicationGroup, scope constructs.Construct, id *string, config *VirtualDesktopApplicationGroupConfig) {
 	_init_.Initialize()
 

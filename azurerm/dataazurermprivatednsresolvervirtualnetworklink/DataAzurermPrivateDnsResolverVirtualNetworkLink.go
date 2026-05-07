@@ -5,14 +5,14 @@ package dataazurermprivatednsresolvervirtualnetworklink
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermprivatednsresolvervirtualnetworklink/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermprivatednsresolvervirtualnetworklink/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link}.
 type DataAzurermPrivateDnsResolverVirtualNetworkLink interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DataAzurermPrivateDnsResolverVirtualNetworkLink) VirtualNetwo
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Data Source.
 func NewDataAzurermPrivateDnsResolverVirtualNetworkLink(scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverVirtualNetworkLinkConfig) DataAzurermPrivateDnsResolverVirtualNetworkLink {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDataAzurermPrivateDnsResolverVirtualNetworkLink(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/private_dns_resolver_virtual_network_link azurerm_private_dns_resolver_virtual_network_link} Data Source.
 func NewDataAzurermPrivateDnsResolverVirtualNetworkLink_Override(d DataAzurermPrivateDnsResolverVirtualNetworkLink, scope constructs.Construct, id *string, config *DataAzurermPrivateDnsResolverVirtualNetworkLinkConfig) {
 	_init_.Initialize()
 

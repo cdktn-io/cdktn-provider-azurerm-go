@@ -5,14 +5,14 @@ package storagemoversourceendpoint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/storagemoversourceendpoint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/storagemoversourceendpoint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint}.
 type StorageMoverSourceEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -484,7 +484,7 @@ func (j *jsiiProxy_StorageMoverSourceEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
 func NewStorageMoverSourceEndpoint(scope constructs.Construct, id *string, config *StorageMoverSourceEndpointConfig) StorageMoverSourceEndpoint {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewStorageMoverSourceEndpoint(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/storage_mover_source_endpoint azurerm_storage_mover_source_endpoint} Resource.
 func NewStorageMoverSourceEndpoint_Override(s StorageMoverSourceEndpoint, scope constructs.Construct, id *string, config *StorageMoverSourceEndpointConfig) {
 	_init_.Initialize()
 

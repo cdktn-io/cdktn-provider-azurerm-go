@@ -63,6 +63,10 @@ func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference)
 	return nil
 }
 
+func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference) validateSetContainerLogMaxFilesParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_KubernetesClusterDefaultNodePoolKubeletConfigOutputReference) validateSetContainerLogMaxLineParameters(val *float64) error {
 	return nil
 }

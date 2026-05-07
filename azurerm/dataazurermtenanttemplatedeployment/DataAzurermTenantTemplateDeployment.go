@@ -5,14 +5,14 @@ package dataazurermtenanttemplatedeployment
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermtenanttemplatedeployment/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermtenanttemplatedeployment/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment}.
 type DataAzurermTenantTemplateDeployment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAzurermTenantTemplateDeployment) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
 func NewDataAzurermTenantTemplateDeployment(scope constructs.Construct, id *string, config *DataAzurermTenantTemplateDeploymentConfig) DataAzurermTenantTemplateDeployment {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAzurermTenantTemplateDeployment(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/tenant_template_deployment azurerm_tenant_template_deployment} Data Source.
 func NewDataAzurermTenantTemplateDeployment_Override(d DataAzurermTenantTemplateDeployment, scope constructs.Construct, id *string, config *DataAzurermTenantTemplateDeploymentConfig) {
 	_init_.Initialize()
 

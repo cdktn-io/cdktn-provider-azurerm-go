@@ -5,14 +5,14 @@ package dataazurermwebapplicationfirewallpolicy
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermwebapplicationfirewallpolicy/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermwebapplicationfirewallpolicy/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/web_application_firewall_policy azurerm_web_application_firewall_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/web_application_firewall_policy azurerm_web_application_firewall_policy}.
 type DataAzurermWebApplicationFirewallPolicy interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -379,7 +379,7 @@ func (j *jsiiProxy_DataAzurermWebApplicationFirewallPolicy) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/web_application_firewall_policy azurerm_web_application_firewall_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/web_application_firewall_policy azurerm_web_application_firewall_policy} Data Source.
 func NewDataAzurermWebApplicationFirewallPolicy(scope constructs.Construct, id *string, config *DataAzurermWebApplicationFirewallPolicyConfig) DataAzurermWebApplicationFirewallPolicy {
 	_init_.Initialize()
 
@@ -397,7 +397,7 @@ func NewDataAzurermWebApplicationFirewallPolicy(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/web_application_firewall_policy azurerm_web_application_firewall_policy} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/web_application_firewall_policy azurerm_web_application_firewall_policy} Data Source.
 func NewDataAzurermWebApplicationFirewallPolicy_Override(d DataAzurermWebApplicationFirewallPolicy, scope constructs.Construct, id *string, config *DataAzurermWebApplicationFirewallPolicyConfig) {
 	_init_.Initialize()
 

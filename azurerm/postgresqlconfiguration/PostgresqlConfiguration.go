@@ -5,14 +5,14 @@ package postgresqlconfiguration
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/postgresqlconfiguration/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/postgresqlconfiguration/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_configuration azurerm_postgresql_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_configuration azurerm_postgresql_configuration}.
 type PostgresqlConfiguration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_PostgresqlConfiguration) ValueInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_configuration azurerm_postgresql_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_configuration azurerm_postgresql_configuration} Resource.
 func NewPostgresqlConfiguration(scope constructs.Construct, id *string, config *PostgresqlConfigurationConfig) PostgresqlConfiguration {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewPostgresqlConfiguration(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/postgresql_configuration azurerm_postgresql_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/postgresql_configuration azurerm_postgresql_configuration} Resource.
 func NewPostgresqlConfiguration_Override(p PostgresqlConfiguration, scope constructs.Construct, id *string, config *PostgresqlConfigurationConfig) {
 	_init_.Initialize()
 

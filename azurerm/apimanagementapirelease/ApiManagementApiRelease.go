@@ -5,14 +5,14 @@ package apimanagementapirelease
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/apimanagementapirelease/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/apimanagementapirelease/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_api_release azurerm_api_management_api_release}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_api_release azurerm_api_management_api_release}.
 type ApiManagementApiRelease interface {
 	cdktn.TerraformResource
 	ApiId() *string
@@ -413,7 +413,7 @@ func (j *jsiiProxy_ApiManagementApiRelease) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
 func NewApiManagementApiRelease(scope constructs.Construct, id *string, config *ApiManagementApiReleaseConfig) ApiManagementApiRelease {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewApiManagementApiRelease(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_api_release azurerm_api_management_api_release} Resource.
 func NewApiManagementApiRelease_Override(a ApiManagementApiRelease, scope constructs.Construct, id *string, config *ApiManagementApiReleaseConfig) {
 	_init_.Initialize()
 

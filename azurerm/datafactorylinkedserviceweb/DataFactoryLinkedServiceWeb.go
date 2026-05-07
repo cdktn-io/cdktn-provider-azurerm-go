@@ -5,14 +5,14 @@ package datafactorylinkedserviceweb
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorylinkedserviceweb/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorylinkedserviceweb/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web}.
 type DataFactoryLinkedServiceWeb interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -603,7 +603,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceWeb) UsernameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
 func NewDataFactoryLinkedServiceWeb(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceWebConfig) DataFactoryLinkedServiceWeb {
 	_init_.Initialize()
 
@@ -621,7 +621,7 @@ func NewDataFactoryLinkedServiceWeb(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_linked_service_web azurerm_data_factory_linked_service_web} Resource.
 func NewDataFactoryLinkedServiceWeb_Override(d DataFactoryLinkedServiceWeb, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceWebConfig) {
 	_init_.Initialize()
 

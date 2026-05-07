@@ -5,14 +5,14 @@ package automationvariableint
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/automationvariableint/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/automationvariableint/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_int azurerm_automation_variable_int}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_int azurerm_automation_variable_int}.
 type AutomationVariableInt interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -484,7 +484,7 @@ func (j *jsiiProxy_AutomationVariableInt) ValueInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
 func NewAutomationVariableInt(scope constructs.Construct, id *string, config *AutomationVariableIntConfig) AutomationVariableInt {
 	_init_.Initialize()
 
@@ -502,7 +502,7 @@ func NewAutomationVariableInt(scope constructs.Construct, id *string, config *Au
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/automation_variable_int azurerm_automation_variable_int} Resource.
 func NewAutomationVariableInt_Override(a AutomationVariableInt, scope constructs.Construct, id *string, config *AutomationVariableIntConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package datafactorycredentialusermanagedidentity
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/datafactorycredentialusermanagedidentity/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/datafactorycredentialusermanagedidentity/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity}.
 type DataFactoryCredentialUserManagedIdentity interface {
 	cdktn.TerraformResource
 	Annotations() *[]*string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_DataFactoryCredentialUserManagedIdentity) TimeoutsInput() int
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
 func NewDataFactoryCredentialUserManagedIdentity(scope constructs.Construct, id *string, config *DataFactoryCredentialUserManagedIdentityConfig) DataFactoryCredentialUserManagedIdentity {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewDataFactoryCredentialUserManagedIdentity(scope constructs.Construct, id 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/data_factory_credential_user_managed_identity azurerm_data_factory_credential_user_managed_identity} Resource.
 func NewDataFactoryCredentialUserManagedIdentity_Override(d DataFactoryCredentialUserManagedIdentity, scope constructs.Construct, id *string, config *DataFactoryCredentialUserManagedIdentityConfig) {
 	_init_.Initialize()
 

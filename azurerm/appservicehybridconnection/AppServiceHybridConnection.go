@@ -5,14 +5,14 @@ package appservicehybridconnection
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/appservicehybridconnection/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/appservicehybridconnection/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection}.
 type AppServiceHybridConnection interface {
 	cdktn.TerraformResource
 	AppServiceName() *string
@@ -537,7 +537,7 @@ func (j *jsiiProxy_AppServiceHybridConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
 func NewAppServiceHybridConnection(scope constructs.Construct, id *string, config *AppServiceHybridConnectionConfig) AppServiceHybridConnection {
 	_init_.Initialize()
 
@@ -555,7 +555,7 @@ func NewAppServiceHybridConnection(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/app_service_hybrid_connection azurerm_app_service_hybrid_connection} Resource.
 func NewAppServiceHybridConnection_Override(a AppServiceHybridConnection, scope constructs.Construct, id *string, config *AppServiceHybridConnectionConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package networkfunctionazuretrafficcollector
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/networkfunctionazuretrafficcollector/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/networkfunctionazuretrafficcollector/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector}.
 type NetworkFunctionAzureTrafficCollector interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_NetworkFunctionAzureTrafficCollector) VirtualHubId() *[]*stri
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
 func NewNetworkFunctionAzureTrafficCollector(scope constructs.Construct, id *string, config *NetworkFunctionAzureTrafficCollectorConfig) NetworkFunctionAzureTrafficCollector {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewNetworkFunctionAzureTrafficCollector(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/network_function_azure_traffic_collector azurerm_network_function_azure_traffic_collector} Resource.
 func NewNetworkFunctionAzureTrafficCollector_Override(n NetworkFunctionAzureTrafficCollector, scope constructs.Construct, id *string, config *NetworkFunctionAzureTrafficCollectorConfig) {
 	_init_.Initialize()
 

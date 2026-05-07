@@ -571,6 +571,14 @@ func (j *jsiiProxy_DashboardGrafana) validateSetSkuParameters(val *string) error
 	return nil
 }
 
+func (j *jsiiProxy_DashboardGrafana) validateSetSkuSizeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DashboardGrafana) validateSetTagsParameters(val *map[string]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

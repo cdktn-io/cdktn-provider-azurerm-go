@@ -5,14 +5,14 @@ package dataazurermautomationvariableobject
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermautomationvariableobject/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermautomationvariableobject/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/automation_variable_object azurerm_automation_variable_object}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/automation_variable_object azurerm_automation_variable_object}.
 type DataAzurermAutomationVariableObject interface {
 	cdktn.TerraformDataSource
 	AutomationAccountName() *string
@@ -400,7 +400,7 @@ func (j *jsiiProxy_DataAzurermAutomationVariableObject) Value() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/automation_variable_object azurerm_automation_variable_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/automation_variable_object azurerm_automation_variable_object} Data Source.
 func NewDataAzurermAutomationVariableObject(scope constructs.Construct, id *string, config *DataAzurermAutomationVariableObjectConfig) DataAzurermAutomationVariableObject {
 	_init_.Initialize()
 
@@ -418,7 +418,7 @@ func NewDataAzurermAutomationVariableObject(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/automation_variable_object azurerm_automation_variable_object} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/automation_variable_object azurerm_automation_variable_object} Data Source.
 func NewDataAzurermAutomationVariableObject_Override(d DataAzurermAutomationVariableObject, scope constructs.Construct, id *string, config *DataAzurermAutomationVariableObjectConfig) {
 	_init_.Initialize()
 

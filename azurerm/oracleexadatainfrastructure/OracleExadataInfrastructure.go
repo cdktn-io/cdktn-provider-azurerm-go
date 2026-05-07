@@ -5,14 +5,14 @@ package oracleexadatainfrastructure
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/oracleexadatainfrastructure/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/oracleexadatainfrastructure/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/oracle_exadata_infrastructure azurerm_oracle_exadata_infrastructure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/oracle_exadata_infrastructure azurerm_oracle_exadata_infrastructure}.
 type OracleExadataInfrastructure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -647,7 +647,7 @@ func (j *jsiiProxy_OracleExadataInfrastructure) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/oracle_exadata_infrastructure azurerm_oracle_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/oracle_exadata_infrastructure azurerm_oracle_exadata_infrastructure} Resource.
 func NewOracleExadataInfrastructure(scope constructs.Construct, id *string, config *OracleExadataInfrastructureConfig) OracleExadataInfrastructure {
 	_init_.Initialize()
 
@@ -665,7 +665,7 @@ func NewOracleExadataInfrastructure(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/oracle_exadata_infrastructure azurerm_oracle_exadata_infrastructure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/oracle_exadata_infrastructure azurerm_oracle_exadata_infrastructure} Resource.
 func NewOracleExadataInfrastructure_Override(o OracleExadataInfrastructure, scope constructs.Construct, id *string, config *OracleExadataInfrastructureConfig) {
 	_init_.Initialize()
 

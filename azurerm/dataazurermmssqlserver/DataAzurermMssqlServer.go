@@ -5,14 +5,14 @@ package dataazurermmssqlserver
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmssqlserver/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermmssqlserver/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/mssql_server azurerm_mssql_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/mssql_server azurerm_mssql_server}.
 type DataAzurermMssqlServer interface {
 	cdktn.TerraformDataSource
 	AdministratorLogin() *string
@@ -443,7 +443,7 @@ func (j *jsiiProxy_DataAzurermMssqlServer) Version() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/mssql_server azurerm_mssql_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/mssql_server azurerm_mssql_server} Data Source.
 func NewDataAzurermMssqlServer(scope constructs.Construct, id *string, config *DataAzurermMssqlServerConfig) DataAzurermMssqlServer {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewDataAzurermMssqlServer(scope constructs.Construct, id *string, config *D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/mssql_server azurerm_mssql_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/mssql_server azurerm_mssql_server} Data Source.
 func NewDataAzurermMssqlServer_Override(d DataAzurermMssqlServer, scope constructs.Construct, id *string, config *DataAzurermMssqlServerConfig) {
 	_init_.Initialize()
 

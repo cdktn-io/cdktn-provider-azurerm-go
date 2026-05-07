@@ -5,14 +5,14 @@ package localnetworkgateway
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/localnetworkgateway/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/localnetworkgateway/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/local_network_gateway azurerm_local_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/local_network_gateway azurerm_local_network_gateway}.
 type LocalNetworkGateway interface {
 	cdktn.TerraformResource
 	AddressSpace() *[]*string
@@ -532,7 +532,7 @@ func (j *jsiiProxy_LocalNetworkGateway) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
 func NewLocalNetworkGateway(scope constructs.Construct, id *string, config *LocalNetworkGatewayConfig) LocalNetworkGateway {
 	_init_.Initialize()
 
@@ -550,7 +550,7 @@ func NewLocalNetworkGateway(scope constructs.Construct, id *string, config *Loca
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/local_network_gateway azurerm_local_network_gateway} Resource.
 func NewLocalNetworkGateway_Override(l LocalNetworkGateway, scope constructs.Construct, id *string, config *LocalNetworkGatewayConfig) {
 	_init_.Initialize()
 

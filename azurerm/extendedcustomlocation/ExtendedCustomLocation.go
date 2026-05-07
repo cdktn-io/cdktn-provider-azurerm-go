@@ -5,14 +5,14 @@ package extendedcustomlocation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/extendedcustomlocation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/extendedcustomlocation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/extended_custom_location azurerm_extended_custom_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/extended_custom_location azurerm_extended_custom_location}.
 type ExtendedCustomLocation interface {
 	cdktn.TerraformResource
 	Authentication() ExtendedCustomLocationAuthenticationOutputReference
@@ -553,7 +553,7 @@ func (j *jsiiProxy_ExtendedCustomLocation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
 func NewExtendedCustomLocation(scope constructs.Construct, id *string, config *ExtendedCustomLocationConfig) ExtendedCustomLocation {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewExtendedCustomLocation(scope constructs.Construct, id *string, config *E
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/extended_custom_location azurerm_extended_custom_location} Resource.
 func NewExtendedCustomLocation_Override(e ExtendedCustomLocation, scope constructs.Construct, id *string, config *ExtendedCustomLocationConfig) {
 	_init_.Initialize()
 

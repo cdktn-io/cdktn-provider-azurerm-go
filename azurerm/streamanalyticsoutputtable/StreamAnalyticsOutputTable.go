@@ -5,14 +5,14 @@ package streamanalyticsoutputtable
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/streamanalyticsoutputtable/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/streamanalyticsoutputtable/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_output_table azurerm_stream_analytics_output_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_output_table azurerm_stream_analytics_output_table}.
 type StreamAnalyticsOutputTable interface {
 	cdktn.TerraformResource
 	BatchSize() *float64
@@ -574,7 +574,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_output_table azurerm_stream_analytics_output_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_output_table azurerm_stream_analytics_output_table} Resource.
 func NewStreamAnalyticsOutputTable(scope constructs.Construct, id *string, config *StreamAnalyticsOutputTableConfig) StreamAnalyticsOutputTable {
 	_init_.Initialize()
 
@@ -592,7 +592,7 @@ func NewStreamAnalyticsOutputTable(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/stream_analytics_output_table azurerm_stream_analytics_output_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/stream_analytics_output_table azurerm_stream_analytics_output_table} Resource.
 func NewStreamAnalyticsOutputTable_Override(s StreamAnalyticsOutputTable, scope constructs.Construct, id *string, config *StreamAnalyticsOutputTableConfig) {
 	_init_.Initialize()
 

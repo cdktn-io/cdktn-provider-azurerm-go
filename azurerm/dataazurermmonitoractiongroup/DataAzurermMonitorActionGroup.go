@@ -5,14 +5,14 @@ package dataazurermmonitoractiongroup
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/dataazurermmonitoractiongroup/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermmonitoractiongroup/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group}.
 type DataAzurermMonitorActionGroup interface {
 	cdktn.TerraformDataSource
 	ArmRoleReceiver() DataAzurermMonitorActionGroupArmRoleReceiverList
@@ -487,7 +487,7 @@ func (j *jsiiProxy_DataAzurermMonitorActionGroup) WebhookReceiver() DataAzurermM
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
 func NewDataAzurermMonitorActionGroup(scope constructs.Construct, id *string, config *DataAzurermMonitorActionGroupConfig) DataAzurermMonitorActionGroup {
 	_init_.Initialize()
 
@@ -505,7 +505,7 @@ func NewDataAzurermMonitorActionGroup(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/monitor_action_group azurerm_monitor_action_group} Data Source.
 func NewDataAzurermMonitorActionGroup_Override(d DataAzurermMonitorActionGroup, scope constructs.Construct, id *string, config *DataAzurermMonitorActionGroupConfig) {
 	_init_.Initialize()
 

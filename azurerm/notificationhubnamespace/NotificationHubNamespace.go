@@ -5,14 +5,14 @@ package notificationhubnamespace
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/notificationhubnamespace/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/notificationhubnamespace/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/notification_hub_namespace azurerm_notification_hub_namespace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/notification_hub_namespace azurerm_notification_hub_namespace}.
 type NotificationHubNamespace interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -565,7 +565,7 @@ func (j *jsiiProxy_NotificationHubNamespace) ZoneRedundancyEnabledInput() interf
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/notification_hub_namespace azurerm_notification_hub_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/notification_hub_namespace azurerm_notification_hub_namespace} Resource.
 func NewNotificationHubNamespace(scope constructs.Construct, id *string, config *NotificationHubNamespaceConfig) NotificationHubNamespace {
 	_init_.Initialize()
 
@@ -583,7 +583,7 @@ func NewNotificationHubNamespace(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/notification_hub_namespace azurerm_notification_hub_namespace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/notification_hub_namespace azurerm_notification_hub_namespace} Resource.
 func NewNotificationHubNamespace_Override(n NotificationHubNamespace, scope constructs.Construct, id *string, config *NotificationHubNamespaceConfig) {
 	_init_.Initialize()
 

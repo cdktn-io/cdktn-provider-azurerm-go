@@ -5,14 +5,14 @@ package capacityreservation
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/capacityreservation/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/capacityreservation/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/capacity_reservation azurerm_capacity_reservation}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/capacity_reservation azurerm_capacity_reservation}.
 type CapacityReservation interface {
 	cdktn.TerraformResource
 	CapacityReservationGroupId() *string
@@ -460,7 +460,7 @@ func (j *jsiiProxy_CapacityReservation) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/capacity_reservation azurerm_capacity_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/capacity_reservation azurerm_capacity_reservation} Resource.
 func NewCapacityReservation(scope constructs.Construct, id *string, config *CapacityReservationConfig) CapacityReservation {
 	_init_.Initialize()
 
@@ -478,7 +478,7 @@ func NewCapacityReservation(scope constructs.Construct, id *string, config *Capa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/capacity_reservation azurerm_capacity_reservation} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/capacity_reservation azurerm_capacity_reservation} Resource.
 func NewCapacityReservation_Override(c CapacityReservation, scope constructs.Construct, id *string, config *CapacityReservationConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package machinelearningcomputeinstance
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/machinelearningcomputeinstance/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/machinelearningcomputeinstance/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance}.
 type MachineLearningComputeInstance interface {
 	cdktn.TerraformResource
 	AssignToUser() MachineLearningComputeInstanceAssignToUserOutputReference
@@ -628,7 +628,7 @@ func (j *jsiiProxy_MachineLearningComputeInstance) VirtualMachineSizeInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
 func NewMachineLearningComputeInstance(scope constructs.Construct, id *string, config *MachineLearningComputeInstanceConfig) MachineLearningComputeInstance {
 	_init_.Initialize()
 
@@ -646,7 +646,7 @@ func NewMachineLearningComputeInstance(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/machine_learning_compute_instance azurerm_machine_learning_compute_instance} Resource.
 func NewMachineLearningComputeInstance_Override(m MachineLearningComputeInstance, scope constructs.Construct, id *string, config *MachineLearningComputeInstanceConfig) {
 	_init_.Initialize()
 

@@ -5,14 +5,14 @@ package netappvolumegrouporacle
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v15/netappvolumegrouporacle/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/netappvolumegrouporacle/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle}.
 type NetappVolumeGroupOracle interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -504,7 +504,7 @@ func (j *jsiiProxy_NetappVolumeGroupOracle) VolumeInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
 func NewNetappVolumeGroupOracle(scope constructs.Construct, id *string, config *NetappVolumeGroupOracleConfig) NetappVolumeGroupOracle {
 	_init_.Initialize()
 
@@ -522,7 +522,7 @@ func NewNetappVolumeGroupOracle(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.69.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/netapp_volume_group_oracle azurerm_netapp_volume_group_oracle} Resource.
 func NewNetappVolumeGroupOracle_Override(n NetappVolumeGroupOracle, scope constructs.Construct, id *string, config *NetappVolumeGroupOracleConfig) {
 	_init_.Initialize()
 
