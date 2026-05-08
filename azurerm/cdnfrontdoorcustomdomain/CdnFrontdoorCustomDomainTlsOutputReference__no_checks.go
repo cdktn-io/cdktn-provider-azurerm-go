@@ -47,6 +47,10 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateInterpola
 	return nil
 }
 
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validatePutCipherSuiteParameters(value *CdnFrontdoorCustomDomainTlsCipherSuite) error {
+	return nil
+}
+
 func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }
@@ -72,6 +76,10 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetIntern
 }
 
 func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) validateSetMinimumVersionParameters(val *string) error {
 	return nil
 }
 

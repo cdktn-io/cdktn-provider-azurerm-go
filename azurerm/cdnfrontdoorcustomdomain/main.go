@@ -140,6 +140,90 @@ func init() {
 		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTls",
 		reflect.TypeOf((*CdnFrontdoorCustomDomainTls)(nil)).Elem(),
 	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsCipherSuite",
+		reflect.TypeOf((*CdnFrontdoorCustomDomainTlsCipherSuite)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsCipherSuiteCustomCiphers",
+		reflect.TypeOf((*CdnFrontdoorCustomDomainTlsCipherSuiteCustomCiphers)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsCipherSuiteCustomCiphersOutputReference",
+		reflect.TypeOf((*CdnFrontdoorCustomDomainTlsCipherSuiteCustomCiphersOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTls12", GoMethod: "ResetTls12"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTls13", GoMethod: "ResetTls13"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "tls12", GoGetter: "Tls12"},
+			_jsii_.MemberProperty{JsiiProperty: "tls12Input", GoGetter: "Tls12Input"},
+			_jsii_.MemberProperty{JsiiProperty: "tls13", GoGetter: "Tls13"},
+			_jsii_.MemberProperty{JsiiProperty: "tls13Input", GoGetter: "Tls13Input"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CdnFrontdoorCustomDomainTlsCipherSuiteCustomCiphersOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsCipherSuiteOutputReference",
+		reflect.TypeOf((*CdnFrontdoorCustomDomainTlsCipherSuiteOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "customCiphers", GoGetter: "CustomCiphers"},
+			_jsii_.MemberProperty{JsiiProperty: "customCiphersInput", GoGetter: "CustomCiphersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "putCustomCiphers", GoMethod: "PutCustomCiphers"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCustomCiphers", GoMethod: "ResetCustomCiphers"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_CdnFrontdoorCustomDomainTlsCipherSuiteOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
 	_jsii_.RegisterClass(
 		"@cdktn/provider-azurerm.cdnFrontdoorCustomDomain.CdnFrontdoorCustomDomainTlsOutputReference",
 		reflect.TypeOf((*CdnFrontdoorCustomDomainTlsOutputReference)(nil)).Elem(),
@@ -148,6 +232,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "cdnFrontdoorSecretIdInput", GoGetter: "CdnFrontdoorSecretIdInput"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateType", GoGetter: "CertificateType"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateTypeInput", GoGetter: "CertificateTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "cipherSuite", GoGetter: "CipherSuite"},
+			_jsii_.MemberProperty{JsiiProperty: "cipherSuiteInput", GoGetter: "CipherSuiteInput"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -167,9 +253,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "minimumTlsVersion", GoGetter: "MinimumTlsVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "minimumTlsVersionInput", GoGetter: "MinimumTlsVersionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "minimumVersion", GoGetter: "MinimumVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "minimumVersionInput", GoGetter: "MinimumVersionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putCipherSuite", GoMethod: "PutCipherSuite"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCdnFrontdoorSecretId", GoMethod: "ResetCdnFrontdoorSecretId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCertificateType", GoMethod: "ResetCertificateType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCipherSuite", GoMethod: "ResetCipherSuite"},
 			_jsii_.MemberMethod{JsiiMethod: "resetMinimumTlsVersion", GoMethod: "ResetMinimumTlsVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMinimumVersion", GoMethod: "ResetMinimumVersion"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},

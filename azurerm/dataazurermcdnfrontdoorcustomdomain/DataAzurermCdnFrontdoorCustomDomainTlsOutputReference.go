@@ -15,6 +15,7 @@ type DataAzurermCdnFrontdoorCustomDomainTlsOutputReference interface {
 	cdktn.ComplexObject
 	CdnFrontdoorSecretId() *string
 	CertificateType() *string
+	CipherSuite() DataAzurermCdnFrontdoorCustomDomainTlsCipherSuiteList
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -35,6 +36,7 @@ type DataAzurermCdnFrontdoorCustomDomainTlsOutputReference interface {
 	InternalValue() *DataAzurermCdnFrontdoorCustomDomainTls
 	SetInternalValue(val *DataAzurermCdnFrontdoorCustomDomainTls)
 	MinimumTlsVersion() *string
+	MinimumVersion() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -102,6 +104,16 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsOutputReference) Certif
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsOutputReference) CipherSuite() DataAzurermCdnFrontdoorCustomDomainTlsCipherSuiteList {
+	var returns DataAzurermCdnFrontdoorCustomDomainTlsCipherSuiteList
+	_jsii_.Get(
+		j,
+		"cipherSuite",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsOutputReference) ComplexObjectIndex() interface{} {
 	var returns interface{}
 	_jsii_.Get(
@@ -157,6 +169,16 @@ func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsOutputReference) Minimu
 	_jsii_.Get(
 		j,
 		"minimumTlsVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermCdnFrontdoorCustomDomainTlsOutputReference) MinimumVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumVersion",
 		&returns,
 	)
 	return returns

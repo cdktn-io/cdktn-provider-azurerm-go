@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c}.
 type ApiManagementIdentityProviderAadb2C interface {
 	cdktn.TerraformResource
 	AllowedTenant() *string
@@ -622,7 +622,7 @@ func (j *jsiiProxy_ApiManagementIdentityProviderAadb2C) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
 func NewApiManagementIdentityProviderAadb2C(scope constructs.Construct, id *string, config *ApiManagementIdentityProviderAadb2CConfig) ApiManagementIdentityProviderAadb2C {
 	_init_.Initialize()
 
@@ -640,7 +640,7 @@ func NewApiManagementIdentityProviderAadb2C(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/api_management_identity_provider_aadb2c azurerm_api_management_identity_provider_aadb2c} Resource.
 func NewApiManagementIdentityProviderAadb2C_Override(a ApiManagementIdentityProviderAadb2C, scope constructs.Construct, id *string, config *ApiManagementIdentityProviderAadb2CConfig) {
 	_init_.Initialize()
 

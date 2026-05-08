@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration}.
 type KubernetesFluxConfiguration interface {
 	cdktn.TerraformResource
 	BlobStorage() KubernetesFluxConfigurationBlobStorageOutputReference
@@ -555,7 +555,7 @@ func (j *jsiiProxy_KubernetesFluxConfiguration) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
 func NewKubernetesFluxConfiguration(scope constructs.Construct, id *string, config *KubernetesFluxConfigurationConfig) KubernetesFluxConfiguration {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewKubernetesFluxConfiguration(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/kubernetes_flux_configuration azurerm_kubernetes_flux_configuration} Resource.
 func NewKubernetesFluxConfiguration_Override(k KubernetesFluxConfiguration, scope constructs.Construct, id *string, config *KubernetesFluxConfigurationConfig) {
 	_init_.Initialize()
 

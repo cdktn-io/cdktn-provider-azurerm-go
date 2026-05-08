@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/redis_cache azurerm_redis_cache}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/redis_cache azurerm_redis_cache}.
 type RedisCache interface {
 	cdktn.TerraformResource
 	AccessKeysAuthenticationEnabled() interface{}
@@ -942,7 +942,7 @@ func (j *jsiiProxy_RedisCache) ZonesInput() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
 func NewRedisCache(scope constructs.Construct, id *string, config *RedisCacheConfig) RedisCache {
 	_init_.Initialize()
 
@@ -960,7 +960,7 @@ func NewRedisCache(scope constructs.Construct, id *string, config *RedisCacheCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/redis_cache azurerm_redis_cache} Resource.
 func NewRedisCache_Override(r RedisCache, scope constructs.Construct, id *string, config *RedisCacheConfig) {
 	_init_.Initialize()
 

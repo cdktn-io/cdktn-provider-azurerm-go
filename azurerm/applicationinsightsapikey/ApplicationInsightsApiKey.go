@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key}.
 type ApplicationInsightsApiKey interface {
 	cdktn.TerraformResource
 	ApiKey() *string
@@ -448,7 +448,7 @@ func (j *jsiiProxy_ApplicationInsightsApiKey) WritePermissionsInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
 func NewApplicationInsightsApiKey(scope constructs.Construct, id *string, config *ApplicationInsightsApiKeyConfig) ApplicationInsightsApiKey {
 	_init_.Initialize()
 
@@ -466,7 +466,7 @@ func NewApplicationInsightsApiKey(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/application_insights_api_key azurerm_application_insights_api_key} Resource.
 func NewApplicationInsightsApiKey_Override(a ApplicationInsightsApiKey, scope constructs.Construct, id *string, config *ApplicationInsightsApiKeyConfig) {
 	_init_.Initialize()
 

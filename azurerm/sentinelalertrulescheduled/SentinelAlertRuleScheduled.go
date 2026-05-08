@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/sentinel_alert_rule_scheduled azurerm_sentinel_alert_rule_scheduled}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/sentinel_alert_rule_scheduled azurerm_sentinel_alert_rule_scheduled}.
 type SentinelAlertRuleScheduled interface {
 	cdktn.TerraformResource
 	AlertDetailsOverride() SentinelAlertRuleScheduledAlertDetailsOverrideList
@@ -890,7 +890,7 @@ func (j *jsiiProxy_SentinelAlertRuleScheduled) TriggerThresholdInput() *float64 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/sentinel_alert_rule_scheduled azurerm_sentinel_alert_rule_scheduled} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/sentinel_alert_rule_scheduled azurerm_sentinel_alert_rule_scheduled} Resource.
 func NewSentinelAlertRuleScheduled(scope constructs.Construct, id *string, config *SentinelAlertRuleScheduledConfig) SentinelAlertRuleScheduled {
 	_init_.Initialize()
 
@@ -908,7 +908,7 @@ func NewSentinelAlertRuleScheduled(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/sentinel_alert_rule_scheduled azurerm_sentinel_alert_rule_scheduled} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/sentinel_alert_rule_scheduled azurerm_sentinel_alert_rule_scheduled} Resource.
 func NewSentinelAlertRuleScheduled_Override(s SentinelAlertRuleScheduled, scope constructs.Construct, id *string, config *SentinelAlertRuleScheduledConfig) {
 	_init_.Initialize()
 

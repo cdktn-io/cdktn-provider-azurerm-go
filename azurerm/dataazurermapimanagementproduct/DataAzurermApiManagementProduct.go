@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management_product azurerm_api_management_product}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/api_management_product azurerm_api_management_product}.
 type DataAzurermApiManagementProduct interface {
 	cdktn.TerraformDataSource
 	ApiManagementName() *string
@@ -444,7 +444,7 @@ func (j *jsiiProxy_DataAzurermApiManagementProduct) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management_product azurerm_api_management_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/api_management_product azurerm_api_management_product} Data Source.
 func NewDataAzurermApiManagementProduct(scope constructs.Construct, id *string, config *DataAzurermApiManagementProductConfig) DataAzurermApiManagementProduct {
 	_init_.Initialize()
 
@@ -462,7 +462,7 @@ func NewDataAzurermApiManagementProduct(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/api_management_product azurerm_api_management_product} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/api_management_product azurerm_api_management_product} Data Source.
 func NewDataAzurermApiManagementProduct_Override(d DataAzurermApiManagementProduct, scope constructs.Construct, id *string, config *DataAzurermApiManagementProductConfig) {
 	_init_.Initialize()
 

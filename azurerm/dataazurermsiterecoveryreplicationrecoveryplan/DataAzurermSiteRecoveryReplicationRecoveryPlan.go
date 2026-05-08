@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan}.
 type DataAzurermSiteRecoveryReplicationRecoveryPlan interface {
 	cdktn.TerraformDataSource
 	AzureToAzureSettings() DataAzurermSiteRecoveryReplicationRecoveryPlanAzureToAzureSettingsList
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAzurermSiteRecoveryReplicationRecoveryPlan) TimeoutsInput
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Data Source.
 func NewDataAzurermSiteRecoveryReplicationRecoveryPlan(scope constructs.Construct, id *string, config *DataAzurermSiteRecoveryReplicationRecoveryPlanConfig) DataAzurermSiteRecoveryReplicationRecoveryPlan {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAzurermSiteRecoveryReplicationRecoveryPlan(scope constructs.Construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/data-sources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/site_recovery_replication_recovery_plan azurerm_site_recovery_replication_recovery_plan} Data Source.
 func NewDataAzurermSiteRecoveryReplicationRecoveryPlan_Override(d DataAzurermSiteRecoveryReplicationRecoveryPlan, scope constructs.Construct, id *string, config *DataAzurermSiteRecoveryReplicationRecoveryPlanConfig) {
 	_init_.Initialize()
 

@@ -19,6 +19,8 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 	CertificateType() *string
 	SetCertificateType(val *string)
 	CertificateTypeInput() *string
+	CipherSuite() CdnFrontdoorCustomDomainTlsCipherSuiteOutputReference
+	CipherSuiteInput() *CdnFrontdoorCustomDomainTlsCipherSuite
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -41,6 +43,9 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 	MinimumTlsVersion() *string
 	SetMinimumTlsVersion(val *string)
 	MinimumTlsVersionInput() *string
+	MinimumVersion() *string
+	SetMinimumVersion(val *string)
+	MinimumVersionInput() *string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -73,9 +78,12 @@ type CdnFrontdoorCustomDomainTlsOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutCipherSuite(value *CdnFrontdoorCustomDomainTlsCipherSuite)
 	ResetCdnFrontdoorSecretId()
 	ResetCertificateType()
+	ResetCipherSuite()
 	ResetMinimumTlsVersion()
+	ResetMinimumVersion()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -126,6 +134,26 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) CertificateTypeIn
 	_jsii_.Get(
 		j,
 		"certificateTypeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) CipherSuite() CdnFrontdoorCustomDomainTlsCipherSuiteOutputReference {
+	var returns CdnFrontdoorCustomDomainTlsCipherSuiteOutputReference
+	_jsii_.Get(
+		j,
+		"cipherSuite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) CipherSuiteInput() *CdnFrontdoorCustomDomainTlsCipherSuite {
+	var returns *CdnFrontdoorCustomDomainTlsCipherSuite
+	_jsii_.Get(
+		j,
+		"cipherSuiteInput",
 		&returns,
 	)
 	return returns
@@ -196,6 +224,26 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) MinimumTlsVersion
 	_jsii_.Get(
 		j,
 		"minimumTlsVersionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) MinimumVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) MinimumVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumVersionInput",
 		&returns,
 	)
 	return returns
@@ -311,6 +359,17 @@ func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference)SetMinimumTlsVersi
 	_jsii_.Set(
 		j,
 		"minimumTlsVersion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference)SetMinimumVersion(val *string) {
+	if err := j.validateSetMinimumVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minimumVersion",
 		val,
 	)
 }
@@ -523,6 +582,17 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) InterpolationForA
 	return returns
 }
 
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) PutCipherSuite(value *CdnFrontdoorCustomDomainTlsCipherSuite) {
+	if err := c.validatePutCipherSuiteParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		c,
+		"putCipherSuite",
+		[]interface{}{value},
+	)
+}
+
 func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetCdnFrontdoorSecretId() {
 	_jsii_.InvokeVoid(
 		c,
@@ -539,10 +609,26 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetCertificateT
 	)
 }
 
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetCipherSuite() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetCipherSuite",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetMinimumTlsVersion() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetMinimumTlsVersion",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CdnFrontdoorCustomDomainTlsOutputReference) ResetMinimumVersion() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetMinimumVersion",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_hub_route_table_route azurerm_virtual_hub_route_table_route}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/virtual_hub_route_table_route azurerm_virtual_hub_route_table_route}.
 type VirtualHubRouteTableRouteA interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_VirtualHubRouteTableRouteA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_hub_route_table_route azurerm_virtual_hub_route_table_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/virtual_hub_route_table_route azurerm_virtual_hub_route_table_route} Resource.
 func NewVirtualHubRouteTableRouteA(scope constructs.Construct, id *string, config *VirtualHubRouteTableRouteAConfig) VirtualHubRouteTableRouteA {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewVirtualHubRouteTableRouteA(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/virtual_hub_route_table_route azurerm_virtual_hub_route_table_route} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/virtual_hub_route_table_route azurerm_virtual_hub_route_table_route} Resource.
 func NewVirtualHubRouteTableRouteA_Override(v VirtualHubRouteTableRouteA, scope constructs.Construct, id *string, config *VirtualHubRouteTableRouteAConfig) {
 	_init_.Initialize()
 

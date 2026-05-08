@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/role_management_policy azurerm_role_management_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/role_management_policy azurerm_role_management_policy}.
 type RoleManagementPolicy interface {
 	cdktn.TerraformResource
 	ActivationRules() RoleManagementPolicyActivationRulesOutputReference
@@ -507,7 +507,7 @@ func (j *jsiiProxy_RoleManagementPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
 func NewRoleManagementPolicy(scope constructs.Construct, id *string, config *RoleManagementPolicyConfig) RoleManagementPolicy {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewRoleManagementPolicy(scope constructs.Construct, id *string, config *Rol
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/role_management_policy azurerm_role_management_policy} Resource.
 func NewRoleManagementPolicy_Override(r RoleManagementPolicy, scope constructs.Construct, id *string, config *RoleManagementPolicyConfig) {
 	_init_.Initialize()
 

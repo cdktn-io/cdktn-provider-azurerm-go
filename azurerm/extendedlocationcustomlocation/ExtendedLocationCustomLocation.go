@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/extended_location_custom_location azurerm_extended_location_custom_location}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/extended_location_custom_location azurerm_extended_location_custom_location}.
 type ExtendedLocationCustomLocation interface {
 	cdktn.TerraformResource
 	Authentication() ExtendedLocationCustomLocationAuthenticationOutputReference
@@ -553,7 +553,7 @@ func (j *jsiiProxy_ExtendedLocationCustomLocation) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/extended_location_custom_location azurerm_extended_location_custom_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/extended_location_custom_location azurerm_extended_location_custom_location} Resource.
 func NewExtendedLocationCustomLocation(scope constructs.Construct, id *string, config *ExtendedLocationCustomLocationConfig) ExtendedLocationCustomLocation {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewExtendedLocationCustomLocation(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.71.0/docs/resources/extended_location_custom_location azurerm_extended_location_custom_location} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/extended_location_custom_location azurerm_extended_location_custom_location} Resource.
 func NewExtendedLocationCustomLocation_Override(e ExtendedLocationCustomLocation, scope constructs.Construct, id *string, config *ExtendedLocationCustomLocationConfig) {
 	_init_.Initialize()
 
