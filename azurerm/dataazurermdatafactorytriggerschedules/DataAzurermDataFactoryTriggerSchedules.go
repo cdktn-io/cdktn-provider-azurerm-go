@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/data_factory_trigger_schedules azurerm_data_factory_trigger_schedules}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/data_factory_trigger_schedules azurerm_data_factory_trigger_schedules}.
 type DataAzurermDataFactoryTriggerSchedules interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -332,7 +332,7 @@ func (j *jsiiProxy_DataAzurermDataFactoryTriggerSchedules) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/data_factory_trigger_schedules azurerm_data_factory_trigger_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/data_factory_trigger_schedules azurerm_data_factory_trigger_schedules} Data Source.
 func NewDataAzurermDataFactoryTriggerSchedules(scope constructs.Construct, id *string, config *DataAzurermDataFactoryTriggerSchedulesConfig) DataAzurermDataFactoryTriggerSchedules {
 	_init_.Initialize()
 
@@ -350,7 +350,7 @@ func NewDataAzurermDataFactoryTriggerSchedules(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/data_factory_trigger_schedules azurerm_data_factory_trigger_schedules} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/data_factory_trigger_schedules azurerm_data_factory_trigger_schedules} Data Source.
 func NewDataAzurermDataFactoryTriggerSchedules_Override(d DataAzurermDataFactoryTriggerSchedules, scope constructs.Construct, id *string, config *DataAzurermDataFactoryTriggerSchedulesConfig) {
 	_init_.Initialize()
 

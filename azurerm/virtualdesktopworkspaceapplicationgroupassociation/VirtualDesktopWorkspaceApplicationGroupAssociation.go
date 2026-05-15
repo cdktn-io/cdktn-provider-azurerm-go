@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/virtual_desktop_workspace_application_group_association azurerm_virtual_desktop_workspace_application_group_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/virtual_desktop_workspace_application_group_association azurerm_virtual_desktop_workspace_application_group_association}.
 type VirtualDesktopWorkspaceApplicationGroupAssociation interface {
 	cdktn.TerraformResource
 	ApplicationGroupId() *string
@@ -389,7 +389,7 @@ func (j *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociation) Workspace
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/virtual_desktop_workspace_application_group_association azurerm_virtual_desktop_workspace_application_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/virtual_desktop_workspace_application_group_association azurerm_virtual_desktop_workspace_application_group_association} Resource.
 func NewVirtualDesktopWorkspaceApplicationGroupAssociation(scope constructs.Construct, id *string, config *VirtualDesktopWorkspaceApplicationGroupAssociationConfig) VirtualDesktopWorkspaceApplicationGroupAssociation {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewVirtualDesktopWorkspaceApplicationGroupAssociation(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/virtual_desktop_workspace_application_group_association azurerm_virtual_desktop_workspace_application_group_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/virtual_desktop_workspace_application_group_association azurerm_virtual_desktop_workspace_application_group_association} Resource.
 func NewVirtualDesktopWorkspaceApplicationGroupAssociation_Override(v VirtualDesktopWorkspaceApplicationGroupAssociation, scope constructs.Construct, id *string, config *VirtualDesktopWorkspaceApplicationGroupAssociationConfig) {
 	_init_.Initialize()
 

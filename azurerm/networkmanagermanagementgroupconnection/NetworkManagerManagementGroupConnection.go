@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/network_manager_management_group_connection azurerm_network_manager_management_group_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/network_manager_management_group_connection azurerm_network_manager_management_group_connection}.
 type NetworkManagerManagementGroupConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -447,7 +447,7 @@ func (j *jsiiProxy_NetworkManagerManagementGroupConnection) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/network_manager_management_group_connection azurerm_network_manager_management_group_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/network_manager_management_group_connection azurerm_network_manager_management_group_connection} Resource.
 func NewNetworkManagerManagementGroupConnection(scope constructs.Construct, id *string, config *NetworkManagerManagementGroupConnectionConfig) NetworkManagerManagementGroupConnection {
 	_init_.Initialize()
 
@@ -465,7 +465,7 @@ func NewNetworkManagerManagementGroupConnection(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/network_manager_management_group_connection azurerm_network_manager_management_group_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/network_manager_management_group_connection azurerm_network_manager_management_group_connection} Resource.
 func NewNetworkManagerManagementGroupConnection_Override(n NetworkManagerManagementGroupConnection, scope constructs.Construct, id *string, config *NetworkManagerManagementGroupConnectionConfig) {
 	_init_.Initialize()
 

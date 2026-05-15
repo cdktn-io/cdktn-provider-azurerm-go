@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/storage_blob azurerm_storage_blob}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/storage_blob azurerm_storage_blob}.
 type StorageBlob interface {
 	cdktn.TerraformResource
 	AccessTier() *string
@@ -710,7 +710,7 @@ func (j *jsiiProxy_StorageBlob) Url() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
 func NewStorageBlob(scope constructs.Construct, id *string, config *StorageBlobConfig) StorageBlob {
 	_init_.Initialize()
 
@@ -728,7 +728,7 @@ func NewStorageBlob(scope constructs.Construct, id *string, config *StorageBlobC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/storage_blob azurerm_storage_blob} Resource.
 func NewStorageBlob_Override(s StorageBlob, scope constructs.Construct, id *string, config *StorageBlobConfig) {
 	_init_.Initialize()
 

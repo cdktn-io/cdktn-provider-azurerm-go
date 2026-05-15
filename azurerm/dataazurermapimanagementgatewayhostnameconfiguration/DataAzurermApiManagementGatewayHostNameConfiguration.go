@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration}.
 type DataAzurermApiManagementGatewayHostNameConfiguration interface {
 	cdktn.TerraformDataSource
 	ApiManagementId() *string
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataAzurermApiManagementGatewayHostNameConfiguration) Tls11En
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Data Source.
 func NewDataAzurermApiManagementGatewayHostNameConfiguration(scope constructs.Construct, id *string, config *DataAzurermApiManagementGatewayHostNameConfigurationConfig) DataAzurermApiManagementGatewayHostNameConfiguration {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataAzurermApiManagementGatewayHostNameConfiguration(scope constructs.Co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/data-sources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/api_management_gateway_host_name_configuration azurerm_api_management_gateway_host_name_configuration} Data Source.
 func NewDataAzurermApiManagementGatewayHostNameConfiguration_Override(d DataAzurermApiManagementGatewayHostNameConfiguration, scope constructs.Construct, id *string, config *DataAzurermApiManagementGatewayHostNameConfigurationConfig) {
 	_init_.Initialize()
 

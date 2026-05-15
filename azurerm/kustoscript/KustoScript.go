@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/kusto_script azurerm_kusto_script}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/kusto_script azurerm_kusto_script}.
 type KustoScript interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -557,7 +557,7 @@ func (j *jsiiProxy_KustoScript) UrlInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
 func NewKustoScript(scope constructs.Construct, id *string, config *KustoScriptConfig) KustoScript {
 	_init_.Initialize()
 
@@ -575,7 +575,7 @@ func NewKustoScript(scope constructs.Construct, id *string, config *KustoScriptC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/kusto_script azurerm_kusto_script} Resource.
 func NewKustoScript_Override(k KustoScript, scope constructs.Construct, id *string, config *KustoScriptConfig) {
 	_init_.Initialize()
 

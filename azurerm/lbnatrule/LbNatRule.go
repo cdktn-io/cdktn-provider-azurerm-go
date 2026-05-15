@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/lb_nat_rule azurerm_lb_nat_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/lb_nat_rule azurerm_lb_nat_rule}.
 type LbNatRule interface {
 	cdktn.TerraformResource
 	BackendAddressPoolId() *string
@@ -719,7 +719,7 @@ func (j *jsiiProxy_LbNatRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/lb_nat_rule azurerm_lb_nat_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/lb_nat_rule azurerm_lb_nat_rule} Resource.
 func NewLbNatRule(scope constructs.Construct, id *string, config *LbNatRuleConfig) LbNatRule {
 	_init_.Initialize()
 
@@ -737,7 +737,7 @@ func NewLbNatRule(scope constructs.Construct, id *string, config *LbNatRuleConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/lb_nat_rule azurerm_lb_nat_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/lb_nat_rule azurerm_lb_nat_rule} Resource.
 func NewLbNatRule_Override(l LbNatRule, scope constructs.Construct, id *string, config *LbNatRuleConfig) {
 	_init_.Initialize()
 

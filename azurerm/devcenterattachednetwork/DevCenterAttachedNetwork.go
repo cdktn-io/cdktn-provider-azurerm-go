@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/dev_center_attached_network azurerm_dev_center_attached_network}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/dev_center_attached_network azurerm_dev_center_attached_network}.
 type DevCenterAttachedNetwork interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_DevCenterAttachedNetwork) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/dev_center_attached_network azurerm_dev_center_attached_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/dev_center_attached_network azurerm_dev_center_attached_network} Resource.
 func NewDevCenterAttachedNetwork(scope constructs.Construct, id *string, config *DevCenterAttachedNetworkConfig) DevCenterAttachedNetwork {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewDevCenterAttachedNetwork(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.72.0/docs/resources/dev_center_attached_network azurerm_dev_center_attached_network} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/dev_center_attached_network azurerm_dev_center_attached_network} Resource.
 func NewDevCenterAttachedNetwork_Override(d DevCenterAttachedNetwork, scope constructs.Construct, id *string, config *DevCenterAttachedNetworkConfig) {
 	_init_.Initialize()
 
