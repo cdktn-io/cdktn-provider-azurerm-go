@@ -230,7 +230,23 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations) validateSetFilterByCategor
 	return nil
 }
 
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations) validateSetFilterByRecommendationTypeGuidsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataAzurermAdvisorRecommendations) validateSetFilterByResourceGroupsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations) validateSetFilterByResourceIdsParameters(val *[]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

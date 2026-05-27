@@ -89,6 +89,9 @@ type WindowsWebAppSiteConfigOutputReference interface {
 	ManagedPipelineMode() *string
 	SetManagedPipelineMode(val *string)
 	ManagedPipelineModeInput() *string
+	MinimumTlsCipherSuite() *string
+	SetMinimumTlsCipherSuite(val *string)
+	MinimumTlsCipherSuiteInput() *string
 	MinimumTlsVersion() *string
 	SetMinimumTlsVersion(val *string)
 	MinimumTlsVersionInput() *string
@@ -184,6 +187,7 @@ type WindowsWebAppSiteConfigOutputReference interface {
 	ResetLoadBalancingMode()
 	ResetLocalMysqlEnabled()
 	ResetManagedPipelineMode()
+	ResetMinimumTlsCipherSuite()
 	ResetMinimumTlsVersion()
 	ResetRemoteDebuggingEnabled()
 	ResetRemoteDebuggingVersion()
@@ -676,6 +680,26 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference) ManagedPipelineModeIn
 	_jsii_.Get(
 		j,
 		"managedPipelineModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference) MinimumTlsCipherSuite() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference) MinimumTlsCipherSuiteInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuiteInput",
 		&returns,
 	)
 	return returns
@@ -1183,6 +1207,17 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference)SetManagedPipelineMode
 	_jsii_.Set(
 		j,
 		"managedPipelineMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference)SetMinimumTlsCipherSuite(val *string) {
+	if err := j.validateSetMinimumTlsCipherSuiteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minimumTlsCipherSuite",
 		val,
 	)
 }
@@ -1738,6 +1773,14 @@ func (w *jsiiProxy_WindowsWebAppSiteConfigOutputReference) ResetManagedPipelineM
 	_jsii_.InvokeVoid(
 		w,
 		"resetManagedPipelineMode",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WindowsWebAppSiteConfigOutputReference) ResetMinimumTlsCipherSuite() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetMinimumTlsCipherSuite",
 		nil, // no parameters
 	)
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/api_management_diagnostic azurerm_api_management_diagnostic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/api_management_diagnostic azurerm_api_management_diagnostic}.
 type ApiManagementDiagnostic interface {
 	cdktn.TerraformResource
 	AlwaysLogErrors() interface{}
@@ -675,7 +675,7 @@ func (j *jsiiProxy_ApiManagementDiagnostic) VerbosityInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/api_management_diagnostic azurerm_api_management_diagnostic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/api_management_diagnostic azurerm_api_management_diagnostic} Resource.
 func NewApiManagementDiagnostic(scope constructs.Construct, id *string, config *ApiManagementDiagnosticConfig) ApiManagementDiagnostic {
 	_init_.Initialize()
 
@@ -693,7 +693,7 @@ func NewApiManagementDiagnostic(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/api_management_diagnostic azurerm_api_management_diagnostic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/api_management_diagnostic azurerm_api_management_diagnostic} Resource.
 func NewApiManagementDiagnostic_Override(a ApiManagementDiagnostic, scope constructs.Construct, id *string, config *ApiManagementDiagnosticConfig) {
 	_init_.Initialize()
 

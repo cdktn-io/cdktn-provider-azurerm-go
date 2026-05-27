@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action}.
 type CostManagementScheduledAction interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -670,7 +670,7 @@ func (j *jsiiProxy_CostManagementScheduledAction) WeeksOfMonthInput() *[]*string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
 func NewCostManagementScheduledAction(scope constructs.Construct, id *string, config *CostManagementScheduledActionConfig) CostManagementScheduledAction {
 	_init_.Initialize()
 
@@ -688,7 +688,7 @@ func NewCostManagementScheduledAction(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/cost_management_scheduled_action azurerm_cost_management_scheduled_action} Resource.
 func NewCostManagementScheduledAction_Override(c CostManagementScheduledAction, scope constructs.Construct, id *string, config *CostManagementScheduledActionConfig) {
 	_init_.Initialize()
 

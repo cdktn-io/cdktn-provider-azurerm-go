@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud}.
 type VmwarePrivateCloud interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -676,7 +676,7 @@ func (j *jsiiProxy_VmwarePrivateCloud) VmotionSubnetCidr() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
 func NewVmwarePrivateCloud(scope constructs.Construct, id *string, config *VmwarePrivateCloudConfig) VmwarePrivateCloud {
 	_init_.Initialize()
 
@@ -694,7 +694,7 @@ func NewVmwarePrivateCloud(scope constructs.Construct, id *string, config *Vmwar
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/vmware_private_cloud azurerm_vmware_private_cloud} Resource.
 func NewVmwarePrivateCloud_Override(v VmwarePrivateCloud, scope constructs.Construct, id *string, config *VmwarePrivateCloudConfig) {
 	_init_.Initialize()
 

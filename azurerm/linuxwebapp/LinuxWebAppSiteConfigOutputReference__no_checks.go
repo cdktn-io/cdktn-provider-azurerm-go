@@ -143,6 +143,10 @@ func (j *jsiiProxy_LinuxWebAppSiteConfigOutputReference) validateSetManagedPipel
 	return nil
 }
 
+func (j *jsiiProxy_LinuxWebAppSiteConfigOutputReference) validateSetMinimumTlsCipherSuiteParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxWebAppSiteConfigOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
 	return nil
 }

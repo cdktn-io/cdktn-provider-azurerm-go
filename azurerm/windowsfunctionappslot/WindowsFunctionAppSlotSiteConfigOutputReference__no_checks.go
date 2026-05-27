@@ -151,6 +151,10 @@ func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigOutputReference) validateSetM
 	return nil
 }
 
+func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigOutputReference) validateSetMinimumTlsCipherSuiteParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_WindowsFunctionAppSlotSiteConfigOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
 	return nil
 }

@@ -90,6 +90,9 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 	ManagedPipelineMode() *string
 	SetManagedPipelineMode(val *string)
 	ManagedPipelineModeInput() *string
+	MinimumTlsCipherSuite() *string
+	SetMinimumTlsCipherSuite(val *string)
+	MinimumTlsCipherSuiteInput() *string
 	MinimumTlsVersion() *string
 	SetMinimumTlsVersion(val *string)
 	MinimumTlsVersionInput() *string
@@ -180,6 +183,7 @@ type LinuxWebAppSlotSiteConfigOutputReference interface {
 	ResetLoadBalancingMode()
 	ResetLocalMysqlEnabled()
 	ResetManagedPipelineMode()
+	ResetMinimumTlsCipherSuite()
 	ResetMinimumTlsVersion()
 	ResetRemoteDebuggingEnabled()
 	ResetRemoteDebuggingVersion()
@@ -676,6 +680,26 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) ManagedPipelineMode
 	return returns
 }
 
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) MinimumTlsCipherSuite() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) MinimumTlsCipherSuiteInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuiteInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) MinimumTlsVersion() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1159,6 +1183,17 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference)SetManagedPipelineMo
 	_jsii_.Set(
 		j,
 		"managedPipelineMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference)SetMinimumTlsCipherSuite(val *string) {
+	if err := j.validateSetMinimumTlsCipherSuiteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minimumTlsCipherSuite",
 		val,
 	)
 }
@@ -1692,6 +1727,14 @@ func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) ResetManagedPipelin
 	_jsii_.InvokeVoid(
 		l,
 		"resetManagedPipelineMode",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) ResetMinimumTlsCipherSuite() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetMinimumTlsCipherSuite",
 		nil, // no parameters
 	)
 }

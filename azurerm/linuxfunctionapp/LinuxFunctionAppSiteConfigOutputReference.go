@@ -96,6 +96,9 @@ type LinuxFunctionAppSiteConfigOutputReference interface {
 	ManagedPipelineMode() *string
 	SetManagedPipelineMode(val *string)
 	ManagedPipelineModeInput() *string
+	MinimumTlsCipherSuite() *string
+	SetMinimumTlsCipherSuite(val *string)
+	MinimumTlsCipherSuiteInput() *string
 	MinimumTlsVersion() *string
 	SetMinimumTlsVersion(val *string)
 	MinimumTlsVersionInput() *string
@@ -194,6 +197,7 @@ type LinuxFunctionAppSiteConfigOutputReference interface {
 	ResetIpRestrictionDefaultAction()
 	ResetLoadBalancingMode()
 	ResetManagedPipelineMode()
+	ResetMinimumTlsCipherSuite()
 	ResetMinimumTlsVersion()
 	ResetPreWarmedInstanceCount()
 	ResetRemoteDebuggingEnabled()
@@ -727,6 +731,26 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) ManagedPipelineMod
 	_jsii_.Get(
 		j,
 		"managedPipelineModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) MinimumTlsCipherSuite() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) MinimumTlsCipherSuiteInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuiteInput",
 		&returns,
 	)
 	return returns
@@ -1277,6 +1301,17 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference)SetManagedPipelineM
 	_jsii_.Set(
 		j,
 		"managedPipelineMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference)SetMinimumTlsCipherSuite(val *string) {
+	if err := j.validateSetMinimumTlsCipherSuiteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minimumTlsCipherSuite",
 		val,
 	)
 }
@@ -1848,6 +1883,14 @@ func (l *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) ResetManagedPipeli
 	_jsii_.InvokeVoid(
 		l,
 		"resetManagedPipelineMode",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) ResetMinimumTlsCipherSuite() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetMinimumTlsCipherSuite",
 		nil, // no parameters
 	)
 }

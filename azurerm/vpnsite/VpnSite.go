@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/vpn_site azurerm_vpn_site}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/vpn_site azurerm_vpn_site}.
 type VpnSite interface {
 	cdktn.TerraformResource
 	AddressCidrs() *[]*string
@@ -579,7 +579,7 @@ func (j *jsiiProxy_VpnSite) VirtualWanIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
 func NewVpnSite(scope constructs.Construct, id *string, config *VpnSiteConfig) VpnSite {
 	_init_.Initialize()
 
@@ -597,7 +597,7 @@ func NewVpnSite(scope constructs.Construct, id *string, config *VpnSiteConfig) V
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/vpn_site azurerm_vpn_site} Resource.
 func NewVpnSite_Override(v VpnSite, scope constructs.Construct, id *string, config *VpnSiteConfig) {
 	_init_.Initialize()
 

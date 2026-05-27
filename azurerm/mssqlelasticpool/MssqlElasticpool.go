@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool}.
 type MssqlElasticpool interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -673,7 +673,7 @@ func (j *jsiiProxy_MssqlElasticpool) ZoneRedundantInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
 func NewMssqlElasticpool(scope constructs.Construct, id *string, config *MssqlElasticpoolConfig) MssqlElasticpool {
 	_init_.Initialize()
 
@@ -691,7 +691,7 @@ func NewMssqlElasticpool(scope constructs.Construct, id *string, config *MssqlEl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/mssql_elasticpool azurerm_mssql_elasticpool} Resource.
 func NewMssqlElasticpool_Override(m MssqlElasticpool, scope constructs.Construct, id *string, config *MssqlElasticpoolConfig) {
 	_init_.Initialize()
 

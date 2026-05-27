@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence}.
 type LogicAppTriggerRecurrence interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_LogicAppTriggerRecurrence) TimeZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
 func NewLogicAppTriggerRecurrence(scope constructs.Construct, id *string, config *LogicAppTriggerRecurrenceConfig) LogicAppTriggerRecurrence {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewLogicAppTriggerRecurrence(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/logic_app_trigger_recurrence azurerm_logic_app_trigger_recurrence} Resource.
 func NewLogicAppTriggerRecurrence_Override(l LogicAppTriggerRecurrence, scope constructs.Construct, id *string, config *LogicAppTriggerRecurrenceConfig) {
 	_init_.Initialize()
 

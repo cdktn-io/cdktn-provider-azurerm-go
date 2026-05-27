@@ -155,6 +155,10 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) validateSetManaged
 	return nil
 }
 
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) validateSetMinimumTlsCipherSuiteParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
 	return nil
 }

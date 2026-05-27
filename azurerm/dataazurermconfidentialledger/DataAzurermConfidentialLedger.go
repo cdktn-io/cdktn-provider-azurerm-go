@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger}.
 type DataAzurermConfidentialLedger interface {
 	cdktn.TerraformDataSource
 	AzureadBasedServicePrincipal() DataAzurermConfidentialLedgerAzureadBasedServicePrincipalList
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAzurermConfidentialLedger) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
 func NewDataAzurermConfidentialLedger(scope constructs.Construct, id *string, config *DataAzurermConfidentialLedgerConfig) DataAzurermConfidentialLedger {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAzurermConfidentialLedger(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/confidential_ledger azurerm_confidential_ledger} Data Source.
 func NewDataAzurermConfidentialLedger_Override(d DataAzurermConfidentialLedger, scope constructs.Construct, id *string, config *DataAzurermConfidentialLedgerConfig) {
 	_init_.Initialize()
 

@@ -151,6 +151,10 @@ func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference) validateSetManagedPip
 	return nil
 }
 
+func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference) validateSetMinimumTlsCipherSuiteParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_WindowsWebAppSiteConfigOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
 	return nil
 }

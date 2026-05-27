@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks}.
 type DataFactoryLinkedServiceAzureDatabricks interface {
 	cdktn.TerraformResource
 	AccessToken() *string
@@ -700,7 +700,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
 func NewDataFactoryLinkedServiceAzureDatabricks(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureDatabricksConfig) DataFactoryLinkedServiceAzureDatabricks {
 	_init_.Initialize()
 
@@ -718,7 +718,7 @@ func NewDataFactoryLinkedServiceAzureDatabricks(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_linked_service_azure_databricks azurerm_data_factory_linked_service_azure_databricks} Resource.
 func NewDataFactoryLinkedServiceAzureDatabricks_Override(d DataFactoryLinkedServiceAzureDatabricks, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceAzureDatabricksConfig) {
 	_init_.Initialize()
 

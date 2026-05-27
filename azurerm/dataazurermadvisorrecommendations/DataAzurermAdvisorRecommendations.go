@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations}.
 type DataAzurermAdvisorRecommendations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -30,9 +30,15 @@ type DataAzurermAdvisorRecommendations interface {
 	FilterByCategory() *[]*string
 	SetFilterByCategory(val *[]*string)
 	FilterByCategoryInput() *[]*string
+	FilterByRecommendationTypeGuids() *[]*string
+	SetFilterByRecommendationTypeGuids(val *[]*string)
+	FilterByRecommendationTypeGuidsInput() *[]*string
 	FilterByResourceGroups() *[]*string
 	SetFilterByResourceGroups(val *[]*string)
 	FilterByResourceGroupsInput() *[]*string
+	FilterByResourceIds() *[]*string
+	SetFilterByResourceIds(val *[]*string)
+	FilterByResourceIdsInput() *[]*string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -92,7 +98,9 @@ type DataAzurermAdvisorRecommendations interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutTimeouts(value *DataAzurermAdvisorRecommendationsTimeouts)
 	ResetFilterByCategory()
+	ResetFilterByRecommendationTypeGuids()
 	ResetFilterByResourceGroups()
+	ResetFilterByResourceIds()
 	ResetId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
@@ -186,6 +194,26 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations) FilterByCategoryInput() *[
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations) FilterByRecommendationTypeGuids() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"filterByRecommendationTypeGuids",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations) FilterByRecommendationTypeGuidsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"filterByRecommendationTypeGuidsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermAdvisorRecommendations) FilterByResourceGroups() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -201,6 +229,26 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations) FilterByResourceGroupsInpu
 	_jsii_.Get(
 		j,
 		"filterByResourceGroupsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations) FilterByResourceIds() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"filterByResourceIds",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations) FilterByResourceIdsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"filterByResourceIdsInput",
 		&returns,
 	)
 	return returns
@@ -357,7 +405,7 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
 func NewDataAzurermAdvisorRecommendations(scope constructs.Construct, id *string, config *DataAzurermAdvisorRecommendationsConfig) DataAzurermAdvisorRecommendations {
 	_init_.Initialize()
 
@@ -375,7 +423,7 @@ func NewDataAzurermAdvisorRecommendations(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/advisor_recommendations azurerm_advisor_recommendations} Data Source.
 func NewDataAzurermAdvisorRecommendations_Override(d DataAzurermAdvisorRecommendations, scope constructs.Construct, id *string, config *DataAzurermAdvisorRecommendationsConfig) {
 	_init_.Initialize()
 
@@ -416,6 +464,17 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations)SetFilterByCategory(val *[]
 	)
 }
 
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations)SetFilterByRecommendationTypeGuids(val *[]*string) {
+	if err := j.validateSetFilterByRecommendationTypeGuidsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"filterByRecommendationTypeGuids",
+		val,
+	)
+}
+
 func (j *jsiiProxy_DataAzurermAdvisorRecommendations)SetFilterByResourceGroups(val *[]*string) {
 	if err := j.validateSetFilterByResourceGroupsParameters(val); err != nil {
 		panic(err)
@@ -423,6 +482,17 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendations)SetFilterByResourceGroups(v
 	_jsii_.Set(
 		j,
 		"filterByResourceGroups",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAzurermAdvisorRecommendations)SetFilterByResourceIds(val *[]*string) {
+	if err := j.validateSetFilterByResourceIdsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"filterByResourceIds",
 		val,
 	)
 }
@@ -769,10 +839,26 @@ func (d *jsiiProxy_DataAzurermAdvisorRecommendations) ResetFilterByCategory() {
 	)
 }
 
+func (d *jsiiProxy_DataAzurermAdvisorRecommendations) ResetFilterByRecommendationTypeGuids() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetFilterByRecommendationTypeGuids",
+		nil, // no parameters
+	)
+}
+
 func (d *jsiiProxy_DataAzurermAdvisorRecommendations) ResetFilterByResourceGroups() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetFilterByResourceGroups",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataAzurermAdvisorRecommendations) ResetFilterByResourceIds() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetFilterByResourceIds",
 		nil, // no parameters
 	)
 }

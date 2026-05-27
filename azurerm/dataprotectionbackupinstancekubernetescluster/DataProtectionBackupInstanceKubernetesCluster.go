@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_protection_backup_instance_kubernetes_cluster azurerm_data_protection_backup_instance_kubernetes_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_protection_backup_instance_kubernetes_cluster azurerm_data_protection_backup_instance_kubernetes_cluster}.
 type DataProtectionBackupInstanceKubernetesCluster interface {
 	cdktn.TerraformResource
 	BackupDatasourceParameters() DataProtectionBackupInstanceKubernetesClusterBackupDatasourceParametersOutputReference
@@ -516,7 +516,7 @@ func (j *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) VaultIdInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_protection_backup_instance_kubernetes_cluster azurerm_data_protection_backup_instance_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_protection_backup_instance_kubernetes_cluster azurerm_data_protection_backup_instance_kubernetes_cluster} Resource.
 func NewDataProtectionBackupInstanceKubernetesCluster(scope constructs.Construct, id *string, config *DataProtectionBackupInstanceKubernetesClusterConfig) DataProtectionBackupInstanceKubernetesCluster {
 	_init_.Initialize()
 
@@ -534,7 +534,7 @@ func NewDataProtectionBackupInstanceKubernetesCluster(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_protection_backup_instance_kubernetes_cluster azurerm_data_protection_backup_instance_kubernetes_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_protection_backup_instance_kubernetes_cluster azurerm_data_protection_backup_instance_kubernetes_cluster} Resource.
 func NewDataProtectionBackupInstanceKubernetesCluster_Override(d DataProtectionBackupInstanceKubernetesCluster, scope constructs.Construct, id *string, config *DataProtectionBackupInstanceKubernetesClusterConfig) {
 	_init_.Initialize()
 

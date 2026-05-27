@@ -91,6 +91,9 @@ type WindowsWebAppSlotSiteConfigOutputReference interface {
 	ManagedPipelineMode() *string
 	SetManagedPipelineMode(val *string)
 	ManagedPipelineModeInput() *string
+	MinimumTlsCipherSuite() *string
+	SetMinimumTlsCipherSuite(val *string)
+	MinimumTlsCipherSuiteInput() *string
 	MinimumTlsVersion() *string
 	SetMinimumTlsVersion(val *string)
 	MinimumTlsVersionInput() *string
@@ -187,6 +190,7 @@ type WindowsWebAppSlotSiteConfigOutputReference interface {
 	ResetLoadBalancingMode()
 	ResetLocalMysqlEnabled()
 	ResetManagedPipelineMode()
+	ResetMinimumTlsCipherSuite()
 	ResetMinimumTlsVersion()
 	ResetRemoteDebuggingEnabled()
 	ResetRemoteDebuggingVersion()
@@ -689,6 +693,26 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) ManagedPipelineMo
 	_jsii_.Get(
 		j,
 		"managedPipelineModeInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) MinimumTlsCipherSuite() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) MinimumTlsCipherSuiteInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuiteInput",
 		&returns,
 	)
 	return returns
@@ -1207,6 +1231,17 @@ func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference)SetManagedPipeline
 	_jsii_.Set(
 		j,
 		"managedPipelineMode",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference)SetMinimumTlsCipherSuite(val *string) {
+	if err := j.validateSetMinimumTlsCipherSuiteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minimumTlsCipherSuite",
 		val,
 	)
 }
@@ -1770,6 +1805,14 @@ func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) ResetManagedPipel
 	_jsii_.InvokeVoid(
 		w,
 		"resetManagedPipelineMode",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WindowsWebAppSlotSiteConfigOutputReference) ResetMinimumTlsCipherSuite() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetMinimumTlsCipherSuite",
 		nil, // no parameters
 	)
 }

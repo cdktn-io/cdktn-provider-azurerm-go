@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/network_security_perimeter_profile azurerm_network_security_perimeter_profile}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/network_security_perimeter_profile azurerm_network_security_perimeter_profile}.
 type NetworkSecurityPerimeterProfile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_NetworkSecurityPerimeterProfile) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Resource.
 func NewNetworkSecurityPerimeterProfile(scope constructs.Construct, id *string, config *NetworkSecurityPerimeterProfileConfig) NetworkSecurityPerimeterProfile {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewNetworkSecurityPerimeterProfile(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/network_security_perimeter_profile azurerm_network_security_perimeter_profile} Resource.
 func NewNetworkSecurityPerimeterProfile_Override(n NetworkSecurityPerimeterProfile, scope constructs.Construct, id *string, config *NetworkSecurityPerimeterProfileConfig) {
 	_init_.Initialize()
 

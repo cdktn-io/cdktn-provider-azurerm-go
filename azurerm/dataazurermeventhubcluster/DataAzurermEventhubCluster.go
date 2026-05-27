@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/eventhub_cluster azurerm_eventhub_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/eventhub_cluster azurerm_eventhub_cluster}.
 type DataAzurermEventhubCluster interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_DataAzurermEventhubCluster) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/eventhub_cluster azurerm_eventhub_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/eventhub_cluster azurerm_eventhub_cluster} Data Source.
 func NewDataAzurermEventhubCluster(scope constructs.Construct, id *string, config *DataAzurermEventhubClusterConfig) DataAzurermEventhubCluster {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewDataAzurermEventhubCluster(scope constructs.Construct, id *string, confi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/eventhub_cluster azurerm_eventhub_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/eventhub_cluster azurerm_eventhub_cluster} Data Source.
 func NewDataAzurermEventhubCluster_Override(d DataAzurermEventhubCluster, scope constructs.Construct, id *string, config *DataAzurermEventhubClusterConfig) {
 	_init_.Initialize()
 

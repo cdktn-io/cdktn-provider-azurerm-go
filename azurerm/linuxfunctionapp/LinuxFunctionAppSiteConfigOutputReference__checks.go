@@ -449,6 +449,14 @@ func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) validateSetManaged
 	return nil
 }
 
+func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) validateSetMinimumTlsCipherSuiteParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_LinuxFunctionAppSiteConfigOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

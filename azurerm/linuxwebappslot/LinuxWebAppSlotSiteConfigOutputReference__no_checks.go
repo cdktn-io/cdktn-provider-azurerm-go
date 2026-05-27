@@ -147,6 +147,10 @@ func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateSetManagedP
 	return nil
 }
 
+func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateSetMinimumTlsCipherSuiteParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxWebAppSlotSiteConfigOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
 	return nil
 }

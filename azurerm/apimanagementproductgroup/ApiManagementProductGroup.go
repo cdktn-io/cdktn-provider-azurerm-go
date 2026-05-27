@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/api_management_product_group azurerm_api_management_product_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/api_management_product_group azurerm_api_management_product_group}.
 type ApiManagementProductGroup interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -435,7 +435,7 @@ func (j *jsiiProxy_ApiManagementProductGroup) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
 func NewApiManagementProductGroup(scope constructs.Construct, id *string, config *ApiManagementProductGroupConfig) ApiManagementProductGroup {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewApiManagementProductGroup(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/api_management_product_group azurerm_api_management_product_group} Resource.
 func NewApiManagementProductGroup_Override(a ApiManagementProductGroup, scope constructs.Construct, id *string, config *ApiManagementProductGroupConfig) {
 	_init_.Initialize()
 

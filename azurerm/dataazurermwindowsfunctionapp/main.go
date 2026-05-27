@@ -1868,6 +1868,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ipRestrictionDefaultAction", GoGetter: "IpRestrictionDefaultAction"},
 			_jsii_.MemberProperty{JsiiProperty: "loadBalancingMode", GoGetter: "LoadBalancingMode"},
 			_jsii_.MemberProperty{JsiiProperty: "managedPipelineMode", GoGetter: "ManagedPipelineMode"},
+			_jsii_.MemberProperty{JsiiProperty: "minimumTlsCipherSuite", GoGetter: "MinimumTlsCipherSuite"},
 			_jsii_.MemberProperty{JsiiProperty: "minimumTlsVersion", GoGetter: "MinimumTlsVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "preWarmedInstanceCount", GoGetter: "PreWarmedInstanceCount"},
 			_jsii_.MemberProperty{JsiiProperty: "remoteDebuggingEnabled", GoGetter: "RemoteDebuggingEnabled"},

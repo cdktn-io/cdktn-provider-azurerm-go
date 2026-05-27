@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/virtual_wan azurerm_virtual_wan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/virtual_wan azurerm_virtual_wan}.
 type DataAzurermVirtualWan interface {
 	cdktn.TerraformDataSource
 	AllowBranchToBranchTraffic() cdktn.IResolvable
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataAzurermVirtualWan) VpnSiteIds() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/virtual_wan azurerm_virtual_wan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/virtual_wan azurerm_virtual_wan} Data Source.
 func NewDataAzurermVirtualWan(scope constructs.Construct, id *string, config *DataAzurermVirtualWanConfig) DataAzurermVirtualWan {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDataAzurermVirtualWan(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/virtual_wan azurerm_virtual_wan} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/virtual_wan azurerm_virtual_wan} Data Source.
 func NewDataAzurermVirtualWan_Override(d DataAzurermVirtualWan, scope constructs.Construct, id *string, config *DataAzurermVirtualWanConfig) {
 	_init_.Initialize()
 

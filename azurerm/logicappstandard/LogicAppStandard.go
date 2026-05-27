@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.
 type LogicAppStandard interface {
 	cdktn.TerraformResource
 	AppServicePlanId() *string
@@ -72,6 +72,9 @@ type LogicAppStandard interface {
 	Identity() LogicAppStandardIdentityOutputReference
 	IdentityInput() *LogicAppStandardIdentity
 	IdInput() *string
+	KeyVaultReferenceIdentityId() *string
+	SetKeyVaultReferenceIdentityId(val *string)
+	KeyVaultReferenceIdentityIdInput() *string
 	Kind() *string
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
@@ -198,6 +201,7 @@ type LogicAppStandard interface {
 	ResetHttpsOnly()
 	ResetId()
 	ResetIdentity()
+	ResetKeyVaultReferenceIdentityId()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -553,6 +557,26 @@ func (j *jsiiProxy_LogicAppStandard) IdInput() *string {
 	_jsii_.Get(
 		j,
 		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LogicAppStandard) KeyVaultReferenceIdentityId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultReferenceIdentityId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LogicAppStandard) KeyVaultReferenceIdentityIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"keyVaultReferenceIdentityIdInput",
 		&returns,
 	)
 	return returns
@@ -979,7 +1003,7 @@ func (j *jsiiProxy_LogicAppStandard) VnetContentShareEnabledInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
 func NewLogicAppStandard(scope constructs.Construct, id *string, config *LogicAppStandardConfig) LogicAppStandard {
 	_init_.Initialize()
 
@@ -997,7 +1021,7 @@ func NewLogicAppStandard(scope constructs.Construct, id *string, config *LogicAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
 func NewLogicAppStandard_Override(l LogicAppStandard, scope constructs.Construct, id *string, config *LogicAppStandardConfig) {
 	_init_.Initialize()
 
@@ -1141,6 +1165,17 @@ func (j *jsiiProxy_LogicAppStandard)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LogicAppStandard)SetKeyVaultReferenceIdentityId(val *string) {
+	if err := j.validateSetKeyVaultReferenceIdentityIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"keyVaultReferenceIdentityId",
 		val,
 	)
 }
@@ -1791,6 +1826,14 @@ func (l *jsiiProxy_LogicAppStandard) ResetIdentity() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetIdentity",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LogicAppStandard) ResetKeyVaultReferenceIdentityId() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetKeyVaultReferenceIdentityId",
 		nil, // no parameters
 	)
 }

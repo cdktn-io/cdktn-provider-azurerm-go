@@ -159,6 +159,10 @@ func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigOutputReference) validateSetMan
 	return nil
 }
 
+func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigOutputReference) validateSetMinimumTlsCipherSuiteParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxFunctionAppSlotSiteConfigOutputReference) validateSetMinimumTlsVersionParameters(val *string) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/machine_learning_datastore_datalake_gen2 azurerm_machine_learning_datastore_datalake_gen2}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/machine_learning_datastore_datalake_gen2 azurerm_machine_learning_datastore_datalake_gen2}.
 type MachineLearningDatastoreDatalakeGen2 interface {
 	cdktn.TerraformResource
 	AuthorityUrl() *string
@@ -591,7 +591,7 @@ func (j *jsiiProxy_MachineLearningDatastoreDatalakeGen2) WorkspaceIdInput() *str
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/machine_learning_datastore_datalake_gen2 azurerm_machine_learning_datastore_datalake_gen2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/machine_learning_datastore_datalake_gen2 azurerm_machine_learning_datastore_datalake_gen2} Resource.
 func NewMachineLearningDatastoreDatalakeGen2(scope constructs.Construct, id *string, config *MachineLearningDatastoreDatalakeGen2Config) MachineLearningDatastoreDatalakeGen2 {
 	_init_.Initialize()
 
@@ -609,7 +609,7 @@ func NewMachineLearningDatastoreDatalakeGen2(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/machine_learning_datastore_datalake_gen2 azurerm_machine_learning_datastore_datalake_gen2} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/machine_learning_datastore_datalake_gen2 azurerm_machine_learning_datastore_datalake_gen2} Resource.
 func NewMachineLearningDatastoreDatalakeGen2_Override(m MachineLearningDatastoreDatalakeGen2, scope constructs.Construct, id *string, config *MachineLearningDatastoreDatalakeGen2Config) {
 	_init_.Initialize()
 

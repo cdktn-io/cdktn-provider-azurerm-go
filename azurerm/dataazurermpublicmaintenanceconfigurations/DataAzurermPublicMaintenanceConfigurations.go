@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations}.
 type DataAzurermPublicMaintenanceConfigurations interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -381,7 +381,7 @@ func (j *jsiiProxy_DataAzurermPublicMaintenanceConfigurations) TimeoutsInput() i
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
 func NewDataAzurermPublicMaintenanceConfigurations(scope constructs.Construct, id *string, config *DataAzurermPublicMaintenanceConfigurationsConfig) DataAzurermPublicMaintenanceConfigurations {
 	_init_.Initialize()
 
@@ -399,7 +399,7 @@ func NewDataAzurermPublicMaintenanceConfigurations(scope constructs.Construct, i
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/public_maintenance_configurations azurerm_public_maintenance_configurations} Data Source.
 func NewDataAzurermPublicMaintenanceConfigurations_Override(d DataAzurermPublicMaintenanceConfigurations, scope constructs.Construct, id *string, config *DataAzurermPublicMaintenanceConfigurationsConfig) {
 	_init_.Initialize()
 

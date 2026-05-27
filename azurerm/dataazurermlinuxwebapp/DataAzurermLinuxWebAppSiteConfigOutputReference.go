@@ -53,6 +53,7 @@ type DataAzurermLinuxWebAppSiteConfigOutputReference interface {
 	LoadBalancingMode() *string
 	LocalMysqlEnabled() cdktn.IResolvable
 	ManagedPipelineMode() *string
+	MinimumTlsCipherSuite() *string
 	MinimumTlsVersion() *string
 	RemoteDebuggingEnabled() cdktn.IResolvable
 	RemoteDebuggingVersion() *string
@@ -367,6 +368,16 @@ func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigOutputReference) ManagedPipel
 	_jsii_.Get(
 		j,
 		"managedPipelineMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermLinuxWebAppSiteConfigOutputReference) MinimumTlsCipherSuite() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuite",
 		&returns,
 	)
 	return returns

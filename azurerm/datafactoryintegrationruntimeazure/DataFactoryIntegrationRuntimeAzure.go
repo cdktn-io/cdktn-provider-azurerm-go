@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_factory_integration_runtime_azure azurerm_data_factory_integration_runtime_azure}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_integration_runtime_azure azurerm_data_factory_integration_runtime_azure}.
 type DataFactoryIntegrationRuntimeAzure interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -57,6 +57,9 @@ type DataFactoryIntegrationRuntimeAzure interface {
 	Id() *string
 	SetId(val *string)
 	IdInput() *string
+	InteractiveAuthoringTimeToLiveInMinutes() *float64
+	SetInteractiveAuthoringTimeToLiveInMinutes(val *float64)
+	InteractiveAuthoringTimeToLiveInMinutesInput() *float64
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -142,6 +145,7 @@ type DataFactoryIntegrationRuntimeAzure interface {
 	ResetCoreCount()
 	ResetDescription()
 	ResetId()
+	ResetInteractiveAuthoringTimeToLiveInMinutes()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -375,6 +379,26 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) IdInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) InteractiveAuthoringTimeToLiveInMinutes() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"interactiveAuthoringTimeToLiveInMinutes",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) InteractiveAuthoringTimeToLiveInMinutesInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"interactiveAuthoringTimeToLiveInMinutesInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -556,7 +580,7 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure) VirtualNetworkEnabledInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_factory_integration_runtime_azure azurerm_data_factory_integration_runtime_azure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_integration_runtime_azure azurerm_data_factory_integration_runtime_azure} Resource.
 func NewDataFactoryIntegrationRuntimeAzure(scope constructs.Construct, id *string, config *DataFactoryIntegrationRuntimeAzureConfig) DataFactoryIntegrationRuntimeAzure {
 	_init_.Initialize()
 
@@ -574,7 +598,7 @@ func NewDataFactoryIntegrationRuntimeAzure(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.73.0/docs/resources/data_factory_integration_runtime_azure azurerm_data_factory_integration_runtime_azure} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_integration_runtime_azure azurerm_data_factory_integration_runtime_azure} Resource.
 func NewDataFactoryIntegrationRuntimeAzure_Override(d DataFactoryIntegrationRuntimeAzure, scope constructs.Construct, id *string, config *DataFactoryIntegrationRuntimeAzureConfig) {
 	_init_.Initialize()
 
@@ -685,6 +709,17 @@ func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure)SetId(val *string) {
 	_jsii_.Set(
 		j,
 		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataFactoryIntegrationRuntimeAzure)SetInteractiveAuthoringTimeToLiveInMinutes(val *float64) {
+	if err := j.validateSetInteractiveAuthoringTimeToLiveInMinutesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"interactiveAuthoringTimeToLiveInMinutes",
 		val,
 	)
 }
@@ -1163,6 +1198,14 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) ResetId() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) ResetInteractiveAuthoringTimeToLiveInMinutes() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetInteractiveAuthoringTimeToLiveInMinutes",
 		nil, // no parameters
 	)
 }

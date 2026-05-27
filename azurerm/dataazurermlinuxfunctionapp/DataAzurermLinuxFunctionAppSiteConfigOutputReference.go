@@ -56,6 +56,7 @@ type DataAzurermLinuxFunctionAppSiteConfigOutputReference interface {
 	LinuxFxVersion() *string
 	LoadBalancingMode() *string
 	ManagedPipelineMode() *string
+	MinimumTlsCipherSuite() *string
 	MinimumTlsVersion() *string
 	PreWarmedInstanceCount() *float64
 	RemoteDebuggingEnabled() cdktn.IResolvable
@@ -402,6 +403,16 @@ func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) Managed
 	_jsii_.Get(
 		j,
 		"managedPipelineMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermLinuxFunctionAppSiteConfigOutputReference) MinimumTlsCipherSuite() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"minimumTlsCipherSuite",
 		&returns,
 	)
 	return returns

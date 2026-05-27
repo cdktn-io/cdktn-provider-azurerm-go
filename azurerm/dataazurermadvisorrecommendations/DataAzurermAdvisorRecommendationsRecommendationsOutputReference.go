@@ -32,6 +32,7 @@ type DataAzurermAdvisorRecommendationsRecommendationsOutputReference interface {
 	Description() *string
 	// Experimental.
 	Fqn() *string
+	Id() *string
 	Impact() *string
 	InternalValue() *DataAzurermAdvisorRecommendationsRecommendations
 	SetInternalValue(val *DataAzurermAdvisorRecommendationsRecommendations)
@@ -143,6 +144,16 @@ func (j *jsiiProxy_DataAzurermAdvisorRecommendationsRecommendationsOutputReferen
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermAdvisorRecommendationsRecommendationsOutputReference) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
 		&returns,
 	)
 	return returns
