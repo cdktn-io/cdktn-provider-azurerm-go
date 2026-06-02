@@ -5,7 +5,7 @@ package dataazurermcontainerappenvironmentstorage
 
 
 type DataAzurermContainerAppEnvironmentStorageTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/container_app_environment_storage#read DataAzurermContainerAppEnvironmentStorage#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/container_app_environment_storage#read DataAzurermContainerAppEnvironmentStorage#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

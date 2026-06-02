@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/eventhub_authorization_rule azurerm_eventhub_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/eventhub_authorization_rule azurerm_eventhub_authorization_rule}.
 type DataAzurermEventhubAuthorizationRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -528,7 +528,7 @@ func (j *jsiiProxy_DataAzurermEventhubAuthorizationRule) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Data Source.
 func NewDataAzurermEventhubAuthorizationRule(scope constructs.Construct, id *string, config *DataAzurermEventhubAuthorizationRuleConfig) DataAzurermEventhubAuthorizationRule {
 	_init_.Initialize()
 
@@ -546,7 +546,7 @@ func NewDataAzurermEventhubAuthorizationRule(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/eventhub_authorization_rule azurerm_eventhub_authorization_rule} Data Source.
 func NewDataAzurermEventhubAuthorizationRule_Override(d DataAzurermEventhubAuthorizationRule, scope constructs.Construct, id *string, config *DataAzurermEventhubAuthorizationRuleConfig) {
 	_init_.Initialize()
 

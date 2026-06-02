@@ -18,6 +18,9 @@ type ApplicationGatewayBackendHttpSettingsOutputReference interface {
 	AffinityCookieNameInput() *string
 	AuthenticationCertificate() ApplicationGatewayBackendHttpSettingsAuthenticationCertificateList
 	AuthenticationCertificateInput() interface{}
+	CertificateChainValidationEnabled() interface{}
+	SetCertificateChainValidationEnabled(val interface{})
+	CertificateChainValidationEnabledInput() interface{}
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -71,6 +74,12 @@ type ApplicationGatewayBackendHttpSettingsOutputReference interface {
 	RequestTimeout() *float64
 	SetRequestTimeout(val *float64)
 	RequestTimeoutInput() *float64
+	SniName() *string
+	SetSniName(val *string)
+	SniNameInput() *string
+	SniValidationEnabled() interface{}
+	SetSniValidationEnabled(val interface{})
+	SniValidationEnabledInput() interface{}
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -110,6 +119,7 @@ type ApplicationGatewayBackendHttpSettingsOutputReference interface {
 	PutConnectionDraining(value *ApplicationGatewayBackendHttpSettingsConnectionDraining)
 	ResetAffinityCookieName()
 	ResetAuthenticationCertificate()
+	ResetCertificateChainValidationEnabled()
 	ResetConnectionDraining()
 	ResetDedicatedBackendConnectionEnabled()
 	ResetHostName()
@@ -117,6 +127,8 @@ type ApplicationGatewayBackendHttpSettingsOutputReference interface {
 	ResetPickHostNameFromBackendAddress()
 	ResetProbeName()
 	ResetRequestTimeout()
+	ResetSniName()
+	ResetSniValidationEnabled()
 	ResetTrustedRootCertificateNames()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -168,6 +180,26 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) Authent
 	_jsii_.Get(
 		j,
 		"authenticationCertificateInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) CertificateChainValidationEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"certificateChainValidationEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) CertificateChainValidationEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"certificateChainValidationEnabledInput",
 		&returns,
 	)
 	return returns
@@ -463,6 +495,46 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) Request
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) SniName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sniName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) SniNameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sniNameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) SniValidationEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sniValidationEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) SniValidationEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"sniValidationEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -538,6 +610,17 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference)SetAffin
 	_jsii_.Set(
 		j,
 		"affinityCookieName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference)SetCertificateChainValidationEnabled(val interface{}) {
+	if err := j.validateSetCertificateChainValidationEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"certificateChainValidationEnabled",
 		val,
 	)
 }
@@ -681,6 +764,28 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference)SetReque
 	_jsii_.Set(
 		j,
 		"requestTimeout",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference)SetSniName(val *string) {
+	if err := j.validateSetSniNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sniName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference)SetSniValidationEnabled(val interface{}) {
+	if err := j.validateSetSniValidationEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"sniValidationEnabled",
 		val,
 	)
 }
@@ -942,6 +1047,14 @@ func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetAu
 	)
 }
 
+func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetCertificateChainValidationEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetCertificateChainValidationEnabled",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetConnectionDraining() {
 	_jsii_.InvokeVoid(
 		a,
@@ -994,6 +1107,22 @@ func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetRe
 	_jsii_.InvokeVoid(
 		a,
 		"resetRequestTimeout",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetSniName() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetSniName",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) ResetSniValidationEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetSniValidationEnabled",
 		nil, // no parameters
 	)
 }

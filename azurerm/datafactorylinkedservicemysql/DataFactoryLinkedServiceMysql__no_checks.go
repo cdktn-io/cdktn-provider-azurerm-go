@@ -123,6 +123,10 @@ func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetDescriptionParamete
 	return nil
 }
 
+func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetDriverVersionParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetIdParameters(val *string) error {
 	return nil
 }

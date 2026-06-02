@@ -47,6 +47,10 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	return nil
 }
 
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) validatePutVirtualMachineSizeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
 	return nil
 }

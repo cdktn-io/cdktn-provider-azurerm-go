@@ -63,6 +63,10 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validateSetCertificateChainValidationEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
 	return nil
 }
@@ -112,6 +116,14 @@ func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validat
 }
 
 func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validateSetRequestTimeoutParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validateSetSniNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_ApplicationGatewayBackendHttpSettingsOutputReference) validateSetSniValidationEnabledParameters(val interface{}) error {
 	return nil
 }
 

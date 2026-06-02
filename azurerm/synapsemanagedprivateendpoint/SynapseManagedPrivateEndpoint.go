@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint}.
 type SynapseManagedPrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_SynapseManagedPrivateEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
 func NewSynapseManagedPrivateEndpoint(scope constructs.Construct, id *string, config *SynapseManagedPrivateEndpointConfig) SynapseManagedPrivateEndpoint {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewSynapseManagedPrivateEndpoint(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/synapse_managed_private_endpoint azurerm_synapse_managed_private_endpoint} Resource.
 func NewSynapseManagedPrivateEndpoint_Override(s SynapseManagedPrivateEndpoint, scope constructs.Construct, id *string, config *SynapseManagedPrivateEndpointConfig) {
 	_init_.Initialize()
 

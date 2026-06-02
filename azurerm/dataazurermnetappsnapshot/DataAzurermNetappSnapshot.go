@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/netapp_snapshot azurerm_netapp_snapshot}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/netapp_snapshot azurerm_netapp_snapshot}.
 type DataAzurermNetappSnapshot interface {
 	cdktn.TerraformDataSource
 	AccountName() *string
@@ -424,7 +424,7 @@ func (j *jsiiProxy_DataAzurermNetappSnapshot) VolumeNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/netapp_snapshot azurerm_netapp_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/netapp_snapshot azurerm_netapp_snapshot} Data Source.
 func NewDataAzurermNetappSnapshot(scope constructs.Construct, id *string, config *DataAzurermNetappSnapshotConfig) DataAzurermNetappSnapshot {
 	_init_.Initialize()
 
@@ -442,7 +442,7 @@ func NewDataAzurermNetappSnapshot(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/netapp_snapshot azurerm_netapp_snapshot} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/netapp_snapshot azurerm_netapp_snapshot} Data Source.
 func NewDataAzurermNetappSnapshot_Override(d DataAzurermNetappSnapshot, scope constructs.Construct, id *string, config *DataAzurermNetappSnapshotConfig) {
 	_init_.Initialize()
 

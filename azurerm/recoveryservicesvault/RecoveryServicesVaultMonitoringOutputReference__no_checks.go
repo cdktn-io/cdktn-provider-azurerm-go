@@ -51,7 +51,15 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateResol
 	return nil
 }
 
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetAlertsForAllFailoverIssuesEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetAlertsForAllJobFailuresEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetAlertsForAllReplicationIssuesEnabledParameters(val interface{}) error {
 	return nil
 }
 
@@ -64,6 +72,10 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetCo
 }
 
 func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) validateSetEmailNotificationsForSiteRecoveryEnabledParameters(val interface{}) error {
 	return nil
 }
 

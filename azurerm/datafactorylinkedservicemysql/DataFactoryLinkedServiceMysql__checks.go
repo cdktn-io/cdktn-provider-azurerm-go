@@ -388,6 +388,14 @@ func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetDescriptionParamete
 	return nil
 }
 
+func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetDriverVersionParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_DataFactoryLinkedServiceMysql) validateSetIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

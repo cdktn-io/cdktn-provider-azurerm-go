@@ -15,6 +15,7 @@ type DataAzurermApplicationGatewayBackendHttpSettingsOutputReference interface {
 	cdktn.ComplexObject
 	AffinityCookieName() *string
 	AuthenticationCertificate() DataAzurermApplicationGatewayBackendHttpSettingsAuthenticationCertificateList
+	CertificateChainValidationEnabled() cdktn.IResolvable
 	// the index of the complex object in a list.
 	// Experimental.
 	ComplexObjectIndex() interface{}
@@ -47,6 +48,8 @@ type DataAzurermApplicationGatewayBackendHttpSettingsOutputReference interface {
 	ProbeName() *string
 	Protocol() *string
 	RequestTimeout() *float64
+	SniName() *string
+	SniValidationEnabled() cdktn.IResolvable
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -110,6 +113,16 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsOutputReferen
 	_jsii_.Get(
 		j,
 		"authenticationCertificate",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsOutputReference) CertificateChainValidationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"certificateChainValidationEnabled",
 		&returns,
 	)
 	return returns
@@ -290,6 +303,26 @@ func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsOutputReferen
 	_jsii_.Get(
 		j,
 		"requestTimeout",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsOutputReference) SniName() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"sniName",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermApplicationGatewayBackendHttpSettingsOutputReference) SniValidationEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"sniValidationEnabled",
 		&returns,
 	)
 	return returns

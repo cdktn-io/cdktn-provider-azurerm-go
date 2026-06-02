@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/virtual_network_peering azurerm_virtual_network_peering}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/virtual_network_peering azurerm_virtual_network_peering}.
 type VirtualNetworkPeering interface {
 	cdktn.TerraformResource
 	AllowForwardedTraffic() interface{}
@@ -651,7 +651,7 @@ func (j *jsiiProxy_VirtualNetworkPeering) VirtualNetworkNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/virtual_network_peering azurerm_virtual_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/virtual_network_peering azurerm_virtual_network_peering} Resource.
 func NewVirtualNetworkPeering(scope constructs.Construct, id *string, config *VirtualNetworkPeeringConfig) VirtualNetworkPeering {
 	_init_.Initialize()
 
@@ -669,7 +669,7 @@ func NewVirtualNetworkPeering(scope constructs.Construct, id *string, config *Vi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/virtual_network_peering azurerm_virtual_network_peering} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/virtual_network_peering azurerm_virtual_network_peering} Resource.
 func NewVirtualNetworkPeering_Override(v VirtualNetworkPeering, scope constructs.Construct, id *string, config *VirtualNetworkPeeringConfig) {
 	_init_.Initialize()
 

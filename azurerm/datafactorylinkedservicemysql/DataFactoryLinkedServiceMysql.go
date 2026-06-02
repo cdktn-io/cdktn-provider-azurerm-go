@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_linked_service_mysql azurerm_data_factory_linked_service_mysql}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/data_factory_linked_service_mysql azurerm_data_factory_linked_service_mysql}.
 type DataFactoryLinkedServiceMysql interface {
 	cdktn.TerraformResource
 	AdditionalProperties() *map[string]*string
@@ -46,6 +46,9 @@ type DataFactoryLinkedServiceMysql interface {
 	Description() *string
 	SetDescription(val *string)
 	DescriptionInput() *string
+	DriverVersion() *string
+	SetDriverVersion(val *string)
+	DriverVersionInput() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -137,6 +140,7 @@ type DataFactoryLinkedServiceMysql interface {
 	ResetAdditionalProperties()
 	ResetAnnotations()
 	ResetDescription()
+	ResetDriverVersion()
 	ResetId()
 	ResetIntegrationRuntimeName()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -316,6 +320,26 @@ func (j *jsiiProxy_DataFactoryLinkedServiceMysql) DescriptionInput() *string {
 	_jsii_.Get(
 		j,
 		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFactoryLinkedServiceMysql) DriverVersion() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"driverVersion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataFactoryLinkedServiceMysql) DriverVersionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"driverVersionInput",
 		&returns,
 	)
 	return returns
@@ -532,7 +556,7 @@ func (j *jsiiProxy_DataFactoryLinkedServiceMysql) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_linked_service_mysql azurerm_data_factory_linked_service_mysql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/data_factory_linked_service_mysql azurerm_data_factory_linked_service_mysql} Resource.
 func NewDataFactoryLinkedServiceMysql(scope constructs.Construct, id *string, config *DataFactoryLinkedServiceMysqlConfig) DataFactoryLinkedServiceMysql {
 	_init_.Initialize()
 
@@ -550,7 +574,7 @@ func NewDataFactoryLinkedServiceMysql(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/data_factory_linked_service_mysql azurerm_data_factory_linked_service_mysql} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/data_factory_linked_service_mysql azurerm_data_factory_linked_service_mysql} Resource.
 func NewDataFactoryLinkedServiceMysql_Override(d DataFactoryLinkedServiceMysql, scope constructs.Construct, id *string, config *DataFactoryLinkedServiceMysqlConfig) {
 	_init_.Initialize()
 
@@ -642,6 +666,17 @@ func (j *jsiiProxy_DataFactoryLinkedServiceMysql)SetDescription(val *string) {
 	_jsii_.Set(
 		j,
 		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataFactoryLinkedServiceMysql)SetDriverVersion(val *string) {
+	if err := j.validateSetDriverVersionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"driverVersion",
 		val,
 	)
 }
@@ -1112,6 +1147,14 @@ func (d *jsiiProxy_DataFactoryLinkedServiceMysql) ResetDescription() {
 	_jsii_.InvokeVoid(
 		d,
 		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceMysql) ResetDriverVersion() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDriverVersion",
 		nil, // no parameters
 	)
 }

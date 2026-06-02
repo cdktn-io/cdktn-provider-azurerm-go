@@ -13,9 +13,15 @@ import (
 
 type RecoveryServicesVaultMonitoringOutputReference interface {
 	cdktn.ComplexObject
+	AlertsForAllFailoverIssuesEnabled() interface{}
+	SetAlertsForAllFailoverIssuesEnabled(val interface{})
+	AlertsForAllFailoverIssuesEnabledInput() interface{}
 	AlertsForAllJobFailuresEnabled() interface{}
 	SetAlertsForAllJobFailuresEnabled(val interface{})
 	AlertsForAllJobFailuresEnabledInput() interface{}
+	AlertsForAllReplicationIssuesEnabled() interface{}
+	SetAlertsForAllReplicationIssuesEnabled(val interface{})
+	AlertsForAllReplicationIssuesEnabledInput() interface{}
 	AlertsForCriticalOperationFailuresEnabled() interface{}
 	SetAlertsForCriticalOperationFailuresEnabled(val interface{})
 	AlertsForCriticalOperationFailuresEnabledInput() interface{}
@@ -34,6 +40,9 @@ type RecoveryServicesVaultMonitoringOutputReference interface {
 	// If this returns an empty array the stack will not be attached.
 	// Experimental.
 	CreationStack() *[]*string
+	EmailNotificationsForSiteRecoveryEnabled() interface{}
+	SetEmailNotificationsForSiteRecoveryEnabled(val interface{})
+	EmailNotificationsForSiteRecoveryEnabledInput() interface{}
 	// Experimental.
 	Fqn() *string
 	InternalValue() *RecoveryServicesVaultMonitoring
@@ -70,8 +79,11 @@ type RecoveryServicesVaultMonitoringOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	ResetAlertsForAllFailoverIssuesEnabled()
 	ResetAlertsForAllJobFailuresEnabled()
+	ResetAlertsForAllReplicationIssuesEnabled()
 	ResetAlertsForCriticalOperationFailuresEnabled()
+	ResetEmailNotificationsForSiteRecoveryEnabled()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -85,6 +97,26 @@ type RecoveryServicesVaultMonitoringOutputReference interface {
 // The jsii proxy struct for RecoveryServicesVaultMonitoringOutputReference
 type jsiiProxy_RecoveryServicesVaultMonitoringOutputReference struct {
 	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) AlertsForAllFailoverIssuesEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"alertsForAllFailoverIssuesEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) AlertsForAllFailoverIssuesEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"alertsForAllFailoverIssuesEnabledInput",
+		&returns,
+	)
+	return returns
 }
 
 func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) AlertsForAllJobFailuresEnabled() interface{} {
@@ -102,6 +134,26 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) AlertsForAllJ
 	_jsii_.Get(
 		j,
 		"alertsForAllJobFailuresEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) AlertsForAllReplicationIssuesEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"alertsForAllReplicationIssuesEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) AlertsForAllReplicationIssuesEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"alertsForAllReplicationIssuesEnabledInput",
 		&returns,
 	)
 	return returns
@@ -152,6 +204,26 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) CreationStack
 	_jsii_.Get(
 		j,
 		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) EmailNotificationsForSiteRecoveryEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"emailNotificationsForSiteRecoveryEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) EmailNotificationsForSiteRecoveryEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"emailNotificationsForSiteRecoveryEnabledInput",
 		&returns,
 	)
 	return returns
@@ -225,6 +297,17 @@ func NewRecoveryServicesVaultMonitoringOutputReference_Override(r RecoveryServic
 	)
 }
 
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetAlertsForAllFailoverIssuesEnabled(val interface{}) {
+	if err := j.validateSetAlertsForAllFailoverIssuesEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"alertsForAllFailoverIssuesEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetAlertsForAllJobFailuresEnabled(val interface{}) {
 	if err := j.validateSetAlertsForAllJobFailuresEnabledParameters(val); err != nil {
 		panic(err)
@@ -232,6 +315,17 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetAlertsForAl
 	_jsii_.Set(
 		j,
 		"alertsForAllJobFailuresEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetAlertsForAllReplicationIssuesEnabled(val interface{}) {
+	if err := j.validateSetAlertsForAllReplicationIssuesEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"alertsForAllReplicationIssuesEnabled",
 		val,
 	)
 }
@@ -265,6 +359,17 @@ func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetComplexObje
 	_jsii_.Set(
 		j,
 		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference)SetEmailNotificationsForSiteRecoveryEnabled(val interface{}) {
+	if err := j.validateSetEmailNotificationsForSiteRecoveryEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"emailNotificationsForSiteRecoveryEnabled",
 		val,
 	)
 }
@@ -488,6 +593,14 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) Interpolation
 	return returns
 }
 
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) ResetAlertsForAllFailoverIssuesEnabled() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetAlertsForAllFailoverIssuesEnabled",
+		nil, // no parameters
+	)
+}
+
 func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) ResetAlertsForAllJobFailuresEnabled() {
 	_jsii_.InvokeVoid(
 		r,
@@ -496,10 +609,26 @@ func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) ResetAlertsFo
 	)
 }
 
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) ResetAlertsForAllReplicationIssuesEnabled() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetAlertsForAllReplicationIssuesEnabled",
+		nil, // no parameters
+	)
+}
+
 func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) ResetAlertsForCriticalOperationFailuresEnabled() {
 	_jsii_.InvokeVoid(
 		r,
 		"resetAlertsForCriticalOperationFailuresEnabled",
+		nil, // no parameters
+	)
+}
+
+func (r *jsiiProxy_RecoveryServicesVaultMonitoringOutputReference) ResetEmailNotificationsForSiteRecoveryEnabled() {
+	_jsii_.InvokeVoid(
+		r,
+		"resetEmailNotificationsForSiteRecoveryEnabled",
 		nil, // no parameters
 	)
 }

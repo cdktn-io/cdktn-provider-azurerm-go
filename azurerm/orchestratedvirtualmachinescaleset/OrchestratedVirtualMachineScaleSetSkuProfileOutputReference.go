@@ -43,6 +43,8 @@ type OrchestratedVirtualMachineScaleSetSkuProfileOutputReference interface {
 	TerraformResource() cdktn.IInterpolatingParent
 	// Experimental.
 	SetTerraformResource(val cdktn.IInterpolatingParent)
+	VirtualMachineSize() OrchestratedVirtualMachineScaleSetSkuProfileVirtualMachineSizeList
+	VirtualMachineSizeInput() interface{}
 	VmSizes() *[]*string
 	SetVmSizes(val *[]*string)
 	VmSizesInput() *[]*string
@@ -70,6 +72,9 @@ type OrchestratedVirtualMachineScaleSetSkuProfileOutputReference interface {
 	InterpolationAsList() cdktn.IResolvable
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	PutVirtualMachineSize(value interface{})
+	ResetVirtualMachineSize()
+	ResetVmSizes()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -170,6 +175,26 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	_jsii_.Get(
 		j,
 		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) VirtualMachineSize() OrchestratedVirtualMachineScaleSetSkuProfileVirtualMachineSizeList {
+	var returns OrchestratedVirtualMachineScaleSetSkuProfileVirtualMachineSizeList
+	_jsii_.Get(
+		j,
+		"virtualMachineSize",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) VirtualMachineSizeInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"virtualMachineSizeInput",
 		&returns,
 	)
 	return returns
@@ -484,6 +509,33 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) 
 	)
 
 	return returns
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) PutVirtualMachineSize(value interface{}) {
+	if err := o.validatePutVirtualMachineSizeParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		o,
+		"putVirtualMachineSize",
+		[]interface{}{value},
+	)
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) ResetVirtualMachineSize() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetVirtualMachineSize",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) ResetVmSizes() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetVmSizes",
+		nil, // no parameters
+	)
 }
 
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetSkuProfileOutputReference) Resolve(context cdktn.IResolveContext) interface{} {

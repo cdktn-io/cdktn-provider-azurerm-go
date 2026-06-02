@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/automation_account azurerm_automation_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/automation_account azurerm_automation_account}.
 type DataAzurermAutomationAccount interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataAzurermAutomationAccount) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
 func NewDataAzurermAutomationAccount(scope constructs.Construct, id *string, config *DataAzurermAutomationAccountConfig) DataAzurermAutomationAccount {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewDataAzurermAutomationAccount(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/automation_account azurerm_automation_account} Data Source.
 func NewDataAzurermAutomationAccount_Override(d DataAzurermAutomationAccount, scope constructs.Construct, id *string, config *DataAzurermAutomationAccountConfig) {
 	_init_.Initialize()
 

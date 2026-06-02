@@ -74,6 +74,7 @@ type ApiManagementBackendProxyOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetPassword()
+	ResetUsername()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -525,6 +526,14 @@ func (a *jsiiProxy_ApiManagementBackendProxyOutputReference) ResetPassword() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetPassword",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiManagementBackendProxyOutputReference) ResetUsername() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetUsername",
 		nil, // no parameters
 	)
 }

@@ -433,6 +433,7 @@ func init() {
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "affinityCookieName", GoGetter: "AffinityCookieName"},
 			_jsii_.MemberProperty{JsiiProperty: "authenticationCertificate", GoGetter: "AuthenticationCertificate"},
+			_jsii_.MemberProperty{JsiiProperty: "certificateChainValidationEnabled", GoGetter: "CertificateChainValidationEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -464,6 +465,8 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "protocol", GoGetter: "Protocol"},
 			_jsii_.MemberProperty{JsiiProperty: "requestTimeout", GoGetter: "RequestTimeout"},
 			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "sniName", GoGetter: "SniName"},
+			_jsii_.MemberProperty{JsiiProperty: "sniValidationEnabled", GoGetter: "SniValidationEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
 			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},

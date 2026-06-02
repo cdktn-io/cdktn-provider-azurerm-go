@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/site_recovery_fabric azurerm_site_recovery_fabric}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/site_recovery_fabric azurerm_site_recovery_fabric}.
 type SiteRecoveryFabric interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -435,7 +435,7 @@ func (j *jsiiProxy_SiteRecoveryFabric) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/site_recovery_fabric azurerm_site_recovery_fabric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/site_recovery_fabric azurerm_site_recovery_fabric} Resource.
 func NewSiteRecoveryFabric(scope constructs.Construct, id *string, config *SiteRecoveryFabricConfig) SiteRecoveryFabric {
 	_init_.Initialize()
 
@@ -453,7 +453,7 @@ func NewSiteRecoveryFabric(scope constructs.Construct, id *string, config *SiteR
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.74.0/docs/resources/site_recovery_fabric azurerm_site_recovery_fabric} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/site_recovery_fabric azurerm_site_recovery_fabric} Resource.
 func NewSiteRecoveryFabric_Override(s SiteRecoveryFabric, scope constructs.Construct, id *string, config *SiteRecoveryFabricConfig) {
 	_init_.Initialize()
 
