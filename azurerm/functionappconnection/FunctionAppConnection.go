@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/function_app_connection azurerm_function_app_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/function_app_connection azurerm_function_app_connection}.
 type FunctionAppConnection interface {
 	cdktn.TerraformResource
 	Authentication() FunctionAppConnectionAuthenticationOutputReference
@@ -507,7 +507,7 @@ func (j *jsiiProxy_FunctionAppConnection) VnetSolutionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
 func NewFunctionAppConnection(scope constructs.Construct, id *string, config *FunctionAppConnectionConfig) FunctionAppConnection {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewFunctionAppConnection(scope constructs.Construct, id *string, config *Fu
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/function_app_connection azurerm_function_app_connection} Resource.
 func NewFunctionAppConnection_Override(f FunctionAppConnection, scope constructs.Construct, id *string, config *FunctionAppConnectionConfig) {
 	_init_.Initialize()
 

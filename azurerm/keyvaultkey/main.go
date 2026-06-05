@@ -66,15 +66,19 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "provisioners", GoGetter: "Provisioners"},
 			_jsii_.MemberProperty{JsiiProperty: "publicKeyOpenssh", GoGetter: "PublicKeyOpenssh"},
 			_jsii_.MemberProperty{JsiiProperty: "publicKeyPem", GoGetter: "PublicKeyPem"},
+			_jsii_.MemberMethod{JsiiMethod: "putReleasePolicy", GoMethod: "PutReleasePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putRotationPolicy", GoMethod: "PutRotationPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "releasePolicy", GoGetter: "ReleasePolicy"},
+			_jsii_.MemberProperty{JsiiProperty: "releasePolicyInput", GoGetter: "ReleasePolicyInput"},
 			_jsii_.MemberMethod{JsiiMethod: "resetCurve", GoMethod: "ResetCurve"},
 			_jsii_.MemberMethod{JsiiMethod: "resetExpirationDate", GoMethod: "ResetExpirationDate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetKeySize", GoMethod: "ResetKeySize"},
 			_jsii_.MemberMethod{JsiiMethod: "resetNotBeforeDate", GoMethod: "ResetNotBeforeDate"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetReleasePolicy", GoMethod: "ResetReleasePolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetRotationPolicy", GoMethod: "ResetRotationPolicy"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
@@ -110,6 +114,47 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyConfig",
 		reflect.TypeOf((*KeyVaultKeyConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyReleasePolicy",
+		reflect.TypeOf((*KeyVaultKeyReleasePolicy)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyReleasePolicyOutputReference",
+		reflect.TypeOf((*KeyVaultKeyReleasePolicyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "immutable", GoGetter: "Immutable"},
+			_jsii_.MemberProperty{JsiiProperty: "immutableInput", GoGetter: "ImmutableInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "json", GoGetter: "Json"},
+			_jsii_.MemberProperty{JsiiProperty: "jsonInput", GoGetter: "JsonInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetImmutable", GoMethod: "ResetImmutable"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_KeyVaultKeyReleasePolicyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.keyVaultKey.KeyVaultKeyRotationPolicy",

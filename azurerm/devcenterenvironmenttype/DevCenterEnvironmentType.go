@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/dev_center_environment_type azurerm_dev_center_environment_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/dev_center_environment_type azurerm_dev_center_environment_type}.
 type DevCenterEnvironmentType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_DevCenterEnvironmentType) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/dev_center_environment_type azurerm_dev_center_environment_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/dev_center_environment_type azurerm_dev_center_environment_type} Resource.
 func NewDevCenterEnvironmentType(scope constructs.Construct, id *string, config *DevCenterEnvironmentTypeConfig) DevCenterEnvironmentType {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewDevCenterEnvironmentType(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/dev_center_environment_type azurerm_dev_center_environment_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/dev_center_environment_type azurerm_dev_center_environment_type} Resource.
 func NewDevCenterEnvironmentType_Override(d DevCenterEnvironmentType, scope constructs.Construct, id *string, config *DevCenterEnvironmentTypeConfig) {
 	_init_.Initialize()
 

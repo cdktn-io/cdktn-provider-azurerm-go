@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/storage_share_file azurerm_storage_share_file}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_share_file azurerm_storage_share_file}.
 type StorageShareFile interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -593,7 +593,7 @@ func (j *jsiiProxy_StorageShareFile) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile(scope constructs.Construct, id *string, config *StorageShareFileConfig) StorageShareFile {
 	_init_.Initialize()
 
@@ -611,7 +611,7 @@ func NewStorageShareFile(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_share_file azurerm_storage_share_file} Resource.
 func NewStorageShareFile_Override(s StorageShareFile, scope constructs.Construct, id *string, config *StorageShareFileConfig) {
 	_init_.Initialize()
 

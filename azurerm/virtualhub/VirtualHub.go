@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/virtual_hub azurerm_virtual_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/virtual_hub azurerm_virtual_hub}.
 type VirtualHub interface {
 	cdktn.TerraformResource
 	AddressPrefix() *string
@@ -637,7 +637,7 @@ func (j *jsiiProxy_VirtualHub) VirtualWanIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
 func NewVirtualHub(scope constructs.Construct, id *string, config *VirtualHubConfig) VirtualHub {
 	_init_.Initialize()
 
@@ -655,7 +655,7 @@ func NewVirtualHub(scope constructs.Construct, id *string, config *VirtualHubCon
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/virtual_hub azurerm_virtual_hub} Resource.
 func NewVirtualHub_Override(v VirtualHub, scope constructs.Construct, id *string, config *VirtualHubConfig) {
 	_init_.Initialize()
 

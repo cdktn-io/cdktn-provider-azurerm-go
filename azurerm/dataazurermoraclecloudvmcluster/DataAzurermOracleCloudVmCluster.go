@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster}.
 type DataAzurermOracleCloudVmCluster interface {
 	cdktn.TerraformDataSource
 	BackupSubnetCidr() *string
@@ -905,7 +905,7 @@ func (j *jsiiProxy_DataAzurermOracleCloudVmCluster) ZoneId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
 func NewDataAzurermOracleCloudVmCluster(scope constructs.Construct, id *string, config *DataAzurermOracleCloudVmClusterConfig) DataAzurermOracleCloudVmCluster {
 	_init_.Initialize()
 
@@ -923,7 +923,7 @@ func NewDataAzurermOracleCloudVmCluster(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/oracle_cloud_vm_cluster azurerm_oracle_cloud_vm_cluster} Data Source.
 func NewDataAzurermOracleCloudVmCluster_Override(d DataAzurermOracleCloudVmCluster, scope constructs.Construct, id *string, config *DataAzurermOracleCloudVmClusterConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy}.
 type SiteRecoveryReplicationPolicy interface {
 	cdktn.TerraformResource
 	ApplicationConsistentSnapshotFrequencyInMinutes() *float64
@@ -458,7 +458,7 @@ func (j *jsiiProxy_SiteRecoveryReplicationPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
 func NewSiteRecoveryReplicationPolicy(scope constructs.Construct, id *string, config *SiteRecoveryReplicationPolicyConfig) SiteRecoveryReplicationPolicy {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewSiteRecoveryReplicationPolicy(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/site_recovery_replication_policy azurerm_site_recovery_replication_policy} Resource.
 func NewSiteRecoveryReplicationPolicy_Override(s SiteRecoveryReplicationPolicy, scope constructs.Construct, id *string, config *SiteRecoveryReplicationPolicyConfig) {
 	_init_.Initialize()
 

@@ -5,9 +5,9 @@ package orchestratedvirtualmachinescaleset
 
 
 type OrchestratedVirtualMachineScaleSetSkuProfileVirtualMachineSize struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/orchestrated_virtual_machine_scale_set#name OrchestratedVirtualMachineScaleSet#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/orchestrated_virtual_machine_scale_set#name OrchestratedVirtualMachineScaleSet#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/orchestrated_virtual_machine_scale_set#rank OrchestratedVirtualMachineScaleSet#rank}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/orchestrated_virtual_machine_scale_set#rank OrchestratedVirtualMachineScaleSet#rank}.
 	Rank *float64 `field:"optional" json:"rank" yaml:"rank"`
 }
 

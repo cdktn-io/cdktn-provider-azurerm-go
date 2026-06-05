@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener}.
 type MssqlVirtualMachineAvailabilityGroupListener interface {
 	cdktn.TerraformResource
 	AvailabilityGroupName() *string
@@ -508,7 +508,7 @@ func (j *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) TimeoutsInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
 func NewMssqlVirtualMachineAvailabilityGroupListener(scope constructs.Construct, id *string, config *MssqlVirtualMachineAvailabilityGroupListenerConfig) MssqlVirtualMachineAvailabilityGroupListener {
 	_init_.Initialize()
 
@@ -526,7 +526,7 @@ func NewMssqlVirtualMachineAvailabilityGroupListener(scope constructs.Construct,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mssql_virtual_machine_availability_group_listener azurerm_mssql_virtual_machine_availability_group_listener} Resource.
 func NewMssqlVirtualMachineAvailabilityGroupListener_Override(m MssqlVirtualMachineAvailabilityGroupListener, scope constructs.Construct, id *string, config *MssqlVirtualMachineAvailabilityGroupListenerConfig) {
 	_init_.Initialize()
 

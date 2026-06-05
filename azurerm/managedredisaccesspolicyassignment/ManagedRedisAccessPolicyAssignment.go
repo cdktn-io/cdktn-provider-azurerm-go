@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment}.
 type ManagedRedisAccessPolicyAssignment interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ManagedRedisAccessPolicyAssignment) TimeoutsInput() interface
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Resource.
 func NewManagedRedisAccessPolicyAssignment(scope constructs.Construct, id *string, config *ManagedRedisAccessPolicyAssignmentConfig) ManagedRedisAccessPolicyAssignment {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewManagedRedisAccessPolicyAssignment(scope constructs.Construct, id *strin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/managed_redis_access_policy_assignment azurerm_managed_redis_access_policy_assignment} Resource.
 func NewManagedRedisAccessPolicyAssignment_Override(m ManagedRedisAccessPolicyAssignment, scope constructs.Construct, id *string, config *ManagedRedisAccessPolicyAssignmentConfig) {
 	_init_.Initialize()
 

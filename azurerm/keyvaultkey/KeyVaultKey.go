@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/key_vault_key azurerm_key_vault_key}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/key_vault_key azurerm_key_vault_key}.
 type KeyVaultKey interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -86,6 +86,8 @@ type KeyVaultKey interface {
 	PublicKeyPem() *string
 	// Experimental.
 	RawOverrides() interface{}
+	ReleasePolicy() KeyVaultKeyReleasePolicyOutputReference
+	ReleasePolicyInput() *KeyVaultKeyReleasePolicy
 	ResourceId() *string
 	ResourceVersionlessId() *string
 	RotationPolicy() KeyVaultKeyRotationPolicyOutputReference
@@ -148,6 +150,7 @@ type KeyVaultKey interface {
 	// Overrides the auto-generated logical ID with a specific ID.
 	// Experimental.
 	OverrideLogicalId(newLogicalId *string)
+	PutReleasePolicy(value *KeyVaultKeyReleasePolicy)
 	PutRotationPolicy(value *KeyVaultKeyRotationPolicy)
 	PutTimeouts(value *KeyVaultKeyTimeouts)
 	ResetCurve()
@@ -158,6 +161,7 @@ type KeyVaultKey interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetReleasePolicy()
 	ResetRotationPolicy()
 	ResetTags()
 	ResetTimeouts()
@@ -538,6 +542,26 @@ func (j *jsiiProxy_KeyVaultKey) RawOverrides() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_KeyVaultKey) ReleasePolicy() KeyVaultKeyReleasePolicyOutputReference {
+	var returns KeyVaultKeyReleasePolicyOutputReference
+	_jsii_.Get(
+		j,
+		"releasePolicy",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_KeyVaultKey) ReleasePolicyInput() *KeyVaultKeyReleasePolicy {
+	var returns *KeyVaultKeyReleasePolicy
+	_jsii_.Get(
+		j,
+		"releasePolicyInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_KeyVaultKey) ResourceId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -689,7 +713,7 @@ func (j *jsiiProxy_KeyVaultKey) Y() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
 func NewKeyVaultKey(scope constructs.Construct, id *string, config *KeyVaultKeyConfig) KeyVaultKey {
 	_init_.Initialize()
 
@@ -707,7 +731,7 @@ func NewKeyVaultKey(scope constructs.Construct, id *string, config *KeyVaultKeyC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/key_vault_key azurerm_key_vault_key} Resource.
 func NewKeyVaultKey_Override(k KeyVaultKey, scope constructs.Construct, id *string, config *KeyVaultKeyConfig) {
 	_init_.Initialize()
 
@@ -1249,6 +1273,17 @@ func (k *jsiiProxy_KeyVaultKey) OverrideLogicalId(newLogicalId *string) {
 	)
 }
 
+func (k *jsiiProxy_KeyVaultKey) PutReleasePolicy(value *KeyVaultKeyReleasePolicy) {
+	if err := k.validatePutReleasePolicyParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		k,
+		"putReleasePolicy",
+		[]interface{}{value},
+	)
+}
+
 func (k *jsiiProxy_KeyVaultKey) PutRotationPolicy(value *KeyVaultKeyRotationPolicy) {
 	if err := k.validatePutRotationPolicyParameters(value); err != nil {
 		panic(err)
@@ -1315,6 +1350,14 @@ func (k *jsiiProxy_KeyVaultKey) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		k,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (k *jsiiProxy_KeyVaultKey) ResetReleasePolicy() {
+	_jsii_.InvokeVoid(
+		k,
+		"resetReleasePolicy",
 		nil, // no parameters
 	)
 }

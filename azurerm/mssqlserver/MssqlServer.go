@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/mssql_server azurerm_mssql_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mssql_server azurerm_mssql_server}.
 type MssqlServer interface {
 	cdktn.TerraformResource
 	AdministratorLogin() *string
@@ -793,7 +793,7 @@ func (j *jsiiProxy_MssqlServer) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
 func NewMssqlServer(scope constructs.Construct, id *string, config *MssqlServerConfig) MssqlServer {
 	_init_.Initialize()
 
@@ -811,7 +811,7 @@ func NewMssqlServer(scope constructs.Construct, id *string, config *MssqlServerC
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mssql_server azurerm_mssql_server} Resource.
 func NewMssqlServer_Override(m MssqlServer, scope constructs.Construct, id *string, config *MssqlServerConfig) {
 	_init_.Initialize()
 

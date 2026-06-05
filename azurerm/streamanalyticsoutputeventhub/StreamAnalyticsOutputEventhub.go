@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub}.
 type StreamAnalyticsOutputEventhub interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
 func NewStreamAnalyticsOutputEventhub(scope constructs.Construct, id *string, config *StreamAnalyticsOutputEventhubConfig) StreamAnalyticsOutputEventhub {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewStreamAnalyticsOutputEventhub(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/stream_analytics_output_eventhub azurerm_stream_analytics_output_eventhub} Resource.
 func NewStreamAnalyticsOutputEventhub_Override(s StreamAnalyticsOutputEventhub, scope constructs.Construct, id *string, config *StreamAnalyticsOutputEventhubConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy}.
 type IothubDpsSharedAccessPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -576,7 +576,7 @@ func (j *jsiiProxy_IothubDpsSharedAccessPolicy) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
 func NewIothubDpsSharedAccessPolicy(scope constructs.Construct, id *string, config *IothubDpsSharedAccessPolicyConfig) IothubDpsSharedAccessPolicy {
 	_init_.Initialize()
 
@@ -594,7 +594,7 @@ func NewIothubDpsSharedAccessPolicy(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/iothub_dps_shared_access_policy azurerm_iothub_dps_shared_access_policy} Resource.
 func NewIothubDpsSharedAccessPolicy_Override(i IothubDpsSharedAccessPolicy, scope constructs.Construct, id *string, config *IothubDpsSharedAccessPolicyConfig) {
 	_init_.Initialize()
 

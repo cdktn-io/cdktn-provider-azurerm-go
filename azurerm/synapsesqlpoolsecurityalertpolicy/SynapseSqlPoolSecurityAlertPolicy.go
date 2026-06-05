@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy}.
 type SynapseSqlPoolSecurityAlertPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -533,7 +533,7 @@ func (j *jsiiProxy_SynapseSqlPoolSecurityAlertPolicy) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
 func NewSynapseSqlPoolSecurityAlertPolicy(scope constructs.Construct, id *string, config *SynapseSqlPoolSecurityAlertPolicyConfig) SynapseSqlPoolSecurityAlertPolicy {
 	_init_.Initialize()
 
@@ -551,7 +551,7 @@ func NewSynapseSqlPoolSecurityAlertPolicy(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.75.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/synapse_sql_pool_security_alert_policy azurerm_synapse_sql_pool_security_alert_policy} Resource.
 func NewSynapseSqlPoolSecurityAlertPolicy_Override(s SynapseSqlPoolSecurityAlertPolicy, scope constructs.Construct, id *string, config *SynapseSqlPoolSecurityAlertPolicyConfig) {
 	_init_.Initialize()
 
