@@ -119,6 +119,10 @@ func (j *jsiiProxy_StorageObjectReplication) validateSetLifecycleParameters(val 
 	return nil
 }
 
+func (j *jsiiProxy_StorageObjectReplication) validateSetMetricsEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageObjectReplication) validateSetProvisionersParameters(val *[]interface{}) error {
 	return nil
 }

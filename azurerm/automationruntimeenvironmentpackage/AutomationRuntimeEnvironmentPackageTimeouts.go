@@ -5,11 +5,11 @@ package automationruntimeenvironmentpackage
 
 
 type AutomationRuntimeEnvironmentPackageTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/automation_runtime_environment_package#create AutomationRuntimeEnvironmentPackage#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/automation_runtime_environment_package#create AutomationRuntimeEnvironmentPackage#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/automation_runtime_environment_package#delete AutomationRuntimeEnvironmentPackage#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/automation_runtime_environment_package#delete AutomationRuntimeEnvironmentPackage#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/automation_runtime_environment_package#read AutomationRuntimeEnvironmentPackage#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/automation_runtime_environment_package#read AutomationRuntimeEnvironmentPackage#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

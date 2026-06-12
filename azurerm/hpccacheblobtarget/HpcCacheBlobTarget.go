@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target}.
 type HpcCacheBlobTarget interface {
 	cdktn.TerraformResource
 	AccessPolicyName() *string
@@ -482,7 +482,7 @@ func (j *jsiiProxy_HpcCacheBlobTarget) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
 func NewHpcCacheBlobTarget(scope constructs.Construct, id *string, config *HpcCacheBlobTargetConfig) HpcCacheBlobTarget {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewHpcCacheBlobTarget(scope constructs.Construct, id *string, config *HpcCa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/hpc_cache_blob_target azurerm_hpc_cache_blob_target} Resource.
 func NewHpcCacheBlobTarget_Override(h HpcCacheBlobTarget, scope constructs.Construct, id *string, config *HpcCacheBlobTargetConfig) {
 	_init_.Initialize()
 

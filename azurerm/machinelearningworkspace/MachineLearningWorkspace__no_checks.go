@@ -195,6 +195,10 @@ func (j *jsiiProxy_MachineLearningWorkspace) validateSetSkuNameParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_MachineLearningWorkspace) validateSetStorageAccountAccessTypeParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_MachineLearningWorkspace) validateSetStorageAccountIdParameters(val *string) error {
 	return nil
 }

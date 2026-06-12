@@ -621,6 +621,14 @@ func (j *jsiiProxy_MachineLearningWorkspace) validateSetSkuNameParameters(val *s
 	return nil
 }
 
+func (j *jsiiProxy_MachineLearningWorkspace) validateSetStorageAccountAccessTypeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_MachineLearningWorkspace) validateSetStorageAccountIdParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

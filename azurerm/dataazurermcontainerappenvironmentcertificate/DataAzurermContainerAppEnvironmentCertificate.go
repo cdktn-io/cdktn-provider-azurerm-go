@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/container_app_environment_certificate azurerm_container_app_environment_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/container_app_environment_certificate azurerm_container_app_environment_certificate}.
 type DataAzurermContainerAppEnvironmentCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataAzurermContainerAppEnvironmentCertificate) TimeoutsInput(
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/container_app_environment_certificate azurerm_container_app_environment_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/container_app_environment_certificate azurerm_container_app_environment_certificate} Data Source.
 func NewDataAzurermContainerAppEnvironmentCertificate(scope constructs.Construct, id *string, config *DataAzurermContainerAppEnvironmentCertificateConfig) DataAzurermContainerAppEnvironmentCertificate {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewDataAzurermContainerAppEnvironmentCertificate(scope constructs.Construct
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/container_app_environment_certificate azurerm_container_app_environment_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/container_app_environment_certificate azurerm_container_app_environment_certificate} Data Source.
 func NewDataAzurermContainerAppEnvironmentCertificate_Override(d DataAzurermContainerAppEnvironmentCertificate, scope constructs.Construct, id *string, config *DataAzurermContainerAppEnvironmentCertificateConfig) {
 	_init_.Initialize()
 

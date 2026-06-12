@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace}.
 type DataAzurermMachineLearningWorkspace interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -58,6 +58,7 @@ type DataAzurermMachineLearningWorkspace interface {
 	ResourceGroupName() *string
 	SetResourceGroupName(val *string)
 	ResourceGroupNameInput() *string
+	StorageAccountAccessType() *string
 	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -316,6 +317,16 @@ func (j *jsiiProxy_DataAzurermMachineLearningWorkspace) ResourceGroupNameInput()
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermMachineLearningWorkspace) StorageAccountAccessType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountAccessType",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermMachineLearningWorkspace) Tags() cdktn.StringMap {
 	var returns cdktn.StringMap
 	_jsii_.Get(
@@ -377,7 +388,7 @@ func (j *jsiiProxy_DataAzurermMachineLearningWorkspace) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
 func NewDataAzurermMachineLearningWorkspace(scope constructs.Construct, id *string, config *DataAzurermMachineLearningWorkspaceConfig) DataAzurermMachineLearningWorkspace {
 	_init_.Initialize()
 
@@ -395,7 +406,7 @@ func NewDataAzurermMachineLearningWorkspace(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/machine_learning_workspace azurerm_machine_learning_workspace} Data Source.
 func NewDataAzurermMachineLearningWorkspace_Override(d DataAzurermMachineLearningWorkspace, scope constructs.Construct, id *string, config *DataAzurermMachineLearningWorkspaceConfig) {
 	_init_.Initialize()
 

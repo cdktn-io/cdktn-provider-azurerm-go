@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_table azurerm_storage_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_table azurerm_storage_table}.
 type StorageTable interface {
 	cdktn.TerraformResource
 	Acl() StorageTableAclList
@@ -64,6 +64,9 @@ type StorageTable interface {
 	// Experimental.
 	RawOverrides() interface{}
 	ResourceManagerId() *string
+	StorageAccountId() *string
+	SetStorageAccountId(val *string)
+	StorageAccountIdInput() *string
 	StorageAccountName() *string
 	SetStorageAccountName(val *string)
 	StorageAccountNameInput() *string
@@ -125,6 +128,8 @@ type StorageTable interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetStorageAccountId()
+	ResetStorageAccountName()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -353,6 +358,26 @@ func (j *jsiiProxy_StorageTable) ResourceManagerId() *string {
 	return returns
 }
 
+func (j *jsiiProxy_StorageTable) StorageAccountId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageTable) StorageAccountIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageTable) StorageAccountName() *string {
 	var returns *string
 	_jsii_.Get(
@@ -424,7 +449,7 @@ func (j *jsiiProxy_StorageTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_table azurerm_storage_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_table azurerm_storage_table} Resource.
 func NewStorageTable(scope constructs.Construct, id *string, config *StorageTableConfig) StorageTable {
 	_init_.Initialize()
 
@@ -442,7 +467,7 @@ func NewStorageTable(scope constructs.Construct, id *string, config *StorageTabl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_table azurerm_storage_table} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_table azurerm_storage_table} Resource.
 func NewStorageTable_Override(s StorageTable, scope constructs.Construct, id *string, config *StorageTableConfig) {
 	_init_.Initialize()
 
@@ -539,6 +564,17 @@ func (j *jsiiProxy_StorageTable)SetProvisioners(val *[]interface{}) {
 	_jsii_.Set(
 		j,
 		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageTable)SetStorageAccountId(val *string) {
+	if err := j.validateSetStorageAccountIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageAccountId",
 		val,
 	)
 }
@@ -949,6 +985,22 @@ func (s *jsiiProxy_StorageTable) ResetOverrideLogicalId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageTable) ResetStorageAccountId() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetStorageAccountId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageTable) ResetStorageAccountName() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetStorageAccountName",
 		nil, // no parameters
 	)
 }

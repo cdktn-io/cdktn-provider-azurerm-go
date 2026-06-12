@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule}.
 type PostgresqlFirewallRule interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -458,7 +458,7 @@ func (j *jsiiProxy_PostgresqlFirewallRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
 func NewPostgresqlFirewallRule(scope constructs.Construct, id *string, config *PostgresqlFirewallRuleConfig) PostgresqlFirewallRule {
 	_init_.Initialize()
 
@@ -476,7 +476,7 @@ func NewPostgresqlFirewallRule(scope constructs.Construct, id *string, config *P
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/postgresql_firewall_rule azurerm_postgresql_firewall_rule} Resource.
 func NewPostgresqlFirewallRule_Override(p PostgresqlFirewallRule, scope constructs.Construct, id *string, config *PostgresqlFirewallRuleConfig) {
 	_init_.Initialize()
 

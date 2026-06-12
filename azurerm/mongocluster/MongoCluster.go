@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/mongo_cluster azurerm_mongo_cluster}.
 type MongoCluster interface {
 	cdktn.TerraformResource
 	AdministratorPassword() *string
@@ -879,7 +879,7 @@ func (j *jsiiProxy_MongoCluster) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster(scope constructs.Construct, id *string, config *MongoClusterConfig) MongoCluster {
 	_init_.Initialize()
 
@@ -897,7 +897,7 @@ func NewMongoCluster(scope constructs.Construct, id *string, config *MongoCluste
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/mongo_cluster azurerm_mongo_cluster} Resource.
 func NewMongoCluster_Override(m MongoCluster, scope constructs.Construct, id *string, config *MongoClusterConfig) {
 	_init_.Initialize()
 

@@ -87,6 +87,10 @@ func (j *jsiiProxy_DataAzurermStorageTable) validateSetNameParameters(val *strin
 	return nil
 }
 
+func (j *jsiiProxy_DataAzurermStorageTable) validateSetStorageAccountIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_DataAzurermStorageTable) validateSetStorageAccountNameParameters(val *string) error {
 	return nil
 }

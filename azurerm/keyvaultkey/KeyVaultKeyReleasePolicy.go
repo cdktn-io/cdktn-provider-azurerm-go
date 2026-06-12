@@ -5,9 +5,9 @@ package keyvaultkey
 
 
 type KeyVaultKeyReleasePolicy struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/key_vault_key#json KeyVaultKey#json}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/key_vault_key#json KeyVaultKey#json}.
 	Json *string `field:"required" json:"json" yaml:"json"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/key_vault_key#immutable KeyVaultKey#immutable}.
 	Immutable interface{} `field:"optional" json:"immutable" yaml:"immutable"`
 }
 

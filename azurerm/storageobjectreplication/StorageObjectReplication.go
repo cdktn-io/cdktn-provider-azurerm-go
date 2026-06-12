@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_object_replication azurerm_storage_object_replication}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_object_replication azurerm_storage_object_replication}.
 type StorageObjectReplication interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -50,6 +50,9 @@ type StorageObjectReplication interface {
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
 	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	MetricsEnabled() interface{}
+	SetMetricsEnabled(val interface{})
+	MetricsEnabledInput() interface{}
 	// The tree node.
 	Node() constructs.Node
 	// Experimental.
@@ -122,6 +125,7 @@ type StorageObjectReplication interface {
 	PutRules(value interface{})
 	PutTimeouts(value *StorageObjectReplicationTimeouts)
 	ResetId()
+	ResetMetricsEnabled()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -293,6 +297,26 @@ func (j *jsiiProxy_StorageObjectReplication) Lifecycle() *cdktn.TerraformResourc
 	return returns
 }
 
+func (j *jsiiProxy_StorageObjectReplication) MetricsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"metricsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_StorageObjectReplication) MetricsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"metricsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_StorageObjectReplication) Node() constructs.Node {
 	var returns constructs.Node
 	_jsii_.Get(
@@ -434,7 +458,7 @@ func (j *jsiiProxy_StorageObjectReplication) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
 func NewStorageObjectReplication(scope constructs.Construct, id *string, config *StorageObjectReplicationConfig) StorageObjectReplication {
 	_init_.Initialize()
 
@@ -452,7 +476,7 @@ func NewStorageObjectReplication(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_object_replication azurerm_storage_object_replication} Resource.
 func NewStorageObjectReplication_Override(s StorageObjectReplication, scope constructs.Construct, id *string, config *StorageObjectReplicationConfig) {
 	_init_.Initialize()
 
@@ -530,6 +554,17 @@ func (j *jsiiProxy_StorageObjectReplication)SetLifecycle(val *cdktn.TerraformRes
 	_jsii_.Set(
 		j,
 		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_StorageObjectReplication)SetMetricsEnabled(val interface{}) {
+	if err := j.validateSetMetricsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"metricsEnabled",
 		val,
 	)
 }
@@ -943,6 +978,14 @@ func (s *jsiiProxy_StorageObjectReplication) ResetId() {
 	_jsii_.InvokeVoid(
 		s,
 		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (s *jsiiProxy_StorageObjectReplication) ResetMetricsEnabled() {
+	_jsii_.InvokeVoid(
+		s,
+		"resetMetricsEnabled",
 		nil, // no parameters
 	)
 }

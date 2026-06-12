@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role}.
 type CosmosdbPostgresqlRole interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -412,7 +412,7 @@ func (j *jsiiProxy_CosmosdbPostgresqlRole) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
 func NewCosmosdbPostgresqlRole(scope constructs.Construct, id *string, config *CosmosdbPostgresqlRoleConfig) CosmosdbPostgresqlRole {
 	_init_.Initialize()
 
@@ -430,7 +430,7 @@ func NewCosmosdbPostgresqlRole(scope constructs.Construct, id *string, config *C
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/cosmosdb_postgresql_role azurerm_cosmosdb_postgresql_role} Resource.
 func NewCosmosdbPostgresqlRole_Override(c CosmosdbPostgresqlRole, scope constructs.Construct, id *string, config *CosmosdbPostgresqlRoleConfig) {
 	_init_.Initialize()
 

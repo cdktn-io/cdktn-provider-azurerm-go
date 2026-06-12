@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log}.
 type MonitorScheduledQueryRulesLog interface {
 	cdktn.TerraformResource
 	AuthorizedResourceIds() *[]*string
@@ -554,7 +554,7 @@ func (j *jsiiProxy_MonitorScheduledQueryRulesLog) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
 func NewMonitorScheduledQueryRulesLog(scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesLogConfig) MonitorScheduledQueryRulesLog {
 	_init_.Initialize()
 
@@ -572,7 +572,7 @@ func NewMonitorScheduledQueryRulesLog(scope constructs.Construct, id *string, co
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/monitor_scheduled_query_rules_log azurerm_monitor_scheduled_query_rules_log} Resource.
 func NewMonitorScheduledQueryRulesLog_Override(m MonitorScheduledQueryRulesLog, scope constructs.Construct, id *string, config *MonitorScheduledQueryRulesLogConfig) {
 	_init_.Initialize()
 

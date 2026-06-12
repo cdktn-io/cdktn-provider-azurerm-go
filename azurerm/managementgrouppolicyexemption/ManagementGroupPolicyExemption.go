@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/management_group_policy_exemption azurerm_management_group_policy_exemption}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/management_group_policy_exemption azurerm_management_group_policy_exemption}.
 type ManagementGroupPolicyExemption interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -555,7 +555,7 @@ func (j *jsiiProxy_ManagementGroupPolicyExemption) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/management_group_policy_exemption azurerm_management_group_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/management_group_policy_exemption azurerm_management_group_policy_exemption} Resource.
 func NewManagementGroupPolicyExemption(scope constructs.Construct, id *string, config *ManagementGroupPolicyExemptionConfig) ManagementGroupPolicyExemption {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewManagementGroupPolicyExemption(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/management_group_policy_exemption azurerm_management_group_policy_exemption} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/management_group_policy_exemption azurerm_management_group_policy_exemption} Resource.
 func NewManagementGroupPolicyExemption_Override(m ManagementGroupPolicyExemption, scope constructs.Construct, id *string, config *ManagementGroupPolicyExemptionConfig) {
 	_init_.Initialize()
 

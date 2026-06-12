@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage}.
 type DataAzurermDataShareDatasetBlobStorage interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAzurermDataShareDatasetBlobStorage) TimeoutsInput() inter
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Data Source.
 func NewDataAzurermDataShareDatasetBlobStorage(scope constructs.Construct, id *string, config *DataAzurermDataShareDatasetBlobStorageConfig) DataAzurermDataShareDatasetBlobStorage {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAzurermDataShareDatasetBlobStorage(scope constructs.Construct, id *s
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/data_share_dataset_blob_storage azurerm_data_share_dataset_blob_storage} Data Source.
 func NewDataAzurermDataShareDatasetBlobStorage_Override(d DataAzurermDataShareDatasetBlobStorage, scope constructs.Construct, id *string, config *DataAzurermDataShareDatasetBlobStorageConfig) {
 	_init_.Initialize()
 

@@ -5,7 +5,7 @@ package dataazurermlocation
 
 
 type DataAzurermLocationTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/location#read DataAzurermLocation#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/location#read DataAzurermLocation#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

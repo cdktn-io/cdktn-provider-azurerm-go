@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace}.
 type MachineLearningWorkspace interface {
 	cdktn.TerraformResource
 	ApplicationInsightsId() *string
@@ -114,6 +114,9 @@ type MachineLearningWorkspace interface {
 	SkuName() *string
 	SetSkuName(val *string)
 	SkuNameInput() *string
+	StorageAccountAccessType() *string
+	SetStorageAccountAccessType(val *string)
+	StorageAccountAccessTypeInput() *string
 	StorageAccountId() *string
 	SetStorageAccountId(val *string)
 	StorageAccountIdInput() *string
@@ -199,6 +202,7 @@ type MachineLearningWorkspace interface {
 	ResetServerlessCompute()
 	ResetServiceSideEncryptionEnabled()
 	ResetSkuName()
+	ResetStorageAccountAccessType()
 	ResetTags()
 	ResetTimeouts()
 	ResetV1LegacyModeEnabled()
@@ -789,6 +793,26 @@ func (j *jsiiProxy_MachineLearningWorkspace) SkuNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MachineLearningWorkspace) StorageAccountAccessType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountAccessType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MachineLearningWorkspace) StorageAccountAccessTypeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageAccountAccessTypeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MachineLearningWorkspace) StorageAccountId() *string {
 	var returns *string
 	_jsii_.Get(
@@ -910,7 +934,7 @@ func (j *jsiiProxy_MachineLearningWorkspace) WorkspaceId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
 func NewMachineLearningWorkspace(scope constructs.Construct, id *string, config *MachineLearningWorkspaceConfig) MachineLearningWorkspace {
 	_init_.Initialize()
 
@@ -928,7 +952,7 @@ func NewMachineLearningWorkspace(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/machine_learning_workspace azurerm_machine_learning_workspace} Resource.
 func NewMachineLearningWorkspace_Override(m MachineLearningWorkspace, scope constructs.Construct, id *string, config *MachineLearningWorkspaceConfig) {
 	_init_.Initialize()
 
@@ -1179,6 +1203,17 @@ func (j *jsiiProxy_MachineLearningWorkspace)SetSkuName(val *string) {
 	_jsii_.Set(
 		j,
 		"skuName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MachineLearningWorkspace)SetStorageAccountAccessType(val *string) {
+	if err := j.validateSetStorageAccountAccessTypeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageAccountAccessType",
 		val,
 	)
 }
@@ -1759,6 +1794,14 @@ func (m *jsiiProxy_MachineLearningWorkspace) ResetSkuName() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetSkuName",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MachineLearningWorkspace) ResetStorageAccountAccessType() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetStorageAccountAccessType",
 		nil, // no parameters
 	)
 }

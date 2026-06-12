@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/data_protection_backup_policy_disk azurerm_data_protection_backup_policy_disk}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/data_protection_backup_policy_disk azurerm_data_protection_backup_policy_disk}.
 type DataProtectionBackupPolicyDisk interface {
 	cdktn.TerraformResource
 	BackupRepeatingTimeIntervals() *[]*string
@@ -483,7 +483,7 @@ func (j *jsiiProxy_DataProtectionBackupPolicyDisk) VaultIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/data_protection_backup_policy_disk azurerm_data_protection_backup_policy_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/data_protection_backup_policy_disk azurerm_data_protection_backup_policy_disk} Resource.
 func NewDataProtectionBackupPolicyDisk(scope constructs.Construct, id *string, config *DataProtectionBackupPolicyDiskConfig) DataProtectionBackupPolicyDisk {
 	_init_.Initialize()
 
@@ -501,7 +501,7 @@ func NewDataProtectionBackupPolicyDisk(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/data_protection_backup_policy_disk azurerm_data_protection_backup_policy_disk} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/data_protection_backup_policy_disk azurerm_data_protection_backup_policy_disk} Resource.
 func NewDataProtectionBackupPolicyDisk_Override(d DataProtectionBackupPolicyDisk, scope constructs.Construct, id *string, config *DataProtectionBackupPolicyDiskConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/oracle_autonomous_database_backup azurerm_oracle_autonomous_database_backup}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/oracle_autonomous_database_backup azurerm_oracle_autonomous_database_backup}.
 type DataAzurermOracleAutonomousDatabaseBackup interface {
 	cdktn.TerraformDataSource
 	Automatic() cdktn.IResolvable
@@ -507,7 +507,7 @@ func (j *jsiiProxy_DataAzurermOracleAutonomousDatabaseBackup) Type() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/oracle_autonomous_database_backup azurerm_oracle_autonomous_database_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/oracle_autonomous_database_backup azurerm_oracle_autonomous_database_backup} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseBackup(scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseBackupConfig) DataAzurermOracleAutonomousDatabaseBackup {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewDataAzurermOracleAutonomousDatabaseBackup(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/data-sources/oracle_autonomous_database_backup azurerm_oracle_autonomous_database_backup} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/oracle_autonomous_database_backup azurerm_oracle_autonomous_database_backup} Data Source.
 func NewDataAzurermOracleAutonomousDatabaseBackup_Override(d DataAzurermOracleAutonomousDatabaseBackup, scope constructs.Construct, id *string, config *DataAzurermOracleAutonomousDatabaseBackupConfig) {
 	_init_.Initialize()
 

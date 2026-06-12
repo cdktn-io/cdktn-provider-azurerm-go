@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine}.
 type WindowsVirtualMachine interface {
 	cdktn.TerraformResource
 	AdditionalCapabilities() WindowsVirtualMachineAdditionalCapabilitiesOutputReference
@@ -1688,7 +1688,7 @@ func (j *jsiiProxy_WindowsVirtualMachine) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
 func NewWindowsVirtualMachine(scope constructs.Construct, id *string, config *WindowsVirtualMachineConfig) WindowsVirtualMachine {
 	_init_.Initialize()
 
@@ -1706,7 +1706,7 @@ func NewWindowsVirtualMachine(scope constructs.Construct, id *string, config *Wi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/windows_virtual_machine azurerm_windows_virtual_machine} Resource.
 func NewWindowsVirtualMachine_Override(w WindowsVirtualMachine, scope constructs.Construct, id *string, config *WindowsVirtualMachineConfig) {
 	_init_.Initialize()
 

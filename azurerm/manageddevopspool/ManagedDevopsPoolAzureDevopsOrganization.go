@@ -7,11 +7,11 @@ package manageddevopspool
 type ManagedDevopsPoolAzureDevopsOrganization struct {
 	// organization block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/managed_devops_pool#organization ManagedDevopsPool#organization}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/managed_devops_pool#organization ManagedDevopsPool#organization}
 	Organization interface{} `field:"required" json:"organization" yaml:"organization"`
 	// permission block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/managed_devops_pool#permission ManagedDevopsPool#permission}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/managed_devops_pool#permission ManagedDevopsPool#permission}
 	Permission *ManagedDevopsPoolAzureDevopsOrganizationPermission `field:"optional" json:"permission" yaml:"permission"`
 }
 

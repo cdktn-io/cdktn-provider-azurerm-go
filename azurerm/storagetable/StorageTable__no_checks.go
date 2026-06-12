@@ -123,6 +123,10 @@ func (j *jsiiProxy_StorageTable) validateSetProvisionersParameters(val *[]interf
 	return nil
 }
 
+func (j *jsiiProxy_StorageTable) validateSetStorageAccountIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_StorageTable) validateSetStorageAccountNameParameters(val *string) error {
 	return nil
 }

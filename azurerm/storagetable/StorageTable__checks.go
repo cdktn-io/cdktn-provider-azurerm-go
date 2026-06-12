@@ -449,6 +449,14 @@ func (j *jsiiProxy_StorageTable) validateSetProvisionersParameters(val *[]interf
 	return nil
 }
 
+func (j *jsiiProxy_StorageTable) validateSetStorageAccountIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_StorageTable) validateSetStorageAccountNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

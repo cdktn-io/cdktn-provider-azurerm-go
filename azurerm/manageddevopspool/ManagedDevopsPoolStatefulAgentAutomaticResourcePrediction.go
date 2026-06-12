@@ -5,7 +5,7 @@ package manageddevopspool
 
 
 type ManagedDevopsPoolStatefulAgentAutomaticResourcePrediction struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/managed_devops_pool#prediction_preference ManagedDevopsPool#prediction_preference}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/managed_devops_pool#prediction_preference ManagedDevopsPool#prediction_preference}.
 	PredictionPreference *string `field:"optional" json:"predictionPreference" yaml:"predictionPreference"`
 }
 

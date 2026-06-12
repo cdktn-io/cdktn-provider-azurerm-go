@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type}.
 type DevCenterProjectEnvironmentType interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -530,7 +530,7 @@ func (j *jsiiProxy_DevCenterProjectEnvironmentType) UserRoleAssignmentInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
 func NewDevCenterProjectEnvironmentType(scope constructs.Construct, id *string, config *DevCenterProjectEnvironmentTypeConfig) DevCenterProjectEnvironmentType {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewDevCenterProjectEnvironmentType(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.76.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dev_center_project_environment_type azurerm_dev_center_project_environment_type} Resource.
 func NewDevCenterProjectEnvironmentType_Override(d DevCenterProjectEnvironmentType, scope constructs.Construct, id *string, config *DevCenterProjectEnvironmentTypeConfig) {
 	_init_.Initialize()
 
