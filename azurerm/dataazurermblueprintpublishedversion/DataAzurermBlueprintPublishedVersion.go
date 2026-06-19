@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version}.
 type DataAzurermBlueprintPublishedVersion interface {
 	cdktn.TerraformDataSource
 	BlueprintName() *string
@@ -433,7 +433,7 @@ func (j *jsiiProxy_DataAzurermBlueprintPublishedVersion) VersionInput() *string 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
 func NewDataAzurermBlueprintPublishedVersion(scope constructs.Construct, id *string, config *DataAzurermBlueprintPublishedVersionConfig) DataAzurermBlueprintPublishedVersion {
 	_init_.Initialize()
 
@@ -451,7 +451,7 @@ func NewDataAzurermBlueprintPublishedVersion(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/blueprint_published_version azurerm_blueprint_published_version} Data Source.
 func NewDataAzurermBlueprintPublishedVersion_Override(d DataAzurermBlueprintPublishedVersion, scope constructs.Construct, id *string, config *DataAzurermBlueprintPublishedVersionConfig) {
 	_init_.Initialize()
 

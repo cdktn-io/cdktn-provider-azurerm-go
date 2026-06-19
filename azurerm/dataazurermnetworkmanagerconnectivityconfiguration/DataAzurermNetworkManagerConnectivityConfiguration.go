@@ -12,12 +12,14 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
 type DataAzurermNetworkManagerConnectivityConfiguration interface {
 	cdktn.TerraformDataSource
 	AppliesToGroup() DataAzurermNetworkManagerConnectivityConfigurationAppliesToGroupList
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ConnectedGroupAddressOverlapEnabled() cdktn.IResolvable
+	ConnectedGroupPrivateEndpointsScale() *string
 	ConnectivityTopology() *string
 	// Experimental.
 	ConstructNodeMetadata() *map[string]interface{}
@@ -56,6 +58,7 @@ type DataAzurermNetworkManagerConnectivityConfiguration interface {
 	NetworkManagerIdInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PeeringEnforcementEnabled() cdktn.IResolvable
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -144,6 +147,26 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) CdktfStac
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) ConnectedGroupAddressOverlapEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"connectedGroupAddressOverlapEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) ConnectedGroupPrivateEndpointsScale() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"connectedGroupPrivateEndpointsScale",
 		&returns,
 	)
 	return returns
@@ -339,6 +362,16 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) Node() co
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) PeeringEnforcementEnabled() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+	_jsii_.Get(
+		j,
+		"peeringEnforcementEnabled",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -410,7 +443,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
 func NewDataAzurermNetworkManagerConnectivityConfiguration(scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConnectivityConfigurationConfig) DataAzurermNetworkManagerConnectivityConfiguration {
 	_init_.Initialize()
 
@@ -428,7 +461,7 @@ func NewDataAzurermNetworkManagerConnectivityConfiguration(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
 func NewDataAzurermNetworkManagerConnectivityConfiguration_Override(d DataAzurermNetworkManagerConnectivityConfiguration, scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConnectivityConfigurationConfig) {
 	_init_.Initialize()
 

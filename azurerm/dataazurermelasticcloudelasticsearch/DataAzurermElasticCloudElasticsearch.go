@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch}.
 type DataAzurermElasticCloudElasticsearch interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -489,7 +489,7 @@ func (j *jsiiProxy_DataAzurermElasticCloudElasticsearch) TimeoutsInput() interfa
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Data Source.
 func NewDataAzurermElasticCloudElasticsearch(scope constructs.Construct, id *string, config *DataAzurermElasticCloudElasticsearchConfig) DataAzurermElasticCloudElasticsearch {
 	_init_.Initialize()
 
@@ -507,7 +507,7 @@ func NewDataAzurermElasticCloudElasticsearch(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/elastic_cloud_elasticsearch azurerm_elastic_cloud_elasticsearch} Data Source.
 func NewDataAzurermElasticCloudElasticsearch_Override(d DataAzurermElasticCloudElasticsearch, scope constructs.Construct, id *string, config *DataAzurermElasticCloudElasticsearchConfig) {
 	_init_.Initialize()
 

@@ -12,13 +12,19 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
 type NetworkManagerConnectivityConfiguration interface {
 	cdktn.TerraformResource
 	AppliesToGroup() NetworkManagerConnectivityConfigurationAppliesToGroupList
 	AppliesToGroupInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
+	ConnectedGroupAddressOverlapEnabled() interface{}
+	SetConnectedGroupAddressOverlapEnabled(val interface{})
+	ConnectedGroupAddressOverlapEnabledInput() interface{}
+	ConnectedGroupPrivateEndpointsScale() *string
+	SetConnectedGroupPrivateEndpointsScale(val *string)
+	ConnectedGroupPrivateEndpointsScaleInput() *string
 	// Experimental.
 	Connection() interface{}
 	// Experimental.
@@ -70,6 +76,9 @@ type NetworkManagerConnectivityConfiguration interface {
 	NetworkManagerIdInput() *string
 	// The tree node.
 	Node() constructs.Node
+	PeeringEnforcementEnabled() interface{}
+	SetPeeringEnforcementEnabled(val interface{})
+	PeeringEnforcementEnabledInput() interface{}
 	// Experimental.
 	Provider() cdktn.TerraformProvider
 	// Experimental.
@@ -134,6 +143,8 @@ type NetworkManagerConnectivityConfiguration interface {
 	PutAppliesToGroup(value interface{})
 	PutHub(value *NetworkManagerConnectivityConfigurationHub)
 	PutTimeouts(value *NetworkManagerConnectivityConfigurationTimeouts)
+	ResetConnectedGroupAddressOverlapEnabled()
+	ResetConnectedGroupPrivateEndpointsScale()
 	ResetDeleteExistingPeeringEnabled()
 	ResetDescription()
 	ResetGlobalMeshEnabled()
@@ -142,6 +153,7 @@ type NetworkManagerConnectivityConfiguration interface {
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
+	ResetPeeringEnforcementEnabled()
 	ResetTimeouts()
 	SynthesizeAttributes() *map[string]interface{}
 	SynthesizeHclAttributes() *map[string]interface{}
@@ -195,6 +207,46 @@ func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) CdktfStack() cdktn.T
 	_jsii_.Get(
 		j,
 		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) ConnectedGroupAddressOverlapEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"connectedGroupAddressOverlapEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) ConnectedGroupAddressOverlapEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"connectedGroupAddressOverlapEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) ConnectedGroupPrivateEndpointsScale() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"connectedGroupPrivateEndpointsScale",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) ConnectedGroupPrivateEndpointsScaleInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"connectedGroupPrivateEndpointsScaleInput",
 		&returns,
 	)
 	return returns
@@ -450,6 +502,26 @@ func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) Node() constructs.No
 	return returns
 }
 
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) PeeringEnforcementEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"peeringEnforcementEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) PeeringEnforcementEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"peeringEnforcementEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) Provider() cdktn.TerraformProvider {
 	var returns cdktn.TerraformProvider
 	_jsii_.Get(
@@ -531,7 +603,7 @@ func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
 func NewNetworkManagerConnectivityConfiguration(scope constructs.Construct, id *string, config *NetworkManagerConnectivityConfigurationConfig) NetworkManagerConnectivityConfiguration {
 	_init_.Initialize()
 
@@ -549,7 +621,7 @@ func NewNetworkManagerConnectivityConfiguration(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Resource.
 func NewNetworkManagerConnectivityConfiguration_Override(n NetworkManagerConnectivityConfiguration, scope constructs.Construct, id *string, config *NetworkManagerConnectivityConfigurationConfig) {
 	_init_.Initialize()
 
@@ -557,6 +629,28 @@ func NewNetworkManagerConnectivityConfiguration_Override(n NetworkManagerConnect
 		"@cdktn/provider-azurerm.networkManagerConnectivityConfiguration.NetworkManagerConnectivityConfiguration",
 		[]interface{}{scope, id, config},
 		n,
+	)
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration)SetConnectedGroupAddressOverlapEnabled(val interface{}) {
+	if err := j.validateSetConnectedGroupAddressOverlapEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connectedGroupAddressOverlapEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration)SetConnectedGroupPrivateEndpointsScale(val *string) {
+	if err := j.validateSetConnectedGroupPrivateEndpointsScaleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connectedGroupPrivateEndpointsScale",
+		val,
 	)
 }
 
@@ -682,6 +776,17 @@ func (j *jsiiProxy_NetworkManagerConnectivityConfiguration)SetNetworkManagerId(v
 	_jsii_.Set(
 		j,
 		"networkManagerId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration)SetPeeringEnforcementEnabled(val interface{}) {
+	if err := j.validateSetPeeringEnforcementEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"peeringEnforcementEnabled",
 		val,
 	)
 }
@@ -1091,6 +1196,22 @@ func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) PutTimeouts(value *N
 	)
 }
 
+func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) ResetConnectedGroupAddressOverlapEnabled() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetConnectedGroupAddressOverlapEnabled",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) ResetConnectedGroupPrivateEndpointsScale() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetConnectedGroupPrivateEndpointsScale",
+		nil, // no parameters
+	)
+}
+
 func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) ResetDeleteExistingPeeringEnabled() {
 	_jsii_.InvokeVoid(
 		n,
@@ -1135,6 +1256,14 @@ func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) ResetOverrideLogical
 	_jsii_.InvokeVoid(
 		n,
 		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) ResetPeeringEnforcementEnabled() {
+	_jsii_.InvokeVoid(
+		n,
+		"resetPeeringEnforcementEnabled",
 		nil, // no parameters
 	)
 }

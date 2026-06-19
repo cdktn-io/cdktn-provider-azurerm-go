@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool}.
 type VirtualMachineScaleSetStandbyPool interface {
 	cdktn.TerraformResource
 	AttachedVirtualMachineScaleSetId() *string
@@ -505,7 +505,7 @@ func (j *jsiiProxy_VirtualMachineScaleSetStandbyPool) VirtualMachineStateInput()
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
 func NewVirtualMachineScaleSetStandbyPool(scope constructs.Construct, id *string, config *VirtualMachineScaleSetStandbyPoolConfig) VirtualMachineScaleSetStandbyPool {
 	_init_.Initialize()
 
@@ -523,7 +523,7 @@ func NewVirtualMachineScaleSetStandbyPool(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/virtual_machine_scale_set_standby_pool azurerm_virtual_machine_scale_set_standby_pool} Resource.
 func NewVirtualMachineScaleSetStandbyPool_Override(v VirtualMachineScaleSetStandbyPool, scope constructs.Construct, id *string, config *VirtualMachineScaleSetStandbyPoolConfig) {
 	_init_.Initialize()
 

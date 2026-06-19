@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/api_management_certificate azurerm_api_management_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/api_management_certificate azurerm_api_management_certificate}.
 type ApiManagementCertificateA interface {
 	cdktn.TerraformResource
 	ApiManagementName() *string
@@ -541,7 +541,7 @@ func (j *jsiiProxy_ApiManagementCertificateA) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
 func NewApiManagementCertificateA(scope constructs.Construct, id *string, config *ApiManagementCertificateAConfig) ApiManagementCertificateA {
 	_init_.Initialize()
 
@@ -559,7 +559,7 @@ func NewApiManagementCertificateA(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/api_management_certificate azurerm_api_management_certificate} Resource.
 func NewApiManagementCertificateA_Override(a ApiManagementCertificateA, scope constructs.Construct, id *string, config *ApiManagementCertificateAConfig) {
 	_init_.Initialize()
 

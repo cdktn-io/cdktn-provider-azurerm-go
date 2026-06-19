@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool}.
 type DataAzurermNetworkManagerIpamPool interface {
 	cdktn.TerraformDataSource
 	AddressPrefixes() *[]*string
@@ -410,7 +410,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerIpamPool) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
 func NewDataAzurermNetworkManagerIpamPool(scope constructs.Construct, id *string, config *DataAzurermNetworkManagerIpamPoolConfig) DataAzurermNetworkManagerIpamPool {
 	_init_.Initialize()
 
@@ -428,7 +428,7 @@ func NewDataAzurermNetworkManagerIpamPool(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_ipam_pool azurerm_network_manager_ipam_pool} Data Source.
 func NewDataAzurermNetworkManagerIpamPool_Override(d DataAzurermNetworkManagerIpamPool, scope constructs.Construct, id *string, config *DataAzurermNetworkManagerIpamPoolConfig) {
 	_init_.Initialize()
 

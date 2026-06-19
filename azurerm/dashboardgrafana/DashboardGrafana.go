@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana}.
 type DashboardGrafana interface {
 	cdktn.TerraformResource
 	ApiKeyEnabled() interface{}
@@ -732,7 +732,7 @@ func (j *jsiiProxy_DashboardGrafana) ZoneRedundancyEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana(scope constructs.Construct, id *string, config *DashboardGrafanaConfig) DashboardGrafana {
 	_init_.Initialize()
 
@@ -750,7 +750,7 @@ func NewDashboardGrafana(scope constructs.Construct, id *string, config *Dashboa
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/dashboard_grafana azurerm_dashboard_grafana} Resource.
 func NewDashboardGrafana_Override(d DashboardGrafana, scope constructs.Construct, id *string, config *DashboardGrafanaConfig) {
 	_init_.Initialize()
 

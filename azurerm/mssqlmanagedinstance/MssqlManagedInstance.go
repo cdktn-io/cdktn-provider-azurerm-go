@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance}.
 type MssqlManagedInstance interface {
 	cdktn.TerraformResource
 	AdministratorLogin() *string
@@ -118,6 +118,9 @@ type MssqlManagedInstance interface {
 	StorageAccountType() *string
 	SetStorageAccountType(val *string)
 	StorageAccountTypeInput() *string
+	StorageIops() *float64
+	SetStorageIops(val *float64)
+	StorageIopsInput() *float64
 	StorageSizeInGb() *float64
 	SetStorageSizeInGb(val *float64)
 	StorageSizeInGbInput() *float64
@@ -209,6 +212,7 @@ type MssqlManagedInstance interface {
 	ResetPublicDataEndpointEnabled()
 	ResetServicePrincipalType()
 	ResetStorageAccountType()
+	ResetStorageIops()
 	ResetTags()
 	ResetTimeouts()
 	ResetTimezoneId()
@@ -810,6 +814,26 @@ func (j *jsiiProxy_MssqlManagedInstance) StorageAccountTypeInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_MssqlManagedInstance) StorageIops() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"storageIops",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_MssqlManagedInstance) StorageIopsInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"storageIopsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_MssqlManagedInstance) StorageSizeInGb() *float64 {
 	var returns *float64
 	_jsii_.Get(
@@ -981,7 +1005,7 @@ func (j *jsiiProxy_MssqlManagedInstance) ZoneRedundantEnabledInput() interface{}
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
 func NewMssqlManagedInstance(scope constructs.Construct, id *string, config *MssqlManagedInstanceConfig) MssqlManagedInstance {
 	_init_.Initialize()
 
@@ -999,7 +1023,7 @@ func NewMssqlManagedInstance(scope constructs.Construct, id *string, config *Mss
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/mssql_managed_instance azurerm_mssql_managed_instance} Resource.
 func NewMssqlManagedInstance_Override(m MssqlManagedInstance, scope constructs.Construct, id *string, config *MssqlManagedInstanceConfig) {
 	_init_.Initialize()
 
@@ -1283,6 +1307,17 @@ func (j *jsiiProxy_MssqlManagedInstance)SetStorageAccountType(val *string) {
 	_jsii_.Set(
 		j,
 		"storageAccountType",
+		val,
+	)
+}
+
+func (j *jsiiProxy_MssqlManagedInstance)SetStorageIops(val *float64) {
+	if err := j.validateSetStorageIopsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageIops",
 		val,
 	)
 }
@@ -1871,6 +1906,14 @@ func (m *jsiiProxy_MssqlManagedInstance) ResetStorageAccountType() {
 	_jsii_.InvokeVoid(
 		m,
 		"resetStorageAccountType",
+		nil, // no parameters
+	)
+}
+
+func (m *jsiiProxy_MssqlManagedInstance) ResetStorageIops() {
+	_jsii_.InvokeVoid(
+		m,
+		"resetStorageIops",
 		nil, // no parameters
 	)
 }

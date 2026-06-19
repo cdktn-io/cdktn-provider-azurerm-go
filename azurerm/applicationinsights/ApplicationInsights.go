@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/application_insights azurerm_application_insights}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/application_insights azurerm_application_insights}.
 type ApplicationInsights interface {
 	cdktn.TerraformResource
 	AppId() *string
@@ -38,6 +38,9 @@ type ApplicationInsights interface {
 	DailyDataCapNotificationsDisabled() interface{}
 	SetDailyDataCapNotificationsDisabled(val interface{})
 	DailyDataCapNotificationsDisabledInput() interface{}
+	DailyDataCapNotificationsEnabled() interface{}
+	SetDailyDataCapNotificationsEnabled(val interface{})
+	DailyDataCapNotificationsEnabledInput() interface{}
 	// Experimental.
 	DependsOn() *[]*string
 	// Experimental.
@@ -66,6 +69,9 @@ type ApplicationInsights interface {
 	InternetQueryEnabled() interface{}
 	SetInternetQueryEnabled(val interface{})
 	InternetQueryEnabledInput() interface{}
+	IpMaskingEnabled() interface{}
+	SetIpMaskingEnabled(val interface{})
+	IpMaskingEnabledInput() interface{}
 	// Experimental.
 	Lifecycle() *cdktn.TerraformResourceLifecycle
 	// Experimental.
@@ -73,6 +79,9 @@ type ApplicationInsights interface {
 	LocalAuthenticationDisabled() interface{}
 	SetLocalAuthenticationDisabled(val interface{})
 	LocalAuthenticationDisabledInput() interface{}
+	LocalAuthenticationEnabled() interface{}
+	SetLocalAuthenticationEnabled(val interface{})
+	LocalAuthenticationEnabledInput() interface{}
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -160,12 +169,15 @@ type ApplicationInsights interface {
 	PutTimeouts(value *ApplicationInsightsTimeouts)
 	ResetDailyDataCapInGb()
 	ResetDailyDataCapNotificationsDisabled()
+	ResetDailyDataCapNotificationsEnabled()
 	ResetDisableIpMasking()
 	ResetForceCustomerStorageForProfiler()
 	ResetId()
 	ResetInternetIngestionEnabled()
 	ResetInternetQueryEnabled()
+	ResetIpMaskingEnabled()
 	ResetLocalAuthenticationDisabled()
+	ResetLocalAuthenticationEnabled()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -321,6 +333,26 @@ func (j *jsiiProxy_ApplicationInsights) DailyDataCapNotificationsDisabledInput()
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationInsights) DailyDataCapNotificationsEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dailyDataCapNotificationsEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationInsights) DailyDataCapNotificationsEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"dailyDataCapNotificationsEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationInsights) DependsOn() *[]*string {
 	var returns *[]*string
 	_jsii_.Get(
@@ -471,6 +503,26 @@ func (j *jsiiProxy_ApplicationInsights) InternetQueryEnabledInput() interface{} 
 	return returns
 }
 
+func (j *jsiiProxy_ApplicationInsights) IpMaskingEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ipMaskingEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationInsights) IpMaskingEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"ipMaskingEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ApplicationInsights) Lifecycle() *cdktn.TerraformResourceLifecycle {
 	var returns *cdktn.TerraformResourceLifecycle
 	_jsii_.Get(
@@ -496,6 +548,26 @@ func (j *jsiiProxy_ApplicationInsights) LocalAuthenticationDisabledInput() inter
 	_jsii_.Get(
 		j,
 		"localAuthenticationDisabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationInsights) LocalAuthenticationEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"localAuthenticationEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApplicationInsights) LocalAuthenticationEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"localAuthenticationEnabledInput",
 		&returns,
 	)
 	return returns
@@ -732,7 +804,7 @@ func (j *jsiiProxy_ApplicationInsights) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/application_insights azurerm_application_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/application_insights azurerm_application_insights} Resource.
 func NewApplicationInsights(scope constructs.Construct, id *string, config *ApplicationInsightsConfig) ApplicationInsights {
 	_init_.Initialize()
 
@@ -750,7 +822,7 @@ func NewApplicationInsights(scope constructs.Construct, id *string, config *Appl
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/application_insights azurerm_application_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/application_insights azurerm_application_insights} Resource.
 func NewApplicationInsights_Override(a ApplicationInsights, scope constructs.Construct, id *string, config *ApplicationInsightsConfig) {
 	_init_.Initialize()
 
@@ -812,6 +884,17 @@ func (j *jsiiProxy_ApplicationInsights)SetDailyDataCapNotificationsDisabled(val 
 	_jsii_.Set(
 		j,
 		"dailyDataCapNotificationsDisabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationInsights)SetDailyDataCapNotificationsEnabled(val interface{}) {
+	if err := j.validateSetDailyDataCapNotificationsEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"dailyDataCapNotificationsEnabled",
 		val,
 	)
 }
@@ -887,6 +970,17 @@ func (j *jsiiProxy_ApplicationInsights)SetInternetQueryEnabled(val interface{}) 
 	)
 }
 
+func (j *jsiiProxy_ApplicationInsights)SetIpMaskingEnabled(val interface{}) {
+	if err := j.validateSetIpMaskingEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"ipMaskingEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ApplicationInsights)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
 	if err := j.validateSetLifecycleParameters(val); err != nil {
 		panic(err)
@@ -905,6 +999,17 @@ func (j *jsiiProxy_ApplicationInsights)SetLocalAuthenticationDisabled(val interf
 	_jsii_.Set(
 		j,
 		"localAuthenticationDisabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApplicationInsights)SetLocalAuthenticationEnabled(val interface{}) {
+	if err := j.validateSetLocalAuthenticationEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"localAuthenticationEnabled",
 		val,
 	)
 }
@@ -1385,6 +1490,14 @@ func (a *jsiiProxy_ApplicationInsights) ResetDailyDataCapNotificationsDisabled()
 	)
 }
 
+func (a *jsiiProxy_ApplicationInsights) ResetDailyDataCapNotificationsEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDailyDataCapNotificationsEnabled",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationInsights) ResetDisableIpMasking() {
 	_jsii_.InvokeVoid(
 		a,
@@ -1425,10 +1538,26 @@ func (a *jsiiProxy_ApplicationInsights) ResetInternetQueryEnabled() {
 	)
 }
 
+func (a *jsiiProxy_ApplicationInsights) ResetIpMaskingEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetIpMaskingEnabled",
+		nil, // no parameters
+	)
+}
+
 func (a *jsiiProxy_ApplicationInsights) ResetLocalAuthenticationDisabled() {
 	_jsii_.InvokeVoid(
 		a,
 		"resetLocalAuthenticationDisabled",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApplicationInsights) ResetLocalAuthenticationEnabled() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetLocalAuthenticationEnabled",
 		nil, // no parameters
 	)
 }

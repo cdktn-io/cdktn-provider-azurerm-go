@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/monitor_action_group azurerm_monitor_action_group}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/monitor_action_group azurerm_monitor_action_group}.
 type MonitorActionGroup interface {
 	cdktn.TerraformResource
 	ArmRoleReceiver() MonitorActionGroupArmRoleReceiverList
@@ -748,7 +748,7 @@ func (j *jsiiProxy_MonitorActionGroup) WebhookReceiverInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/monitor_action_group azurerm_monitor_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/monitor_action_group azurerm_monitor_action_group} Resource.
 func NewMonitorActionGroup(scope constructs.Construct, id *string, config *MonitorActionGroupConfig) MonitorActionGroup {
 	_init_.Initialize()
 
@@ -766,7 +766,7 @@ func NewMonitorActionGroup(scope constructs.Construct, id *string, config *Monit
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/monitor_action_group azurerm_monitor_action_group} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/monitor_action_group azurerm_monitor_action_group} Resource.
 func NewMonitorActionGroup_Override(m MonitorActionGroup, scope constructs.Construct, id *string, config *MonitorActionGroupConfig) {
 	_init_.Initialize()
 

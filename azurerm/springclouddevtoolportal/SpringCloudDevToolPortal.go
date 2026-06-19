@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal}.
 type SpringCloudDevToolPortal interface {
 	cdktn.TerraformResource
 	ApplicationAcceleratorEnabled() interface{}
@@ -485,7 +485,7 @@ func (j *jsiiProxy_SpringCloudDevToolPortal) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
 func NewSpringCloudDevToolPortal(scope constructs.Construct, id *string, config *SpringCloudDevToolPortalConfig) SpringCloudDevToolPortal {
 	_init_.Initialize()
 
@@ -503,7 +503,7 @@ func NewSpringCloudDevToolPortal(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/spring_cloud_dev_tool_portal azurerm_spring_cloud_dev_tool_portal} Resource.
 func NewSpringCloudDevToolPortal_Override(s SpringCloudDevToolPortal, scope constructs.Construct, id *string, config *SpringCloudDevToolPortalConfig) {
 	_init_.Initialize()
 

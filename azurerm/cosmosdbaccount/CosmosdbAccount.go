@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/cosmosdb_account azurerm_cosmosdb_account}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/cosmosdb_account azurerm_cosmosdb_account}.
 type CosmosdbAccount interface {
 	cdktn.TerraformResource
 	AccessKeyMetadataWritesEnabled() interface{}
@@ -99,6 +99,9 @@ type CosmosdbAccount interface {
 	LocalAuthenticationDisabled() interface{}
 	SetLocalAuthenticationDisabled(val interface{})
 	LocalAuthenticationDisabledInput() interface{}
+	LocalAuthenticationEnabled() interface{}
+	SetLocalAuthenticationEnabled(val interface{})
+	LocalAuthenticationEnabledInput() interface{}
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
@@ -249,6 +252,7 @@ type CosmosdbAccount interface {
 	ResetKeyVaultKeyId()
 	ResetKind()
 	ResetLocalAuthenticationDisabled()
+	ResetLocalAuthenticationEnabled()
 	ResetManagedHsmKeyId()
 	ResetMinimalTlsVersion()
 	ResetMongoServerVersion()
@@ -811,6 +815,26 @@ func (j *jsiiProxy_CosmosdbAccount) LocalAuthenticationDisabledInput() interface
 	return returns
 }
 
+func (j *jsiiProxy_CosmosdbAccount) LocalAuthenticationEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"localAuthenticationEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_CosmosdbAccount) LocalAuthenticationEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"localAuthenticationEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_CosmosdbAccount) Location() *string {
 	var returns *string
 	_jsii_.Get(
@@ -1342,7 +1366,7 @@ func (j *jsiiProxy_CosmosdbAccount) WriteEndpoints() *[]*string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/cosmosdb_account azurerm_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/cosmosdb_account azurerm_cosmosdb_account} Resource.
 func NewCosmosdbAccount(scope constructs.Construct, id *string, config *CosmosdbAccountConfig) CosmosdbAccount {
 	_init_.Initialize()
 
@@ -1360,7 +1384,7 @@ func NewCosmosdbAccount(scope constructs.Construct, id *string, config *Cosmosdb
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/cosmosdb_account azurerm_cosmosdb_account} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/cosmosdb_account azurerm_cosmosdb_account} Resource.
 func NewCosmosdbAccount_Override(c CosmosdbAccount, scope constructs.Construct, id *string, config *CosmosdbAccountConfig) {
 	_init_.Initialize()
 
@@ -1559,6 +1583,17 @@ func (j *jsiiProxy_CosmosdbAccount)SetLocalAuthenticationDisabled(val interface{
 	_jsii_.Set(
 		j,
 		"localAuthenticationDisabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_CosmosdbAccount)SetLocalAuthenticationEnabled(val interface{}) {
+	if err := j.validateSetLocalAuthenticationEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"localAuthenticationEnabled",
 		val,
 	)
 }
@@ -2347,6 +2382,14 @@ func (c *jsiiProxy_CosmosdbAccount) ResetLocalAuthenticationDisabled() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetLocalAuthenticationDisabled",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_CosmosdbAccount) ResetLocalAuthenticationEnabled() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetLocalAuthenticationEnabled",
 		nil, // no parameters
 	)
 }

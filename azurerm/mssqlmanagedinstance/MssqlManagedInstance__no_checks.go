@@ -195,6 +195,10 @@ func (j *jsiiProxy_MssqlManagedInstance) validateSetStorageAccountTypeParameters
 	return nil
 }
 
+func (j *jsiiProxy_MssqlManagedInstance) validateSetStorageIopsParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_MssqlManagedInstance) validateSetStorageSizeInGbParameters(val *float64) error {
 	return nil
 }

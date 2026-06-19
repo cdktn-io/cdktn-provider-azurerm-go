@@ -5,11 +5,11 @@ package manageddevopspool
 
 
 type ManagedDevopsPoolVirtualMachineScaleSetFabricSecurity struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/managed_devops_pool#interactive_logon_enabled ManagedDevopsPool#interactive_logon_enabled}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/managed_devops_pool#interactive_logon_enabled ManagedDevopsPool#interactive_logon_enabled}.
 	InteractiveLogonEnabled interface{} `field:"optional" json:"interactiveLogonEnabled" yaml:"interactiveLogonEnabled"`
 	// key_vault_management block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/managed_devops_pool#key_vault_management ManagedDevopsPool#key_vault_management}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/managed_devops_pool#key_vault_management ManagedDevopsPool#key_vault_management}
 	KeyVaultManagement *ManagedDevopsPoolVirtualMachineScaleSetFabricSecurityKeyVaultManagement `field:"optional" json:"keyVaultManagement" yaml:"keyVaultManagement"`
 }
 

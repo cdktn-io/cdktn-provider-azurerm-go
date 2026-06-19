@@ -103,6 +103,14 @@ func validateNetworkManagerConnectivityConfiguration_IsTerraformResourceParamete
 	return nil
 }
 
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) validateSetConnectedGroupAddressOverlapEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) validateSetConnectedGroupPrivateEndpointsScaleParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -140,6 +148,10 @@ func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) validateSetNameParam
 }
 
 func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) validateSetNetworkManagerIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_NetworkManagerConnectivityConfiguration) validateSetPeeringEnforcementEnabledParameters(val interface{}) error {
 	return nil
 }
 

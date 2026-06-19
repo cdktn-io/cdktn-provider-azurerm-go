@@ -199,6 +199,10 @@ func (j *jsiiProxy_CosmosdbAccount) validateSetLocalAuthenticationDisabledParame
 	return nil
 }
 
+func (j *jsiiProxy_CosmosdbAccount) validateSetLocalAuthenticationEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_CosmosdbAccount) validateSetLocationParameters(val *string) error {
 	return nil
 }

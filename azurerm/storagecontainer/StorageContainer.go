@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_container azurerm_storage_container}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/storage_container azurerm_storage_container}.
 type StorageContainer interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -90,6 +90,7 @@ type StorageContainer interface {
 	TerraformResourceType() *string
 	Timeouts() StorageContainerTimeoutsOutputReference
 	TimeoutsInput() interface{}
+	Url() *string
 	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
 	// Experimental.
 	AddMoveTarget(moveTarget *string)
@@ -542,8 +543,18 @@ func (j *jsiiProxy_StorageContainer) TimeoutsInput() interface{} {
 	return returns
 }
 
+func (j *jsiiProxy_StorageContainer) Url() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"url",
+		&returns,
+	)
+	return returns
+}
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_container azurerm_storage_container} Resource.
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/storage_container azurerm_storage_container} Resource.
 func NewStorageContainer(scope constructs.Construct, id *string, config *StorageContainerConfig) StorageContainer {
 	_init_.Initialize()
 
@@ -561,7 +572,7 @@ func NewStorageContainer(scope constructs.Construct, id *string, config *Storage
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/storage_container azurerm_storage_container} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/storage_container azurerm_storage_container} Resource.
 func NewStorageContainer_Override(s StorageContainer, scope constructs.Construct, id *string, config *StorageContainerConfig) {
 	_init_.Initialize()
 

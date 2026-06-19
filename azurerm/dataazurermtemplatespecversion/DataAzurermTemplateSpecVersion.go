@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/template_spec_version azurerm_template_spec_version}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/template_spec_version azurerm_template_spec_version}.
 type DataAzurermTemplateSpecVersion interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_DataAzurermTemplateSpecVersion) VersionInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
 func NewDataAzurermTemplateSpecVersion(scope constructs.Construct, id *string, config *DataAzurermTemplateSpecVersionConfig) DataAzurermTemplateSpecVersion {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewDataAzurermTemplateSpecVersion(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/template_spec_version azurerm_template_spec_version} Data Source.
 func NewDataAzurermTemplateSpecVersion_Override(d DataAzurermTemplateSpecVersion, scope constructs.Construct, id *string, config *DataAzurermTemplateSpecVersionConfig) {
 	_init_.Initialize()
 

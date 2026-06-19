@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dev_center azurerm_dev_center}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/dev_center azurerm_dev_center}.
 type DevCenter interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -495,7 +495,7 @@ func (j *jsiiProxy_DevCenter) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dev_center azurerm_dev_center} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/dev_center azurerm_dev_center} Resource.
 func NewDevCenter(scope constructs.Construct, id *string, config *DevCenterConfig) DevCenter {
 	_init_.Initialize()
 
@@ -513,7 +513,7 @@ func NewDevCenter(scope constructs.Construct, id *string, config *DevCenterConfi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/dev_center azurerm_dev_center} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/dev_center azurerm_dev_center} Resource.
 func NewDevCenter_Override(d DevCenter, scope constructs.Construct, id *string, config *DevCenterConfig) {
 	_init_.Initialize()
 

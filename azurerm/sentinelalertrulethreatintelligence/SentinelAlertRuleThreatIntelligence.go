@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence}.
 type SentinelAlertRuleThreatIntelligence interface {
 	cdktn.TerraformResource
 	AlertRuleTemplateGuid() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_SentinelAlertRuleThreatIntelligence) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
 func NewSentinelAlertRuleThreatIntelligence(scope constructs.Construct, id *string, config *SentinelAlertRuleThreatIntelligenceConfig) SentinelAlertRuleThreatIntelligence {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewSentinelAlertRuleThreatIntelligence(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.77.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/sentinel_alert_rule_threat_intelligence azurerm_sentinel_alert_rule_threat_intelligence} Resource.
 func NewSentinelAlertRuleThreatIntelligence_Override(s SentinelAlertRuleThreatIntelligence, scope constructs.Construct, id *string, config *SentinelAlertRuleThreatIntelligenceConfig) {
 	_init_.Initialize()
 
