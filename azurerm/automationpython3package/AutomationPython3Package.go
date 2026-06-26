@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/automation_python3_package azurerm_automation_python3_package}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/automation_python3_package azurerm_automation_python3_package}.
 type AutomationPython3Package interface {
 	cdktn.TerraformResource
 	AutomationAccountName() *string
@@ -531,7 +531,7 @@ func (j *jsiiProxy_AutomationPython3Package) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/automation_python3_package azurerm_automation_python3_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/automation_python3_package azurerm_automation_python3_package} Resource.
 func NewAutomationPython3Package(scope constructs.Construct, id *string, config *AutomationPython3PackageConfig) AutomationPython3Package {
 	_init_.Initialize()
 
@@ -549,7 +549,7 @@ func NewAutomationPython3Package(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/automation_python3_package azurerm_automation_python3_package} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/automation_python3_package azurerm_automation_python3_package} Resource.
 func NewAutomationPython3Package_Override(a AutomationPython3Package, scope constructs.Construct, id *string, config *AutomationPython3PackageConfig) {
 	_init_.Initialize()
 

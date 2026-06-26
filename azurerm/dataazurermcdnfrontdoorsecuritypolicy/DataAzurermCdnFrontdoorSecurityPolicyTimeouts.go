@@ -5,7 +5,7 @@ package dataazurermcdnfrontdoorsecuritypolicy
 
 
 type DataAzurermCdnFrontdoorSecurityPolicyTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/cdn_frontdoor_security_policy#read DataAzurermCdnFrontdoorSecurityPolicy#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/cdn_frontdoor_security_policy#read DataAzurermCdnFrontdoorSecurityPolicy#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

@@ -611,6 +611,22 @@ func (j *jsiiProxy_VirtualNetworkGateway) validateSetLocationParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_VirtualNetworkGateway) validateSetMaximumScaleUnitParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_VirtualNetworkGateway) validateSetMinimumScaleUnitParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_VirtualNetworkGateway) validateSetNameParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

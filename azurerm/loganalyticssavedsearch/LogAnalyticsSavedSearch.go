@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/log_analytics_saved_search azurerm_log_analytics_saved_search}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/log_analytics_saved_search azurerm_log_analytics_saved_search}.
 type LogAnalyticsSavedSearch interface {
 	cdktn.TerraformResource
 	Category() *string
@@ -530,7 +530,7 @@ func (j *jsiiProxy_LogAnalyticsSavedSearch) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/log_analytics_saved_search azurerm_log_analytics_saved_search} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/log_analytics_saved_search azurerm_log_analytics_saved_search} Resource.
 func NewLogAnalyticsSavedSearch(scope constructs.Construct, id *string, config *LogAnalyticsSavedSearchConfig) LogAnalyticsSavedSearch {
 	_init_.Initialize()
 
@@ -548,7 +548,7 @@ func NewLogAnalyticsSavedSearch(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/log_analytics_saved_search azurerm_log_analytics_saved_search} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/log_analytics_saved_search azurerm_log_analytics_saved_search} Resource.
 func NewLogAnalyticsSavedSearch_Override(l LogAnalyticsSavedSearch, scope constructs.Construct, id *string, config *LogAnalyticsSavedSearchConfig) {
 	_init_.Initialize()
 

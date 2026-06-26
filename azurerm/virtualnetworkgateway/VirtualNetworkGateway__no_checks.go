@@ -171,6 +171,14 @@ func (j *jsiiProxy_VirtualNetworkGateway) validateSetLocationParameters(val *str
 	return nil
 }
 
+func (j *jsiiProxy_VirtualNetworkGateway) validateSetMaximumScaleUnitParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_VirtualNetworkGateway) validateSetMinimumScaleUnitParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_VirtualNetworkGateway) validateSetNameParameters(val *string) error {
 	return nil
 }

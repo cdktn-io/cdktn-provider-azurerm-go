@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/container_app azurerm_container_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/container_app azurerm_container_app}.
 type ContainerApp interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -705,7 +705,7 @@ func (j *jsiiProxy_ContainerApp) WorkloadProfileNameInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/container_app azurerm_container_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/container_app azurerm_container_app} Resource.
 func NewContainerApp(scope constructs.Construct, id *string, config *ContainerAppConfig) ContainerApp {
 	_init_.Initialize()
 
@@ -723,7 +723,7 @@ func NewContainerApp(scope constructs.Construct, id *string, config *ContainerAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/container_app azurerm_container_app} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/container_app azurerm_container_app} Resource.
 func NewContainerApp_Override(c ContainerApp, scope constructs.Construct, id *string, config *ContainerAppConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/storage_table azurerm_storage_table}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/storage_table azurerm_storage_table}.
 type DataAzurermStorageTable interface {
 	cdktn.TerraformDataSource
 	Acl() DataAzurermStorageTableAclList
@@ -378,7 +378,7 @@ func (j *jsiiProxy_DataAzurermStorageTable) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/storage_table azurerm_storage_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/storage_table azurerm_storage_table} Data Source.
 func NewDataAzurermStorageTable(scope constructs.Construct, id *string, config *DataAzurermStorageTableConfig) DataAzurermStorageTable {
 	_init_.Initialize()
 
@@ -396,7 +396,7 @@ func NewDataAzurermStorageTable(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/storage_table azurerm_storage_table} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/storage_table azurerm_storage_table} Data Source.
 func NewDataAzurermStorageTable_Override(d DataAzurermStorageTable, scope constructs.Construct, id *string, config *DataAzurermStorageTableConfig) {
 	_init_.Initialize()
 

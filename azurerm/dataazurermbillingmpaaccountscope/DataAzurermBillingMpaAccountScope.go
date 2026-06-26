@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope}.
 type DataAzurermBillingMpaAccountScope interface {
 	cdktn.TerraformDataSource
 	BillingAccountName() *string
@@ -344,7 +344,7 @@ func (j *jsiiProxy_DataAzurermBillingMpaAccountScope) TimeoutsInput() interface{
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
 func NewDataAzurermBillingMpaAccountScope(scope constructs.Construct, id *string, config *DataAzurermBillingMpaAccountScopeConfig) DataAzurermBillingMpaAccountScope {
 	_init_.Initialize()
 
@@ -362,7 +362,7 @@ func NewDataAzurermBillingMpaAccountScope(scope constructs.Construct, id *string
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/billing_mpa_account_scope azurerm_billing_mpa_account_scope} Data Source.
 func NewDataAzurermBillingMpaAccountScope_Override(d DataAzurermBillingMpaAccountScope, scope constructs.Construct, id *string, config *DataAzurermBillingMpaAccountScopeConfig) {
 	_init_.Initialize()
 

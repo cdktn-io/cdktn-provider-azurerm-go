@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window}.
 type DataFactoryTriggerTumblingWindow interface {
 	cdktn.TerraformResource
 	Activated() interface{}
@@ -697,7 +697,7 @@ func (j *jsiiProxy_DataFactoryTriggerTumblingWindow) TriggerDependencyInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
 func NewDataFactoryTriggerTumblingWindow(scope constructs.Construct, id *string, config *DataFactoryTriggerTumblingWindowConfig) DataFactoryTriggerTumblingWindow {
 	_init_.Initialize()
 
@@ -715,7 +715,7 @@ func NewDataFactoryTriggerTumblingWindow(scope constructs.Construct, id *string,
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/data_factory_trigger_tumbling_window azurerm_data_factory_trigger_tumbling_window} Resource.
 func NewDataFactoryTriggerTumblingWindow_Override(d DataFactoryTriggerTumblingWindow, scope constructs.Construct, id *string, config *DataFactoryTriggerTumblingWindowConfig) {
 	_init_.Initialize()
 

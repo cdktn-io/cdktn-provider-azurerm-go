@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/eventgrid_namespace_topic azurerm_eventgrid_namespace_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/eventgrid_namespace_topic azurerm_eventgrid_namespace_topic}.
 type EventgridNamespaceTopic interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -413,7 +413,7 @@ func (j *jsiiProxy_EventgridNamespaceTopic) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/eventgrid_namespace_topic azurerm_eventgrid_namespace_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/eventgrid_namespace_topic azurerm_eventgrid_namespace_topic} Resource.
 func NewEventgridNamespaceTopic(scope constructs.Construct, id *string, config *EventgridNamespaceTopicConfig) EventgridNamespaceTopic {
 	_init_.Initialize()
 
@@ -431,7 +431,7 @@ func NewEventgridNamespaceTopic(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/eventgrid_namespace_topic azurerm_eventgrid_namespace_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/eventgrid_namespace_topic azurerm_eventgrid_namespace_topic} Resource.
 func NewEventgridNamespaceTopic_Override(e EventgridNamespaceTopic, scope constructs.Construct, id *string, config *EventgridNamespaceTopicConfig) {
 	_init_.Initialize()
 

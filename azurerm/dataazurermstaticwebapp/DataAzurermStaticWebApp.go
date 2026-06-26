@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/static_web_app azurerm_static_web_app}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/static_web_app azurerm_static_web_app}.
 type DataAzurermStaticWebApp interface {
 	cdktn.TerraformDataSource
 	ApiKey() *string
@@ -498,7 +498,7 @@ func (j *jsiiProxy_DataAzurermStaticWebApp) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
 func NewDataAzurermStaticWebApp(scope constructs.Construct, id *string, config *DataAzurermStaticWebAppConfig) DataAzurermStaticWebApp {
 	_init_.Initialize()
 
@@ -516,7 +516,7 @@ func NewDataAzurermStaticWebApp(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/static_web_app azurerm_static_web_app} Data Source.
 func NewDataAzurermStaticWebApp_Override(d DataAzurermStaticWebApp, scope constructs.Construct, id *string, config *DataAzurermStaticWebAppConfig) {
 	_init_.Initialize()
 

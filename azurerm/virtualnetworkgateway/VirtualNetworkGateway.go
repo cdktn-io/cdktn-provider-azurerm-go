@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway}.
 type VirtualNetworkGateway interface {
 	cdktn.TerraformResource
 	ActiveActive() interface{}
@@ -82,6 +82,12 @@ type VirtualNetworkGateway interface {
 	Location() *string
 	SetLocation(val *string)
 	LocationInput() *string
+	MaximumScaleUnit() *float64
+	SetMaximumScaleUnit(val *float64)
+	MaximumScaleUnitInput() *float64
+	MinimumScaleUnit() *float64
+	SetMinimumScaleUnit(val *float64)
+	MinimumScaleUnitInput() *float64
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
@@ -194,6 +200,8 @@ type VirtualNetworkGateway interface {
 	ResetGeneration()
 	ResetId()
 	ResetIpSecReplayProtectionEnabled()
+	ResetMaximumScaleUnit()
+	ResetMinimumScaleUnit()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
 	// Experimental.
 	ResetOverrideLogicalId()
@@ -602,6 +610,46 @@ func (j *jsiiProxy_VirtualNetworkGateway) LocationInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_VirtualNetworkGateway) MaximumScaleUnit() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumScaleUnit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetworkGateway) MaximumScaleUnitInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"maximumScaleUnitInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetworkGateway) MinimumScaleUnit() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"minimumScaleUnit",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_VirtualNetworkGateway) MinimumScaleUnitInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"minimumScaleUnitInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_VirtualNetworkGateway) Name() *string {
 	var returns *string
 	_jsii_.Get(
@@ -913,7 +961,7 @@ func (j *jsiiProxy_VirtualNetworkGateway) VpnTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) VirtualNetworkGateway {
 	_init_.Initialize()
 
@@ -931,7 +979,7 @@ func NewVirtualNetworkGateway(scope constructs.Construct, id *string, config *Vi
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/virtual_network_gateway azurerm_virtual_network_gateway} Resource.
 func NewVirtualNetworkGateway_Override(v VirtualNetworkGateway, scope constructs.Construct, id *string, config *VirtualNetworkGatewayConfig) {
 	_init_.Initialize()
 
@@ -1108,6 +1156,28 @@ func (j *jsiiProxy_VirtualNetworkGateway)SetLocation(val *string) {
 	_jsii_.Set(
 		j,
 		"location",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VirtualNetworkGateway)SetMaximumScaleUnit(val *float64) {
+	if err := j.validateSetMaximumScaleUnitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"maximumScaleUnit",
+		val,
+	)
+}
+
+func (j *jsiiProxy_VirtualNetworkGateway)SetMinimumScaleUnit(val *float64) {
+	if err := j.validateSetMinimumScaleUnitParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"minimumScaleUnit",
 		val,
 	)
 }
@@ -1741,6 +1811,22 @@ func (v *jsiiProxy_VirtualNetworkGateway) ResetIpSecReplayProtectionEnabled() {
 	_jsii_.InvokeVoid(
 		v,
 		"resetIpSecReplayProtectionEnabled",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VirtualNetworkGateway) ResetMaximumScaleUnit() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetMaximumScaleUnit",
+		nil, // no parameters
+	)
+}
+
+func (v *jsiiProxy_VirtualNetworkGateway) ResetMinimumScaleUnit() {
+	_jsii_.InvokeVoid(
+		v,
+		"resetMinimumScaleUnit",
 		nil, // no parameters
 	)
 }

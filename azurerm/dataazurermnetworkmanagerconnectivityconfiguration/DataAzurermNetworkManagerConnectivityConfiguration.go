@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration}.
 type DataAzurermNetworkManagerConnectivityConfiguration interface {
 	cdktn.TerraformDataSource
 	AppliesToGroup() DataAzurermNetworkManagerConnectivityConfigurationAppliesToGroupList
@@ -443,7 +443,7 @@ func (j *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) TimeoutsI
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
 func NewDataAzurermNetworkManagerConnectivityConfiguration(scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConnectivityConfigurationConfig) DataAzurermNetworkManagerConnectivityConfiguration {
 	_init_.Initialize()
 
@@ -461,7 +461,7 @@ func NewDataAzurermNetworkManagerConnectivityConfiguration(scope constructs.Cons
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/network_manager_connectivity_configuration azurerm_network_manager_connectivity_configuration} Data Source.
 func NewDataAzurermNetworkManagerConnectivityConfiguration_Override(d DataAzurermNetworkManagerConnectivityConfiguration, scope constructs.Construct, id *string, config *DataAzurermNetworkManagerConnectivityConfigurationConfig) {
 	_init_.Initialize()
 

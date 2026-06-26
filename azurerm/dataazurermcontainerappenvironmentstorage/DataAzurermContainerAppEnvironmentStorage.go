@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/container_app_environment_storage azurerm_container_app_environment_storage}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/container_app_environment_storage azurerm_container_app_environment_storage}.
 type DataAzurermContainerAppEnvironmentStorage interface {
 	cdktn.TerraformDataSource
 	AccessMode() *string
@@ -388,7 +388,7 @@ func (j *jsiiProxy_DataAzurermContainerAppEnvironmentStorage) TimeoutsInput() in
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/container_app_environment_storage azurerm_container_app_environment_storage} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/container_app_environment_storage azurerm_container_app_environment_storage} Data Source.
 func NewDataAzurermContainerAppEnvironmentStorage(scope constructs.Construct, id *string, config *DataAzurermContainerAppEnvironmentStorageConfig) DataAzurermContainerAppEnvironmentStorage {
 	_init_.Initialize()
 
@@ -406,7 +406,7 @@ func NewDataAzurermContainerAppEnvironmentStorage(scope constructs.Construct, id
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/data-sources/container_app_environment_storage azurerm_container_app_environment_storage} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/container_app_environment_storage azurerm_container_app_environment_storage} Data Source.
 func NewDataAzurermContainerAppEnvironmentStorage_Override(d DataAzurermContainerAppEnvironmentStorage, scope constructs.Construct, id *string, config *DataAzurermContainerAppEnvironmentStorageConfig) {
 	_init_.Initialize()
 

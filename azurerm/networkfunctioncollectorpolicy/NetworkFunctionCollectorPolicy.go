@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/network_function_collector_policy azurerm_network_function_collector_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/network_function_collector_policy azurerm_network_function_collector_policy}.
 type NetworkFunctionCollectorPolicy interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -482,7 +482,7 @@ func (j *jsiiProxy_NetworkFunctionCollectorPolicy) TrafficCollectorIdInput() *st
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/network_function_collector_policy azurerm_network_function_collector_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/network_function_collector_policy azurerm_network_function_collector_policy} Resource.
 func NewNetworkFunctionCollectorPolicy(scope constructs.Construct, id *string, config *NetworkFunctionCollectorPolicyConfig) NetworkFunctionCollectorPolicy {
 	_init_.Initialize()
 
@@ -500,7 +500,7 @@ func NewNetworkFunctionCollectorPolicy(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/network_function_collector_policy azurerm_network_function_collector_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/network_function_collector_policy azurerm_network_function_collector_policy} Resource.
 func NewNetworkFunctionCollectorPolicy_Override(n NetworkFunctionCollectorPolicy, scope constructs.Construct, id *string, config *NetworkFunctionCollectorPolicyConfig) {
 	_init_.Initialize()
 

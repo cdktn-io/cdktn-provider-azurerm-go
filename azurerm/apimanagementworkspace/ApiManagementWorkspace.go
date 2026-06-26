@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/api_management_workspace azurerm_api_management_workspace}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/api_management_workspace azurerm_api_management_workspace}.
 type ApiManagementWorkspace interface {
 	cdktn.TerraformResource
 	ApiManagementId() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_ApiManagementWorkspace) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/api_management_workspace azurerm_api_management_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/api_management_workspace azurerm_api_management_workspace} Resource.
 func NewApiManagementWorkspace(scope constructs.Construct, id *string, config *ApiManagementWorkspaceConfig) ApiManagementWorkspace {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewApiManagementWorkspace(scope constructs.Construct, id *string, config *A
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.78.0/docs/resources/api_management_workspace azurerm_api_management_workspace} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/api_management_workspace azurerm_api_management_workspace} Resource.
 func NewApiManagementWorkspace_Override(a ApiManagementWorkspace, scope constructs.Construct, id *string, config *ApiManagementWorkspaceConfig) {
 	_init_.Initialize()
 
