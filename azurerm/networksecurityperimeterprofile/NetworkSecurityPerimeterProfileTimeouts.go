@@ -5,11 +5,11 @@ package networksecurityperimeterprofile
 
 
 type NetworkSecurityPerimeterProfileTimeouts struct {
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/network_security_perimeter_profile#create NetworkSecurityPerimeterProfile#create}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_security_perimeter_profile#create NetworkSecurityPerimeterProfile#create}.
 	Create *string `field:"optional" json:"create" yaml:"create"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/network_security_perimeter_profile#delete NetworkSecurityPerimeterProfile#delete}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_security_perimeter_profile#delete NetworkSecurityPerimeterProfile#delete}.
 	Delete *string `field:"optional" json:"delete" yaml:"delete"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/network_security_perimeter_profile#read NetworkSecurityPerimeterProfile#read}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/network_security_perimeter_profile#read NetworkSecurityPerimeterProfile#read}.
 	Read *string `field:"optional" json:"read" yaml:"read"`
 }
 

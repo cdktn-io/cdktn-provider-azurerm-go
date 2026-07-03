@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module}.
 type AutomationPowershell72Module interface {
 	cdktn.TerraformResource
 	AutomationAccountId() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_AutomationPowershell72Module) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
 func NewAutomationPowershell72Module(scope constructs.Construct, id *string, config *AutomationPowershell72ModuleConfig) AutomationPowershell72Module {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewAutomationPowershell72Module(scope constructs.Construct, id *string, con
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/automation_powershell72_module azurerm_automation_powershell72_module} Resource.
 func NewAutomationPowershell72Module_Override(a AutomationPowershell72Module, scope constructs.Construct, id *string, config *AutomationPowershell72ModuleConfig) {
 	_init_.Initialize()
 

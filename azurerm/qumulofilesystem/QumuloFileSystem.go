@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system}.
 type QumuloFileSystem interface {
 	cdktn.TerraformResource
 	AdminPassword() *string
@@ -623,7 +623,7 @@ func (j *jsiiProxy_QumuloFileSystem) ZoneInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
 func NewQumuloFileSystem(scope constructs.Construct, id *string, config *QumuloFileSystemConfig) QumuloFileSystem {
 	_init_.Initialize()
 
@@ -641,7 +641,7 @@ func NewQumuloFileSystem(scope constructs.Construct, id *string, config *QumuloF
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/qumulo_file_system azurerm_qumulo_file_system} Resource.
 func NewQumuloFileSystem_Override(q QumuloFileSystem, scope constructs.Construct, id *string, config *QumuloFileSystemConfig) {
 	_init_.Initialize()
 

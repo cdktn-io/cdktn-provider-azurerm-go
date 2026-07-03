@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database}.
 type RedisEnterpriseDatabase interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -580,7 +580,7 @@ func (j *jsiiProxy_RedisEnterpriseDatabase) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
 func NewRedisEnterpriseDatabase(scope constructs.Construct, id *string, config *RedisEnterpriseDatabaseConfig) RedisEnterpriseDatabase {
 	_init_.Initialize()
 
@@ -598,7 +598,7 @@ func NewRedisEnterpriseDatabase(scope constructs.Construct, id *string, config *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/redis_enterprise_database azurerm_redis_enterprise_database} Resource.
 func NewRedisEnterpriseDatabase_Override(r RedisEnterpriseDatabase, scope constructs.Construct, id *string, config *RedisEnterpriseDatabaseConfig) {
 	_init_.Initialize()
 

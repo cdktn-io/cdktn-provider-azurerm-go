@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/static_web_app_custom_domain azurerm_static_web_app_custom_domain}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_web_app_custom_domain azurerm_static_web_app_custom_domain}.
 type StaticWebAppCustomDomain interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -423,7 +423,7 @@ func (j *jsiiProxy_StaticWebAppCustomDomain) ValidationTypeInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/static_web_app_custom_domain azurerm_static_web_app_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_web_app_custom_domain azurerm_static_web_app_custom_domain} Resource.
 func NewStaticWebAppCustomDomain(scope constructs.Construct, id *string, config *StaticWebAppCustomDomainConfig) StaticWebAppCustomDomain {
 	_init_.Initialize()
 
@@ -441,7 +441,7 @@ func NewStaticWebAppCustomDomain(scope constructs.Construct, id *string, config 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/static_web_app_custom_domain azurerm_static_web_app_custom_domain} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/static_web_app_custom_domain azurerm_static_web_app_custom_domain} Resource.
 func NewStaticWebAppCustomDomain_Override(s StaticWebAppCustomDomain, scope constructs.Construct, id *string, config *StaticWebAppCustomDomainConfig) {
 	_init_.Initialize()
 

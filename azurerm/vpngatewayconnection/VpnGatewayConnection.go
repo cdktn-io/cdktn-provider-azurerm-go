@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection}.
 type VpnGatewayConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -507,7 +507,7 @@ func (j *jsiiProxy_VpnGatewayConnection) VpnLinkInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
 func NewVpnGatewayConnection(scope constructs.Construct, id *string, config *VpnGatewayConnectionConfig) VpnGatewayConnection {
 	_init_.Initialize()
 
@@ -525,7 +525,7 @@ func NewVpnGatewayConnection(scope constructs.Construct, id *string, config *Vpn
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/vpn_gateway_connection azurerm_vpn_gateway_connection} Resource.
 func NewVpnGatewayConnection_Override(v VpnGatewayConnection, scope constructs.Construct, id *string, config *VpnGatewayConnectionConfig) {
 	_init_.Initialize()
 

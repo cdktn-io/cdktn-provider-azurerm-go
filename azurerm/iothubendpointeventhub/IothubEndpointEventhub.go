@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub}.
 type IothubEndpointEventhub interface {
 	cdktn.TerraformResource
 	AuthenticationType() *string
@@ -556,7 +556,7 @@ func (j *jsiiProxy_IothubEndpointEventhub) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) IothubEndpointEventhub {
 	_init_.Initialize()
 
@@ -574,7 +574,7 @@ func NewIothubEndpointEventhub(scope constructs.Construct, id *string, config *I
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iothub_endpoint_eventhub azurerm_iothub_endpoint_eventhub} Resource.
 func NewIothubEndpointEventhub_Override(i IothubEndpointEventhub, scope constructs.Construct, id *string, config *IothubEndpointEventhubConfig) {
 	_init_.Initialize()
 

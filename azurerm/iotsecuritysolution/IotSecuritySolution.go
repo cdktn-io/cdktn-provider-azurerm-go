@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_solution azurerm_iot_security_solution}.
 type IotSecuritySolution interface {
 	cdktn.TerraformResource
 	AdditionalWorkspace() IotSecuritySolutionAdditionalWorkspaceList
@@ -698,7 +698,7 @@ func (j *jsiiProxy_IotSecuritySolution) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) IotSecuritySolution {
 	_init_.Initialize()
 
@@ -716,7 +716,7 @@ func NewIotSecuritySolution(scope constructs.Construct, id *string, config *IotS
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/iot_security_solution azurerm_iot_security_solution} Resource.
 func NewIotSecuritySolution_Override(i IotSecuritySolution, scope constructs.Construct, id *string, config *IotSecuritySolutionConfig) {
 	_init_.Initialize()
 

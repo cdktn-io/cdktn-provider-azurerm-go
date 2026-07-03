@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule}.
 type SentinelAutomationRule interface {
 	cdktn.TerraformResource
 	ActionIncident() SentinelAutomationRuleActionIncidentList
@@ -627,7 +627,7 @@ func (j *jsiiProxy_SentinelAutomationRule) TriggersWhenInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
 func NewSentinelAutomationRule(scope constructs.Construct, id *string, config *SentinelAutomationRuleConfig) SentinelAutomationRule {
 	_init_.Initialize()
 
@@ -645,7 +645,7 @@ func NewSentinelAutomationRule(scope constructs.Construct, id *string, config *S
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/sentinel_automation_rule azurerm_sentinel_automation_rule} Resource.
 func NewSentinelAutomationRule_Override(s SentinelAutomationRule, scope constructs.Construct, id *string, config *SentinelAutomationRuleConfig) {
 	_init_.Initialize()
 

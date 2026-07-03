@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/role_definition azurerm_role_definition}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/role_definition azurerm_role_definition}.
 type RoleDefinition interface {
 	cdktn.TerraformResource
 	AssignableScopes() *[]*string
@@ -496,7 +496,7 @@ func (j *jsiiProxy_RoleDefinition) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/role_definition azurerm_role_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/role_definition azurerm_role_definition} Resource.
 func NewRoleDefinition(scope constructs.Construct, id *string, config *RoleDefinitionConfig) RoleDefinition {
 	_init_.Initialize()
 
@@ -514,7 +514,7 @@ func NewRoleDefinition(scope constructs.Construct, id *string, config *RoleDefin
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/role_definition azurerm_role_definition} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/role_definition azurerm_role_definition} Resource.
 func NewRoleDefinition_Override(r RoleDefinition, scope constructs.Construct, id *string, config *RoleDefinitionConfig) {
 	_init_.Initialize()
 

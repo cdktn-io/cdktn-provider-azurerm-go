@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/app_service_plan azurerm_app_service_plan}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_plan azurerm_app_service_plan}.
 type AppServicePlan interface {
 	cdktn.TerraformResource
 	AppServiceEnvironmentId() *string
@@ -638,7 +638,7 @@ func (j *jsiiProxy_AppServicePlan) ZoneRedundantInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
 func NewAppServicePlan(scope constructs.Construct, id *string, config *AppServicePlanConfig) AppServicePlan {
 	_init_.Initialize()
 
@@ -656,7 +656,7 @@ func NewAppServicePlan(scope constructs.Construct, id *string, config *AppServic
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/app_service_plan azurerm_app_service_plan} Resource.
 func NewAppServicePlan_Override(a AppServicePlan, scope constructs.Construct, id *string, config *AppServicePlanConfig) {
 	_init_.Initialize()
 

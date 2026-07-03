@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/mssql_managed_database azurerm_mssql_managed_database}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/mssql_managed_database azurerm_mssql_managed_database}.
 type DataAzurermMssqlManagedDatabase interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -399,7 +399,7 @@ func (j *jsiiProxy_DataAzurermMssqlManagedDatabase) TimeoutsInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/mssql_managed_database azurerm_mssql_managed_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/mssql_managed_database azurerm_mssql_managed_database} Data Source.
 func NewDataAzurermMssqlManagedDatabase(scope constructs.Construct, id *string, config *DataAzurermMssqlManagedDatabaseConfig) DataAzurermMssqlManagedDatabase {
 	_init_.Initialize()
 
@@ -417,7 +417,7 @@ func NewDataAzurermMssqlManagedDatabase(scope constructs.Construct, id *string, 
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/mssql_managed_database azurerm_mssql_managed_database} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/mssql_managed_database azurerm_mssql_managed_database} Data Source.
 func NewDataAzurermMssqlManagedDatabase_Override(d DataAzurermMssqlManagedDatabase, scope constructs.Construct, id *string, config *DataAzurermMssqlManagedDatabaseConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association}.
 type PaloAltoLocalRulestackOutboundTrustCertificateAssociation interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -366,7 +366,7 @@ func (j *jsiiProxy_PaloAltoLocalRulestackOutboundTrustCertificateAssociation) Ti
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
 func NewPaloAltoLocalRulestackOutboundTrustCertificateAssociation(scope constructs.Construct, id *string, config *PaloAltoLocalRulestackOutboundTrustCertificateAssociationConfig) PaloAltoLocalRulestackOutboundTrustCertificateAssociation {
 	_init_.Initialize()
 
@@ -384,7 +384,7 @@ func NewPaloAltoLocalRulestackOutboundTrustCertificateAssociation(scope construc
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/palo_alto_local_rulestack_outbound_trust_certificate_association azurerm_palo_alto_local_rulestack_outbound_trust_certificate_association} Resource.
 func NewPaloAltoLocalRulestackOutboundTrustCertificateAssociation_Override(p PaloAltoLocalRulestackOutboundTrustCertificateAssociation, scope constructs.Construct, id *string, config *PaloAltoLocalRulestackOutboundTrustCertificateAssociationConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/virtual_hub azurerm_virtual_hub}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/virtual_hub azurerm_virtual_hub}.
 type DataAzurermVirtualHub interface {
 	cdktn.TerraformDataSource
 	AddressPrefix() *string
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAzurermVirtualHub) VirtualWanId() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/virtual_hub azurerm_virtual_hub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/virtual_hub azurerm_virtual_hub} Data Source.
 func NewDataAzurermVirtualHub(scope constructs.Construct, id *string, config *DataAzurermVirtualHubConfig) DataAzurermVirtualHub {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAzurermVirtualHub(scope constructs.Construct, id *string, config *Da
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/virtual_hub azurerm_virtual_hub} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/virtual_hub azurerm_virtual_hub} Data Source.
 func NewDataAzurermVirtualHub_Override(d DataAzurermVirtualHub, scope constructs.Construct, id *string, config *DataAzurermVirtualHubConfig) {
 	_init_.Initialize()
 

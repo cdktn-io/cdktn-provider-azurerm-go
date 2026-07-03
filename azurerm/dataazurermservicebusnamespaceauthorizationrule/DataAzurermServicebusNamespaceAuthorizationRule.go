@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule}.
 type DataAzurermServicebusNamespaceAuthorizationRule interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -459,7 +459,7 @@ func (j *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) TimeoutsInpu
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
 func NewDataAzurermServicebusNamespaceAuthorizationRule(scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceAuthorizationRuleConfig) DataAzurermServicebusNamespaceAuthorizationRule {
 	_init_.Initialize()
 
@@ -477,7 +477,7 @@ func NewDataAzurermServicebusNamespaceAuthorizationRule(scope constructs.Constru
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/servicebus_namespace_authorization_rule azurerm_servicebus_namespace_authorization_rule} Data Source.
 func NewDataAzurermServicebusNamespaceAuthorizationRule_Override(d DataAzurermServicebusNamespaceAuthorizationRule, scope constructs.Construct, id *string, config *DataAzurermServicebusNamespaceAuthorizationRuleConfig) {
 	_init_.Initialize()
 

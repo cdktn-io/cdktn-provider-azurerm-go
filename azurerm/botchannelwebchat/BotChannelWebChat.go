@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat}.
 type BotChannelWebChat interface {
 	cdktn.TerraformResource
 	BotName() *string
@@ -436,7 +436,7 @@ func (j *jsiiProxy_BotChannelWebChat) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
 func NewBotChannelWebChat(scope constructs.Construct, id *string, config *BotChannelWebChatConfig) BotChannelWebChat {
 	_init_.Initialize()
 
@@ -454,7 +454,7 @@ func NewBotChannelWebChat(scope constructs.Construct, id *string, config *BotCha
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.79.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/bot_channel_web_chat azurerm_bot_channel_web_chat} Resource.
 func NewBotChannelWebChat_Override(b BotChannelWebChat, scope constructs.Construct, id *string, config *BotChannelWebChatConfig) {
 	_init_.Initialize()
 
