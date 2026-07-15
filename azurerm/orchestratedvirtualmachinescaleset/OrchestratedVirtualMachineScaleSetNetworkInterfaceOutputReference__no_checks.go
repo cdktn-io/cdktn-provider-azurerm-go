@@ -99,6 +99,10 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	return nil
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) validateSetTerraformAttributeParameters(val *string) error {
 	return nil
 }

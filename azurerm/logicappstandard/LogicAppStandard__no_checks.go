@@ -195,6 +195,10 @@ func (j *jsiiProxy_LogicAppStandard) validateSetStorageAccountShareNameParameter
 	return nil
 }
 
+func (j *jsiiProxy_LogicAppStandard) validateSetStorageKeyVaultSecretIdParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_LogicAppStandard) validateSetTagsParameters(val *map[string]*string) error {
 	return nil
 }

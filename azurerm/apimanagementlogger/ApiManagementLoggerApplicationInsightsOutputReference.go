@@ -33,6 +33,9 @@ type ApiManagementLoggerApplicationInsightsOutputReference interface {
 	CreationStack() *[]*string
 	// Experimental.
 	Fqn() *string
+	IdentityClientId() *string
+	SetIdentityClientId(val *string)
+	IdentityClientIdInput() *string
 	InstrumentationKey() *string
 	SetInstrumentationKey(val *string)
 	InstrumentationKeyInput() *string
@@ -71,6 +74,7 @@ type ApiManagementLoggerApplicationInsightsOutputReference interface {
 	// Experimental.
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetConnectionString()
+	ResetIdentityClientId()
 	ResetInstrumentationKey()
 	// Produce the Token's value at resolution time.
 	// Experimental.
@@ -142,6 +146,26 @@ func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) Fqn() 
 	_jsii_.Get(
 		j,
 		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) IdentityClientId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityClientId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) IdentityClientIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"identityClientIdInput",
 		&returns,
 	)
 	return returns
@@ -254,6 +278,17 @@ func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference)SetConn
 	_jsii_.Set(
 		j,
 		"connectionString",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference)SetIdentityClientId(val *string) {
+	if err := j.validateSetIdentityClientIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"identityClientId",
 		val,
 	)
 }
@@ -492,6 +527,14 @@ func (a *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) ResetC
 	_jsii_.InvokeVoid(
 		a,
 		"resetConnectionString",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_ApiManagementLoggerApplicationInsightsOutputReference) ResetIdentityClientId() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetIdentityClientId",
 		nil, // no parameters
 	)
 }

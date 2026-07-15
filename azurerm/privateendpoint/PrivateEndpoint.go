@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/private_endpoint azurerm_private_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_endpoint azurerm_private_endpoint}.
 type PrivateEndpoint interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -35,6 +35,9 @@ type PrivateEndpoint interface {
 	DependsOn() *[]*string
 	// Experimental.
 	SetDependsOn(val *[]*string)
+	EdgeZone() *string
+	SetEdgeZone(val *string)
+	EdgeZoneInput() *string
 	// Experimental.
 	ForEach() cdktn.ITerraformIterator
 	// Experimental.
@@ -141,6 +144,7 @@ type PrivateEndpoint interface {
 	PutPrivateServiceConnection(value *PrivateEndpointPrivateServiceConnection)
 	PutTimeouts(value *PrivateEndpointTimeouts)
 	ResetCustomNetworkInterfaceName()
+	ResetEdgeZone()
 	ResetId()
 	ResetIpConfiguration()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -251,6 +255,26 @@ func (j *jsiiProxy_PrivateEndpoint) DependsOn() *[]*string {
 	_jsii_.Get(
 		j,
 		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateEndpoint) EdgeZone() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"edgeZone",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_PrivateEndpoint) EdgeZoneInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"edgeZoneInput",
 		&returns,
 	)
 	return returns
@@ -587,7 +611,7 @@ func (j *jsiiProxy_PrivateEndpoint) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
 func NewPrivateEndpoint(scope constructs.Construct, id *string, config *PrivateEndpointConfig) PrivateEndpoint {
 	_init_.Initialize()
 
@@ -605,7 +629,7 @@ func NewPrivateEndpoint(scope constructs.Construct, id *string, config *PrivateE
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/private_endpoint azurerm_private_endpoint} Resource.
 func NewPrivateEndpoint_Override(p PrivateEndpoint, scope constructs.Construct, id *string, config *PrivateEndpointConfig) {
 	_init_.Initialize()
 
@@ -653,6 +677,17 @@ func (j *jsiiProxy_PrivateEndpoint)SetDependsOn(val *[]*string) {
 	_jsii_.Set(
 		j,
 		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_PrivateEndpoint)SetEdgeZone(val *string) {
+	if err := j.validateSetEdgeZoneParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"edgeZone",
 		val,
 	)
 }
@@ -1162,6 +1197,14 @@ func (p *jsiiProxy_PrivateEndpoint) ResetCustomNetworkInterfaceName() {
 	_jsii_.InvokeVoid(
 		p,
 		"resetCustomNetworkInterfaceName",
+		nil, // no parameters
+	)
+}
+
+func (p *jsiiProxy_PrivateEndpoint) ResetEdgeZone() {
+	_jsii_.InvokeVoid(
+		p,
+		"resetEdgeZone",
 		nil, // no parameters
 	)
 }

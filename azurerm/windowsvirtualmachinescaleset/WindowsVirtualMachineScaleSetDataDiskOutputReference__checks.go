@@ -190,6 +190,22 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validat
 	return nil
 }
 
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskIopsReadWriteParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskMbpsReadWriteParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskSizeGbParameters(val *float64) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dns_zone azurerm_dns_zone}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone azurerm_dns_zone}.
 type DnsZone interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -470,7 +470,7 @@ func (j *jsiiProxy_DnsZone) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
 func NewDnsZone(scope constructs.Construct, id *string, config *DnsZoneConfig) DnsZone {
 	_init_.Initialize()
 
@@ -488,7 +488,7 @@ func NewDnsZone(scope constructs.Construct, id *string, config *DnsZoneConfig) D
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/dns_zone azurerm_dns_zone} Resource.
 func NewDnsZone_Override(d DnsZone, scope constructs.Construct, id *string, config *DnsZoneConfig) {
 	_init_.Initialize()
 

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic}.
 type StreamAnalyticsOutputServicebusTopic interface {
 	cdktn.TerraformResource
 	AuthenticationMode() *string
@@ -601,7 +601,7 @@ func (j *jsiiProxy_StreamAnalyticsOutputServicebusTopic) TopicNameInput() *strin
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
 func NewStreamAnalyticsOutputServicebusTopic(scope constructs.Construct, id *string, config *StreamAnalyticsOutputServicebusTopicConfig) StreamAnalyticsOutputServicebusTopic {
 	_init_.Initialize()
 
@@ -619,7 +619,7 @@ func NewStreamAnalyticsOutputServicebusTopic(scope constructs.Construct, id *str
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/stream_analytics_output_servicebus_topic azurerm_stream_analytics_output_servicebus_topic} Resource.
 func NewStreamAnalyticsOutputServicebusTopic_Override(s StreamAnalyticsOutputServicebusTopic, scope constructs.Construct, id *string, config *StreamAnalyticsOutputServicebusTopicConfig) {
 	_init_.Initialize()
 

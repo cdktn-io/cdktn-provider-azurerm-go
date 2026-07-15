@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights}.
 type LogAnalyticsStorageInsights interface {
 	cdktn.TerraformResource
 	BlobContainerNames() *[]*string
@@ -506,7 +506,7 @@ func (j *jsiiProxy_LogAnalyticsStorageInsights) WorkspaceIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) LogAnalyticsStorageInsights {
 	_init_.Initialize()
 
@@ -524,7 +524,7 @@ func NewLogAnalyticsStorageInsights(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/log_analytics_storage_insights azurerm_log_analytics_storage_insights} Resource.
 func NewLogAnalyticsStorageInsights_Override(l LogAnalyticsStorageInsights, scope constructs.Construct, id *string, config *LogAnalyticsStorageInsightsConfig) {
 	_init_.Initialize()
 

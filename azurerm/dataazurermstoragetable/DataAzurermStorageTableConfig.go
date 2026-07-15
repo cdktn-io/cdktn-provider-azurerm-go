@@ -22,15 +22,15 @@ type DataAzurermStorageTableConfig struct {
 	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
 	// Experimental.
 	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/storage_table#name DataAzurermStorageTable#name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table#name DataAzurermStorageTable#name}.
 	Name *string `field:"required" json:"name" yaml:"name"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/storage_table#storage_account_id DataAzurermStorageTable#storage_account_id}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table#storage_account_id DataAzurermStorageTable#storage_account_id}.
 	StorageAccountId *string `field:"optional" json:"storageAccountId" yaml:"storageAccountId"`
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/storage_table#storage_account_name DataAzurermStorageTable#storage_account_name}.
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table#storage_account_name DataAzurermStorageTable#storage_account_name}.
 	StorageAccountName *string `field:"optional" json:"storageAccountName" yaml:"storageAccountName"`
 	// timeouts block.
 	//
-	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/storage_table#timeouts DataAzurermStorageTable#timeouts}
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/storage_table#timeouts DataAzurermStorageTable#timeouts}
 	Timeouts *DataAzurermStorageTableTimeouts `field:"optional" json:"timeouts" yaml:"timeouts"`
 }
 

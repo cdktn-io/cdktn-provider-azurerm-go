@@ -119,6 +119,10 @@ func (j *jsiiProxy_ContainerRegistry) validateSetAnonymousPullEnabledParameters(
 	return nil
 }
 
+func (j *jsiiProxy_ContainerRegistry) validateSetAzureadAuthenticationAsArmPolicyEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerRegistry) validateSetConnectionParameters(val interface{}) error {
 	return nil
 }
@@ -151,6 +155,10 @@ func (j *jsiiProxy_ContainerRegistry) validateSetNameParameters(val *string) err
 	return nil
 }
 
+func (j *jsiiProxy_ContainerRegistry) validateSetNetworkRuleBypassForTasksEnabledParameters(val interface{}) error {
+	return nil
+}
+
 func (j *jsiiProxy_ContainerRegistry) validateSetNetworkRuleBypassOptionParameters(val *string) error {
 	return nil
 }
@@ -172,6 +180,10 @@ func (j *jsiiProxy_ContainerRegistry) validateSetResourceGroupNameParameters(val
 }
 
 func (j *jsiiProxy_ContainerRegistry) validateSetRetentionPolicyInDaysParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_ContainerRegistry) validateSetRoleAssignmentModeParameters(val *string) error {
 	return nil
 }
 

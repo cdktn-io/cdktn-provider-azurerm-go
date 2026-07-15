@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_standard azurerm_logic_app_standard}.
 type LogicAppStandard interface {
 	cdktn.TerraformResource
 	AppServicePlanId() *string
@@ -121,6 +121,9 @@ type LogicAppStandard interface {
 	StorageAccountShareName() *string
 	SetStorageAccountShareName(val *string)
 	StorageAccountShareNameInput() *string
+	StorageKeyVaultSecretId() *string
+	SetStorageKeyVaultSecretId(val *string)
+	StorageKeyVaultSecretIdInput() *string
 	Tags() *map[string]*string
 	SetTags(val *map[string]*string)
 	TagsInput() *map[string]*string
@@ -208,7 +211,10 @@ type LogicAppStandard interface {
 	ResetPublicNetworkAccess()
 	ResetScmPublishBasicAuthenticationEnabled()
 	ResetSiteConfig()
+	ResetStorageAccountAccessKey()
+	ResetStorageAccountName()
 	ResetStorageAccountShareName()
+	ResetStorageKeyVaultSecretId()
 	ResetTags()
 	ResetTimeouts()
 	ResetUseExtensionBundle()
@@ -852,6 +858,26 @@ func (j *jsiiProxy_LogicAppStandard) StorageAccountShareNameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_LogicAppStandard) StorageKeyVaultSecretId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageKeyVaultSecretId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LogicAppStandard) StorageKeyVaultSecretIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageKeyVaultSecretIdInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_LogicAppStandard) Tags() *map[string]*string {
 	var returns *map[string]*string
 	_jsii_.Get(
@@ -1003,7 +1029,7 @@ func (j *jsiiProxy_LogicAppStandard) VnetContentShareEnabledInput() interface{} 
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
 func NewLogicAppStandard(scope constructs.Construct, id *string, config *LogicAppStandardConfig) LogicAppStandard {
 	_init_.Initialize()
 
@@ -1021,7 +1047,7 @@ func NewLogicAppStandard(scope constructs.Construct, id *string, config *LogicAp
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/logic_app_standard azurerm_logic_app_standard} Resource.
 func NewLogicAppStandard_Override(l LogicAppStandard, scope constructs.Construct, id *string, config *LogicAppStandardConfig) {
 	_init_.Initialize()
 
@@ -1294,6 +1320,17 @@ func (j *jsiiProxy_LogicAppStandard)SetStorageAccountShareName(val *string) {
 	_jsii_.Set(
 		j,
 		"storageAccountShareName",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LogicAppStandard)SetStorageKeyVaultSecretId(val *string) {
+	if err := j.validateSetStorageKeyVaultSecretIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"storageKeyVaultSecretId",
 		val,
 	)
 }
@@ -1870,10 +1907,34 @@ func (l *jsiiProxy_LogicAppStandard) ResetSiteConfig() {
 	)
 }
 
+func (l *jsiiProxy_LogicAppStandard) ResetStorageAccountAccessKey() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetStorageAccountAccessKey",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LogicAppStandard) ResetStorageAccountName() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetStorageAccountName",
+		nil, // no parameters
+	)
+}
+
 func (l *jsiiProxy_LogicAppStandard) ResetStorageAccountShareName() {
 	_jsii_.InvokeVoid(
 		l,
 		"resetStorageAccountShareName",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LogicAppStandard) ResetStorageKeyVaultSecretId() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetStorageKeyVaultSecretId",
 		nil, // no parameters
 	)
 }

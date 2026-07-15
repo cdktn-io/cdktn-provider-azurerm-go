@@ -402,6 +402,26 @@ func (j *jsiiProxy_ContainerRegistry) validateSetAnonymousPullEnabledParameters(
 	return nil
 }
 
+func (j *jsiiProxy_ContainerRegistry) validateSetAzureadAuthenticationAsArmPolicyEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ContainerRegistry) validateSetConnectionParameters(val interface{}) error {
 	switch val.(type) {
 	case *cdktn.SSHProvisionerConnection:
@@ -564,6 +584,26 @@ func (j *jsiiProxy_ContainerRegistry) validateSetNameParameters(val *string) err
 	return nil
 }
 
+func (j *jsiiProxy_ContainerRegistry) validateSetNetworkRuleBypassForTasksEnabledParameters(val interface{}) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+	switch val.(type) {
+	case *bool:
+		// ok
+	case bool:
+		// ok
+	case cdktn.IResolvable:
+		// ok
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: *bool, cdktn.IResolvable; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_ContainerRegistry) validateSetNetworkRuleBypassOptionParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
@@ -667,6 +707,14 @@ func (j *jsiiProxy_ContainerRegistry) validateSetResourceGroupNameParameters(val
 }
 
 func (j *jsiiProxy_ContainerRegistry) validateSetRetentionPolicyInDaysParameters(val *float64) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_ContainerRegistry) validateSetRoleAssignmentModeParameters(val *string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")
 	}

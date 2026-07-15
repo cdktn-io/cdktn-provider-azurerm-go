@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_registry azurerm_container_registry}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry azurerm_container_registry}.
 type ContainerRegistry interface {
 	cdktn.TerraformResource
 	AdminEnabled() interface{}
@@ -23,6 +23,9 @@ type ContainerRegistry interface {
 	AnonymousPullEnabled() interface{}
 	SetAnonymousPullEnabled(val interface{})
 	AnonymousPullEnabledInput() interface{}
+	AzureadAuthenticationAsArmPolicyEnabled() interface{}
+	SetAzureadAuthenticationAsArmPolicyEnabled(val interface{})
+	AzureadAuthenticationAsArmPolicyEnabledInput() interface{}
 	// Experimental.
 	CdktfStack() cdktn.TerraformStack
 	// Experimental.
@@ -74,6 +77,9 @@ type ContainerRegistry interface {
 	Name() *string
 	SetName(val *string)
 	NameInput() *string
+	NetworkRuleBypassForTasksEnabled() interface{}
+	SetNetworkRuleBypassForTasksEnabled(val interface{})
+	NetworkRuleBypassForTasksEnabledInput() interface{}
 	NetworkRuleBypassOption() *string
 	SetNetworkRuleBypassOption(val *string)
 	NetworkRuleBypassOptionInput() *string
@@ -103,6 +109,9 @@ type ContainerRegistry interface {
 	RetentionPolicyInDays() *float64
 	SetRetentionPolicyInDays(val *float64)
 	RetentionPolicyInDaysInput() *float64
+	RoleAssignmentMode() *string
+	SetRoleAssignmentMode(val *string)
+	RoleAssignmentModeInput() *string
 	Sku() *string
 	SetSku(val *string)
 	SkuInput() *string
@@ -173,12 +182,14 @@ type ContainerRegistry interface {
 	PutTimeouts(value *ContainerRegistryTimeouts)
 	ResetAdminEnabled()
 	ResetAnonymousPullEnabled()
+	ResetAzureadAuthenticationAsArmPolicyEnabled()
 	ResetDataEndpointEnabled()
 	ResetEncryption()
 	ResetExportPolicyEnabled()
 	ResetGeoreplications()
 	ResetId()
 	ResetIdentity()
+	ResetNetworkRuleBypassForTasksEnabled()
 	ResetNetworkRuleBypassOption()
 	ResetNetworkRuleSet()
 	// Resets a previously passed logical Id to use the auto-generated logical id again.
@@ -187,6 +198,7 @@ type ContainerRegistry interface {
 	ResetPublicNetworkAccessEnabled()
 	ResetQuarantinePolicyEnabled()
 	ResetRetentionPolicyInDays()
+	ResetRoleAssignmentMode()
 	ResetTags()
 	ResetTimeouts()
 	ResetTrustPolicyEnabled()
@@ -273,6 +285,26 @@ func (j *jsiiProxy_ContainerRegistry) AnonymousPullEnabledInput() interface{} {
 	_jsii_.Get(
 		j,
 		"anonymousPullEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerRegistry) AzureadAuthenticationAsArmPolicyEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"azureadAuthenticationAsArmPolicyEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerRegistry) AzureadAuthenticationAsArmPolicyEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"azureadAuthenticationAsArmPolicyEnabledInput",
 		&returns,
 	)
 	return returns
@@ -548,6 +580,26 @@ func (j *jsiiProxy_ContainerRegistry) NameInput() *string {
 	return returns
 }
 
+func (j *jsiiProxy_ContainerRegistry) NetworkRuleBypassForTasksEnabled() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"networkRuleBypassForTasksEnabled",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerRegistry) NetworkRuleBypassForTasksEnabledInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"networkRuleBypassForTasksEnabledInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerRegistry) NetworkRuleBypassOption() *string {
 	var returns *string
 	_jsii_.Get(
@@ -708,6 +760,26 @@ func (j *jsiiProxy_ContainerRegistry) RetentionPolicyInDaysInput() *float64 {
 	return returns
 }
 
+func (j *jsiiProxy_ContainerRegistry) RoleAssignmentMode() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleAssignmentMode",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_ContainerRegistry) RoleAssignmentModeInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"roleAssignmentModeInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_ContainerRegistry) Sku() *string {
 	var returns *string
 	_jsii_.Get(
@@ -839,7 +911,7 @@ func (j *jsiiProxy_ContainerRegistry) ZoneRedundancyEnabledInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_registry azurerm_container_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry azurerm_container_registry} Resource.
 func NewContainerRegistry(scope constructs.Construct, id *string, config *ContainerRegistryConfig) ContainerRegistry {
 	_init_.Initialize()
 
@@ -857,7 +929,7 @@ func NewContainerRegistry(scope constructs.Construct, id *string, config *Contai
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/container_registry azurerm_container_registry} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/container_registry azurerm_container_registry} Resource.
 func NewContainerRegistry_Override(c ContainerRegistry, scope constructs.Construct, id *string, config *ContainerRegistryConfig) {
 	_init_.Initialize()
 
@@ -886,6 +958,17 @@ func (j *jsiiProxy_ContainerRegistry)SetAnonymousPullEnabled(val interface{}) {
 	_jsii_.Set(
 		j,
 		"anonymousPullEnabled",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerRegistry)SetAzureadAuthenticationAsArmPolicyEnabled(val interface{}) {
+	if err := j.validateSetAzureadAuthenticationAsArmPolicyEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"azureadAuthenticationAsArmPolicyEnabled",
 		val,
 	)
 }
@@ -994,6 +1077,17 @@ func (j *jsiiProxy_ContainerRegistry)SetName(val *string) {
 	)
 }
 
+func (j *jsiiProxy_ContainerRegistry)SetNetworkRuleBypassForTasksEnabled(val interface{}) {
+	if err := j.validateSetNetworkRuleBypassForTasksEnabledParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkRuleBypassForTasksEnabled",
+		val,
+	)
+}
+
 func (j *jsiiProxy_ContainerRegistry)SetNetworkRuleBypassOption(val *string) {
 	if err := j.validateSetNetworkRuleBypassOptionParameters(val); err != nil {
 		panic(err)
@@ -1064,6 +1158,17 @@ func (j *jsiiProxy_ContainerRegistry)SetRetentionPolicyInDays(val *float64) {
 	_jsii_.Set(
 		j,
 		"retentionPolicyInDays",
+		val,
+	)
+}
+
+func (j *jsiiProxy_ContainerRegistry)SetRoleAssignmentMode(val *string) {
+	if err := j.validateSetRoleAssignmentModeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"roleAssignmentMode",
 		val,
 	)
 }
@@ -1536,6 +1641,14 @@ func (c *jsiiProxy_ContainerRegistry) ResetAnonymousPullEnabled() {
 	)
 }
 
+func (c *jsiiProxy_ContainerRegistry) ResetAzureadAuthenticationAsArmPolicyEnabled() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetAzureadAuthenticationAsArmPolicyEnabled",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ContainerRegistry) ResetDataEndpointEnabled() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1584,6 +1697,14 @@ func (c *jsiiProxy_ContainerRegistry) ResetIdentity() {
 	)
 }
 
+func (c *jsiiProxy_ContainerRegistry) ResetNetworkRuleBypassForTasksEnabled() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetNetworkRuleBypassForTasksEnabled",
+		nil, // no parameters
+	)
+}
+
 func (c *jsiiProxy_ContainerRegistry) ResetNetworkRuleBypassOption() {
 	_jsii_.InvokeVoid(
 		c,
@@ -1628,6 +1749,14 @@ func (c *jsiiProxy_ContainerRegistry) ResetRetentionPolicyInDays() {
 	_jsii_.InvokeVoid(
 		c,
 		"resetRetentionPolicyInDays",
+		nil, // no parameters
+	)
+}
+
+func (c *jsiiProxy_ContainerRegistry) ResetRoleAssignmentMode() {
+	_jsii_.InvokeVoid(
+		c,
+		"resetRoleAssignmentMode",
 		nil, // no parameters
 	)
 }

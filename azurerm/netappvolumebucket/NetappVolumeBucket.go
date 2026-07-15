@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/netapp_volume_bucket azurerm_netapp_volume_bucket}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_volume_bucket azurerm_netapp_volume_bucket}.
 type NetappVolumeBucket interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -553,7 +553,7 @@ func (j *jsiiProxy_NetappVolumeBucket) VolumeIdInput() *string {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/netapp_volume_bucket azurerm_netapp_volume_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_volume_bucket azurerm_netapp_volume_bucket} Resource.
 func NewNetappVolumeBucket(scope constructs.Construct, id *string, config *NetappVolumeBucketConfig) NetappVolumeBucket {
 	_init_.Initialize()
 
@@ -571,7 +571,7 @@ func NewNetappVolumeBucket(scope constructs.Construct, id *string, config *Netap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/netapp_volume_bucket azurerm_netapp_volume_bucket} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_volume_bucket azurerm_netapp_volume_bucket} Resource.
 func NewNetappVolumeBucket_Override(n NetappVolumeBucket, scope constructs.Construct, id *string, config *NetappVolumeBucketConfig) {
 	_init_.Initialize()
 

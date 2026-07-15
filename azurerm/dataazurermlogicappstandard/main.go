@@ -70,6 +70,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "storageAccountAccessKey", GoGetter: "StorageAccountAccessKey"},
 			_jsii_.MemberProperty{JsiiProperty: "storageAccountName", GoGetter: "StorageAccountName"},
 			_jsii_.MemberProperty{JsiiProperty: "storageAccountShareName", GoGetter: "StorageAccountShareName"},
+			_jsii_.MemberProperty{JsiiProperty: "storageKeyVaultSecretId", GoGetter: "StorageKeyVaultSecretId"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
 			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},

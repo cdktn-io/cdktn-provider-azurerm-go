@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/resource_provider_feature_registration azurerm_resource_provider_feature_registration}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_provider_feature_registration azurerm_resource_provider_feature_registration}.
 type ResourceProviderFeatureRegistration interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -389,7 +389,7 @@ func (j *jsiiProxy_ResourceProviderFeatureRegistration) TimeoutsInput() interfac
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/resource_provider_feature_registration azurerm_resource_provider_feature_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_provider_feature_registration azurerm_resource_provider_feature_registration} Resource.
 func NewResourceProviderFeatureRegistration(scope constructs.Construct, id *string, config *ResourceProviderFeatureRegistrationConfig) ResourceProviderFeatureRegistration {
 	_init_.Initialize()
 
@@ -407,7 +407,7 @@ func NewResourceProviderFeatureRegistration(scope constructs.Construct, id *stri
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/resource_provider_feature_registration azurerm_resource_provider_feature_registration} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/resource_provider_feature_registration azurerm_resource_provider_feature_registration} Resource.
 func NewResourceProviderFeatureRegistration_Override(r ResourceProviderFeatureRegistration, scope constructs.Construct, id *string, config *ResourceProviderFeatureRegistrationConfig) {
 	_init_.Initialize()
 

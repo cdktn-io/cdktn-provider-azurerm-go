@@ -58,6 +58,9 @@ type OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference interface
 	Primary() interface{}
 	SetPrimary(val interface{})
 	PrimaryInput() interface{}
+	Tags() *map[string]*string
+	SetTags(val *map[string]*string)
+	TagsInput() *map[string]*string
 	// Experimental.
 	TerraformAttribute() *string
 	// Experimental.
@@ -98,6 +101,7 @@ type OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference interface
 	ResetEnableIpForwarding()
 	ResetNetworkSecurityGroupId()
 	ResetPrimary()
+	ResetTags()
 	// Produce the Token's value at resolution time.
 	// Experimental.
 	Resolve(context cdktn.IResolveContext) interface{}
@@ -343,6 +347,26 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	return returns
 }
 
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) TerraformAttribute() *string {
 	var returns *string
 	_jsii_.Get(
@@ -508,6 +532,17 @@ func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	_jsii_.Set(
 		j,
 		"primary",
+		val,
+	)
+}
+
+func (j *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
 		val,
 	)
 }
@@ -783,6 +818,14 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputRefer
 	_jsii_.InvokeVoid(
 		o,
 		"resetPrimary",
+		nil, // no parameters
+	)
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSetNetworkInterfaceOutputReference) ResetTags() {
+	_jsii_.InvokeVoid(
+		o,
+		"resetTags",
 		nil, // no parameters
 	)
 }

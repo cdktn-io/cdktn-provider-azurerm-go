@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/netapp_volume_bucket_with_server azurerm_netapp_volume_bucket_with_server}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/netapp_volume_bucket_with_server azurerm_netapp_volume_bucket_with_server}.
 type DataAzurermNetappVolumeBucketWithServer interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -454,7 +454,7 @@ func (j *jsiiProxy_DataAzurermNetappVolumeBucketWithServer) TimeoutsInput() inte
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/netapp_volume_bucket_with_server azurerm_netapp_volume_bucket_with_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/netapp_volume_bucket_with_server azurerm_netapp_volume_bucket_with_server} Data Source.
 func NewDataAzurermNetappVolumeBucketWithServer(scope constructs.Construct, id *string, config *DataAzurermNetappVolumeBucketWithServerConfig) DataAzurermNetappVolumeBucketWithServer {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewDataAzurermNetappVolumeBucketWithServer(scope constructs.Construct, id *
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/netapp_volume_bucket_with_server azurerm_netapp_volume_bucket_with_server} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/netapp_volume_bucket_with_server azurerm_netapp_volume_bucket_with_server} Data Source.
 func NewDataAzurermNetappVolumeBucketWithServer_Override(d DataAzurermNetappVolumeBucketWithServer, scope constructs.Construct, id *string, config *DataAzurermNetappVolumeBucketWithServerConfig) {
 	_init_.Initialize()
 

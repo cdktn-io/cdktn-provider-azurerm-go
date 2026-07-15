@@ -1,0 +1,21 @@
+// Copyright IBM Corp. 2021, 2026
+// SPDX-License-Identifier: MPL-2.0
+
+package cdnfrontdoorbatchruleset
+
+
+type CdnFrontdoorBatchRuleSetRuleActionsUrlRedirect struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_batch_rule_set#redirect_type CdnFrontdoorBatchRuleSet#redirect_type}.
+	RedirectType *string `field:"required" json:"redirectType" yaml:"redirectType"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_batch_rule_set#destination_fragment CdnFrontdoorBatchRuleSet#destination_fragment}.
+	DestinationFragment *string `field:"optional" json:"destinationFragment" yaml:"destinationFragment"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_batch_rule_set#destination_host_name CdnFrontdoorBatchRuleSet#destination_host_name}.
+	DestinationHostName *string `field:"optional" json:"destinationHostName" yaml:"destinationHostName"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_batch_rule_set#destination_path CdnFrontdoorBatchRuleSet#destination_path}.
+	DestinationPath *string `field:"optional" json:"destinationPath" yaml:"destinationPath"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_batch_rule_set#query_string CdnFrontdoorBatchRuleSet#query_string}.
+	QueryString *string `field:"optional" json:"queryString" yaml:"queryString"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/cdn_frontdoor_batch_rule_set#redirect_protocol CdnFrontdoorBatchRuleSet#redirect_protocol}.
+	RedirectProtocol *string `field:"optional" json:"redirectProtocol" yaml:"redirectProtocol"`
+}
+

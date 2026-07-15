@@ -37,6 +37,12 @@ type LinuxVirtualMachineScaleSetDataDiskOutputReference interface {
 	DiskEncryptionSetId() *string
 	SetDiskEncryptionSetId(val *string)
 	DiskEncryptionSetIdInput() *string
+	DiskIopsReadWrite() *float64
+	SetDiskIopsReadWrite(val *float64)
+	DiskIopsReadWriteInput() *float64
+	DiskMbpsReadWrite() *float64
+	SetDiskMbpsReadWrite(val *float64)
+	DiskMbpsReadWriteInput() *float64
 	DiskSizeGb() *float64
 	SetDiskSizeGb(val *float64)
 	DiskSizeGbInput() *float64
@@ -96,6 +102,8 @@ type LinuxVirtualMachineScaleSetDataDiskOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreateOption()
 	ResetDiskEncryptionSetId()
+	ResetDiskIopsReadWrite()
+	ResetDiskMbpsReadWrite()
 	ResetName()
 	ResetUltraSsdDiskIopsReadWrite()
 	ResetUltraSsdDiskMbpsReadWrite()
@@ -200,6 +208,46 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) DiskEncry
 	_jsii_.Get(
 		j,
 		"diskEncryptionSetIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) DiskIopsReadWrite() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskIopsReadWrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) DiskIopsReadWriteInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskIopsReadWriteInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) DiskMbpsReadWrite() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskMbpsReadWrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) DiskMbpsReadWriteInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskMbpsReadWriteInput",
 		&returns,
 	)
 	return returns
@@ -464,6 +512,28 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference)SetDiskEnc
 	_jsii_.Set(
 		j,
 		"diskEncryptionSetId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference)SetDiskIopsReadWrite(val *float64) {
+	if err := j.validateSetDiskIopsReadWriteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"diskIopsReadWrite",
+		val,
+	)
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference)SetDiskMbpsReadWrite(val *float64) {
+	if err := j.validateSetDiskMbpsReadWriteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"diskMbpsReadWrite",
 		val,
 	)
 }
@@ -776,6 +846,22 @@ func (l *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) ResetDisk
 	_jsii_.InvokeVoid(
 		l,
 		"resetDiskEncryptionSetId",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) ResetDiskIopsReadWrite() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDiskIopsReadWrite",
+		nil, // no parameters
+	)
+}
+
+func (l *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) ResetDiskMbpsReadWrite() {
+	_jsii_.InvokeVoid(
+		l,
+		"resetDiskMbpsReadWrite",
 		nil, // no parameters
 	)
 }

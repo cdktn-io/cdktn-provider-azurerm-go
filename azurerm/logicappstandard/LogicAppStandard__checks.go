@@ -659,6 +659,14 @@ func (j *jsiiProxy_LogicAppStandard) validateSetStorageAccountShareNameParameter
 	return nil
 }
 
+func (j *jsiiProxy_LogicAppStandard) validateSetStorageKeyVaultSecretIdParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (j *jsiiProxy_LogicAppStandard) validateSetTagsParameters(val *map[string]*string) error {
 	if val == nil {
 		return fmt.Errorf("parameter val is required, but nil was provided")

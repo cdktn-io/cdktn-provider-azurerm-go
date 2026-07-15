@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/logic_app_standard azurerm_logic_app_standard}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/logic_app_standard azurerm_logic_app_standard}.
 type DataAzurermLogicAppStandard interface {
 	cdktn.TerraformDataSource
 	AppServicePlanId() *string
@@ -79,6 +79,7 @@ type DataAzurermLogicAppStandard interface {
 	StorageAccountAccessKey() *string
 	StorageAccountName() *string
 	StorageAccountShareName() *string
+	StorageKeyVaultSecretId() *string
 	Tags() cdktn.StringMap
 	// Experimental.
 	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
@@ -550,6 +551,16 @@ func (j *jsiiProxy_DataAzurermLogicAppStandard) StorageAccountShareName() *strin
 	return returns
 }
 
+func (j *jsiiProxy_DataAzurermLogicAppStandard) StorageKeyVaultSecretId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"storageKeyVaultSecretId",
+		&returns,
+	)
+	return returns
+}
+
 func (j *jsiiProxy_DataAzurermLogicAppStandard) Tags() cdktn.StringMap {
 	var returns cdktn.StringMap
 	_jsii_.Get(
@@ -641,7 +652,7 @@ func (j *jsiiProxy_DataAzurermLogicAppStandard) VirtualNetworkSubnetId() *string
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/logic_app_standard azurerm_logic_app_standard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/logic_app_standard azurerm_logic_app_standard} Data Source.
 func NewDataAzurermLogicAppStandard(scope constructs.Construct, id *string, config *DataAzurermLogicAppStandardConfig) DataAzurermLogicAppStandard {
 	_init_.Initialize()
 
@@ -659,7 +670,7 @@ func NewDataAzurermLogicAppStandard(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/logic_app_standard azurerm_logic_app_standard} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/logic_app_standard azurerm_logic_app_standard} Data Source.
 func NewDataAzurermLogicAppStandard_Override(d DataAzurermLogicAppStandard, scope constructs.Construct, id *string, config *DataAzurermLogicAppStandardConfig) {
 	_init_.Initialize()
 

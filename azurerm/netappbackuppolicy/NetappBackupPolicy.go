@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy}.
 type NetappBackupPolicy interface {
 	cdktn.TerraformResource
 	AccountName() *string
@@ -555,7 +555,7 @@ func (j *jsiiProxy_NetappBackupPolicy) WeeklyBackupsToKeepInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) NetappBackupPolicy {
 	_init_.Initialize()
 
@@ -573,7 +573,7 @@ func NewNetappBackupPolicy(scope constructs.Construct, id *string, config *Netap
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/netapp_backup_policy azurerm_netapp_backup_policy} Resource.
 func NewNetappBackupPolicy_Override(n NetappBackupPolicy, scope constructs.Construct, id *string, config *NetappBackupPolicyConfig) {
 	_init_.Initialize()
 

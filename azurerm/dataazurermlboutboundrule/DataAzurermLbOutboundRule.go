@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/lb_outbound_rule azurerm_lb_outbound_rule}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/lb_outbound_rule azurerm_lb_outbound_rule}.
 type DataAzurermLbOutboundRule interface {
 	cdktn.TerraformDataSource
 	AllocatedOutboundPorts() *float64
@@ -421,7 +421,7 @@ func (j *jsiiProxy_DataAzurermLbOutboundRule) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/lb_outbound_rule azurerm_lb_outbound_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/lb_outbound_rule azurerm_lb_outbound_rule} Data Source.
 func NewDataAzurermLbOutboundRule(scope constructs.Construct, id *string, config *DataAzurermLbOutboundRuleConfig) DataAzurermLbOutboundRule {
 	_init_.Initialize()
 
@@ -439,7 +439,7 @@ func NewDataAzurermLbOutboundRule(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/lb_outbound_rule azurerm_lb_outbound_rule} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/lb_outbound_rule azurerm_lb_outbound_rule} Data Source.
 func NewDataAzurermLbOutboundRule_Override(d DataAzurermLbOutboundRule, scope constructs.Construct, id *string, config *DataAzurermLbOutboundRuleConfig) {
 	_init_.Initialize()
 

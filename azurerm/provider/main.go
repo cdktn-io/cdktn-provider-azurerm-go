@@ -173,6 +173,10 @@ func init() {
 		reflect.TypeOf((*AzurermProviderFeaturesDatabricksWorkspace)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesEnhancedValidation",
+		reflect.TypeOf((*AzurermProviderFeaturesEnhancedValidation)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesKeyVault",
 		reflect.TypeOf((*AzurermProviderFeaturesKeyVault)(nil)).Elem(),
 	)
@@ -207,6 +211,10 @@ func init() {
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesResourceGroup",
 		reflect.TypeOf((*AzurermProviderFeaturesResourceGroup)(nil)).Elem(),
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesServicebus",
+		reflect.TypeOf((*AzurermProviderFeaturesServicebus)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
 		"@cdktn/provider-azurerm.provider.AzurermProviderFeaturesStorage",

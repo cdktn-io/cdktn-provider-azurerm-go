@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/policy_assignment azurerm_policy_assignment}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment azurerm_policy_assignment}.
 type DataAzurermPolicyAssignment interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -454,7 +454,7 @@ func (j *jsiiProxy_DataAzurermPolicyAssignment) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
 func NewDataAzurermPolicyAssignment(scope constructs.Construct, id *string, config *DataAzurermPolicyAssignmentConfig) DataAzurermPolicyAssignment {
 	_init_.Initialize()
 
@@ -472,7 +472,7 @@ func NewDataAzurermPolicyAssignment(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/policy_assignment azurerm_policy_assignment} Data Source.
 func NewDataAzurermPolicyAssignment_Override(d DataAzurermPolicyAssignment, scope constructs.Construct, id *string, config *DataAzurermPolicyAssignmentConfig) {
 	_init_.Initialize()
 

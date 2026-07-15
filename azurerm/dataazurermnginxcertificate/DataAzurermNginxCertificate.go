@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/nginx_certificate azurerm_nginx_certificate}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nginx_certificate azurerm_nginx_certificate}.
 type DataAzurermNginxCertificate interface {
 	cdktn.TerraformDataSource
 	// Experimental.
@@ -432,7 +432,7 @@ func (j *jsiiProxy_DataAzurermNginxCertificate) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/nginx_certificate azurerm_nginx_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nginx_certificate azurerm_nginx_certificate} Data Source.
 func NewDataAzurermNginxCertificate(scope constructs.Construct, id *string, config *DataAzurermNginxCertificateConfig) DataAzurermNginxCertificate {
 	_init_.Initialize()
 
@@ -450,7 +450,7 @@ func NewDataAzurermNginxCertificate(scope constructs.Construct, id *string, conf
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/data-sources/nginx_certificate azurerm_nginx_certificate} Data Source.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/data-sources/nginx_certificate azurerm_nginx_certificate} Data Source.
 func NewDataAzurermNginxCertificate_Override(d DataAzurermNginxCertificate, scope constructs.Construct, id *string, config *DataAzurermNginxCertificateConfig) {
 	_init_.Initialize()
 

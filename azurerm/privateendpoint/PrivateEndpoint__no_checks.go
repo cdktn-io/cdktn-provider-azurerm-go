@@ -119,6 +119,10 @@ func (j *jsiiProxy_PrivateEndpoint) validateSetCustomNetworkInterfaceNameParamet
 	return nil
 }
 
+func (j *jsiiProxy_PrivateEndpoint) validateSetEdgeZoneParameters(val *string) error {
+	return nil
+}
+
 func (j *jsiiProxy_PrivateEndpoint) validateSetIdParameters(val *string) error {
 	return nil
 }

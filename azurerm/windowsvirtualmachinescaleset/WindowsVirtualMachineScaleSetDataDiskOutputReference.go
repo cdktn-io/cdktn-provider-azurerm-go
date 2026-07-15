@@ -37,6 +37,12 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	DiskEncryptionSetId() *string
 	SetDiskEncryptionSetId(val *string)
 	DiskEncryptionSetIdInput() *string
+	DiskIopsReadWrite() *float64
+	SetDiskIopsReadWrite(val *float64)
+	DiskIopsReadWriteInput() *float64
+	DiskMbpsReadWrite() *float64
+	SetDiskMbpsReadWrite(val *float64)
+	DiskMbpsReadWriteInput() *float64
 	DiskSizeGb() *float64
 	SetDiskSizeGb(val *float64)
 	DiskSizeGbInput() *float64
@@ -96,6 +102,8 @@ type WindowsVirtualMachineScaleSetDataDiskOutputReference interface {
 	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
 	ResetCreateOption()
 	ResetDiskEncryptionSetId()
+	ResetDiskIopsReadWrite()
+	ResetDiskMbpsReadWrite()
 	ResetName()
 	ResetUltraSsdDiskIopsReadWrite()
 	ResetUltraSsdDiskMbpsReadWrite()
@@ -200,6 +208,46 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) DiskEnc
 	_jsii_.Get(
 		j,
 		"diskEncryptionSetIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) DiskIopsReadWrite() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskIopsReadWrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) DiskIopsReadWriteInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskIopsReadWriteInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) DiskMbpsReadWrite() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskMbpsReadWrite",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) DiskMbpsReadWriteInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"diskMbpsReadWriteInput",
 		&returns,
 	)
 	return returns
@@ -464,6 +512,28 @@ func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetDiskE
 	_jsii_.Set(
 		j,
 		"diskEncryptionSetId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetDiskIopsReadWrite(val *float64) {
+	if err := j.validateSetDiskIopsReadWriteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"diskIopsReadWrite",
+		val,
+	)
+}
+
+func (j *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference)SetDiskMbpsReadWrite(val *float64) {
+	if err := j.validateSetDiskMbpsReadWriteParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"diskMbpsReadWrite",
 		val,
 	)
 }
@@ -776,6 +846,22 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) ResetDi
 	_jsii_.InvokeVoid(
 		w,
 		"resetDiskEncryptionSetId",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) ResetDiskIopsReadWrite() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetDiskIopsReadWrite",
+		nil, // no parameters
+	)
+}
+
+func (w *jsiiProxy_WindowsVirtualMachineScaleSetDataDiskOutputReference) ResetDiskMbpsReadWrite() {
+	_jsii_.InvokeVoid(
+		w,
+		"resetDiskMbpsReadWrite",
 		nil, // no parameters
 	)
 }

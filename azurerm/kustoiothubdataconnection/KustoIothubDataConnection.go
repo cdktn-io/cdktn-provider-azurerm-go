@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_iothub_data_connection azurerm_kusto_iothub_data_connection}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_iothub_data_connection azurerm_kusto_iothub_data_connection}.
 type KustoIothubDataConnection interface {
 	cdktn.TerraformResource
 	// Experimental.
@@ -671,7 +671,7 @@ func (j *jsiiProxy_KustoIothubDataConnection) TimeoutsInput() interface{} {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_iothub_data_connection azurerm_kusto_iothub_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_iothub_data_connection azurerm_kusto_iothub_data_connection} Resource.
 func NewKustoIothubDataConnection(scope constructs.Construct, id *string, config *KustoIothubDataConnectionConfig) KustoIothubDataConnection {
 	_init_.Initialize()
 
@@ -689,7 +689,7 @@ func NewKustoIothubDataConnection(scope constructs.Construct, id *string, config
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/kusto_iothub_data_connection azurerm_kusto_iothub_data_connection} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/kusto_iothub_data_connection azurerm_kusto_iothub_data_connection} Resource.
 func NewKustoIothubDataConnection_Override(k KustoIothubDataConnection, scope constructs.Construct, id *string, config *KustoIothubDataConnectionConfig) {
 	_init_.Initialize()
 

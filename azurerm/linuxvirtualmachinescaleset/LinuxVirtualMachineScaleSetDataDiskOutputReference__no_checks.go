@@ -71,6 +71,14 @@ func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) validateS
 	return nil
 }
 
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskIopsReadWriteParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskMbpsReadWriteParameters(val *float64) error {
+	return nil
+}
+
 func (j *jsiiProxy_LinuxVirtualMachineScaleSetDataDiskOutputReference) validateSetDiskSizeGbParameters(val *float64) error {
 	return nil
 }

@@ -12,7 +12,7 @@ import (
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
-// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint}.
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint}.
 type TrafficManagerExternalEndpoint interface {
 	cdktn.TerraformResource
 	AlwaysServeEnabled() interface{}
@@ -604,7 +604,7 @@ func (j *jsiiProxy_TrafficManagerExternalEndpoint) WeightInput() *float64 {
 }
 
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
 func NewTrafficManagerExternalEndpoint(scope constructs.Construct, id *string, config *TrafficManagerExternalEndpointConfig) TrafficManagerExternalEndpoint {
 	_init_.Initialize()
 
@@ -622,7 +622,7 @@ func NewTrafficManagerExternalEndpoint(scope constructs.Construct, id *string, c
 	return &j
 }
 
-// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.80.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/4.81.0/docs/resources/traffic_manager_external_endpoint azurerm_traffic_manager_external_endpoint} Resource.
 func NewTrafficManagerExternalEndpoint_Override(t TrafficManagerExternalEndpoint, scope constructs.Construct, id *string, config *TrafficManagerExternalEndpointConfig) {
 	_init_.Initialize()
 
