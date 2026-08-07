@@ -59,6 +59,10 @@ func (l *jsiiProxy_LoadTest) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (l *jsiiProxy_LoadTest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LoadTest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (l *jsiiProxy_LoadTest) validatePutIdentityParameters(value *LoadTestIdenti
 }
 
 func (l *jsiiProxy_LoadTest) validatePutTimeoutsParameters(value *LoadTestTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LoadTest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

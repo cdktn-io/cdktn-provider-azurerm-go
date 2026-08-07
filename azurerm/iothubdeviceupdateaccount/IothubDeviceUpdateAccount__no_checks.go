@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubDeviceUpdateAccount) validateInterpolationForAttributeP
 	return nil
 }
 
+func (i *jsiiProxy_IothubDeviceUpdateAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubDeviceUpdateAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IothubDeviceUpdateAccount) validatePutIdentityParameters(valu
 }
 
 func (i *jsiiProxy_IothubDeviceUpdateAccount) validatePutTimeoutsParameters(value *IothubDeviceUpdateAccountTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubDeviceUpdateAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

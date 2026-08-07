@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicebusNamespaceDisasterRecoveryConfig) validateInterpolat
 	return nil
 }
 
+func (s *jsiiProxy_ServicebusNamespaceDisasterRecoveryConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicebusNamespaceDisasterRecoveryConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServicebusNamespaceDisasterRecoveryConfig) validateOverrideLo
 }
 
 func (s *jsiiProxy_ServicebusNamespaceDisasterRecoveryConfig) validatePutTimeoutsParameters(value *ServicebusNamespaceDisasterRecoveryConfigTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicebusNamespaceDisasterRecoveryConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

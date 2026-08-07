@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArcResourceBridgeAppliance) validateInterpolationForAttribute
 	return nil
 }
 
+func (a *jsiiProxy_ArcResourceBridgeAppliance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcResourceBridgeAppliance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ArcResourceBridgeAppliance) validatePutIdentityParameters(val
 }
 
 func (a *jsiiProxy_ArcResourceBridgeAppliance) validatePutTimeoutsParameters(value *ArcResourceBridgeApplianceTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcResourceBridgeAppliance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

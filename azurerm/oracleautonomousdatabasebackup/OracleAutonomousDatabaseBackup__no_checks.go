@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleAutonomousDatabaseBackup) validateInterpolationForAttri
 	return nil
 }
 
+func (o *jsiiProxy_OracleAutonomousDatabaseBackup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleAutonomousDatabaseBackup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OracleAutonomousDatabaseBackup) validateOverrideLogicalIdPara
 }
 
 func (o *jsiiProxy_OracleAutonomousDatabaseBackup) validatePutTimeoutsParameters(value *OracleAutonomousDatabaseBackupTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleAutonomousDatabaseBackup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

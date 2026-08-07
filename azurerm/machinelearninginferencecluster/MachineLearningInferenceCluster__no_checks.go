@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningInferenceCluster) validateInterpolationForAttr
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningInferenceCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningInferenceCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (m *jsiiProxy_MachineLearningInferenceCluster) validatePutSslParameters(val
 }
 
 func (m *jsiiProxy_MachineLearningInferenceCluster) validatePutTimeoutsParameters(value *MachineLearningInferenceClusterTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningInferenceCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

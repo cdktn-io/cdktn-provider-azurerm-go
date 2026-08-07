@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateOverrideLogicalIdPara
 }
 
 func (c *jsiiProxy_CosmosdbPostgresqlFirewallRule) validatePutTimeoutsParameters(value *CosmosdbPostgresqlFirewallRuleTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbPostgresqlFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

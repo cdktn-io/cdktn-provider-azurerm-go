@@ -122,6 +122,14 @@ func (s *jsiiProxy_SecurityCenterContact) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_SecurityCenterContact) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SecurityCenterContact) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (s *jsiiProxy_SecurityCenterContact) validatePutTimeoutsParameters(value *S
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SecurityCenterContact) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

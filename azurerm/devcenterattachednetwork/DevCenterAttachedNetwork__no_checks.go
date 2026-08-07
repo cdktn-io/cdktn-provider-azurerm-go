@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevCenterAttachedNetwork) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DevCenterAttachedNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevCenterAttachedNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DevCenterAttachedNetwork) validateOverrideLogicalIdParameters
 }
 
 func (d *jsiiProxy_DevCenterAttachedNetwork) validatePutTimeoutsParameters(value *DevCenterAttachedNetworkTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevCenterAttachedNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

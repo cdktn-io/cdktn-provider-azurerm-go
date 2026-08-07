@@ -59,6 +59,10 @@ func (k *jsiiProxy_KeyVault) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (k *jsiiProxy_KeyVault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KeyVault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (k *jsiiProxy_KeyVault) validatePutNetworkAclsParameters(value *KeyVaultNet
 }
 
 func (k *jsiiProxy_KeyVault) validatePutTimeoutsParameters(value *KeyVaultTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KeyVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

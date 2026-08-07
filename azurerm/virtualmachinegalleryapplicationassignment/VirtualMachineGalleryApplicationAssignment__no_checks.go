@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateInterpola
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateOverrideL
 }
 
 func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validatePutTimeoutsParameters(value *VirtualMachineGalleryApplicationAssignmentTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachineGalleryApplicationAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SubnetRouteTableAssociation) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_SubnetRouteTableAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SubnetRouteTableAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SubnetRouteTableAssociation) validateOverrideLogicalIdParamet
 }
 
 func (s *jsiiProxy_SubnetRouteTableAssociation) validatePutTimeoutsParameters(value *SubnetRouteTableAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SubnetRouteTableAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

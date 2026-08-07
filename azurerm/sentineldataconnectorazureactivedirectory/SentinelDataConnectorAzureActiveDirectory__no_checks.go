@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateInterpolat
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateOverrideLo
 }
 
 func (s *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validatePutTimeoutsParameters(value *SentinelDataConnectorAzureActiveDirectoryTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorAzureActiveDirectory) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

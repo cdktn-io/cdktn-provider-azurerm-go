@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConfidentialLedger) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_ConfidentialLedger) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConfidentialLedger) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ConfidentialLedger) validatePutCertificateBasedSecurityPrinci
 }
 
 func (c *jsiiProxy_ConfidentialLedger) validatePutTimeoutsParameters(value *ConfidentialLedgerTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConfidentialLedger) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (p *jsiiProxy_PortalTenantConfiguration) validateInterpolationForAttributeP
 	return nil
 }
 
+func (p *jsiiProxy_PortalTenantConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PortalTenantConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PortalTenantConfiguration) validateOverrideLogicalIdParameter
 }
 
 func (p *jsiiProxy_PortalTenantConfiguration) validatePutTimeoutsParameters(value *PortalTenantConfigurationTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PortalTenantConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

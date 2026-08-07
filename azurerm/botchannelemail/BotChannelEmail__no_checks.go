@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotChannelEmail) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (b *jsiiProxy_BotChannelEmail) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotChannelEmail) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BotChannelEmail) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (b *jsiiProxy_BotChannelEmail) validatePutTimeoutsParameters(value *BotChannelEmailTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotChannelEmail) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

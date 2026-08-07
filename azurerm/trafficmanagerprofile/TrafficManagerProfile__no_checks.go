@@ -59,6 +59,10 @@ func (t *jsiiProxy_TrafficManagerProfile) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (t *jsiiProxy_TrafficManagerProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TrafficManagerProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (t *jsiiProxy_TrafficManagerProfile) validatePutMonitorConfigParameters(val
 }
 
 func (t *jsiiProxy_TrafficManagerProfile) validatePutTimeoutsParameters(value *TrafficManagerProfileTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TrafficManagerProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

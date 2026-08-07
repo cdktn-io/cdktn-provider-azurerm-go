@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsOutputSynapse) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsOutputSynapse) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsOutputSynapse) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StreamAnalyticsOutputSynapse) validateOverrideLogicalIdParame
 }
 
 func (s *jsiiProxy_StreamAnalyticsOutputSynapse) validatePutTimeoutsParameters(value *StreamAnalyticsOutputSynapseTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsOutputSynapse) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

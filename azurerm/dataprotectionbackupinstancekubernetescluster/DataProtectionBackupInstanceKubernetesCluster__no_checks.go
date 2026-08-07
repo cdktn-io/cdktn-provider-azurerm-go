@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validateInterp
 	return nil
 }
 
+func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validatePutBac
 }
 
 func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validatePutTimeoutsParameters(value *DataProtectionBackupInstanceKubernetesClusterTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataProtectionBackupInstanceKubernetesCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

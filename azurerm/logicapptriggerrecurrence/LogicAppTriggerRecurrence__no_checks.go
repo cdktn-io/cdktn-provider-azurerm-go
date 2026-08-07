@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogicAppTriggerRecurrence) validateInterpolationForAttributeP
 	return nil
 }
 
+func (l *jsiiProxy_LogicAppTriggerRecurrence) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogicAppTriggerRecurrence) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LogicAppTriggerRecurrence) validatePutScheduleParameters(valu
 }
 
 func (l *jsiiProxy_LogicAppTriggerRecurrence) validatePutTimeoutsParameters(value *LogicAppTriggerRecurrenceTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogicAppTriggerRecurrence) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

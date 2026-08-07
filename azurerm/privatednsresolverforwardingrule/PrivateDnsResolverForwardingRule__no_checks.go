@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivateDnsResolverForwardingRule) validateInterpolationForAtt
 	return nil
 }
 
+func (p *jsiiProxy_PrivateDnsResolverForwardingRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivateDnsResolverForwardingRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PrivateDnsResolverForwardingRule) validatePutTargetDnsServers
 }
 
 func (p *jsiiProxy_PrivateDnsResolverForwardingRule) validatePutTimeoutsParameters(value *PrivateDnsResolverForwardingRuleTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivateDnsResolverForwardingRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageEncryptionScope) validateInterpolationForAttributePara
 	return nil
 }
 
+func (s *jsiiProxy_StorageEncryptionScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageEncryptionScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StorageEncryptionScope) validateOverrideLogicalIdParameters(n
 }
 
 func (s *jsiiProxy_StorageEncryptionScope) validatePutTimeoutsParameters(value *StorageEncryptionScopeTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageEncryptionScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

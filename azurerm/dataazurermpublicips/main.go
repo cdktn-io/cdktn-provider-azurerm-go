@@ -47,6 +47,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "publicIps", GoGetter: "PublicIps"},
 			_jsii_.MemberMethod{JsiiMethod: "putTimeouts", GoMethod: "PutTimeouts"},
 			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAllocationType", GoMethod: "ResetAllocationType"},
 			_jsii_.MemberMethod{JsiiMethod: "resetAttachmentStatus", GoMethod: "ResetAttachmentStatus"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},

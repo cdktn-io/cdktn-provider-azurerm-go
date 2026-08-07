@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlManagedInstanceFailoverGroup) validateInterpolationForAt
 	return nil
 }
 
+func (m *jsiiProxy_MssqlManagedInstanceFailoverGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlManagedInstanceFailoverGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MssqlManagedInstanceFailoverGroup) validatePutReadWriteEndpoi
 }
 
 func (m *jsiiProxy_MssqlManagedInstanceFailoverGroup) validatePutTimeoutsParameters(value *MssqlManagedInstanceFailoverGroupTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlManagedInstanceFailoverGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningDatastoreFileshare) validateInterpolationForAt
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningDatastoreFileshare) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningDatastoreFileshare) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MachineLearningDatastoreFileshare) validateOverrideLogicalIdP
 }
 
 func (m *jsiiProxy_MachineLearningDatastoreFileshare) validatePutTimeoutsParameters(value *MachineLearningDatastoreFileshareTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningDatastoreFileshare) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

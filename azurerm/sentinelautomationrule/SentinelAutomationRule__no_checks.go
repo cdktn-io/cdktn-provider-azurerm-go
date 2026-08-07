@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelAutomationRule) validateInterpolationForAttributePara
 	return nil
 }
 
+func (s *jsiiProxy_SentinelAutomationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelAutomationRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SentinelAutomationRule) validatePutActionPlaybookParameters(v
 }
 
 func (s *jsiiProxy_SentinelAutomationRule) validatePutTimeoutsParameters(value *SentinelAutomationRuleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelAutomationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

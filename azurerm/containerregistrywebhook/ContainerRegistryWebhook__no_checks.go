@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerRegistryWebhook) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_ContainerRegistryWebhook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerRegistryWebhook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ContainerRegistryWebhook) validateOverrideLogicalIdParameters
 }
 
 func (c *jsiiProxy_ContainerRegistryWebhook) validatePutTimeoutsParameters(value *ContainerRegistryWebhookTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerRegistryWebhook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

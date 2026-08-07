@@ -59,6 +59,10 @@ func (n *jsiiProxy_NewRelicTagRule) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (n *jsiiProxy_NewRelicTagRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NewRelicTagRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NewRelicTagRule) validatePutMetricTagFilterParameters(value i
 }
 
 func (n *jsiiProxy_NewRelicTagRule) validatePutTimeoutsParameters(value *NewRelicTagRuleTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NewRelicTagRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

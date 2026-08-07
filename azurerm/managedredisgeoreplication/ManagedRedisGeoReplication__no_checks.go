@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedRedisGeoReplication) validateInterpolationForAttribute
 	return nil
 }
 
+func (m *jsiiProxy_ManagedRedisGeoReplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedRedisGeoReplication) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_ManagedRedisGeoReplication) validateOverrideLogicalIdParamete
 }
 
 func (m *jsiiProxy_ManagedRedisGeoReplication) validatePutTimeoutsParameters(value *ManagedRedisGeoReplicationTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedRedisGeoReplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

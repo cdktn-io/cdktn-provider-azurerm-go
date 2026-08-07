@@ -59,6 +59,10 @@ func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineScaleSet) validateInterpol
 	return nil
 }
 
+func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineScaleSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineScaleSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineScaleSet) validateOverride
 }
 
 func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineScaleSet) validatePutTimeoutsParameters(value *MaintenanceAssignmentVirtualMachineScaleSetTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MaintenanceAssignmentVirtualMachineScaleSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

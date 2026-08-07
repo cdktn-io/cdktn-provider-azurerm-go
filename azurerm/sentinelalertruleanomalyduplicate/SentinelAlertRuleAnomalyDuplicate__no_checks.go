@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicate) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicate) validatePutThresholdObserv
 }
 
 func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicate) validatePutTimeoutsParameters(value *SentinelAlertRuleAnomalyDuplicateTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelAlertRuleAnomalyDuplicate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

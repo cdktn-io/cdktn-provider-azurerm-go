@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArcMachine) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (a *jsiiProxy_ArcMachine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcMachine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ArcMachine) validatePutIdentityParameters(value *ArcMachineId
 }
 
 func (a *jsiiProxy_ArcMachine) validatePutTimeoutsParameters(value *ArcMachineTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcMachine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

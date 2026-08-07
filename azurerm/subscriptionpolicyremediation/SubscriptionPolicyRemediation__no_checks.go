@@ -59,6 +59,10 @@ func (s *jsiiProxy_SubscriptionPolicyRemediation) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_SubscriptionPolicyRemediation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SubscriptionPolicyRemediation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SubscriptionPolicyRemediation) validateOverrideLogicalIdParam
 }
 
 func (s *jsiiProxy_SubscriptionPolicyRemediation) validatePutTimeoutsParameters(value *SubscriptionPolicyRemediationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SubscriptionPolicyRemediation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

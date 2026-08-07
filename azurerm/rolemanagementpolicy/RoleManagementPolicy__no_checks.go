@@ -59,6 +59,10 @@ func (r *jsiiProxy_RoleManagementPolicy) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (r *jsiiProxy_RoleManagementPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RoleManagementPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (r *jsiiProxy_RoleManagementPolicy) validatePutNotificationRulesParameters(
 }
 
 func (r *jsiiProxy_RoleManagementPolicy) validatePutTimeoutsParameters(value *RoleManagementPolicyTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RoleManagementPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

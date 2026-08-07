@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) validatePutTimeoutsPara
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermNetworkDdosProtectionPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermNetworkDdosProtectionPlan_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

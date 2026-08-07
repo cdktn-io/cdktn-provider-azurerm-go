@@ -59,6 +59,10 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinition) validateInte
 	return nil
 }
 
+func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinition) validateOver
 }
 
 func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinition) validatePutTimeoutsParameters(value *KeyVaultManagedStorageAccountSasTokenDefinitionTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KeyVaultManagedStorageAccountSasTokenDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

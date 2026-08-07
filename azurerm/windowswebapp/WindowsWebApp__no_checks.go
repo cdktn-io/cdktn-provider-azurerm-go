@@ -59,6 +59,10 @@ func (w *jsiiProxy_WindowsWebApp) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (w *jsiiProxy_WindowsWebApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WindowsWebApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (w *jsiiProxy_WindowsWebApp) validatePutStorageAccountParameters(value inte
 }
 
 func (w *jsiiProxy_WindowsWebApp) validatePutTimeoutsParameters(value *WindowsWebAppTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WindowsWebApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

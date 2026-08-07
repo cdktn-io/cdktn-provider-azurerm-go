@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermDataShareDatasetKustoCluster) validatePutTimeoutsP
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermDataShareDatasetKustoCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermDataShareDatasetKustoCluster_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateInterpolati
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validatePutServiceP
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceAzureBlobStorageTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureBlobStorage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

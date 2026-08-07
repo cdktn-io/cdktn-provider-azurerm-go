@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventgridDomain) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (e *jsiiProxy_EventgridDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventgridDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (e *jsiiProxy_EventgridDomain) validatePutInputMappingFieldsParameters(valu
 }
 
 func (e *jsiiProxy_EventgridDomain) validatePutTimeoutsParameters(value *EventgridDomainTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventgridDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

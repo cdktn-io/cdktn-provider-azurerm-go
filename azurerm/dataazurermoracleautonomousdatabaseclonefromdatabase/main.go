@@ -85,6 +85,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "reconnectCloneEnabled", GoGetter: "ReconnectCloneEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "refreshableClone", GoGetter: "RefreshableClone"},
 			_jsii_.MemberProperty{JsiiProperty: "refreshableStatus", GoGetter: "RefreshableStatus"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberProperty{JsiiProperty: "remoteDataGuardEnabled", GoGetter: "RemoteDataGuardEnabled"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},

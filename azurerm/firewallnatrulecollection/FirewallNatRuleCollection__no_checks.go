@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirewallNatRuleCollection) validateInterpolationForAttributeP
 	return nil
 }
 
+func (f *jsiiProxy_FirewallNatRuleCollection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirewallNatRuleCollection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FirewallNatRuleCollection) validatePutRuleParameters(value in
 }
 
 func (f *jsiiProxy_FirewallNatRuleCollection) validatePutTimeoutsParameters(value *FirewallNatRuleCollectionTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirewallNatRuleCollection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

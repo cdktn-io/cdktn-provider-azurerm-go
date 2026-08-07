@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynapseFirewallRule) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (s *jsiiProxy_SynapseFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynapseFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SynapseFirewallRule) validateOverrideLogicalIdParameters(newL
 }
 
 func (s *jsiiProxy_SynapseFirewallRule) validatePutTimeoutsParameters(value *SynapseFirewallRuleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynapseFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

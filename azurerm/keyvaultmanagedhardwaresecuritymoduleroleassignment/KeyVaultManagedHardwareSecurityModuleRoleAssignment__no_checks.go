@@ -59,6 +59,10 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validate
 	return nil
 }
 
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validate
 }
 
 func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validatePutTimeoutsParameters(value *KeyVaultManagedHardwareSecurityModuleRoleAssignmentTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KeyVaultManagedHardwareSecurityModuleRoleAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitorActionGroup) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (m *jsiiProxy_MonitorActionGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitorActionGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (m *jsiiProxy_MonitorActionGroup) validatePutVoiceReceiverParameters(value 
 }
 
 func (m *jsiiProxy_MonitorActionGroup) validatePutWebhookReceiverParameters(value interface{}) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitorActionGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

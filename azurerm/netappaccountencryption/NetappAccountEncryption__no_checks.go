@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappAccountEncryption) validateInterpolationForAttributePar
 	return nil
 }
 
+func (n *jsiiProxy_NetappAccountEncryption) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappAccountEncryption) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetappAccountEncryption) validateOverrideLogicalIdParameters(
 }
 
 func (n *jsiiProxy_NetappAccountEncryption) validatePutTimeoutsParameters(value *NetappAccountEncryptionTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappAccountEncryption) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (k *jsiiProxy_KeyVaultCertificateIssuer) validateInterpolationForAttributeP
 	return nil
 }
 
+func (k *jsiiProxy_KeyVaultCertificateIssuer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KeyVaultCertificateIssuer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KeyVaultCertificateIssuer) validatePutAdminParameters(value i
 }
 
 func (k *jsiiProxy_KeyVaultCertificateIssuer) validatePutTimeoutsParameters(value *KeyVaultCertificateIssuerTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KeyVaultCertificateIssuer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

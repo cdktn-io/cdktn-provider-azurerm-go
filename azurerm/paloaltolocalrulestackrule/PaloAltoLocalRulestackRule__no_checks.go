@@ -59,6 +59,10 @@ func (p *jsiiProxy_PaloAltoLocalRulestackRule) validateInterpolationForAttribute
 	return nil
 }
 
+func (p *jsiiProxy_PaloAltoLocalRulestackRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PaloAltoLocalRulestackRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (p *jsiiProxy_PaloAltoLocalRulestackRule) validatePutSourceParameters(value
 }
 
 func (p *jsiiProxy_PaloAltoLocalRulestackRule) validatePutTimeoutsParameters(value *PaloAltoLocalRulestackRuleTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoLocalRulestackRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

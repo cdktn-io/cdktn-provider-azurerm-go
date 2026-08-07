@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlOutboundFirewallRule) validateInterpolationForAttributeP
 	return nil
 }
 
+func (m *jsiiProxy_MssqlOutboundFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlOutboundFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MssqlOutboundFirewallRule) validateOverrideLogicalIdParameter
 }
 
 func (m *jsiiProxy_MssqlOutboundFirewallRule) validatePutTimeoutsParameters(value *MssqlOutboundFirewallRuleTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlOutboundFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

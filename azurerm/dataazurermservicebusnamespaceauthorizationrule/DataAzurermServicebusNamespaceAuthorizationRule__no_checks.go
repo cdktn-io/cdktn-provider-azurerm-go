@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) validatePutT
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermServicebusNamespaceAuthorizationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermServicebusNamespaceAuthorizationRule_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedRedisAccessPolicyAssignment) validateInterpolationForA
 	return nil
 }
 
+func (m *jsiiProxy_ManagedRedisAccessPolicyAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedRedisAccessPolicyAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_ManagedRedisAccessPolicyAssignment) validateOverrideLogicalId
 }
 
 func (m *jsiiProxy_ManagedRedisAccessPolicyAssignment) validatePutTimeoutsParameters(value *ManagedRedisAccessPolicyAssignmentTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedRedisAccessPolicyAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

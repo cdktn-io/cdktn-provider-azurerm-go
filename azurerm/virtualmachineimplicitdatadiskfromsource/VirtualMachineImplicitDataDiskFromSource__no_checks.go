@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSource) validateInterpolati
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSource) validateOverrideLog
 }
 
 func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSource) validatePutTimeoutsParameters(value *VirtualMachineImplicitDataDiskFromSourceTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachineImplicitDataDiskFromSource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

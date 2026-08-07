@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbCassandraTable) validateInterpolationForAttributePara
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbCassandraTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbCassandraTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CosmosdbCassandraTable) validatePutSchemaParameters(value *Co
 }
 
 func (c *jsiiProxy_CosmosdbCassandraTable) validatePutTimeoutsParameters(value *CosmosdbCassandraTableTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbCassandraTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

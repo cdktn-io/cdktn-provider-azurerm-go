@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerRegistryCredentialSet) validateInterpolationForAttri
 	return nil
 }
 
+func (c *jsiiProxy_ContainerRegistryCredentialSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerRegistryCredentialSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ContainerRegistryCredentialSet) validatePutIdentityParameters
 }
 
 func (c *jsiiProxy_ContainerRegistryCredentialSet) validatePutTimeoutsParameters(value *ContainerRegistryCredentialSetTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerRegistryCredentialSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

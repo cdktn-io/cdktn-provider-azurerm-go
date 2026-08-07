@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) validatePutTim
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermOracleExascaleDatabaseStorageVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermOracleExascaleDatabaseStorageVault_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

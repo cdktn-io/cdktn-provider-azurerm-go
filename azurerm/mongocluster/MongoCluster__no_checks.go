@@ -59,6 +59,10 @@ func (m *jsiiProxy_MongoCluster) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (m *jsiiProxy_MongoCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MongoCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MongoCluster) validatePutRestoreParameters(value *MongoCluste
 }
 
 func (m *jsiiProxy_MongoCluster) validatePutTimeoutsParameters(value *MongoClusterTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MongoCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

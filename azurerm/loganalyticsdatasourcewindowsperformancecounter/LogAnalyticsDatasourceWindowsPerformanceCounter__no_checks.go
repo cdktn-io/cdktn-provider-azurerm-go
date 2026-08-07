@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounter) validateInte
 	return nil
 }
 
+func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounter) validateOver
 }
 
 func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounter) validatePutTimeoutsParameters(value *LogAnalyticsDatasourceWindowsPerformanceCounterTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogAnalyticsDatasourceWindowsPerformanceCounter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventhubNamespaceSchemaGroup) validateInterpolationForAttribu
 	return nil
 }
 
+func (e *jsiiProxy_EventhubNamespaceSchemaGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventhubNamespaceSchemaGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EventhubNamespaceSchemaGroup) validateOverrideLogicalIdParame
 }
 
 func (e *jsiiProxy_EventhubNamespaceSchemaGroup) validatePutTimeoutsParameters(value *EventhubNamespaceSchemaGroupTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventhubNamespaceSchemaGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

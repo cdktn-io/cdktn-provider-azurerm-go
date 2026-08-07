@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitorPrivateLinkScope) validateInterpolationForAttributePar
 	return nil
 }
 
+func (m *jsiiProxy_MonitorPrivateLinkScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitorPrivateLinkScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MonitorPrivateLinkScope) validateOverrideLogicalIdParameters(
 }
 
 func (m *jsiiProxy_MonitorPrivateLinkScope) validatePutTimeoutsParameters(value *MonitorPrivateLinkScopeTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitorPrivateLinkScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

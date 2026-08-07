@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageAccountLocalUser) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_StorageAccountLocalUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageAccountLocalUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_StorageAccountLocalUser) validatePutSshAuthorizedKeyParameter
 }
 
 func (s *jsiiProxy_StorageAccountLocalUser) validatePutTimeoutsParameters(value *StorageAccountLocalUserTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageAccountLocalUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlManagedInstanceActiveDirectoryAdministrator) validateInt
 	return nil
 }
 
+func (m *jsiiProxy_MssqlManagedInstanceActiveDirectoryAdministrator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlManagedInstanceActiveDirectoryAdministrator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MssqlManagedInstanceActiveDirectoryAdministrator) validateOve
 }
 
 func (m *jsiiProxy_MssqlManagedInstanceActiveDirectoryAdministrator) validatePutTimeoutsParameters(value *MssqlManagedInstanceActiveDirectoryAdministratorTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlManagedInstanceActiveDirectoryAdministrator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

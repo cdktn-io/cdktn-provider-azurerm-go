@@ -59,6 +59,10 @@ func (l *jsiiProxy_LocalNetworkGateway) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (l *jsiiProxy_LocalNetworkGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LocalNetworkGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LocalNetworkGateway) validatePutBgpSettingsParameters(value *
 }
 
 func (l *jsiiProxy_LocalNetworkGateway) validatePutTimeoutsParameters(value *LocalNetworkGatewayTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LocalNetworkGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

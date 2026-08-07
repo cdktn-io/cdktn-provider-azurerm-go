@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbNatPool) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (l *jsiiProxy_LbNatPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbNatPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LbNatPool) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func (l *jsiiProxy_LbNatPool) validatePutTimeoutsParameters(value *LbNatPoolTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbNatPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

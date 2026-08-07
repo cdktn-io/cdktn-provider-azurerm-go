@@ -59,6 +59,10 @@ func (n *jsiiProxy_NginxApiKey) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (n *jsiiProxy_NginxApiKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NginxApiKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NginxApiKey) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (n *jsiiProxy_NginxApiKey) validatePutTimeoutsParameters(value *NginxApiKeyTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NginxApiKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbBackendAddressPoolAddress) validateInterpolationForAttribut
 	return nil
 }
 
+func (l *jsiiProxy_LbBackendAddressPoolAddress) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbBackendAddressPoolAddress) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LbBackendAddressPoolAddress) validateOverrideLogicalIdParamet
 }
 
 func (l *jsiiProxy_LbBackendAddressPoolAddress) validatePutTimeoutsParameters(value *LbBackendAddressPoolAddressTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbBackendAddressPoolAddress) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

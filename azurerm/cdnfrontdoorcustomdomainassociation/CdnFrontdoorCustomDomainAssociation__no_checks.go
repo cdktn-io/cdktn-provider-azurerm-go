@@ -59,6 +59,10 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateInterpolationFor
 	return nil
 }
 
+func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateOverrideLogicalI
 }
 
 func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validatePutTimeoutsParameters(value *CdnFrontdoorCustomDomainAssociationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CdnFrontdoorCustomDomainAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

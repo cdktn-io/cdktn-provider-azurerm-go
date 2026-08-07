@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivateDnsPtrRecord) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (p *jsiiProxy_PrivateDnsPtrRecord) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivateDnsPtrRecord) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PrivateDnsPtrRecord) validateOverrideLogicalIdParameters(newL
 }
 
 func (p *jsiiProxy_PrivateDnsPtrRecord) validatePutTimeoutsParameters(value *PrivateDnsPtrRecordTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivateDnsPtrRecord) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

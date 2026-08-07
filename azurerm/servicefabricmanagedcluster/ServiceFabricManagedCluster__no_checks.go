@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceFabricManagedCluster) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_ServiceFabricManagedCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceFabricManagedCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_ServiceFabricManagedCluster) validatePutNodeTypeParameters(va
 }
 
 func (s *jsiiProxy_ServiceFabricManagedCluster) validatePutTimeoutsParameters(value *ServiceFabricManagedClusterTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceFabricManagedCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

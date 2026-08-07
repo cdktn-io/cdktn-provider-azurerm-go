@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwarePrivateCloud) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (v *jsiiProxy_VmwarePrivateCloud) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwarePrivateCloud) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VmwarePrivateCloud) validatePutManagementClusterParameters(va
 }
 
 func (v *jsiiProxy_VmwarePrivateCloud) validatePutTimeoutsParameters(value *VmwarePrivateCloudTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwarePrivateCloud) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

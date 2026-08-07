@@ -59,6 +59,10 @@ func (i *jsiiProxy_IotcentralOrganization) validateInterpolationForAttributePara
 	return nil
 }
 
+func (i *jsiiProxy_IotcentralOrganization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotcentralOrganization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IotcentralOrganization) validateOverrideLogicalIdParameters(n
 }
 
 func (i *jsiiProxy_IotcentralOrganization) validatePutTimeoutsParameters(value *IotcentralOrganizationTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotcentralOrganization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

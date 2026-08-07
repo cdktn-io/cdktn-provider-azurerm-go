@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateInterpolationFor
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateOverrideLogicalI
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceAzureSearchTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSearch) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

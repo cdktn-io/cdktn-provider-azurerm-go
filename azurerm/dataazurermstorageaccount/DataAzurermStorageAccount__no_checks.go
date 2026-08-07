@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermStorageAccount) validatePutTimeoutsParameters(valu
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermStorageAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermStorageAccount_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

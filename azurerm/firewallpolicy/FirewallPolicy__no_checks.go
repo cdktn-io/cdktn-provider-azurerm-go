@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirewallPolicy) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (f *jsiiProxy_FirewallPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirewallPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (f *jsiiProxy_FirewallPolicy) validatePutTimeoutsParameters(value *Firewall
 }
 
 func (f *jsiiProxy_FirewallPolicy) validatePutTlsCertificateParameters(value *FirewallPolicyTlsCertificate) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirewallPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

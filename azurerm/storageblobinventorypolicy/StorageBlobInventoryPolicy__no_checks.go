@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageBlobInventoryPolicy) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_StorageBlobInventoryPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageBlobInventoryPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StorageBlobInventoryPolicy) validatePutRulesParameters(value 
 }
 
 func (s *jsiiProxy_StorageBlobInventoryPolicy) validatePutTimeoutsParameters(value *StorageBlobInventoryPolicyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageBlobInventoryPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

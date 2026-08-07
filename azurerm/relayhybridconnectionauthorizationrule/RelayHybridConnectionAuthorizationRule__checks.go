@@ -122,6 +122,14 @@ func (r *jsiiProxy_RelayHybridConnectionAuthorizationRule) validateInterpolation
 	return nil
 }
 
+func (r *jsiiProxy_RelayHybridConnectionAuthorizationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (r *jsiiProxy_RelayHybridConnectionAuthorizationRule) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (r *jsiiProxy_RelayHybridConnectionAuthorizationRule) validatePutTimeoutsPa
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (r *jsiiProxy_RelayHybridConnectionAuthorizationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

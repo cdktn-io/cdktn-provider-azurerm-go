@@ -59,6 +59,10 @@ func (p *jsiiProxy_PurviewAccount) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (p *jsiiProxy_PurviewAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PurviewAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PurviewAccount) validatePutIdentityParameters(value *PurviewA
 }
 
 func (p *jsiiProxy_PurviewAccount) validatePutTimeoutsParameters(value *PurviewAccountTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PurviewAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (n *jsiiProxy_NatGatewayPublicIpPrefixAssociation) validateInterpolationFor
 	return nil
 }
 
+func (n *jsiiProxy_NatGatewayPublicIpPrefixAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NatGatewayPublicIpPrefixAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NatGatewayPublicIpPrefixAssociation) validateOverrideLogicalI
 }
 
 func (n *jsiiProxy_NatGatewayPublicIpPrefixAssociation) validatePutTimeoutsParameters(value *NatGatewayPublicIpPrefixAssociationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NatGatewayPublicIpPrefixAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

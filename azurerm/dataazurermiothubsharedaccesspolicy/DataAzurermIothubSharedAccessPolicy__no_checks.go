@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermIothubSharedAccessPolicy) validatePutTimeoutsParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermIothubSharedAccessPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermIothubSharedAccessPolicy_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

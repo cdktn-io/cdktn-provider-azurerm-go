@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItems) v
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermSystemCenterVirtualMachineManagerInventoryItems) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermSystemCenterVirtualMachineManagerInventoryItems_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

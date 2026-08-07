@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiManagementCustomDomain) validateInterpolationForAttributeP
 	return nil
 }
 
+func (a *jsiiProxy_ApiManagementCustomDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiManagementCustomDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (a *jsiiProxy_ApiManagementCustomDomain) validatePutScmParameters(value int
 }
 
 func (a *jsiiProxy_ApiManagementCustomDomain) validatePutTimeoutsParameters(value *ApiManagementCustomDomainTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiManagementCustomDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

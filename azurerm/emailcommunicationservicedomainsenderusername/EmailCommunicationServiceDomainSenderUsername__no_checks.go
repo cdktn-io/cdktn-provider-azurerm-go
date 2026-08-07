@@ -59,6 +59,10 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainSenderUsername) validateInterp
 	return nil
 }
 
+func (e *jsiiProxy_EmailCommunicationServiceDomainSenderUsername) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EmailCommunicationServiceDomainSenderUsername) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EmailCommunicationServiceDomainSenderUsername) validateOverri
 }
 
 func (e *jsiiProxy_EmailCommunicationServiceDomainSenderUsername) validatePutTimeoutsParameters(value *EmailCommunicationServiceDomainSenderUsernameTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EmailCommunicationServiceDomainSenderUsername) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevTestSchedule) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DevTestSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevTestSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (d *jsiiProxy_DevTestSchedule) validatePutTimeoutsParameters(value *DevTest
 }
 
 func (d *jsiiProxy_DevTestSchedule) validatePutWeeklyRecurrenceParameters(value *DevTestScheduleWeeklyRecurrence) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevTestSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServer) validateInterp
 	return nil
 }
 
+func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServer) validatePutRet
 }
 
 func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServer) validatePutTimeoutsParameters(value *DataProtectionBackupPolicyMysqlFlexibleServerTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataProtectionBackupPolicyMysqlFlexibleServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

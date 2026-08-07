@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftp) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceSftp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceSftp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSftp) validatePutKeyVaultPrivateKeyPa
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceSftp) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceSftpTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceSftp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (r *jsiiProxy_RelayNamespace) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (r *jsiiProxy_RelayNamespace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RelayNamespace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RelayNamespace) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (r *jsiiProxy_RelayNamespace) validatePutTimeoutsParameters(value *RelayNamespaceTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RelayNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SiteRecoveryServicesVaultHypervSite) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryServicesVaultHypervSite) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryServicesVaultHypervSite) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SiteRecoveryServicesVaultHypervSite) validateOverrideLogicalI
 }
 
 func (s *jsiiProxy_SiteRecoveryServicesVaultHypervSite) validatePutTimeoutsParameters(value *SiteRecoveryServicesVaultHypervSiteTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SiteRecoveryServicesVaultHypervSite) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

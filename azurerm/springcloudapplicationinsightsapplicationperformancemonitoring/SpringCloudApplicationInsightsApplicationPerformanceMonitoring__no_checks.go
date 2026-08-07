@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitorin
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitoring) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitoring) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitorin
 }
 
 func (s *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitoring) validatePutTimeoutsParameters(value *SpringCloudApplicationInsightsApplicationPerformanceMonitoringTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudApplicationInsightsApplicationPerformanceMonitoring) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

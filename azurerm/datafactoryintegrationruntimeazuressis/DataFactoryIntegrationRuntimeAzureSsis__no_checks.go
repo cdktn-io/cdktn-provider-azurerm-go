@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis) validateInterpolation
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis) validatePutTimeoutsPa
 }
 
 func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis) validatePutVnetIntegrationParameters(value *DataFactoryIntegrationRuntimeAzureSsisVnetIntegration) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzureSsis) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

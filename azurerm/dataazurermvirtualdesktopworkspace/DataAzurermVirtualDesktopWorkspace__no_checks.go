@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermVirtualDesktopWorkspace) validatePutTimeoutsParame
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermVirtualDesktopWorkspace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermVirtualDesktopWorkspace_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

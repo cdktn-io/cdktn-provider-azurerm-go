@@ -59,6 +59,10 @@ func (s *jsiiProxy_SiteRecoveryVmwareReplicationPolicyAssociation) validateInter
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryVmwareReplicationPolicyAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryVmwareReplicationPolicyAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SiteRecoveryVmwareReplicationPolicyAssociation) validateOverr
 }
 
 func (s *jsiiProxy_SiteRecoveryVmwareReplicationPolicyAssociation) validatePutTimeoutsParameters(value *SiteRecoveryVmwareReplicationPolicyAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SiteRecoveryVmwareReplicationPolicyAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

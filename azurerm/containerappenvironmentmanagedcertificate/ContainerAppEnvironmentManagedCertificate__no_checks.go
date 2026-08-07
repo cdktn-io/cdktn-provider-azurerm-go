@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerAppEnvironmentManagedCertificate) validateInterpolat
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAppEnvironmentManagedCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAppEnvironmentManagedCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ContainerAppEnvironmentManagedCertificate) validateOverrideLo
 }
 
 func (c *jsiiProxy_ContainerAppEnvironmentManagedCertificate) validatePutTimeoutsParameters(value *ContainerAppEnvironmentManagedCertificateTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerAppEnvironmentManagedCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

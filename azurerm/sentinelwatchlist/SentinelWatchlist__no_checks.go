@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelWatchlist) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (s *jsiiProxy_SentinelWatchlist) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelWatchlist) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelWatchlist) validateOverrideLogicalIdParameters(newLog
 }
 
 func (s *jsiiProxy_SentinelWatchlist) validatePutTimeoutsParameters(value *SentinelWatchlistTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelWatchlist) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubDpsCertificate) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (i *jsiiProxy_IothubDpsCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubDpsCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubDpsCertificate) validateOverrideLogicalIdParameters(new
 }
 
 func (i *jsiiProxy_IothubDpsCertificate) validatePutTimeoutsParameters(value *IothubDpsCertificateTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubDpsCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

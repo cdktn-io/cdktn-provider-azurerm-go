@@ -59,6 +59,10 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) validatePutShutdownRecov
 }
 
 func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) validatePutTimeoutsParameters(value *SiteRecoveryReplicationRecoveryPlanTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SiteRecoveryReplicationRecoveryPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

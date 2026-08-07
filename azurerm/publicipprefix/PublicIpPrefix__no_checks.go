@@ -59,6 +59,10 @@ func (p *jsiiProxy_PublicIpPrefix) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (p *jsiiProxy_PublicIpPrefix) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PublicIpPrefix) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PublicIpPrefix) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (p *jsiiProxy_PublicIpPrefix) validatePutTimeoutsParameters(value *PublicIpPrefixTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PublicIpPrefix) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

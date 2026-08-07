@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningDatastoreBlobstorage) validateInterpolationFor
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningDatastoreBlobstorage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningDatastoreBlobstorage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MachineLearningDatastoreBlobstorage) validateOverrideLogicalI
 }
 
 func (m *jsiiProxy_MachineLearningDatastoreBlobstorage) validatePutTimeoutsParameters(value *MachineLearningDatastoreBlobstorageTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningDatastoreBlobstorage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

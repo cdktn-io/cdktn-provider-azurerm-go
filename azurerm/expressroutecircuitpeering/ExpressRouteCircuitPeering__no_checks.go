@@ -59,6 +59,10 @@ func (e *jsiiProxy_ExpressRouteCircuitPeering) validateInterpolationForAttribute
 	return nil
 }
 
+func (e *jsiiProxy_ExpressRouteCircuitPeering) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ExpressRouteCircuitPeering) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (e *jsiiProxy_ExpressRouteCircuitPeering) validatePutMicrosoftPeeringConfig
 }
 
 func (e *jsiiProxy_ExpressRouteCircuitPeering) validatePutTimeoutsParameters(value *ExpressRouteCircuitPeeringTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ExpressRouteCircuitPeering) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_ExpressRouteCircuit) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (e *jsiiProxy_ExpressRouteCircuit) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ExpressRouteCircuit) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ExpressRouteCircuit) validatePutSkuParameters(value *ExpressR
 }
 
 func (e *jsiiProxy_ExpressRouteCircuit) validatePutTimeoutsParameters(value *ExpressRouteCircuitTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ExpressRouteCircuit) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

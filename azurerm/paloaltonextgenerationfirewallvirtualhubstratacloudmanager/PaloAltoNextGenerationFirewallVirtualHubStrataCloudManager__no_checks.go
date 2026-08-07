@@ -59,6 +59,10 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager) v
 	return nil
 }
 
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager) v
 }
 
 func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager) validatePutTimeoutsParameters(value *PaloAltoNextGenerationFirewallVirtualHubStrataCloudManagerTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualHubStrataCloudManager) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

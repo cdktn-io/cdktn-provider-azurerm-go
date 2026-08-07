@@ -59,6 +59,10 @@ func (k *jsiiProxy_KustoCluster) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (k *jsiiProxy_KustoCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KustoCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (k *jsiiProxy_KustoCluster) validatePutTimeoutsParameters(value *KustoClust
 }
 
 func (k *jsiiProxy_KustoCluster) validatePutVirtualNetworkConfigurationParameters(value *KustoClusterVirtualNetworkConfiguration) error {
+	return nil
+}
+
+func (k *jsiiProxy_KustoCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

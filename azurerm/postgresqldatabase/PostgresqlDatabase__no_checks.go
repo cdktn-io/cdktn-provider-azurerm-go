@@ -59,6 +59,10 @@ func (p *jsiiProxy_PostgresqlDatabase) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (p *jsiiProxy_PostgresqlDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PostgresqlDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PostgresqlDatabase) validateOverrideLogicalIdParameters(newLo
 }
 
 func (p *jsiiProxy_PostgresqlDatabase) validatePutTimeoutsParameters(value *PostgresqlDatabaseTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PostgresqlDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

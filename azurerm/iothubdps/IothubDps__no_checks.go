@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubDps) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (i *jsiiProxy_IothubDps) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubDps) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (i *jsiiProxy_IothubDps) validatePutSkuParameters(value *IothubDpsSku) erro
 }
 
 func (i *jsiiProxy_IothubDps) validatePutTimeoutsParameters(value *IothubDpsTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubDps) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validateInterpo
 	return nil
 }
 
+func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validatePutRepl
 }
 
 func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validatePutTimeoutsParameters(value *MssqlVirtualMachineAvailabilityGroupListenerTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlVirtualMachineAvailabilityGroupListener) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

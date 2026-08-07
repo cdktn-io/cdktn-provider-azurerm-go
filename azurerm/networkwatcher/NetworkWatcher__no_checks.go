@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkWatcher) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (n *jsiiProxy_NetworkWatcher) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkWatcher) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkWatcher) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (n *jsiiProxy_NetworkWatcher) validatePutTimeoutsParameters(value *NetworkWatcherTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkWatcher) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

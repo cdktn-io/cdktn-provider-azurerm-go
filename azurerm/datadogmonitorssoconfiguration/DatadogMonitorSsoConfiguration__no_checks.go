@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatadogMonitorSsoConfiguration) validateInterpolationForAttri
 	return nil
 }
 
+func (d *jsiiProxy_DatadogMonitorSsoConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatadogMonitorSsoConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatadogMonitorSsoConfiguration) validateOverrideLogicalIdPara
 }
 
 func (d *jsiiProxy_DatadogMonitorSsoConfiguration) validatePutTimeoutsParameters(value *DatadogMonitorSsoConfigurationTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatadogMonitorSsoConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

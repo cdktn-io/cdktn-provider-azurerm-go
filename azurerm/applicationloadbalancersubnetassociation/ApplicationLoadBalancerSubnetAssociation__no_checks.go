@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateInterpolati
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateOverrideLog
 }
 
 func (a *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validatePutTimeoutsParameters(value *ApplicationLoadBalancerSubnetAssociationTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApplicationLoadBalancerSubnetAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

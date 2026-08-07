@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataShareDatasetKustoCluster) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DataShareDatasetKustoCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataShareDatasetKustoCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataShareDatasetKustoCluster) validateOverrideLogicalIdParame
 }
 
 func (d *jsiiProxy_DataShareDatasetKustoCluster) validatePutTimeoutsParameters(value *DataShareDatasetKustoClusterTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataShareDatasetKustoCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

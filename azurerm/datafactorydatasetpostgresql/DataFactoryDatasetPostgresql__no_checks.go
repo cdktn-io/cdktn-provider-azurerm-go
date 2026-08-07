@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryDatasetPostgresql) validatePutSchemaColumnParamete
 }
 
 func (d *jsiiProxy_DataFactoryDatasetPostgresql) validatePutTimeoutsParameters(value *DataFactoryDatasetPostgresqlTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

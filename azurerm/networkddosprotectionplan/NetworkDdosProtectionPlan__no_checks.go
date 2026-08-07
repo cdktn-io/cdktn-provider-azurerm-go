@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkDdosProtectionPlan) validateInterpolationForAttributeP
 	return nil
 }
 
+func (n *jsiiProxy_NetworkDdosProtectionPlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkDdosProtectionPlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkDdosProtectionPlan) validateOverrideLogicalIdParameter
 }
 
 func (n *jsiiProxy_NetworkDdosProtectionPlan) validatePutTimeoutsParameters(value *NetworkDdosProtectionPlanTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkDdosProtectionPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

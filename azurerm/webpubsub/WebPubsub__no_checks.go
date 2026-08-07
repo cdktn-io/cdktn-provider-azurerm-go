@@ -59,6 +59,10 @@ func (w *jsiiProxy_WebPubsub) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (w *jsiiProxy_WebPubsub) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WebPubsub) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (w *jsiiProxy_WebPubsub) validatePutLiveTraceParameters(value *WebPubsubLiv
 }
 
 func (w *jsiiProxy_WebPubsub) validatePutTimeoutsParameters(value *WebPubsubTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WebPubsub) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

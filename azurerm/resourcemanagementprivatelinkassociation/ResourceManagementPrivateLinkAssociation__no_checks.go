@@ -59,6 +59,10 @@ func (r *jsiiProxy_ResourceManagementPrivateLinkAssociation) validateInterpolati
 	return nil
 }
 
+func (r *jsiiProxy_ResourceManagementPrivateLinkAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_ResourceManagementPrivateLinkAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_ResourceManagementPrivateLinkAssociation) validateOverrideLog
 }
 
 func (r *jsiiProxy_ResourceManagementPrivateLinkAssociation) validatePutTimeoutsParameters(value *ResourceManagementPrivateLinkAssociationTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_ResourceManagementPrivateLinkAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

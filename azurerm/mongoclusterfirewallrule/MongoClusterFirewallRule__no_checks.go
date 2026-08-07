@@ -59,6 +59,10 @@ func (m *jsiiProxy_MongoClusterFirewallRule) validateInterpolationForAttributePa
 	return nil
 }
 
+func (m *jsiiProxy_MongoClusterFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MongoClusterFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MongoClusterFirewallRule) validateOverrideLogicalIdParameters
 }
 
 func (m *jsiiProxy_MongoClusterFirewallRule) validatePutTimeoutsParameters(value *MongoClusterFirewallRuleTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MongoClusterFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

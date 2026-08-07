@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiskEncryptionSet) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DiskEncryptionSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiskEncryptionSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DiskEncryptionSet) validatePutIdentityParameters(value *DiskE
 }
 
 func (d *jsiiProxy_DiskEncryptionSet) validatePutTimeoutsParameters(value *DiskEncryptionSetTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiskEncryptionSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynapseWorkspaceKey) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (s *jsiiProxy_SynapseWorkspaceKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynapseWorkspaceKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SynapseWorkspaceKey) validateOverrideLogicalIdParameters(newL
 }
 
 func (s *jsiiProxy_SynapseWorkspaceKey) validatePutTimeoutsParameters(value *SynapseWorkspaceKeyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynapseWorkspaceKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

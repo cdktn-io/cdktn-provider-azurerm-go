@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermDnsCaaRecord) validatePutTimeoutsParameters(value 
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermDnsCaaRecord) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermDnsCaaRecord_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

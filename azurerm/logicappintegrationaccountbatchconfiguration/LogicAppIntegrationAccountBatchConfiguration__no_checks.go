@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validateInterpo
 	return nil
 }
 
+func (l *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validatePutRele
 }
 
 func (l *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validatePutTimeoutsParameters(value *LogicAppIntegrationAccountBatchConfigurationTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogicAppIntegrationAccountBatchConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

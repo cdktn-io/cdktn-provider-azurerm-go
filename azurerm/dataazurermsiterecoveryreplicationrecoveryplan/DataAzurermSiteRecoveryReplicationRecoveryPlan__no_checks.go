@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermSiteRecoveryReplicationRecoveryPlan) validatePutTi
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermSiteRecoveryReplicationRecoveryPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermSiteRecoveryReplicationRecoveryPlan_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

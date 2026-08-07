@@ -59,6 +59,10 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateInt
 	return nil
 }
 
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateOve
 }
 
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validatePutTimeoutsParameters(value *SystemCenterVirtualMachineManagerAvailabilitySetTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerAvailabilitySet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

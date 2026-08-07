@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfiguration) validateInterpolationF
 	return nil
 }
 
+func (a *jsiiProxy_AutomationSoftwareUpdateConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutomationSoftwareUpdateConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (a *jsiiProxy_AutomationSoftwareUpdateConfiguration) validatePutTimeoutsPar
 }
 
 func (a *jsiiProxy_AutomationSoftwareUpdateConfiguration) validatePutWindowsParameters(value *AutomationSoftwareUpdateConfigurationWindows) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutomationSoftwareUpdateConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

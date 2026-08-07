@@ -59,6 +59,10 @@ func (s *jsiiProxy_SubnetServiceEndpointStoragePolicy) validateInterpolationForA
 	return nil
 }
 
+func (s *jsiiProxy_SubnetServiceEndpointStoragePolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SubnetServiceEndpointStoragePolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SubnetServiceEndpointStoragePolicy) validatePutDefinitionPara
 }
 
 func (s *jsiiProxy_SubnetServiceEndpointStoragePolicy) validatePutTimeoutsParameters(value *SubnetServiceEndpointStoragePolicyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SubnetServiceEndpointStoragePolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

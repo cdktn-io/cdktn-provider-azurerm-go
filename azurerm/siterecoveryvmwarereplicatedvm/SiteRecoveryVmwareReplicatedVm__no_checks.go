@@ -59,6 +59,10 @@ func (s *jsiiProxy_SiteRecoveryVmwareReplicatedVm) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryVmwareReplicatedVm) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryVmwareReplicatedVm) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SiteRecoveryVmwareReplicatedVm) validatePutNetworkInterfacePa
 }
 
 func (s *jsiiProxy_SiteRecoveryVmwareReplicatedVm) validatePutTimeoutsParameters(value *SiteRecoveryVmwareReplicatedVmTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SiteRecoveryVmwareReplicatedVm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

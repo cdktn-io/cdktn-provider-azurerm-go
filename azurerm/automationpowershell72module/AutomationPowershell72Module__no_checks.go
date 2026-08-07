@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutomationPowershell72Module) validateInterpolationForAttribu
 	return nil
 }
 
+func (a *jsiiProxy_AutomationPowershell72Module) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutomationPowershell72Module) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AutomationPowershell72Module) validatePutModuleLinkParameters
 }
 
 func (a *jsiiProxy_AutomationPowershell72Module) validatePutTimeoutsParameters(value *AutomationPowershell72ModuleTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutomationPowershell72Module) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (f *jsiiProxy_FederatedIdentityCredential) validateInterpolationForAttribut
 	return nil
 }
 
+func (f *jsiiProxy_FederatedIdentityCredential) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FederatedIdentityCredential) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (f *jsiiProxy_FederatedIdentityCredential) validateOverrideLogicalIdParamet
 }
 
 func (f *jsiiProxy_FederatedIdentityCredential) validatePutTimeoutsParameters(value *FederatedIdentityCredentialTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FederatedIdentityCredential) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

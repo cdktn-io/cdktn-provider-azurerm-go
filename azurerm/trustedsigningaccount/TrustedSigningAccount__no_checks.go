@@ -59,6 +59,10 @@ func (t *jsiiProxy_TrustedSigningAccount) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (t *jsiiProxy_TrustedSigningAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TrustedSigningAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (t *jsiiProxy_TrustedSigningAccount) validateOverrideLogicalIdParameters(ne
 }
 
 func (t *jsiiProxy_TrustedSigningAccount) validatePutTimeoutsParameters(value *TrustedSigningAccountTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TrustedSigningAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

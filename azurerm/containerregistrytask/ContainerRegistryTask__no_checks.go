@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerRegistryTask) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ContainerRegistryTask) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerRegistryTask) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -116,6 +120,10 @@ func (c *jsiiProxy_ContainerRegistryTask) validatePutTimeoutsParameters(value *C
 }
 
 func (c *jsiiProxy_ContainerRegistryTask) validatePutTimerTriggerParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerRegistryTask) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

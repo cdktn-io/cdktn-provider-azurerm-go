@@ -59,6 +59,10 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) validateInterpolationForAt
 	return nil
 }
 
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) validatePutNetworkRuleColl
 }
 
 func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) validatePutTimeoutsParameters(value *FirewallPolicyRuleCollectionGroupTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FirewallPolicyRuleCollectionGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

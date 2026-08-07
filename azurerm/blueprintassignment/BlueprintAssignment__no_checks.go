@@ -59,6 +59,10 @@ func (b *jsiiProxy_BlueprintAssignment) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (b *jsiiProxy_BlueprintAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BlueprintAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BlueprintAssignment) validatePutIdentityParameters(value *Blu
 }
 
 func (b *jsiiProxy_BlueprintAssignment) validatePutTimeoutsParameters(value *BlueprintAssignmentTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BlueprintAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

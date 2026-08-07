@@ -59,6 +59,10 @@ func (c *jsiiProxy_CdnFrontdoorSecurityPolicy) validateInterpolationForAttribute
 	return nil
 }
 
+func (c *jsiiProxy_CdnFrontdoorSecurityPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CdnFrontdoorSecurityPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CdnFrontdoorSecurityPolicy) validatePutSecurityPoliciesParame
 }
 
 func (c *jsiiProxy_CdnFrontdoorSecurityPolicy) validatePutTimeoutsParameters(value *CdnFrontdoorSecurityPolicyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CdnFrontdoorSecurityPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

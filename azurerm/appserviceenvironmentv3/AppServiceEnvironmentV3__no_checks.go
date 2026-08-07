@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppServiceEnvironmentV3) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_AppServiceEnvironmentV3) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppServiceEnvironmentV3) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppServiceEnvironmentV3) validatePutClusterSettingParameters(
 }
 
 func (a *jsiiProxy_AppServiceEnvironmentV3) validatePutTimeoutsParameters(value *AppServiceEnvironmentV3Timeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppServiceEnvironmentV3) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

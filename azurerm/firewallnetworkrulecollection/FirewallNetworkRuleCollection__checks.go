@@ -122,6 +122,14 @@ func (f *jsiiProxy_FirewallNetworkRuleCollection) validateInterpolationForAttrib
 	return nil
 }
 
+func (f *jsiiProxy_FirewallNetworkRuleCollection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (f *jsiiProxy_FirewallNetworkRuleCollection) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -244,6 +252,14 @@ func (f *jsiiProxy_FirewallNetworkRuleCollection) validatePutTimeoutsParameters(
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (f *jsiiProxy_FirewallNetworkRuleCollection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

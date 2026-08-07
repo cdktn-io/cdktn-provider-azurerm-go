@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApplicationGateway) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -184,6 +188,10 @@ func (a *jsiiProxy_ApplicationGateway) validatePutUrlPathMapParameters(value int
 }
 
 func (a *jsiiProxy_ApplicationGateway) validatePutWafConfigurationParameters(value *ApplicationGatewayWafConfiguration) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApplicationGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

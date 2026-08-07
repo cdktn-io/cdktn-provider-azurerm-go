@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualDesktopHostPool) validateInterpolationForAttributePara
 	return nil
 }
 
+func (v *jsiiProxy_VirtualDesktopHostPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualDesktopHostPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VirtualDesktopHostPool) validatePutScheduledAgentUpdatesParam
 }
 
 func (v *jsiiProxy_VirtualDesktopHostPool) validatePutTimeoutsParameters(value *VirtualDesktopHostPoolTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualDesktopHostPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

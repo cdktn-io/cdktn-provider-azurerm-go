@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecurityCenterSubscriptionPricing) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_SecurityCenterSubscriptionPricing) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecurityCenterSubscriptionPricing) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SecurityCenterSubscriptionPricing) validatePutExtensionParame
 }
 
 func (s *jsiiProxy_SecurityCenterSubscriptionPricing) validatePutTimeoutsParameters(value *SecurityCenterSubscriptionPricingTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityCenterSubscriptionPricing) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

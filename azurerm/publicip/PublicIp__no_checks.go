@@ -59,6 +59,10 @@ func (p *jsiiProxy_PublicIp) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (p *jsiiProxy_PublicIp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PublicIp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PublicIp) validateOverrideLogicalIdParameters(newLogicalId *s
 }
 
 func (p *jsiiProxy_PublicIp) validatePutTimeoutsParameters(value *PublicIpTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PublicIp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

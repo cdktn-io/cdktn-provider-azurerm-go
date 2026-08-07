@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) validateInterpolati
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) validatePutKeyVault
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceAzureSqlDatabaseTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureSqlDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

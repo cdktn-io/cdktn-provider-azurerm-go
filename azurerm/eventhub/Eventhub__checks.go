@@ -122,6 +122,14 @@ func (e *jsiiProxy_Eventhub) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (e *jsiiProxy_Eventhub) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (e *jsiiProxy_Eventhub) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -235,6 +243,14 @@ func (e *jsiiProxy_Eventhub) validatePutTimeoutsParameters(value *EventhubTimeou
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (e *jsiiProxy_Eventhub) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

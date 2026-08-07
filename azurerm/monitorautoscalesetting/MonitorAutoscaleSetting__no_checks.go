@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitorAutoscaleSetting) validateInterpolationForAttributePar
 	return nil
 }
 
+func (m *jsiiProxy_MonitorAutoscaleSetting) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitorAutoscaleSetting) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MonitorAutoscaleSetting) validatePutProfileParameters(value i
 }
 
 func (m *jsiiProxy_MonitorAutoscaleSetting) validatePutTimeoutsParameters(value *MonitorAutoscaleSettingTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitorAutoscaleSetting) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

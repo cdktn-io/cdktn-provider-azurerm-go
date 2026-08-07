@@ -59,6 +59,10 @@ func (s *jsiiProxy_StackHciStoragePath) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (s *jsiiProxy_StackHciStoragePath) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StackHciStoragePath) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StackHciStoragePath) validateOverrideLogicalIdParameters(newL
 }
 
 func (s *jsiiProxy_StackHciStoragePath) validatePutTimeoutsParameters(value *StackHciStoragePathTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StackHciStoragePath) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

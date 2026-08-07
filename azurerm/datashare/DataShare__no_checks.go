@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataShare) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (d *jsiiProxy_DataShare) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataShare) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataShare) validatePutSnapshotScheduleParameters(value *DataS
 }
 
 func (d *jsiiProxy_DataShare) validatePutTimeoutsParameters(value *DataShareTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataShare) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

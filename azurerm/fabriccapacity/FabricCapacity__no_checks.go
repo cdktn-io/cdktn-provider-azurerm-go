@@ -59,6 +59,10 @@ func (f *jsiiProxy_FabricCapacity) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (f *jsiiProxy_FabricCapacity) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FabricCapacity) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (f *jsiiProxy_FabricCapacity) validatePutSkuParameters(value *FabricCapacit
 }
 
 func (f *jsiiProxy_FabricCapacity) validatePutTimeoutsParameters(value *FabricCapacityTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FabricCapacity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

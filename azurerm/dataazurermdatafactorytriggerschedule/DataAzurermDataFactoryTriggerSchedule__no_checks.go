@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermDataFactoryTriggerSchedule) validatePutTimeoutsPar
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermDataFactoryTriggerSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermDataFactoryTriggerSchedule_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

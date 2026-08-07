@@ -59,6 +59,10 @@ func (r *jsiiProxy_RoleAssignment) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (r *jsiiProxy_RoleAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RoleAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RoleAssignment) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (r *jsiiProxy_RoleAssignment) validatePutTimeoutsParameters(value *RoleAssignmentTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RoleAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

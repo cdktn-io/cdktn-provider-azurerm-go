@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogicAppIntegrationAccountSession) validateInterpolationForAt
 	return nil
 }
 
+func (l *jsiiProxy_LogicAppIntegrationAccountSession) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogicAppIntegrationAccountSession) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LogicAppIntegrationAccountSession) validateOverrideLogicalIdP
 }
 
 func (l *jsiiProxy_LogicAppIntegrationAccountSession) validatePutTimeoutsParameters(value *LogicAppIntegrationAccountSessionTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogicAppIntegrationAccountSession) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

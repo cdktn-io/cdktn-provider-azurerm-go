@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappVolumeBucket) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (n *jsiiProxy_NetappVolumeBucket) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappVolumeBucket) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetappVolumeBucket) validatePutKeyVaultParameters(value *Neta
 }
 
 func (n *jsiiProxy_NetappVolumeBucket) validatePutTimeoutsParameters(value *NetappVolumeBucketTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappVolumeBucket) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

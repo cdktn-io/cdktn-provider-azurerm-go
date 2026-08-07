@@ -59,6 +59,10 @@ func (e *jsiiProxy_ExpressRoutePortAuthorization) validateInterpolationForAttrib
 	return nil
 }
 
+func (e *jsiiProxy_ExpressRoutePortAuthorization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ExpressRoutePortAuthorization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_ExpressRoutePortAuthorization) validateOverrideLogicalIdParam
 }
 
 func (e *jsiiProxy_ExpressRoutePortAuthorization) validatePutTimeoutsParameters(value *ExpressRoutePortAuthorizationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ExpressRoutePortAuthorization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

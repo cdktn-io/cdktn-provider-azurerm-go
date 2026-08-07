@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermDataShareDatasetDataLakeGen2) validatePutTimeoutsP
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermDataShareDatasetDataLakeGen2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermDataShareDatasetDataLakeGen2_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (p *jsiiProxy_ProximityPlacementGroup) validateInterpolationForAttributePar
 	return nil
 }
 
+func (p *jsiiProxy_ProximityPlacementGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_ProximityPlacementGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_ProximityPlacementGroup) validateOverrideLogicalIdParameters(
 }
 
 func (p *jsiiProxy_ProximityPlacementGroup) validatePutTimeoutsParameters(value *ProximityPlacementGroupTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_ProximityPlacementGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

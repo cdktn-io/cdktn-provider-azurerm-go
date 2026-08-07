@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlManagedInstanceStartStopSchedule) validateInterpolationF
 	return nil
 }
 
+func (m *jsiiProxy_MssqlManagedInstanceStartStopSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlManagedInstanceStartStopSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MssqlManagedInstanceStartStopSchedule) validatePutSchedulePar
 }
 
 func (m *jsiiProxy_MssqlManagedInstanceStartStopSchedule) validatePutTimeoutsParameters(value *MssqlManagedInstanceStartStopScheduleTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlManagedInstanceStartStopSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

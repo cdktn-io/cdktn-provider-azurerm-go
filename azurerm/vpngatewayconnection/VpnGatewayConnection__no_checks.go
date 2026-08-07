@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpnGatewayConnection) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (v *jsiiProxy_VpnGatewayConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpnGatewayConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (v *jsiiProxy_VpnGatewayConnection) validatePutTrafficSelectorPolicyParamet
 }
 
 func (v *jsiiProxy_VpnGatewayConnection) validatePutVpnLinkParameters(value interface{}) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpnGatewayConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

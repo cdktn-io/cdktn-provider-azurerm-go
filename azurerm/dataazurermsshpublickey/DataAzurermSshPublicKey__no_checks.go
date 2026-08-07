@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermSshPublicKey) validatePutTimeoutsParameters(value 
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermSshPublicKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermSshPublicKey_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

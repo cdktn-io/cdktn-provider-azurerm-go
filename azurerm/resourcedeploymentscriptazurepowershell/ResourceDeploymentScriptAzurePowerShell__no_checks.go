@@ -59,6 +59,10 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) validateInterpolatio
 	return nil
 }
 
+func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) validatePutStorageAc
 }
 
 func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) validatePutTimeoutsParameters(value *ResourceDeploymentScriptAzurePowerShellTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_ResourceDeploymentScriptAzurePowerShell) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

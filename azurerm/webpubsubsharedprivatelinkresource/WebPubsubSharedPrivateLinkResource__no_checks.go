@@ -59,6 +59,10 @@ func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateInterpolationForA
 	return nil
 }
 
+func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateOverrideLogicalId
 }
 
 func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) validatePutTimeoutsParameters(value *WebPubsubSharedPrivateLinkResourceTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WebPubsubSharedPrivateLinkResource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_ChaosStudioCapability) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (c *jsiiProxy_ChaosStudioCapability) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ChaosStudioCapability) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ChaosStudioCapability) validateOverrideLogicalIdParameters(ne
 }
 
 func (c *jsiiProxy_ChaosStudioCapability) validatePutTimeoutsParameters(value *ChaosStudioCapabilityTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ChaosStudioCapability) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

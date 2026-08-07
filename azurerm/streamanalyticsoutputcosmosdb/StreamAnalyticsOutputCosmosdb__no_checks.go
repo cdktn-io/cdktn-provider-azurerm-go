@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateOverrideLogicalIdParam
 }
 
 func (s *jsiiProxy_StreamAnalyticsOutputCosmosdb) validatePutTimeoutsParameters(value *StreamAnalyticsOutputCosmosdbTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsOutputCosmosdb) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

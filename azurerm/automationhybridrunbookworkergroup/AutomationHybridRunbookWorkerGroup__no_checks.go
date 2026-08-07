@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutomationHybridRunbookWorkerGroup) validateInterpolationForA
 	return nil
 }
 
+func (a *jsiiProxy_AutomationHybridRunbookWorkerGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutomationHybridRunbookWorkerGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AutomationHybridRunbookWorkerGroup) validateOverrideLogicalId
 }
 
 func (a *jsiiProxy_AutomationHybridRunbookWorkerGroup) validatePutTimeoutsParameters(value *AutomationHybridRunbookWorkerGroupTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutomationHybridRunbookWorkerGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SignalrServiceCustomCertificate) validateInterpolationForAttr
 	return nil
 }
 
+func (s *jsiiProxy_SignalrServiceCustomCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SignalrServiceCustomCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SignalrServiceCustomCertificate) validateOverrideLogicalIdPar
 }
 
 func (s *jsiiProxy_SignalrServiceCustomCertificate) validatePutTimeoutsParameters(value *SignalrServiceCustomCertificateTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SignalrServiceCustomCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

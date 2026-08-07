@@ -59,6 +59,10 @@ func (a *jsiiProxy_AnalysisServicesServer) validateInterpolationForAttributePara
 	return nil
 }
 
+func (a *jsiiProxy_AnalysisServicesServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AnalysisServicesServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AnalysisServicesServer) validatePutIpv4FirewallRuleParameters
 }
 
 func (a *jsiiProxy_AnalysisServicesServer) validatePutTimeoutsParameters(value *AnalysisServicesServerTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AnalysisServicesServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

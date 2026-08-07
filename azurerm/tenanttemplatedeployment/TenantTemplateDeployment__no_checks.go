@@ -59,6 +59,10 @@ func (t *jsiiProxy_TenantTemplateDeployment) validateInterpolationForAttributePa
 	return nil
 }
 
+func (t *jsiiProxy_TenantTemplateDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TenantTemplateDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (t *jsiiProxy_TenantTemplateDeployment) validateOverrideLogicalIdParameters
 }
 
 func (t *jsiiProxy_TenantTemplateDeployment) validatePutTimeoutsParameters(value *TenantTemplateDeploymentTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TenantTemplateDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

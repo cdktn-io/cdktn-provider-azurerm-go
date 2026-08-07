@@ -59,6 +59,10 @@ func (s *jsiiProxy_SharedImage) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (s *jsiiProxy_SharedImage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SharedImage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SharedImage) validatePutPurchasePlanParameters(value *SharedI
 }
 
 func (s *jsiiProxy_SharedImage) validatePutTimeoutsParameters(value *SharedImageTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SharedImage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

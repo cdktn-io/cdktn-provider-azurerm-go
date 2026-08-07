@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbCassandraCluster) validateInterpolationForAttributePa
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbCassandraCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbCassandraCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CosmosdbCassandraCluster) validatePutIdentityParameters(value
 }
 
 func (c *jsiiProxy_CosmosdbCassandraCluster) validatePutTimeoutsParameters(value *CosmosdbCassandraClusterTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbCassandraCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

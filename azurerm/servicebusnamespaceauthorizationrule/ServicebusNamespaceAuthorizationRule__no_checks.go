@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateInterpolationFo
 	return nil
 }
 
+func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateOverrideLogical
 }
 
 func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validatePutTimeoutsParameters(value *ServicebusNamespaceAuthorizationRuleTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

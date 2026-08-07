@@ -59,6 +59,10 @@ func (i *jsiiProxy_IotSecurityDeviceGroup) validateInterpolationForAttributePara
 	return nil
 }
 
+func (i *jsiiProxy_IotSecurityDeviceGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotSecurityDeviceGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (i *jsiiProxy_IotSecurityDeviceGroup) validatePutRangeRuleParameters(value 
 }
 
 func (i *jsiiProxy_IotSecurityDeviceGroup) validatePutTimeoutsParameters(value *IotSecurityDeviceGroupTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotSecurityDeviceGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

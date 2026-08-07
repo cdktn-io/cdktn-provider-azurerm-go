@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedLustreFileSystem) validateInterpolationForAttributePar
 	return nil
 }
 
+func (m *jsiiProxy_ManagedLustreFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedLustreFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (m *jsiiProxy_ManagedLustreFileSystem) validatePutRootSquashParameters(valu
 }
 
 func (m *jsiiProxy_ManagedLustreFileSystem) validatePutTimeoutsParameters(value *ManagedLustreFileSystemTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedLustreFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

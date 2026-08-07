@@ -59,6 +59,10 @@ func (k *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateInterpolationForA
 	return nil
 }
 
+func (k *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateOverrideLogicalId
 }
 
 func (k *jsiiProxy_KustoClusterManagedPrivateEndpoint) validatePutTimeoutsParameters(value *KustoClusterManagedPrivateEndpointTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KustoClusterManagedPrivateEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

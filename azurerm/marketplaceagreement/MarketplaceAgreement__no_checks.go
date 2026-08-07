@@ -59,6 +59,10 @@ func (m *jsiiProxy_MarketplaceAgreement) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (m *jsiiProxy_MarketplaceAgreement) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MarketplaceAgreement) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MarketplaceAgreement) validateOverrideLogicalIdParameters(new
 }
 
 func (m *jsiiProxy_MarketplaceAgreement) validatePutTimeoutsParameters(value *MarketplaceAgreementTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MarketplaceAgreement) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

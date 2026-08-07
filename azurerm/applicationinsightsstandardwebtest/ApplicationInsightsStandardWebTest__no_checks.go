@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApplicationInsightsStandardWebTest) validateInterpolationForA
 	return nil
 }
 
+func (a *jsiiProxy_ApplicationInsightsStandardWebTest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApplicationInsightsStandardWebTest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (a *jsiiProxy_ApplicationInsightsStandardWebTest) validatePutTimeoutsParame
 }
 
 func (a *jsiiProxy_ApplicationInsightsStandardWebTest) validatePutValidationRulesParameters(value *ApplicationInsightsStandardWebTestValidationRules) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApplicationInsightsStandardWebTest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

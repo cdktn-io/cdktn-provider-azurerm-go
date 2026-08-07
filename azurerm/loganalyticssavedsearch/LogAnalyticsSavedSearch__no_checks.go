@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogAnalyticsSavedSearch) validateInterpolationForAttributePar
 	return nil
 }
 
+func (l *jsiiProxy_LogAnalyticsSavedSearch) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogAnalyticsSavedSearch) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LogAnalyticsSavedSearch) validateOverrideLogicalIdParameters(
 }
 
 func (l *jsiiProxy_LogAnalyticsSavedSearch) validatePutTimeoutsParameters(value *LogAnalyticsSavedSearchTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogAnalyticsSavedSearch) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

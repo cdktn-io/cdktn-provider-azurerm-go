@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArcMachineExtension) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (a *jsiiProxy_ArcMachineExtension) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcMachineExtension) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ArcMachineExtension) validateOverrideLogicalIdParameters(newL
 }
 
 func (a *jsiiProxy_ArcMachineExtension) validatePutTimeoutsParameters(value *ArcMachineExtensionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcMachineExtension) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

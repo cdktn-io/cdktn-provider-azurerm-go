@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateI
 	return nil
 }
 
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateO
 }
 
 func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validatePutTimeoutsParameters(value *PrivateEndpointApplicationSecurityGroupAssociationTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivateEndpointApplicationSecurityGroupAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

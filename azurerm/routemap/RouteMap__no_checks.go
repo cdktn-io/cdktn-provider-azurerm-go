@@ -59,6 +59,10 @@ func (r *jsiiProxy_RouteMap) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (r *jsiiProxy_RouteMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RouteMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (r *jsiiProxy_RouteMap) validatePutRuleParameters(value interface{}) error 
 }
 
 func (r *jsiiProxy_RouteMap) validatePutTimeoutsParameters(value *RouteMapTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RouteMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (a *jsiiProxy_AiServices) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (a *jsiiProxy_AiServices) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AiServices) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (a *jsiiProxy_AiServices) validatePutStorageParameters(value interface{}) e
 }
 
 func (a *jsiiProxy_AiServices) validatePutTimeoutsParameters(value *AiServicesTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AiServices) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

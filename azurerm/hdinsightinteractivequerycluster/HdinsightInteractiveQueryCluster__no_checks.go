@@ -59,6 +59,10 @@ func (h *jsiiProxy_HdinsightInteractiveQueryCluster) validateInterpolationForAtt
 	return nil
 }
 
+func (h *jsiiProxy_HdinsightInteractiveQueryCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HdinsightInteractiveQueryCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (h *jsiiProxy_HdinsightInteractiveQueryCluster) validatePutStorageAccountGe
 }
 
 func (h *jsiiProxy_HdinsightInteractiveQueryCluster) validatePutTimeoutsParameters(value *HdinsightInteractiveQueryClusterTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HdinsightInteractiveQueryCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

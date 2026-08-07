@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppService) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (a *jsiiProxy_AppService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -108,6 +112,10 @@ func (a *jsiiProxy_AppService) validatePutStorageAccountParameters(value interfa
 }
 
 func (a *jsiiProxy_AppService) validatePutTimeoutsParameters(value *AppServiceTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

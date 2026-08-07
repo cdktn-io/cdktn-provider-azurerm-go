@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitiveAccountRaiPolicy) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CognitiveAccountRaiPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitiveAccountRaiPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CognitiveAccountRaiPolicy) validatePutContentFilterParameters
 }
 
 func (c *jsiiProxy_CognitiveAccountRaiPolicy) validatePutTimeoutsParameters(value *CognitiveAccountRaiPolicyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitiveAccountRaiPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

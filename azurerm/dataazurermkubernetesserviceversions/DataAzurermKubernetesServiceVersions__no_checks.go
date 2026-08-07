@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) validatePutTimeoutsPara
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermKubernetesServiceVersions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermKubernetesServiceVersions_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

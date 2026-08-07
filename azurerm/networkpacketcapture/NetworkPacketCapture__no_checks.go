@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkPacketCapture) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (n *jsiiProxy_NetworkPacketCapture) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkPacketCapture) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkPacketCapture) validatePutStorageLocationParameters(va
 }
 
 func (n *jsiiProxy_NetworkPacketCapture) validatePutTimeoutsParameters(value *NetworkPacketCaptureTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkPacketCapture) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

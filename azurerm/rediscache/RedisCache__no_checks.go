@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedisCache) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (r *jsiiProxy_RedisCache) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedisCache) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (r *jsiiProxy_RedisCache) validatePutRedisConfigurationParameters(value *Re
 }
 
 func (r *jsiiProxy_RedisCache) validatePutTimeoutsParameters(value *RedisCacheTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedisCache) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

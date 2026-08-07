@@ -59,6 +59,10 @@ func (h *jsiiProxy_HpcCacheBlobNfsTarget) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (h *jsiiProxy_HpcCacheBlobNfsTarget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HpcCacheBlobNfsTarget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_HpcCacheBlobNfsTarget) validateOverrideLogicalIdParameters(ne
 }
 
 func (h *jsiiProxy_HpcCacheBlobNfsTarget) validatePutTimeoutsParameters(value *HpcCacheBlobNfsTargetTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HpcCacheBlobNfsTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

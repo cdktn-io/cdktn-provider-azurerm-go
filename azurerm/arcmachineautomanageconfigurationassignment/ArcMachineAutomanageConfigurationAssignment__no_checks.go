@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateInterpol
 	return nil
 }
 
+func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateOverride
 }
 
 func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validatePutTimeoutsParameters(value *ArcMachineAutomanageConfigurationAssignmentTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcMachineAutomanageConfigurationAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

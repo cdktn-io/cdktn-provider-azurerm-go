@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlVirtualMachine) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (m *jsiiProxy_MssqlVirtualMachine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlVirtualMachine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (m *jsiiProxy_MssqlVirtualMachine) validatePutTimeoutsParameters(value *Mss
 }
 
 func (m *jsiiProxy_MssqlVirtualMachine) validatePutWsfcDomainCredentialParameters(value *MssqlVirtualMachineWsfcDomainCredential) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlVirtualMachine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

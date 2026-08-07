@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivateEndpoint) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (p *jsiiProxy_PrivateEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivateEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (p *jsiiProxy_PrivateEndpoint) validatePutPrivateServiceConnectionParameter
 }
 
 func (p *jsiiProxy_PrivateEndpoint) validatePutTimeoutsParameters(value *PrivateEndpointTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivateEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

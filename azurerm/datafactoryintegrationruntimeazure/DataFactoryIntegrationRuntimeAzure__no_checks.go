@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateInterpolationForA
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateOverrideLogicalId
 }
 
 func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validatePutTimeoutsParameters(value *DataFactoryIntegrationRuntimeAzureTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeAzure) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

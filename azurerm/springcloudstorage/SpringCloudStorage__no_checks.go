@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudStorage) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudStorage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudStorage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SpringCloudStorage) validateOverrideLogicalIdParameters(newLo
 }
 
 func (s *jsiiProxy_SpringCloudStorage) validatePutTimeoutsParameters(value *SpringCloudStorageTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudStorage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

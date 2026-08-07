@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstance) validateInterpolationFo
 	return nil
 }
 
+func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstance) validatePutIdentityPara
 }
 
 func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstance) validatePutTimeoutsParameters(value *WorkloadsSapDiscoveryVirtualInstanceTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkloadsSapDiscoveryVirtualInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DnsMxRecord) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (d *jsiiProxy_DnsMxRecord) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DnsMxRecord) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DnsMxRecord) validatePutRecordParameters(value interface{}) e
 }
 
 func (d *jsiiProxy_DnsMxRecord) validatePutTimeoutsParameters(value *DnsMxRecordTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DnsMxRecord) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

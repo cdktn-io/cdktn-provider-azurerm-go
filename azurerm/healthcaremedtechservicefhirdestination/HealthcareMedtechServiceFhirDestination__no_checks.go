@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateInterpolatio
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateOverrideLogi
 }
 
 func (h *jsiiProxy_HealthcareMedtechServiceFhirDestination) validatePutTimeoutsParameters(value *HealthcareMedtechServiceFhirDestinationTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareMedtechServiceFhirDestination) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappSnapshot) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (n *jsiiProxy_NetappSnapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappSnapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetappSnapshot) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (n *jsiiProxy_NetappSnapshot) validatePutTimeoutsParameters(value *NetappSnapshotTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

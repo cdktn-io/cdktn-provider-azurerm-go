@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppServicePlan) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (a *jsiiProxy_AppServicePlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppServicePlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppServicePlan) validatePutSkuParameters(value *AppServicePla
 }
 
 func (a *jsiiProxy_AppServicePlan) validatePutTimeoutsParameters(value *AppServicePlanTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppServicePlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

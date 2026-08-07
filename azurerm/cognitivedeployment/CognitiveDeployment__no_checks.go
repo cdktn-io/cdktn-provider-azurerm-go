@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitiveDeployment) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CognitiveDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitiveDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CognitiveDeployment) validatePutSkuParameters(value *Cognitiv
 }
 
 func (c *jsiiProxy_CognitiveDeployment) validatePutTimeoutsParameters(value *CognitiveDeploymentTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitiveDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

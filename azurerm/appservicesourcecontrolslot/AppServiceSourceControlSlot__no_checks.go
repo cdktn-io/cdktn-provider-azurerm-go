@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppServiceSourceControlSlot) validateInterpolationForAttribut
 	return nil
 }
 
+func (a *jsiiProxy_AppServiceSourceControlSlot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppServiceSourceControlSlot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AppServiceSourceControlSlot) validatePutGithubActionConfigura
 }
 
 func (a *jsiiProxy_AppServiceSourceControlSlot) validatePutTimeoutsParameters(value *AppServiceSourceControlSlotTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppServiceSourceControlSlot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateOverrideLogicalI
 }
 
 func (s *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validatePutTimeoutsParameters(value *SynapseWorkspaceSecurityAlertPolicyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynapseWorkspaceSecurityAlertPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

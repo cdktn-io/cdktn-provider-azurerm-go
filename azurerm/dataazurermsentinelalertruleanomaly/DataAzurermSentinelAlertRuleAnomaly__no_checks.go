@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomaly) validatePutTimeoutsParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermSentinelAlertRuleAnomaly) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermSentinelAlertRuleAnomaly_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

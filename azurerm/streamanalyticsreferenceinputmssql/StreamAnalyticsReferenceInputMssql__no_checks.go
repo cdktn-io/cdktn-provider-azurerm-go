@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsReferenceInputMssql) validateInterpolationForA
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsReferenceInputMssql) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsReferenceInputMssql) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StreamAnalyticsReferenceInputMssql) validateOverrideLogicalId
 }
 
 func (s *jsiiProxy_StreamAnalyticsReferenceInputMssql) validatePutTimeoutsParameters(value *StreamAnalyticsReferenceInputMssqlTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsReferenceInputMssql) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

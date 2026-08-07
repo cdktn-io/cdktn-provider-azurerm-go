@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbOutboundRule) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (l *jsiiProxy_LbOutboundRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbOutboundRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LbOutboundRule) validatePutFrontendIpConfigurationParameters(
 }
 
 func (l *jsiiProxy_LbOutboundRule) validatePutTimeoutsParameters(value *LbOutboundRuleTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbOutboundRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (h *jsiiProxy_HdinsightKafkaCluster) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (h *jsiiProxy_HdinsightKafkaCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HdinsightKafkaCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -132,6 +136,10 @@ func (h *jsiiProxy_HdinsightKafkaCluster) validatePutStorageAccountGen2Parameter
 }
 
 func (h *jsiiProxy_HdinsightKafkaCluster) validatePutTimeoutsParameters(value *HdinsightKafkaClusterTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HdinsightKafkaCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

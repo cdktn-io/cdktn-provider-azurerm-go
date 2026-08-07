@@ -122,6 +122,14 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateInterpolationForAttrib
 	return nil
 }
 
+func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -562,6 +570,14 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validatePutWinrmListenerParame
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*WindowsVirtualMachineScaleSetWinrmListener; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

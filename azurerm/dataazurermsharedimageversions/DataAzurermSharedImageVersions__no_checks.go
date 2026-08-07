@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermSharedImageVersions) validatePutTimeoutsParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermSharedImageVersions) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermSharedImageVersions_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

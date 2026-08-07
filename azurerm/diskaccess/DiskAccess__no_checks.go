@@ -59,6 +59,10 @@ func (d *jsiiProxy_DiskAccess) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (d *jsiiProxy_DiskAccess) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DiskAccess) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DiskAccess) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (d *jsiiProxy_DiskAccess) validatePutTimeoutsParameters(value *DiskAccessTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DiskAccess) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorOriginGroup) validatePutTimeoutsParame
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermCdnFrontdoorOriginGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermCdnFrontdoorOriginGroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

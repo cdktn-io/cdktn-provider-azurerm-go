@@ -59,6 +59,10 @@ func (o *jsiiProxy_OrbitalContact) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (o *jsiiProxy_OrbitalContact) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OrbitalContact) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OrbitalContact) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (o *jsiiProxy_OrbitalContact) validatePutTimeoutsParameters(value *OrbitalContactTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OrbitalContact) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

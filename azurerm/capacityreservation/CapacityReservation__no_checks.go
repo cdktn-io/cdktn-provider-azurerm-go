@@ -59,6 +59,10 @@ func (c *jsiiProxy_CapacityReservation) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (c *jsiiProxy_CapacityReservation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CapacityReservation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CapacityReservation) validatePutSkuParameters(value *Capacity
 }
 
 func (c *jsiiProxy_CapacityReservation) validatePutTimeoutsParameters(value *CapacityReservationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CapacityReservation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DnsZone) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (d *jsiiProxy_DnsZone) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DnsZone) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DnsZone) validatePutSoaRecordParameters(value *DnsZoneSoaReco
 }
 
 func (d *jsiiProxy_DnsZone) validatePutTimeoutsParameters(value *DnsZoneTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DnsZone) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

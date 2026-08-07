@@ -59,6 +59,10 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) vali
 	return nil
 }
 
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) vali
 }
 
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) validatePutTimeoutsParameters(value *SystemCenterVirtualMachineManagerVirtualMachineTemplateTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

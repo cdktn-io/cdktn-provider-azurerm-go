@@ -59,6 +59,10 @@ func (m *jsiiProxy_MysqlFlexibleServerConfiguration) validateInterpolationForAtt
 	return nil
 }
 
+func (m *jsiiProxy_MysqlFlexibleServerConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MysqlFlexibleServerConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MysqlFlexibleServerConfiguration) validateOverrideLogicalIdPa
 }
 
 func (m *jsiiProxy_MysqlFlexibleServerConfiguration) validatePutTimeoutsParameters(value *MysqlFlexibleServerConfigurationTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MysqlFlexibleServerConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

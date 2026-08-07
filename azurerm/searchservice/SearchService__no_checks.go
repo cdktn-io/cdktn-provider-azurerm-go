@@ -59,6 +59,10 @@ func (s *jsiiProxy_SearchService) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (s *jsiiProxy_SearchService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SearchService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SearchService) validatePutIdentityParameters(value *SearchSer
 }
 
 func (s *jsiiProxy_SearchService) validatePutTimeoutsParameters(value *SearchServiceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SearchService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotChannelFacebook) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (b *jsiiProxy_BotChannelFacebook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotChannelFacebook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BotChannelFacebook) validatePutPageParameters(value interface
 }
 
 func (b *jsiiProxy_BotChannelFacebook) validatePutTimeoutsParameters(value *BotChannelFacebookTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotChannelFacebook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

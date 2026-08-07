@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwareExpressRouteAuthorization) validateInterpolationForAttr
 	return nil
 }
 
+func (v *jsiiProxy_VmwareExpressRouteAuthorization) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwareExpressRouteAuthorization) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VmwareExpressRouteAuthorization) validateOverrideLogicalIdPar
 }
 
 func (v *jsiiProxy_VmwareExpressRouteAuthorization) validatePutTimeoutsParameters(value *VmwareExpressRouteAuthorizationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwareExpressRouteAuthorization) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

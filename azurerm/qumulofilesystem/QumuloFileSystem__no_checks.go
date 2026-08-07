@@ -59,6 +59,10 @@ func (q *jsiiProxy_QumuloFileSystem) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (q *jsiiProxy_QumuloFileSystem) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (q *jsiiProxy_QumuloFileSystem) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (q *jsiiProxy_QumuloFileSystem) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (q *jsiiProxy_QumuloFileSystem) validatePutTimeoutsParameters(value *QumuloFileSystemTimeouts) error {
+	return nil
+}
+
+func (q *jsiiProxy_QumuloFileSystem) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

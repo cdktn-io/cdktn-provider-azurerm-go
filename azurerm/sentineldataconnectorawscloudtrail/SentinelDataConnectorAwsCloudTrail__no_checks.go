@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateInterpolationForA
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateOverrideLogicalId
 }
 
 func (s *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validatePutTimeoutsParameters(value *SentinelDataConnectorAwsCloudTrailTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorAwsCloudTrail) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_Subnet) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (s *jsiiProxy_Subnet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Subnet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_Subnet) validatePutIpAddressPoolParameters(value *SubnetIpAdd
 }
 
 func (s *jsiiProxy_Subnet) validatePutTimeoutsParameters(value *SubnetTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_Subnet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

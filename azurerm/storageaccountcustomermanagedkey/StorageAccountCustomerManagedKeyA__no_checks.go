@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) validateOverrideLogicalIdP
 }
 
 func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) validatePutTimeoutsParameters(value *StorageAccountCustomerManagedKeyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageAccountCustomerManagedKeyA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

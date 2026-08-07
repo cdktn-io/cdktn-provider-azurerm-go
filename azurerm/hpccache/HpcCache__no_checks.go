@@ -59,6 +59,10 @@ func (h *jsiiProxy_HpcCache) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (h *jsiiProxy_HpcCache) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HpcCache) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (h *jsiiProxy_HpcCache) validatePutIdentityParameters(value *HpcCacheIdenti
 }
 
 func (h *jsiiProxy_HpcCache) validatePutTimeoutsParameters(value *HpcCacheTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HpcCache) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

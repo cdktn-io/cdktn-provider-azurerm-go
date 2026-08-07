@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleResourceAnchor) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (o *jsiiProxy_OracleResourceAnchor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleResourceAnchor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (o *jsiiProxy_OracleResourceAnchor) validateOverrideLogicalIdParameters(new
 }
 
 func (o *jsiiProxy_OracleResourceAnchor) validatePutTimeoutsParameters(value *OracleResourceAnchorTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleResourceAnchor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

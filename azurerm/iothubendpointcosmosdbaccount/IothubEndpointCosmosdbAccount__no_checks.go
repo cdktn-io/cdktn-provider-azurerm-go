@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubEndpointCosmosdbAccount) validateInterpolationForAttrib
 	return nil
 }
 
+func (i *jsiiProxy_IothubEndpointCosmosdbAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubEndpointCosmosdbAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubEndpointCosmosdbAccount) validateOverrideLogicalIdParam
 }
 
 func (i *jsiiProxy_IothubEndpointCosmosdbAccount) validatePutTimeoutsParameters(value *IothubEndpointCosmosdbAccountTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubEndpointCosmosdbAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

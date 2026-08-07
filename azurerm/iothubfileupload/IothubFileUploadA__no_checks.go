@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubFileUploadA) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (i *jsiiProxy_IothubFileUploadA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubFileUploadA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubFileUploadA) validateOverrideLogicalIdParameters(newLog
 }
 
 func (i *jsiiProxy_IothubFileUploadA) validatePutTimeoutsParameters(value *IothubFileUploadTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubFileUploadA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

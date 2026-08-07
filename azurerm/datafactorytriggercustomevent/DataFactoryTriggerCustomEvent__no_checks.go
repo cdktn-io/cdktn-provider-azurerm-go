@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryTriggerCustomEvent) validateInterpolationForAttrib
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryTriggerCustomEvent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryTriggerCustomEvent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryTriggerCustomEvent) validatePutPipelineParameters(
 }
 
 func (d *jsiiProxy_DataFactoryTriggerCustomEvent) validatePutTimeoutsParameters(value *DataFactoryTriggerCustomEventTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryTriggerCustomEvent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_Snapshot) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (s *jsiiProxy_Snapshot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_Snapshot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_Snapshot) validatePutEncryptionSettingsParameters(value *Snap
 }
 
 func (s *jsiiProxy_Snapshot) validatePutTimeoutsParameters(value *SnapshotTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_Snapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

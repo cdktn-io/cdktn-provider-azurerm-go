@@ -5,9 +5,9 @@ package orbitalcontactprofile
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
 
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/orbitalcontactprofile/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/orbitalcontactprofile/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 

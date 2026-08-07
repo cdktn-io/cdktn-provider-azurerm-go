@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappSnapshotPolicy) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (n *jsiiProxy_NetappSnapshotPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappSnapshotPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (n *jsiiProxy_NetappSnapshotPolicy) validatePutTimeoutsParameters(value *Ne
 }
 
 func (n *jsiiProxy_NetappSnapshotPolicy) validatePutWeeklyScheduleParameters(value *NetappSnapshotPolicyWeeklySchedule) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappSnapshotPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

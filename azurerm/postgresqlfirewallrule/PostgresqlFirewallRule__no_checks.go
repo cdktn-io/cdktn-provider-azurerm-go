@@ -59,6 +59,10 @@ func (p *jsiiProxy_PostgresqlFirewallRule) validateInterpolationForAttributePara
 	return nil
 }
 
+func (p *jsiiProxy_PostgresqlFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PostgresqlFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PostgresqlFirewallRule) validateOverrideLogicalIdParameters(n
 }
 
 func (p *jsiiProxy_PostgresqlFirewallRule) validatePutTimeoutsParameters(value *PostgresqlFirewallRuleTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PostgresqlFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

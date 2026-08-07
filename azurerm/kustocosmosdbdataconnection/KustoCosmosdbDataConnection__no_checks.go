@@ -59,6 +59,10 @@ func (k *jsiiProxy_KustoCosmosdbDataConnection) validateInterpolationForAttribut
 	return nil
 }
 
+func (k *jsiiProxy_KustoCosmosdbDataConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KustoCosmosdbDataConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KustoCosmosdbDataConnection) validateOverrideLogicalIdParamet
 }
 
 func (k *jsiiProxy_KustoCosmosdbDataConnection) validatePutTimeoutsParameters(value *KustoCosmosdbDataConnectionTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KustoCosmosdbDataConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

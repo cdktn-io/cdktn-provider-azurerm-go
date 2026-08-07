@@ -122,6 +122,14 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstance) vali
 	return nil
 }
 
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstance) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -308,6 +316,14 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstance) vali
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerVirtualMachineInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

@@ -59,6 +59,10 @@ func (p *jsiiProxy_PimActiveRoleAssignment) validateInterpolationForAttributePar
 	return nil
 }
 
+func (p *jsiiProxy_PimActiveRoleAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PimActiveRoleAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (p *jsiiProxy_PimActiveRoleAssignment) validatePutTicketParameters(value *P
 }
 
 func (p *jsiiProxy_PimActiveRoleAssignment) validatePutTimeoutsParameters(value *PimActiveRoleAssignmentTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PimActiveRoleAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

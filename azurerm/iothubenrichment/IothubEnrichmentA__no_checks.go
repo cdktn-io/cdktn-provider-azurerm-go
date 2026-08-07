@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubEnrichmentA) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (i *jsiiProxy_IothubEnrichmentA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubEnrichmentA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubEnrichmentA) validateOverrideLogicalIdParameters(newLog
 }
 
 func (i *jsiiProxy_IothubEnrichmentA) validatePutTimeoutsParameters(value *IothubEnrichmentTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubEnrichmentA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (w *jsiiProxy_WebPubsubCustomDomain) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (w *jsiiProxy_WebPubsubCustomDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WebPubsubCustomDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WebPubsubCustomDomain) validateOverrideLogicalIdParameters(ne
 }
 
 func (w *jsiiProxy_WebPubsubCustomDomain) validatePutTimeoutsParameters(value *WebPubsubCustomDomainTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WebPubsubCustomDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

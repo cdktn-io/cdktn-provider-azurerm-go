@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermElasticSanVolumeSnapshot) validatePutTimeoutsParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermElasticSanVolumeSnapshot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermElasticSanVolumeSnapshot_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

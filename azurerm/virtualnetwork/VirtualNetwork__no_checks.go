@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualNetwork) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (v *jsiiProxy_VirtualNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (v *jsiiProxy_VirtualNetwork) validatePutSubnetParameters(value interface{}
 }
 
 func (v *jsiiProxy_VirtualNetwork) validatePutTimeoutsParameters(value *VirtualNetworkTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

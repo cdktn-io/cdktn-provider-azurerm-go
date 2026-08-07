@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermCdnFrontdoorSecret) validatePutTimeoutsParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermCdnFrontdoorSecret) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermCdnFrontdoorSecret_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

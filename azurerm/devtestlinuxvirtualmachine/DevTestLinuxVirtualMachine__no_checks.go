@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevTestLinuxVirtualMachine) validateInterpolationForAttribute
 	return nil
 }
 
+func (d *jsiiProxy_DevTestLinuxVirtualMachine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevTestLinuxVirtualMachine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DevTestLinuxVirtualMachine) validatePutInboundNatRuleParamete
 }
 
 func (d *jsiiProxy_DevTestLinuxVirtualMachine) validatePutTimeoutsParameters(value *DevTestLinuxVirtualMachineTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevTestLinuxVirtualMachine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

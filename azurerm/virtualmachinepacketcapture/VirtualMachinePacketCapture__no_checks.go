@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachinePacketCapture) validateInterpolationForAttribut
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachinePacketCapture) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachinePacketCapture) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VirtualMachinePacketCapture) validatePutStorageLocationParame
 }
 
 func (v *jsiiProxy_VirtualMachinePacketCapture) validatePutTimeoutsParameters(value *VirtualMachinePacketCaptureTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachinePacketCapture) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

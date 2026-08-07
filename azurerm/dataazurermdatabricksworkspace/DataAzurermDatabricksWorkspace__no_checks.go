@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspace) validatePutTimeoutsParameters
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermDatabricksWorkspace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermDatabricksWorkspace_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

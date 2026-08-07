@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermSourceControlToken) validatePutTimeoutsParameters(
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermSourceControlToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermSourceControlToken_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

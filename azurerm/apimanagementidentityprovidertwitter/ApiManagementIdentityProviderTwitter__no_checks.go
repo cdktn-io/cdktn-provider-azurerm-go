@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiManagementIdentityProviderTwitter) validateInterpolationFo
 	return nil
 }
 
+func (a *jsiiProxy_ApiManagementIdentityProviderTwitter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiManagementIdentityProviderTwitter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApiManagementIdentityProviderTwitter) validateOverrideLogical
 }
 
 func (a *jsiiProxy_ApiManagementIdentityProviderTwitter) validatePutTimeoutsParameters(value *ApiManagementIdentityProviderTwitterTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiManagementIdentityProviderTwitter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

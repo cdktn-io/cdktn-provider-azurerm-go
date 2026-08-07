@@ -59,6 +59,10 @@ func (f *jsiiProxy_FluidRelayServer) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (f *jsiiProxy_FluidRelayServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FluidRelayServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (f *jsiiProxy_FluidRelayServer) validatePutIdentityParameters(value *FluidR
 }
 
 func (f *jsiiProxy_FluidRelayServer) validatePutTimeoutsParameters(value *FluidRelayServerTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FluidRelayServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

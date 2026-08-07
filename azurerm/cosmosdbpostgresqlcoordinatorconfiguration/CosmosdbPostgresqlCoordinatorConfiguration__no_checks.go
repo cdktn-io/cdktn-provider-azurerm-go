@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateInterpola
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateOverrideL
 }
 
 func (c *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validatePutTimeoutsParameters(value *CosmosdbPostgresqlCoordinatorConfigurationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbPostgresqlCoordinatorConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

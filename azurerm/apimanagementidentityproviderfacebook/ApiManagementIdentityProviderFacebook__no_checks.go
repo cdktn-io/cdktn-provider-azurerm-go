@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) validateInterpolationF
 	return nil
 }
 
+func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) validateOverrideLogica
 }
 
 func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) validatePutTimeoutsParameters(value *ApiManagementIdentityProviderFacebookTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiManagementIdentityProviderFacebook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

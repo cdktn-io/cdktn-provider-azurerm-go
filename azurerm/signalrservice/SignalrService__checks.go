@@ -122,6 +122,14 @@ func (s *jsiiProxy_SignalrService) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_SignalrService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SignalrService) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -308,6 +316,14 @@ func (s *jsiiProxy_SignalrService) validatePutUpstreamEndpointParameters(value i
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*SignalrServiceUpstreamEndpoint; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SignalrService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

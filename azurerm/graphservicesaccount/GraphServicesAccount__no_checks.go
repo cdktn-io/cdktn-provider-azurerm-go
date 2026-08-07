@@ -59,6 +59,10 @@ func (g *jsiiProxy_GraphServicesAccount) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (g *jsiiProxy_GraphServicesAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GraphServicesAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (g *jsiiProxy_GraphServicesAccount) validateOverrideLogicalIdParameters(new
 }
 
 func (g *jsiiProxy_GraphServicesAccount) validatePutTimeoutsParameters(value *GraphServicesAccountTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GraphServicesAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

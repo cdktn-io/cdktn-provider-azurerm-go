@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) validateInterpolationForAttribu
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) validateOverrideLogicalIdParame
 }
 
 func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) validatePutTimeoutsParameters(value *StreamAnalyticsOutputPowerbiTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsOutputPowerbi) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

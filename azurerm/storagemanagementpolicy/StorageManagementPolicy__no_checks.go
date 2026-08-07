@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageManagementPolicy) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_StorageManagementPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageManagementPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StorageManagementPolicy) validatePutRuleParameters(value inte
 }
 
 func (s *jsiiProxy_StorageManagementPolicy) validatePutTimeoutsParameters(value *StorageManagementPolicyTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageManagementPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

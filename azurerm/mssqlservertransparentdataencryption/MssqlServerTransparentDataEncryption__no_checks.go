@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlServerTransparentDataEncryption) validateInterpolationFo
 	return nil
 }
 
+func (m *jsiiProxy_MssqlServerTransparentDataEncryption) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlServerTransparentDataEncryption) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MssqlServerTransparentDataEncryption) validateOverrideLogical
 }
 
 func (m *jsiiProxy_MssqlServerTransparentDataEncryption) validatePutTimeoutsParameters(value *MssqlServerTransparentDataEncryptionTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlServerTransparentDataEncryption) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

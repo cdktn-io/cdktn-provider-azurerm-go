@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevCenter) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (d *jsiiProxy_DevCenter) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevCenter) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DevCenter) validatePutIdentityParameters(value *DevCenterIden
 }
 
 func (d *jsiiProxy_DevCenter) validatePutTimeoutsParameters(value *DevCenterTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevCenter) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

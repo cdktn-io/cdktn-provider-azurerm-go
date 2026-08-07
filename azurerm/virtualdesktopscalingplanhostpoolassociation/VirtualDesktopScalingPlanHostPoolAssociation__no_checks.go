@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateInterpo
 	return nil
 }
 
+func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateOverrid
 }
 
 func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validatePutTimeoutsParameters(value *VirtualDesktopScalingPlanHostPoolAssociationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualDesktopScalingPlanHostPoolAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

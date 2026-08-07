@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateInterpolat
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateOverrideLo
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceAzureTableStorageTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureTableStorage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

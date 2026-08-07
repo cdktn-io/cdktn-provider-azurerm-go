@@ -59,6 +59,10 @@ func (i *jsiiProxy_IpGroupCidr) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (i *jsiiProxy_IpGroupCidr) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IpGroupCidr) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IpGroupCidr) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (i *jsiiProxy_IpGroupCidr) validatePutTimeoutsParameters(value *IpGroupCidrTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IpGroupCidr) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

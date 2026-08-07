@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) validateInterpolationForAtt
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) validatePutTimeoutsParamete
 }
 
 func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) validatePutTriggerDependencyParameters(value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryTriggerTumblingWindow) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

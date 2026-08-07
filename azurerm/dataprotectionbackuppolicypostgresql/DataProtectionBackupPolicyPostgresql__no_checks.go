@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresql) validateInterpolationFo
 	return nil
 }
 
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresql) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataProtectionBackupPolicyPostgresql) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataProtectionBackupPolicyPostgresql) validatePutRetentionRul
 }
 
 func (d *jsiiProxy_DataProtectionBackupPolicyPostgresql) validatePutTimeoutsParameters(value *DataProtectionBackupPolicyPostgresqlTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataProtectionBackupPolicyPostgresql) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

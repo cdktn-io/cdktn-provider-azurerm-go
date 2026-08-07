@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermKubernetesFleetManager) validatePutTimeoutsParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermKubernetesFleetManager) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermKubernetesFleetManager_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

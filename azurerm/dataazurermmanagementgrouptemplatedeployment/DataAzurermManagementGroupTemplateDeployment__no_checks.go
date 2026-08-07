@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermManagementGroupTemplateDeployment) validatePutTime
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermManagementGroupTemplateDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermManagementGroupTemplateDeployment_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

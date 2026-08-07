@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotChannelSms) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (b *jsiiProxy_BotChannelSms) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotChannelSms) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BotChannelSms) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (b *jsiiProxy_BotChannelSms) validatePutTimeoutsParameters(value *BotChannelSmsTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotChannelSms) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CostAnomalyAlert) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_CostAnomalyAlert) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CostAnomalyAlert) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CostAnomalyAlert) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (c *jsiiProxy_CostAnomalyAlert) validatePutTimeoutsParameters(value *CostAnomalyAlertTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CostAnomalyAlert) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CdnProfile) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (c *jsiiProxy_CdnProfile) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CdnProfile) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CdnProfile) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (c *jsiiProxy_CdnProfile) validatePutTimeoutsParameters(value *CdnProfileTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CdnProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

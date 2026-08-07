@@ -59,6 +59,10 @@ func (f *jsiiProxy_FunctionAppFlexConsumption) validateInterpolationForAttribute
 	return nil
 }
 
+func (f *jsiiProxy_FunctionAppFlexConsumption) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_FunctionAppFlexConsumption) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (f *jsiiProxy_FunctionAppFlexConsumption) validatePutStickySettingsParamete
 }
 
 func (f *jsiiProxy_FunctionAppFlexConsumption) validatePutTimeoutsParameters(value *FunctionAppFlexConsumptionTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_FunctionAppFlexConsumption) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataProtectionBackupPolicyDisk) validateInterpolationForAttri
 	return nil
 }
 
+func (d *jsiiProxy_DataProtectionBackupPolicyDisk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataProtectionBackupPolicyDisk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataProtectionBackupPolicyDisk) validatePutRetentionRuleParam
 }
 
 func (d *jsiiProxy_DataProtectionBackupPolicyDisk) validatePutTimeoutsParameters(value *DataProtectionBackupPolicyDiskTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataProtectionBackupPolicyDisk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

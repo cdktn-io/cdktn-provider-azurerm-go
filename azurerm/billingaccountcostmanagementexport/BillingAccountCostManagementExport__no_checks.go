@@ -59,6 +59,10 @@ func (b *jsiiProxy_BillingAccountCostManagementExport) validateInterpolationForA
 	return nil
 }
 
+func (b *jsiiProxy_BillingAccountCostManagementExport) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BillingAccountCostManagementExport) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BillingAccountCostManagementExport) validatePutExportDataStor
 }
 
 func (b *jsiiProxy_BillingAccountCostManagementExport) validatePutTimeoutsParameters(value *BillingAccountCostManagementExportTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BillingAccountCostManagementExport) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

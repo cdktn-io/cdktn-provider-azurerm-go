@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArcKubernetesClusterExtension) validateInterpolationForAttrib
 	return nil
 }
 
+func (a *jsiiProxy_ArcKubernetesClusterExtension) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcKubernetesClusterExtension) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_ArcKubernetesClusterExtension) validatePutIdentityParameters(
 }
 
 func (a *jsiiProxy_ArcKubernetesClusterExtension) validatePutTimeoutsParameters(value *ArcKubernetesClusterExtensionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcKubernetesClusterExtension) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermNetappPool) validatePutTimeoutsParameters(value *D
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermNetappPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermNetappPool_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

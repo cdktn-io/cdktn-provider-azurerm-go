@@ -59,6 +59,10 @@ func (s *jsiiProxy_SignalrSharedPrivateLinkResource) validateInterpolationForAtt
 	return nil
 }
 
+func (s *jsiiProxy_SignalrSharedPrivateLinkResource) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SignalrSharedPrivateLinkResource) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SignalrSharedPrivateLinkResource) validateOverrideLogicalIdPa
 }
 
 func (s *jsiiProxy_SignalrSharedPrivateLinkResource) validatePutTimeoutsParameters(value *SignalrSharedPrivateLinkResourceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SignalrSharedPrivateLinkResource) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

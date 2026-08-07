@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotServiceAzureBot) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (b *jsiiProxy_BotServiceAzureBot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotServiceAzureBot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BotServiceAzureBot) validateOverrideLogicalIdParameters(newLo
 }
 
 func (b *jsiiProxy_BotServiceAzureBot) validatePutTimeoutsParameters(value *BotServiceAzureBotTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotServiceAzureBot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

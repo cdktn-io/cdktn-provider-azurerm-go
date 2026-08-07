@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermApiManagementApiVersionSet) validatePutTimeoutsPar
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermApiManagementApiVersionSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermApiManagementApiVersionSet_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

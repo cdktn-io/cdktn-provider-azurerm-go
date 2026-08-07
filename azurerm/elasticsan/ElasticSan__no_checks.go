@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticSan) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (e *jsiiProxy_ElasticSan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticSan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ElasticSan) validatePutSkuParameters(value *ElasticSanSku) er
 }
 
 func (e *jsiiProxy_ElasticSan) validatePutTimeoutsParameters(value *ElasticSanTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticSan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

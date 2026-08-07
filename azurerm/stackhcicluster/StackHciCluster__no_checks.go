@@ -59,6 +59,10 @@ func (s *jsiiProxy_StackHciCluster) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (s *jsiiProxy_StackHciCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StackHciCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StackHciCluster) validatePutIdentityParameters(value *StackHc
 }
 
 func (s *jsiiProxy_StackHciCluster) validatePutTimeoutsParameters(value *StackHciClusterTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StackHciCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

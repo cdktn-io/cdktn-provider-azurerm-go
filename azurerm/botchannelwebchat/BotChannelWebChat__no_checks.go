@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotChannelWebChat) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (b *jsiiProxy_BotChannelWebChat) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotChannelWebChat) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BotChannelWebChat) validatePutSiteParameters(value interface{
 }
 
 func (b *jsiiProxy_BotChannelWebChat) validatePutTimeoutsParameters(value *BotChannelWebChatTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotChannelWebChat) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

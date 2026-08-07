@@ -59,6 +59,10 @@ func (c *jsiiProxy_CustomIpPrefix) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (c *jsiiProxy_CustomIpPrefix) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CustomIpPrefix) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CustomIpPrefix) validateOverrideLogicalIdParameters(newLogica
 }
 
 func (c *jsiiProxy_CustomIpPrefix) validatePutTimeoutsParameters(value *CustomIpPrefixTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CustomIpPrefix) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

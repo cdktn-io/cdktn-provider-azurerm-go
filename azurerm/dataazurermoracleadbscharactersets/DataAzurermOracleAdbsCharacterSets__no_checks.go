@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermOracleAdbsCharacterSets) validatePutTimeoutsParame
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermOracleAdbsCharacterSets) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermOracleAdbsCharacterSets_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

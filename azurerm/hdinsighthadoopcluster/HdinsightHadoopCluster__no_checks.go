@@ -59,6 +59,10 @@ func (h *jsiiProxy_HdinsightHadoopCluster) validateInterpolationForAttributePara
 	return nil
 }
 
+func (h *jsiiProxy_HdinsightHadoopCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HdinsightHadoopCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -128,6 +132,10 @@ func (h *jsiiProxy_HdinsightHadoopCluster) validatePutStorageAccountGen2Paramete
 }
 
 func (h *jsiiProxy_HdinsightHadoopCluster) validatePutTimeoutsParameters(value *HdinsightHadoopClusterTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HdinsightHadoopCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

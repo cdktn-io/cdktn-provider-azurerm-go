@@ -59,6 +59,10 @@ func (b *jsiiProxy_BastionHost) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (b *jsiiProxy_BastionHost) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BastionHost) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BastionHost) validatePutIpConfigurationParameters(value *Bast
 }
 
 func (b *jsiiProxy_BastionHost) validatePutTimeoutsParameters(value *BastionHostTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BastionHost) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

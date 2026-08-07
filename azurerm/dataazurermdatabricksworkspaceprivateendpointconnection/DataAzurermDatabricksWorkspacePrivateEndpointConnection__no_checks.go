@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermDatabricksWorkspacePrivateEndpointConnection) vali
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermDatabricksWorkspacePrivateEndpointConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermDatabricksWorkspacePrivateEndpointConnection_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

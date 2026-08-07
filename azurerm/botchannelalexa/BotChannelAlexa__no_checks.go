@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotChannelAlexa) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (b *jsiiProxy_BotChannelAlexa) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotChannelAlexa) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BotChannelAlexa) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (b *jsiiProxy_BotChannelAlexa) validatePutTimeoutsParameters(value *BotChannelAlexaTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotChannelAlexa) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

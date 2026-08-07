@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiManagementGlobalSchema) validateInterpolationForAttributeP
 	return nil
 }
 
+func (a *jsiiProxy_ApiManagementGlobalSchema) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiManagementGlobalSchema) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApiManagementGlobalSchema) validateOverrideLogicalIdParameter
 }
 
 func (a *jsiiProxy_ApiManagementGlobalSchema) validatePutTimeoutsParameters(value *ApiManagementGlobalSchemaTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiManagementGlobalSchema) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

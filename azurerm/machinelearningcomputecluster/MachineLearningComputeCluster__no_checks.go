@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningComputeCluster) validateInterpolationForAttrib
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningComputeCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningComputeCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MachineLearningComputeCluster) validatePutSshParameters(value
 }
 
 func (m *jsiiProxy_MachineLearningComputeCluster) validatePutTimeoutsParameters(value *MachineLearningComputeClusterTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningComputeCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

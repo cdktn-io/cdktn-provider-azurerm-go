@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpnSite) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (v *jsiiProxy_VpnSite) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpnSite) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VpnSite) validatePutO365PolicyParameters(value *VpnSiteO365Po
 }
 
 func (v *jsiiProxy_VpnSite) validatePutTimeoutsParameters(value *VpnSiteTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpnSite) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

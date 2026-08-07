@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwareCluster) validateInterpolationForAttributeParameters(te
 	return nil
 }
 
+func (v *jsiiProxy_VmwareCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwareCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VmwareCluster) validateOverrideLogicalIdParameters(newLogical
 }
 
 func (v *jsiiProxy_VmwareCluster) validatePutTimeoutsParameters(value *VmwareClusterTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwareCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

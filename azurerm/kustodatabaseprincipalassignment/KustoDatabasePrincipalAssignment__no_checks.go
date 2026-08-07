@@ -59,6 +59,10 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignment) validateInterpolationForAtt
 	return nil
 }
 
+func (k *jsiiProxy_KustoDatabasePrincipalAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KustoDatabasePrincipalAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KustoDatabasePrincipalAssignment) validateOverrideLogicalIdPa
 }
 
 func (k *jsiiProxy_KustoDatabasePrincipalAssignment) validatePutTimeoutsParameters(value *KustoDatabasePrincipalAssignmentTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KustoDatabasePrincipalAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

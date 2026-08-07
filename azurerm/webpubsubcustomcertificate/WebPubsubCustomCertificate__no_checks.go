@@ -59,6 +59,10 @@ func (w *jsiiProxy_WebPubsubCustomCertificate) validateInterpolationForAttribute
 	return nil
 }
 
+func (w *jsiiProxy_WebPubsubCustomCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WebPubsubCustomCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WebPubsubCustomCertificate) validateOverrideLogicalIdParamete
 }
 
 func (w *jsiiProxy_WebPubsubCustomCertificate) validatePutTimeoutsParameters(value *WebPubsubCustomCertificateTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WebPubsubCustomCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

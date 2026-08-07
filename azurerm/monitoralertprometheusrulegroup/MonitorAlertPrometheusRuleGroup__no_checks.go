@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitorAlertPrometheusRuleGroup) validateInterpolationForAttr
 	return nil
 }
 
+func (m *jsiiProxy_MonitorAlertPrometheusRuleGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitorAlertPrometheusRuleGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MonitorAlertPrometheusRuleGroup) validatePutRuleParameters(va
 }
 
 func (m *jsiiProxy_MonitorAlertPrometheusRuleGroup) validatePutTimeoutsParameters(value *MonitorAlertPrometheusRuleGroupTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitorAlertPrometheusRuleGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

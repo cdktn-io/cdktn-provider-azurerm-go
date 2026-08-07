@@ -59,6 +59,10 @@ func (n *jsiiProxy_NginxCertificate) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (n *jsiiProxy_NginxCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NginxCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NginxCertificate) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (n *jsiiProxy_NginxCertificate) validatePutTimeoutsParameters(value *NginxCertificateTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NginxCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

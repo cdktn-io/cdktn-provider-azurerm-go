@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) validateInterpolationForAttr
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) validatePutSchemaColumnParam
 }
 
 func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) validatePutTimeoutsParameters(value *DataFactoryDatasetAzureSqlTableTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryDatasetAzureSqlTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

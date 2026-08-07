@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbProbe) validateInterpolationForAttributeParameters(terrafor
 	return nil
 }
 
+func (l *jsiiProxy_LbProbe) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbProbe) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LbProbe) validateOverrideLogicalIdParameters(newLogicalId *st
 }
 
 func (l *jsiiProxy_LbProbe) validatePutTimeoutsParameters(value *LbProbeTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbProbe) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (v *jsiiProxy_VideoIndexerAccount) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (v *jsiiProxy_VideoIndexerAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VideoIndexerAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VideoIndexerAccount) validatePutStorageParameters(value *Vide
 }
 
 func (v *jsiiProxy_VideoIndexerAccount) validatePutTimeoutsParameters(value *VideoIndexerAccountTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VideoIndexerAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

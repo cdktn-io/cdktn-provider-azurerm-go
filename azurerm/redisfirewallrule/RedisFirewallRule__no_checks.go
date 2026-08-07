@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedisFirewallRule) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (r *jsiiProxy_RedisFirewallRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedisFirewallRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RedisFirewallRule) validateOverrideLogicalIdParameters(newLog
 }
 
 func (r *jsiiProxy_RedisFirewallRule) validatePutTimeoutsParameters(value *RedisFirewallRuleTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedisFirewallRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

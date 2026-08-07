@@ -59,6 +59,10 @@ func (k *jsiiProxy_KustoEventhubDataConnection) validateInterpolationForAttribut
 	return nil
 }
 
+func (k *jsiiProxy_KustoEventhubDataConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KustoEventhubDataConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KustoEventhubDataConnection) validateOverrideLogicalIdParamet
 }
 
 func (k *jsiiProxy_KustoEventhubDataConnection) validatePutTimeoutsParameters(value *KustoEventhubDataConnectionTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KustoEventhubDataConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

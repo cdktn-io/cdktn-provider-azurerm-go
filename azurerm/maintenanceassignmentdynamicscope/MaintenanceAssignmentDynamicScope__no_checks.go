@@ -59,6 +59,10 @@ func (m *jsiiProxy_MaintenanceAssignmentDynamicScope) validateInterpolationForAt
 	return nil
 }
 
+func (m *jsiiProxy_MaintenanceAssignmentDynamicScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MaintenanceAssignmentDynamicScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MaintenanceAssignmentDynamicScope) validatePutFilterParameter
 }
 
 func (m *jsiiProxy_MaintenanceAssignmentDynamicScope) validatePutTimeoutsParameters(value *MaintenanceAssignmentDynamicScopeTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MaintenanceAssignmentDynamicScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

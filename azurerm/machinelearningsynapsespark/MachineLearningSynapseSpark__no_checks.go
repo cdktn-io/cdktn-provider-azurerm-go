@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningSynapseSpark) validateInterpolationForAttribut
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningSynapseSpark) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningSynapseSpark) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MachineLearningSynapseSpark) validatePutIdentityParameters(va
 }
 
 func (m *jsiiProxy_MachineLearningSynapseSpark) validatePutTimeoutsParameters(value *MachineLearningSynapseSparkTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningSynapseSpark) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

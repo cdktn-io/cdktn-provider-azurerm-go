@@ -59,6 +59,10 @@ func (d *jsiiProxy_DigitalTwinsEndpointServicebus) validateInterpolationForAttri
 	return nil
 }
 
+func (d *jsiiProxy_DigitalTwinsEndpointServicebus) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DigitalTwinsEndpointServicebus) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DigitalTwinsEndpointServicebus) validateOverrideLogicalIdPara
 }
 
 func (d *jsiiProxy_DigitalTwinsEndpointServicebus) validatePutTimeoutsParameters(value *DigitalTwinsEndpointServicebusTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DigitalTwinsEndpointServicebus) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

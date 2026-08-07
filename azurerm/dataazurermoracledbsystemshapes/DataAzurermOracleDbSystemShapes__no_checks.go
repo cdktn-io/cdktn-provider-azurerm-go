@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermOracleDbSystemShapes) validatePutTimeoutsParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermOracleDbSystemShapes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermOracleDbSystemShapes_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

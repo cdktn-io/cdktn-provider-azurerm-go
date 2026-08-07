@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermNetworkSecurityPerimeterProfile) validatePutTimeou
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermNetworkSecurityPerimeterProfile) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermNetworkSecurityPerimeterProfile_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

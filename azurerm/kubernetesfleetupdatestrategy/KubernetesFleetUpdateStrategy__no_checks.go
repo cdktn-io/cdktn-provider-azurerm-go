@@ -59,6 +59,10 @@ func (k *jsiiProxy_KubernetesFleetUpdateStrategy) validateInterpolationForAttrib
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesFleetUpdateStrategy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesFleetUpdateStrategy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KubernetesFleetUpdateStrategy) validatePutStageParameters(val
 }
 
 func (k *jsiiProxy_KubernetesFleetUpdateStrategy) validatePutTimeoutsParameters(value *KubernetesFleetUpdateStrategyTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesFleetUpdateStrategy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

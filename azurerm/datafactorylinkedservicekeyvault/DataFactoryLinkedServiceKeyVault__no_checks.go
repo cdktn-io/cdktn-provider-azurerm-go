@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceKeyVault) validateInterpolationForAtt
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceKeyVault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceKeyVault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceKeyVault) validateOverrideLogicalIdPa
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceKeyVault) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceKeyVaultTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceKeyVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

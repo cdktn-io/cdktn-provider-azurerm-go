@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitorDataCollectionRule) validateInterpolationForAttributeP
 	return nil
 }
 
+func (m *jsiiProxy_MonitorDataCollectionRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitorDataCollectionRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (m *jsiiProxy_MonitorDataCollectionRule) validatePutStreamDeclarationParame
 }
 
 func (m *jsiiProxy_MonitorDataCollectionRule) validatePutTimeoutsParameters(value *MonitorDataCollectionRuleTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitorDataCollectionRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

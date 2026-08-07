@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) validateInterpolationFo
 	return nil
 }
 
+func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) validateOverrideLogical
 }
 
 func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) validatePutTimeoutsParameters(value *PrivateDnsResolverVirtualNetworkLinkTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivateDnsResolverVirtualNetworkLink) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

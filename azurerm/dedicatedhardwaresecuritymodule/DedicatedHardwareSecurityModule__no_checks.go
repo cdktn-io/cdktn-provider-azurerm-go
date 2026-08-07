@@ -59,6 +59,10 @@ func (d *jsiiProxy_DedicatedHardwareSecurityModule) validateInterpolationForAttr
 	return nil
 }
 
+func (d *jsiiProxy_DedicatedHardwareSecurityModule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DedicatedHardwareSecurityModule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DedicatedHardwareSecurityModule) validatePutNetworkProfilePar
 }
 
 func (d *jsiiProxy_DedicatedHardwareSecurityModule) validatePutTimeoutsParameters(value *DedicatedHardwareSecurityModuleTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DedicatedHardwareSecurityModule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

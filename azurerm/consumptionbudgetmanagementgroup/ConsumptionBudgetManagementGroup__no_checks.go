@@ -59,6 +59,10 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroup) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_ConsumptionBudgetManagementGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ConsumptionBudgetManagementGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (c *jsiiProxy_ConsumptionBudgetManagementGroup) validatePutTimeoutsParamete
 }
 
 func (c *jsiiProxy_ConsumptionBudgetManagementGroup) validatePutTimePeriodParameters(value *ConsumptionBudgetManagementGroupTimePeriod) error {
+	return nil
+}
+
+func (c *jsiiProxy_ConsumptionBudgetManagementGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

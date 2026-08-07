@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) validateInterpolationFo
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) validateOverrideLogical
 }
 
 func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) validatePutTimeoutsParameters(value *MachineLearningDatastoreDatalakeGen2Timeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningDatastoreDatalakeGen2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

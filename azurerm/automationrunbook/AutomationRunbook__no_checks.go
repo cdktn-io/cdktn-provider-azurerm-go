@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutomationRunbook) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (a *jsiiProxy_AutomationRunbook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutomationRunbook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (a *jsiiProxy_AutomationRunbook) validatePutPublishContentLinkParameters(va
 }
 
 func (a *jsiiProxy_AutomationRunbook) validatePutTimeoutsParameters(value *AutomationRunbookTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutomationRunbook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

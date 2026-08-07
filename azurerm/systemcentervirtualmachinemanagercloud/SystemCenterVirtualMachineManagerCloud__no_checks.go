@@ -59,6 +59,10 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerCloud) validateInterpolation
 	return nil
 }
 
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerCloud) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerCloud) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SystemCenterVirtualMachineManagerCloud) validateOverrideLogic
 }
 
 func (s *jsiiProxy_SystemCenterVirtualMachineManagerCloud) validatePutTimeoutsParameters(value *SystemCenterVirtualMachineManagerCloudTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SystemCenterVirtualMachineManagerCloud) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

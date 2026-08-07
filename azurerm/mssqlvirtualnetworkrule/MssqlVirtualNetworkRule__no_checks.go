@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlVirtualNetworkRule) validateInterpolationForAttributePar
 	return nil
 }
 
+func (m *jsiiProxy_MssqlVirtualNetworkRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlVirtualNetworkRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MssqlVirtualNetworkRule) validateOverrideLogicalIdParameters(
 }
 
 func (m *jsiiProxy_MssqlVirtualNetworkRule) validatePutTimeoutsParameters(value *MssqlVirtualNetworkRuleTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlVirtualNetworkRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

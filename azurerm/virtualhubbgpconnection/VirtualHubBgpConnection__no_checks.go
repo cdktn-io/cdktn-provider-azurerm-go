@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualHubBgpConnection) validateInterpolationForAttributePar
 	return nil
 }
 
+func (v *jsiiProxy_VirtualHubBgpConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualHubBgpConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualHubBgpConnection) validateOverrideLogicalIdParameters(
 }
 
 func (v *jsiiProxy_VirtualHubBgpConnection) validatePutTimeoutsParameters(value *VirtualHubBgpConnectionTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualHubBgpConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (p *jsiiProxy_PointToSiteVpnGateway) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (p *jsiiProxy_PointToSiteVpnGateway) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PointToSiteVpnGateway) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PointToSiteVpnGateway) validatePutConnectionConfigurationPara
 }
 
 func (p *jsiiProxy_PointToSiteVpnGateway) validatePutTimeoutsParameters(value *PointToSiteVpnGatewayTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PointToSiteVpnGateway) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

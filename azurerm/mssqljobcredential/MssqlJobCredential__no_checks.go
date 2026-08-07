@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlJobCredential) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (m *jsiiProxy_MssqlJobCredential) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlJobCredential) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MssqlJobCredential) validateOverrideLogicalIdParameters(newLo
 }
 
 func (m *jsiiProxy_MssqlJobCredential) validatePutTimeoutsParameters(value *MssqlJobCredentialTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlJobCredential) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

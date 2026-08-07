@@ -59,6 +59,10 @@ func (a *jsiiProxy_ArcPrivateLinkScope) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (a *jsiiProxy_ArcPrivateLinkScope) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ArcPrivateLinkScope) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ArcPrivateLinkScope) validateOverrideLogicalIdParameters(newL
 }
 
 func (a *jsiiProxy_ArcPrivateLinkScope) validatePutTimeoutsParameters(value *ArcPrivateLinkScopeTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ArcPrivateLinkScope) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

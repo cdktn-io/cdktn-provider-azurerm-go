@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatabricksWorkspace) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (d *jsiiProxy_DatabricksWorkspace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabricksWorkspace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DatabricksWorkspace) validatePutEnhancedSecurityCompliancePar
 }
 
 func (d *jsiiProxy_DatabricksWorkspace) validatePutTimeoutsParameters(value *DatabricksWorkspaceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatabricksWorkspace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

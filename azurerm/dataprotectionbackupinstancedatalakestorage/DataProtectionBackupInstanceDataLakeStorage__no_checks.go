@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) validateInterpol
 	return nil
 }
 
+func (d *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) validateOverride
 }
 
 func (d *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) validatePutTimeoutsParameters(value *DataProtectionBackupInstanceDataLakeStorageTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataProtectionBackupInstanceDataLakeStorage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

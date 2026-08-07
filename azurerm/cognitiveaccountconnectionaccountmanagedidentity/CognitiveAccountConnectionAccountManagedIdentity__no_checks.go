@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitiveAccountConnectionAccountManagedIdentity) validateInt
 	return nil
 }
 
+func (c *jsiiProxy_CognitiveAccountConnectionAccountManagedIdentity) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitiveAccountConnectionAccountManagedIdentity) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CognitiveAccountConnectionAccountManagedIdentity) validateOve
 }
 
 func (c *jsiiProxy_CognitiveAccountConnectionAccountManagedIdentity) validatePutTimeoutsParameters(value *CognitiveAccountConnectionAccountManagedIdentityTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitiveAccountConnectionAccountManagedIdentity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

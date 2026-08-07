@@ -59,6 +59,10 @@ func (p *jsiiProxy_PrivateDnsResolverInboundEndpoint) validateInterpolationForAt
 	return nil
 }
 
+func (p *jsiiProxy_PrivateDnsResolverInboundEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PrivateDnsResolverInboundEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (p *jsiiProxy_PrivateDnsResolverInboundEndpoint) validatePutIpConfiguration
 }
 
 func (p *jsiiProxy_PrivateDnsResolverInboundEndpoint) validatePutTimeoutsParameters(value *PrivateDnsResolverInboundEndpointTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PrivateDnsResolverInboundEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateInterpolationForAttrib
 	return nil
 }
 
+func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -152,6 +156,10 @@ func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validatePutTimeoutsParameters(
 }
 
 func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validatePutWinrmListenerParameters(value interface{}) error {
+	return nil
+}
+
+func (w *jsiiProxy_WindowsVirtualMachineScaleSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

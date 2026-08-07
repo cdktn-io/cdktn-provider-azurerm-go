@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevTestGlobalVmShutdownSchedule) validateInterpolationForAttr
 	return nil
 }
 
+func (d *jsiiProxy_DevTestGlobalVmShutdownSchedule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevTestGlobalVmShutdownSchedule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DevTestGlobalVmShutdownSchedule) validatePutNotificationSetti
 }
 
 func (d *jsiiProxy_DevTestGlobalVmShutdownSchedule) validatePutTimeoutsParameters(value *DevTestGlobalVmShutdownScheduleTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevTestGlobalVmShutdownSchedule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

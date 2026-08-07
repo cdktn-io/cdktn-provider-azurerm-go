@@ -59,6 +59,10 @@ func (d *jsiiProxy_DynatraceTagRules) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DynatraceTagRules) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynatraceTagRules) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DynatraceTagRules) validatePutMetricRuleParameters(value *Dyn
 }
 
 func (d *jsiiProxy_DynatraceTagRules) validatePutTimeoutsParameters(value *DynatraceTagRulesTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DynatraceTagRules) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

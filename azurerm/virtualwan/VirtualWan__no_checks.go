@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualWan) validateInterpolationForAttributeParameters(terra
 	return nil
 }
 
+func (v *jsiiProxy_VirtualWan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualWan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualWan) validateOverrideLogicalIdParameters(newLogicalId 
 }
 
 func (v *jsiiProxy_VirtualWan) validatePutTimeoutsParameters(value *VirtualWanTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualWan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

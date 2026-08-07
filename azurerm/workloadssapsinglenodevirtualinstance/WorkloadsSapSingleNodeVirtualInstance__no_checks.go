@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstance) validateInterpolationF
 	return nil
 }
 
+func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstance) validatePutSingleServe
 }
 
 func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstance) validatePutTimeoutsParameters(value *WorkloadsSapSingleNodeVirtualInstanceTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkloadsSapSingleNodeVirtualInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

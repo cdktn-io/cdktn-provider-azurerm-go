@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubRouteA) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (i *jsiiProxy_IothubRouteA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubRouteA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubRouteA) validateOverrideLogicalIdParameters(newLogicalI
 }
 
 func (i *jsiiProxy_IothubRouteA) validatePutTimeoutsParameters(value *IothubRouteTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubRouteA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

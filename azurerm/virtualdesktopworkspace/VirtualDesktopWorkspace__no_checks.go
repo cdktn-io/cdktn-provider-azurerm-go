@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualDesktopWorkspace) validateInterpolationForAttributePar
 	return nil
 }
 
+func (v *jsiiProxy_VirtualDesktopWorkspace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualDesktopWorkspace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualDesktopWorkspace) validateOverrideLogicalIdParameters(
 }
 
 func (v *jsiiProxy_VirtualDesktopWorkspace) validatePutTimeoutsParameters(value *VirtualDesktopWorkspaceTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualDesktopWorkspace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

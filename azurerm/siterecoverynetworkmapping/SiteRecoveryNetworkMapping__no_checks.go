@@ -59,6 +59,10 @@ func (s *jsiiProxy_SiteRecoveryNetworkMapping) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryNetworkMapping) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryNetworkMapping) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SiteRecoveryNetworkMapping) validateOverrideLogicalIdParamete
 }
 
 func (s *jsiiProxy_SiteRecoveryNetworkMapping) validatePutTimeoutsParameters(value *SiteRecoveryNetworkMappingTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SiteRecoveryNetworkMapping) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

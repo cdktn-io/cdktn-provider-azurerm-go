@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppServiceCustomHostnameBinding) validateInterpolationForAttr
 	return nil
 }
 
+func (a *jsiiProxy_AppServiceCustomHostnameBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppServiceCustomHostnameBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppServiceCustomHostnameBinding) validateOverrideLogicalIdPar
 }
 
 func (a *jsiiProxy_AppServiceCustomHostnameBinding) validatePutTimeoutsParameters(value *AppServiceCustomHostnameBindingTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppServiceCustomHostnameBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

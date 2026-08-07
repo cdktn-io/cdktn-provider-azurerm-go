@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlJobStep) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (m *jsiiProxy_MssqlJobStep) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlJobStep) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MssqlJobStep) validatePutOutputTargetParameters(value *MssqlJ
 }
 
 func (m *jsiiProxy_MssqlJobStep) validatePutTimeoutsParameters(value *MssqlJobStepTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlJobStep) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

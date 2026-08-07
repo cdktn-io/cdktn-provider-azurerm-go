@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) validateInte
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) validateOver
 }
 
 func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) validatePutTimeoutsParameters(value *MachineLearningWorkspaceNetworkOutboundRuleFqdnTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningWorkspaceNetworkOutboundRuleFqdn) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

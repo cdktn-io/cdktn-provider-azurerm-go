@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualHubRouteTable) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (v *jsiiProxy_VirtualHubRouteTable) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualHubRouteTable) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VirtualHubRouteTable) validatePutRouteParameters(value interf
 }
 
 func (v *jsiiProxy_VirtualHubRouteTable) validatePutTimeoutsParameters(value *VirtualHubRouteTableTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualHubRouteTable) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

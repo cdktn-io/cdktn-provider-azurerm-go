@@ -59,6 +59,10 @@ func (b *jsiiProxy_BatchCertificate) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (b *jsiiProxy_BatchCertificate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchCertificate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BatchCertificate) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (b *jsiiProxy_BatchCertificate) validatePutTimeoutsParameters(value *BatchCertificateTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchCertificate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

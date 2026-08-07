@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudAppMysqlAssociation) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudAppMysqlAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudAppMysqlAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SpringCloudAppMysqlAssociation) validateOverrideLogicalIdPara
 }
 
 func (s *jsiiProxy_SpringCloudAppMysqlAssociation) validatePutTimeoutsParameters(value *SpringCloudAppMysqlAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudAppMysqlAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (l *jsiiProxy_LbNatRule) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (l *jsiiProxy_LbNatRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LbNatRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LbNatRule) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func (l *jsiiProxy_LbNatRule) validatePutTimeoutsParameters(value *LbNatRuleTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LbNatRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

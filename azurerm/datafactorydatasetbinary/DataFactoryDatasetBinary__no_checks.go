@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryDatasetBinary) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryDatasetBinary) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryDatasetBinary) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (d *jsiiProxy_DataFactoryDatasetBinary) validatePutSftpServerLocationParame
 }
 
 func (d *jsiiProxy_DataFactoryDatasetBinary) validatePutTimeoutsParameters(value *DataFactoryDatasetBinaryTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryDatasetBinary) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

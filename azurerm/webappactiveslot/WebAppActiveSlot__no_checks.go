@@ -59,6 +59,10 @@ func (w *jsiiProxy_WebAppActiveSlot) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (w *jsiiProxy_WebAppActiveSlot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WebAppActiveSlot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (w *jsiiProxy_WebAppActiveSlot) validateOverrideLogicalIdParameters(newLogi
 }
 
 func (w *jsiiProxy_WebAppActiveSlot) validatePutTimeoutsParameters(value *WebAppActiveSlotTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WebAppActiveSlot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

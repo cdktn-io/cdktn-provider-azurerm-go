@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynapseSqlPoolWorkloadGroup) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_SynapseSqlPoolWorkloadGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynapseSqlPoolWorkloadGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SynapseSqlPoolWorkloadGroup) validateOverrideLogicalIdParamet
 }
 
 func (s *jsiiProxy_SynapseSqlPoolWorkloadGroup) validatePutTimeoutsParameters(value *SynapseSqlPoolWorkloadGroupTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynapseSqlPoolWorkloadGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningWorkspace) validateInterpolationForAttributePa
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningWorkspace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningWorkspace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (m *jsiiProxy_MachineLearningWorkspace) validatePutServerlessComputeParamet
 }
 
 func (m *jsiiProxy_MachineLearningWorkspace) validatePutTimeoutsParameters(value *MachineLearningWorkspaceTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningWorkspace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SourceControlToken) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (s *jsiiProxy_SourceControlToken) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SourceControlToken) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SourceControlToken) validateOverrideLogicalIdParameters(newLo
 }
 
 func (s *jsiiProxy_SourceControlToken) validatePutTimeoutsParameters(value *SourceControlTokenTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SourceControlToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

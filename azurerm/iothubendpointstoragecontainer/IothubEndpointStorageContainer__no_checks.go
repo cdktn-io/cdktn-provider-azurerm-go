@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubEndpointStorageContainer) validateInterpolationForAttri
 	return nil
 }
 
+func (i *jsiiProxy_IothubEndpointStorageContainer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubEndpointStorageContainer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubEndpointStorageContainer) validateOverrideLogicalIdPara
 }
 
 func (i *jsiiProxy_IothubEndpointStorageContainer) validatePutTimeoutsParameters(value *IothubEndpointStorageContainerTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubEndpointStorageContainer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

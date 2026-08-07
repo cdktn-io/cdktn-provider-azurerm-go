@@ -59,6 +59,10 @@ func (r *jsiiProxy_RelayHybridConnection) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (r *jsiiProxy_RelayHybridConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RelayHybridConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RelayHybridConnection) validateOverrideLogicalIdParameters(ne
 }
 
 func (r *jsiiProxy_RelayHybridConnection) validatePutTimeoutsParameters(value *RelayHybridConnectionTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RelayHybridConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

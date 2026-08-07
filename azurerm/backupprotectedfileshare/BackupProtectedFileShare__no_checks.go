@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupProtectedFileShare) validateInterpolationForAttributePa
 	return nil
 }
 
+func (b *jsiiProxy_BackupProtectedFileShare) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupProtectedFileShare) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BackupProtectedFileShare) validateOverrideLogicalIdParameters
 }
 
 func (b *jsiiProxy_BackupProtectedFileShare) validatePutTimeoutsParameters(value *BackupProtectedFileShareTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupProtectedFileShare) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

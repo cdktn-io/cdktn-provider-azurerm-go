@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackup) validateP
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermOracleAutonomousDatabaseCloneFromBackup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermOracleAutonomousDatabaseCloneFromBackup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

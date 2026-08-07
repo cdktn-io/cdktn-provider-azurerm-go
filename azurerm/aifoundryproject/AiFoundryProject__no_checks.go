@@ -59,6 +59,10 @@ func (a *jsiiProxy_AiFoundryProject) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (a *jsiiProxy_AiFoundryProject) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AiFoundryProject) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AiFoundryProject) validatePutIdentityParameters(value *AiFoun
 }
 
 func (a *jsiiProxy_AiFoundryProject) validatePutTimeoutsParameters(value *AiFoundryProjectTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AiFoundryProject) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

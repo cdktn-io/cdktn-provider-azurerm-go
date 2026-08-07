@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleCloudVmCluster) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (o *jsiiProxy_OracleCloudVmCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleCloudVmCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (o *jsiiProxy_OracleCloudVmCluster) validatePutFileSystemConfigurationParam
 }
 
 func (o *jsiiProxy_OracleCloudVmCluster) validatePutTimeoutsParameters(value *OracleCloudVmClusterTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleCloudVmCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

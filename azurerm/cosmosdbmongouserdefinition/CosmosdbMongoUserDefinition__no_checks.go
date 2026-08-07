@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbMongoUserDefinition) validateInterpolationForAttribut
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbMongoUserDefinition) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbMongoUserDefinition) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CosmosdbMongoUserDefinition) validateOverrideLogicalIdParamet
 }
 
 func (c *jsiiProxy_CosmosdbMongoUserDefinition) validatePutTimeoutsParameters(value *CosmosdbMongoUserDefinitionTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbMongoUserDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_StaticWebAppFunctionAppRegistration) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_StaticWebAppFunctionAppRegistration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StaticWebAppFunctionAppRegistration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StaticWebAppFunctionAppRegistration) validateOverrideLogicalI
 }
 
 func (s *jsiiProxy_StaticWebAppFunctionAppRegistration) validatePutTimeoutsParameters(value *StaticWebAppFunctionAppRegistrationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StaticWebAppFunctionAppRegistration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

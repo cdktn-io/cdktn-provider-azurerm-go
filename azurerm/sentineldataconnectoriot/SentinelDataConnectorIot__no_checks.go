@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorIot) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorIot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorIot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorIot) validateOverrideLogicalIdParameters
 }
 
 func (s *jsiiProxy_SentinelDataConnectorIot) validatePutTimeoutsParameters(value *SentinelDataConnectorIotTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorIot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

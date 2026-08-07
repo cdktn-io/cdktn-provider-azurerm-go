@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcareFhirService) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareFhirService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareFhirService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (h *jsiiProxy_HealthcareFhirService) validatePutOciArtifactParameters(value
 }
 
 func (h *jsiiProxy_HealthcareFhirService) validatePutTimeoutsParameters(value *HealthcareFhirServiceTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareFhirService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

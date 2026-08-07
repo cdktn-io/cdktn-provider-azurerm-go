@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppServiceHybridConnection) validateInterpolationForAttribute
 	return nil
 }
 
+func (a *jsiiProxy_AppServiceHybridConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppServiceHybridConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppServiceHybridConnection) validateOverrideLogicalIdParamete
 }
 
 func (a *jsiiProxy_AppServiceHybridConnection) validatePutTimeoutsParameters(value *AppServiceHybridConnectionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppServiceHybridConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

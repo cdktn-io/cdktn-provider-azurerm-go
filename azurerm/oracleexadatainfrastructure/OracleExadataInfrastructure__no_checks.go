@@ -59,6 +59,10 @@ func (o *jsiiProxy_OracleExadataInfrastructure) validateInterpolationForAttribut
 	return nil
 }
 
+func (o *jsiiProxy_OracleExadataInfrastructure) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OracleExadataInfrastructure) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OracleExadataInfrastructure) validatePutMaintenanceWindowPara
 }
 
 func (o *jsiiProxy_OracleExadataInfrastructure) validatePutTimeoutsParameters(value *OracleExadataInfrastructureTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OracleExadataInfrastructure) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

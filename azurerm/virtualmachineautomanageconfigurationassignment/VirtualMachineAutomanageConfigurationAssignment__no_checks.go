@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) validateInte
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) validateOver
 }
 
 func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) validatePutTimeoutsParameters(value *VirtualMachineAutomanageConfigurationAssignmentTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachineAutomanageConfigurationAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

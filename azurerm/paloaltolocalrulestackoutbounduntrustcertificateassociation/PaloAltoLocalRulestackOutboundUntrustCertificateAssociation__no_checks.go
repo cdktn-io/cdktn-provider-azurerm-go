@@ -59,6 +59,10 @@ func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) 
 	return nil
 }
 
+func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) 
 }
 
 func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) validatePutTimeoutsParameters(value *PaloAltoLocalRulestackOutboundUntrustCertificateAssociationTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoLocalRulestackOutboundUntrustCertificateAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

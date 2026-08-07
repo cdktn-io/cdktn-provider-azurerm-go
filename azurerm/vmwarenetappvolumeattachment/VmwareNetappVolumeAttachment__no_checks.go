@@ -59,6 +59,10 @@ func (v *jsiiProxy_VmwareNetappVolumeAttachment) validateInterpolationForAttribu
 	return nil
 }
 
+func (v *jsiiProxy_VmwareNetappVolumeAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VmwareNetappVolumeAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VmwareNetappVolumeAttachment) validateOverrideLogicalIdParame
 }
 
 func (v *jsiiProxy_VmwareNetappVolumeAttachment) validatePutTimeoutsParameters(value *VmwareNetappVolumeAttachmentTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VmwareNetappVolumeAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

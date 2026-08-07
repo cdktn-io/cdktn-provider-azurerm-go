@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachineDataDiskAttachment) validateInterpolationForAtt
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachineDataDiskAttachment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachineDataDiskAttachment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualMachineDataDiskAttachment) validateOverrideLogicalIdPa
 }
 
 func (v *jsiiProxy_VirtualMachineDataDiskAttachment) validatePutTimeoutsParameters(value *VirtualMachineDataDiskAttachmentTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachineDataDiskAttachment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

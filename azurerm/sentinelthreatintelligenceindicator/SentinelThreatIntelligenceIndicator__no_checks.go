@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicator) validateInterpolationFor
 	return nil
 }
 
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelThreatIntelligenceIndicator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SentinelThreatIntelligenceIndicator) validatePutKillChainPhas
 }
 
 func (s *jsiiProxy_SentinelThreatIntelligenceIndicator) validatePutTimeoutsParameters(value *SentinelThreatIntelligenceIndicatorTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelThreatIntelligenceIndicator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

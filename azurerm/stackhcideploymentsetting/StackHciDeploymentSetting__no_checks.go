@@ -59,6 +59,10 @@ func (s *jsiiProxy_StackHciDeploymentSetting) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_StackHciDeploymentSetting) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StackHciDeploymentSetting) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StackHciDeploymentSetting) validatePutScaleUnitParameters(val
 }
 
 func (s *jsiiProxy_StackHciDeploymentSetting) validatePutTimeoutsParameters(value *StackHciDeploymentSettingTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StackHciDeploymentSetting) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

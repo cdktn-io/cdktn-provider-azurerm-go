@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedhatOpenshiftCluster) validateInterpolationForAttributePara
 	return nil
 }
 
+func (r *jsiiProxy_RedhatOpenshiftCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedhatOpenshiftCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutTimeoutsParameters(value *
 }
 
 func (r *jsiiProxy_RedhatOpenshiftCluster) validatePutWorkerProfileParameters(value *RedhatOpenshiftClusterWorkerProfile) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedhatOpenshiftCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

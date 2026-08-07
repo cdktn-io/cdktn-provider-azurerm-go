@@ -59,6 +59,10 @@ func (a *jsiiProxy_AiFoundry) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (a *jsiiProxy_AiFoundry) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AiFoundry) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (a *jsiiProxy_AiFoundry) validatePutManagedNetworkParameters(value *AiFound
 }
 
 func (a *jsiiProxy_AiFoundry) validatePutTimeoutsParameters(value *AiFoundryTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AiFoundry) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

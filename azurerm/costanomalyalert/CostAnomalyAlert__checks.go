@@ -122,6 +122,14 @@ func (c *jsiiProxy_CostAnomalyAlert) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (c *jsiiProxy_CostAnomalyAlert) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (c *jsiiProxy_CostAnomalyAlert) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (c *jsiiProxy_CostAnomalyAlert) validatePutTimeoutsParameters(value *CostAn
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (c *jsiiProxy_CostAnomalyAlert) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

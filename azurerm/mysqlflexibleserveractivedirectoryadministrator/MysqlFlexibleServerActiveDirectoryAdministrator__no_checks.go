@@ -59,6 +59,10 @@ func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) validateInte
 	return nil
 }
 
+func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) validateOver
 }
 
 func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) validatePutTimeoutsParameters(value *MysqlFlexibleServerActiveDirectoryAdministratorTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MysqlFlexibleServerActiveDirectoryAdministrator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

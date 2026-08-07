@@ -59,6 +59,10 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVm) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_SiteRecoveryReplicatedVm) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SiteRecoveryReplicatedVm) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (s *jsiiProxy_SiteRecoveryReplicatedVm) validatePutTimeoutsParameters(value
 }
 
 func (s *jsiiProxy_SiteRecoveryReplicatedVm) validatePutUnmanagedDiskParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SiteRecoveryReplicatedVm) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

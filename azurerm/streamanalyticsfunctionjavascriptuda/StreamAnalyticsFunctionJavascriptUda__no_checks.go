@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUda) validateInterpolationFo
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUda) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUda) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUda) validatePutOutputParame
 }
 
 func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUda) validatePutTimeoutsParameters(value *StreamAnalyticsFunctionJavascriptUdaTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsFunctionJavascriptUda) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

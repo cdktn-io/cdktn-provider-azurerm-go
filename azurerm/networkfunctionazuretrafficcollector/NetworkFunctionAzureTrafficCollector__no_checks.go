@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateInterpolationFo
 	return nil
 }
 
+func (n *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateOverrideLogical
 }
 
 func (n *jsiiProxy_NetworkFunctionAzureTrafficCollector) validatePutTimeoutsParameters(value *NetworkFunctionAzureTrafficCollectorTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkFunctionAzureTrafficCollector) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

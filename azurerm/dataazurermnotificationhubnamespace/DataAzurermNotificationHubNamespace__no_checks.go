@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermNotificationHubNamespace) validatePutTimeoutsParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermNotificationHubNamespace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermNotificationHubNamespace_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

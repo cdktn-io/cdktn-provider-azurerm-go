@@ -59,6 +59,10 @@ func (m *jsiiProxy_MonitorSmartDetectorAlertRule) validateInterpolationForAttrib
 	return nil
 }
 
+func (m *jsiiProxy_MonitorSmartDetectorAlertRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MonitorSmartDetectorAlertRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_MonitorSmartDetectorAlertRule) validatePutActionGroupParamete
 }
 
 func (m *jsiiProxy_MonitorSmartDetectorAlertRule) validatePutTimeoutsParameters(value *MonitorSmartDetectorAlertRuleTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MonitorSmartDetectorAlertRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

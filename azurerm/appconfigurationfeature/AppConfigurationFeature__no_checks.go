@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppConfigurationFeature) validateInterpolationForAttributePar
 	return nil
 }
 
+func (a *jsiiProxy_AppConfigurationFeature) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppConfigurationFeature) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (a *jsiiProxy_AppConfigurationFeature) validatePutTimeoutsParameters(value 
 }
 
 func (a *jsiiProxy_AppConfigurationFeature) validatePutTimewindowFilterParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppConfigurationFeature) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

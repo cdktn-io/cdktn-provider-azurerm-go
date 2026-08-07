@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorOfficePowerBi) validateInterpolationForA
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorOfficePowerBi) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorOfficePowerBi) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorOfficePowerBi) validateOverrideLogicalId
 }
 
 func (s *jsiiProxy_SentinelDataConnectorOfficePowerBi) validatePutTimeoutsParameters(value *SentinelDataConnectorOfficePowerBiTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorOfficePowerBi) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

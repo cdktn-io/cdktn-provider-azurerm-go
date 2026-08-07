@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynapseSparkPool) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (s *jsiiProxy_SynapseSparkPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynapseSparkPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_SynapseSparkPool) validatePutSparkConfigParameters(value *Syn
 }
 
 func (s *jsiiProxy_SynapseSparkPool) validatePutTimeoutsParameters(value *SynapseSparkPoolTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynapseSparkPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

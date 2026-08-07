@@ -59,6 +59,10 @@ func (s *jsiiProxy_SecurityCenterStorageDefender) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_SecurityCenterStorageDefender) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SecurityCenterStorageDefender) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SecurityCenterStorageDefender) validateOverrideLogicalIdParam
 }
 
 func (s *jsiiProxy_SecurityCenterStorageDefender) validatePutTimeoutsParameters(value *SecurityCenterStorageDefenderTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SecurityCenterStorageDefender) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

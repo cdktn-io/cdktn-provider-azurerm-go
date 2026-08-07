@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiManagementEmailTemplate) validateInterpolationForAttribute
 	return nil
 }
 
+func (a *jsiiProxy_ApiManagementEmailTemplate) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiManagementEmailTemplate) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApiManagementEmailTemplate) validateOverrideLogicalIdParamete
 }
 
 func (a *jsiiProxy_ApiManagementEmailTemplate) validatePutTimeoutsParameters(value *ApiManagementEmailTemplateTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiManagementEmailTemplate) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBinding) validateInterpolat
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBinding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBinding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBinding) validateOverrideLo
 }
 
 func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBinding) validatePutTimeoutsParameters(value *KubernetesClusterTrustedAccessRoleBindingTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesClusterTrustedAccessRoleBinding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

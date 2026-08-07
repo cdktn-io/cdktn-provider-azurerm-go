@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppServiceActiveSlot) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (a *jsiiProxy_AppServiceActiveSlot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppServiceActiveSlot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppServiceActiveSlot) validateOverrideLogicalIdParameters(new
 }
 
 func (a *jsiiProxy_AppServiceActiveSlot) validatePutTimeoutsParameters(value *AppServiceActiveSlotTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppServiceActiveSlot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

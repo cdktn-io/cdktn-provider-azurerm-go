@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociati
 	return nil
 }
 
+func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociati
 }
 
 func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociation) validatePutTimeoutsParameters(value *NetworkInterfaceApplicationGatewayBackendAddressPoolAssociationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkInterfaceApplicationGatewayBackendAddressPoolAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

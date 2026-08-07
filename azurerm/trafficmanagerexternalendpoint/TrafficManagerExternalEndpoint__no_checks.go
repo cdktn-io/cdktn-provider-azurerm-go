@@ -59,6 +59,10 @@ func (t *jsiiProxy_TrafficManagerExternalEndpoint) validateInterpolationForAttri
 	return nil
 }
 
+func (t *jsiiProxy_TrafficManagerExternalEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TrafficManagerExternalEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (t *jsiiProxy_TrafficManagerExternalEndpoint) validatePutSubnetParameters(v
 }
 
 func (t *jsiiProxy_TrafficManagerExternalEndpoint) validatePutTimeoutsParameters(value *TrafficManagerExternalEndpointTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TrafficManagerExternalEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

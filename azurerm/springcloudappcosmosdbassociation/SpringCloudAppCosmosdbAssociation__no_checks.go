@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateInterpolationForAt
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateOverrideLogicalIdP
 }
 
 func (s *jsiiProxy_SpringCloudAppCosmosdbAssociation) validatePutTimeoutsParameters(value *SpringCloudAppCosmosdbAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudAppCosmosdbAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

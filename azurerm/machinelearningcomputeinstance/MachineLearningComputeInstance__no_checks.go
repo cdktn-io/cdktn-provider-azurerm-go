@@ -59,6 +59,10 @@ func (m *jsiiProxy_MachineLearningComputeInstance) validateInterpolationForAttri
 	return nil
 }
 
+func (m *jsiiProxy_MachineLearningComputeInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MachineLearningComputeInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MachineLearningComputeInstance) validatePutSshParameters(valu
 }
 
 func (m *jsiiProxy_MachineLearningComputeInstance) validatePutTimeoutsParameters(value *MachineLearningComputeInstanceTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MachineLearningComputeInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

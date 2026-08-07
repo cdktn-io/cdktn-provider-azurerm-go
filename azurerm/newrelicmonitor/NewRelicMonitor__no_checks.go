@@ -59,6 +59,10 @@ func (n *jsiiProxy_NewRelicMonitor) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (n *jsiiProxy_NewRelicMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NewRelicMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (n *jsiiProxy_NewRelicMonitor) validatePutTimeoutsParameters(value *NewReli
 }
 
 func (n *jsiiProxy_NewRelicMonitor) validatePutUserParameters(value *NewRelicMonitorUser) error {
+	return nil
+}
+
+func (n *jsiiProxy_NewRelicMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

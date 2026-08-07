@@ -59,6 +59,10 @@ func (s *jsiiProxy_SignalrService) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (s *jsiiProxy_SignalrService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SignalrService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (s *jsiiProxy_SignalrService) validatePutTimeoutsParameters(value *SignalrS
 }
 
 func (s *jsiiProxy_SignalrService) validatePutUpstreamEndpointParameters(value interface{}) error {
+	return nil
+}
+
+func (s *jsiiProxy_SignalrService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

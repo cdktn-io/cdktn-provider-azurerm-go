@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudGatewayCustomDomain) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudGatewayCustomDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudGatewayCustomDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SpringCloudGatewayCustomDomain) validateOverrideLogicalIdPara
 }
 
 func (s *jsiiProxy_SpringCloudGatewayCustomDomain) validatePutTimeoutsParameters(value *SpringCloudGatewayCustomDomainTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudGatewayCustomDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

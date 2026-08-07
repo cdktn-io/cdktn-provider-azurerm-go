@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateInterpol
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateOverride
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceDataLakeStorageGen2Timeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceDataLakeStorageGen2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

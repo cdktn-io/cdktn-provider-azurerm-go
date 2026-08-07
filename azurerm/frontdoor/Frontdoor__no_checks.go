@@ -59,6 +59,10 @@ func (f *jsiiProxy_Frontdoor) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (f *jsiiProxy_Frontdoor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_Frontdoor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (f *jsiiProxy_Frontdoor) validatePutRoutingRuleParameters(value interface{}
 }
 
 func (f *jsiiProxy_Frontdoor) validatePutTimeoutsParameters(value *FrontdoorTimeouts) error {
+	return nil
+}
+
+func (f *jsiiProxy_Frontdoor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

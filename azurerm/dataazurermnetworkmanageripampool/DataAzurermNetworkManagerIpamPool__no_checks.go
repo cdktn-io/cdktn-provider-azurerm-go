@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermNetworkManagerIpamPool) validatePutTimeoutsParamet
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermNetworkManagerIpamPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermNetworkManagerIpamPool_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

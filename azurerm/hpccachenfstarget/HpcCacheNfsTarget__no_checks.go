@@ -59,6 +59,10 @@ func (h *jsiiProxy_HpcCacheNfsTarget) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (h *jsiiProxy_HpcCacheNfsTarget) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HpcCacheNfsTarget) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (h *jsiiProxy_HpcCacheNfsTarget) validatePutNamespaceJunctionParameters(val
 }
 
 func (h *jsiiProxy_HpcCacheNfsTarget) validatePutTimeoutsParameters(value *HpcCacheNfsTargetTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HpcCacheNfsTarget) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

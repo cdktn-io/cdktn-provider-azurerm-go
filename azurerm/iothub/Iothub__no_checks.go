@@ -59,6 +59,10 @@ func (i *jsiiProxy_Iothub) validateInterpolationForAttributeParameters(terraform
 	return nil
 }
 
+func (i *jsiiProxy_Iothub) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_Iothub) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -112,6 +116,10 @@ func (i *jsiiProxy_Iothub) validatePutSkuParameters(value *IothubSku) error {
 }
 
 func (i *jsiiProxy_Iothub) validatePutTimeoutsParameters(value *IothubTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_Iothub) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

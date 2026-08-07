@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNow) validateInterpolationFor
 	return nil
 }
 
+func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNow) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNow) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNow) validateOverrideLogicalI
 }
 
 func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNow) validatePutTimeoutsParameters(value *ContainerRegistryTaskScheduleRunNowTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerRegistryTaskScheduleRunNow) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

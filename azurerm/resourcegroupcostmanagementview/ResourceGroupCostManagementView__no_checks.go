@@ -59,6 +59,10 @@ func (r *jsiiProxy_ResourceGroupCostManagementView) validateInterpolationForAttr
 	return nil
 }
 
+func (r *jsiiProxy_ResourceGroupCostManagementView) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_ResourceGroupCostManagementView) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (r *jsiiProxy_ResourceGroupCostManagementView) validatePutPivotParameters(v
 }
 
 func (r *jsiiProxy_ResourceGroupCostManagementView) validatePutTimeoutsParameters(value *ResourceGroupCostManagementViewTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_ResourceGroupCostManagementView) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

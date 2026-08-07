@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateInterpolationForAt
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateOverrideLogicalIdP
 }
 
 func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) validatePutTimeoutsParameters(value *DataFactoryManagedPrivateEndpointTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryManagedPrivateEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

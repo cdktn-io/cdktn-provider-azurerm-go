@@ -59,6 +59,10 @@ func (a *jsiiProxy_AppServiceVirtualNetworkSwiftConnection) validateInterpolatio
 	return nil
 }
 
+func (a *jsiiProxy_AppServiceVirtualNetworkSwiftConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AppServiceVirtualNetworkSwiftConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AppServiceVirtualNetworkSwiftConnection) validateOverrideLogi
 }
 
 func (a *jsiiProxy_AppServiceVirtualNetworkSwiftConnection) validatePutTimeoutsParameters(value *AppServiceVirtualNetworkSwiftConnectionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AppServiceVirtualNetworkSwiftConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

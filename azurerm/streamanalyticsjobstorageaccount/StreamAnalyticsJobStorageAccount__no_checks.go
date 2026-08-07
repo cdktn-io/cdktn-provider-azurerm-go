@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) validateInterpolationForAtt
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) validateOverrideLogicalIdPa
 }
 
 func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) validatePutTimeoutsParameters(value *StreamAnalyticsJobStorageAccountTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsJobStorageAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

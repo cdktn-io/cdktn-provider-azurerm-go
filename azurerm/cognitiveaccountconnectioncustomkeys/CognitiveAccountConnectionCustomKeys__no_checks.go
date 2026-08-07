@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitiveAccountConnectionCustomKeys) validateInterpolationFo
 	return nil
 }
 
+func (c *jsiiProxy_CognitiveAccountConnectionCustomKeys) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitiveAccountConnectionCustomKeys) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CognitiveAccountConnectionCustomKeys) validateOverrideLogical
 }
 
 func (c *jsiiProxy_CognitiveAccountConnectionCustomKeys) validatePutTimeoutsParameters(value *CognitiveAccountConnectionCustomKeysTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitiveAccountConnectionCustomKeys) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

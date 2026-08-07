@@ -59,6 +59,10 @@ func (p *jsiiProxy_PostgresqlVirtualNetworkRule) validateInterpolationForAttribu
 	return nil
 }
 
+func (p *jsiiProxy_PostgresqlVirtualNetworkRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PostgresqlVirtualNetworkRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PostgresqlVirtualNetworkRule) validateOverrideLogicalIdParame
 }
 
 func (p *jsiiProxy_PostgresqlVirtualNetworkRule) validatePutTimeoutsParameters(value *PostgresqlVirtualNetworkRuleTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PostgresqlVirtualNetworkRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

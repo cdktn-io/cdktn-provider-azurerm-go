@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiManagementNotificationRecipientUser) validateInterpolation
 	return nil
 }
 
+func (a *jsiiProxy_ApiManagementNotificationRecipientUser) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiManagementNotificationRecipientUser) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApiManagementNotificationRecipientUser) validateOverrideLogic
 }
 
 func (a *jsiiProxy_ApiManagementNotificationRecipientUser) validatePutTimeoutsParameters(value *ApiManagementNotificationRecipientUserTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiManagementNotificationRecipientUser) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

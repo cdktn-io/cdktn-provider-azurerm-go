@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatadogMonitor) validateInterpolationForAttributeParameters(t
 	return nil
 }
 
+func (d *jsiiProxy_DatadogMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatadogMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DatadogMonitor) validatePutTimeoutsParameters(value *DatadogM
 }
 
 func (d *jsiiProxy_DatadogMonitor) validatePutUserParameters(value *DatadogMonitorUser) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatadogMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

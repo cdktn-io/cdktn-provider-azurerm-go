@@ -59,6 +59,10 @@ func (n *jsiiProxy_NotificationHubAuthorizationRule) validateInterpolationForAtt
 	return nil
 }
 
+func (n *jsiiProxy_NotificationHubAuthorizationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NotificationHubAuthorizationRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NotificationHubAuthorizationRule) validateOverrideLogicalIdPa
 }
 
 func (n *jsiiProxy_NotificationHubAuthorizationRule) validatePutTimeoutsParameters(value *NotificationHubAuthorizationRuleTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NotificationHubAuthorizationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

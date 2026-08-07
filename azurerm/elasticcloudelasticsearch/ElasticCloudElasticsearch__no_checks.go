@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticCloudElasticsearch) validateInterpolationForAttributeP
 	return nil
 }
 
+func (e *jsiiProxy_ElasticCloudElasticsearch) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticCloudElasticsearch) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ElasticCloudElasticsearch) validatePutLogsParameters(value *E
 }
 
 func (e *jsiiProxy_ElasticCloudElasticsearch) validatePutTimeoutsParameters(value *ElasticCloudElasticsearchTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticCloudElasticsearch) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

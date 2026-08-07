@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleRoleDefinitio
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermKeyVaultManagedHardwareSecurityModuleRoleDefinition) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermKeyVaultManagedHardwareSecurityModuleRoleDefinition_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

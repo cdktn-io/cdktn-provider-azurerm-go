@@ -5,10 +5,10 @@ package dataazurermstorageaccountblobcontainersas
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/jsii"
+	_init_ "github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/jsii"
 
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v16/dataazurermstorageaccountblobcontainersas/internal"
+	"github.com/cdktn-io/cdktn-provider-azurerm-go/azurerm/v17/dataazurermstorageaccountblobcontainersas/internal"
 	"github.com/open-constructs/cdk-terrain-go/cdktn"
 )
 
@@ -121,6 +121,19 @@ type DataAzurermStorageAccountBlobContainerSas interface {
 	OverrideLogicalId(newLogicalId *string)
 	PutPermissions(value *DataAzurermStorageAccountBlobContainerSasPermissions)
 	PutTimeouts(value *DataAzurermStorageAccountBlobContainerSasTimeouts)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
 	ResetCacheControl()
 	ResetContentDisposition()
 	ResetContentEncoding()
@@ -1104,6 +1117,17 @@ func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) PutTimeouts(value 
 		d,
 		"putTimeouts",
 		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataAzurermStorageAccountBlobContainerSas) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
 	)
 }
 

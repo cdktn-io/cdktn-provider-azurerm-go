@@ -59,6 +59,10 @@ func (a *jsiiProxy_AdvisorSuppression) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (a *jsiiProxy_AdvisorSuppression) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AdvisorSuppression) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AdvisorSuppression) validateOverrideLogicalIdParameters(newLo
 }
 
 func (a *jsiiProxy_AdvisorSuppression) validatePutTimeoutsParameters(value *AdvisorSuppressionTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AdvisorSuppression) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

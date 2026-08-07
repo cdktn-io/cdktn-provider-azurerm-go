@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappVolumeGroupSapHana) validateInterpolationForAttributePa
 	return nil
 }
 
+func (n *jsiiProxy_NetappVolumeGroupSapHana) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappVolumeGroupSapHana) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetappVolumeGroupSapHana) validatePutTimeoutsParameters(value
 }
 
 func (n *jsiiProxy_NetappVolumeGroupSapHana) validatePutVolumeParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappVolumeGroupSapHana) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

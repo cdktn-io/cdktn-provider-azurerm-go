@@ -59,6 +59,10 @@ func (w *jsiiProxy_WebPubsubNetworkAcl) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (w *jsiiProxy_WebPubsubNetworkAcl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WebPubsubNetworkAcl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (w *jsiiProxy_WebPubsubNetworkAcl) validatePutPublicNetworkParameters(value
 }
 
 func (w *jsiiProxy_WebPubsubNetworkAcl) validatePutTimeoutsParameters(value *WebPubsubNetworkAclTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WebPubsubNetworkAcl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

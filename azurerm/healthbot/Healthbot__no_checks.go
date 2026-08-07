@@ -59,6 +59,10 @@ func (h *jsiiProxy_Healthbot) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (h *jsiiProxy_Healthbot) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_Healthbot) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (h *jsiiProxy_Healthbot) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func (h *jsiiProxy_Healthbot) validatePutTimeoutsParameters(value *HealthbotTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_Healthbot) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

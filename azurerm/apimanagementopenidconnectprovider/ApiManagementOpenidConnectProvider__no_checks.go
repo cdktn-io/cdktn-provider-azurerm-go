@@ -59,6 +59,10 @@ func (a *jsiiProxy_ApiManagementOpenidConnectProvider) validateInterpolationForA
 	return nil
 }
 
+func (a *jsiiProxy_ApiManagementOpenidConnectProvider) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ApiManagementOpenidConnectProvider) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ApiManagementOpenidConnectProvider) validateOverrideLogicalId
 }
 
 func (a *jsiiProxy_ApiManagementOpenidConnectProvider) validatePutTimeoutsParameters(value *ApiManagementOpenidConnectProviderTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ApiManagementOpenidConnectProvider) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

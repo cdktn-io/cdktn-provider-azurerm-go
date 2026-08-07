@@ -59,6 +59,10 @@ func (b *jsiiProxy_BatchPool) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (b *jsiiProxy_BatchPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -144,6 +148,10 @@ func (b *jsiiProxy_BatchPool) validatePutUserAccountsParameters(value interface{
 }
 
 func (b *jsiiProxy_BatchPool) validatePutWindowsParameters(value interface{}) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

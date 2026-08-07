@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachineExtension) validateInterpolationForAttributePar
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachineExtension) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachineExtension) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VirtualMachineExtension) validatePutProtectedSettingsFromKeyV
 }
 
 func (v *jsiiProxy_VirtualMachineExtension) validatePutTimeoutsParameters(value *VirtualMachineExtensionTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachineExtension) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedDevopsPool) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (m *jsiiProxy_ManagedDevopsPool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedDevopsPool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (m *jsiiProxy_ManagedDevopsPool) validatePutTimeoutsParameters(value *Manag
 }
 
 func (m *jsiiProxy_ManagedDevopsPool) validatePutVirtualMachineScaleSetFabricParameters(value *ManagedDevopsPoolVirtualMachineScaleSetFabric) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedDevopsPool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

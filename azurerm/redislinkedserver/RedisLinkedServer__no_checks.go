@@ -59,6 +59,10 @@ func (r *jsiiProxy_RedisLinkedServer) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (r *jsiiProxy_RedisLinkedServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RedisLinkedServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RedisLinkedServer) validateOverrideLogicalIdParameters(newLog
 }
 
 func (r *jsiiProxy_RedisLinkedServer) validatePutTimeoutsParameters(value *RedisLinkedServerTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RedisLinkedServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (c *jsiiProxy_CdnEndpointCustomDomain) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_CdnEndpointCustomDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CdnEndpointCustomDomain) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_CdnEndpointCustomDomain) validatePutTimeoutsParameters(value 
 }
 
 func (c *jsiiProxy_CdnEndpointCustomDomain) validatePutUserManagedHttpsParameters(value *CdnEndpointCustomDomainUserManagedHttps) error {
+	return nil
+}
+
+func (c *jsiiProxy_CdnEndpointCustomDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

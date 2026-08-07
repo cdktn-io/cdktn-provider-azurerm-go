@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermTrafficManagerGeographicalLocation) validatePutTim
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermTrafficManagerGeographicalLocation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermTrafficManagerGeographicalLocation_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

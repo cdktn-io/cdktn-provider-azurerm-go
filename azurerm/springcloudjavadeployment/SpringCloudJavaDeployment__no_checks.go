@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudJavaDeployment) validateInterpolationForAttributeP
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudJavaDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudJavaDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_SpringCloudJavaDeployment) validatePutQuotaParameters(value *
 }
 
 func (s *jsiiProxy_SpringCloudJavaDeployment) validatePutTimeoutsParameters(value *SpringCloudJavaDeploymentTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudJavaDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

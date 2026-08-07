@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogicAppTriggerHttpRequest) validateInterpolationForAttribute
 	return nil
 }
 
+func (l *jsiiProxy_LogicAppTriggerHttpRequest) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogicAppTriggerHttpRequest) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LogicAppTriggerHttpRequest) validateOverrideLogicalIdParamete
 }
 
 func (l *jsiiProxy_LogicAppTriggerHttpRequest) validatePutTimeoutsParameters(value *LogicAppTriggerHttpRequestTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogicAppTriggerHttpRequest) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

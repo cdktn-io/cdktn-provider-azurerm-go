@@ -59,6 +59,10 @@ func (k *jsiiProxy_KeyVaultAccessPolicyA) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (k *jsiiProxy_KeyVaultAccessPolicyA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KeyVaultAccessPolicyA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KeyVaultAccessPolicyA) validateOverrideLogicalIdParameters(ne
 }
 
 func (k *jsiiProxy_KeyVaultAccessPolicyA) validatePutTimeoutsParameters(value *KeyVaultAccessPolicyTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KeyVaultAccessPolicyA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (k *jsiiProxy_KubernetesAutomaticCluster) validateInterpolationForAttribute
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesAutomaticCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesAutomaticCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (k *jsiiProxy_KubernetesAutomaticCluster) validatePutTimeoutsParameters(val
 }
 
 func (k *jsiiProxy_KubernetesAutomaticCluster) validatePutWebAppRoutingIngressParameters(value *KubernetesAutomaticClusterWebAppRoutingIngress) error {
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesAutomaticCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

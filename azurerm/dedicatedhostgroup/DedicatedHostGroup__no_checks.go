@@ -59,6 +59,10 @@ func (d *jsiiProxy_DedicatedHostGroup) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (d *jsiiProxy_DedicatedHostGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DedicatedHostGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DedicatedHostGroup) validateOverrideLogicalIdParameters(newLo
 }
 
 func (d *jsiiProxy_DedicatedHostGroup) validatePutTimeoutsParameters(value *DedicatedHostGroupTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DedicatedHostGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

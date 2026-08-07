@@ -59,6 +59,10 @@ func (n *jsiiProxy_NginxDeployment) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (n *jsiiProxy_NginxDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NginxDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -104,6 +108,10 @@ func (n *jsiiProxy_NginxDeployment) validatePutTimeoutsParameters(value *NginxDe
 }
 
 func (n *jsiiProxy_NginxDeployment) validatePutWebApplicationFirewallParameters(value *NginxDeploymentWebApplicationFirewall) error {
+	return nil
+}
+
+func (n *jsiiProxy_NginxDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

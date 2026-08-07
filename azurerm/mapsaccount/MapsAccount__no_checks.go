@@ -59,6 +59,10 @@ func (m *jsiiProxy_MapsAccount) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (m *jsiiProxy_MapsAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MapsAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_MapsAccount) validatePutIdentityParameters(value *MapsAccount
 }
 
 func (m *jsiiProxy_MapsAccount) validatePutTimeoutsParameters(value *MapsAccountTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MapsAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

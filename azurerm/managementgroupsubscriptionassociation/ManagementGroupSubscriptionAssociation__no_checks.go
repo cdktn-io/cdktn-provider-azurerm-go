@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) validateInterpolation
 	return nil
 }
 
+func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) validateOverrideLogic
 }
 
 func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) validatePutTimeoutsParameters(value *ManagementGroupSubscriptionAssociationTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagementGroupSubscriptionAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

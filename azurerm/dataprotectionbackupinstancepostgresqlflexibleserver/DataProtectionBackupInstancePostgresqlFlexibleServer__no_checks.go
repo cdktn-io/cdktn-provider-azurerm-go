@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validat
 	return nil
 }
 
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validat
 }
 
 func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validatePutTimeoutsParameters(value *DataProtectionBackupInstancePostgresqlFlexibleServerTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataProtectionBackupInstancePostgresqlFlexibleServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

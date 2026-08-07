@@ -59,6 +59,10 @@ func (c *jsiiProxy_CostManagementScheduledAction) validateInterpolationForAttrib
 	return nil
 }
 
+func (c *jsiiProxy_CostManagementScheduledAction) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CostManagementScheduledAction) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CostManagementScheduledAction) validateOverrideLogicalIdParam
 }
 
 func (c *jsiiProxy_CostManagementScheduledAction) validatePutTimeoutsParameters(value *CostManagementScheduledActionTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CostManagementScheduledAction) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

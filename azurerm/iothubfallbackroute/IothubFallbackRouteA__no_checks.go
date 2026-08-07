@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubFallbackRouteA) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (i *jsiiProxy_IothubFallbackRouteA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubFallbackRouteA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubFallbackRouteA) validateOverrideLogicalIdParameters(new
 }
 
 func (i *jsiiProxy_IothubFallbackRouteA) validatePutTimeoutsParameters(value *IothubFallbackRouteTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubFallbackRouteA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

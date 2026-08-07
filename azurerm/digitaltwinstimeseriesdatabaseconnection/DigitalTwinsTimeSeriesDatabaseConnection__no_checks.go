@@ -59,6 +59,10 @@ func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) validateInterpolati
 	return nil
 }
 
+func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) validateOverrideLog
 }
 
 func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) validatePutTimeoutsParameters(value *DigitalTwinsTimeSeriesDatabaseConnectionTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DigitalTwinsTimeSeriesDatabaseConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

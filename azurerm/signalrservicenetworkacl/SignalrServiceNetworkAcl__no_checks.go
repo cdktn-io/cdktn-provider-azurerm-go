@@ -59,6 +59,10 @@ func (s *jsiiProxy_SignalrServiceNetworkAcl) validateInterpolationForAttributePa
 	return nil
 }
 
+func (s *jsiiProxy_SignalrServiceNetworkAcl) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SignalrServiceNetworkAcl) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SignalrServiceNetworkAcl) validatePutPublicNetworkParameters(
 }
 
 func (s *jsiiProxy_SignalrServiceNetworkAcl) validatePutTimeoutsParameters(value *SignalrServiceNetworkAclTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SignalrServiceNetworkAcl) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (b *jsiiProxy_BatchAccount) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (b *jsiiProxy_BatchAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BatchAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (b *jsiiProxy_BatchAccount) validatePutNetworkProfileParameters(value *Batc
 }
 
 func (b *jsiiProxy_BatchAccount) validatePutTimeoutsParameters(value *BatchAccountTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BatchAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

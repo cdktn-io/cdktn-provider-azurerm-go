@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbGremlinGraph) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbGremlinGraph) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbGremlinGraph) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (c *jsiiProxy_CosmosdbGremlinGraph) validatePutTimeoutsParameters(value *Co
 }
 
 func (c *jsiiProxy_CosmosdbGremlinGraph) validatePutUniqueKeyParameters(value interface{}) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbGremlinGraph) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

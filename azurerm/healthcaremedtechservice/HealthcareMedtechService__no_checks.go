@@ -59,6 +59,10 @@ func (h *jsiiProxy_HealthcareMedtechService) validateInterpolationForAttributePa
 	return nil
 }
 
+func (h *jsiiProxy_HealthcareMedtechService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HealthcareMedtechService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (h *jsiiProxy_HealthcareMedtechService) validatePutIdentityParameters(value
 }
 
 func (h *jsiiProxy_HealthcareMedtechService) validatePutTimeoutsParameters(value *HealthcareMedtechServiceTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HealthcareMedtechService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

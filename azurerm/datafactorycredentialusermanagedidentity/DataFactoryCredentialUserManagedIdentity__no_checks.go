@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateInterpolati
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateOverrideLog
 }
 
 func (d *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validatePutTimeoutsParameters(value *DataFactoryCredentialUserManagedIdentityTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryCredentialUserManagedIdentity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

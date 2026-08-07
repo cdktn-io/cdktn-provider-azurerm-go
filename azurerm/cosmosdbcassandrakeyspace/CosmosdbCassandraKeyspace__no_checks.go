@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbCassandraKeyspace) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbCassandraKeyspace) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbCassandraKeyspace) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CosmosdbCassandraKeyspace) validatePutAutoscaleSettingsParame
 }
 
 func (c *jsiiProxy_CosmosdbCassandraKeyspace) validatePutTimeoutsParameters(value *CosmosdbCassandraKeyspaceTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbCassandraKeyspace) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

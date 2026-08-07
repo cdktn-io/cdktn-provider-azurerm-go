@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlElasticpool) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (m *jsiiProxy_MssqlElasticpool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlElasticpool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (m *jsiiProxy_MssqlElasticpool) validatePutSkuParameters(value *MssqlElasti
 }
 
 func (m *jsiiProxy_MssqlElasticpool) validatePutTimeoutsParameters(value *MssqlElasticpoolTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlElasticpool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

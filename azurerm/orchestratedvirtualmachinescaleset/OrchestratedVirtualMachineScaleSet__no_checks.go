@@ -59,6 +59,10 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateInterpolationForA
 	return nil
 }
 
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -136,6 +140,10 @@ func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) validatePutTerminationNot
 }
 
 func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) validatePutTimeoutsParameters(value *OrchestratedVirtualMachineScaleSetTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OrchestratedVirtualMachineScaleSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

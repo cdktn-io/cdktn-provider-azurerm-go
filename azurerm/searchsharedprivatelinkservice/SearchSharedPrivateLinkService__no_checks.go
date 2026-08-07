@@ -59,6 +59,10 @@ func (s *jsiiProxy_SearchSharedPrivateLinkService) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SearchSharedPrivateLinkService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SearchSharedPrivateLinkService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SearchSharedPrivateLinkService) validateOverrideLogicalIdPara
 }
 
 func (s *jsiiProxy_SearchSharedPrivateLinkService) validatePutTimeoutsParameters(value *SearchSharedPrivateLinkServiceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SearchSharedPrivateLinkService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

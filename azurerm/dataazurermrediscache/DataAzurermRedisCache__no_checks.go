@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermRedisCache) validatePutTimeoutsParameters(value *D
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermRedisCache) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermRedisCache_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateInt
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateOve
 }
 
 func (s *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validatePutTimeoutsParameters(value *SentinelDataConnectorMicrosoftThreatIntelligenceTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftThreatIntelligence) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

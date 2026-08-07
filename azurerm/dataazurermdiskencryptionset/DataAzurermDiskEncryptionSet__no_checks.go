@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermDiskEncryptionSet) validatePutTimeoutsParameters(v
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermDiskEncryptionSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermDiskEncryptionSet_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

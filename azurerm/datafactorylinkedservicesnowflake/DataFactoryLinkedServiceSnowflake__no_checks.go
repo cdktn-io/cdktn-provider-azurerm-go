@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSnowflake) validateInterpolationForAt
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceSnowflake) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceSnowflake) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSnowflake) validatePutKeyVaultPasswor
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceSnowflake) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceSnowflakeTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceSnowflake) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

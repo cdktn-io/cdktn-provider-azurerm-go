@@ -59,6 +59,10 @@ func (t *jsiiProxy_TrafficManagerNestedEndpoint) validateInterpolationForAttribu
 	return nil
 }
 
+func (t *jsiiProxy_TrafficManagerNestedEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TrafficManagerNestedEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (t *jsiiProxy_TrafficManagerNestedEndpoint) validatePutSubnetParameters(val
 }
 
 func (t *jsiiProxy_TrafficManagerNestedEndpoint) validatePutTimeoutsParameters(value *TrafficManagerNestedEndpointTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TrafficManagerNestedEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

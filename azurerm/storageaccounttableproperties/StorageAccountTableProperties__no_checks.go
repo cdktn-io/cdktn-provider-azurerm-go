@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageAccountTableProperties) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_StorageAccountTableProperties) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageAccountTableProperties) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (s *jsiiProxy_StorageAccountTableProperties) validatePutMinuteMetricsParame
 }
 
 func (s *jsiiProxy_StorageAccountTableProperties) validatePutTimeoutsParameters(value *StorageAccountTablePropertiesTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageAccountTableProperties) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

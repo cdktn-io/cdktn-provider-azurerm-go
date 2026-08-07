@@ -59,6 +59,10 @@ func (e *jsiiProxy_ElasticSanVolume) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (e *jsiiProxy_ElasticSanVolume) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ElasticSanVolume) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ElasticSanVolume) validatePutCreateSourceParameters(value *El
 }
 
 func (e *jsiiProxy_ElasticSanVolume) validatePutTimeoutsParameters(value *ElasticSanVolumeTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ElasticSanVolume) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

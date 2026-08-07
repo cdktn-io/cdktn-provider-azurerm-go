@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedDisk) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (m *jsiiProxy_ManagedDisk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedDisk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (m *jsiiProxy_ManagedDisk) validatePutEncryptionSettingsParameters(value *M
 }
 
 func (m *jsiiProxy_ManagedDisk) validatePutTimeoutsParameters(value *ManagedDiskTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedDisk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

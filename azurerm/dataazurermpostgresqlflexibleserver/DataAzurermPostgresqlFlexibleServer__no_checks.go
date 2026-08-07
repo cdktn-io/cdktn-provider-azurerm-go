@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) validatePutTimeoutsParam
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermPostgresqlFlexibleServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermPostgresqlFlexibleServer_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

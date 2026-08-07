@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedRedis) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (m *jsiiProxy_ManagedRedis) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedRedis) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (m *jsiiProxy_ManagedRedis) validatePutIdentityParameters(value *ManagedRed
 }
 
 func (m *jsiiProxy_ManagedRedis) validatePutTimeoutsParameters(value *ManagedRedisTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedRedis) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

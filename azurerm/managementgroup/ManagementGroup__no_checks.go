@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagementGroup) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (m *jsiiProxy_ManagementGroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagementGroup) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_ManagementGroup) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (m *jsiiProxy_ManagementGroup) validatePutTimeoutsParameters(value *ManagementGroupTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagementGroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

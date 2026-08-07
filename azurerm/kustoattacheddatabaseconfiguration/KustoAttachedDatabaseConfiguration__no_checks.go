@@ -59,6 +59,10 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) validateInterpolationForA
 	return nil
 }
 
+func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) validatePutSharingParamet
 }
 
 func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) validatePutTimeoutsParameters(value *KustoAttachedDatabaseConfigurationTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KustoAttachedDatabaseConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

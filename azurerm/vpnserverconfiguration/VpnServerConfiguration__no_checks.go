@@ -59,6 +59,10 @@ func (v *jsiiProxy_VpnServerConfiguration) validateInterpolationForAttributePara
 	return nil
 }
 
+func (v *jsiiProxy_VpnServerConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VpnServerConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (v *jsiiProxy_VpnServerConfiguration) validatePutRadiusParameters(value *Vp
 }
 
 func (v *jsiiProxy_VpnServerConfiguration) validatePutTimeoutsParameters(value *VpnServerConfigurationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VpnServerConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

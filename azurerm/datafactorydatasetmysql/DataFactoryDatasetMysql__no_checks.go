@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryDatasetMysql) validateInterpolationForAttributePar
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryDatasetMysql) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryDatasetMysql) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryDatasetMysql) validatePutSchemaColumnParameters(va
 }
 
 func (d *jsiiProxy_DataFactoryDatasetMysql) validatePutTimeoutsParameters(value *DataFactoryDatasetMysqlTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryDatasetMysql) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

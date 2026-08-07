@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotChannelDirectline) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (b *jsiiProxy_BotChannelDirectline) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotChannelDirectline) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (b *jsiiProxy_BotChannelDirectline) validatePutSiteParameters(value interfa
 }
 
 func (b *jsiiProxy_BotChannelDirectline) validatePutTimeoutsParameters(value *BotChannelDirectlineTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotChannelDirectline) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

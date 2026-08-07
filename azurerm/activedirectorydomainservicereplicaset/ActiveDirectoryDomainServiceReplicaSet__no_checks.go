@@ -59,6 +59,10 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSet) validateInterpolation
 	return nil
 }
 
+func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSet) validateOverrideLogic
 }
 
 func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSet) validatePutTimeoutsParameters(value *ActiveDirectoryDomainServiceReplicaSetTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_ActiveDirectoryDomainServiceReplicaSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

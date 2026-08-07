@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutomationWebhook) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (a *jsiiProxy_AutomationWebhook) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutomationWebhook) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_AutomationWebhook) validateOverrideLogicalIdParameters(newLog
 }
 
 func (a *jsiiProxy_AutomationWebhook) validatePutTimeoutsParameters(value *AutomationWebhookTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutomationWebhook) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

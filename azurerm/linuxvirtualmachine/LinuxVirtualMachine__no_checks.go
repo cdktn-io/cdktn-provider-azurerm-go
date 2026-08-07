@@ -59,6 +59,10 @@ func (l *jsiiProxy_LinuxVirtualMachine) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (l *jsiiProxy_LinuxVirtualMachine) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LinuxVirtualMachine) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (l *jsiiProxy_LinuxVirtualMachine) validatePutTerminationNotificationParame
 }
 
 func (l *jsiiProxy_LinuxVirtualMachine) validatePutTimeoutsParameters(value *LinuxVirtualMachineTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LinuxVirtualMachine) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

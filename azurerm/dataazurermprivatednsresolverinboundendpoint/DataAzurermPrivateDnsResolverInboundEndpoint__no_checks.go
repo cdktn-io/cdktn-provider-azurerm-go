@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermPrivateDnsResolverInboundEndpoint) validatePutTime
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermPrivateDnsResolverInboundEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermPrivateDnsResolverInboundEndpoint_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

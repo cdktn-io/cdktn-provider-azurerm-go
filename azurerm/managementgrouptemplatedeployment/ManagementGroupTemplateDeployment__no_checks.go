@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagementGroupTemplateDeployment) validateInterpolationForAt
 	return nil
 }
 
+func (m *jsiiProxy_ManagementGroupTemplateDeployment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagementGroupTemplateDeployment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_ManagementGroupTemplateDeployment) validateOverrideLogicalIdP
 }
 
 func (m *jsiiProxy_ManagementGroupTemplateDeployment) validatePutTimeoutsParameters(value *ManagementGroupTemplateDeploymentTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagementGroupTemplateDeployment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

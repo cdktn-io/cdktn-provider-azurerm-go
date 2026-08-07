@@ -59,6 +59,10 @@ func (k *jsiiProxy_KubernetesCluster) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -192,6 +196,10 @@ func (k *jsiiProxy_KubernetesCluster) validatePutWindowsProfileParameters(value 
 }
 
 func (k *jsiiProxy_KubernetesCluster) validatePutWorkloadAutoscalerProfileParameters(value *KubernetesClusterWorkloadAutoscalerProfile) error {
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

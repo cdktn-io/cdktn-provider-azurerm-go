@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorAwsS3) validateInterpolationForAttribute
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorAwsS3) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorAwsS3) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorAwsS3) validateOverrideLogicalIdParamete
 }
 
 func (s *jsiiProxy_SentinelDataConnectorAwsS3) validatePutTimeoutsParameters(value *SentinelDataConnectorAwsS3Timeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorAwsS3) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (i *jsiiProxy_IothubSharedAccessPolicyA) validateInterpolationForAttributeP
 	return nil
 }
 
+func (i *jsiiProxy_IothubSharedAccessPolicyA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IothubSharedAccessPolicyA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (i *jsiiProxy_IothubSharedAccessPolicyA) validateOverrideLogicalIdParameter
 }
 
 func (i *jsiiProxy_IothubSharedAccessPolicyA) validatePutTimeoutsParameters(value *IothubSharedAccessPolicyTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IothubSharedAccessPolicyA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

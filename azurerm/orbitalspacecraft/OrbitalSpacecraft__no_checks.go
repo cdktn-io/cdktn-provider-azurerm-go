@@ -59,6 +59,10 @@ func (o *jsiiProxy_OrbitalSpacecraft) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (o *jsiiProxy_OrbitalSpacecraft) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (o *jsiiProxy_OrbitalSpacecraft) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (o *jsiiProxy_OrbitalSpacecraft) validatePutLinksParameters(value interface
 }
 
 func (o *jsiiProxy_OrbitalSpacecraft) validatePutTimeoutsParameters(value *OrbitalSpacecraftTimeouts) error {
+	return nil
+}
+
+func (o *jsiiProxy_OrbitalSpacecraft) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageDataLakeGen2Path) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_StorageDataLakeGen2Path) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageDataLakeGen2Path) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StorageDataLakeGen2Path) validatePutAceParameters(value inter
 }
 
 func (s *jsiiProxy_StorageDataLakeGen2Path) validatePutTimeoutsParameters(value *StorageDataLakeGen2PathTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageDataLakeGen2Path) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

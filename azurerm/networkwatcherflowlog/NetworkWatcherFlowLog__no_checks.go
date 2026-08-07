@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkWatcherFlowLog) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (n *jsiiProxy_NetworkWatcherFlowLog) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkWatcherFlowLog) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkWatcherFlowLog) validatePutTimeoutsParameters(value *N
 }
 
 func (n *jsiiProxy_NetworkWatcherFlowLog) validatePutTrafficAnalyticsParameters(value *NetworkWatcherFlowLogTrafficAnalytics) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkWatcherFlowLog) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

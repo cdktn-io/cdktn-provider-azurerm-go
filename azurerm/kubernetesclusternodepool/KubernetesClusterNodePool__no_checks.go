@@ -59,6 +59,10 @@ func (k *jsiiProxy_KubernetesClusterNodePool) validateInterpolationForAttributeP
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesClusterNodePool) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesClusterNodePool) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -96,6 +100,10 @@ func (k *jsiiProxy_KubernetesClusterNodePool) validatePutUpgradeSettingsParamete
 }
 
 func (k *jsiiProxy_KubernetesClusterNodePool) validatePutWindowsProfileParameters(value *KubernetesClusterNodePoolWindowsProfile) error {
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesClusterNodePool) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (m *jsiiProxy_MssqlManagedDatabase) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (m *jsiiProxy_MssqlManagedDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_MssqlManagedDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (m *jsiiProxy_MssqlManagedDatabase) validatePutPointInTimeRestoreParameters
 }
 
 func (m *jsiiProxy_MssqlManagedDatabase) validatePutTimeoutsParameters(value *MssqlManagedDatabaseTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_MssqlManagedDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

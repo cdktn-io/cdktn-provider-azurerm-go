@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudGatewayRouteConfig) validateInterpolationForAttrib
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudGatewayRouteConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudGatewayRouteConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_SpringCloudGatewayRouteConfig) validatePutRouteParameters(val
 }
 
 func (s *jsiiProxy_SpringCloudGatewayRouteConfig) validatePutTimeoutsParameters(value *SpringCloudGatewayRouteConfigTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudGatewayRouteConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

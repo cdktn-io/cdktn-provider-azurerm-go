@@ -122,6 +122,14 @@ func (l *jsiiProxy_LogicAppStandard) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (l *jsiiProxy_LogicAppStandard) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (l *jsiiProxy_LogicAppStandard) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -266,6 +274,14 @@ func (l *jsiiProxy_LogicAppStandard) validatePutTimeoutsParameters(value *LogicA
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (l *jsiiProxy_LogicAppStandard) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

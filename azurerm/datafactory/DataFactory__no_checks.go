@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactory) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (d *jsiiProxy_DataFactory) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactory) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (d *jsiiProxy_DataFactory) validatePutTimeoutsParameters(value *DataFactory
 }
 
 func (d *jsiiProxy_DataFactory) validatePutVstsConfigurationParameters(value *DataFactoryVstsConfiguration) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactory) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

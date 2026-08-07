@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateInter
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateOverr
 }
 
 func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validatePutTimeoutsParameters(value *SentinelDataConnectorMicrosoftCloudAppSecurityTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

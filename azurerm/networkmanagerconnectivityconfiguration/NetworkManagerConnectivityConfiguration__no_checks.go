@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) validateInterpolatio
 	return nil
 }
 
+func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) validatePutHubParame
 }
 
 func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) validatePutTimeoutsParameters(value *NetworkManagerConnectivityConfigurationTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkManagerConnectivityConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

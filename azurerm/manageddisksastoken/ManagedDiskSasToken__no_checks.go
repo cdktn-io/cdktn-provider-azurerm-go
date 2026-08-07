@@ -59,6 +59,10 @@ func (m *jsiiProxy_ManagedDiskSasToken) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (m *jsiiProxy_ManagedDiskSasToken) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (m *jsiiProxy_ManagedDiskSasToken) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (m *jsiiProxy_ManagedDiskSasToken) validateOverrideLogicalIdParameters(newL
 }
 
 func (m *jsiiProxy_ManagedDiskSasToken) validatePutTimeoutsParameters(value *ManagedDiskSasTokenTimeouts) error {
+	return nil
+}
+
+func (m *jsiiProxy_ManagedDiskSasToken) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

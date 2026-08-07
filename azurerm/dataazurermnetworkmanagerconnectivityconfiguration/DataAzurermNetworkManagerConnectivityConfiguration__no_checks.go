@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) validateP
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermNetworkManagerConnectivityConfiguration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermNetworkManagerConnectivityConfiguration_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

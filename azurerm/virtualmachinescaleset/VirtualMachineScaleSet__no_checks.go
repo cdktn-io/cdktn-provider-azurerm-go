@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachineScaleSet) validateInterpolationForAttributePara
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachineScaleSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachineScaleSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -132,6 +136,10 @@ func (v *jsiiProxy_VirtualMachineScaleSet) validatePutStorageProfileOsDiskParame
 }
 
 func (v *jsiiProxy_VirtualMachineScaleSet) validatePutTimeoutsParameters(value *VirtualMachineScaleSetTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachineScaleSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

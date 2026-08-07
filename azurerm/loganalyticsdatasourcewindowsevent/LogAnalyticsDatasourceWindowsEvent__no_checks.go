@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateInterpolationForA
 	return nil
 }
 
+func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateOverrideLogicalId
 }
 
 func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validatePutTimeoutsParameters(value *LogAnalyticsDatasourceWindowsEventTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogAnalyticsDatasourceWindowsEvent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) validateInterpolationFor
 	return nil
 }
 
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) validatePutIpRuleParamet
 }
 
 func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) validatePutTimeoutsParameters(value *IotcentralApplicationNetworkRuleSetTimeouts) error {
+	return nil
+}
+
+func (i *jsiiProxy_IotcentralApplicationNetworkRuleSet) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

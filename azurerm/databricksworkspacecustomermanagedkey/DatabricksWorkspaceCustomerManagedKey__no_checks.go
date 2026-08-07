@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateInterpolationF
 	return nil
 }
 
+func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateOverrideLogica
 }
 
 func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validatePutTimeoutsParameters(value *DatabricksWorkspaceCustomerManagedKeyTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatabricksWorkspaceCustomerManagedKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (s *jsiiProxy_StackHciLogicalNetwork) validateInterpolationForAttributePara
 	return nil
 }
 
+func (s *jsiiProxy_StackHciLogicalNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StackHciLogicalNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StackHciLogicalNetwork) validatePutSubnetParameters(value *St
 }
 
 func (s *jsiiProxy_StackHciLogicalNetwork) validatePutTimeoutsParameters(value *StackHciLogicalNetworkTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StackHciLogicalNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

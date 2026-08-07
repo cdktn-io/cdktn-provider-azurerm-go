@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnections) validatePut
 	return nil
 }
 
+func (d *jsiiProxy_DataAzurermPrivateLinkServiceEndpointConnections) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
 func validateDataAzurermPrivateLinkServiceEndpointConnections_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
 	return nil
 }

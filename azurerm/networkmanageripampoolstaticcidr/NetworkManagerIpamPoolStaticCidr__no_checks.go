@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkManagerIpamPoolStaticCidr) validateInterpolationForAtt
 	return nil
 }
 
+func (n *jsiiProxy_NetworkManagerIpamPoolStaticCidr) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkManagerIpamPoolStaticCidr) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (n *jsiiProxy_NetworkManagerIpamPoolStaticCidr) validateOverrideLogicalIdPa
 }
 
 func (n *jsiiProxy_NetworkManagerIpamPoolStaticCidr) validatePutTimeoutsParameters(value *NetworkManagerIpamPoolStaticCidrTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkManagerIpamPoolStaticCidr) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

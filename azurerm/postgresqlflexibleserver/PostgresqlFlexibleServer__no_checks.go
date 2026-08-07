@@ -59,6 +59,10 @@ func (p *jsiiProxy_PostgresqlFlexibleServer) validateInterpolationForAttributePa
 	return nil
 }
 
+func (p *jsiiProxy_PostgresqlFlexibleServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PostgresqlFlexibleServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -100,6 +104,10 @@ func (p *jsiiProxy_PostgresqlFlexibleServer) validatePutMaintenanceWindowParamet
 }
 
 func (p *jsiiProxy_PostgresqlFlexibleServer) validatePutTimeoutsParameters(value *PostgresqlFlexibleServerTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PostgresqlFlexibleServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

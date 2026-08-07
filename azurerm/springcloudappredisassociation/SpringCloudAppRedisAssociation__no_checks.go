@@ -59,6 +59,10 @@ func (s *jsiiProxy_SpringCloudAppRedisAssociation) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SpringCloudAppRedisAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SpringCloudAppRedisAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SpringCloudAppRedisAssociation) validateOverrideLogicalIdPara
 }
 
 func (s *jsiiProxy_SpringCloudAppRedisAssociation) validatePutTimeoutsParameters(value *SpringCloudAppRedisAssociationTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SpringCloudAppRedisAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

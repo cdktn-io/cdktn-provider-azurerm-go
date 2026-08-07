@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynapseRoleAssignment) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (s *jsiiProxy_SynapseRoleAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynapseRoleAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SynapseRoleAssignment) validateOverrideLogicalIdParameters(ne
 }
 
 func (s *jsiiProxy_SynapseRoleAssignment) validatePutTimeoutsParameters(value *SynapseRoleAssignmentTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynapseRoleAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

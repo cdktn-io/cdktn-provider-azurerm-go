@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitiveAccountConnectionApiKey) validateInterpolationForAtt
 	return nil
 }
 
+func (c *jsiiProxy_CognitiveAccountConnectionApiKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitiveAccountConnectionApiKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CognitiveAccountConnectionApiKey) validateOverrideLogicalIdPa
 }
 
 func (c *jsiiProxy_CognitiveAccountConnectionApiKey) validatePutTimeoutsParameters(value *CognitiveAccountConnectionApiKeyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitiveAccountConnectionApiKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

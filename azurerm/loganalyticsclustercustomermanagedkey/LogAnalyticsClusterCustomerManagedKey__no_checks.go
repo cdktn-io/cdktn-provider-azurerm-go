@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) validateInterpolationF
 	return nil
 }
 
+func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) validateOverrideLogica
 }
 
 func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) validatePutTimeoutsParameters(value *LogAnalyticsClusterCustomerManagedKeyTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogAnalyticsClusterCustomerManagedKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

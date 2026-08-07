@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualDesktopScalingPlan) validateInterpolationForAttributeP
 	return nil
 }
 
+func (v *jsiiProxy_VirtualDesktopScalingPlan) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualDesktopScalingPlan) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VirtualDesktopScalingPlan) validatePutScheduleParameters(valu
 }
 
 func (v *jsiiProxy_VirtualDesktopScalingPlan) validatePutTimeoutsParameters(value *VirtualDesktopScalingPlanTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualDesktopScalingPlan) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

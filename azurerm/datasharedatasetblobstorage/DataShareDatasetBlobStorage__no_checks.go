@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataShareDatasetBlobStorage) validateInterpolationForAttribut
 	return nil
 }
 
+func (d *jsiiProxy_DataShareDatasetBlobStorage) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataShareDatasetBlobStorage) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataShareDatasetBlobStorage) validatePutStorageAccountParamet
 }
 
 func (d *jsiiProxy_DataShareDatasetBlobStorage) validatePutTimeoutsParameters(value *DataShareDatasetBlobStorageTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataShareDatasetBlobStorage) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -122,6 +122,14 @@ func (v *jsiiProxy_VpnGatewayConnection) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (v *jsiiProxy_VpnGatewayConnection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (v *jsiiProxy_VpnGatewayConnection) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -286,6 +294,14 @@ func (v *jsiiProxy_VpnGatewayConnection) validatePutVpnLinkParameters(value inte
 		if !_jsii_.IsAnonymousProxy(value) {
 			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*VpnGatewayConnectionVpnLink; received %#v (a %T)", value, value)
 		}
+	}
+
+	return nil
+}
+
+func (v *jsiiProxy_VpnGatewayConnection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

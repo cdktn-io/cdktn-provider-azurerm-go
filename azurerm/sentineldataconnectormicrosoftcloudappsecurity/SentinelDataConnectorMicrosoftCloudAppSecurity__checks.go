@@ -122,6 +122,14 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateInter
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validatePutTi
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorMicrosoftCloudAppSecurity) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

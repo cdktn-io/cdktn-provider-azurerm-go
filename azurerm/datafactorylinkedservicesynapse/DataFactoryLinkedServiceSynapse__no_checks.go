@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSynapse) validateInterpolationForAttr
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceSynapse) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceSynapse) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceSynapse) validatePutKeyVaultPasswordP
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceSynapse) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceSynapseTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceSynapse) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

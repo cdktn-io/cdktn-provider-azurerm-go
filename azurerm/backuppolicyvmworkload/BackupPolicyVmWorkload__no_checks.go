@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupPolicyVmWorkload) validateInterpolationForAttributePara
 	return nil
 }
 
+func (b *jsiiProxy_BackupPolicyVmWorkload) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupPolicyVmWorkload) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (b *jsiiProxy_BackupPolicyVmWorkload) validatePutSettingsParameters(value *
 }
 
 func (b *jsiiProxy_BackupPolicyVmWorkload) validatePutTimeoutsParameters(value *BackupPolicyVmWorkloadTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupPolicyVmWorkload) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

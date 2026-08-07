@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbPostgresqlCluster) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbPostgresqlCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbPostgresqlCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CosmosdbPostgresqlCluster) validatePutMaintenanceWindowParame
 }
 
 func (c *jsiiProxy_CosmosdbPostgresqlCluster) validatePutTimeoutsParameters(value *CosmosdbPostgresqlClusterTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbPostgresqlCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

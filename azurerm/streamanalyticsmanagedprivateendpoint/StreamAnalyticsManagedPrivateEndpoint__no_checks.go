@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) validateInterpolationF
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) validateOverrideLogica
 }
 
 func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) validatePutTimeoutsParameters(value *StreamAnalyticsManagedPrivateEndpointTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsManagedPrivateEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (k *jsiiProxy_KubernetesClusterDeploymentSafeguard) validateInterpolationFo
 	return nil
 }
 
+func (k *jsiiProxy_KubernetesClusterDeploymentSafeguard) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KubernetesClusterDeploymentSafeguard) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KubernetesClusterDeploymentSafeguard) validateOverrideLogical
 }
 
 func (k *jsiiProxy_KubernetesClusterDeploymentSafeguard) validatePutTimeoutsParameters(value *KubernetesClusterDeploymentSafeguardTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KubernetesClusterDeploymentSafeguard) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

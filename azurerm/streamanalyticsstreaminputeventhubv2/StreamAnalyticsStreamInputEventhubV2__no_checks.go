@@ -59,6 +59,10 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) validateInterpolationFo
 	return nil
 }
 
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) validatePutSerializatio
 }
 
 func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) validatePutTimeoutsParameters(value *StreamAnalyticsStreamInputEventhubV2Timeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StreamAnalyticsStreamInputEventhubV2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

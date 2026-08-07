@@ -59,6 +59,10 @@ func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateInterpolationFor
 	return nil
 }
 
+func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateOverrideLogicalI
 }
 
 func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validatePutTimeoutsParameters(value *CognitiveAccountCustomerManagedKeyTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CognitiveAccountCustomerManagedKeyA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

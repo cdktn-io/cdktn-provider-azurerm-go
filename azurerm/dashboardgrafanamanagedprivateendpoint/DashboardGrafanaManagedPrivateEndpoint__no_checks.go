@@ -59,6 +59,10 @@ func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpoint) validateInterpolation
 	return nil
 }
 
+func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpoint) validateOverrideLogic
 }
 
 func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpoint) validatePutTimeoutsParameters(value *DashboardGrafanaManagedPrivateEndpointTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DashboardGrafanaManagedPrivateEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

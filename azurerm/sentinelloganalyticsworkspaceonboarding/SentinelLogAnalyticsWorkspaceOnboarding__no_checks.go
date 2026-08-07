@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) validateInterpolatio
 	return nil
 }
 
+func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) validateOverrideLogi
 }
 
 func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) validatePutTimeoutsParameters(value *SentinelLogAnalyticsWorkspaceOnboardingTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelLogAnalyticsWorkspaceOnboarding) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

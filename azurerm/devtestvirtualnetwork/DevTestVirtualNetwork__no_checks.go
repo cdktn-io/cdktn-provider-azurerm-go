@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevTestVirtualNetwork) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (d *jsiiProxy_DevTestVirtualNetwork) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevTestVirtualNetwork) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DevTestVirtualNetwork) validatePutSubnetParameters(value *Dev
 }
 
 func (d *jsiiProxy_DevTestVirtualNetwork) validatePutTimeoutsParameters(value *DevTestVirtualNetworkTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevTestVirtualNetwork) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

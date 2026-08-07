@@ -59,6 +59,10 @@ func (a *jsiiProxy_AutomationConnectionType) validateInterpolationForAttributePa
 	return nil
 }
 
+func (a *jsiiProxy_AutomationConnectionType) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_AutomationConnectionType) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (a *jsiiProxy_AutomationConnectionType) validatePutFieldParameters(value in
 }
 
 func (a *jsiiProxy_AutomationConnectionType) validatePutTimeoutsParameters(value *AutomationConnectionTypeTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_AutomationConnectionType) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

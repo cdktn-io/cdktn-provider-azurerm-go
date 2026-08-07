@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerAppEnvironmentDaprComponent) validateInterpolationFo
 	return nil
 }
 
+func (c *jsiiProxy_ContainerAppEnvironmentDaprComponent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerAppEnvironmentDaprComponent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (c *jsiiProxy_ContainerAppEnvironmentDaprComponent) validatePutSecretParame
 }
 
 func (c *jsiiProxy_ContainerAppEnvironmentDaprComponent) validatePutTimeoutsParameters(value *ContainerAppEnvironmentDaprComponentTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerAppEnvironmentDaprComponent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

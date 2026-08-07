@@ -59,6 +59,10 @@ func (k *jsiiProxy_KustoScript) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (k *jsiiProxy_KustoScript) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (k *jsiiProxy_KustoScript) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (k *jsiiProxy_KustoScript) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (k *jsiiProxy_KustoScript) validatePutTimeoutsParameters(value *KustoScriptTimeouts) error {
+	return nil
+}
+
+func (k *jsiiProxy_KustoScript) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateInterpolatio
 	return nil
 }
 
+func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateOverrideLogi
 }
 
 func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validatePutTimeoutsParameters(value *EventhubNamespaceDisasterRecoveryConfigTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventhubNamespaceDisasterRecoveryConfig) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

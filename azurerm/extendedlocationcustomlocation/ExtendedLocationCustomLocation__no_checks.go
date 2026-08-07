@@ -59,6 +59,10 @@ func (e *jsiiProxy_ExtendedLocationCustomLocation) validateInterpolationForAttri
 	return nil
 }
 
+func (e *jsiiProxy_ExtendedLocationCustomLocation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_ExtendedLocationCustomLocation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (e *jsiiProxy_ExtendedLocationCustomLocation) validatePutAuthenticationPara
 }
 
 func (e *jsiiProxy_ExtendedLocationCustomLocation) validatePutTimeoutsParameters(value *ExtendedLocationCustomLocationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_ExtendedLocationCustomLocation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) validateInterpolationForAtt
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) validatePutSchemaColumnPara
 }
 
 func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) validatePutTimeoutsParameters(value *DataFactoryDatasetCosmosdbSqlapiTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryDatasetCosmosdbSqlapi) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

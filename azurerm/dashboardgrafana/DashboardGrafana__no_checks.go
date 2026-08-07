@@ -59,6 +59,10 @@ func (d *jsiiProxy_DashboardGrafana) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (d *jsiiProxy_DashboardGrafana) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DashboardGrafana) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DashboardGrafana) validatePutSmtpParameters(value *DashboardG
 }
 
 func (d *jsiiProxy_DashboardGrafana) validatePutTimeoutsParameters(value *DashboardGrafanaTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DashboardGrafana) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

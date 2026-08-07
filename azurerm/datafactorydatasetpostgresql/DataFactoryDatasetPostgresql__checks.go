@@ -122,6 +122,14 @@ func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -244,6 +252,14 @@ func (d *jsiiProxy_DataFactoryDatasetPostgresql) validatePutTimeoutsParameters(v
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryDatasetPostgresql) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

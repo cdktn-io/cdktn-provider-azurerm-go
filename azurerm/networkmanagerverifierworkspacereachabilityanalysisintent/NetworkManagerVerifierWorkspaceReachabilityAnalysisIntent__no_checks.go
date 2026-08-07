@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) va
 	return nil
 }
 
+func (n *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) va
 }
 
 func (n *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) validatePutTimeoutsParameters(value *NetworkManagerVerifierWorkspaceReachabilityAnalysisIntentTimeouts) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetworkManagerVerifierWorkspaceReachabilityAnalysisIntent) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

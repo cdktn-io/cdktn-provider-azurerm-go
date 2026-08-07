@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceOdata) validateInterpolationForAttrib
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceOdata) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceOdata) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceOdata) validatePutBasicAuthentication
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceOdata) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceOdataTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceOdata) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

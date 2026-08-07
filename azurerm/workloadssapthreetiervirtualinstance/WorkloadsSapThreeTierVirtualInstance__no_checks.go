@@ -59,6 +59,10 @@ func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstance) validateInterpolationFo
 	return nil
 }
 
+func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstance) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstance) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstance) validatePutThreeTierCon
 }
 
 func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstance) validatePutTimeoutsParameters(value *WorkloadsSapThreeTierVirtualInstanceTimeouts) error {
+	return nil
+}
+
+func (w *jsiiProxy_WorkloadsSapThreeTierVirtualInstance) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

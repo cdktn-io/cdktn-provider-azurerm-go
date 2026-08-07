@@ -59,6 +59,10 @@ func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) validateInterpola
 	return nil
 }
 
+func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) validateOverrideL
 }
 
 func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) validatePutTimeoutsParameters(value *CommunicationServiceEmailDomainAssociationTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CommunicationServiceEmailDomainAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

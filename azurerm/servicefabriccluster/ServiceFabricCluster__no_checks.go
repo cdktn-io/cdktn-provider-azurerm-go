@@ -59,6 +59,10 @@ func (s *jsiiProxy_ServiceFabricCluster) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (s *jsiiProxy_ServiceFabricCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_ServiceFabricCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -120,6 +124,10 @@ func (s *jsiiProxy_ServiceFabricCluster) validatePutTimeoutsParameters(value *Se
 }
 
 func (s *jsiiProxy_ServiceFabricCluster) validatePutUpgradePolicyParameters(value *ServiceFabricClusterUpgradePolicy) error {
+	return nil
+}
+
+func (s *jsiiProxy_ServiceFabricCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

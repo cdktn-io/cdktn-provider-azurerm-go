@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventhubCluster) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (e *jsiiProxy_EventhubCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventhubCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EventhubCluster) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (e *jsiiProxy_EventhubCluster) validatePutTimeoutsParameters(value *EventhubClusterTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventhubCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

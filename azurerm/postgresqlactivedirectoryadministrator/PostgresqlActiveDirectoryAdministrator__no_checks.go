@@ -59,6 +59,10 @@ func (p *jsiiProxy_PostgresqlActiveDirectoryAdministrator) validateInterpolation
 	return nil
 }
 
+func (p *jsiiProxy_PostgresqlActiveDirectoryAdministrator) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PostgresqlActiveDirectoryAdministrator) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (p *jsiiProxy_PostgresqlActiveDirectoryAdministrator) validateOverrideLogic
 }
 
 func (p *jsiiProxy_PostgresqlActiveDirectoryAdministrator) validatePutTimeoutsParameters(value *PostgresqlActiveDirectoryAdministratorTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PostgresqlActiveDirectoryAdministrator) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

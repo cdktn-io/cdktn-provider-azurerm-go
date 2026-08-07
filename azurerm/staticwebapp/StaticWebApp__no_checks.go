@@ -59,6 +59,10 @@ func (s *jsiiProxy_StaticWebApp) validateInterpolationForAttributeParameters(ter
 	return nil
 }
 
+func (s *jsiiProxy_StaticWebApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StaticWebApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (s *jsiiProxy_StaticWebApp) validatePutIdentityParameters(value *StaticWebA
 }
 
 func (s *jsiiProxy_StaticWebApp) validatePutTimeoutsParameters(value *StaticWebAppTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StaticWebApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

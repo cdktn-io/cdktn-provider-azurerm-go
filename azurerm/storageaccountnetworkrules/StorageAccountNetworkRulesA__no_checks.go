@@ -59,6 +59,10 @@ func (s *jsiiProxy_StorageAccountNetworkRulesA) validateInterpolationForAttribut
 	return nil
 }
 
+func (s *jsiiProxy_StorageAccountNetworkRulesA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StorageAccountNetworkRulesA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (s *jsiiProxy_StorageAccountNetworkRulesA) validatePutPrivateLinkAccessPara
 }
 
 func (s *jsiiProxy_StorageAccountNetworkRulesA) validatePutTimeoutsParameters(value *StorageAccountNetworkRulesTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StorageAccountNetworkRulesA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

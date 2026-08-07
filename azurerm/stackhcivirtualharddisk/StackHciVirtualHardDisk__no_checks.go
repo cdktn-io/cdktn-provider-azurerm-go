@@ -59,6 +59,10 @@ func (s *jsiiProxy_StackHciVirtualHardDisk) validateInterpolationForAttributePar
 	return nil
 }
 
+func (s *jsiiProxy_StackHciVirtualHardDisk) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_StackHciVirtualHardDisk) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_StackHciVirtualHardDisk) validateOverrideLogicalIdParameters(
 }
 
 func (s *jsiiProxy_StackHciVirtualHardDisk) validatePutTimeoutsParameters(value *StackHciVirtualHardDiskTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_StackHciVirtualHardDisk) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

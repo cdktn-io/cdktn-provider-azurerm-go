@@ -59,6 +59,10 @@ func (e *jsiiProxy_EventgridPartnerRegistration) validateInterpolationForAttribu
 	return nil
 }
 
+func (e *jsiiProxy_EventgridPartnerRegistration) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_EventgridPartnerRegistration) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (e *jsiiProxy_EventgridPartnerRegistration) validateOverrideLogicalIdParame
 }
 
 func (e *jsiiProxy_EventgridPartnerRegistration) validatePutTimeoutsParameters(value *EventgridPartnerRegistrationTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_EventgridPartnerRegistration) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServicePostgresql) validateInterpolationForA
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServicePostgresql) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServicePostgresql) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataFactoryLinkedServicePostgresql) validateOverrideLogicalId
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServicePostgresql) validatePutTimeoutsParameters(value *DataFactoryLinkedServicePostgresqlTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServicePostgresql) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

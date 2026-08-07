@@ -59,6 +59,10 @@ func (s *jsiiProxy_SynapseIntegrationRuntimeAzure) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SynapseIntegrationRuntimeAzure) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SynapseIntegrationRuntimeAzure) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SynapseIntegrationRuntimeAzure) validateOverrideLogicalIdPara
 }
 
 func (s *jsiiProxy_SynapseIntegrationRuntimeAzure) validatePutTimeoutsParameters(value *SynapseIntegrationRuntimeAzureTimeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SynapseIntegrationRuntimeAzure) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

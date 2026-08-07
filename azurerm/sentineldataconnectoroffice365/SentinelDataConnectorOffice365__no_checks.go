@@ -59,6 +59,10 @@ func (s *jsiiProxy_SentinelDataConnectorOffice365) validateInterpolationForAttri
 	return nil
 }
 
+func (s *jsiiProxy_SentinelDataConnectorOffice365) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (s *jsiiProxy_SentinelDataConnectorOffice365) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (s *jsiiProxy_SentinelDataConnectorOffice365) validateOverrideLogicalIdPara
 }
 
 func (s *jsiiProxy_SentinelDataConnectorOffice365) validatePutTimeoutsParameters(value *SentinelDataConnectorOffice365Timeouts) error {
+	return nil
+}
+
+func (s *jsiiProxy_SentinelDataConnectorOffice365) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataShareDatasetDataLakeGen2) validateInterpolationForAttribu
 	return nil
 }
 
+func (d *jsiiProxy_DataShareDatasetDataLakeGen2) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataShareDatasetDataLakeGen2) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataShareDatasetDataLakeGen2) validateOverrideLogicalIdParame
 }
 
 func (d *jsiiProxy_DataShareDatasetDataLakeGen2) validatePutTimeoutsParameters(value *DataShareDatasetDataLakeGen2Timeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataShareDatasetDataLakeGen2) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

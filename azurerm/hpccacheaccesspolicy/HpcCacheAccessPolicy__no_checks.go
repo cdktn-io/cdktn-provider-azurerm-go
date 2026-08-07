@@ -59,6 +59,10 @@ func (h *jsiiProxy_HpcCacheAccessPolicy) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (h *jsiiProxy_HpcCacheAccessPolicy) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (h *jsiiProxy_HpcCacheAccessPolicy) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (h *jsiiProxy_HpcCacheAccessPolicy) validatePutAccessRuleParameters(value i
 }
 
 func (h *jsiiProxy_HpcCacheAccessPolicy) validatePutTimeoutsParameters(value *HpcCacheAccessPolicyTimeouts) error {
+	return nil
+}
+
+func (h *jsiiProxy_HpcCacheAccessPolicy) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

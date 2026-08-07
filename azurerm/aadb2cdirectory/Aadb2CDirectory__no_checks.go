@@ -59,6 +59,10 @@ func (a *jsiiProxy_Aadb2CDirectory) validateInterpolationForAttributeParameters(
 	return nil
 }
 
+func (a *jsiiProxy_Aadb2CDirectory) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (a *jsiiProxy_Aadb2CDirectory) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (a *jsiiProxy_Aadb2CDirectory) validateOverrideLogicalIdParameters(newLogic
 }
 
 func (a *jsiiProxy_Aadb2CDirectory) validatePutTimeoutsParameters(value *Aadb2CDirectoryTimeouts) error {
+	return nil
+}
+
+func (a *jsiiProxy_Aadb2CDirectory) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

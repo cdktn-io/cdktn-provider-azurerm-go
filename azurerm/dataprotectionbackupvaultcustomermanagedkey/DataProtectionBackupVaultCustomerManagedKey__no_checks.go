@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataProtectionBackupVaultCustomerManagedKey) validateInterpol
 	return nil
 }
 
+func (d *jsiiProxy_DataProtectionBackupVaultCustomerManagedKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataProtectionBackupVaultCustomerManagedKey) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataProtectionBackupVaultCustomerManagedKey) validateOverride
 }
 
 func (d *jsiiProxy_DataProtectionBackupVaultCustomerManagedKey) validatePutTimeoutsParameters(value *DataProtectionBackupVaultCustomerManagedKeyTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataProtectionBackupVaultCustomerManagedKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

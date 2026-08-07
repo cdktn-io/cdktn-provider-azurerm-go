@@ -59,6 +59,10 @@ func (c *jsiiProxy_CdnFrontdoorOrigin) validateInterpolationForAttributeParamete
 	return nil
 }
 
+func (c *jsiiProxy_CdnFrontdoorOrigin) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CdnFrontdoorOrigin) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CdnFrontdoorOrigin) validatePutPrivateLinkParameters(value *C
 }
 
 func (c *jsiiProxy_CdnFrontdoorOrigin) validatePutTimeoutsParameters(value *CdnFrontdoorOriginTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CdnFrontdoorOrigin) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

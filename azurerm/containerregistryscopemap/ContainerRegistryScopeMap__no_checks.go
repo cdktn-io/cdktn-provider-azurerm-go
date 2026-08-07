@@ -59,6 +59,10 @@ func (c *jsiiProxy_ContainerRegistryScopeMap) validateInterpolationForAttributeP
 	return nil
 }
 
+func (c *jsiiProxy_ContainerRegistryScopeMap) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_ContainerRegistryScopeMap) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (c *jsiiProxy_ContainerRegistryScopeMap) validateOverrideLogicalIdParameter
 }
 
 func (c *jsiiProxy_ContainerRegistryScopeMap) validatePutTimeoutsParameters(value *ContainerRegistryScopeMapTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_ContainerRegistryScopeMap) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

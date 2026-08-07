@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociation) validateI
 	return nil
 }
 
+func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociation) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociation) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociation) validateO
 }
 
 func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociation) validatePutTimeoutsParameters(value *VirtualDesktopWorkspaceApplicationGroupAssociationTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualDesktopWorkspaceApplicationGroupAssociation) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

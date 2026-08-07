@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryDatasetHttp) validateInterpolationForAttributePara
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryDatasetHttp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryDatasetHttp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryDatasetHttp) validatePutSchemaColumnParameters(val
 }
 
 func (d *jsiiProxy_DataFactoryDatasetHttp) validatePutTimeoutsParameters(value *DataFactoryDatasetHttpTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryDatasetHttp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

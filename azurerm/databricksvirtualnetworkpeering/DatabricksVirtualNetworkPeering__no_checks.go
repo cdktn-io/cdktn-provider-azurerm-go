@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatabricksVirtualNetworkPeering) validateInterpolationForAttr
 	return nil
 }
 
+func (d *jsiiProxy_DatabricksVirtualNetworkPeering) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabricksVirtualNetworkPeering) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatabricksVirtualNetworkPeering) validateOverrideLogicalIdPar
 }
 
 func (d *jsiiProxy_DatabricksVirtualNetworkPeering) validatePutTimeoutsParameters(value *DatabricksVirtualNetworkPeeringTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatabricksVirtualNetworkPeering) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

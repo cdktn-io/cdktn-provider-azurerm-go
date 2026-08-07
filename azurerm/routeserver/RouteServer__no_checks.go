@@ -59,6 +59,10 @@ func (r *jsiiProxy_RouteServer) validateInterpolationForAttributeParameters(terr
 	return nil
 }
 
+func (r *jsiiProxy_RouteServer) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RouteServer) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RouteServer) validateOverrideLogicalIdParameters(newLogicalId
 }
 
 func (r *jsiiProxy_RouteServer) validatePutTimeoutsParameters(value *RouteServerTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RouteServer) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

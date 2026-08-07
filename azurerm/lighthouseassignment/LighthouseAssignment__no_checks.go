@@ -59,6 +59,10 @@ func (l *jsiiProxy_LighthouseAssignment) validateInterpolationForAttributeParame
 	return nil
 }
 
+func (l *jsiiProxy_LighthouseAssignment) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LighthouseAssignment) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (l *jsiiProxy_LighthouseAssignment) validateOverrideLogicalIdParameters(new
 }
 
 func (l *jsiiProxy_LighthouseAssignment) validatePutTimeoutsParameters(value *LighthouseAssignmentTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LighthouseAssignment) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

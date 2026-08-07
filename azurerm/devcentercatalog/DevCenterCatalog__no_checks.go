@@ -59,6 +59,10 @@ func (d *jsiiProxy_DevCenterCatalog) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (d *jsiiProxy_DevCenterCatalog) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DevCenterCatalog) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (d *jsiiProxy_DevCenterCatalog) validatePutCatalogGithubParameters(value *D
 }
 
 func (d *jsiiProxy_DevCenterCatalog) validatePutTimeoutsParameters(value *DevCenterCatalogTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DevCenterCatalog) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

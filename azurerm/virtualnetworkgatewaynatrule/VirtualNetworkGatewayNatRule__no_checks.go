@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualNetworkGatewayNatRule) validateInterpolationForAttribu
 	return nil
 }
 
+func (v *jsiiProxy_VirtualNetworkGatewayNatRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualNetworkGatewayNatRule) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (v *jsiiProxy_VirtualNetworkGatewayNatRule) validatePutInternalMappingParam
 }
 
 func (v *jsiiProxy_VirtualNetworkGatewayNatRule) validatePutTimeoutsParameters(value *VirtualNetworkGatewayNatRuleTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualNetworkGatewayNatRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (g *jsiiProxy_GalleryApplicationVersion) validateInterpolationForAttributeP
 	return nil
 }
 
+func (g *jsiiProxy_GalleryApplicationVersion) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (g *jsiiProxy_GalleryApplicationVersion) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (g *jsiiProxy_GalleryApplicationVersion) validatePutTargetRegionParameters(
 }
 
 func (g *jsiiProxy_GalleryApplicationVersion) validatePutTimeoutsParameters(value *GalleryApplicationVersionTimeouts) error {
+	return nil
+}
+
+func (g *jsiiProxy_GalleryApplicationVersion) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

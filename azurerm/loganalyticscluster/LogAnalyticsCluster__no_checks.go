@@ -59,6 +59,10 @@ func (l *jsiiProxy_LogAnalyticsCluster) validateInterpolationForAttributeParamet
 	return nil
 }
 
+func (l *jsiiProxy_LogAnalyticsCluster) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (l *jsiiProxy_LogAnalyticsCluster) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (l *jsiiProxy_LogAnalyticsCluster) validatePutIdentityParameters(value *Log
 }
 
 func (l *jsiiProxy_LogAnalyticsCluster) validatePutTimeoutsParameters(value *LogAnalyticsClusterTimeouts) error {
+	return nil
+}
+
+func (l *jsiiProxy_LogAnalyticsCluster) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) validateInterpolatio
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) validatePutRbacAutho
 }
 
 func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) validatePutTimeoutsParameters(value *DataFactoryIntegrationRuntimeSelfHostedTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryIntegrationRuntimeSelfHosted) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

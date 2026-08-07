@@ -59,6 +59,10 @@ func (d *jsiiProxy_DatabaseMigrationService) validateInterpolationForAttributePa
 	return nil
 }
 
+func (d *jsiiProxy_DatabaseMigrationService) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DatabaseMigrationService) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DatabaseMigrationService) validateOverrideLogicalIdParameters
 }
 
 func (d *jsiiProxy_DatabaseMigrationService) validatePutTimeoutsParameters(value *DatabaseMigrationServiceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DatabaseMigrationService) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -122,6 +122,14 @@ func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateInterpolationFo
 	return nil
 }
 
+func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+
+	return nil
+}
+
 func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateMoveFromIdParameters(id *string) error {
 	if id == nil {
 		return fmt.Errorf("parameter id is required, but nil was provided")
@@ -213,6 +221,14 @@ func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validatePutTimeoutsPara
 	}
 	if err := _jsii_.ValidateStruct(value, func() string { return "parameter value" }); err != nil {
 		return err
+	}
+
+	return nil
+}
+
+func (s *jsiiProxy_ServicebusNamespaceAuthorizationRule) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	if feature == "" {
+		return fmt.Errorf("parameter feature is required, but nil was provided")
 	}
 
 	return nil

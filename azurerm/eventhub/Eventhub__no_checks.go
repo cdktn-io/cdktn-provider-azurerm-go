@@ -59,6 +59,10 @@ func (e *jsiiProxy_Eventhub) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (e *jsiiProxy_Eventhub) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (e *jsiiProxy_Eventhub) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (e *jsiiProxy_Eventhub) validatePutRetentionDescriptionParameters(value *Ev
 }
 
 func (e *jsiiProxy_Eventhub) validatePutTimeoutsParameters(value *EventhubTimeouts) error {
+	return nil
+}
+
+func (e *jsiiProxy_Eventhub) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (b *jsiiProxy_BackupContainerStorageAccount) validateInterpolationForAttrib
 	return nil
 }
 
+func (b *jsiiProxy_BackupContainerStorageAccount) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BackupContainerStorageAccount) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BackupContainerStorageAccount) validateOverrideLogicalIdParam
 }
 
 func (b *jsiiProxy_BackupContainerStorageAccount) validatePutTimeoutsParameters(value *BackupContainerStorageAccountTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BackupContainerStorageAccount) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

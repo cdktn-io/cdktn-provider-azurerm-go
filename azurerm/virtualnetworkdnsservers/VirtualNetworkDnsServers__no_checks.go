@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualNetworkDnsServers) validateInterpolationForAttributePa
 	return nil
 }
 
+func (v *jsiiProxy_VirtualNetworkDnsServers) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualNetworkDnsServers) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (v *jsiiProxy_VirtualNetworkDnsServers) validateOverrideLogicalIdParameters
 }
 
 func (v *jsiiProxy_VirtualNetworkDnsServers) validatePutTimeoutsParameters(value *VirtualNetworkDnsServersTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualNetworkDnsServers) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

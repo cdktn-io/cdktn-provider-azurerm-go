@@ -59,6 +59,10 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack) v
 	return nil
 }
 
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack) v
 }
 
 func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack) validatePutTimeoutsParameters(value *PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestackTimeouts) error {
+	return nil
+}
+
+func (p *jsiiProxy_PaloAltoNextGenerationFirewallVirtualNetworkLocalRulestack) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

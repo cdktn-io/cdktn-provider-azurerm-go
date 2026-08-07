@@ -59,6 +59,10 @@ func (n *jsiiProxy_NetappVolumeGroupOracle) validateInterpolationForAttributePar
 	return nil
 }
 
+func (n *jsiiProxy_NetappVolumeGroupOracle) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (n *jsiiProxy_NetappVolumeGroupOracle) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (n *jsiiProxy_NetappVolumeGroupOracle) validatePutTimeoutsParameters(value 
 }
 
 func (n *jsiiProxy_NetappVolumeGroupOracle) validatePutVolumeParameters(value interface{}) error {
+	return nil
+}
+
+func (n *jsiiProxy_NetappVolumeGroupOracle) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

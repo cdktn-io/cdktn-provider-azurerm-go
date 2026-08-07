@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateInterpolatio
 	return nil
 }
 
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validatePutNewCluste
 }
 
 func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validatePutTimeoutsParameters(value *DataFactoryLinkedServiceAzureDatabricksTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataFactoryLinkedServiceAzureDatabricks) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

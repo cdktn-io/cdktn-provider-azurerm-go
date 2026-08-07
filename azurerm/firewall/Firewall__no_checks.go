@@ -59,6 +59,10 @@ func (f *jsiiProxy_Firewall) validateInterpolationForAttributeParameters(terrafo
 	return nil
 }
 
+func (f *jsiiProxy_Firewall) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (f *jsiiProxy_Firewall) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (f *jsiiProxy_Firewall) validatePutTimeoutsParameters(value *FirewallTimeou
 }
 
 func (f *jsiiProxy_Firewall) validatePutVirtualHubParameters(value *FirewallVirtualHub) error {
+	return nil
+}
+
+func (f *jsiiProxy_Firewall) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (b *jsiiProxy_BotWebApp) validateInterpolationForAttributeParameters(terraf
 	return nil
 }
 
+func (b *jsiiProxy_BotWebApp) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (b *jsiiProxy_BotWebApp) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (b *jsiiProxy_BotWebApp) validateOverrideLogicalIdParameters(newLogicalId *
 }
 
 func (b *jsiiProxy_BotWebApp) validatePutTimeoutsParameters(value *BotWebAppTimeouts) error {
+	return nil
+}
+
+func (b *jsiiProxy_BotWebApp) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

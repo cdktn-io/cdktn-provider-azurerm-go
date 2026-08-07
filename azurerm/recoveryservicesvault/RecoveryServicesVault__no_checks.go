@@ -59,6 +59,10 @@ func (r *jsiiProxy_RecoveryServicesVault) validateInterpolationForAttributeParam
 	return nil
 }
 
+func (r *jsiiProxy_RecoveryServicesVault) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RecoveryServicesVault) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -88,6 +92,10 @@ func (r *jsiiProxy_RecoveryServicesVault) validatePutMonitoringParameters(value 
 }
 
 func (r *jsiiProxy_RecoveryServicesVault) validatePutTimeoutsParameters(value *RecoveryServicesVaultTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RecoveryServicesVault) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

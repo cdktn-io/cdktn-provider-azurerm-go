@@ -59,6 +59,10 @@ func (c *jsiiProxy_CosmosdbGremlinDatabase) validateInterpolationForAttributePar
 	return nil
 }
 
+func (c *jsiiProxy_CosmosdbGremlinDatabase) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (c *jsiiProxy_CosmosdbGremlinDatabase) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (c *jsiiProxy_CosmosdbGremlinDatabase) validatePutAutoscaleSettingsParamete
 }
 
 func (c *jsiiProxy_CosmosdbGremlinDatabase) validatePutTimeoutsParameters(value *CosmosdbGremlinDatabaseTimeouts) error {
+	return nil
+}
+
+func (c *jsiiProxy_CosmosdbGremlinDatabase) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

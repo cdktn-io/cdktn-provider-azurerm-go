@@ -59,6 +59,10 @@ func (d *jsiiProxy_DataboxEdgeDevice) validateInterpolationForAttributeParameter
 	return nil
 }
 
+func (d *jsiiProxy_DataboxEdgeDevice) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DataboxEdgeDevice) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (d *jsiiProxy_DataboxEdgeDevice) validateOverrideLogicalIdParameters(newLog
 }
 
 func (d *jsiiProxy_DataboxEdgeDevice) validatePutTimeoutsParameters(value *DataboxEdgeDeviceTimeouts) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataboxEdgeDevice) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

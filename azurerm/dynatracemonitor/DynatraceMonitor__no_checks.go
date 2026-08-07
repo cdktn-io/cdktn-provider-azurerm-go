@@ -59,6 +59,10 @@ func (d *jsiiProxy_DynatraceMonitor) validateInterpolationForAttributeParameters
 	return nil
 }
 
+func (d *jsiiProxy_DynatraceMonitor) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (d *jsiiProxy_DynatraceMonitor) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -92,6 +96,10 @@ func (d *jsiiProxy_DynatraceMonitor) validatePutTimeoutsParameters(value *Dynatr
 }
 
 func (d *jsiiProxy_DynatraceMonitor) validatePutUserParameters(value *DynatraceMonitorUser) error {
+	return nil
+}
+
+func (d *jsiiProxy_DynatraceMonitor) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

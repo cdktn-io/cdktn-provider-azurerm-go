@@ -59,6 +59,10 @@ func (v *jsiiProxy_VirtualMachineScaleSetExtensionA) validateInterpolationForAtt
 	return nil
 }
 
+func (v *jsiiProxy_VirtualMachineScaleSetExtensionA) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (v *jsiiProxy_VirtualMachineScaleSetExtensionA) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -80,6 +84,10 @@ func (v *jsiiProxy_VirtualMachineScaleSetExtensionA) validatePutProtectedSetting
 }
 
 func (v *jsiiProxy_VirtualMachineScaleSetExtensionA) validatePutTimeoutsParameters(value *VirtualMachineScaleSetExtensionTimeouts) error {
+	return nil
+}
+
+func (v *jsiiProxy_VirtualMachineScaleSetExtensionA) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

@@ -59,6 +59,10 @@ func (r *jsiiProxy_RestorePointCollection) validateInterpolationForAttributePara
 	return nil
 }
 
+func (r *jsiiProxy_RestorePointCollection) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (r *jsiiProxy_RestorePointCollection) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -76,6 +80,10 @@ func (r *jsiiProxy_RestorePointCollection) validateOverrideLogicalIdParameters(n
 }
 
 func (r *jsiiProxy_RestorePointCollection) validatePutTimeoutsParameters(value *RestorePointCollectionTimeouts) error {
+	return nil
+}
+
+func (r *jsiiProxy_RestorePointCollection) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

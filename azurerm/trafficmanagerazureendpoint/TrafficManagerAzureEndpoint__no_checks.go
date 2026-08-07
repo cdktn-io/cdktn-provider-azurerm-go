@@ -59,6 +59,10 @@ func (t *jsiiProxy_TrafficManagerAzureEndpoint) validateInterpolationForAttribut
 	return nil
 }
 
+func (t *jsiiProxy_TrafficManagerAzureEndpoint) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
 func (t *jsiiProxy_TrafficManagerAzureEndpoint) validateMoveFromIdParameters(id *string) error {
 	return nil
 }
@@ -84,6 +88,10 @@ func (t *jsiiProxy_TrafficManagerAzureEndpoint) validatePutSubnetParameters(valu
 }
 
 func (t *jsiiProxy_TrafficManagerAzureEndpoint) validatePutTimeoutsParameters(value *TrafficManagerAzureEndpointTimeouts) error {
+	return nil
+}
+
+func (t *jsiiProxy_TrafficManagerAzureEndpoint) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
 	return nil
 }
 

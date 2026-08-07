@@ -47,6 +47,7 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "recoveryGroup", GoGetter: "RecoveryGroup"},
 			_jsii_.MemberProperty{JsiiProperty: "recoveryVaultId", GoGetter: "RecoveryVaultId"},
 			_jsii_.MemberProperty{JsiiProperty: "recoveryVaultIdInput", GoGetter: "RecoveryVaultIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
 			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
 			_jsii_.MemberMethod{JsiiMethod: "resetTimeouts", GoMethod: "ResetTimeouts"},
